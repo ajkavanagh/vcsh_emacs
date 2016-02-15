@@ -1,0 +1,190 @@
+Revision: muse--main--1.0--patch-1
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Sun Dec  4 11:14:25 EST 2005
+Standard-date: 2005-12-04 16:14:25 GMT
+New-files: examples/mwolson/templates/.arch-ids/header.tex.id
+    examples/mwolson/templates/header.tex
+Modified-files: AUTHORS ChangeLog Makefile.defs NEWS
+    debian/NEWS debian/changelog debian/control debian/rules
+    examples/mwolson/muse-init.el
+    examples/mwolson/templates/header.html
+    lisp/muse-colors.el lisp/muse-latex.el
+    lisp/muse-latex2png.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-texinfo.el lisp/muse-wiki.el lisp/muse.el
+    muse.texi
+New-patches: ajk@iu.edu--2005/muse--main--1.0--patch-1
+    davidsmith@acm.org--2005/muse--devo--1.0--base-0
+    davidsmith@acm.org--main/muse--devo--1.0--base-0
+    davidsmith@acm.org--main/muse--devo--1.0--patch-1
+    davidsmith@acm.org--main/muse--devo--1.0--patch-2
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-40
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-41
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-42
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-43
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-44
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-45
+    mwolson@gnu.org--2005/muse--main--1.0--patch-271
+    mwolson@gnu.org--2005/muse--main--1.0--patch-272
+    mwolson@gnu.org--2005/muse--main--1.0--patch-273
+    mwolson@gnu.org--2005/muse--main--1.0--patch-274
+    mwolson@gnu.org--2005/muse--main--1.0--patch-275
+    mwolson@gnu.org--2005/muse--main--1.0--patch-276
+    mwolson@gnu.org--2005/muse--main--1.0--patch-277
+    mwolson@gnu.org--2005/muse--main--1.0--patch-278
+    mwolson@gnu.org--2005/muse--main--1.0--patch-279
+    mwolson@gnu.org--2005/muse--main--1.0--patch-280
+    mwolson@gnu.org--2005/muse--main--1.0--patch-281
+    mwolson@gnu.org--2005/muse--main--1.0--patch-282
+    mwolson@gnu.org--2005/muse--rel--3.02--base-0
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-1
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-2
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-3
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-4
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-5
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-6
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-7
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-8
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-11
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-13
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-14
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-15
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-17
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-18
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-19
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-20
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-21
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-22
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-23
+Summary: catch up with mwolson's patch-282
+Keywords: 
+
+Patches applied:
+
+ * davidsmith@acm.org--2005/muse--devo--1.0--base-0
+   tag of mwolson@gnu.org--2005/muse--main--1.0--patch-201
+
+ * davidsmith@acm.org--main/muse--devo--1.0--base-0
+   tag of davidsmith@acm.org--2005/muse--devo--1.0--base-0
+
+ * davidsmith@acm.org--main/muse--devo--1.0--patch-1
+   Merge with mwolson
+
+ * davidsmith@acm.org--main/muse--devo--1.0--patch-2
+   muse-extreg-usable-p for emacs-version 21.4
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-40
+   Merged from mwolson@gnu.org--2005 (patch 203-208)
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-41
+   Merged from mwolson@gnu.org--2005 (patch 209-210)
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-42
+   Merged from mwolson@gnu.org--2005 (patch 211-216)
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-43
+   Merged from mwolson@gnu.org--2005 (patch 217-227)
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-44
+   Merged from mwolson@gnu.org--2005 (patch 228-237)
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-45
+   Merged from mwolson@gnu.org--2005 (patch 238-239)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-271
+   Sync with davidsmith@acm.org--2005 (patch 0), davidsmith@acm.org--main (patch 0-2), hodique@lifl.fr--2005 (patch 40-45), mwolson@gnu.org--2005 (patch 0-8)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-272
+   muse-texinfo: Correct markup strings for dots, enddots, center.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-273
+   muse-latex: Make footnotes look a bit more natural for LaTeX users.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-274
+   Merged from mwolson@gnu.org--2005 (patch 11, 13-15, 17-19)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-275
+   Merged from mwolson@gnu.org--2005 (patch 20-22)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-276
+   Deal with case when muse-make-link is passed an explicit link.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-277
+   Merged from mwolson@gnu.org--2005 (patch 23)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-278
+   Don't split anchors in URLs.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-279
+   Update AUTHORS.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-280
+   muse-latex2png: XEmacs compatibility.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-281
+   muse-colors: Add faces for all 3 levels of emphasis.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-282
+   muse-mode: Handle case where we visit an anchor-only link.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--base-0
+   tag of mwolson@gnu.org--2005/muse--main--1.0--patch-240
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-1
+   Merged from mwolson@gnu.org--2005 (patch 242-246, 249, 251-252, 255-257)
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-2
+   Apply some anchor fixes from muse--main--1.0 (253).
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-3
+   Apply LaTeX table underlining from patch-259.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-4
+   Add markup for comments, via parts of patch-261.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-5
+   Add with-muse-project macro from parts of patch-260.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-6
+   Merged from mwolson@gnu.org--2005 (patch 263, 266-268)
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-7
+   Miscellaneous safe updates from muse--main--1.0.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-8
+   Fix use of function that we don't permit yet.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-11
+   Don't interpret enddots, dots, and rule inside of links.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-13
+   Allow bad WikiWords to be colorized, by popular request.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-14
+   Be more fault-tolerant about muse-file-extension.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-15
+   Prepare debian files for new minor release.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-17
+   Update NEWS.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-18
+   NEWS: Add migration note.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-19
+   Merged from mwolson@gnu.org--2005 (patch 272-273)
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-20
+   Update NEWS.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-21
+   Update examples.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-22
+   Release Emacs Muse 3.02.02.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-23
+   muse-wiki: WikiWords can have consecutive capital letters.
+

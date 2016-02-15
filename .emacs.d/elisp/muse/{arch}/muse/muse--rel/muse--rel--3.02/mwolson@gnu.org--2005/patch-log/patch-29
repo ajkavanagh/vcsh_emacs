@@ -1,0 +1,12 @@
+Revision: muse--rel--3.02--patch-29
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Dec 12 23:46:53 EST 2005
+Standard-date: 2005-12-13 04:46:53 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-29
+Summary: muse-mode: Fix semicolon in paragraph issue.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode): Define comment-start-skip so that
+  semicolons in the middle of paragraphs aren't filled improperly.

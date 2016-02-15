@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-328
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Dec 29 16:33:08 EST 2005
+Standard-date: 2005-12-29 21:33:08 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-328
+Summary: muse-publish: Use narrow-to-region to fix various bugs.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-tag): Code indent change.
+  (muse-publish-escape-specials): Use `narrow-to-region' so that we
+  better define the region to work with.  Thanks to Sacha Chua for the
+  advice.  Also make sure that we are more careful with the result from
+  next-single-property-change.
+  (muse-publish-surround-text): Use narrow-to-region.  Make this routine
+  less brain-dead.
+  (muse-publish-verse-tag): Use narrow-to-region.

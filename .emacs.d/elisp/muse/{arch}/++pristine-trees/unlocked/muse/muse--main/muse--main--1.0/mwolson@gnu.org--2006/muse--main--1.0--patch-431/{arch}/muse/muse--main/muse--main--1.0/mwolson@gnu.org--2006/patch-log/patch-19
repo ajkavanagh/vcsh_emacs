@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-19
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Feb 22 22:23:51 EST 2006
+Standard-date: 2006-02-23 03:23:51 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-19
+Summary: Fix backtrace when publishing unsaved files.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-file): Detect case where we are
+  trying to publish a file that has not been saved, and give an
+  explanation to the user.

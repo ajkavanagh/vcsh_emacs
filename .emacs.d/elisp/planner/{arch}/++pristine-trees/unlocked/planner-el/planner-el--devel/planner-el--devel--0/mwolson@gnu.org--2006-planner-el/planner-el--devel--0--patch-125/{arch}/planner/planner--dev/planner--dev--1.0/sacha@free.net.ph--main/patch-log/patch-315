@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-315
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb  2 21:23:37 JST 2005
+Standard-date: 2005-02-02 12:23:37 GMT
+Modified-files: ChangeLog planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-315
+Summary: planner-id fix: work with unnumbered tasks
+Keywords: 
+
+* planner-id.el: Work with unnumbered tasks. Thanks to Jim Ottaway for
+  the bug report.
+

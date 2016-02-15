@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-148
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 31 23:47:49 EDT 2006
+Standard-date: 2006-06-01 03:47:49 GMT
+Modified-files: ChangeLog ChangeLog.2005
+    lisp/muse-regexps.el muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-148
+Summary: Update ChangeLogs.
+Keywords: 
+
+* ChangeLog: Rename from ChangeLog.2006 to follow Emacs conventions.
+
+* ChangeLog.2005: Mention ChangeLog.2004 for earlier changes.
+
+* lisp/muse-regexps.el: Add a few comments.
+
+* muse.texi (Tag Summary): Add example of <tag /> use.

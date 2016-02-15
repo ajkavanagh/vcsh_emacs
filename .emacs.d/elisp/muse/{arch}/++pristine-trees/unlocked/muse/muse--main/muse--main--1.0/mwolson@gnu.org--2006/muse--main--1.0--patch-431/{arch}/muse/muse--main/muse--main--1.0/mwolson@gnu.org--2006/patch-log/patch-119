@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-119
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May  8 03:29:42 EDT 2006
+Standard-date: 2006-05-08 07:29:42 GMT
+Modified-files: ChangeLog.2006 lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-119
+Summary: muse-latex: Make images look better.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-markup-strings): Make width of images to
+  be 75% the width of the page, which looks better.  Enclose images in
+  figures, and center them.

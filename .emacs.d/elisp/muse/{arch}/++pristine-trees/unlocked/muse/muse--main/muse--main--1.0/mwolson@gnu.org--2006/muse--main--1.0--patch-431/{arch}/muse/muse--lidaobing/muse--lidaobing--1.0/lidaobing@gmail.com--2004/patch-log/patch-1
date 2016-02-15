@@ -1,0 +1,15 @@
+Revision: muse--lidaobing--1.0--patch-1
+Archive: lidaobing@gmail.com--2004
+Creator: Li Daobing <lidaobing@gmail.com>
+Date: Sat Oct  9 14:15:06 CST 2004
+Standard-date: 2004-10-09 06:15:06 GMT
+Modified-files: muse-html.el
+New-patches: lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-1
+Summary: make muse-html publish correct
+Keywords: 
+
+* muse-html.el:
+  - fix bug in muse-html-transform-coding-type: `cadr' -> `cdr'
+  - (muse-html-encoding-map): add mule-utf-8, chinese-iso-8bit
+    because (coding-system-base 'utf-8) = "muse-utf-8" not "utf-8" in my emacs version
+

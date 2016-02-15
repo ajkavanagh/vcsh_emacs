@@ -1,0 +1,12 @@
+Revision: muse--yh--1.0--patch-1
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sun Jun 12 22:06:01 CEST 2005
+Standard-date: 2005-06-12 20:06:01 GMT
+Modified-files: muse-publish.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-1
+Summary: fix .html (for example) in visible names for links
+Keywords:
+
+* muse-publish.el (muse-publish-url): don't apply muse-publish-url-transforms to link name.
+

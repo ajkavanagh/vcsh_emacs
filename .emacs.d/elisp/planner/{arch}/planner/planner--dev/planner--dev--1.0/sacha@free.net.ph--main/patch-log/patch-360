@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-360
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 31 11:42:16 PHT 2005
+Standard-date: 2005-03-31 03:42:16 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-360
+Summary: planner-expand-name: Fix day offset
+Keywords: 
+
+* planner.el: Rearrange some declarations to reduce compilation
+  warnings.
+  (planner-expand-name): Fix day offset again. Test within one
+  week to make sure it makes sense.
+

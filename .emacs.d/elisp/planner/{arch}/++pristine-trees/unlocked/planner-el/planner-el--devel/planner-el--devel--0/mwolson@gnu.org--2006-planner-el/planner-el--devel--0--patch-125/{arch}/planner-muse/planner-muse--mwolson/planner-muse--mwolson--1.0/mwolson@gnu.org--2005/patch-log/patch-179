@@ -1,0 +1,18 @@
+Revision: planner-muse--mwolson--1.0--patch-179
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 13 19:06:14 EST 2006
+Standard-date: 2006-01-14 00:06:14 GMT
+Modified-files: AUTHORS ChangeLog.2005 planner-appt.el
+    planner-authz.el planner-bbdb.el planner-bibtex.el
+    planner-calendar.el planner-deadline.el planner-diary.el
+    planner-export-diary.el planner-id.el planner-ledger.el
+    planner-log-edit.el planner-mhe.el planner-multi.el
+    planner-notes-index.el planner-psvn.el
+    planner-publish.el planner-report.el
+    planner-tasks-overview.el planner-unix-mail.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-179
+Summary: Finish copyright notices and AUTHORS file.
+Keywords: 
+

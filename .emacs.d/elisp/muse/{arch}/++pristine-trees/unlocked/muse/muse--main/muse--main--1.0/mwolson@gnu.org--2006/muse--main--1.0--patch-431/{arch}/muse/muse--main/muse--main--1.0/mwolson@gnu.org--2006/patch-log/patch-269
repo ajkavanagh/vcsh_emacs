@@ -1,0 +1,24 @@
+Revision: muse--main--1.0--patch-269
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan 14 02:14:38 EST 2007
+Standard-date: 2007-01-14 07:14:38 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-269
+Summary: muse-latex2png: Fix several <latex> and <math> issues
+Keywords: 
+
+2007-01-14  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-latex2png.el: Associate <math> tag with
+	muse-publish-math-tag, not muse-publish-latex-tag.  Thanks to Jody
+	Klymak for the report.
+	(muse-publish-math-tag): Use muse-insert-markup for the "$"
+	characters, so they don't get escaped.
+
+	* lisp/muse-publish.el (muse-style-derived-p-1): New function to
+	make muse-style-derived-p easier to implement.
+	(muse-style-derived-p): If the style is not provided, fetch it and
+	check to see if the car is a string.  This should fix the other
+	problem that was reported.

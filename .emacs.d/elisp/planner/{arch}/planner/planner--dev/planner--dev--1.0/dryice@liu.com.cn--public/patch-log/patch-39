@@ -1,0 +1,65 @@
+Revision: planner--dev--1.0--patch-39
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed May 25 10:41:29 CST 2005
+Standard-date: 2005-05-25 02:41:29 GMT
+New-files: .arch-ids/planner-psvn.el.id planner-psvn.el
+Modified-files: ChangeLog planner-appt.el planner-bibtex.el
+    planner-bookmark.el planner-diary.el planner-el.texi
+    planner-gnus.el planner-id.el planner-multi.el
+    planner-rank.el planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-vm.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-39
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-57
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-58
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-59
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-60
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-61
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-62
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-63
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-64
+    john@wjsullivan.net--2005/planner--johnsu01--0--base-0
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-1
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-2
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-3
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-4
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-5
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-6
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-7
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-8
+    sacha@free.net.ph--main/planner--dev--1.0--patch-368
+    sacha@free.net.ph--main/planner--dev--1.0--patch-369
+    sacha@free.net.ph--main/planner--dev--1.0--patch-370
+    sacha@free.net.ph--main/planner--dev--1.0--patch-371
+    sacha@free.net.ph--main/planner--dev--1.0--patch-372
+    sacha@free.net.ph--main/planner--dev--1.0--patch-373
+    sacha@free.net.ph--main/planner--dev--1.0--patch-374
+    sacha@free.net.ph--main/planner--dev--1.0--patch-375
+    sacha@free.net.ph--main/planner--dev--1.0--patch-376
+    sacha@free.net.ph--main/planner--dev--1.0--patch-377
+    sacha@free.net.ph--main/planner--dev--1.0--patch-378
+    sacha@free.net.ph--main/planner--dev--1.0--patch-379
+    sacha@free.net.ph--main/planner--dev--1.0--patch-380
+    sacha@free.net.ph--main/planner--dev--1.0--patch-381
+    sacha@free.net.ph--main/planner--dev--1.0--patch-382
+    sacha@free.net.ph--main/planner--dev--1.0--patch-383
+    sacha@free.net.ph--main/planner--dev--1.0--patch-384
+    sacha@free.net.ph--main/planner--dev--1.0--patch-385
+    sacha@free.net.ph--main/planner--dev--1.0--patch-386
+    sacha@free.net.ph--main/planner--dev--1.0--patch-387
+    sacha@free.net.ph--main/planner--dev--1.0--patch-388
+    sacha@free.net.ph--main/planner--dev--1.0--patch-389
+    sacha@free.net.ph--main/planner--dev--1.0--patch-390
+    sacha@free.net.ph--main/planner--dev--1.0--patch-391
+    sacha@free.net.ph--main/planner--dev--1.0--patch-392
+    sacha@free.net.ph--main/planner--dev--1.0--patch-393
+    sacha@free.net.ph--main/planner--dev--1.0--patch-394
+    sacha@free.net.ph--main/planner--dev--1.0--patch-395
+    sacha@free.net.ph--main/planner--dev--1.0--patch-396
+    sacha@free.net.ph--main/planner--dev--1.0--patch-397
+    sacha@free.net.ph--main/planner--dev--1.0--patch-398
+Summary: merge patch 368-398 from Sachac
+Keywords: merge
+

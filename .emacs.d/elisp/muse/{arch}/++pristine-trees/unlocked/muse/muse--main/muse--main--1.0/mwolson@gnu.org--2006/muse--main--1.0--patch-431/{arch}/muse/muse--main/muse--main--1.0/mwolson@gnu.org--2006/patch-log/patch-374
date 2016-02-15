@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-374
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 17 13:10:22 EDT 2007
+Standard-date: 2007-06-17 17:10:22 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-latex2png.el lisp/muse-publish.el
+    lisp/muse-xml.el lisp/muse.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-374
+Summary: Release Emacs Muse 3.03!
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-list): Remove unused
+  variable.
+
+* lisp/muse.el (muse-version): Release Emacs Muse version 3.03.

@@ -1,0 +1,13 @@
+Revision: emacs-wiki--dev--1.0--patch-42
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Wed Nov 26 00:30:48 EST 2003
+Standard-date: 2003-11-25 13:30:48 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-42
+Summary: don't mark up email addresses inside links
+Keywords: 
+
+Thanks to Sacha for the patch, which makes the contents of links
+read-only so that they're not clobbered by the bare email address
+markup code.

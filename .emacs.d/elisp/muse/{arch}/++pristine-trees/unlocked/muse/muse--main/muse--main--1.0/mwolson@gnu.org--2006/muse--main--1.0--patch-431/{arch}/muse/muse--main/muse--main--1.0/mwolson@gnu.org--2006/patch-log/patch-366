@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-366
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 16 15:58:07 EDT 2007
+Standard-date: 2007-06-16 19:58:07 GMT
+Modified-files: ChangeLog etc/IDEAS.muse
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-366
+Summary: IDEAS: Add some ideas from David D. Smith
+Keywords: 
+
+2007-06-16  Michael Olson  <mwolson@gnu.org>
+
+	* etc/IDEAS.muse: Add some ideas from David D. Smith.

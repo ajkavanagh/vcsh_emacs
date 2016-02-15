@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-362
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Apr  1 14:48:33 PHT 2005
+Standard-date: 2005-04-01 06:48:33 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-362
+Summary: planner-multi: planner-copy-or-move-task: Unschedule tasks properly even if the date is escaped
+Keywords: 
+
+* planner-multi.el (planner-task-date): Find dates properly even if escaped.
+  (planner-copy-or-move-task): Delete dates properly even if escaped.
+

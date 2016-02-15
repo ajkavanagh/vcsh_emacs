@@ -1,0 +1,15 @@
+Revision: planner--merge--1.0--patch-4
+Archive: hodique@lifl.fr--test
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 14 13:09:10 CEST 2005
+Standard-date: 2005-07-14 11:09:10 GMT
+New-files: .arch-ids/planner-customize.el.id
+    planner-customize.el
+Modified-files: planner-backend.el planner-calendar.el
+    planner-muse-backend.el planner-notes-index.el
+    planner-timeclock.el
+New-patches: hodique@lifl.fr--test/planner--merge--1.0--patch-4
+Summary: Various fixes
+Keywords:
+
+Fixed various errors. Added planner-customize.el to hold customization stuff

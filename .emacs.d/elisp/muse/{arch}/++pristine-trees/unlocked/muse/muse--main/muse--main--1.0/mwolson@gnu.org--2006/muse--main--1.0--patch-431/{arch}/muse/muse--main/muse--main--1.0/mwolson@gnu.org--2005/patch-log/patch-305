@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-305
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 20:19:30 EST 2005
+Standard-date: 2005-12-17 01:19:30 GMT
+Modified-files: ChangeLog examples/QuickStart.muse
+    examples/muse.rnc
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-305
+Summary: Revert QuickStart changes, hack more on muse.rnc.
+Keywords: 
+
+* examples/QuickStart.muse: Revert previous changes; they cause
+  publishing to fail.  Hrm.  Guess I'll have to fix the display issue
+  with <literal> tags then.
+
+* muse.rnc: Put blockquote in the muse.element namespace, since it's not
+  an attribute.

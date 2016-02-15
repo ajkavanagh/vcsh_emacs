@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-29
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Mar 25 00:28:48 EST 2006
+Standard-date: 2006-03-25 05:28:48 GMT
+Modified-files: ChangeLog.2006 lisp/muse-journal.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-29
+    mwolson@gnu.org--2006/muse--main--1.0--patch-71
+Summary: Merged from mwolson@gnu.org--2006 (patch 71)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-71
+   muse-journal: Make custom RSS heading regexps possible.

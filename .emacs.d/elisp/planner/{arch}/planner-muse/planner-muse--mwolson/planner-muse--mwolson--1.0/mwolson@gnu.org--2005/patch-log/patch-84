@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-84
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 02:39:14 EST 2005
+Standard-date: 2005-10-29 07:39:14 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-84
+Summary: Anti-day pages fix.
+Keywords: 
+
+* planner.el (planner-expand-name): If we're not using day pages, use the
+  current date in various places.

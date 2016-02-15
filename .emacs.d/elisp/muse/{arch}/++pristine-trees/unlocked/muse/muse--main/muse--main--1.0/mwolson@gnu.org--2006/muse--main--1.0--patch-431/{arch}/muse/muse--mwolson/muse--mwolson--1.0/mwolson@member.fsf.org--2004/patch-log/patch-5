@@ -1,0 +1,14 @@
+Revision: muse--mwolson--1.0--patch-5
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Tue Oct 26 12:09:04 EST 2004
+Standard-date: 2004-10-26 17:09:04 GMT
+Modified-files: muse-html.el
+New-patches: mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-5
+Summary: Put `muse-html-style-sheet' in muse-html group.
+Keywords: 
+
+2004-10-26  Michael Olson  <mwolson@gnu.org>
+
+    * muse-html.el (muse-html-style-sheet): Make part of "muse-html"
+    group, not "muse-message" group.

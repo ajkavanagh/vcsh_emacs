@@ -1,0 +1,39 @@
+Revision: planner--jeho--1.0--patch-61
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Apr 19 15:16:49 BST 2005
+Standard-date: 2005-04-19 14:16:49 GMT
+Modified-files: ChangeLog planner-appt.el planner-el.texi
+    planner-gnus.el planner-id.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-61
+    john@wjsullivan.net--2005/planner--johnsu01--0--base-0
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-1
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-2
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-3
+    sacha@free.net.ph--main/planner--dev--1.0--patch-376
+    sacha@free.net.ph--main/planner--dev--1.0--patch-377
+Summary: merge latest
+Keywords: 
+
+Patches applied:
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-375
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-1
+   
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-2
+   Replaced all occurrences of PlannerMode with Planner except where inaccurate.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-3
+   planner-el.texi (Diary): Corrected instructions for showing
+	diary entries for multiple days. Replaced @code's with @var
+	where appropriate.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-376
+   planner-id bugfix (completed/cancelled tasks) and planner-el docfixes
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-377
+   planner-gnus: Pick up the group name properly
+

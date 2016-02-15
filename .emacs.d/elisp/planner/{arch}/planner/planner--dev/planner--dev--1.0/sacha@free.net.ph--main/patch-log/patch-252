@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-252
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Dec 25 00:23:04 JST 2004
+Standard-date: 2004-12-24 15:23:04 GMT
+New-files: .arch-ids/planner-multi.el.id planner-multi.el
+Modified-files: ChangeLog planner-timeclock.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-252
+Summary: planner-multi.el: New
+Keywords: feature
+
+	* planner-multi.el: New support for notes on multiple pages.
+	Thanks to Dryice Liu for the inspiration.
+        

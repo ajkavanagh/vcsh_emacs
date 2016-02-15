@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-338
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun  6 10:32:59 EDT 2007
+Standard-date: 2007-06-06 14:32:59 GMT
+Modified-files: ChangeLog lisp/muse-regexps.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-338
+Summary: Make table publishing work with XEmacs 21
+Keywords: 
+
+2007-06-06  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-regexps.el (muse-table-line-regexp)
+	(muse-table-hline-regexp, muse-table-el-border-regexp): Fix
+	regexps so that they work with XEmacs 21.  Thanks to Adrian
+	Tritschler for the report.

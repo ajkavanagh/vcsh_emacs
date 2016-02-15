@@ -1,0 +1,43 @@
+Revision: planner--dev--1.0--patch-240
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec 17 19:58:04 JST 2004
+Standard-date: 2004-12-17 10:58:04 GMT
+Modified-files: ChangeLog planner-timeclock-summary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-240
+Summary: planner-timeclock-summary: plan pages, filtering, checkdoc, byte-compile
+Keywords: external feature
+
+	* planner-timeclock-summary.el: Extensive reordering and docfixing
+	to satisfy checkdoc and byte-compile-file.
+	(planner-timeclock-summary-day-range-entry): Rename from
+	planner-timeclock-day-range-entry to fit namespace.
+	(planner-timeclock-summary-one-day-alist): Rename from
+	planner-timeclock-one-day-alist to fit namespace.
+	(planner-timeclock-summary-one-day-entry-no-date): Rename from
+	planner-timeclock-one-day-entry-no-date to fit namespace.
+	(planner-timeclock-summary-one-day-entry): Rename from
+	planner-timeclock-one-day-entry to fit namespace.
+	(planner-timeclock-summary-day-range-alist): Rename from
+	planner-timeclock-day-range-alist to fit namespace.
+	(planner-timeclock-within-date-range): Exploit the string nature
+	for dates.
+
+	* planner-timeclock-summary.el: Merge patch from Chris Parsons
+	allowing filtering by regexp on the task string. Also support
+	automatic updating of a Timeclock section in the plan page.
+	(planner-timeclock-summary-include-sub-plan-pages-flag): New
+	option. Note: renamed from
+	planner-timeclock-summary-include-sub-plan-pages in original
+	patch.
+	(planner-timeclock-summary-update): Add support for plan pages.
+	(planner-timeclock-summary-show-filter): New.
+	(planner-timeclock-summary-show-range-filter): New.
+	(planner-timeclock-summary-show-range): Add filter-regexp.
+	(planner-timeclock-summary-calculate-ratio-day): Add
+	filter-regexp.
+	(planner-timeclock-summary-make-text-table-day): Add filter-regexp
+	and hide-summary.
+	(planner-timeclock-summary-make-summary-string-range): Add
+	filter-regexp.
+	(planner-timeclock-day-range-entry): Add filter-regexp.

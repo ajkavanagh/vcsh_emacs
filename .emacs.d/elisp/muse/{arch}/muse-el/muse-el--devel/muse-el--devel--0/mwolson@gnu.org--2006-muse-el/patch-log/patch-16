@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-16
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar  6 01:07:34 EST 2006
+Standard-date: 2006-03-06 06:07:34 GMT
+Modified-files: ChangeLog.2006 lisp/muse-colors.el
+    lisp/muse-mode.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-16
+    mwolson@gnu.org--2006/muse--main--1.0--patch-46
+    mwolson@gnu.org--2006/muse--main--1.0--patch-47
+Summary: Merged from mwolson@gnu.org--2006 (patch 46-47)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-46
+   Code simplification; improve muse-list-item-type function.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-47
+   Get increase and decrease of list indentation to work with complex cases.

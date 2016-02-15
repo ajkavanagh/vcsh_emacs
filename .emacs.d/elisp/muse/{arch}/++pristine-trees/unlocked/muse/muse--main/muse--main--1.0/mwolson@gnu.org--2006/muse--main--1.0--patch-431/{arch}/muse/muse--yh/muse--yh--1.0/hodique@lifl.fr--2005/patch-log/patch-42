@@ -1,0 +1,39 @@
+Revision: muse--yh--1.0--patch-42
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Sep  1 17:01:56 CEST 2005
+Standard-date: 2005-09-01 15:01:56 GMT
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+    examples/publish-project lisp/muse-blosxom.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-mode.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-wiki.el lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-42
+    mwolson@gnu.org--2005/muse--main--1.0--patch-211
+    mwolson@gnu.org--2005/muse--main--1.0--patch-212
+    mwolson@gnu.org--2005/muse--main--1.0--patch-213
+    mwolson@gnu.org--2005/muse--main--1.0--patch-214
+    mwolson@gnu.org--2005/muse--main--1.0--patch-215
+    mwolson@gnu.org--2005/muse--main--1.0--patch-216
+Summary: Merged from mwolson@gnu.org--2005 (patch 211-216)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-211
+   Fix paragraph-filling breakage in Emacs21.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-212
+   Reinstate former extended character class rules.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-213
+   Correct the publish-project example.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-214
+   Introduce :link-suffix. muse-wiki: Don't mangle acronyms in titles.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-215
+   Fix save-match-data gaffe.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-216
+   Allow links to temporary files to be visited.

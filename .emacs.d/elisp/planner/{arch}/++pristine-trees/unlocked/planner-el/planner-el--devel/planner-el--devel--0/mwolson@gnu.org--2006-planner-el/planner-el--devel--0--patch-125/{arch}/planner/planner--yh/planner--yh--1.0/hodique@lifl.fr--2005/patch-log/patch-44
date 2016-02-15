@@ -1,0 +1,45 @@
+Revision: planner--yh--1.0--patch-44
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Aug 27 11:57:59 CEST 2005
+Standard-date: 2005-08-27 09:57:59 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-appt.el planner-cyclic.el planner-multi.el
+    planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-44
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-57
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-58
+    sacha@free.net.ph--main/planner--dev--1.0--patch-475
+    sacha@free.net.ph--main/planner--dev--1.0--patch-476
+    sacha@free.net.ph--main/planner--dev--1.0--patch-477
+    sacha@free.net.ph--main/planner--dev--1.0--patch-478
+    sacha@free.net.ph--main/planner--dev--1.0--patch-479
+    sacha@free.net.ph--main/planner--dev--1.0--patch-480
+Summary: Merged from mwolson@gnu.org--2005 (patch 57-58), sacha@free.net.ph--main (patch 475-480)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-57
+   Merged from hodique@lifl.fr--2005 (patch 42-43), john@wjsullivan.net--2005 (patch 14-19), sacha@free.net.ph--main (patch 471-474)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-58
+   Merged from sacha@free.net.ph--main (patch 475-480)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-475
+   Merge planner-cyclic and planner-multi bugfixes from Sergey Vlasov
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-476
+   planner.el: Remove exit-calendar compile advice, and uncollapse outline
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-477
+   planner-multi-task-date bugfix: Be careful about links
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-478
+   Bugfix: planner-task-info-from-string: Make sure link is non-nil before string-matching
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-479
+   planner-multi-task-date bugfix: Fix matching finally!
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-480
+   Bugfix: planner-extract-tasks should use planner-line-beginning-position

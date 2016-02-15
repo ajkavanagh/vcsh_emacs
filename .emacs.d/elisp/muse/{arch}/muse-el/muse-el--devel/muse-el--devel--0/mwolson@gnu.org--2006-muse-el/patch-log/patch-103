@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-103
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 14:59:26 EDT 2006
+Standard-date: 2006-10-15 18:59:26 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-103
+    mwolson@gnu.org--2006/muse--main--1.0--patch-217
+    mwolson@gnu.org--2006/muse--main--1.0--patch-218
+Summary: Merged from mwolson@gnu.org--2006 (patch 217-218)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-218
+   Minor cleanups

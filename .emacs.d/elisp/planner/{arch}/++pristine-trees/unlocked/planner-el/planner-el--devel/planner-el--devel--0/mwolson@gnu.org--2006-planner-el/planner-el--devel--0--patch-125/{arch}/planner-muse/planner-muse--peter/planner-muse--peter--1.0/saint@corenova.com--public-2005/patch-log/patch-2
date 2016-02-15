@@ -1,0 +1,22 @@
+Revision: planner-muse--peter--1.0--patch-2
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Mon Aug  1 12:04:59 PDT 2005
+Standard-date: 2005-08-01 19:04:59 GMT
+Modified-files: planner-publish.el
+New-patches: saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-2
+Summary: planner publish html styles and extensions improvements
+Keywords: 
+
+* planner-publish.el (planner-html-markup-strings): p tags close
+  prematurely due to some other auto closing call...  just use div tags.
+  (planner-html-style-sheet): added pretty table style
+	now, the default style-sheet is cleaner, should always be over-ridden.
+  (planner-html-header): changed the default header to include
+  planner-html-embedded-header for easier inclusion of custom header
+  content w/o overriding the entire header.
+  (planner-html-embedded-header): new
+  (planner-html-embedded-footer): new
+  (planner-publish-markup-note): markup content tag with newline to avoid
+  post cleanup to consider it as part of text.
+

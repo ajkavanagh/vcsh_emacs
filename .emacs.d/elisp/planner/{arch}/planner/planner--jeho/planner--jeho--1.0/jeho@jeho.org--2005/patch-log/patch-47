@@ -1,0 +1,18 @@
+Revision: planner--jeho--1.0--patch-47
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Mar 14 12:00:35 GMT 2005
+Standard-date: 2005-03-14 12:00:35 GMT
+Modified-files: jeho-diary.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-47
+Summary: jeho-diary modifications and fixes
+Keywords: 
+
+* jeho-diary.el (jeho-diary-calendar-show-empty): new variable to
+  determine empty day page behaviour
+  (jeho-diary-get-cyclic): fixed the caching of future entries 
+  (jeho-diary-mark-calendar): code beautification
+  (jeho-diary-show): added behaviour according to
+  jeho-diary-calendar-show-empty; don't delete pre-existing plan pages
+  on exit-calendar
+

@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-122
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May  8 19:30:58 EDT 2006
+Standard-date: 2006-05-08 23:30:58 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog muse.texi
+New-patches: john@wjsullivan.net--2006/muse--johnsu01--0--patch-2
+    john@wjsullivan.net--2006/muse--johnsu01--0--patch-3
+    john@wjsullivan.net--2006/muse--johnsu01--0--patch-4
+    mwolson@gnu.org--2006/muse--main--1.0--patch-122
+Summary: muse.texi: Change subsections to subheadings.
+Keywords: 
+
+(Author: John Sullivan <john@wjsullivan.net>)
+
+* muse.texi: Change @subsection and @strong to @subheading throughout
+  document.

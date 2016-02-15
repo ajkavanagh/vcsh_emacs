@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-276
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Nov 20 17:22:10 EST 2005
+Standard-date: 2005-11-20 22:22:10 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-276
+Summary: Deal with case when muse-make-link is passed an explicit link.
+Keywords: 
+
+* lisp/muse-mode.el (muse-make-link): Apply patch from Sacha that deals
+  with case when we are passed an explicit-style link.

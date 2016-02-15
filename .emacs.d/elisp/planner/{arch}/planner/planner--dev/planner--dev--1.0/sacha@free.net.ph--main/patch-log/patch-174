@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-174
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Sep 29 23:49:52 JST 2004
+Standard-date: 2004-09-29 14:49:52 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-174
+Summary: NOTE: planner-diary.el: Remove font-locking method 
+Keywords: devolution
+
+	* planner-diary.el: After much bug-hunting, I have decided to
+	remove the fontlocking code from the module as it causes too many
+	headaches. If you want it back in, please send me a working patch.
+	=)
+
+	* planner.texi (Diary): Docfix: Remove mention of Lisp
+	fontlocking feature.

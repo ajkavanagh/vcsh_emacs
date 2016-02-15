@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-109
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul  8 17:55:20 EST 2005
+Standard-date: 2005-07-08 22:55:20 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-109
+Summary: Fix error with `muse-blosxom-new-entry' and Emacs21.
+Keywords: 
+
+* lisp/muse-blosxom.el (muse-blosxom-new-entry): Mess with call to
+  `completing-read' so that old versions of Emacs don't complain.

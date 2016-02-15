@@ -1,0 +1,18 @@
+Revision: planner-el--devel--0--patch-41
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May 29 10:23:22 EDT 2006
+Standard-date: 2006-05-29 14:23:22 GMT
+Renamed-files: .arch-ids/ChangeLog.2006.id .arch-ids/ChangeLog.id
+    ChangeLog.2006 ChangeLog
+Modified-files: ChangeLog ChangeLog.2004 ChangeLog.2005 NEWS
+    debian/rules
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-41
+    mwolson@gnu.org--2006/planner--main--1.0--patch-50
+Summary: Merged from mwolson@gnu.org--2006 (patch 50)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-50
+   Make ChangeLog conform to conventions better.

@@ -1,0 +1,596 @@
+Revision: muse--jeho--1.0--patch-28
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Aug  7 14:15:47 BST 2006
+Standard-date: 2006-08-07 13:15:47 GMT
+New-files: .arch-ids/ChangeLog.2005.id ChangeLog.2005
+    contrib/.arch-ids/Makefile.id contrib/Makefile
+    contrib/pyblosxom/.arch-ids/make-blog.id
+    contrib/pyblosxom/make-blog
+    experimental/.arch-ids/muse-protocol-iw.el.id
+    experimental/.arch-ids/muse-split.el.id
+    experimental/muse-protocol-iw.el
+    experimental/muse-split.el
+Removed-files: .arch-ids/ChangeLog.2005.id ChangeLog.2005
+    debian/.arch-ids/=id debian/.arch-ids/NEWS.id
+    debian/.arch-ids/changelog.id
+    debian/.arch-ids/compat.id debian/.arch-ids/control.id
+    debian/.arch-ids/copyright.id
+    debian/.arch-ids/emacsen-install.id
+    debian/.arch-ids/emacsen-remove.id
+    debian/.arch-ids/emacsen-startup.id
+    debian/.arch-ids/muse-el.dirs.id
+    debian/.arch-ids/muse-el.docs.id
+    debian/.arch-ids/muse-el.examples.id
+    debian/.arch-ids/muse-el.info.id
+    debian/.arch-ids/rules.id debian/NEWS debian/changelog
+    debian/compat debian/control debian/copyright
+    debian/emacsen-install debian/emacsen-remove
+    debian/emacsen-startup debian/muse-el.dirs
+    debian/muse-el.docs debian/muse-el.examples
+    debian/muse-el.info debian/rules
+    lisp/.arch-ids/muse-registry.el.id
+    lisp/muse-registry.el
+Removed-directories: debian debian/.arch-ids
+Renamed-files: .arch-ids/ChangeLog.2006.id .arch-ids/ChangeLog.id
+    ChangeLog.2006 ChangeLog
+    lisp/.arch-ids/muse-convert.el.id lisp/.arch-ids/muse-convert-latex.el.id
+    lisp/muse-convert.el lisp/muse-convert-latex.el
+Modified-files: .arch-ids/muse.texi.id AUTHORS ChangeLog
+    ChangeLog.2004 Makefile Makefile.defs README
+    contrib/cgi.el contrib/httpd.el
+    contrib/pyblosxom/getstamps.py
+    contrib/pyblosxom/hardcodedates.py
+    examples/mwolson/muse-init.el
+    examples/mwolson/stylesheets/blog.css
+    examples/mwolson/stylesheets/common.css
+    examples/mwolson/stylesheets/print.css
+    examples/mwolson/stylesheets/screen.css
+    examples/mwolson/templates/footer.html
+    examples/mwolson/templates/header.html
+    experimental/Makefile lisp/Makefile lisp/muse-blosxom.el
+    lisp/muse-colors.el lisp/muse-convert-latex.el
+    lisp/muse-docbook.el lisp/muse-html.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-mode.el lisp/muse-project.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-texinfo.el
+    lisp/muse-wiki.el lisp/muse-xml-common.el
+    lisp/muse-xml.el lisp/muse.el muse.texi
+    {arch}/muse-el/muse-el--devel/muse-el--devel--0/mwolson@gnu.org--2006-muse-el/patch-log/patch-14
+    {arch}/muse-el/muse-el--devel/muse-el--devel--0/mwolson@gnu.org--2006-muse-el/patch-log/patch-25
+    {arch}/muse-el/muse-el--devel/muse-el--devel--0/mwolson@gnu.org--2006-muse-el/patch-log/patch-3
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/base-0
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-19
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-46
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-58
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-60
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-28
+    john@wjsullivan.net--2006/muse--johnsu01--0--patch-2
+    john@wjsullivan.net--2006/muse--johnsu01--0--patch-3
+    john@wjsullivan.net--2006/muse--johnsu01--0--patch-4
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-27
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-28
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-29
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-30
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-31
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-32
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-33
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-34
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-35
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-36
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-37
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-38
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-39
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-40
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-41
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-42
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-43
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-44
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-45
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-46
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-47
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-48
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-49
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-50
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-51
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-52
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-53
+    mwolson@gnu.org--2006/muse--main--1.0--patch-69
+    mwolson@gnu.org--2006/muse--main--1.0--patch-70
+    mwolson@gnu.org--2006/muse--main--1.0--patch-71
+    mwolson@gnu.org--2006/muse--main--1.0--patch-72
+    mwolson@gnu.org--2006/muse--main--1.0--patch-73
+    mwolson@gnu.org--2006/muse--main--1.0--patch-74
+    mwolson@gnu.org--2006/muse--main--1.0--patch-75
+    mwolson@gnu.org--2006/muse--main--1.0--patch-76
+    mwolson@gnu.org--2006/muse--main--1.0--patch-77
+    mwolson@gnu.org--2006/muse--main--1.0--patch-78
+    mwolson@gnu.org--2006/muse--main--1.0--patch-79
+    mwolson@gnu.org--2006/muse--main--1.0--patch-80
+    mwolson@gnu.org--2006/muse--main--1.0--patch-81
+    mwolson@gnu.org--2006/muse--main--1.0--patch-82
+    mwolson@gnu.org--2006/muse--main--1.0--patch-83
+    mwolson@gnu.org--2006/muse--main--1.0--patch-84
+    mwolson@gnu.org--2006/muse--main--1.0--patch-85
+    mwolson@gnu.org--2006/muse--main--1.0--patch-86
+    mwolson@gnu.org--2006/muse--main--1.0--patch-87
+    mwolson@gnu.org--2006/muse--main--1.0--patch-88
+    mwolson@gnu.org--2006/muse--main--1.0--patch-89
+    mwolson@gnu.org--2006/muse--main--1.0--patch-90
+    mwolson@gnu.org--2006/muse--main--1.0--patch-91
+    mwolson@gnu.org--2006/muse--main--1.0--patch-92
+    mwolson@gnu.org--2006/muse--main--1.0--patch-93
+    mwolson@gnu.org--2006/muse--main--1.0--patch-94
+    mwolson@gnu.org--2006/muse--main--1.0--patch-95
+    mwolson@gnu.org--2006/muse--main--1.0--patch-96
+    mwolson@gnu.org--2006/muse--main--1.0--patch-97
+    mwolson@gnu.org--2006/muse--main--1.0--patch-98
+    mwolson@gnu.org--2006/muse--main--1.0--patch-99
+    mwolson@gnu.org--2006/muse--main--1.0--patch-100
+    mwolson@gnu.org--2006/muse--main--1.0--patch-101
+    mwolson@gnu.org--2006/muse--main--1.0--patch-102
+    mwolson@gnu.org--2006/muse--main--1.0--patch-103
+    mwolson@gnu.org--2006/muse--main--1.0--patch-104
+    mwolson@gnu.org--2006/muse--main--1.0--patch-105
+    mwolson@gnu.org--2006/muse--main--1.0--patch-106
+    mwolson@gnu.org--2006/muse--main--1.0--patch-107
+    mwolson@gnu.org--2006/muse--main--1.0--patch-108
+    mwolson@gnu.org--2006/muse--main--1.0--patch-109
+    mwolson@gnu.org--2006/muse--main--1.0--patch-110
+    mwolson@gnu.org--2006/muse--main--1.0--patch-111
+    mwolson@gnu.org--2006/muse--main--1.0--patch-112
+    mwolson@gnu.org--2006/muse--main--1.0--patch-113
+    mwolson@gnu.org--2006/muse--main--1.0--patch-114
+    mwolson@gnu.org--2006/muse--main--1.0--patch-115
+    mwolson@gnu.org--2006/muse--main--1.0--patch-116
+    mwolson@gnu.org--2006/muse--main--1.0--patch-117
+    mwolson@gnu.org--2006/muse--main--1.0--patch-118
+    mwolson@gnu.org--2006/muse--main--1.0--patch-119
+    mwolson@gnu.org--2006/muse--main--1.0--patch-120
+    mwolson@gnu.org--2006/muse--main--1.0--patch-121
+    mwolson@gnu.org--2006/muse--main--1.0--patch-122
+    mwolson@gnu.org--2006/muse--main--1.0--patch-123
+    mwolson@gnu.org--2006/muse--main--1.0--patch-124
+    mwolson@gnu.org--2006/muse--main--1.0--patch-125
+    mwolson@gnu.org--2006/muse--main--1.0--patch-126
+    mwolson@gnu.org--2006/muse--main--1.0--patch-127
+    mwolson@gnu.org--2006/muse--main--1.0--patch-128
+    mwolson@gnu.org--2006/muse--main--1.0--patch-129
+    mwolson@gnu.org--2006/muse--main--1.0--patch-130
+    mwolson@gnu.org--2006/muse--main--1.0--patch-131
+    mwolson@gnu.org--2006/muse--main--1.0--patch-132
+    mwolson@gnu.org--2006/muse--main--1.0--patch-133
+    mwolson@gnu.org--2006/muse--main--1.0--patch-134
+    mwolson@gnu.org--2006/muse--main--1.0--patch-135
+    mwolson@gnu.org--2006/muse--main--1.0--patch-136
+    mwolson@gnu.org--2006/muse--main--1.0--patch-137
+    mwolson@gnu.org--2006/muse--main--1.0--patch-138
+    mwolson@gnu.org--2006/muse--main--1.0--patch-139
+    mwolson@gnu.org--2006/muse--main--1.0--patch-140
+    mwolson@gnu.org--2006/muse--main--1.0--patch-141
+    mwolson@gnu.org--2006/muse--main--1.0--patch-142
+    mwolson@gnu.org--2006/muse--main--1.0--patch-143
+    mwolson@gnu.org--2006/muse--main--1.0--patch-144
+    mwolson@gnu.org--2006/muse--main--1.0--patch-145
+    mwolson@gnu.org--2006/muse--main--1.0--patch-146
+    mwolson@gnu.org--2006/muse--main--1.0--patch-147
+    mwolson@gnu.org--2006/muse--main--1.0--patch-148
+    mwolson@gnu.org--2006/muse--main--1.0--patch-149
+    mwolson@gnu.org--2006/muse--main--1.0--patch-150
+    mwolson@gnu.org--2006/muse--main--1.0--patch-151
+    mwolson@gnu.org--2006/muse--main--1.0--patch-152
+    mwolson@gnu.org--2006/muse--main--1.0--patch-153
+    mwolson@gnu.org--2006/muse--main--1.0--patch-154
+    mwolson@gnu.org--2006/muse--main--1.0--patch-155
+    mwolson@gnu.org--2006/muse--main--1.0--patch-156
+    mwolson@gnu.org--2006/muse--main--1.0--patch-157
+    mwolson@gnu.org--2006/muse--main--1.0--patch-158
+    mwolson@gnu.org--2006/muse--main--1.0--patch-159
+    mwolson@gnu.org--2006/muse--main--1.0--patch-160
+    mwolson@gnu.org--2006/muse--main--1.0--patch-161
+    mwolson@gnu.org--2006/muse--main--1.0--patch-162
+    mwolson@gnu.org--2006/muse--main--1.0--patch-163
+    mwolson@gnu.org--2006/muse--main--1.0--patch-164
+    mwolson@gnu.org--2006/muse--main--1.0--patch-165
+    mwolson@gnu.org--2006/muse--main--1.0--patch-166
+    mwolson@gnu.org--2006/muse--main--1.0--patch-167
+    mwolson@gnu.org--2006/muse--main--1.0--patch-168
+    mwolson@gnu.org--2006/muse--main--1.0--patch-169
+Summary: Merged from john@wjsullivan.net--2006 (patch 2-4), mwolson@gnu.org--2006-muse-el (patch 27-53), mwolson@gnu.org--2006 (patch 69-169)
+Keywords: merge
+
+Patches applied:
+
+ * john@wjsullivan.net--2006/muse--johnsu01--0--patch-2
+   Catch up with main branch.
+
+ * john@wjsullivan.net--2006/muse--johnsu01--0--patch-3
+   
+
+ * john@wjsullivan.net--2006/muse--johnsu01--0--patch-4
+   Change subsections to subheadings.
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-27
+   Merged from mwolson@gnu.org--2006 (patch 67-68)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-28
+   Merged from mwolson@gnu.org--2006 (patch 69-70)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-29
+   Merged from mwolson@gnu.org--2006 (patch 71)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-30
+   Merged from mwolson@gnu.org--2006 (patch 72)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-31
+   Merged from mwolson@gnu.org--2006 (patch 73)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-32
+   Merged from mwolson@gnu.org--2006 (patch 74-76)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-33
+   Merged from mwolson@gnu.org--2006 (patch 77-78)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-34
+   Merged from mwolson@gnu.org--2006 (patch 79-80)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-35
+   Merged from mwolson@gnu.org--2006 (patch 81)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-36
+   Merged from mwolson@gnu.org--2006 (patch 82-84)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-37
+   Merged from mwolson@gnu.org--2006 (patch 85)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-38
+   Merged from mwolson@gnu.org--2006 (patch 86)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-39
+   Add in extension to implicit links to match project files.
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-40
+   Append implicit file link update to publish/save hooks.
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-41
+   Merged from mwolson@gnu.org--2006 (patch 87)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-42
+   Merged from mwolson@gnu.org--2006 (patch 88)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-43
+   Merged from mwolson@gnu.org--2006 (patch 89)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-44
+   Merged from mwolson@gnu.org--2006 (patch 90)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-45
+   Merged from mwolson@gnu.org--2006 (patch 91-92)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-46
+   Merged from mwolson@gnu.org--2006 (patch 93-96)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-47
+   First attempt at getting interwiki-regexp with spaces.
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-48
+   Merged from mwolson@gnu.org--2006 (patch 97-98)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-49
+   Merged from mwolson@gnu.org--2006 (patch 99)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-50
+   Merged from mwolson@gnu.org--2006 (patch 100)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-51
+   Merged from mwolson@gnu.org--2006 (patch 101)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-52
+   Cleaning up interwiki-regexp to handle filenames with spaces.
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-53
+   Add option to not create implicit links to the current page.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-69
+   muse-mode: Don't require muse-publish.el.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-70
+   Fix #5190: Endless loop in muse style-run-hooks when muse-project-publish is called with undefined style.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-71
+   muse-journal: Make custom RSS heading regexps possible.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-72
+   httpd.el: Update to work with newer versions of Emacs.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-73
+   Fix bug in verse markup, undesired behavior with emdash.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-74
+   muse.texi: Mention the <code> tag.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-75
+   Make faces more robust and namespace-conforming.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-76
+   Remove cruft from patch logs.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-77
+   Update my example configuration file.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-78
+   Fix a couple of recently-introduced bugs.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-79
+   muse.texi: Move some sections to a new Extending Muse chapter.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-80
+   Fix a bug triggered by batch-publishing.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-81
+   debian: Install ChangeLog properly.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-82
+   muse-journal: Fix dates in RSS feeds.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-83
+   Remove unrelated part of patch-82.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-84
+   muse-mode: Recognize definition lists when filling text.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-85
+   Add a hook that is called whenever Muse's file-alist is updated.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-86
+   Update Muse's file-alist after saving any Muse page.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-87
+   muse-wiki: Implement implicit links for all files in project.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-88
+   Use a better mechanism for updating autogenerated variables.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-89
+   muse-wiki: Match filenames before WikiWords.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-90
+   Permit table generation to be disabled for a single Muse page.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-91
+   Make interwiki links work with the new option.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-92
+   Fix a couple of compiler warnings.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-93
+   muse-wiki: Honor setting for muse-wiki-hide-nop-tag.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-94
+   Prepare Debian package for Arch snapshot.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-95
+   Remove muse-registry.el.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-96
+   Make things in contrib directory installable.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-97
+   Try to fix failure to recognize Muse file extension.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-98
+   Merged from mwolson@gnu.org--2006-muse-el (patch 41-47)
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-99
+   Try to fix failure to recognize Muse file extension (2nd attempt).
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-100
+   Try to fix failure to recognize Muse file extension (3rd attempt).
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-101
+   Try to fix failure to recognize Muse file extension (4th attempt).
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-102
+   muse-html: Add :style-sheet element.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-103
+   Try to fix failure to recognize Muse file extension (5th attempt).
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-104
+   Merged from mwolson@gnu.org--2006-muse-el (patch 48-52)
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-105
+   Try to fix failure to recognize Muse file extension (6th attempt).
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-106
+   Merged from mwolson@gnu.org--2006-muse-el (patch 53)
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-107
+   Fix horrendous typo.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-108
+   muse-wiki: Fix bug that caused WikiWords not to publish or display.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-109
+   Allow tab characters in the target of explicit links.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-110
+   muse-latex: Don't escape backslash in <example> regions.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-111
+   muse-mode: Make C-c C-e work better.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-112
+   Re-add some cgi.el stuff and update my example config.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-113
+   Try to fix face clobbering bug.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-114
+   muse-publish: Get rid of warning when batch publishing.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-115
+   Make publishing DTRT when using escaped list markup.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-116
+   cgi.el: Make this work without cl-seq.el.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-117
+   Make build targets more consistent.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-118
+   Fix a few image bugs.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-119
+   muse-latex: Make images look better.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-120
+   Fix buggy behavior in muse-browse-result.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-121
+   Update keystrokes used in muse-mode, as well as docs.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-122
+   muse.texi: Change subsections to subheadings.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-123
+   muse.texi: Change use of @subsubheading to @subheading.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-124
+   Fix a couple of beginning-of-buffer errors.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-125
+   Fix #5925: Emphasis on item breaks lists.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-126
+   Fix emdash in link description bug.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-127
+   DTRT with explicit links that have no description.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-128
+   Fix bug where links with :: in them were marked up as lists.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-129
+   muse-wiki: Make the interwiki resolver a bit more clever.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-130
+   Add muse-split.el to experimental folder.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-131
+   Add muse-protocol-iw.el to experimental folder.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-132
+   Fix publishing error with tables and initial whitespace.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-133
+   Make links colored blue by default.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-134
+   Try not to call tramp during publishing.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-135
+   Fix a potential unbounded recursive call.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-136
+   Make the Table of Contents CSS easier to customize.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-137
+   Use better fallback when displaying warnings.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-138
+   Minor tweak in my example CSS stylesheet.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-139
+   Improve documentation in the included pyblosxom plug-ins.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-140
+   muse-blosxom: Perform extra check on category in new entry.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-141
+   Provide explanation of how to invoke getstamps.py.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-142
+   Make ChangeLog conform to conventions better.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-143
+   Implement <include> and <markup> tags.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-144
+   List all tags in Muse's documentation.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-145
+   Rename muse-convert.el to muse-latex-convert.el.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-146
+   Fix tag-publishing in <insert> and <markup>.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-147
+   Try to work around a bug in XEmacs beta.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-148
+   Update ChangeLogs.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-149
+   Second attempt at fixing XEmacs beta problem.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-150
+   Really update ChangeLog.2005.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-151
+   Provide some markup shortcuts for the <include> tag.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-152
+   Move Debian stuff into its own branch.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-153
+   Fix bug introduced in last patch.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-154
+   Make PDF version of the Muse manual be generated correctly.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-155
+   Provide example for <include> in Muse manual.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-156
+   Improve ignored files regexp.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-157
+   Don't use illegal C-c i keybinding.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-158
+   Make muse-publish-markup-buffer usable even with no current file.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-159
+   Fix publishing of blank table fields.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-160
+   Make links to files in subdirectories work.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-161
+   Fix publishing bug introduced in last patch.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-162
+   muse-latex: Make publishing of <contents> tags optional.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-163
+   Make space around emdash optional.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-164
+   Make escaping of brackets in links work properly.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-165
+   Implement interactive insertion of URLs.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-166
+   Make C-c C-t publish the current file in a more sensible way.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-167
+   Fix #5899: muse-follow-name-at-mouse breaks mouse-yank-at-point.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-168
+   Mention both Ubuntu and Debian throughout.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-169
+   Manual: Update mailing list info.

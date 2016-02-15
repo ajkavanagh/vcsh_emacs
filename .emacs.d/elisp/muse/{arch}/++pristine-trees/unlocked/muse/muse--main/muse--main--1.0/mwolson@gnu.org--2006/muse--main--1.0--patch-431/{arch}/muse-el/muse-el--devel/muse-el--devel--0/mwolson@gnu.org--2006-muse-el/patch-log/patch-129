@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-129
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan 15 20:08:55 EST 2007
+Standard-date: 2007-01-16 01:08:55 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-129
+    mwolson@gnu.org--2006/muse--main--1.0--patch-273
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 273)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-273
+   muse-latex2png: Implement centered <math> tag interpretation

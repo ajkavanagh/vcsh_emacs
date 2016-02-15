@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-147
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Aug  2 22:37:39 PHT 2004
+Standard-date: 2004-08-02 14:37:39 GMT
+Modified-files: planner-vm.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-147
+Summary: Bugfix: planner-vm-browse-url: Properly open message
+Keywords: bugfix
+
+	* planner-vm.el (planner-vm-browse-url): Merge patch
+	from Jürgen Doser.

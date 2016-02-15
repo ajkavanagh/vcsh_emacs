@@ -1,0 +1,35 @@
+Revision: emacs-wiki--sacha--1.0--patch-73
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar  9 00:01:23 PHT 2004
+Standard-date: 2004-03-08 16:01:23 GMT
+New-files: .arch-ids/planner-notes-index.el.id
+    planner-notes-index.el
+Modified-files: emacs-wiki.el planner-rmail.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-73
+Summary: Added planner-notes-index.el, fixed emacs-wiki escape/unescape
+Keywords: 
+
+	* planner-notes-index.el: New file. View a list of your notes
+	using the interactive functions, or publish indexes using
+	emacs-wiki tags. See comments for more details.
+
+	* emacs-wiki.el (emacs-wiki-link-escape): Finally fix this broken
+	function. I must have been really lucky not to have run into
+	problems with this before. Apologies to people bemused by this
+	bug!
+	(emacs-wiki-link-unescape): Same as emacs-wiki-link-escape.
+	(emacs-wiki-highlight-link): Unescape link text when displayed.
+	Tested with notes-index, which had lots of links with brackets.
+	(emacs-wiki-wiki-visible-name): Unescape further in titles.
+	(emacs-wiki-make-link): Escape # in titles.
+
+	The files I touched compile cleanly under Emacs CVS and XEmacs,
+	with the exception of emacs-wiki.el. I still have to untangle it.
+	Again, apologies for small, careless bugs. Would love to hear from
+	anyone with more experience writing test suites for Emacs
+	programs! Also, have to get the hang of testcover.el ... =)
+
+     	* planner-rmail.el (rmail): Add missing require.
+
+	* planner.el (planner-create-task-from-info): Fix free variable.

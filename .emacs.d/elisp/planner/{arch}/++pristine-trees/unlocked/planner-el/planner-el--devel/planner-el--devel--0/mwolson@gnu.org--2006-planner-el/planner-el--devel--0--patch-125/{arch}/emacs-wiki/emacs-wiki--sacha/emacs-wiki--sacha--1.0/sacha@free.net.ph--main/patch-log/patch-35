@@ -1,0 +1,18 @@
+Revision: emacs-wiki--sacha--1.0--patch-35
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Feb 15 21:49:52 PHT 2004
+Standard-date: 2004-02-15 13:49:52 GMT
+Modified-files: planner-rss.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-35
+Summary: More planner-rss fixes to deal with read-only text.
+Keywords: 
+
+	* planner.el (planner-current-note-info): Removed text properties
+	from body.
+
+	* planner-rss.el (planner-rss-add-note): Removed
+	planner-note-info-from-string reference. Used
+	planner-current-note-info from planner.el instead. Used
+	planner-current-note-info to get the body. Properly removes
+	overlays and text-properties from read-only text.

@@ -1,0 +1,14 @@
+Revision: planner--main--1.0--patch-31
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  7 22:57:43 EDT 2006
+Standard-date: 2006-04-08 02:57:43 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-31
+Summary: Prepare new Debian package for Arch snapshot.
+Keywords: 
+
+* ChangeLog.2006: Update.
+
+* debian/changelog: Prepare new Debian package for Arch snapshot.

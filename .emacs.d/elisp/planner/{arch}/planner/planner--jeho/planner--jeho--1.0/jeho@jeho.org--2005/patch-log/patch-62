@@ -1,0 +1,12 @@
+Revision: planner--jeho--1.0--patch-62
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Apr 19 15:18:11 BST 2005
+Standard-date: 2005-04-19 14:18:11 GMT
+Modified-files: planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-62
+Summary: with-planner-update-setup
+Keywords: 
+
+* planner.el (with-planner-update-setup): return value from the body
+

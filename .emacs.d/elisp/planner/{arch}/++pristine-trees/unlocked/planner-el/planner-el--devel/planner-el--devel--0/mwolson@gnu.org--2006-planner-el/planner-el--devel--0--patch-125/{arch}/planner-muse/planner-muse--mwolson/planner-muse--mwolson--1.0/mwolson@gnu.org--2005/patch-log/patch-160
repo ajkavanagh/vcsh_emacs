@@ -1,0 +1,28 @@
+Revision: planner-muse--mwolson--1.0--patch-160
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan  5 19:04:07 EST 2006
+Standard-date: 2006-01-06 00:04:07 GMT
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    debian/control debian/emacsen-install
+    debian/emacsen-remove debian/emacsen-startup
+    debian/rules planner-el.texi
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-160
+Summary: Fix documentation example that I wrote earlier.
+Keywords: 
+
+* Makefile.defs: In this intermediate stage, we'll call it Planner 3.39.
+  Replace "planner-muse" with "planner".
+
+* debian/changelog: Condense old planner-muse-el entries into a new
+  planner-el entry.
+
+* debian/control, debian/emacsen-install, debian/emacsen-remove,
+  emacsen-startup: s/planner-muse-el/planner-muse/.
+
+* debian/rules: Use DH_COMPAT=4, since that was the most recent piece of
+  advice from my sponsor.
+
+* planner-el.texi (Viewing Tasks): Adjust whitespace.
+  (Publishing): Use an example that has a better chance of working.
+  Thanks to Stefan van der Walt for the report.

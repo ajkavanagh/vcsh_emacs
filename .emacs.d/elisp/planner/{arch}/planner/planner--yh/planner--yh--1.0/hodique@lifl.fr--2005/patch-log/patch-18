@@ -1,0 +1,19 @@
+Revision: planner--yh--1.0--patch-18
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jul  2 20:39:39 CEST 2005
+Standard-date: 2005-07-02 18:39:39 GMT
+Modified-files: ChangeLog.yh
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-18
+    sacha@free.net.ph--main/planner--dev--1.0--patch-392
+    sacha@free.net.ph--main/planner--dev--1.0--patch-393
+Summary: Merged from sacha@free.net.ph--main (patch 392-393)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-392
+   planner-list-tasks-with-status: Fix insert-file-contents(nil) backtrace
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-393
+   planner-list-tasks-with-status: Put an insane amount of meaning into a PAGES argument

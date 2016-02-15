@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-219
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Dec  2 22:53:08 JST 2004
+Standard-date: 2004-12-02 13:53:08 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-219
+Summary: planner-extract-tasks bugfix: use planner project
+Keywords: 
+
+	* planner.el (planner-extract-tasks): Bugfix: wrap in planner project.
+        This solves the problem with emacs-wiki-name-regexp not recognizing
+        dates. Other functions that use temporary buffers or calculate
+        planner data outside a planner buffer should do that also.

@@ -1,0 +1,23 @@
+Revision: emacs-wiki--dev--1.0--patch-28
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Aug 12 22:29:41 EST 2003
+Standard-date: 2003-08-12 12:29:41 GMT
+Summary: rename-link-at-point fixes
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-28
+Removed-patches: 
+
+* clarify that the description part of an extended link isn't changed
+* use case-fold-search when matching against
+  emacs-wiki-url-or-name-regexp
+* save the match data when matching against a string, then replacing
+  against the buffer

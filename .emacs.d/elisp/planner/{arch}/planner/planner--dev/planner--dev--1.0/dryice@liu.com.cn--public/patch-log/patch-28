@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-28
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Thu Mar  3 09:59:44 CST 2005
+Standard-date: 2005-03-03 01:59:44 GMT
+Modified-files: planner-trunk.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-28
+Summary: merge from Keith Amidon: now works with outline minor mode better
+Keywords: linting, merge
+
+* planner-trunk.el: add a "nice to do" section in comenary.
+(planner-trunk-task-completed-p): new function. Return t if task-info is
+done or canceled.
+(planner-trunk-sort-tasks): utilize planner-trunk-task-completed-p.
+(planner-trunk-insert-heading): ditto.
+(planner-trunk-do-trunk-section): ditto.
+(planner-trunk-do-trunk): ditto.
+(planner-trunk-tasks): call outline-show-all before doing the trunk. Else
+the hidden sections are skip and extra headers are added.
+

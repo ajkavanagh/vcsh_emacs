@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-264
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Nov  1 16:42:57 EST 2005
+Standard-date: 2005-11-01 21:42:57 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-264
+Summary: Attempt to fix read-only error.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-buffer): Set
+  inhibit-read-only to t so that we don't get buffer-read-only errors.

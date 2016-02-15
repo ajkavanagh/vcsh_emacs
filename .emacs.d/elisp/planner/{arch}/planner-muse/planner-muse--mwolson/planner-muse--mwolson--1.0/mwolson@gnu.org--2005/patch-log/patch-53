@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-53
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 19:46:00 EST 2005
+Standard-date: 2005-08-10 00:46:00 GMT
+Modified-files: ChangeLog.mwolson Makefile Makefile.defs
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-53
+Summary: Make use of BUILDOPTS.
+Keywords: 
+
+* Makefile.defs (BUILDOPTS): New variable indicating extra options to be
+  passed to dpkg-buildpackage.
+
+* Makefile (debrelease): Use $(BUILDOPTS).

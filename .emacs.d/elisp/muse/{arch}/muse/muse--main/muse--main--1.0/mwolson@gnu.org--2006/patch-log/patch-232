@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-232
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 29 18:35:11 EST 2006
+Standard-date: 2006-10-29 23:35:11 GMT
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+    examples/mwolson/stylesheets/blog.css
+    examples/mwolson/stylesheets/common.css
+    examples/mwolson/templates/footer.html
+    examples/mwolson/templates/generic-header.html
+    examples/mwolson/templates/header.html
+    examples/mwolson/templates/header.tex
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-232
+Summary: Update my example configuration
+Keywords: 
+

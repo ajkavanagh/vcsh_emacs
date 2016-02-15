@@ -1,0 +1,21 @@
+Revision: planner--dev--1.0--patch-382
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 21 01:40:35 PHT 2005
+Standard-date: 2005-04-20 17:40:35 GMT
+Modified-files: ChangeLog planner-bookmark.el
+    planner-multi.el planner-timeclock.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-382
+Summary: XEmacs compatibility: condition-case instead of 4-arg require, XEmacs menu strangeness
+Keywords: 
+
+* planner-multi.el (err): Replace with XEmacs-friendly version that uses
+  condition-case to catch require errors. Thanks to Andreas Stemmer for
+  the bug report and Jim Ottaway for the suggested fix.
+
+* planner-timeclock.el (nil): Hackish workaround for XEmacs menu
+  strangeness. Despite being mentioned in easy-menu-add-item's docstring,
+  easy-menu-create-menu does not exist in XEmacs.
+
+* planner-bookmark.el (bookmark-set): Replace 4-arg require with
+  condition-case.

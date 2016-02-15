@@ -1,0 +1,20 @@
+Revision: planner--merge--1.0--patch-12
+Archive: hodique@lifl.fr--test
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jul 15 19:31:29 CEST 2005
+Standard-date: 2005-07-15 17:31:29 GMT
+Modified-files: planner-backend.el
+    planner-emacs-wiki-backend.el planner-muse-backend.el
+    planner.el
+New-patches: hodique@lifl.fr--test/planner--merge--1.0--patch-12
+Summary: Fix incorrect protocol handling
+Keywords:
+
+* planner-backend.el (planner-backend-set-sym-and-url-regexp): new generic function
+
+* planner-emacs-wiki-backend.el (planner-emacs-wiki-backend-set-sym-and-url-regexp): implement planner-backend-set-sym-and-url-regexp
+
+* planner-muse-backend.el (planner-muse-backend-set-sym-and-url-regexp): implement planner-backend-set-sym-and-url-regexp
+
+* planner.el (planner-url-protocols): use planner-backend-set-sym-and-url-regexp
+(planner-add-protocol): same thing

@@ -1,0 +1,17 @@
+Revision: emacs-wiki--sacha--1.0--patch-139
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 24 14:52:33 PHT 2004
+Standard-date: 2004-03-24 06:52:33 GMT
+Modified-files: planner-id.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-139
+Summary: Do not update cancelled/completed tasks. Minor optimizations for renumbering 
+Keywords: 
+
+	* planner.el (planner-renumber-tasks): Unlet
+	planner-use-font-lock. Try to optimize handling for plan
+	pages.
+        (planner-renumber-notes): Unlet planner-use-font-lock.
+
+	* planner-id.el (planner-id-update-tasks-on-page): Do not update cancelled or completed tasks.
+

@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-59
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 28 00:06:49 PHT 2004
+Standard-date: 2004-04-27 16:06:49 GMT
+Modified-files: planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-59
+Summary: planner-id: Make automatic updating optional (default: off)
+Keywords: 
+
+	* planner-id.el: Note about new variable.
+	(planner-id-update-automatically): New option controls whether to
+	update linked pages automatically or not.
+	(planner-id-update-tasks-maybe): For convenience.
+	(planner-id-setup): Name the hook function.
+	(planner-mode-hook): Hook in.
+

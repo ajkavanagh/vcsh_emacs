@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.1--patch-27
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Dec 16 12:54:43 GMT 2005
+Standard-date: 2005-12-16 12:54:43 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-27
+Summary: planner-appt: remove documentation
+Keywords: 
+
+* planner-appt.el: Removed the documentation at the beginning of the file
+  since it is in the texinfo file.
+

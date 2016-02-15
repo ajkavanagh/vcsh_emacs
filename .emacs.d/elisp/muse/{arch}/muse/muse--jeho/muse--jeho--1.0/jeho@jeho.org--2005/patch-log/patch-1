@@ -1,0 +1,24 @@
+Revision: muse--jeho--1.0--patch-1
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Mar 11 17:46:56 GMT 2005
+Standard-date: 2005-03-11 17:46:56 GMT
+Modified-files: ChangeLog experimental/muse-blosxom.el
+    muse.texi
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-1
+    mwolson@gnu.org--2005/muse--main--1.0--patch-13
+    mwolson@gnu.org--2005/muse--main--1.0--patch-14
+    mwolson@gnu.org--2005/muse--main--1.0--patch-15
+Summary: merge latest
+Keywords: 
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-13
+   Make muse-blosxom.el a bit more sane, still need to bum it down a bit
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-14
+   Correct documentation, adding some content.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-15
+   Add Projects node to the manual

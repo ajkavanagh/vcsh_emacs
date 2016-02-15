@@ -1,0 +1,10 @@
+Revision: planner--dev--1.0--patch-337
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar  9 00:25:25 PHT 2005
+Standard-date: 2005-03-08 16:25:25 GMT
+Modified-files: ChangeLog planner-mhe.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-337
+Summary: planner-mhe fix from Christopher Garion: mh-path, utility functions
+Keywords: 
+

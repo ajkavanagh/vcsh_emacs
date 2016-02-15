@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-399
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat May 28 20:18:46 PHT 2005
+Standard-date: 2005-05-28 12:18:46 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-399
+Summary: Bugfix: planner-extract-tasks: Accept list of pages
+Keywords: 
+
+* planner.el (planner-extract-tasks): Accept list of pages as a parameter
+instead of requiring a subset of planner-file-alist. Thanks to Peter K.
+Lee for the patch.

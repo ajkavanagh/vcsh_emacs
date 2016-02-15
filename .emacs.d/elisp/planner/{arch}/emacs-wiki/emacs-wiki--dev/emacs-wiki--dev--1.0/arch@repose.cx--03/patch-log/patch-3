@@ -1,0 +1,19 @@
+Revision: emacs-wiki--dev--1.0--patch-3
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Mon Jun 23 01:02:18 EST 2003
+Standard-date: 2003-06-22 15:02:18 GMT
+Summary: process custom tags in changelog markup before escaping html entities
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-3
+Removed-patches: 
+
+process custom tags in changelog markup before escaping html entities

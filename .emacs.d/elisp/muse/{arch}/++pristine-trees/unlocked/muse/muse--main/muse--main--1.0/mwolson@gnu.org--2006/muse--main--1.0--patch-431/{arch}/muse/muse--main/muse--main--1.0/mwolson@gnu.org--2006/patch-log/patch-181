@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-181
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Aug 10 18:22:57 EDT 2006
+Standard-date: 2006-08-10 22:22:57 GMT
+Modified-files: lisp/muse-html.el lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-181
+Summary: Fix issue with table of contents and derived html styles.
+Keywords: 
+
+* lisp/muse-html.el (muse-html-finalize-buffer): Since the html style
+  does not derive from any other class, return `t' here.  This, along
+  with the corresponding change to muse-publish.el, fixes a problem with
+  the table of contents getting inserted multiple times for custom
+  html-based styles.
+
+* lisp/muse-publish.el (muse-style-run-hooks): Make sure that we do not
+  run the same function twice.

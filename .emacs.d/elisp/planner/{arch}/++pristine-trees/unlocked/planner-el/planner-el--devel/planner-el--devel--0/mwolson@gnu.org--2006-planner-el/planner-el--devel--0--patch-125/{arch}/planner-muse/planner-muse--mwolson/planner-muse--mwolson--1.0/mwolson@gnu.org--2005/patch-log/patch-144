@@ -1,0 +1,17 @@
+Revision: planner-muse--mwolson--1.0--patch-144
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan  1 17:58:59 EST 2006
+Standard-date: 2006-01-01 22:58:59 GMT
+Modified-files: ChangeLog planner-rss.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-144
+Summary: Apply several bugfixes from Sacha.
+Keywords: 
+
+* planner-rss.el (planner-publish-markup-rss-functions): Fix typo.
+  Thanks to Sacha Chua for the fix.
+
+* planner.el (planner-jump-to-linked-note): Delete only occurs on linked
+  page if narrowing succeeds.  The previous behavior was to delete entire
+  linked page if linked note wasn't found.  Thanks to Lee Bigelow and
+  Sacha Chua for the fix.

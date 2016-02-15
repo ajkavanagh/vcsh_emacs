@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-241
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Nov  4 01:03:41 EST 2006
+Standard-date: 2006-11-04 06:03:41 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-241
+Summary: Fix bug with recognizing wiki project names too loosely
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-handle-explicit-interwiki): Fix a bug with
+  recognizing project names too loosely.

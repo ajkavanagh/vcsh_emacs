@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-188
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 12 15:00:22 EDT 2006
+Standard-date: 2006-08-12 19:00:22 GMT
+Modified-files: ChangeLog NEWS lisp/muse-project.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-188
+Summary: Catch up with NEWS items.
+Keywords: 
+
+* NEWS: Catch up with the latest changes.
+
+* lisp/muse-project.el (muse-project-ignore-regexp)
+  (muse-project-recurse-directory): Docfix.
+  (muse-project-of-file): Try the ignored files regexp against the base
+  filename as well as the entire path.
+
+* lisp/muse-publish.el: (muse-publish-markup-header-footer-tags): Sync
+  lisp tag with the latest changes.

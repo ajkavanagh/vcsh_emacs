@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-370
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 17 01:01:46 EDT 2007
+Standard-date: 2007-06-17 05:01:46 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+    lisp/muse-xml-common.el lisp/muse-xml.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-370
+Summary: Manual: Finish updating for new release
+Keywords: 
+
+2007-06-17  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-latex.el (muse-latex-slides-header)
+	(muse-latex-lecture-notes-header): Docfix.
+
+	* lisp/muse-xml-common.el (muse-xml-encoding-map): Change group to
+	muse-xml.
+
+	* lisp/muse-xml.el (muse-xml-footer): Docfix.
+
+	* texi/muse.texi: Much work.

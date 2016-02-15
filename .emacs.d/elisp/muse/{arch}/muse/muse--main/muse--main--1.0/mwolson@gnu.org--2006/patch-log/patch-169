@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-169
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 29 00:03:29 EDT 2006
+Standard-date: 2006-07-29 04:03:29 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-169
+Summary: Manual: Update mailing list info.
+Keywords: 
+
+* muse.texi (Releases): Update mailing list info.
+  (Implicit Links): Fix use of future tense.
+  (Getting Help and Reporting Bugs): Update mailing list info.

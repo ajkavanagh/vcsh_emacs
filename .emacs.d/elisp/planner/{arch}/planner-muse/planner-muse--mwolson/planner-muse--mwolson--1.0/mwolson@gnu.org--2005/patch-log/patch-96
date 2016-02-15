@@ -1,0 +1,11 @@
+Revision: planner-muse--mwolson--1.0--patch-96
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 16 18:53:30 EST 2005
+Standard-date: 2005-11-16 23:53:30 GMT
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    debian/rules
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-96
+Summary: Make new Debian snapshot.
+Keywords: 
+

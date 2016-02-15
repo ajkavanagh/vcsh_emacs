@@ -1,0 +1,22 @@
+Revision: planner--merge--1.0--patch-5
+Archive: hodique@lifl.fr--test
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 14 14:19:16 CEST 2005
+Standard-date: 2005-07-14 12:19:16 GMT
+Modified-files: planner-backend.el
+    planner-emacs-wiki-backend.el planner-id.el
+    planner-muse-backend.el planner.el
+New-patches: hodique@lifl.fr--test/planner--merge--1.0--patch-5
+Summary: Solve some problems related to planner-mode definitions
+Keywords:
+
+* planner-backend.el (planner-backend-install-markup-color): new generic function
+(planner-backend-mode): suppress this wrapper (problems with hooks, ...)
+
+* planner-emacs-wiki-backend.el (planner-mode): define planner-mode in backend
+(planner-emacs-wiki-backend-install-markup-color): implement planner-backend-install-markup-color
+
+* planner-id.el (planner-id-setup): use planner-backend-install-markup-color
+
+* planner-muse-backend.el (planner-mode): define planner-mode in backend
+(planner-muse-backend-install-markup-color): implement planner-backend-install-markup-color

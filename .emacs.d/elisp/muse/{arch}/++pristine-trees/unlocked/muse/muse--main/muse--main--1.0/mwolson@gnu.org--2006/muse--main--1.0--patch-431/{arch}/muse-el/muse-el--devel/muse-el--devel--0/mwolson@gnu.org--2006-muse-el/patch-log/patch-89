@@ -1,0 +1,31 @@
+Revision: muse-el--devel--0--patch-89
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep 11 19:54:55 EDT 2006
+Standard-date: 2006-09-11 23:54:55 GMT
+Modified-files: AUTHORS ChangeLog
+    contrib/pyblosxom/getstamps.py
+    contrib/pyblosxom/hardcodedates.py
+    contrib/pyblosxom/make-blog lisp/muse-book.el
+    lisp/muse-publish.el lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-89
+    mwolson@gnu.org--2006/muse--main--1.0--patch-201
+    mwolson@gnu.org--2006/muse--main--1.0--patch-202
+    mwolson@gnu.org--2006/muse--main--1.0--patch-203
+    mwolson@gnu.org--2006/muse--main--1.0--patch-204
+Summary: Merged from mwolson@gnu.org--2006 (patch 201-204)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-201
+   Update pyblosxom plugin header info.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-202
+   muse.texi: Fix typo.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-203
+   Revert prematurely committed patch.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-204
+   Use our own safer variant of file-name-sans-extension

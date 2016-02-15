@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-430
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 31 18:58:15 EDT 2007
+Standard-date: 2007-07-31 22:58:15 GMT
+Modified-files: ChangeLog lisp/Makefile
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-430
+Summary: Permit recompilation in lisp/ without running "make clean" first
+Keywords: 
+
+2007-07-31  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/Makefile: Add dependencies between Emacs Lisp files, so
+	that Muse can be recompiled without running "make clean" after an
+	update.

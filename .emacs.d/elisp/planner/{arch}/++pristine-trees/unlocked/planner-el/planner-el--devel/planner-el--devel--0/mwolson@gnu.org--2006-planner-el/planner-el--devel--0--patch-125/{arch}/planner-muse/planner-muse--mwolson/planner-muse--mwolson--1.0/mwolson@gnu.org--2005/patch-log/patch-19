@@ -1,0 +1,20 @@
+Revision: planner-muse--mwolson--1.0--patch-19
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jul  4 18:03:13 EST 2005
+Standard-date: 2005-07-04 23:03:13 GMT
+Modified-files: ChangeLog.mwolson planner-multi.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-19
+Summary: Use muse-explicit-link-regexp instead of muse-link-regexp.
+Keywords: 
+
+* planner-multi.el (planner-multi-task-xref, planner-copy-or-move-task)
+  (planner-multi-task-delete-this-page, planner-multi-note-xref)
+  (planner-multi-note-xref, planner-multi-note-delete-this-page): Use
+  `muse-explicit-link-regexp' instead of `muse-link-regexp'.
+
+* planner.el (planner-link-base, planner-link-target, planner-link-name)
+  (planner-notes-tag): Ditto.
+  (planner-visit-link): Detabify.
+

@@ -1,0 +1,14 @@
+Revision: planner--jeho--1.0--patch-43
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Mar 13 17:16:30 GMT 2005
+Standard-date: 2005-03-13 17:16:30 GMT
+Modified-files: planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-43
+Summary: planner-el.texi: planner-appt documentation
+Keywords: 
+
+* planner-el.texi: made planner-appt documentation better:
+  @subsubheadings instead of @unnumberedsubsubsec, used verbatim for the
+  schedule examples to preserve spacing.
+

@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-155
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 12 09:55:17 EDT 2006
+Standard-date: 2006-06-12 13:55:17 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-155
+Summary: Provide example for <include> in Muse manual.
+Keywords: 
+
+* muse.texi (Tag Summary): Give an example of using the <include> tag.

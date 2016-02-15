@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-125
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jun 25 23:26:49 PHT 2004
+Standard-date: 2004-06-25 15:26:49 GMT
+Modified-files: planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-125
+Summary: planner-gnus: Use gnus-article-buffer if available
+Keywords: bugfix
+
+	* planner-gnus.el (planner-gnus-get-message-id): Save excursion
+	and use current buffer.
+	(planner-gnus-annotation-from-summary): Use planner-make-link.
+	(planner-gnus-annotation-from-message): Test against
+	gnus-article-mode and gnus-original-article-mode. Use the
+	gnus-article-buffer if available.

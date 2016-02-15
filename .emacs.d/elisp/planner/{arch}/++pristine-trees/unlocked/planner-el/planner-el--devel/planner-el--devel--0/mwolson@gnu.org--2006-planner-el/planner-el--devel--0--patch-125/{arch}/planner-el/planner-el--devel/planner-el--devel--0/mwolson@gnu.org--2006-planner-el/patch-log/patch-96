@@ -1,0 +1,17 @@
+Revision: planner-el--devel--0--patch-96
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 29 09:41:57 EST 2006
+Standard-date: 2006-11-29 14:41:57 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-96
+Summary: Fix XEmacs note publishing bug
+Keywords: 
+
+2006-11-29  Michael Olson  <mwolson@gnu.org>
+
+	* planner-publish.el (planner-publish-note-tag): Don't call
+	planner-replace-regexp-in-string if either the text or the regexp
+	are empty strings.  This should fix a bug with note publishing
+	that XEmacs users were experiencing.  Thanks to Cumhur Erkut for
+	the report.

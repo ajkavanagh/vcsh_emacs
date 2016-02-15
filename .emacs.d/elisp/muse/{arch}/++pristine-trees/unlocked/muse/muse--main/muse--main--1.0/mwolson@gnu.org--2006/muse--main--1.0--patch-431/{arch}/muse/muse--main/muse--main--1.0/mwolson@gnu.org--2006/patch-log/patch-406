@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-406
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 26 21:48:26 EDT 2007
+Standard-date: 2007-07-27 01:48:26 GMT
+Modified-files: ChangeLog lisp/muse-xml-common.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-406
+Summary: Do not escape parens in URLs for XML-like styles
+Keywords: 
+
+2007-07-26  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-xml-common.el (muse-xml-escape-url): Do not escape
+	parentheses in URLs.

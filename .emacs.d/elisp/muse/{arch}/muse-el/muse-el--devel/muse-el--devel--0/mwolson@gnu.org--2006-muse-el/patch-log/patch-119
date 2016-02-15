@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-119
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Nov 26 18:07:41 EST 2006
+Standard-date: 2006-11-26 23:07:41 GMT
+Modified-files: ChangeLog NEWS
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-119
+    mwolson@gnu.org--2006/muse--main--1.0--patch-252
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 252)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-252
+   Bring NEWS up to date

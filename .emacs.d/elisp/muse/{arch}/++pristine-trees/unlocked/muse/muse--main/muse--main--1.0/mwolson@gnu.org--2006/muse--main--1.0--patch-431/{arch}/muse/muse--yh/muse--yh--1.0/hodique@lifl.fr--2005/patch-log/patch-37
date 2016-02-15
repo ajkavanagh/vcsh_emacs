@@ -1,0 +1,117 @@
+Revision: muse--yh--1.0--patch-37
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 21 06:36:30 CEST 2005
+Standard-date: 2005-07-21 04:36:30 GMT
+New-files: debian/.arch-ids/muse-el.examples.id
+    debian/muse-el.examples
+Modified-files: ChangeLog Makefile Makefile.defs
+    contrib/pyblosxom/getstamps.py
+    contrib/pyblosxom/hardcodedates.py debian/changelog
+    debian/control debian/copyright debian/emacsen-install
+    debian/rules examples/Makefile examples/QuickStart
+    lisp/muse-blosxom.el lisp/muse-book.el
+    lisp/muse-colors.el lisp/muse-docbook.el
+    lisp/muse-html.el lisp/muse-journal.el
+    lisp/muse-latex.el lisp/muse-mode.el lisp/muse-poem.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-texinfo.el lisp/muse-wiki.el lisp/muse.el
+    muse.texi
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-144
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-37
+    mwolson@gnu.org--2005/muse--main--1.0--patch-148
+    mwolson@gnu.org--2005/muse--main--1.0--patch-149
+    mwolson@gnu.org--2005/muse--main--1.0--patch-150
+    mwolson@gnu.org--2005/muse--main--1.0--patch-151
+    mwolson@gnu.org--2005/muse--main--1.0--patch-152
+    mwolson@gnu.org--2005/muse--main--1.0--patch-153
+    mwolson@gnu.org--2005/muse--main--1.0--patch-154
+    mwolson@gnu.org--2005/muse--main--1.0--patch-155
+    mwolson@gnu.org--2005/muse--main--1.0--patch-156
+    mwolson@gnu.org--2005/muse--main--1.0--patch-157
+    mwolson@gnu.org--2005/muse--main--1.0--patch-158
+    mwolson@gnu.org--2005/muse--main--1.0--patch-159
+    mwolson@gnu.org--2005/muse--main--1.0--patch-160
+    mwolson@gnu.org--2005/muse--main--1.0--patch-161
+    mwolson@gnu.org--2005/muse--main--1.0--patch-162
+    mwolson@gnu.org--2005/muse--main--1.0--patch-163
+    mwolson@gnu.org--2005/muse--main--1.0--patch-164
+    mwolson@gnu.org--2005/muse--main--1.0--patch-165
+    mwolson@gnu.org--2005/muse--main--1.0--patch-166
+    mwolson@gnu.org--2005/muse--main--1.0--patch-167
+    mwolson@gnu.org--2005/muse--main--1.0--patch-168
+    mwolson@gnu.org--2005/muse--main--1.0--patch-169
+    mwolson@gnu.org--2005/muse--main--1.0--patch-170
+Summary: Merged from mwolson@gnu.org--2005 (patch 148-170)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-148
+   Journal validation fixes.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-149
+   Fix links in table, links in verbatim, emphasis publishing, publishing from script.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-150
+   Improve debian build and put together a package.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-151
+   Slight Debian version tweak.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-152
+   Header/footer docfix; ChangeLog correction.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-153
+   Expand Debian package description.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-154
+   Don't kill temp buffer if debug-on-error is non-nil.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-155
+   Make customize of muse-project-alist work in Emacs21 and XEmacs.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-156
+   Small logic fix with temp files.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-157
+   Misc. blosxom fixes, like category directive.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-158
+   Handle embedded docbook footnotes and <literal> edge case.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-159
+   Handle a few more DocBook edge cases; all known DocBook issues are fixed.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-160
+   muse-texinfo fixes; use info-pdf to generate PDF doc for QuickStart.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-161
+   muse-texinfo: Fix #2635 by adding `}' and `{' to specials list.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-162
+   muse-texinfo: Improve formatting for enddots, dots, underline.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-163
+   muse-docbook: table and anchor fixes; many non-MULE XEmacs fixes.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-164
+   Permit infinitely-nested sections.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-165
+   Link inside table issue, fixes read-only text error.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-166
+   Link with anchor bugfix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-167
+   Add coloring for example, verbatim, and =signs=; anchor fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-168
+   Don't emphasize if a word constituent follows the trailer.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-169
+   5 levels of headings colorization; color bare URLs.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-170
+   Fix #2654: Append a newline when using pdf publishing style.

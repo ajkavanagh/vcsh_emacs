@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-172
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Sep 29 00:00:51 JST 2004
+Standard-date: 2004-09-28 15:00:51 GMT
+Modified-files: planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-172
+Summary: planner-gnus-browse-url: Go back to the safer way of doing things
+Keywords: 
+
+	* planner-gnus.el (planner-gnus-browse-url): Go back to the
+	somewhat safer (but more tedious) way of doing things.

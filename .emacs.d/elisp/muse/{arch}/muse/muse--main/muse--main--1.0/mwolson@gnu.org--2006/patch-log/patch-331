@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-331
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun  2 15:31:36 EDT 2007
+Standard-date: 2007-06-02 19:31:36 GMT
+Modified-files: ChangeLog texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-331
+Summary: manual: Clarify what image-link, link, and link-and-anchor mean
+Keywords: 
+
+2007-06-02  Michael Olson  <mwolson@gnu.org>
+
+	* texi/muse.texi (Markup Strings): Clarify the meanings of
+	image-link, link, and link-and-anchor.

@@ -1,0 +1,40 @@
+Revision: muse--main--1.0--patch-332
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun  2 16:54:26 EDT 2007
+Standard-date: 2007-06-02 20:54:26 GMT
+Modified-files: ChangeLog NEWS examples/Makefile
+    examples/QuickStart.muse lisp/muse-colors.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-332
+Summary: Make it possible to not inline an image
+Keywords: 
+
+* NEWS: Update for non-inlined image change.
+
+* examples/Makefile (clean): Clean backup files.
+
+* examples/QuickStart.muse (Images): New section that describes how to
+  inline and not inline images.
+
+* lisp/muse-colors.el (muse-colors-resolve-image-file): Don't touch
+  images that have "URL:" in front of them.
+
+* lisp/muse-protocols.el (muse-url-protocols): Add handler for "URL:".
+  Use the identity function to resolve, since we don't want to rip "URL:"
+  out while publishing, due to some magic that depends on that text.
+  (muse-browse-url-url): New function that browses URLs that have "URL:"
+  in front of them, by removing the "URL:" part and reprocessing the
+  remainder.
+
+* lisp/muse-publish.el (muse-publish-desc-transforms): Add
+  `muse-publish-strip-URL' as a default value.
+  (muse-publish-classify-url): If target begins with "URL:" return type
+  url.
+  (muse-publish-strip-URL): New function that strips "URL:" from the
+  beginning of a string.  This is used to remove URL: from the link
+  description.
+
+* texi/muse.texi (Images): Update for new non-inlined image ability and
+  provide example.

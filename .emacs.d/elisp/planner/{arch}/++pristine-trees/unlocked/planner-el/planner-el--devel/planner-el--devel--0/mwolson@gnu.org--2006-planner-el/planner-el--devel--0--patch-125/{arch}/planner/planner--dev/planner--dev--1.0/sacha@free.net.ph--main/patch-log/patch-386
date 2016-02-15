@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-386
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 27 11:07:15 PHT 2005
+Standard-date: 2005-04-27 03:07:15 GMT
+Modified-files: ChangeLog planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-386
+Summary: Bugfix: planner-replan-note should properly add notes to non-wiki-named pages
+Keywords: 
+
+* planner.el (planner-replan-note): Bugfix: Go back to beginning of
+buffer whenever searching for a note. Also, get the base of the note page
+link when concatenating a new reference to it. This means that links
+specified with [[ and ]] should work.
+
+* planner-multi.el (planner-replan-note): Add current link only if it is
+not already in the list. Also, get the base of the note page
+link when concatenating a new reference to it.
+

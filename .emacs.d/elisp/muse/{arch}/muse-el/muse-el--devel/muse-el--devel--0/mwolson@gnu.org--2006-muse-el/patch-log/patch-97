@@ -1,0 +1,21 @@
+Revision: muse-el--devel--0--patch-97
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Sep 26 02:54:14 EDT 2006
+Standard-date: 2006-09-26 06:54:14 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-backlink.el
+    lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-97
+    mwolson@gnu.org--2006/muse--main--1.0--patch-209
+    mwolson@gnu.org--2006/muse--main--1.0--patch-210
+    mwolson@gnu.org--2006/muse--main--1.0--patch-211
+Summary: Merged from mwolson@gnu.org--2006 (patch 209-211)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-210
+   Add ChangeLog entries for recently contributed changes
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-211
+   muse-colors: Fix bug found by recent Emacs 22 builds

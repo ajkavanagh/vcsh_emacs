@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-81
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 26 14:14:51 EDT 2006
+Standard-date: 2006-06-26 18:14:51 GMT
+Modified-files: ChangeLog lisp/muse-mode.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-81
+    mwolson@gnu.org--2006/muse--main--1.0--patch-157
+Summary: Merged from mwolson@gnu.org--2006 (patch 157)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-157
+   Don't use illegal C-c i keybinding.

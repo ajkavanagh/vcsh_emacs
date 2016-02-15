@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-222
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep  5 00:12:07 EST 2005
+Standard-date: 2005-09-05 05:12:07 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-222
+Summary: muse-latex: Call pdflatex twice to get <contents> published.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-pdf-generate): Quote arguments.  Call
+  pdflatex twice, since this seems to be necessary to get <contents>
+  published.  Thanks to Trent Buck for the heads up.  I wonder if we need
+  to call it three times, since this is what John originally did.  Can
+  someone please give me advice about this?

@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-344
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun 12 20:52:03 EDT 2007
+Standard-date: 2007-06-13 00:52:03 GMT
+New-files: etc/.arch-ids/=id
+New-directories: etc etc/.arch-ids
+Renamed-files: .arch-ids/IDEAS.muse.id etc/.arch-ids/IDEAS.muse.id
+    IDEAS.muse etc/IDEAS.muse
+Modified-files: ChangeLog etc/IDEAS.muse
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-344
+Summary: IDEAS: Install new contributors' code after the release
+Keywords: 
+
+2007-06-12  Michael Olson  <mwolson@gnu.org>
+
+	* IDEAS.muse: Install things from new contributors just after the
+	3.03 release, since I won't have time to review the code before
+	the release.

@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-175
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Aug  6 19:20:09 EDT 2006
+Standard-date: 2006-08-06 23:20:09 GMT
+Modified-files: NEWS lisp/muse-colors.el lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-175
+Summary: Fix #5359: Word wrap ignores definition lists.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-tags): Allow <lisp> to take
+  attributes.
+  (muse-colors-lisp-tag): Figure out where the <lisp> tag and its
+  delimiter are instead of hard-coding it.
+
+* lisp/muse-mode.el (muse-mode): Make filling definition lists work
+  better.  This should fix #5359.
+
+* NEWS: Update through patch-84.

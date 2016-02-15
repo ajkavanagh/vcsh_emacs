@@ -1,0 +1,69 @@
+Revision: planner--johnsu01--0--patch-20
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Tue Sep  6 20:40:11 EDT 2005
+Standard-date: 2005-09-07 00:40:11 GMT
+Modified-files: planner-appt.el planner-cyclic.el
+    planner-multi.el planner-timeclock-summary.el planner.el
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-20
+    sacha@free.net.ph--main/planner--dev--1.0--patch-471
+    sacha@free.net.ph--main/planner--dev--1.0--patch-472
+    sacha@free.net.ph--main/planner--dev--1.0--patch-473
+    sacha@free.net.ph--main/planner--dev--1.0--patch-474
+    sacha@free.net.ph--main/planner--dev--1.0--patch-475
+    sacha@free.net.ph--main/planner--dev--1.0--patch-476
+    sacha@free.net.ph--main/planner--dev--1.0--patch-477
+    sacha@free.net.ph--main/planner--dev--1.0--patch-478
+    sacha@free.net.ph--main/planner--dev--1.0--patch-479
+    sacha@free.net.ph--main/planner--dev--1.0--patch-480
+    sacha@free.net.ph--main/planner--dev--1.0--patch-481
+    sacha@free.net.ph--main/planner--dev--1.0--patch-482
+    sacha@free.net.ph--main/planner--dev--1.0--patch-483
+    sacha@free.net.ph--main/planner--dev--1.0--patch-484
+Summary: Catch up with Sacha.
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-471
+   Bugfix: with-planner: Defer evaluation of planner-derived-mode-p
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-472
+   Bugfix: with-planner-update-setup: Save current window point as well
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-473
+   Catch up with john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-474
+   Bugfix: planner-appt-mark-calendar shouldn't call planner-appt-filename-to-date
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-475
+   Merge planner-cyclic and planner-multi bugfixes from Sergey Vlasov
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-476
+   planner.el: Remove exit-calendar compile advice, and uncollapse outline
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-477
+   planner-multi-task-date bugfix: Be careful about links
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-478
+   Bugfix: planner-task-info-from-string: Make sure link is non-nil before string-matching
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-479
+   planner-multi-task-date bugfix: Fix matching finally!
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-480
+   Bugfix: planner-extract-tasks should use planner-line-beginning-position
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-481
+   Bugfix: planner-timeclock-summary-day-range-entry: Accept functions again
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-482
+   Bugfix: planner-multi-task-xref: Use planner-replan-task
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-483
+   Bugfix: planner-multi-replan-task should suggest only plan pages
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-484
+   Bugfix: planner-delete-task and planner-edit-task-description-basic when linked tasks do not exist
+

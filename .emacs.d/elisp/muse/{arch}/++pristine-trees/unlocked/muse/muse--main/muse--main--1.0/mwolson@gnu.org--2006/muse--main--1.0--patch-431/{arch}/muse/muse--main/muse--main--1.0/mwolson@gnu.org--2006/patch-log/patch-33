@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-33
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Mar  1 15:21:08 EST 2006
+Standard-date: 2006-03-01 20:21:08 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-33
+Summary: Add comments to nested list code.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-dl)
+  (muse-publish-surround-text, muse-forward-dl-item):
+  (muse-forward-list-item): Add comments, since there were many
+  intricacies that are probably not obvious to the casual reader.
+  (muse-forward-dl-item): Remove no-op condition.

@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-18
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Mar 23 14:05:09 EST 2005
+Standard-date: 2005-03-23 19:05:09 GMT
+Renamed-files: experimental/.arch-ids/muse-blosxom.el.id .arch-ids/muse-blosxom.el.id
+    experimental/muse-blosxom.el muse-blosxom.el
+Modified-files: ChangeLog muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-18
+Summary: muse-blosxom.el has matured past experimental status
+Keywords: 
+
+2005-03-23  Michael Olson  <mwolson@gnu.org>
+
+    * muse-blosxom.el: Remove common functionality that has already
+    been implemented in `muse-html.el'.  Derive this mode from
+    `muse-html'.  Update documentation.  I now feel that this file is
+    ready to be included in the top-level Muse directory.

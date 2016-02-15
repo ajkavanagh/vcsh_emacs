@@ -1,0 +1,33 @@
+Revision: muse--yh--1.0--patch-25
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul  7 08:09:59 CEST 2005
+Standard-date: 2005-07-07 06:09:59 GMT
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+    lisp/muse-blosxom.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-regexps.el lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-25
+    mwolson@gnu.org--2005/muse--main--1.0--patch-97
+    mwolson@gnu.org--2005/muse--main--1.0--patch-98
+    mwolson@gnu.org--2005/muse--main--1.0--patch-99
+    mwolson@gnu.org--2005/muse--main--1.0--patch-100
+    mwolson@gnu.org--2005/muse--main--1.0--patch-101
+Summary: Merged from mwolson@gnu.org--2005 (patch 97-101)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-97
+   New function: muse-blosxom-project-alist-entry.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-98
+   Further work on `muse-project-alist' entry generation for blosxom.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-99
+   Document new blosxom convenience feature.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-100
+   Implement optional file extension of Muse files.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-101
+   Note that muse-file-extension should not have "." in front.

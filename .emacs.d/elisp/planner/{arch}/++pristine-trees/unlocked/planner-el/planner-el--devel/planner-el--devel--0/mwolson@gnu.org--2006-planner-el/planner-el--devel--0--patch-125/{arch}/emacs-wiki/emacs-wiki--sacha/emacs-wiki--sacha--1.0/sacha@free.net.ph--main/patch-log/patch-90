@@ -1,0 +1,36 @@
+Revision: emacs-wiki--sacha--1.0--patch-90
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 12 13:06:19 PHT 2004
+Standard-date: 2004-03-12 05:06:19 GMT
+Modified-files: remember-planner.el remember.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-90
+Summary: Major user change in remember-planner: M-x remember instead
+Keywords: 
+
+	* remember-planner.el: Add doc note. Remove old function aliases.
+	MAJOR USER CHANGE: No more need for separate M-x
+	remember-to-planner method. Instead, use (setq
+	remember-handler-functions 'remember-planner-append) and use M-x
+	remember to remember.
+	(remember-planner-append): Rename from remember-append-to-planner.
+	Use remember-planner-append-hook.
+	(remember-planner-append-hook): Rename from
+	remember-append-to-planner-hook.
+	(remember-planner-add-timestamp): Update docnote.
+	(remember-to-planner): Delete function (merge into M-x remember).
+	(remember-planner-set-default-page): New function added to
+	remember-before-remember-hook.
+	(remember-planner-append): Return t always.
+
+	* remember.el: User-visible change: C-u M-x remember remembers a
+	region.
+	(remember-initial-contents): New variable so that hooks can
+	control this.
+	(remember-before-remember-hook): New hook for pre-processing.
+	(remember): If called with prefix, remember region. Call
+	remember-before-remember-hook. Use remember-initial-contents.
+	(remember-region): Use remember.
+	(remember-clipboard): Use remember.
+	(remember-buffer): Use remember.
+

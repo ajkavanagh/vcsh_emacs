@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-268
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 16 18:56:20 EST 2005
+Standard-date: 2005-11-16 23:56:20 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-268
+Summary: Allow "-" in publishing directives.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-regexps): Allow "-" in
+  publishing directives.  Thanks to Jim Ottaway for the suggestion.

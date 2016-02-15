@@ -1,0 +1,17 @@
+Revision: planner-muse--mwolson--1.0--patch-17
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 29 23:28:19 EST 2005
+Standard-date: 2005-06-30 04:28:19 GMT
+Modified-files: ChangeLog.mwolson planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-17
+Summary: Fix planner-derived-mode-p issues around planner-save-buffers.
+Keywords: 
+
+* planner.el (muse): Thanks to Peter K. Lee for the patch!
+ (planner-derived-mode-p): since calling derived-mode-p directly now
+ instead of defalias, must have the &rest list unexpanded since
+ derived-mode-p sees (list (list ...)) instead of (list ...).
+ (planner-save-buffers): for some reason `muse-page-name' returns a ""
+ whereas `emacs-wiki-page-name' returns nil.  added an extra check for
+ the muse case.

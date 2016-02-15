@@ -1,0 +1,17 @@
+Revision: planner--jeho--1.1--patch-21
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Dec 13 13:48:52 GMT 2005
+Standard-date: 2005-12-13 13:48:52 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-21
+Summary: planner-appt: rewrite task appt section code
+Keywords: 
+
+* planner-appt.el (planner-appt-update-appt-section): Use a simpler
+  method: add a text property to indicate that a line is derived from the
+  task list. 
+  (planner-appt-add-appts-from-schedule): Use the text property added by
+  planner-appt-update-appt-section to determine that a line should not be
+  parsed. 
+

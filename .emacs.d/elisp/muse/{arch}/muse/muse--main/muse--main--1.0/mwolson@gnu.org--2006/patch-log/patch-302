@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-302
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr 22 18:52:26 EDT 2007
+Standard-date: 2007-04-22 22:52:26 GMT
+Modified-files: ChangeLog lisp/muse-protocols.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-302
+Summary: Fix bug with browsing woman:// links
+Keywords: 
+
+2007-04-22  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-protocols.el (muse-url-protocols): Remove stray quote
+	character.
+	(muse-protocol-find): Find protocols correctly.  Rewrite to use
+	catch/throw.
+	(muse-browse-url): Don't concatenate "\`" here.  Together, this
+	fixes a bug with browsing woman:// links.

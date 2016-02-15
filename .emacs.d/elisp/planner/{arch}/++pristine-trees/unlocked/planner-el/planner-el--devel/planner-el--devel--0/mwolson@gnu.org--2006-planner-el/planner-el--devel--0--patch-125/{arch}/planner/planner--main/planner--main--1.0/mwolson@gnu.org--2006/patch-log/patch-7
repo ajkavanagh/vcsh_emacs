@@ -1,0 +1,21 @@
+Revision: planner--main--1.0--patch-7
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan 31 09:45:47 EST 2006
+Standard-date: 2006-01-31 14:45:47 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-42
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-43
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-44
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-45
+    mwolson@gnu.org--2006/planner--main--1.0--patch-7
+Summary: Merged from jeho@jeho.org--2005 (patch 42-45)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-44
+   fix initialization for XEmacs
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-45
+   further fix for XEmacs initialization

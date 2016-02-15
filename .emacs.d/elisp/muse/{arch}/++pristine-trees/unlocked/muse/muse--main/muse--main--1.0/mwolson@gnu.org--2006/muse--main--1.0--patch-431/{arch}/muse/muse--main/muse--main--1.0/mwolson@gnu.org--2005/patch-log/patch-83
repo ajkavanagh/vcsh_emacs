@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-83
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jul  4 06:20:50 EST 2005
+Standard-date: 2005-07-04 11:20:50 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-83
+Summary: Update postal address of FSF in muse-wiki.el.
+Keywords: 
+
+* lisp/muse-wiki.el: Update postal address of the FSF.
+

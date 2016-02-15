@@ -1,0 +1,23 @@
+Revision: muse--main--1.0--patch-17
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Mar 22 00:28:01 EST 2005
+Standard-date: 2005-03-22 05:28:01 GMT
+Modified-files: ChangeLog experimental/muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-17
+Summary: Make muse-blosxom.el slightly less experimental
+Keywords: 
+
+2005-03-22  Michael Olson  <mwolson@gnu.org>
+
+    * experimental/muse-blosxom.el (muse-blosxom-page-date-alist):
+    Renamed from `blosxom-page-date-alist'.  Currently it does nothing
+    useful.
+    (muse-blosxom-markup-regexps): Remove unnecessary first grouping
+    from the `muse-blosxom-markup-date-directive' rule.
+    (blosxom-set-time): Remove this function.  We're not going to be
+    touching the timestamp manually anymore -- it's too much of a
+    hassle.  Right now I've got a python program that compiles a
+    timestamp file and a pyblosxom helper that reads it.  Something
+    similar could be arranged for blosxom, I'm sure.
+

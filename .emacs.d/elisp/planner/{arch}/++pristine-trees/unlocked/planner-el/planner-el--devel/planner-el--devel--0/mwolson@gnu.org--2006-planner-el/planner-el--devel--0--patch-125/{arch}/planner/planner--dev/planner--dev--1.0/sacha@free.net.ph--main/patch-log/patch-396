@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-396
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon May  9 18:34:45 PHT 2005
+Standard-date: 2005-05-09 10:34:45 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-396
+Summary: NOTE: planner-tasks-file-behavior new default: 'close
+Keywords: 
+
+* planner.el (planner-tasks-file-behavior): Set the default to 'close.
+  Thanks to Sharon Kimble for making me realize that this is the
+  reasonable default.

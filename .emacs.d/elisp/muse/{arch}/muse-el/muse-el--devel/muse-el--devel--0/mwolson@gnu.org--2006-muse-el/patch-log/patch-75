@@ -1,0 +1,27 @@
+Revision: muse-el--devel--0--patch-75
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May 29 17:40:30 EDT 2006
+Standard-date: 2006-05-29 21:40:30 GMT
+Renamed-files: .arch-ids/ChangeLog.2006.id .arch-ids/ChangeLog.id
+    ChangeLog.2006 ChangeLog
+Modified-files: ChangeLog ChangeLog.2004 debian/rules
+    lisp/muse-html.el lisp/muse-publish.el muse.texi
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/base-0
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-75
+    mwolson@gnu.org--2006/muse--main--1.0--patch-142
+    mwolson@gnu.org--2006/muse--main--1.0--patch-143
+    mwolson@gnu.org--2006/muse--main--1.0--patch-144
+Summary: Merged from mwolson@gnu.org--2006 (patch 142-144)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-142
+   Make ChangeLog conform to conventions better.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-143
+   Implement <include> and <markup> tags.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-144
+   List all tags in Muse's documentation.

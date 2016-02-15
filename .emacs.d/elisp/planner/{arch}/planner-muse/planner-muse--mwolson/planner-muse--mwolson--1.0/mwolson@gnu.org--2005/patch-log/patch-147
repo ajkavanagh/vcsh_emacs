@@ -1,0 +1,27 @@
+Revision: planner-muse--mwolson--1.0--patch-147
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  2 17:48:38 EST 2006
+Standard-date: 2006-01-02 22:48:38 GMT
+Modified-files: ChangeLog planner-appt.el planner-publish.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-147
+Summary: planner-publish: Yet Another Patch.  Remove stale functions.
+Keywords: 
+
+* planner-appt.el (planner-appt-de-wiki): Move to planner.el.
+  (planner-appt-format-description): Use planner-remove-links rather than
+  planner-appt-de-wiki.
+
+* planner-publish.el: Apply patch from Dale Smith.
+  (planner-publish-markup-tags): Use the correct attributes.
+  (planner-publish-notes-section-tag): Don't call
+  muse-publish-markup-region explicitly.
+
+* planner-publish.el (planner-publish-notes-tag): Use
+  planner-remove-links.
+
+* planner.el (planner-encode-url, planner-link-escape)
+  (planner-link-unescape): Remove.
+  (planner-remove-links): Renamed from planner-appt-de-wiki.  Keep track
+  of start position for sanity.

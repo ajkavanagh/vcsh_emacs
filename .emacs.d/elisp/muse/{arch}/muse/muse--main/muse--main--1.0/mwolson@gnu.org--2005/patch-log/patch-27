@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-27
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Apr 16 13:08:24 EST 2005
+Standard-date: 2005-04-16 18:08:24 GMT
+Modified-files: ChangeLog muse-journal.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-27
+Summary: Merge RSS 2.0 enclosure support for muse-journal.el from johnw
+Keywords: 
+
+2005-04-16  Michael Olson  <mwolson@gnu.org>
+
+    * muse-journal.el: Merge in enclosure support for RSS 2.0 from
+    johnw. If a journal entry's title is a [[link]], then an
+    <enclosure> tag will be added to the XML data giving the size and
+    MIME type of the link target.  This makes podcasting with Muse
+    trivial.
+    (muse-journal-rss-entry-template): Add enclosure usage to example.
+    (muse-journal-rss-munge-buffer): Implement enclosures.

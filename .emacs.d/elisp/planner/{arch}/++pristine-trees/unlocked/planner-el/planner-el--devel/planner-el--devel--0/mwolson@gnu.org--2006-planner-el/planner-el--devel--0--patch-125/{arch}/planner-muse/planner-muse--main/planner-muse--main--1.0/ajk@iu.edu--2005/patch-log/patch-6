@@ -1,0 +1,11 @@
+Revision: planner-muse--main--1.0--patch-6
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Mon Dec  5 20:52:48 EST 2005
+Standard-date: 2005-12-06 01:52:48 GMT
+Modified-files: planner-authz.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-6
+Summary: fix bug when used with muse-wiki.el
+Keywords: 
+
+ - fix definition of planner-authz-link-regexp

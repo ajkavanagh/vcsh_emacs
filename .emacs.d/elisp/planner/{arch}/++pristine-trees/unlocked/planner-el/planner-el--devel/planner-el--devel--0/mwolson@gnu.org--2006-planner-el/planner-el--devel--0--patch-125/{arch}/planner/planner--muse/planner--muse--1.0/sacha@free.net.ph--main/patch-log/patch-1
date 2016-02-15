@@ -1,0 +1,31 @@
+Revision: planner--muse--1.0--patch-1
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr  5 12:48:32 PHT 2005
+Standard-date: 2005-04-05 04:48:32 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--muse--1.0--patch-1
+Summary: M-x plan works
+Keywords: 
+
+* planner.el: Add requires for muse.
+(planner-project): Change docstring.
+(planner-mode): Derive from muse-mode.
+(planner-link-base): Copy code.
+(planner-encode-url): Copy code.
+(planner-mode-map): Make sparse keymap instead of copying.
+(planner-unhighlight-region): Promote from defadvice.
+(with-planner): Change with-planner.
+
+Use Muse equivalents for many functions.
+
+DELETED:
+- planner-update-wiki-project
+- planner-directory
+- planner-publishing-directory
+- planner-project-default-name
+- planner-emacs-wiki
+- planner-name-regexp
+- planner-custom-variables
+- planner-publishing-markup
+- planner-markup-tags

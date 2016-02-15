@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-251
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Nov 26 17:56:07 EST 2006
+Standard-date: 2006-11-26 22:56:07 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-251
+Summary: muse-docbook: Get nested list publishing up to par
+Keywords: 
+
+2006-11-26  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-docbook.el (muse-docbook-markup-paragraph): Fix nested
+	list issues and multiple-stanza verse issues.  This takes care of
+	all of the markup issues I was worried about.

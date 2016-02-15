@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-233
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep 15 23:05:19 EST 2005
+Standard-date: 2005-09-16 04:05:19 GMT
+Modified-files: ChangeLog Makefile muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-233
+Summary: Make documentation separately installable.
+Keywords: 
+
+* Makefile (install): Split into install-bin and install-info.
+
+* muse.texi (Markup Regexps): Fix display bug.

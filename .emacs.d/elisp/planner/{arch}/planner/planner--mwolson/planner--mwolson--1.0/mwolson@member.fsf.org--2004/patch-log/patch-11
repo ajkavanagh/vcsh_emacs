@@ -1,0 +1,54 @@
+Revision: planner--mwolson--1.0--patch-11
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Wed Oct 13 23:24:41 EST 2004
+Standard-date: 2004-10-14 04:24:41 GMT
+Modified-files: planner-bbdb.el planner-diary.el
+    planner-export-diary.el planner-ledger.el
+    planner-rmail.el planner-tasks-overview.el planner-vm.el
+    planner-wl.el planner.el
+New-patches: mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-11
+Summary: Add copyright notices and note contributions
+Keywords: 
+
+2004-10-13  Michael Olson  <mwolson@gnu.org>
+
+    * planner-bbdb.el: Make contributors section.  Add Andrew J. Korty
+    to it.
+
+    * planner-diary.el: Make contributors section.  Add Travis
+    B. Hartwell to it.  Space out years in copyright notice.  Make
+    spacing in header part of file more consistent.
+
+    * planner-export-diary.el: Make contributors section.  Add Xin Wei
+    Hu to it.  Add copyright notice for Xin Wei Hu.
+
+    * planner-ledger.el: Add email address for Will Glozer to
+    copyright notice.  Remove spurious semicolons.
+
+    * planner-rmail.el: Remove spurious semicolons.  Make contributors
+    section.  Add Frederik Fouvry to it.
+
+    * planner-tasks-overview.el: Reformat commentary section.  Make
+    contributors section.  Add Andrew J. Korty to it.  Add thanks
+    section because the URL in it mentions someone who also helped out
+    with this file in some way.
+
+    * planner-vm.el: Add Parts copyright notice for Jürgen Doser.  Add
+    him also to the newly-made contributors section.
+
+    * planner-wl.el: Add email address for Yvonne Thomson.  Add Parts
+    copyright notice for Angus Lees.  Add him to the newly-made
+    contributors section.  Remove "Largely rehacked" message since the
+    contributors section describes the contribution better.
+
+    * planner.el: Change Parts copyright message for Sacha to a full
+    copyright notice since she is the maintainer.  Add Parts copyright
+    notices for David D. Smith, Yvonne Thomson, Michael Olson, and
+    Maciej Kalisak.  Add more detail to thanks section.  Add David
+    D. Smith, Daniel Neri, Mario Peter, Yvonne Thomson, Hoan Ton-That,
+    Michael Olson, Maciej Kalisak, Dale P. Smith, and Stefan Reichör
+    to the newly-made contributors section.
+    (planner-annotation-from-info): Move "Thanks to ..."  notice to
+    contributors section.
+

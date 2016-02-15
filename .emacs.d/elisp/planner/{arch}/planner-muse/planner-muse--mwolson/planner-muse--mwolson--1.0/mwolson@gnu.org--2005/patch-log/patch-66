@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-66
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep  5 09:56:43 EST 2005
+Standard-date: 2005-09-05 14:56:43 GMT
+Modified-files: ChangeLog.mwolson planner-rss.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-66
+Summary: planner-rss: Minor muse-publishing-styles fix.
+Keywords: 
+
+* planner-rss.el: Only add planner-rss and planner-rss-info to
+  muse-publishing-styles if they don't already exist.

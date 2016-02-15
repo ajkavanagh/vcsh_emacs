@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-186
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Oct 13 22:07:07 JST 2004
+Standard-date: 2004-10-13 13:07:07 GMT
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-186
+Summary: planner-gnus, summary: Take process marks into account
+Keywords: external, improvement
+
+	* planner-gnus.el (planner-gnus-annotation-from-summary): Take
+	process marks into account. Thanks to Mario Domgörgen for the
+	patch.

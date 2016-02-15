@@ -1,0 +1,13 @@
+Revision: emacs-wiki--dev--1.0--patch-30
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Thu Sep  4 18:34:32 EST 2003
+Standard-date: 2003-09-04 08:34:32 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-30
+Summary: new files in wiki directories were not recognised
+Keywords: 
+
+A recent change to (emacs-wiki-directories-member) caused finding new
+files in a wiki directory to not correctly recognise the file. This
+has now been fixed.

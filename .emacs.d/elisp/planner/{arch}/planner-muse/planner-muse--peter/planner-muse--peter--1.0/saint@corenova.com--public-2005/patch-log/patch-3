@@ -1,0 +1,30 @@
+Revision: planner-muse--peter--1.0--patch-3
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Mon Aug  1 12:10:55 PDT 2005
+Standard-date: 2005-08-01 19:10:55 GMT
+New-files: .arch-ids/ChangeLog.sacha.id ChangeLog.sacha
+Removed-files: .arch-ids/ChangeLog.sacha-muse.id
+    ChangeLog.sacha-muse
+Modified-files: ChangeLog.mwolson planner-calendar.el
+    planner-experimental.el planner-ical.el
+    planner-tasks-overview.el planner-xtla.el planner.el
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-5
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-39
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-40
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-41
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-42
+    sacha@free.net.ph--main/planner--dev--1.0--patch-458
+    sacha@free.net.ph--main/planner--dev--1.0--patch-459
+    sacha@free.net.ph--main/planner--dev--1.0--patch-460
+    sacha@free.net.ph--main/planner--dev--1.0--patch-461
+    sacha@free.net.ph--main/planner--dev--1.0--patch-462
+    sacha@free.net.ph--main/planner--dev--1.0--patch-463
+    sacha@free.net.ph--main/planner--dev--1.0--patch-464
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-3
+Summary: Merged from planner-muse--mwolson--1.0
+Keywords: merge
+
+I wonder how I can get merge log like michael...  I'll ask later.
+
+

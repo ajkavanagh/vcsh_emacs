@@ -1,0 +1,69 @@
+Revision: planner--dev--1.0--patch-339
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 10 15:41:18 PHT 2005
+Standard-date: 2005-03-10 07:41:18 GMT
+New-files: .arch-ids/planner-trunk.el.id planner-trunk.el
+Modified-files: ChangeLog planner-el.texi planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-17
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-18
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-19
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-20
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-21
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-22
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-23
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-24
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-25
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-26
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-27
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-28
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-29
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-30
+    sacha@free.net.ph--main/planner--dev--1.0--patch-339
+Summary: Sync with dryice@liu.com.cn--public: new planner-trunk.el, planner-rank.el documentation
+Keywords: 
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-17
+   merge from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-18
+   new planner-trunk.el to group tasks in day page
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-19
+   merge patch 331-332 from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-20
+   merge Keith Amidon's bug fix and improvements
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-21
+   fix problem if planner-multi is loaded and there are space in bookmark name
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-22
+   merge from main stream patch-333
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-23
+   document planner-rank in info and some related docfixs
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-24
+   merge from Keith Amidon: support trunk on plan pages and add sub-section headers
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-25
+   optional force trunk completed tasks together with non-completed tasks and minor improvements
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-26
+   use the helper functions
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-27
+   merge patch-334 from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-28
+   merge from Keith Amidon: now works with outline minor mode better
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-29
+   Run hooks instead of call outline-show-all
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-30
+   merge patch 335-337 from main stream
+

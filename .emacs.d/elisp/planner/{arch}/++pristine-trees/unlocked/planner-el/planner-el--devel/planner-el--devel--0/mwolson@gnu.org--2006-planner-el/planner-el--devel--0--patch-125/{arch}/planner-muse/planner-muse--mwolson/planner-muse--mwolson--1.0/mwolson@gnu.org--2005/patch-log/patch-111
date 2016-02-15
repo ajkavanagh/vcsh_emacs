@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-111
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Nov 22 22:00:04 EST 2005
+Standard-date: 2005-11-23 03:00:04 GMT
+Modified-files: ChangeLog planner-authz.el
+    test/planner-cyclic-test.el test/planner-test.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-111
+Summary: planner-authz.el: Begin porting to Muse.
+Keywords: 
+
+* planner-authz.el: Begin porting this to Muse.  It's only about halfway
+  done.  It's something to work on for vacation, I guess :^) .
+
+* test/planner-cyclic-test.el, test/planner-test.el: Rewrite for Muse.

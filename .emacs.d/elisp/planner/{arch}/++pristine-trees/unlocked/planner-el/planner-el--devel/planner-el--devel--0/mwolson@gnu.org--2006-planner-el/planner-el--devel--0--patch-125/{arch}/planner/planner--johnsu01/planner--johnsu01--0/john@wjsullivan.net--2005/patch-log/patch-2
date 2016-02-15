@@ -1,0 +1,9 @@
+Revision: planner--johnsu01--0--patch-2
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sat Apr 16 02:55:03 EDT 2005
+Standard-date: 2005-04-16 06:55:03 GMT
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-2
+Summary: Replaced all occurrences of PlannerMode with Planner except where inaccurate.
+Keywords: 
+

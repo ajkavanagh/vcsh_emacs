@@ -1,0 +1,47 @@
+Revision: muse--devo--1.0--patch-1
+Archive: davidsmith@acm.org--main
+Creator: David D. Smith <davidsmith@acm.org>
+Date: ¶â  8·î 26 00:34:45 JST 2005
+Standard-date: 2005-08-25 15:34:45 GMT
+Modified-files: ChangeLog Makefile Makefile.defs NEWS
+    debian/changelog debian/control
+    examples/mwolson/muse-init.el experimental/muse-xml.el
+    lisp/muse-colors.el lisp/muse-docbook.el
+    lisp/muse-html.el lisp/muse-mode.el lisp/muse-publish.el
+    muse.texi
+New-patches: davidsmith@acm.org--main/muse--devo--1.0--patch-1
+    mwolson@gnu.org--2005/muse--main--1.0--patch-202
+    mwolson@gnu.org--2005/muse--main--1.0--patch-203
+    mwolson@gnu.org--2005/muse--main--1.0--patch-204
+    mwolson@gnu.org--2005/muse--main--1.0--patch-205
+    mwolson@gnu.org--2005/muse--main--1.0--patch-206
+    mwolson@gnu.org--2005/muse--main--1.0--patch-207
+    mwolson@gnu.org--2005/muse--main--1.0--patch-208
+Summary: Merge with mwolson
+Keywords: 
+
+
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-202
+   Make building of Debian revisions work.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-203
+   Add items through patch-149 to NEWS.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-204
+   muse-html: Add muse-xhtml-extension.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-205
+   Finish NEWS, handle emphasis at EOF edge case.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-206
+   Document WikiNames and update header publishing information.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-207
+   Document publishing directives.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-208
+   Fix problem with links at beginning of buf and paragraphs.
+

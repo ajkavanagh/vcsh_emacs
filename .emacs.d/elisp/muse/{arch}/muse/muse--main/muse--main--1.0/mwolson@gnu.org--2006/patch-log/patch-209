@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-209
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Sep 26 02:28:49 EDT 2006
+Standard-date: 2006-09-26 06:28:49 GMT
+Modified-files: lisp/muse-backlink.el lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-95
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-96
+    mwolson@gnu.org--2006/muse--main--1.0--patch-209
+Summary: Merged from mwolson@gnu.org--2006-muse-el (patch 95-96)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-95
+   fix for bug #6942 - muse-blosxom-new-entry fails when using tags.
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-96
+   fix muse-backlink

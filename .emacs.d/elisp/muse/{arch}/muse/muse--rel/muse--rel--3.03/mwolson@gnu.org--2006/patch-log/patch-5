@@ -1,0 +1,40 @@
+Revision: muse--rel--3.03--patch-5
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 16:57:31 EDT 2007
+Standard-date: 2007-05-25 20:57:31 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-116
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-117
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-118
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-119
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-120
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-121
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-122
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-123
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-124
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-125
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-126
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-127
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-128
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-129
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-130
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-131
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-132
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-133
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-134
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-135
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-136
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-137
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-138
+    mwolson@gnu.org--2006/muse--main--1.0--patch-318
+    mwolson@gnu.org--2006/muse--main--1.0--patch-319
+    mwolson@gnu.org--2006/muse--main--1.0--patch-320
+    mwolson@gnu.org--2006/muse--rel--3.03--patch-5
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 318-320)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-319
+   muse-publish: Fix inline use of <lisp>

@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-12
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar  3 00:26:29 EST 2006
+Standard-date: 2006-03-03 05:26:29 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-12
+    mwolson@gnu.org--2006/muse--main--1.0--patch-40
+Summary: Merged from mwolson@gnu.org--2006 (patch 40)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-40
+   Make code look nicer by using muse-forward-dl-* functions.

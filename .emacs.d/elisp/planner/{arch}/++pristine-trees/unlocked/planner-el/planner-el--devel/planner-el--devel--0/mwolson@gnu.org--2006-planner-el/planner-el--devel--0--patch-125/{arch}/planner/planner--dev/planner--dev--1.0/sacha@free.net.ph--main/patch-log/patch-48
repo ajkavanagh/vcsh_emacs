@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-48
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 21 22:32:42 PHT 2004
+Standard-date: 2004-04-21 14:32:42 GMT
+Modified-files: planner-rmail.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-48
+Summary: Bugfix: Improve rmail handling of nonexistent messages
+Keywords: 
+
+	* planner-rmail.el (planner-rmail-browse-url): Report the
+          error in the original context. Thanks to Frederik Fouvry for
+          idea/patch.
+

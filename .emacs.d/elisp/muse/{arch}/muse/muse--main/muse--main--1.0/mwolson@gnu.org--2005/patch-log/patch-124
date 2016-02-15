@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-124
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 10 17:41:49 EST 2005
+Standard-date: 2005-07-10 22:41:49 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+    lisp/muse-html.el lisp/muse-project.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-124
+Summary: Silence compiler warnings.
+Keywords: 
+
+* lisp/muse-docbook.el (muse-docbook-fixup-tags): Docfix.
+
+* lisp/muse-html.el (muse-html-escape-string): Let-bind `ch' to silence a
+  compiler warning.
+
+* lisp/muse-project.el (muse-project-applicable-styles): Call
+  `muse-assert' with only 1 argument to silence a compiler warning.

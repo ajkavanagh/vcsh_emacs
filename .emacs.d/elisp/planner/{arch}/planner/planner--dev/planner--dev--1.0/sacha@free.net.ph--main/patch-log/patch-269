@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-269
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jan  1 18:12:43 JST 2005
+Standard-date: 2005-01-01 09:12:43 GMT
+Modified-files: ChangeLog planner-erc.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-269
+Summary: Bugfix: planner-erc-annotation-from-erc
+Keywords: 
+
+	* planner-erc.el (planner-erc-annotation-from-erc): Fix IRC URL.

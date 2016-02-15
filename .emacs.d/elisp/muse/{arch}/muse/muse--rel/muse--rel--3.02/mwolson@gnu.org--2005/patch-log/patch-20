@@ -1,0 +1,11 @@
+Revision: muse--rel--3.02--patch-20
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Nov 19 01:13:52 EST 2005
+Standard-date: 2005-11-19 06:13:52 GMT
+Modified-files: ChangeLog NEWS
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-20
+Summary: Update NEWS.
+Keywords: 
+
+* NEWS: Update for recent patches.

@@ -1,0 +1,17 @@
+Revision: planner-el--devel--0--patch-62
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun 29 01:36:17 EDT 2006
+Standard-date: 2006-06-29 05:36:17 GMT
+Modified-files: planner-authz.el planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-62
+Summary: planner-authz: Update documentation.
+Keywords: 
+
+* planner-authz.el: Update directions in header.
+  (planner-authz-markup-tags): Use "diary-section" instead of "diary".
+  (planner-authz-diary-section-tag): Rename from
+  `planner-authz-diary-tag'.
+
+* planner-el.texi (Authz Access Restriction): Add Getting started and
+  Diary markup sections.

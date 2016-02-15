@@ -1,0 +1,26 @@
+Revision: muse--main--1.0--patch-318
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 16:48:36 EDT 2007
+Standard-date: 2007-05-25 20:48:36 GMT
+Modified-files: ChangeLog Makefile examples/Makefile
+    lisp/muse-publish.el lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-318
+    mwolson@gnu.org--2006/muse--rel--3.03--base-0
+    mwolson@gnu.org--2006/muse--rel--3.03--patch-1
+    mwolson@gnu.org--2006/muse--rel--3.03--patch-2
+    mwolson@gnu.org--2006/muse--rel--3.03--patch-3
+    mwolson@gnu.org--2006/muse--rel--3.03--patch-4
+Summary: Merged from mwolson@gnu.org--2006/muse--rel--3.03 (patch 0-4)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--rel--3.03--patch-2
+   Makefile: Remove unnecessary command
+
+ * mwolson@gnu.org--2006/muse--rel--3.03--patch-3
+   Makefile: Fix typo in debprepare
+
+ * mwolson@gnu.org--2006/muse--rel--3.03--patch-4
+   muse-texinfo: Fix an improper escaping issue

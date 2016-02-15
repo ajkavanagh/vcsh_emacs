@@ -1,0 +1,25 @@
+Revision: planner--dev--1.0--patch-244
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec 20 18:07:22 JST 2004
+Standard-date: 2004-12-20 09:07:22 GMT
+Modified-files: ChangeLog planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-244
+Summary: Docfixes from John Sullivan
+Keywords: doc
+
+	Changelog from John Sullivan; thanks for the patch!
+	* planner.texi (Preface): Added xref to Acknowledgements.
+	(Components): Moved bit about the relationship with EmacsWikiMode
+	to hear from the Introduction.
+	(Introduction): Fleshed out and organized the writing a bit,
+	trying to give a better idea of what to expect and how to proceed.
+	(Stable Version): Reorganized install information to cut down on
+	redunancies, improve flow, and make everything specific to stable
+	version.
+	(Development Version): Did the same for the development
+	version. Moved extra arch information to the bottom of the
+	section. Thinking about consolidating arch information in its own
+	separate section. 
+	(Acknowledgements): Moved maintainer timeline here, renamed the
+	chapter to Maintainers and Contributors.

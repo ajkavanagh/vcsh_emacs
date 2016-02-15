@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-98
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Stefan Schlee <stefan_schlee@yahoo.com>
+Date: Tue Sep 26 09:56:38 CEST 2006
+Standard-date: 2006-09-26 07:56:38 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-98
+    stefan_schlee@yahoo.com--2006-emacs/muse--bugfixes--0--base-0
+    stefan_schlee@yahoo.com--2006-emacs/muse--bugfixes--0--patch-1
+Summary: Bugfix #6367
+Keywords: 
+
+Patches applied:
+
+ * stefan_schlee@yahoo.com--2006-emacs/muse--bugfixes--0--base-0
+   tag of mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-97
+
+ * stefan_schlee@yahoo.com--2006-emacs/muse--bugfixes--0--patch-1
+   Bugfix #6367
+

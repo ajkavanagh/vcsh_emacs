@@ -1,0 +1,19 @@
+Revision: planner--merge--1.0--patch-3
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Oct  6 22:02:55 EDT 2005
+Standard-date: 2005-10-07 02:02:55 GMT
+Modified-files: planner-accomplishments.el
+New-patches: sacha@free.net.ph--main/planner--merge--1.0--patch-3
+Summary: planner-accomplishments.el: Line up accomplishments neatly
+Keywords: 
+
+* planner-accomplishments.el (planner-accomplishments-show): Line up
+  accomplishments neatly by padding columns with appropriate spaces.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

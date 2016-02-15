@@ -1,0 +1,12 @@
+Revision: planner--duo--1.0--patch-5
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jul 18 22:11:24 EST 2005
+Standard-date: 2005-07-19 03:11:24 GMT
+Modified-files: planner-customize.el
+New-patches: mwolson@gnu.org--2005/planner--duo--1.0--patch-5
+Summary: XEmacs defalias fix.
+Keywords: 
+
+* planner-customize.el (planner-regexp-space): Remove third arg of
+  defalias, since this is not supported by XEmacs.

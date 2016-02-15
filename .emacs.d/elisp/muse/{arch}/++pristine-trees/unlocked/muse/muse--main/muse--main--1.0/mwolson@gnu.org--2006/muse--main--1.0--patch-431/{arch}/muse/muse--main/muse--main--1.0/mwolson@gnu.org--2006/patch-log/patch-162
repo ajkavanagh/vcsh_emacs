@@ -1,0 +1,24 @@
+Revision: muse--main--1.0--patch-162
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul  8 16:38:12 EDT 2006
+Standard-date: 2006-07-08 20:38:12 GMT
+Modified-files: ChangeLog lisp/muse-html.el
+    lisp/muse-latex.el muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-162
+Summary: muse-latex: Make publishing of <contents> tags optional.
+Keywords: 
+
+* lisp/muse-html.el (muse-html-insert-contents): Use nreverse rather than
+  reverse for a minor speed boost.
+
+* lisp/muse-latex.el (muse-latex-header, muse-latexcjk-header): Only
+  insert a table of contents when muse-latex-permit-contents-tag is nil.
+  (muse-latexcjk-header): Make comments do the right thing.
+  (muse-latex-permit-contents-tag): New option that specifies whether we
+  should take action on the <contents> tag.
+  (muse-latex-finalize-buffer): If muse-latex-permit-contents-tag is
+  non-nil, publish a table of contents in the place where the <contents>
+  tag is.
+
+* muse.texi (LaTeX): Bring up-to-date with new options.

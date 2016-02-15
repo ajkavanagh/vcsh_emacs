@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-334
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan  1 00:04:36 EST 2006
+Standard-date: 2006-01-01 05:04:36 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-334
+Summary: Fix a few more list markup issues.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-dl): Begin this function
+  for definition list markup, but it's not useful yet.
+  (muse-publish-surround-text): Accept post-indent argument, and use it
+  to strip extra space from indented lists, hopefully in a smart way.
+  (muse-forward-list-item): Don't explicitly move the point unless
+  another list item of the same type is encountered.
+  (muse-publish-markup-list): Calculate post-indent correctly, and make
+  use of it.

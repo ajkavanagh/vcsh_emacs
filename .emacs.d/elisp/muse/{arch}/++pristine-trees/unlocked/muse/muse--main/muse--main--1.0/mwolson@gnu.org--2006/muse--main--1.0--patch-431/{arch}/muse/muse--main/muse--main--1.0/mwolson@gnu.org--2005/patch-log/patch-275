@@ -1,0 +1,27 @@
+Revision: muse--main--1.0--patch-275
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Nov 19 18:06:24 EST 2005
+Standard-date: 2005-11-19 23:06:24 GMT
+New-files: examples/mwolson/templates/.arch-ids/header.tex.id
+    examples/mwolson/templates/header.tex
+Modified-files: ChangeLog NEWS examples/mwolson/muse-init.el
+    examples/mwolson/templates/header.html lisp/muse.el
+    muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-275
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-20
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-21
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-22
+Summary: Merged from mwolson@gnu.org--2005 (patch 20-22)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-20
+   Update NEWS.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-21
+   Update examples.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-22
+   Release Emacs Muse 3.02.02.

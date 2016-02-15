@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-7
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Feb 16 16:57:42 GMT 2005
+Standard-date: 2005-02-16 16:57:42 GMT
+Modified-files: planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-7
+Summary: added running planner-create-task-hook
+Keywords: 
+
+* planner-multi.el (planner-create-task-from-info): run
+  planner-create-task-hook 
+

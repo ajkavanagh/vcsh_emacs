@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-410
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun  9 17:44:05 PHT 2005
+Standard-date: 2005-06-09 09:44:05 GMT
+Modified-files: ChangeLog planner-appt.el planner-authz.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-39
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-41
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-42
+    sacha@free.net.ph--main/planner--dev--1.0--patch-410
+Summary: planner-authz: Merge dryice/42 adding section access rules
+Keywords: 
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-42
+   Merge Andrew's change and support definde section access rule

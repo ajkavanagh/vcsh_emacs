@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-488
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Sep  8 00:04:30 EDT 2005
+Standard-date: 2005-09-08 04:04:30 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-20
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-21
+    sacha@free.net.ph--main/planner--dev--1.0--patch-488
+Summary: Merge from johnsu01/21: planner-cyclic explanations
+Keywords: 
+
+Patches applied:
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-20
+   Catch up with Sacha.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-21
+   Added references to Emacs and Emacs Lisp manuals to explain the syntax for planner-cyclic.
+

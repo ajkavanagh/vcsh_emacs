@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-143
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 15 22:39:02 EST 2005
+Standard-date: 2005-07-16 03:39:02 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-143
+Summary: muse-docbook: split-string Emacs21 fix.
+Keywords: 
+
+* lisp/muse-docbook.el (muse-docbook-get-author): Omit 3rd argument of
+  split-string to fix an Emacs21 issue.

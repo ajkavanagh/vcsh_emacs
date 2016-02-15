@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-22
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Feb 26 13:26:05 EST 2006
+Standard-date: 2006-02-26 18:26:05 GMT
+Modified-files: ChangeLog.2006 debian/emacsen-remove
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-22
+Summary: Fix comment in Debian packaging.
+Keywords: 
+
+* debian/emacsen-remove: Fix comment.

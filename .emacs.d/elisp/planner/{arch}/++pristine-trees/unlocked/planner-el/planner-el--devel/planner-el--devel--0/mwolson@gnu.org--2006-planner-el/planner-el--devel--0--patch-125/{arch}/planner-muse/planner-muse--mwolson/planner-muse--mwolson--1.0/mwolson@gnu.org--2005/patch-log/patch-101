@@ -1,0 +1,21 @@
+Revision: planner-muse--mwolson--1.0--patch-101
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov 21 00:07:07 EST 2005
+Standard-date: 2005-11-21 05:07:07 GMT
+Modified-files: ChangeLog planner-id.el planner-multi.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-101
+Summary: Apply task ID patch from Sacha.
+Keywords: 
+
+Patch from Sacha:
+
+* planner-id.el (planner-id-get-id-from-string): Handle new KEY argument.
+  (planner-id-find-task): Get ID in different ways depending on the task
+  info.
+
+* planner-multi.el: Add defalias for planner-task-link-as-list.
+
+* planner.el (planner-task-link-as-list): New function that returns a
+  list of all pages that the given task is on.

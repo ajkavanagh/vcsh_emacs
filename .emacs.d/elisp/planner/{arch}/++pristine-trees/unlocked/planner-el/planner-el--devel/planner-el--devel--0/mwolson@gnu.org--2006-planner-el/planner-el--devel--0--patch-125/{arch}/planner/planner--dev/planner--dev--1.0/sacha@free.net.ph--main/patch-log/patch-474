@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-474
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Aug 20 10:53:31 EDT 2005
+Standard-date: 2005-08-20 14:53:31 GMT
+Modified-files: planner-appt.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-474
+Summary: Bugfix: planner-appt-mark-calendar shouldn't call planner-appt-filename-to-date
+Keywords: 
+
+* planner-appt.el (planner-appt-mark-calendar): Merge Sergey Vlasov's
+  bugfix for obsolete call to planner-appt-filename-to-date.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

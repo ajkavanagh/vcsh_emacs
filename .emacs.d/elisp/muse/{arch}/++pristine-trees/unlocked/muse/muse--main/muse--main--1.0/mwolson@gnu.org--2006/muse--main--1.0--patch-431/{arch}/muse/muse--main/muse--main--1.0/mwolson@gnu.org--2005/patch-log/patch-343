@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-343
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan  3 19:37:27 EST 2006
+Standard-date: 2006-01-04 00:37:27 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-343
+Summary: Nested list fix.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-text): Preserve indentation
+  of nested-list items until they are processed.

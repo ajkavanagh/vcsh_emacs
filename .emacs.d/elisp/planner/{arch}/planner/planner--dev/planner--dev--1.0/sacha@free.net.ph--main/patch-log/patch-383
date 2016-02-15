@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-383
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 21 12:54:01 PHT 2005
+Standard-date: 2005-04-21 04:54:01 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-383
+Summary: planner-multi-read-name-multiple-prompts: Easier multiple inputs with nil default
+Keywords: 
+
+* planner-multi.el (planner-multi-read-name-multiple-prompts): Make the
+  default nil to improve ease of entering multiple pages under XEmacs.
+  Also, save the completed list as the default page.

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-284
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jan  7 13:31:08 JST 2005
+Standard-date: 2005-01-07 04:31:08 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-284
+Summary: planner-multi-note-xref bugfix: call planner-update-note
+Keywords: 
+
+	* planner-multi.el (planner-multi-note-xref): Call
+	planner-update-note instead of planner-multi-update-note. Thanks
+	to Dryice Liu for pointing this out.

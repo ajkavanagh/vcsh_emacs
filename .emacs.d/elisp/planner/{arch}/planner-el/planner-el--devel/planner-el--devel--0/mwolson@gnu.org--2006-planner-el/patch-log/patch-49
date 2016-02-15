@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-49
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 23 00:08:22 EDT 2006
+Standard-date: 2006-06-23 04:08:22 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-49
+Summary: Make allout and Planner work better together by default.
+Keywords: 
+
+* planner.el: Make allout mode recognize our special note syntax.  Thanks
+  to Bill White and Steven Lumos for the code snippet and research.

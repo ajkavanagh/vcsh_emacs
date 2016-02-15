@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-12
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun 23 20:39:54 EST 2005
+Standard-date: 2005-06-24 01:39:54 GMT
+Modified-files: ChangeLog.mwolson planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-12
+Summary: Uniquify publishing number for notes.
+Keywords: 
+
+* planner.el (muse-publish-markup-regexps): Use a different publishing
+  number for notes, since these should probably not be the same.

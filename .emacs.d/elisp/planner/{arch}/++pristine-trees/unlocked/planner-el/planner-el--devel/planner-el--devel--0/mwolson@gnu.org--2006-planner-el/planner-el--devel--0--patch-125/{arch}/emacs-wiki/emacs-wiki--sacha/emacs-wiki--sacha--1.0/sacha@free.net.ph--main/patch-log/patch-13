@@ -1,0 +1,21 @@
+Revision: emacs-wiki--sacha--1.0--patch-13
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jan 25 12:03:17 PHT 2004
+Standard-date: 2004-01-25 04:03:17 GMT
+Modified-files: planner-id.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-13
+Summary: Tasks are colored according to their category
+Keywords: 
+
+Ephrem Christopher Walborn suggested making planner-markup-tasks color
+A tasks red, B tasks blue, and C tasks green. This patch colors it
+as suggested.
+
+New function planner-markup-region chooses between overlays and text
+properties, using overlays whenever possible. Seems to work, and
+allows me to easily combine different attributes.
+
+planner-id.el now uses the new planner-markup-region.
+
+Also, planner-id.el is now UNIX-encoded.

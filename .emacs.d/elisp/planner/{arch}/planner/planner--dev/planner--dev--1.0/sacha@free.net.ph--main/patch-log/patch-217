@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-217
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Dec  1 19:24:12 JST 2004
+Standard-date: 2004-12-01 10:24:12 GMT
+Modified-files: planner-timeclock.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-217
+Summary: planner-timeclock, planner-task-in-progress: Always use plan
+Keywords: tweak
+
+	* planner-timeclock.el (planner-task-in-progress): Minor tweak to
+	always get the project plan if available.

@@ -1,0 +1,16 @@
+Revision: muse-epomulet--0--patch-7
+Archive: e.pomohaci@gmail.com--2006
+Creator: Elena Pomohaci <e.pomohaci@gmail.com>
+Date: Fri Aug  4 07:34:53 EEST 2006
+Standard-date: 2006-08-04 04:34:53 GMT
+Modified-files: lisp/muse-import-docbook.el
+    lisp/muse-import-xml.el
+New-patches: e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-7
+Summary: Corrected references from muse-import-xml-*.
+Keywords: 
+
+* lisp/muse-import-docbook.el: Corrected references
+  from muse-import-xml-*.
+
+* lisp/muse-import-xml.el (muse-import-xml-parse-node): Cleaned starting
+  blanks from strings. 

@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-345
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 17 22:01:14 PHT 2005
+Standard-date: 2005-03-17 14:01:14 GMT
+Modified-files: ChangeLog planner-notes-index.el
+    planner-rss.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-345
+Summary: Replace mapc with mapcar for Emacs20 compatibility.
+Keywords: 
+
+* planner-rss.el (planner-rss-add-item): Replace mapc call with mapcar.
+(planner-rss-add-note): Replace mapc call with mapcar. Thanks to Helge
+Kosuch and Rino Mardo for pointing this out.
+
+* planner-notes-index.el (planner-notes-index): Replace mapc call with mapcar.

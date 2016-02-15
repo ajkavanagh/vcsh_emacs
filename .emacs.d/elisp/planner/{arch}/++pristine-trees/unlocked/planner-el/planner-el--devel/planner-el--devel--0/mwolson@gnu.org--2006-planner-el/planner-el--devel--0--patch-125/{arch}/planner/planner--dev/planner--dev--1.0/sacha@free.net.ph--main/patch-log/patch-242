@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-242
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec 17 20:12:28 JST 2004
+Standard-date: 2004-12-17 11:12:28 GMT
+Modified-files: ChangeLog planner-timeclock-summary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-242
+Summary: planner-timeclock-summary: Requite time-date
+Keywords: 
+
+	* planner-timeclock-summary.el (time-date): Require time-date.
+	Thanks to David Lord for pointing this out.

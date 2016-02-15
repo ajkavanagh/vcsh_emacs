@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-8
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Feb  4 13:13:56 EST 2005
+Standard-date: 2005-02-04 18:13:56 GMT
+Modified-files: ChangeLog muse-build.el scripts/publish
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-8
+Summary: Fix build problems
+Keywords: 
+
+2005-02-04  Michael Olson  <mwolson@gnu.org>
+
+    * muse-build.el: Add contrib directory to `load-path'.
+    (muse-elint-files): Load `muse-regexps.el'.
+
+    * scripts/publish: Change permissions so that this script is
+    executable.  Add contrib directory to load list.  Add
+    `muse-regexps.el' to list.

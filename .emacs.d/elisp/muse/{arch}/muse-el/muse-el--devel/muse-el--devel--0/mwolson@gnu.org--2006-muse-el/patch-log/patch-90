@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-90
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep 11 21:56:35 EDT 2006
+Standard-date: 2006-09-12 01:56:35 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-90
+    mwolson@gnu.org--2006/muse--main--1.0--patch-205
+Summary: Merged from mwolson@gnu.org--2006 (patch 205)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-205
+   Manual: mention the muse-el-internationalization mailing list

@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-136
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jun 29 14:57:33 PHT 2004
+Standard-date: 2004-06-29 06:57:33 GMT
+Modified-files: planner-rss.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-136
+Summary: Docfix: remember-planner-append-hook
+Keywords: docfix
+
+	* planner-rss.el: Update note about remember-planner-append-hook.
+	Thanks to Michael Olson for the patch.
+
+	* planner.texi (Using planner-rss.el): Update note about
+	remember-planner-append-hook. Thanks to Michael Olson for the
+	patch.

@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-466
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Aug  2 11:01:07 EDT 2005
+Standard-date: 2005-08-02 15:01:07 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-466
+Summary: NOTE: planner-create-section-function, planner-create-at-top, planner-create-at-bottom: RENAMED FROM planner-seek-
+Keywords: 
+
+* planner.el (planner-create-section-function): NOTE: Rename from planner-seek-section-function.
+Thanks to John Sullivan for pointing out inconsistency.
+(planner-create-at-top): Rename from planner-seek-create-at-top.
+(planner-create-at-bottom): Rename from planner-seek-create-at-bottom.
+(planner-narrow-to-section): Use planner-create-section-function.
+(planner-seek-to-first): Use planner-create-section-function.

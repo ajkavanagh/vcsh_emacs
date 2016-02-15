@@ -1,0 +1,77 @@
+Revision: planner--jeho--1.0--patch-73
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Jun 23 12:08:02 BST 2005
+Standard-date: 2005-06-23 11:08:02 GMT
+Modified-files: ChangeLog planner-appt.el planner-diary.el
+    planner-el.texi planner-id.el planner-multi.el
+    planner-timeclock.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-73
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-9
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-10
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-11
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-12
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-13
+    sacha@free.net.ph--main/planner--dev--1.0--patch-412
+    sacha@free.net.ph--main/planner--dev--1.0--patch-413
+    sacha@free.net.ph--main/planner--dev--1.0--patch-414
+    sacha@free.net.ph--main/planner--dev--1.0--patch-415
+    sacha@free.net.ph--main/planner--dev--1.0--patch-416
+    sacha@free.net.ph--main/planner--dev--1.0--patch-417
+    sacha@free.net.ph--main/planner--dev--1.0--patch-418
+    sacha@free.net.ph--main/planner--dev--1.0--patch-419
+    sacha@free.net.ph--main/planner--dev--1.0--patch-420
+    sacha@free.net.ph--main/planner--dev--1.0--patch-421
+    sacha@free.net.ph--main/planner--dev--1.0--patch-422
+Summary: merge latest
+Keywords: 
+
+Patches applied:
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-9
+   Catch up with sachac.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-10
+   Fixes to Appointments node
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-11
+   Catch up with Sacha.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-12
+   Merge to catch up with sachac. 
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-13
+   Reorganization of More about Tasks node 
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-412
+   Docfix: Reorganize Tasks section (johnsu01/13)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-413
+   Bugfix: planner-current-note-info should work with notes with parens
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-414
+   Bugfix: planner-narrow-to-note should recognize more notes properly now
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-415
+   planner-multi: planner-task-plan: override for planner-multi
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-416
+   planner-mark-task: Do everything inside with-planner-update-setup
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-417
+   planner-multi-copy-tasks-to-page: New option automatically copies tasks
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-418
+   Enhancement: planner-multi-remove-task-from-pool works with multiple pages
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-419
+   Docfix: Note that Lisp tags work only for GNU Emacs
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-420
+   planner-annotation-as-kill: New interactive prefix
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-421
+   New: planner-annotation-from-file-with-position
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-422
+   Bugfix: planner-annotation-from-file-with-position: Check if buffer has a file

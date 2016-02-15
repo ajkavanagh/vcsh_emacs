@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-345
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan  4 15:07:54 EST 2006
+Standard-date: 2006-01-04 20:07:54 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-345
+Summary: Fix backtrace on project names.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-handle-interwiki): Fix backtrace on
+  coloring project names.

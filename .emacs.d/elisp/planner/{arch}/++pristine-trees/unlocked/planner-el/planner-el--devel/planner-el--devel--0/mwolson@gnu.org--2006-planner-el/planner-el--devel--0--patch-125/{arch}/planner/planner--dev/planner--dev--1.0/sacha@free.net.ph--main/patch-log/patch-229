@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-229
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Dec 12 00:37:25 JST 2004
+Standard-date: 2004-12-11 15:37:25 GMT
+Modified-files: ChangeLog planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-229
+Summary: Docfix: planner.texi
+Keywords: 
+
+	* planner.texi: Thanks to mocker for proofreading.
+	(Development Version): Add note about require.
+	(Overview): Fix example code for keybinding.

@@ -1,0 +1,23 @@
+Revision: planner-muse--mwolson--1.0--patch-176
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan 11 22:52:31 EST 2006
+Standard-date: 2006-01-12 03:52:31 GMT
+Modified-files: planner-appt.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-35
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-36
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-37
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-38
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-39
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-40
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-176
+Summary: Merged from jeho@jeho.org--2005 (patch 35-40)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-38
+   with-planner-update-setup: fix typo
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-40
+   planner.el: excessive highlighting

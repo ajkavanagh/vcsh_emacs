@@ -1,0 +1,25 @@
+Revision: muse--main--1.0--patch-87
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul  5 20:41:24 EST 2005
+Standard-date: 2005-07-06 01:41:24 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+    lisp/muse-wiki.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-87
+Summary: Apply a few fixes from Yann's branch.
+Keywords: 
+
+Background: I hacked on Muse over the weekend while offline, and so did
+            Yann.  His changes to muse-wiki.el are different than the
+            ones that I made, so we should probably figure out the best
+            way to handle this when we both get on IRC again.  For now,
+            I've merged in the bugfixes that he's made, omitting most of
+            the changes to muse-wiki.
+
+* lisp/muse-latex.el (muse-latex-markup-regexps): Escape %.
+
+* lisp/muse-wiki.el (muse-wiki-colors-wikiword): Add docstring.
+
+* lisp/muse.el (muse-page-name): Fix a bug that was inadvertently
+  introduced previously.
+

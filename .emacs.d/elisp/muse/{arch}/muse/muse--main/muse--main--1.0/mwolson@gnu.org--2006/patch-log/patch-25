@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-25
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Feb 28 00:20:11 EST 2006
+Standard-date: 2006-02-28 05:20:11 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-25
+Summary: Pass testcase for definition list and nested unordered list.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-dl): Ensure that definition
+  lists always have at least one entry.  This appears to do the right
+  thing with a sample nested unordered list.

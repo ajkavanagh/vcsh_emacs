@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-157
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 26 14:13:59 EDT 2006
+Standard-date: 2006-06-26 18:13:59 GMT
+Modified-files: ChangeLog lisp/muse-mode.el muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-157
+Summary: Don't use illegal C-c i keybinding.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode-map): Remove "C-c i" binding and use "C-c
+  TAB" for that purpose instead.  Thanks to Adrian Aichner for the
+  report.
+
+* muse.texi (Keystroke Summary): Update documentation for the above
+  change.

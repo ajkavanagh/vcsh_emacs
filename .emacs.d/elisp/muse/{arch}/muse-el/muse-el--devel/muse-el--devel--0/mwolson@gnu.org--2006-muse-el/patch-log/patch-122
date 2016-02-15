@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-122
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan  4 01:53:06 EST 2007
+Standard-date: 2007-01-04 06:53:06 GMT
+Modified-files: ChangeLog lisp/muse-html.el
+    lisp/muse-publish.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-122
+    mwolson@gnu.org--2006/muse--main--1.0--patch-264
+    mwolson@gnu.org--2006/muse--main--1.0--patch-265
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 264-265)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-264
+   Make <include> tag work with markup="src"
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-265
+   Fix initial blank line in <src> tag

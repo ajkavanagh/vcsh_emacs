@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-276
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan 23 07:47:15 EST 2007
+Standard-date: 2007-01-23 12:47:15 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-276
+Summary: Fix paragraph detection near <example> tag
+Keywords: 
+
+2007-01-23  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-ensure-block-tag): New macro
+	that ensures that at least one blank line exists at the given
+	position.  This is used to avoid paragraph detection problems when
+	block-level tags like <example> immediately follow a paragraph.
+	Thanks to Hans Ekbrand for the report.
+	(muse-publish-example-tag): Use it.

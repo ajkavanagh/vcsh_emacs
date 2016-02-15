@@ -1,0 +1,34 @@
+Revision: muse--main--1.0--patch-158
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 19 00:34:28 EST 2005
+Standard-date: 2005-07-19 05:34:28 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+    lisp/muse-html.el lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-158
+Summary: Handle embedded docbook footnotes and <literal> edge case.
+Keywords: 
+
+* lisp/muse-docbook.el: Implement more suggestions from Dale Smith.
+ (muse-docbook-markup-strings): Use systemitem for example text.
+ (muse-docbook-markup-paragraph): Allow for embedded footnotes that have
+ <para></para> inside of them.
+
+* lisp/muse-html.el (muse-html-escape-string): Don't deal with '&<>"'
+  here at all.
+
+* lisp/muse-publish.el (muse-publish-url-transforms): Add
+  muse-publish-escape-specials-in-string to list by default.
+
+* lisp/muse-publish.el (muse-publish-escape-specials): New optional third
+  argument IGNORE-READ-ONLY determines whether or not to ignore the
+  read-only property when transforming text.  Add docstring.
+  (muse-publish-markup-word): Use non-nil third argument to
+  muse-publish-escape-specials when we're publishing `='-delimited text.
+  This allows =<literal><tag></literal>= to work as intended.
+
+* lisp/muse-publish.el (muse-publish-escape-specials-in-string): Ignore
+  arguments after the first so that we can include this in
+  `muse-publish-url-transforms'.
+
+* lisp/muse-publish.el (muse-publish-prepare-url): Add docstring.

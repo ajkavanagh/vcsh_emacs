@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-318
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Feb  4 11:07:19 JST 2005
+Standard-date: 2005-02-04 02:07:19 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-318
+Summary: planner-notes-tag: Remove page reference
+Keywords: 
+
+* planner.el (planner-notes-tag): Strip the linked page reference when
+making lists of notes. This makes the lists easier to browse.

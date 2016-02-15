@@ -1,0 +1,46 @@
+Revision: muse--main--1.0--patch-87
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr  5 11:00:33 EDT 2006
+Standard-date: 2006-04-05 15:00:33 GMT
+Modified-files: AUTHORS ChangeLog.2006 lisp/muse-project.el
+    lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-27
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-28
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-29
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-30
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-31
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-32
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-33
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-34
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-35
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-36
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-37
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-38
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-39
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-40
+    mwolson@gnu.org--2006/muse--main--1.0--patch-87
+Summary: muse-wiki: Implement implicit links for all files in project.
+Keywords: 
+
+* lisp/muse-project.el (muse-project-file-alist): Quote hook, so that we
+  don't get errors when trying to use it.
+
+* lisp/muse-wiki.el: Add `muse-wiki-update-local-wikiword-regexp' to
+  muse-project-file-alist-hook.
+  (muse-wiki-update-local-wikiword-regexp): Make sure that we can't get
+  into a recursive call.
+  (muse-wiki-update-wikiword-regexp): Call
+  `muse-wiki-update-local-wikiword-regexp'.
+
+(Author: Per B. Sederberg <per@med.upenn.edu>)
+
+* lisp/muse-wiki.el:: Add muse-wiki-update-local-wikiword-regexp to
+  muse-before-publish-hook and muse-mode-hook so that implicit links are
+  published properly.
+  (muse-wiki-wikiword-match-project-files): New option for determining
+  whether to match all project files as implicit links.  This is off by
+  default.
+  (muse-wiki-update-local-wikiword-regexp): New function to make the
+  wikiword-regexp local and append the files in the current project to
+  it.

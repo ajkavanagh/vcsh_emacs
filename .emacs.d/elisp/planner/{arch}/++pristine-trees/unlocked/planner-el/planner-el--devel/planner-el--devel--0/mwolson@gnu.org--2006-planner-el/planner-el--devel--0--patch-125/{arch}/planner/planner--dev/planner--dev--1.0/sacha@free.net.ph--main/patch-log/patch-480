@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-480
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Aug 25 20:03:03 EDT 2005
+Standard-date: 2005-08-26 00:03:03 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-480
+Summary: Bugfix: planner-extract-tasks should use planner-line-beginning-position
+Keywords: 
+
+* planner.el (planner-extract-tasks): Use planner-line-beginning-position
+  and line-end-position. Thanks to Michael Olson for spotting this!
+
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

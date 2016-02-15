@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-308
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb  1 11:43:05 JST 2005
+Standard-date: 2005-02-01 02:43:05 GMT
+Modified-files: ChangeLog planner-rank.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-308
+Summary: planner-rank-change: Revert to Dryice's version
+Keywords: 
+
+	* planner-rank.el (planner-rank-change): Revert my change. Thanks
+	to Dryice for pointing out bug introduced by rewrite.

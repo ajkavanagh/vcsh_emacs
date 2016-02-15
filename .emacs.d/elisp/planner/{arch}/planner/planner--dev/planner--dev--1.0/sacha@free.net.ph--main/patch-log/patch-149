@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-149
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Aug  6 14:41:45 PHT 2004
+Standard-date: 2004-08-06 06:41:45 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-149
+Summary: New: planner-edit-task-description
+Keywords: feature
+
+	* planner.el (planner-edit-task-description): New.
+	Thanks to Daniel Martins for the feature suggestion.
+
+	* planner.texi (Changing Tasks): Add note about
+	planner-edit-task-description.
+	(List of Interactive Functions): Describe
+	planner-edit-task-description.

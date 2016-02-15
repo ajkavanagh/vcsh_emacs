@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-424
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 29 13:17:01 EDT 2007
+Standard-date: 2007-07-29 17:17:01 GMT
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-164
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-165
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-166
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-167
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-168
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-169
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-170
+    mwolson@gnu.org--2006/muse--main--1.0--patch-424
+Summary: Commit some merge data
+Keywords: 
+
+Let's see if this makes tla unhappy when we merge back into the other
+branch.

@@ -1,0 +1,14 @@
+Revision: planner-el--devel--0--patch-48
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 21 23:29:38 EDT 2006
+Standard-date: 2006-06-22 03:29:38 GMT
+Modified-files: planner-el.texi planner-registry.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-48
+Summary: Document planner-registry.el.
+Keywords: 
+
+* planner-el.texi (planner-registry): Document the planner-registry.el
+  file.
+
+* planner-registry.el: Clarify directions in header.

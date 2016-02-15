@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-90
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue May 25 15:22:35 PHT 2004
+Standard-date: 2004-05-25 07:22:35 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-90
+Summary: Bugfix: typo, boolean should be a symbol
+Keywords: bugfix
+
+	* planner.el (planner-hide-task-status-when-highlighting):
+	Bugfix: typo, 'boolean should be a symbol.

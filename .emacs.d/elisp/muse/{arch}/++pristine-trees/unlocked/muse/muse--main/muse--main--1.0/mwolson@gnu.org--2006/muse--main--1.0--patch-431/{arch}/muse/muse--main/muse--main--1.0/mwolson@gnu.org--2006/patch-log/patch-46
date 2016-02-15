@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-46
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar  5 23:50:17 EST 2006
+Standard-date: 2006-03-06 04:50:17 GMT
+Modified-files: ChangeLog.2006 lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-46
+Summary: Code simplification; improve muse-list-item-type function.
+Keywords: 
+
+* lisp/muse.el (muse-list-item-type): Disambiguate between 'dl-term and
+  'dl-entry, instead of just returning 'dl.
+  (muse-forward-dl-term, muse-forward-dl-entry): Use
+  muse-forward-list-item.
+  (muse-forward-dl-part): Remove, merge functionality into
+  muse-forward-list-item.
+  (muse-forward-list-item): Add a few conditions needed for skipping
+  nested 'dl-term and 'dl-entry items.

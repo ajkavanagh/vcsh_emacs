@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-94
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  7 21:23:24 EDT 2006
+Standard-date: 2006-04-08 01:23:24 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-94
+Summary: Prepare Debian package for Arch snapshot.
+Keywords: 
+
+* Makefile.defs, debian/changelog: Prepare for Debian package of Arch
+  snapshot.

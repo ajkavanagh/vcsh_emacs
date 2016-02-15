@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-411
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun  9 17:55:04 PHT 2005
+Standard-date: 2005-06-09 09:55:04 GMT
+Modified-files: ChangeLog planner-timeclock.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-411
+Summary: New hook: planner-mark-task-hook
+Keywords: 
+
+* planner.el (planner-mark-task-hook): New hook.
+(planner-mark-task): Use planner-mark-task-hook.
+
+* planner-timeclock.el (planner-timeclock-task-marked): Take advantage of new hook.
+(planner-task-in-progress): Remove separate advice.
+(planner-task-done): Remove separate advice.
+(planner-task-pending): Remove separate advice.

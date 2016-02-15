@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-60
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep  1 08:38:38 EST 2005
+Standard-date: 2005-09-01 13:38:38 GMT
+Modified-files: ChangeLog.mwolson planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-60
+Summary: Allow Planner to visit links to temporary files.
+Keywords: muse-only
+
+* planner.el (planner-visit-link): Apply patch from Marco Gidde that
+  allows Planner to visit a link to a temporary file by visiting its
+  buffer.  This patch is not needed upstream, hence the muse-only tag in
+  this commit message.

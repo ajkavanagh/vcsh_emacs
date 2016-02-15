@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-1
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Mon Dec  6 14:05:44 EST 2004
+Standard-date: 2004-12-06 19:05:44 GMT
+Modified-files: ChangeLog muse-mode.el
+New-patches: mwolson@member.fsf.org--2004/muse--main--1.0--patch-1
+Summary: Fix Emacs CVS-ism in `require' statement
+Keywords: 
+
+2004-12-06  Michael Olson  <mwolson@gnu.org>
+
+    * muse-mode.el: Do not use the third argument of `require' since
+    it seems to be an Emacs CVS-ism.

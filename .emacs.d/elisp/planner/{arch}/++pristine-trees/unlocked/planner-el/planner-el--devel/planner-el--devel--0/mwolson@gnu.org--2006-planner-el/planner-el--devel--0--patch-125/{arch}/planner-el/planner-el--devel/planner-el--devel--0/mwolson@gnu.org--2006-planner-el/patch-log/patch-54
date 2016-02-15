@@ -1,0 +1,11 @@
+Revision: planner-el--devel--0--patch-54
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 26 23:56:26 EDT 2006
+Standard-date: 2006-06-27 03:56:26 GMT
+Modified-files: README
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-54
+Summary: Fix mailing list instructions in README.
+Keywords: 
+
+* README: Fix URL for mailing list instructions.

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-57
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 13 22:14:05 EST 2005
+Standard-date: 2005-06-14 03:14:05 GMT
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-57
+Summary: Update my example configuration.
+Keywords: 
+
+* examples/mwolson/muse-init.el: Update to reflect use of outline faces
+  and experimental status of muse-message.

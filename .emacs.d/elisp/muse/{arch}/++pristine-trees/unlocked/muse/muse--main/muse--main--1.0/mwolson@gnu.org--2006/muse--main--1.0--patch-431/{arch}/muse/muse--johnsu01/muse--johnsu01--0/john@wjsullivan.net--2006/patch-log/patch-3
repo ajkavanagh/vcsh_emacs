@@ -1,0 +1,25 @@
+Revision: muse--johnsu01--0--patch-3
+Archive: john@wjsullivan.net--2006
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Mon May  8 12:21:35 EDT 2006
+Standard-date: 2006-05-08 16:21:35 GMT
+Modified-files: ChangeLog.2006 lisp/muse-latex.el
+    lisp/muse-mode.el lisp/muse-publish.el muse.texi
+New-patches: john@wjsullivan.net--2006/muse--johnsu01--0--patch-3
+    mwolson@gnu.org--2006/muse--main--1.0--patch-119
+    mwolson@gnu.org--2006/muse--main--1.0--patch-120
+    mwolson@gnu.org--2006/muse--main--1.0--patch-121
+Summary: 
+Keywords: 
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-119
+   muse-latex: Make images look better.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-120
+   Fix buggy behavior in muse-browse-result.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-121
+   Update keystrokes used in muse-mode, as well as docs.
+

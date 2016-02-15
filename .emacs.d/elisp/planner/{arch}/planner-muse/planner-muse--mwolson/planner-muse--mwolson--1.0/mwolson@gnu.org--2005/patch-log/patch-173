@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-173
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  9 12:19:23 EST 2006
+Standard-date: 2006-01-09 17:19:23 GMT
+Modified-files: AUTHORS ChangeLog.2004
+    planner-accomplishments.el planner-appt.el
+    planner-bbdb.el planner-bibtex.el planner-calendar.el
+    planner-cyclic.el planner-deadline.el planner-diary.el
+    planner-erc.el planner-experimental.el
+    planner-export-diary.el planner-gnats.el planner-gnus.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-173
+Summary: More copyright twiddling.  Progress: planner-ical.el
+Keywords: 
+

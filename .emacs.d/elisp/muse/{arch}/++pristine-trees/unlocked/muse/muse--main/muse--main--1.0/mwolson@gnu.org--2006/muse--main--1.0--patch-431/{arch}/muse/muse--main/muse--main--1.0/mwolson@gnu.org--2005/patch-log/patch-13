@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-13
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Feb 17 14:08:19 EST 2005
+Standard-date: 2005-02-17 19:08:19 GMT
+Modified-files: ChangeLog experimental/muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-13
+Summary: Make muse-blosxom.el a bit more sane, still need to bum it down a bit
+Keywords: 
+
+2005-02-17  Michael Olson  <mwolson@gnu.org>
+
+    * experimental/muse-blosxom.el: Somehow the contents of this file
+    managed to get duplicated.  I removed the duplicates.
+    (muse-blosxom-date): Remove this, since it is not useful.
+    (muse-blosxom-header): Use the standard header that blosxom.el
+    has.

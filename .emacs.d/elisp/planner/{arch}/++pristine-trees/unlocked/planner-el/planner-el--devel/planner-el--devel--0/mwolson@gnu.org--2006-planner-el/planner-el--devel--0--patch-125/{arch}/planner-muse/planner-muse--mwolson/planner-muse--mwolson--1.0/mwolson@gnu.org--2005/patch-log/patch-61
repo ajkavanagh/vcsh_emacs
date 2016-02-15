@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-61
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep  1 11:15:36 EST 2005
+Standard-date: 2005-09-01 16:15:36 GMT
+Modified-files: ChangeLog.mwolson planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-61
+Summary: Use a more standard root element.
+Keywords: 
+
+* planner-publish.el (planner-xml-header): Use <PLANNER> instead of <page
+  type="planner">, as suggested by Brad Collins.

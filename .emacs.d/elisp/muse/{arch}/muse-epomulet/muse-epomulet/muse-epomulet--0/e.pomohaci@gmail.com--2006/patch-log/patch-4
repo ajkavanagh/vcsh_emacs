@@ -1,0 +1,54 @@
+Revision: muse-epomulet--0--patch-4
+Archive: e.pomohaci@gmail.com--2006
+Creator: Elena Pomohaci <e.pomohaci@gmail.com>
+Date: Thu Aug  3 20:44:37 EEST 2006
+Standard-date: 2006-08-03 17:44:37 GMT
+New-files: lisp/.arch-ids/muse-from-dbk.el.id
+    lisp/.arch-ids/muse-from-xml.el.id
+    lisp/muse-from-dbk.el lisp/muse-from-xml.el
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-html.el lisp/muse-latex.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-wiki.el lisp/muse.el
+    muse.texi {arch}/=tagging-method
+New-patches: e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-4
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-82
+    mwolson@gnu.org--2006/muse--main--1.0--patch-158
+    mwolson@gnu.org--2006/muse--main--1.0--patch-159
+    mwolson@gnu.org--2006/muse--main--1.0--patch-160
+    mwolson@gnu.org--2006/muse--main--1.0--patch-161
+    mwolson@gnu.org--2006/muse--main--1.0--patch-162
+    mwolson@gnu.org--2006/muse--main--1.0--patch-163
+    mwolson@gnu.org--2006/muse--main--1.0--patch-164
+Summary: Merged from mwolson@gnu.org--2006-muse-el (patch 82), mwolson@gnu.org--2006 (patch 158-164)
+Keywords: merge, muse-from-xml
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-82
+   Merged from mwolson@gnu.org--2006 (patch 158-164)
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-158
+   Make muse-publish-markup-buffer usable even with no current file.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-159
+   Fix publishing of blank table fields.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-160
+   Make links to files in subdirectories work.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-161
+   Fix publishing bug introduced in last patch.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-162
+   muse-latex: Make publishing of <contents> tags optional.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-163
+   Make space around emdash optional.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-164
+   Make escaping of brackets in links work properly.
+
+* lisp/muse-from-xml.el: Initial version.
+
+* lisp/muse-from-xml.el: Initial version.

@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-382
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  4 15:32:32 EDT 2007
+Standard-date: 2007-07-04 19:32:32 GMT
+New-files: .arch-ids/.arch-inventory.id .arch-inventory
+    contrib/.arch-ids/.arch-inventory.id
+    contrib/.arch-inventory
+    experimental/.arch-ids/.arch-inventory.id
+    experimental/.arch-inventory
+    lisp/.arch-ids/.arch-inventory.id lisp/.arch-inventory
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-382
+Summary: Add .arch-inventory to mark some files as precious
+Keywords: 
+
+Thanks to Nelson Ferreira for the patch.

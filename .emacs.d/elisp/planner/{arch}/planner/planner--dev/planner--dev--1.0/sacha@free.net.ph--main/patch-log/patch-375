@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-375
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 13 00:37:14 PHT 2005
+Standard-date: 2005-04-12 16:37:14 GMT
+Modified-files: ChangeLog planner-el.texi planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-375
+Summary: Docfix: carrying over unfinished tasks.
+Keywords: 
+
+* planner.el (plan): Update docstring for FORCE-DAYS.
+
+* planner-el.texi (Carrying Over Unfinished Tasks): Rewrite to reflect
+  semantics of plan and planner-carry-tasks-forward.

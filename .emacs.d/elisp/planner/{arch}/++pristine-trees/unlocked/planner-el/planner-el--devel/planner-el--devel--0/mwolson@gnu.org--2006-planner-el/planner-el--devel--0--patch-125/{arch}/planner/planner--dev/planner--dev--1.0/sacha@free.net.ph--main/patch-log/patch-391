@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-391
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 28 21:05:00 PHT 2005
+Standard-date: 2005-04-28 13:05:00 GMT
+Modified-files: ChangeLog planner-appt.el planner-el.texi
+    planner-id.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-61
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-62
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-63
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-64
+    sacha@free.net.ph--main/planner--dev--1.0--patch-391
+Summary: Sync with jeho: with-planner-update-setup returns value of body; planner-appt-task-appointments-section
+Keywords: 
+
+Patches applied:
+
+ * jeho/62: with-planner-update-setup
+ * jeho/63: planner-appt Appointments section
+ * jeho/64: planner-el.texi: updated planner-appt node

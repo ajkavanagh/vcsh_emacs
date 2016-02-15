@@ -1,0 +1,12 @@
+Revision: planner--jeho--1.0--patch-42
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Mar 12 15:14:41 GMT 2005
+Standard-date: 2005-03-12 15:14:41 GMT
+Modified-files: planner-appt.el planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-42
+Summary: planner-el.texi updated planner-appt node
+Keywords: 
+
+* planner-el.texi: updated documentation in line with recent changes
+

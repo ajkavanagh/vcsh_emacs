@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-218
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 14:58:12 EDT 2006
+Standard-date: 2006-10-15 18:58:12 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-218
+Summary: Minor cleanups
+Keywords: 
+
+* lisp/muse-mode.el (muse-previous-reference): Minor docfix.
+  (muse-next-reference, muse-previous-reference): Minor whitespace
+  changes.

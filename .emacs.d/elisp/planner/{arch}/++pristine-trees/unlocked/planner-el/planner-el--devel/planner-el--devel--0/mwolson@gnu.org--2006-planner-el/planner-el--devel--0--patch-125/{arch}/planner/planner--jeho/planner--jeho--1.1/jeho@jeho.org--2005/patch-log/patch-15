@@ -1,0 +1,22 @@
+Revision: planner--jeho--1.1--patch-15
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Nov 30 22:44:12 GMT 2005
+Standard-date: 2005-11-30 22:44:12 GMT
+Modified-files: ChangeLog planner-accomplishments.el
+    planner-publish.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-15
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-117
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-118
+Summary: planner-publish: fix task publishing
+Keywords: 
+
+* planner-publish.el (planner-html-markup-strings): Change
+  planner-end-task so that it doesn't include the links, and has the
+  correct [?] number of closing spans.
+  (planner-publish-markup-task): Use planner-task-link-text for the
+  links, so we get them all.
+  (planner-publish-task-tag): Avoid making links readonly, so they can be
+  handled by other publishing rules.  Don't add links where there are
+  none [don't add "()", that is].
+

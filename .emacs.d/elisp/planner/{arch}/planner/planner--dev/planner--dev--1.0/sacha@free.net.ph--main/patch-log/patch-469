@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-469
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Aug 13 10:31:24 EDT 2005
+Standard-date: 2005-08-13 14:31:24 GMT
+Modified-files: planner-deadline.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-469
+Summary: planner-deadline bugfix: Avoid infinite loops by calculating deadlines as we insert them
+Keywords: 
+
+* planner-deadline.el (planner-deadline-days-left): Accept strings for
+  dates. (planner-deadline-calculate-string): New convenience function
+  removes the need to call planner-deadline-update after changing the
+  deadline. (planner-deadline-update): Call convenience function instead
+  of using planner-deadline-update. This fixes the endless looping bug
+  that happens when you have deadlines on more than one page.
+

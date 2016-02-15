@@ -1,0 +1,443 @@
+Revision: muse--jeho--1.0--patch-12
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Oct 29 20:10:38 BST 2005
+Standard-date: 2005-10-29 19:10:38 GMT
+Modified-files: AUTHORS ChangeLog ChangeLog.2004 Makefile
+    Makefile.defs NEWS README contrib/.arch-ids/cgi.el.id
+    contrib/.arch-ids/httpd.el.id
+    contrib/.arch-ids/muse-latex2png.el.id contrib/cgi.el
+    contrib/httpd.el contrib/muse-latex2png.el
+    contrib/pyblosxom/.arch-ids/=id
+    contrib/pyblosxom/.arch-ids/getstamps.py.id
+    contrib/pyblosxom/.arch-ids/hardcodedates.py.id
+    contrib/pyblosxom/getstamps.py
+    contrib/pyblosxom/hardcodedates.py debian/.arch-ids/=id
+    debian/.arch-ids/NEWS.id debian/.arch-ids/changelog.id
+    debian/.arch-ids/control.id
+    debian/.arch-ids/copyright.id
+    debian/.arch-ids/emacsen-install.id
+    debian/.arch-ids/emacsen-remove.id
+    debian/.arch-ids/emacsen-startup.id
+    debian/.arch-ids/muse-el.dirs.id
+    debian/.arch-ids/muse-el.docs.id
+    debian/.arch-ids/muse-el.examples.id
+    debian/.arch-ids/muse-el.info.id
+    debian/.arch-ids/rules.id debian/NEWS debian/changelog
+    debian/control debian/copyright debian/emacsen-install
+    debian/emacsen-remove debian/emacsen-startup
+    debian/muse-el.dirs debian/muse-el.docs
+    debian/muse-el.examples debian/muse-el.info debian/rules
+    examples/.arch-ids/Makefile.id
+    examples/.arch-ids/QuickStart.id
+    examples/.arch-ids/muse.rnc.id
+    examples/.arch-ids/publish-project.id examples/Makefile
+    examples/QuickStart examples/johnw/.arch-ids/=id
+    examples/johnw/.arch-ids/muse-johnw.el.id
+    examples/johnw/.arch-ids/publish-johnw.id
+    examples/johnw/muse-johnw.el
+    examples/johnw/publish-johnw examples/muse.rnc
+    examples/mwolson/.arch-ids/=id
+    examples/mwolson/.arch-ids/muse-init.el.id
+    examples/mwolson/muse-init.el
+    examples/mwolson/stylesheets/.arch-ids/=id
+    examples/mwolson/stylesheets/.arch-ids/blog.css.id
+    examples/mwolson/stylesheets/.arch-ids/common.css.id
+    examples/mwolson/stylesheets/.arch-ids/print.css.id
+    examples/mwolson/stylesheets/.arch-ids/screen.css.id
+    examples/mwolson/stylesheets/blog.css
+    examples/mwolson/stylesheets/common.css
+    examples/mwolson/stylesheets/print.css
+    examples/mwolson/stylesheets/screen.css
+    examples/mwolson/templates/.arch-ids/=id
+    examples/mwolson/templates/.arch-ids/footer.html.id
+    examples/mwolson/templates/.arch-ids/generic-footer.html.id
+    examples/mwolson/templates/.arch-ids/generic-header.html.id
+    examples/mwolson/templates/.arch-ids/header.html.id
+    examples/mwolson/templates/footer.html
+    examples/mwolson/templates/generic-footer.html
+    examples/mwolson/templates/generic-header.html
+    examples/mwolson/templates/header.html
+    examples/publish-project experimental/.arch-ids/=id
+    experimental/.arch-ids/Makefile.id
+    experimental/.arch-ids/muse-cite.el.id
+    experimental/.arch-ids/muse-groff.el.id
+    experimental/.arch-ids/muse-mathml.el.id
+    experimental/.arch-ids/muse-message.el.id
+    experimental/.arch-ids/muse-xml.el.id
+    experimental/Makefile experimental/muse-cite.el
+    experimental/muse-groff.el experimental/muse-mathml.el
+    experimental/muse-message.el experimental/muse-xml.el
+    lisp/.arch-ids/=id lisp/.arch-ids/Makefile.id
+    lisp/.arch-ids/muse-book.el.id
+    lisp/.arch-ids/muse-colors.el.id
+    lisp/.arch-ids/muse-convert.el.id
+    lisp/.arch-ids/muse-docbook.el.id
+    lisp/.arch-ids/muse-html.el.id
+    lisp/.arch-ids/muse-http.el.id
+    lisp/.arch-ids/muse-journal.el.id
+    lisp/.arch-ids/muse-latex.el.id
+    lisp/.arch-ids/muse-mode.el.id
+    lisp/.arch-ids/muse-poem.el.id
+    lisp/.arch-ids/muse-project.el.id
+    lisp/.arch-ids/muse-protocols.el.id
+    lisp/.arch-ids/muse-publish.el.id
+    lisp/.arch-ids/muse-texinfo.el.id
+    lisp/.arch-ids/muse-wiki.el.id
+    lisp/.arch-ids/muse.el.id lisp/Makefile
+    lisp/muse-blosxom.el lisp/muse-book.el
+    lisp/muse-colors.el lisp/muse-convert.el
+    lisp/muse-docbook.el lisp/muse-html.el lisp/muse-http.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-mode.el lisp/muse-poem.el lisp/muse-project.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-texinfo.el
+    lisp/muse-wiki.el lisp/muse.el muse.texi
+    scripts/.arch-ids/muse-build.el.id
+    scripts/.arch-ids/publish.id scripts/muse-build.el
+    scripts/publish {arch}/.arch-project-tree
+    {arch}/=tagging-method
+    {arch}/muse/muse--jeho/muse--jeho--1.0/jeho@jeho.org--2005/patch-log/base-0
+    {arch}/muse/muse--jeho/muse--jeho--1.0/jeho@jeho.org--2005/patch-log/patch-1
+    {arch}/muse/muse--jeho/muse--jeho--1.0/jeho@jeho.org--2005/patch-log/patch-2
+    {arch}/muse/muse--jeho/muse--jeho--1.0/jeho@jeho.org--2005/patch-log/patch-3
+    {arch}/muse/muse--jeho/muse--jeho--1.0/jeho@jeho.org--2005/patch-log/patch-4
+    {arch}/muse/muse--jeho/muse--jeho--1.0/jeho@jeho.org--2005/patch-log/patch-5
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0/lidaobing@gmail.com--2004-pub/patch-log/base-0
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0/lidaobing@gmail.com--2004-pub/patch-log/patch-1
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0/lidaobing@gmail.com--2004-pub/patch-log/patch-2
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0/lidaobing@gmail.com--2004/patch-log/patch-1
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0/lidaobing@gmail.com--2004/patch-log/patch-2
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-100
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-101
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-102
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-103
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-104
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-105
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-106
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-107
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-108
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-109
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-110
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-111
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-112
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-113
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-114
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-115
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-116
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-117
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-118
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-119
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-120
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-121
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-122
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-123
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-124
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-125
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-126
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-127
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-128
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-129
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-13
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-130
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-131
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-132
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-133
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-134
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-135
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-136
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-137
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-138
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-139
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-14
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-140
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-141
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-142
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-143
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-144
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-145
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-146
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-147
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-148
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-149
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-15
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-150
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-151
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-152
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-153
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-154
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-155
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-156
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-157
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-158
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-159
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-16
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-160
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-161
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-162
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-163
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-164
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-165
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-166
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-167
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-168
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-169
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-17
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-170
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-171
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-172
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-173
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-174
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-175
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-176
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-177
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-178
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-179
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-18
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-180
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-181
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-182
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-183
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-184
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-185
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-186
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-187
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-188
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-189
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-19
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-190
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-191
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-192
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-193
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-194
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-195
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-196
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-197
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-198
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-199
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-20
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-200
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-201
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-202
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-203
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-204
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-205
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-206
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-207
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-208
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-209
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-21
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-210
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-211
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-212
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-213
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-214
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-215
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-216
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-217
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-218
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-219
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-22
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-220
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-221
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-222
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-223
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-224
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-225
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-226
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-227
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-228
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-229
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-23
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-230
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-231
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-232
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-233
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-234
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-235
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-236
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-237
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-238
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-239
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-24
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-240
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-241
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-242
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-243
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-244
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-245
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-246
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-247
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-248
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-249
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-25
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-250
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-251
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-26
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-27
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-28
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-29
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-30
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-31
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-32
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-33
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-34
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-35
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-36
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-37
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-38
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-39
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-40
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-41
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-42
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-43
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-44
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-45
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-46
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-47
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-48
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-49
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-50
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-51
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-52
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-53
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-54
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-55
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-56
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-57
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-58
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-59
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-60
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-61
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-62
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-63
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-64
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-65
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-66
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-67
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-68
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-69
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-70
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-71
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-72
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-73
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-74
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-75
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-76
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-77
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-78
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-79
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-80
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-81
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-82
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-83
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-84
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-85
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-86
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-87
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-88
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-89
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-90
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-91
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-92
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-93
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-94
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-95
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-96
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-97
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-98
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-99
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0/mwolson@member.fsf.org--2004/patch-log/base-0
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0/mwolson@member.fsf.org--2004/patch-log/patch-1
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0/mwolson@member.fsf.org--2004/patch-log/patch-2
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0/mwolson@member.fsf.org--2004/patch-log/patch-3
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0/mwolson@member.fsf.org--2004/patch-log/patch-4
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0/mwolson@member.fsf.org--2004/patch-log/patch-5
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0/mwolson@member.fsf.org--2004/patch-log/patch-7
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/base-0
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-1
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-10
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-11
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-12
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-13
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-14
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-15
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-16
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-17
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-18
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-19
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-2
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-20
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-21
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-22
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-23
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-24
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-25
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-26
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-27
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-28
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-29
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-3
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-30
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-31
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-32
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-33
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-34
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-35
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-36
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-37
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-38
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-39
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-4
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-5
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-6
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-7
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-8
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log/patch-9
+Modified-directories: contrib contrib/pyblosxom
+    contrib/pyblosxom/.arch-ids debian debian/.arch-ids
+    examples examples/johnw examples/johnw/.arch-ids
+    examples/mwolson examples/mwolson/.arch-ids
+    examples/mwolson/stylesheets
+    examples/mwolson/stylesheets/.arch-ids
+    examples/mwolson/templates
+    examples/mwolson/templates/.arch-ids experimental
+    experimental/.arch-ids lisp lisp/.arch-ids scripts {arch}
+    {arch}/muse {arch}/muse/muse--jeho
+    {arch}/muse/muse--jeho/muse--jeho--1.0
+    {arch}/muse/muse--jeho/muse--jeho--1.0/jeho@jeho.org--2005
+    {arch}/muse/muse--jeho/muse--jeho--1.0/jeho@jeho.org--2005/patch-log
+    {arch}/muse/muse--lidaobing
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0/lidaobing@gmail.com--2004
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0/lidaobing@gmail.com--2004-pub
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0/lidaobing@gmail.com--2004-pub/patch-log
+    {arch}/muse/muse--lidaobing/muse--lidaobing--1.0/lidaobing@gmail.com--2004/patch-log
+    {arch}/muse/muse--mwolson
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0/mwolson@member.fsf.org--2004
+    {arch}/muse/muse--mwolson/muse--mwolson--1.0/mwolson@member.fsf.org--2004/patch-log
+    {arch}/muse/muse--yh {arch}/muse/muse--yh/muse--yh--1.0
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005
+    {arch}/muse/muse--yh/muse--yh--1.0/hodique@lifl.fr--2005/patch-log
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-12
+    mwolson@gnu.org--2005/muse--main--1.0--patch-254
+    mwolson@gnu.org--2005/muse--main--1.0--patch-255
+    mwolson@gnu.org--2005/muse--main--1.0--patch-256
+    mwolson@gnu.org--2005/muse--main--1.0--patch-257
+Summary: Merged from mwolson@gnu.org--2005 (patch 254-257)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-254
+   contrib/muse-latex2png.el: Put images in the correct directory.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-255
+   Merged from jeho@jeho.org--2005 (patch 0-11)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-256
+   Emacs 21 flyspell fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-257
+   By default, use ".muse" extension and do not detect by pathname.

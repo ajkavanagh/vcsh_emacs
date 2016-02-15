@@ -1,0 +1,25 @@
+Revision: planner--yh--1.0--patch-1
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Tue Apr 19 13:47:33 CEST 2005
+Standard-date: 2005-04-19 11:47:33 GMT
+Modified-files: planner-gnus.el planner-log-edit.el
+    planner-mhe.el planner-unix-mail.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-1
+Summary: Some hacks on planner--muse
+Keywords:
+
+* planner-gnus.el: quote planner-gnus-browse-url
+
+* planner-log-edit.el (planner-log-edit-flush-regexp-list): add the possibility to ignore patterns before inserting commit messages as notes (useful for psvn)
+(planner-log-edit-add-note): use planner-log-edit-flush-regexp-list
+
+* planner-mhe.el ("mhe"): quote planner-mhe-browse-url
+
+* planner-unix-mail.el (planner-unix-mail-protocol-name): quote planner-unix-mail-protocol-name
+
+* planner.el (planner-annotation-format-local-file-name): add the possibility to format local file links (I use it to force files under my home dir to be displayed as ~/..., so that I can move my planner files easily between home and work)
+(planner-annotation-from-file): use planner-annotation-format-local-file-name
+(planner-annotation-from-dir): new annotation for handling dired buffers
+(planner-annotation-functions): use planner-annotation-from-dir
+

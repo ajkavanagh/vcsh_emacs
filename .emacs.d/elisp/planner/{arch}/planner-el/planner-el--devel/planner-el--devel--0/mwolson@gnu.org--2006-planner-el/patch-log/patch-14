@@ -1,0 +1,14 @@
+Revision: planner-el--devel--0--patch-14
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Mar 11 11:41:53 GMT 2006
+Standard-date: 2006-03-11 11:41:53 GMT
+Modified-files: planner-appt.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-14
+Summary: planner-appt: xemacs window fitting compatibility fix
+Keywords: 
+
+* planner-appt.el (planner-fit-window-to-buffer): use
+  shrink-window-if-large-than-buffer if fit-window-to-buffer is not
+  available 
+

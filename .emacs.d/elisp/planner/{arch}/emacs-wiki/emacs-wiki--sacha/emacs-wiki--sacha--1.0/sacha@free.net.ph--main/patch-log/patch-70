@@ -1,0 +1,13 @@
+Revision: emacs-wiki--sacha--1.0--patch-70
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Mar  8 14:11:59 PHT 2004
+Standard-date: 2004-03-08 06:11:59 GMT
+New-files: .arch-ids/planner-wl.el.id planner-wl.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-70
+Summary: Added planner-wl.el
+Keywords: 
+
+	* planner-wl.el: New file. Thanks to Yvonne Thomson for
+	contributing this to planner.
+

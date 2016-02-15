@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-101
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sun Jan 14 03:40:30 EST 2007
+Standard-date: 2007-01-14 08:40:30 GMT
+Modified-files: ChangeLog planner-gnus.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-101
+Summary: Fix typo, and fix group selection to work in more gnus versions.
+Keywords: 
+
+
+

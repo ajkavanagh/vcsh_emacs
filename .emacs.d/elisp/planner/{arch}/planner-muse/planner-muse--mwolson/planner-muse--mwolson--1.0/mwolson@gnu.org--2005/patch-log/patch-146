@@ -1,0 +1,20 @@
+Revision: planner-muse--mwolson--1.0--patch-146
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  2 16:15:28 EST 2006
+Standard-date: 2006-01-02 21:15:28 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-146
+Summary: planner-publish: Work further on <notes> and <past-notes> tags.
+Keywords: 
+
+* planner-publish.el (planner-html-markup-strings): Split
+  planner-note-details into manageable chunks.
+  (planner-publish-markup-note, planner-publish-notes-section-tag):
+  s/notes/notes-section/.  Thanks to Dale Smith for the patch.
+  (planner-publish-past-notes-tag): Fix the name of this function, thanks
+  to Dale Smith.  Make it use planner-insert-markup in some parts so that
+  raw HTML doesn't get escaped.
+  (planner-publish-note-tag): Split up the 'planner-note-details string
+  so that we can be selective about the parts that are marked up as
+  read-only.

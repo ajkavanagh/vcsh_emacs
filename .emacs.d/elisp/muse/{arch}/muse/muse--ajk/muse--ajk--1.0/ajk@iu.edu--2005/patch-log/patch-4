@@ -1,0 +1,14 @@
+Revision: muse--ajk--1.0--patch-4
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Tue Jul  5 18:36:37 EST 2005
+Standard-date: 2005-07-05 23:36:37 GMT
+Modified-files: lisp/muse-groff.el
+New-patches: ajk@iu.edu--2005/muse--ajk--1.0--patch-4
+Summary: mom -> groff
+CSCVSID: MAIN.4
+Keywords: cscvs:MAIN-4
+
+Author: ajk
+Date: 2005/06/08 12:30:45
+mom -> groff

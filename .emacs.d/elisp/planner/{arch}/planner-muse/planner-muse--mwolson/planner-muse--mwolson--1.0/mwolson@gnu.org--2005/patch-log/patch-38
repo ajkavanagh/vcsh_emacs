@@ -1,0 +1,25 @@
+Revision: planner-muse--mwolson--1.0--patch-38
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 23 15:29:19 EST 2005
+Standard-date: 2005-07-23 20:29:19 GMT
+New-files: .arch-ids/planner-ical.el.id planner-ical.el
+Modified-files: ChangeLog.mwolson planner-el.texi
+    planner-rss.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-38
+    sacha@free.net.ph--main/planner--dev--1.0--patch-455
+    sacha@free.net.ph--main/planner--dev--1.0--patch-456
+    sacha@free.net.ph--main/planner--dev--1.0--patch-457
+Summary: Merged from sacha@free.net.ph--main (patch 455-457)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-455
+   Bugfix: planner-rss-add-note: Remove tags from title
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-456
+   New: planner-ical.el
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-457
+   Docfix: Fix iCal example quotes

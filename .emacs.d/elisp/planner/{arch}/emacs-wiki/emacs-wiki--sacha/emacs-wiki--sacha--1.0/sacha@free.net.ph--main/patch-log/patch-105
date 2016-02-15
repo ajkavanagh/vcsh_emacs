@@ -1,0 +1,25 @@
+Revision: emacs-wiki--sacha--1.0--patch-105
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Mar 15 13:03:59 PHT 2004
+Standard-date: 2004-03-15 05:03:59 GMT
+Modified-files: emacs-wiki.el planner.el
+    test/emacs-wiki-test.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-105
+Summary: Better XHTML 1.0 Strict compliance for anchors that are only numbers. Requires republish.
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-wiki-link-target): Use
+	emacs-wiki-bare-digits-anchor-prefix for numeric anchors.
+	(emacs-wiki-bare-digits-anchor-prefix): New.
+	(emacs-wiki-insert-anchor): Add
+	emacs-wiki-bare-digits-anchor-prefix to anchors that start with
+	numbers.
+
+	* planner.el (planner-markup-note): Mark up notes with
+	emacs-wiki-bare-digits-anchor-prefix.
+	(planner-publishing-markup): Mark up notes with planner-markup-note.
+
+	* test/emacs-wiki-test.el:
+	(emacs-wiki-test): New convenience function for testing.
+	(emacs-wiki-wiki-link-target): New.

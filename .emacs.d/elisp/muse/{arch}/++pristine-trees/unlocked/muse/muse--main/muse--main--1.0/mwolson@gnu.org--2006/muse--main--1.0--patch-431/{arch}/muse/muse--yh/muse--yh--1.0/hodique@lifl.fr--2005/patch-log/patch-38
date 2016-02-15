@@ -1,0 +1,153 @@
+Revision: muse--yh--1.0--patch-38
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Aug 22 03:11:52 CEST 2005
+Standard-date: 2005-08-22 01:11:52 GMT
+New-files: .arch-ids/NEWS.id NEWS
+    experimental/.arch-ids/Makefile.id
+    experimental/.arch-ids/muse-xml.el.id
+    experimental/Makefile experimental/muse-xml.el
+Removed-files: experimental/.arch-ids/muse-wiki-old.el.id
+    experimental/muse-wiki-old.el
+Modified-files: AUTHORS ChangeLog Makefile Makefile.defs
+    debian/changelog debian/control debian/rules
+    examples/QuickStart examples/mwolson/muse-init.el
+    lisp/muse-blosxom.el lisp/muse-colors.el
+    lisp/muse-docbook.el lisp/muse-html.el
+    lisp/muse-latex.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-texinfo.el lisp/muse-wiki.el lisp/muse.el
+    muse.texi scripts/muse-build.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-38
+    mwolson@gnu.org--2005/muse--main--1.0--patch-171
+    mwolson@gnu.org--2005/muse--main--1.0--patch-172
+    mwolson@gnu.org--2005/muse--main--1.0--patch-173
+    mwolson@gnu.org--2005/muse--main--1.0--patch-174
+    mwolson@gnu.org--2005/muse--main--1.0--patch-175
+    mwolson@gnu.org--2005/muse--main--1.0--patch-176
+    mwolson@gnu.org--2005/muse--main--1.0--patch-177
+    mwolson@gnu.org--2005/muse--main--1.0--patch-178
+    mwolson@gnu.org--2005/muse--main--1.0--patch-179
+    mwolson@gnu.org--2005/muse--main--1.0--patch-180
+    mwolson@gnu.org--2005/muse--main--1.0--patch-181
+    mwolson@gnu.org--2005/muse--main--1.0--patch-182
+    mwolson@gnu.org--2005/muse--main--1.0--patch-183
+    mwolson@gnu.org--2005/muse--main--1.0--patch-184
+    mwolson@gnu.org--2005/muse--main--1.0--patch-185
+    mwolson@gnu.org--2005/muse--main--1.0--patch-186
+    mwolson@gnu.org--2005/muse--main--1.0--patch-187
+    mwolson@gnu.org--2005/muse--main--1.0--patch-188
+    mwolson@gnu.org--2005/muse--main--1.0--patch-189
+    mwolson@gnu.org--2005/muse--main--1.0--patch-190
+    mwolson@gnu.org--2005/muse--main--1.0--patch-191
+    mwolson@gnu.org--2005/muse--main--1.0--patch-192
+    mwolson@gnu.org--2005/muse--main--1.0--patch-193
+    mwolson@gnu.org--2005/muse--main--1.0--patch-194
+    mwolson@gnu.org--2005/muse--main--1.0--patch-195
+    mwolson@gnu.org--2005/muse--main--1.0--patch-196
+    mwolson@gnu.org--2005/muse--main--1.0--patch-197
+    mwolson@gnu.org--2005/muse--main--1.0--patch-198
+    mwolson@gnu.org--2005/muse--main--1.0--patch-199
+    mwolson@gnu.org--2005/muse--main--1.0--patch-200
+    mwolson@gnu.org--2005/muse--main--1.0--patch-201
+    mwolson@gnu.org--2005/muse--main--1.0--patch-202
+Summary: Merged from mwolson@gnu.org--2005 (patch 171-202)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-171
+   Add a few common revision control directories to the ignore list.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-172
+   Fix failure to publish emphasis properly.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-173
+   Don't publish implicit links that have a double-quote at begin or end.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-174
+   Try to fix <example> region coloring problem.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-175
+   Initial implementation of muse-xml.el.  End of section edge case.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-176
+   Include regexps from base styles.  Fix muse-project-ignore-regexp and use it more.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-177
+   muse-xml: Separate section from title.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-178
+   Fix warnings during font-lock, example tag highlighting.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-179
+   Make interwiki links work in a few more edge cases.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-180
+   Correct breakage induced by previous patch.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-181
+   Minor namespace fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-182
+   muse-xml: definition lists, muse-docbook: center.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-183
+   Generalize some blosxom helper functions.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-184
+   Handle anchors in all publishing styles, as well as linking to them.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-185
+   Allow transform function for link descriptions.  Bare email and URL fixes.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-186
+   Make coloring of verbatim greater-than sign same as publishing.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-187
+   Inter-project output name fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-188
+   Escape email address and URL always.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-189
+   Release 3.01.91 (3.02 RC2).
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-190
+   Fix trailing backslash error.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-191
+   Makefile: Remove stale Debian packages for this version.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-192
+   Fix failure to resolve interwiki link when clicking on it.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-193
+   Compilation cleanups.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-194
+   Makefile: Minor deletion cleanups.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-195
+   Make generated Debian packages slightly easier to upload.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-196
+   Makefile: Use BUILDOPTS.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-197
+   QuickStart: Minor typo in anchor example.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-198
+   Keep lists from getting mashed together on M-q.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-199
+   Minor fixups from Peter K. Lee.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-200
+   muse-mode: Minor regexp tweak.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-201
+   Prepare initial upload for Debian project.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-202
+   Make building of Debian revisions work.

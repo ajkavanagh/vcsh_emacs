@@ -1,0 +1,20 @@
+Revision: emacs-wiki--dev--1.0--patch-18
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Thu Jul 17 02:51:16 EST 2003
+Standard-date: 2003-07-16 16:51:16 GMT
+Summary: correct bug in patch-15
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-18
+Removed-patches: 
+
+(emacs-wiki-highlight-link): check for equality with the first character, not
+    the entire string

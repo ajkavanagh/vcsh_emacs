@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-271
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jan  2 20:34:53 JST 2005
+Standard-date: 2005-01-02 11:34:53 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-271
+Summary: Rename planner-multi-*-note functions to planner-multi-note-*
+Keywords: 
+
+	* planner-multi.el (planner-multi-note-update): Rename from
+	planner-multi-update-note.
+	(planner-multi-note-delete): Rename from
+	planner-multi-delete-note.
+	(planner-multi-note-delete-this-page): Rename from
+	planner-multi-delete-note-this-page. Fix free variable.

@@ -1,0 +1,43 @@
+Revision: planner-muse--mwolson--1.0--patch-23
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  6 16:03:17 EST 2005
+Standard-date: 2005-07-06 21:03:17 GMT
+New-files: .arch-ids/planner-gnats.el.id planner-gnats.el
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-el.texi planner-multi.el
+    planner-timeclock-summary.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-22
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-23
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-24
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-23
+    sacha@free.net.ph--main/planner--dev--1.0--patch-442
+    sacha@free.net.ph--main/planner--dev--1.0--patch-443
+    sacha@free.net.ph--main/planner--dev--1.0--patch-444
+    sacha@free.net.ph--main/planner--dev--1.0--patch-445
+Summary: Merged from hodique@lifl.fr--2005 (patch 22-24), sacha@free.net.ph--main (patch 442-445)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-22
+   Merged from sacha@free.net.ph--main (patch 442-444)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-23
+   Merged from sacha@free.net.ph--main (patch 445)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-24
+   Merged from mwolson@gnu.org--2005 (patch 19-22)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-442
+   planner-save-buffers: Do not kill non-planner-mode buffers
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-443
+   New: planner-gnats.el adds support for the GNU bugtracking system
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-444
+   Bugfix: planner-multi-replan-task: Deal with tasks without dates
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-445
+   Bugfix: planner-multi-link-delete: Preserve order
+

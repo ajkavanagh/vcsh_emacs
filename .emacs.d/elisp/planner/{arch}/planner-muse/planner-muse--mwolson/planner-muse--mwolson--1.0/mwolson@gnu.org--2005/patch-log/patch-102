@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-102
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov 21 00:14:10 EST 2005
+Standard-date: 2005-11-21 05:14:10 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-102
+Summary: Fix parameters of planner-visit-link.
+Keywords: 
+
+* planner.el (planner-visit-link): Get rid of REFRESH-BUFFER parameter.
+  Thanks to Seth Falcon for the heads up.

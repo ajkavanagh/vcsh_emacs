@@ -1,0 +1,23 @@
+Revision: planner--dev--1.0--patch-129
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 26 15:34:08 PHT 2004
+Standard-date: 2004-06-26 07:34:08 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-129
+Summary: New option: planner-use-day-pages allows you to turn off dates for tasks and notes
+Keywords: feature
+
+	* planner.el (planner-use-day-pages): New option allows you to
+	turn off the use of day pages for tasks and notes. If not using
+        day pages, WecomePage is the default page.
+	(planner-name-regexp): If not using day pages, use blank regexp.
+	(planner-mode-map): If not using day pages, do not bind day
+	navigation.
+	(planner-menu): If not using day pages, do not add day navigation
+	to menus.
+	(planner-read-date): Don't read anything if not using day pages.
+	(planner-goto): Read plan page if date page not specified.
+	(planner-goto-most-recent): Do not call plan automatically.
+	(planner-today): Return WelcomePage if not using day pages.
+	(planner-update-wiki-project): Do not add empty regexp.

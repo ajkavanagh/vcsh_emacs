@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-73
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 22 18:05:33 EST 2005
+Standard-date: 2005-06-22 23:05:33 GMT
+Modified-files: ChangeLog README muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-73
+Summary: Tell people where to find on-line version of manual.
+Keywords: 
+
+* README: Add on-line locations for manual.
+
+* muse.texi: Remove @include directive.  This makes generating a PDF of
+  this documentation a lot easier.
+
+* muse.texi (Preface): Add on-line locations for manual.

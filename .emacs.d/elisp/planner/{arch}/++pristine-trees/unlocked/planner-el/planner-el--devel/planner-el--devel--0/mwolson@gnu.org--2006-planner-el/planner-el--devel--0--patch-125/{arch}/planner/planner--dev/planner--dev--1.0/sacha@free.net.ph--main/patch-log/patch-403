@@ -1,0 +1,24 @@
+Revision: planner--dev--1.0--patch-403
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jun  5 18:42:34 PHT 2005
+Standard-date: 2005-06-05 10:42:34 GMT
+Modified-files: ChangeLog planner-diary.el planner-el.texi
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-403
+Summary: New function: planner-delete-section[-text], add CREATE to planner-narrow-to-section
+Keywords: 
+
+* planner-diary.el (planner-diary-delete-section): Deleted.
+  (planner-diary-delete-section-text): Deleted.
+
+* planner.el (planner-delete-section): New function based on
+  planner-diary-delete-section. Changed arguments from FILE TITLE to
+  SECTION.
+* planner.el (planner-delete-section-text): New function based on
+  planner-diary-delete-section. Changed arguments from FILE TITLE to
+  SECTION.
+
+* planner.el (planner-narrow-to-section): New CREATE argument.
+
+* planner-el.texi (Other Interactive Functions): Document new CREATE argument.

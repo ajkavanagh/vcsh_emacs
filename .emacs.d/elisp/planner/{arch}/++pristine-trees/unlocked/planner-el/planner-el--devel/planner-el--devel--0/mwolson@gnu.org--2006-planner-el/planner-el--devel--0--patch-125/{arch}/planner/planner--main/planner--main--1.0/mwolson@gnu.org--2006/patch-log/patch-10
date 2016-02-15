@@ -1,0 +1,22 @@
+Revision: planner--main--1.0--patch-10
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Feb 21 18:31:41 EST 2006
+Standard-date: 2006-02-21 23:31:41 GMT
+Modified-files: planner-authz.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--base-0
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-1
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-2
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-3
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-4
+    mwolson@gnu.org--2006/planner--main--1.0--patch-10
+Summary: Merged from mwolson@gnu.org--2006-planner-el (patch 0-4)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-3
+   update to work with latest planner-publish.el
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-4
+   add planner-multi support to planner-authz

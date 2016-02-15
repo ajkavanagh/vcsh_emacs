@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-481
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Aug 31 08:12:49 EDT 2005
+Standard-date: 2005-08-31 12:12:49 GMT
+Modified-files: planner-timeclock-summary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-481
+Summary: Bugfix: planner-timeclock-summary-day-range-entry: Accept functions again
+Keywords: 
+
+* planner-timeclock-summary.el (planner-timeclock-summary-day-range-entry): Merge
+  Chris Parsons' patch restoring the use of functions.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

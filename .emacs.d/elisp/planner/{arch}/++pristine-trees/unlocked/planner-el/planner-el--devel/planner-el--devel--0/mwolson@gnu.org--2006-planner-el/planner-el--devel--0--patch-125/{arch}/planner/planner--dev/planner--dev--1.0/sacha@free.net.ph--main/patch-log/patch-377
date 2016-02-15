@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-377
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Apr 18 22:07:50 PHT 2005
+Standard-date: 2005-04-18 14:07:50 GMT
+Modified-files: ChangeLog planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-377
+Summary: planner-gnus: Pick up the group name properly
+Keywords: 
+
+* planner-gnus.el (planner-gnus-browse-url): Pick up the group name properly.
+  Thanks to Stefan Reichör for the patch!
+  (planner-gnus-group-threshold): New. Might help with planner-gnus-browse-url and
+  large groups.

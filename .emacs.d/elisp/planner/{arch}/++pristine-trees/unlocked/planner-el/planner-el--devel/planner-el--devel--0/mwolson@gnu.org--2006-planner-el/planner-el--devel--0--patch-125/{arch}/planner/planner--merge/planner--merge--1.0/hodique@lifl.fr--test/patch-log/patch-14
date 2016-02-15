@@ -1,0 +1,20 @@
+Revision: planner--merge--1.0--patch-14
+Archive: hodique@lifl.fr--test
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jul 16 22:03:46 CEST 2005
+Standard-date: 2005-07-16 20:03:46 GMT
+Modified-files: ChangeLog.yh planner-timeclock-summary.el
+    planner-timeclock.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-37
+    hodique@lifl.fr--test/planner--merge--1.0--patch-14
+    sacha@free.net.ph--main/planner--dev--1.0--patch-451
+Summary: Merged from hodique@lifl.fr--2005 (patch 37), sacha@free.net.ph--main (patch 451)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-37
+   Merged from sacha@free.net.ph--main (patch 451)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-451
+   planner-timeclock-summary-make-text-table-day: Format projects as links

@@ -1,0 +1,18 @@
+Revision: planner--main--1.0--patch-41
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May  8 20:30:01 EDT 2006
+Standard-date: 2006-05-09 00:30:01 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog planner-el.texi
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-41
+Summary: planner-el.texi: Update location of schedule.el.
+Keywords: 
+
+* ChangeLog.2006: Update.
+
+* planner-el.texi (Timeclock): Note that timeclock.el comes with GNU
+  Emacs, and direct XEmacs users to use the version that comes with
+  Planner in the contrib directory.
+  (schedule.el): Use correct URL and note that this comes with Planner.
+  Thanks to Adrian Aichner for the report.

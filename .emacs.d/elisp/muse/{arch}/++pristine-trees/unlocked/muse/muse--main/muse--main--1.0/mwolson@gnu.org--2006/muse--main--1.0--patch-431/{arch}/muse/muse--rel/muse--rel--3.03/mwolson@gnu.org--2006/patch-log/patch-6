@@ -1,0 +1,28 @@
+Revision: muse--rel--3.03--patch-6
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 23:21:11 EDT 2007
+Standard-date: 2007-05-26 03:21:11 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+    lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006/muse--rel--3.03--patch-6
+Summary: Work around a truly abominable tilde-in-path edge case in TeX
+Keywords: 
+
+2007-05-25  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-latex.el (muse-latex-pdf-program): New option that
+	specifies the program to call in order to generate PDF content
+	from LaTeX content.
+	(muse-latex-pdf-cruft): New option that specifies the extensions
+	of files to remove after generating PDF output successfully.
+	(muse-latex-pdf-generate): Use these new options.  Work around the
+	annoying edge case where a tilde character exists in the filename
+	or directory path -- now this can only error out when the relative
+	path from the output file to the source file contains a tilde,
+	which is far less likely.
+
+	* lisp/muse-texinfo.el (muse-texinfo-pdf-generate): Rewrite to
+	call `muse-latex-pdf-generate' with pdftex as the generating
+	binary, because texi2pdf suffers irredeemably from the tilde edge
+	case mentioned above.

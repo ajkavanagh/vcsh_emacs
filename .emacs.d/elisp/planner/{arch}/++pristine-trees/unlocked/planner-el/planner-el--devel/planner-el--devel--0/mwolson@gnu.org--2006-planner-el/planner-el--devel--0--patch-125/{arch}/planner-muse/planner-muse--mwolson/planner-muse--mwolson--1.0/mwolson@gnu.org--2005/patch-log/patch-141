@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-141
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Dec 26 00:38:13 EST 2005
+Standard-date: 2005-12-26 05:38:13 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-141
+Summary: Fix bug with finding anchors.
+Keywords: 
+
+* planner.el (planner-visit-link, planner-visit-link): Apply patch from
+  Sacha that fixes an anchor-searching bug.

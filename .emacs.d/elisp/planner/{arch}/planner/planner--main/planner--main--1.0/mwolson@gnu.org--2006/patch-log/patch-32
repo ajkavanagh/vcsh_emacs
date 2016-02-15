@@ -1,0 +1,18 @@
+Revision: planner--main--1.0--patch-32
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr  9 15:27:03 EDT 2006
+Standard-date: 2006-04-09 19:27:03 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-32
+Summary: manual: Remove use of old Planner variables.
+Keywords: 
+
+* planner-el.texi: Remove use of old Planner variables.  Thanks to
+  Sebastian Luque for the report.
+  (Creating Your Planner): Clarify comment.
+  (Basic Configuration): Remove node, since its content is presented
+  elsewhere.
+  (Annotations, Publishing): Don't use old Planner variables in
+  explanation.
+  (iCal Task Publication): Give a more up-to-date example.

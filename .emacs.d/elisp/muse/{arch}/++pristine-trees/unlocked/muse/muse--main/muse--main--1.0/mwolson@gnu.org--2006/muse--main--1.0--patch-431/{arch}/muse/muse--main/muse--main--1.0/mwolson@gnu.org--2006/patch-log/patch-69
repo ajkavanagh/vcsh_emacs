@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-69
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar 24 22:31:36 EST 2006
+Standard-date: 2006-03-25 03:31:36 GMT
+Modified-files: ChangeLog.2006 lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-69
+Summary: muse-mode: Don't require muse-publish.el.
+Keywords: 
+
+* lisp/muse-mode.el: Use a few autoloads instead of requiring
+  muse-publish.el.  This allows people to optionally have Muse mode
+  without including the publishing features, as long as they never call a
+  publishing function.  The documentation says that Muse is supposed to
+  be modular in that way, so I guess we'd better follow it.
+  (muse-insert-tag): Make sure that muse-publish is required before
+  accessing `muse-publish-markup-tags'.

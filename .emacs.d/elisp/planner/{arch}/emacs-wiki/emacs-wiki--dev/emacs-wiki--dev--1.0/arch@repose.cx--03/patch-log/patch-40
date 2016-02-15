@@ -1,0 +1,13 @@
+Revision: emacs-wiki--dev--1.0--patch-40
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Wed Nov 26 00:05:36 EST 2003
+Standard-date: 2003-11-25 13:05:36 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-40
+Summary: fix buglet in -directories-member
+Keywords: 
+
+Thanks to Thomas Link for pointing it out.
+
+* expand-file-name on both sides of the comparison

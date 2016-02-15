@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-33
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 15 22:09:26 PHT 2004
+Standard-date: 2004-04-15 14:09:26 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-33
+Summary: Important bugfix: Properly update task
+Keywords: 
+
+	* planner.el (planner-copy-or-move-task): Important bugfix:
+	Properly update task. Correct bug introduced in patch-28.
+

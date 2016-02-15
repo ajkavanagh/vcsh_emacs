@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-460
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jul 25 10:42:14 EDT 2005
+Standard-date: 2005-07-25 14:42:14 GMT
+Modified-files: planner-calendar.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-460
+Summary: Bugfix: planner-calendar-published-file-href: Stop refreshing the file list all the time
+Keywords: 
+
+* planner.el (planner-page-file): Don't change projects, as the
+  underlying functions use variables properly.
+
+* planner-calendar.el (planner-calendar-published-file-href): Don't keep
+  refreshing the file alist. This should make it faster. Thanks to drkm for
+  pointing this out.
+

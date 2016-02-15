@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-60
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar 12 20:48:10 EST 2006
+Standard-date: 2006-03-13 01:48:10 GMT
+Modified-files: ChangeLog.2006 examples/muse.rnc
+    lisp/muse-xml-common.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-60
+Summary: Update Muse XML schema.
+Keywords: 
+
+* examples/muse.rnc: Allow nested list items.  Update header.  Provide
+  history.  We'll call this v0.3 of the schema.
+
+* lisp/muse-xml-common.el: Update header.
+  (muse-xml-markup-table): Fix table generation when attributes are not
+  specified.

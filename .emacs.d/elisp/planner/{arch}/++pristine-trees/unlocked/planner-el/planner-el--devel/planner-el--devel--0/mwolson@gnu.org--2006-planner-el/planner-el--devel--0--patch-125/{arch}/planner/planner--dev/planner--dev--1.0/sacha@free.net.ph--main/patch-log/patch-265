@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-265
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec 27 11:34:09 JST 2004
+Standard-date: 2004-12-27 02:34:09 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-265
+Summary: planner-sort-tasks: Sort unnumbered tasks as well
+Keywords: 
+
+	* planner.el (planner-sort-tasks): Make sort tasks behave without
+	task numbers.

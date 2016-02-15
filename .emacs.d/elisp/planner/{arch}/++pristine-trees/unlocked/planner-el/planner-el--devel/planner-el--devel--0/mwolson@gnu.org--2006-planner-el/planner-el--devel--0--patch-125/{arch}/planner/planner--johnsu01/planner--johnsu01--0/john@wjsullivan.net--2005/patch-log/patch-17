@@ -1,0 +1,10 @@
+Revision: planner--johnsu01--0--patch-17
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Thu Aug 18 02:04:47 EDT 2005
+Standard-date: 2005-08-18 06:04:47 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-17
+Summary: Corrected installation instructions for registering and pulling from the tla emacs-wiki archive. We were still saying 2004, should be 2005.
+Keywords:
+

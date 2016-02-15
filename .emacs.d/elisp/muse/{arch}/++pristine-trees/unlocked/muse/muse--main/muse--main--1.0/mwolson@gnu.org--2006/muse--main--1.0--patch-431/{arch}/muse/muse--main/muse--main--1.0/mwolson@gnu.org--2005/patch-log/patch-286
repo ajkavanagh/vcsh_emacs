@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-286
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Dec 10 22:21:14 EST 2005
+Standard-date: 2005-12-11 03:21:14 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-286
+Summary: muse-wiki: First try at implementing WikiName separator.
+Keywords: 
+
+* lisp/muse-wiki.el: Implement WikiName separator support via "''''"
+  markup, for when you want to add a suffix to a WikiName.

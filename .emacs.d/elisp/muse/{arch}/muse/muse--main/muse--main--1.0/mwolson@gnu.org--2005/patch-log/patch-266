@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-266
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov  9 20:26:15 EST 2005
+Standard-date: 2005-11-10 01:26:15 GMT
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    debian/rules lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-266
+Summary: Call pdflatex a reasonable number of times.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-pdf-generate): Call pdflatex up to 3
+  times, depending on what return value we get.  Thanks to John Wiegley
+  for the heads up.

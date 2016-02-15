@@ -1,0 +1,27 @@
+Revision: planner-el--devel--0--patch-13
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Mar  6 15:49:19 GMT 2006
+Standard-date: 2006-03-06 15:49:19 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-51
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-52
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-53
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-13
+    mwolson@gnu.org--2006/planner--main--1.0--patch-15
+Summary: Merged from jeho@jeho.org--2005 (patch 51-53), mwolson@gnu.org--2006 (patch 15)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-51
+   Merged from mwolson@gnu.org--2006-planner-el (patch 12), mwolson@gnu.org--2006 (patch 15)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-52
+   planner-appt: fix wrong side of bound error
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-53
+   planner-appt: fix appts in schedule; fix bug in forthcoming appts
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-15
+   Merged from mwolson@gnu.org--2006-planner-el (patch 12)

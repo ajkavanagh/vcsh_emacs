@@ -1,0 +1,16 @@
+Revision: planner-el--devel--0--patch-2
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Feb 14 10:08:53 EST 2006
+Standard-date: 2006-02-14 15:08:53 GMT
+New-files: debian/.arch-ids/compat.id debian/compat
+Modified-files: debian/rules
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-2
+    mwolson@gnu.org--2006/planner--main--1.0--patch-9
+Summary: Merged from mwolson@gnu.org--2006 (patch 9)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-9
+   Use debian/compat to determine debhelper compat level.

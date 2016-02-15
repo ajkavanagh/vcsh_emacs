@@ -1,0 +1,17 @@
+Revision: emacs-wiki--sacha--1.0--patch-124
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 18 17:18:01 PHT 2004
+Standard-date: 2004-03-18 09:18:01 GMT
+Modified-files: planner-experimental.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-124
+Summary: Remove duplicate tasks from day pages when M-x planner-remove-duplicates is invoked on a plan page
+Keywords: 
+
+	* planner-experimental.el (planner-remove-duplicates):
+	Intelligently remove duplicates from day pages. You can invoke
+	this from a plan page to zap most duplicate tasks.
+
+	* planner.el (planner-find-task): New optional argument POINT
+	defines starting position.
+

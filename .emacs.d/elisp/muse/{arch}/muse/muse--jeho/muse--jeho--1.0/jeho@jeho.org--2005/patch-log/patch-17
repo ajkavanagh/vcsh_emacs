@@ -1,0 +1,14 @@
+Revision: muse--jeho--1.0--patch-17
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Nov 20 11:45:37 GMT 2005
+Standard-date: 2005-11-20 11:45:37 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-17
+Summary: deal with urls with anchors correctly
+Keywords: 
+
+* lisp/muse-mode.el (muse-visit-link-default, muse-visit-link): move link
+  splitting from muse-visit-link to muse-visit-link-default so that
+  muse-browse-url may get the full url.
+

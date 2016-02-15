@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-104
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jun 11 23:43:31 PHT 2004
+Standard-date: 2004-06-11 15:43:31 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-104
+Summary: Important bugfix: Add condition-case just in case calendar is not displayed
+Keywords: bugfix
+
+	* planner.el (planner-create-task-from-buffer): Bugfix: Add
+	condition-case just in case calendar is not displayed.

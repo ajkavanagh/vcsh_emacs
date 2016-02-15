@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-2
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 11:46:29 CST 2005
+Standard-date: 2005-01-30 03:46:29 GMT
+Modified-files: planner-deadline.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-2
+Summary: Move the calculation of how many days left out to be a function
+Keywords: update
+
+* planner-deadline.el (planner-deadline-days-left): New function, return
+  how many days are left for the given task.
+  (planner-deadline-update): Call planner-deadline-days-left instead of
+  doing the calculation itself.
+

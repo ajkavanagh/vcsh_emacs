@@ -1,0 +1,27 @@
+Revision: planner--dev--1.0--patch-283
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jan  6 18:16:03 JST 2005
+Standard-date: 2005-01-06 09:16:03 GMT
+Modified-files: ChangeLog planner-multi.el planner-rss.el
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-283
+Summary: planner-multi bugfixes, related changes
+Keywords: 
+
+	* planner-rss.el (planner-rss-add-note): Use planner-format-note.
+	(planner-rss-add-note): Better support for multiple pages.
+
+	* planner-multi.el (planner-current-note-info): Docfix. Old doc
+	referred to task.
+	(planner-note-link): Docfix. Old doc referred to task.
+	(planner-note-link-text): New.
+	(planner-update-note): Promote planner-multi-note-update to advice
+	of planner-update-note in planner.el.
+	(planner-replan-note): Preliminary support for replanning notes.
+
+	* planner.el (planner-find-file): Extract the page name from links.
+	(planner-read-non-date-page): New argument INITIAL specifies the inital
+	contents of the minibuffer.
+	(planner-replan-note): Pass initial argument to make replanning easier.
+	(planner-note-link-text): New.

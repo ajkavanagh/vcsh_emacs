@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-431
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 31 19:37:50 EDT 2007
+Standard-date: 2007-07-31 23:37:50 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-431
+Summary: Fix issue with verse tag and initial whitespace
+Keywords: 
+
+2007-07-31  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-verse-tag): Unconditionally
+	delete forward one character, since we are guaranteed to be on a
+	blank line.  Don't delete all initial whitespace of the first
+	line.  This fixes an issue where the output from the verse tag did
+	not match the output from Muse's verse syntax.

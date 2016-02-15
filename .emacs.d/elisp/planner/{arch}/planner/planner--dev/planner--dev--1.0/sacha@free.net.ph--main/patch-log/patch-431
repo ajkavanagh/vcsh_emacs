@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-431
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jun 27 20:27:11 PHT 2005
+Standard-date: 2005-06-27 12:27:11 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-431
+Summary: planner-create-note: Default to current page
+Keywords: 
+
+* planner.el (planner-create-note): Default to current page. Thanks to
+  Scott Otterson for the suggestion.

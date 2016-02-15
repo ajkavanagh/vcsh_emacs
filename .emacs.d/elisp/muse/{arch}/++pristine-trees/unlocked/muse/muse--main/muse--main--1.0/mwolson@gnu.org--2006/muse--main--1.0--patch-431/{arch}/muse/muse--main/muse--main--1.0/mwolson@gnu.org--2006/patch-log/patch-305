@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-305
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Apr 23 21:37:27 EDT 2007
+Standard-date: 2007-04-24 01:37:27 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-305
+Summary: Fix stray footnote references causing control chars to be inserted bug
+Keywords: 
+
+2007-04-23  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-markup-footnote): If we can't
+	find the footnote that goes with a reference, leave the reference
+	as-is.  This fixes an error where control characters could be
+	placed in a published document.

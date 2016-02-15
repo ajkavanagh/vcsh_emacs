@@ -1,0 +1,10 @@
+Revision: planner--johnsu01--0--patch-21
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Tue Sep  6 21:18:21 EDT 2005
+Standard-date: 2005-09-07 01:18:21 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-21
+Summary: Added references to Emacs and Emacs Lisp manuals to explain the syntax for planner-cyclic.
+Keywords: 
+

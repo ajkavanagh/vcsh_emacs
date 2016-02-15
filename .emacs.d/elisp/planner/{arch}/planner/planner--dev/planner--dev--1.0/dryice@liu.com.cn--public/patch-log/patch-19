@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-19
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Mon Feb 28 17:13:48 CST 2005
+Standard-date: 2005-02-28 09:13:48 GMT
+Modified-files: ChangeLog planner-diary.el planner-el.texi
+    planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-19
+    sacha@free.net.ph--main/planner--dev--1.0--patch-331
+    sacha@free.net.ph--main/planner--dev--1.0--patch-332
+Summary: merge patch 331-332 from main stream
+Keywords: merge
+

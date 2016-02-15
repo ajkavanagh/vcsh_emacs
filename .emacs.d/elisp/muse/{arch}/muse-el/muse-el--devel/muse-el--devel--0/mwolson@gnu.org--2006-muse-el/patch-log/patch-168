@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-168
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 28 21:02:23 EDT 2007
+Standard-date: 2007-07-29 01:02:23 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-168
+    mwolson@gnu.org--2006/muse--main--1.0--patch-417
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 417)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-417
+   Fix bug with definition list publishing and empty terms

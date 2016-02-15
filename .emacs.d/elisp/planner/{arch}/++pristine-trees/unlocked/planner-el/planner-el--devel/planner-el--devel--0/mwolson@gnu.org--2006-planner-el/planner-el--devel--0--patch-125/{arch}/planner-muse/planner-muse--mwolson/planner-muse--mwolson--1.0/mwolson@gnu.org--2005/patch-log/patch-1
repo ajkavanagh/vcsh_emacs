@@ -1,0 +1,11 @@
+Revision: planner-muse--mwolson--1.0--patch-1
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 20 16:20:22 EST 2005
+Standard-date: 2005-05-20 21:20:22 GMT
+New-files: .arch-ids/ChangeLog.id ChangeLog
+Removed-files: .arch-ids/ChangeLog.id ChangeLog
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-1
+Summary: Make a new ChangeLog file.
+Keywords: 
+

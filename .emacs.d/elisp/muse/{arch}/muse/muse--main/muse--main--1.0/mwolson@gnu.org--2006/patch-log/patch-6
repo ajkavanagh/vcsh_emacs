@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-6
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jan 21 14:26:57 EST 2006
+Standard-date: 2006-01-21 19:26:57 GMT
+Modified-files: lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-6
+Summary: muse-latex: Handle double-quote edge case.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-fixup-dquotes): Handle case when a quote
+  character begins the buffer.

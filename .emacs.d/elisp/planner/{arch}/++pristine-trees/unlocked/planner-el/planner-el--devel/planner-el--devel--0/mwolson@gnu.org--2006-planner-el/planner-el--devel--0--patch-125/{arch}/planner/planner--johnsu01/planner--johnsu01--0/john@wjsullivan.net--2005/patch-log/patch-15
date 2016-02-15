@@ -1,0 +1,719 @@
+Revision: planner--johnsu01--0--patch-15
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Thu Aug 18 01:36:45 EDT 2005
+Standard-date: 2005-08-18 05:36:45 GMT
+New-files: .arch-ids/planner-gnats.el.id
+    .arch-ids/planner-ical.el.id planner-gnats.el
+    planner-ical.el
+Removed-files: .arch-ids/ChangeLog.id ChangeLog
+Modified-files: planner-appt.el planner-authz.el
+    planner-auto.el planner-bbdb.el planner-bibtex.el
+    planner-calendar.el planner-cyclic.el
+    planner-deadline.el planner-diary.el planner-el.texi
+    planner-erc.el planner-experimental.el
+    planner-export-diary.el planner-gnus.el planner-id.el
+    planner-ledger.el planner-log-edit.el planner-mhe.el
+    planner-multi.el planner-notes-index.el planner-psvn.el
+    planner-rank.el planner-rdf.el planner-report.el
+    planner-rmail.el planner-rss.el planner-schedule.el
+    planner-tasks-overview.el
+    planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-unix-mail.el planner-vm.el
+    planner-w3m.el planner-wl.el planner-xtla.el planner.el
+    schedule.el
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/base-0
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-1
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-10
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-100
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-101
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-102
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-103
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-104
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-105
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-106
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-107
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-108
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-109
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-11
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-110
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-111
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-112
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-113
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-114
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-115
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-116
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-117
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-118
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-119
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-12
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-120
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-121
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-122
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-123
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-124
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-125
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-126
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-127
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-128
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-129
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-13
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-130
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-131
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-132
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-133
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-134
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-135
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-137
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-14
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-15
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-16
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-17
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-18
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-19
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-2
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-20
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-21
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-22
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-23
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-24
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-25
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-26
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-27
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-28
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-29
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-3
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-30
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-31
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-32
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-33
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-34
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-35
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-36
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-37
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-38
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-39
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-4
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-40
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-41
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-42
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-43
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-44
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-45
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-46
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-47
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-48
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-49
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-5
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-50
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-51
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-52
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-53
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-54
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-55
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-56
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-57
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-58
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-59
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-6
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-60
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-61
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-62
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-63
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-64
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-65
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-66
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-67
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-68
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-69
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-7
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-70
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-71
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-72
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-73
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-74
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-75
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-76
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-77
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-78
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-79
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-8
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-80
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-81
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-82
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-83
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-84
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-85
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-86
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-87
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-88
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-89
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-9
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-90
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-91
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-92
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-93
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-94
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-95
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-96
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-97
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-98
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-99
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0/camalot@picnicpark.org--2005-planner/patch-log/base-0
+    {arch}/planner/planner--dev/planner--dev--1.0/sacha@free.net.ph--main/patch-log/patch-15
+    {arch}/planner/planner--dev/planner--dev--1.0/sacha@free.net.ph--main/patch-log/patch-17
+Modified-directories: {arch}/planner/planner--dev-kea
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0/camalot@picnicpark.org--2005-planner
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0/camalot@picnicpark.org--2005-planner/patch-log
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--base-0
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-1
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-2
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-3
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-4
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-5
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-6
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-7
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-8
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-9
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-10
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-11
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-12
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-13
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-14
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-15
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-16
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-17
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-18
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-19
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-20
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-21
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-22
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-23
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-24
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-25
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-26
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-27
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-28
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-29
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-30
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-31
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-32
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-33
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-34
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-35
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-36
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-37
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-38
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-39
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-40
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-41
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-15
+    mwolson@gnu.org--2005/planner--mwolson--1.0--base-0
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-1
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-2
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-3
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-4
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-5
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-6
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-7
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-8
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-9
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--base-0
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-1
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-2
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-3
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-4
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-5
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-6
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-7
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-8
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-9
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-10
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-11
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-12
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-13
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-14
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-15
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-16
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-17
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-18
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-19
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-20
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-21
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-22
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-23
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-24
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-25
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-26
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-27
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-28
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-29
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-30
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-31
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-32
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-33
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-34
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-35
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-36
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-37
+    sacha@free.net.ph--main/planner--dev--1.0--patch-432
+    sacha@free.net.ph--main/planner--dev--1.0--patch-433
+    sacha@free.net.ph--main/planner--dev--1.0--patch-434
+    sacha@free.net.ph--main/planner--dev--1.0--patch-435
+    sacha@free.net.ph--main/planner--dev--1.0--patch-436
+    sacha@free.net.ph--main/planner--dev--1.0--patch-437
+    sacha@free.net.ph--main/planner--dev--1.0--patch-438
+    sacha@free.net.ph--main/planner--dev--1.0--patch-439
+    sacha@free.net.ph--main/planner--dev--1.0--patch-440
+    sacha@free.net.ph--main/planner--dev--1.0--patch-441
+    sacha@free.net.ph--main/planner--dev--1.0--patch-442
+    sacha@free.net.ph--main/planner--dev--1.0--patch-443
+    sacha@free.net.ph--main/planner--dev--1.0--patch-444
+    sacha@free.net.ph--main/planner--dev--1.0--patch-445
+    sacha@free.net.ph--main/planner--dev--1.0--patch-446
+    sacha@free.net.ph--main/planner--dev--1.0--patch-447
+    sacha@free.net.ph--main/planner--dev--1.0--patch-448
+    sacha@free.net.ph--main/planner--dev--1.0--patch-449
+    sacha@free.net.ph--main/planner--dev--1.0--patch-450
+    sacha@free.net.ph--main/planner--dev--1.0--patch-451
+    sacha@free.net.ph--main/planner--dev--1.0--patch-452
+    sacha@free.net.ph--main/planner--dev--1.0--patch-453
+    sacha@free.net.ph--main/planner--dev--1.0--patch-454
+    sacha@free.net.ph--main/planner--dev--1.0--patch-455
+    sacha@free.net.ph--main/planner--dev--1.0--patch-456
+    sacha@free.net.ph--main/planner--dev--1.0--patch-457
+    sacha@free.net.ph--main/planner--dev--1.0--patch-458
+    sacha@free.net.ph--main/planner--dev--1.0--patch-459
+    sacha@free.net.ph--main/planner--dev--1.0--patch-460
+    sacha@free.net.ph--main/planner--dev--1.0--patch-461
+    sacha@free.net.ph--main/planner--dev--1.0--patch-462
+    sacha@free.net.ph--main/planner--dev--1.0--patch-463
+    sacha@free.net.ph--main/planner--dev--1.0--patch-464
+    sacha@free.net.ph--main/planner--dev--1.0--patch-465
+    sacha@free.net.ph--main/planner--dev--1.0--patch-466
+    sacha@free.net.ph--main/planner--dev--1.0--patch-467
+    sacha@free.net.ph--main/planner--dev--1.0--patch-468
+    sacha@free.net.ph--main/planner--dev--1.0--patch-469
+    sacha@free.net.ph--main/planner--dev--1.0--patch-470
+    sacha@free.net.ph--main/planner--muse--1.0--base-0
+    sacha@free.net.ph--main/planner--muse--1.0--patch-1
+    sacha@free.net.ph--main/planner--muse--1.0--patch-2
+    sacha@free.net.ph--main/planner--muse--1.0--patch-3
+    sacha@free.net.ph--main/planner--muse--1.0--patch-4
+    sacha@free.net.ph--main/planner--muse--1.0--patch-5
+    sacha@free.net.ph--main/planner--muse--1.0--patch-6
+Summary: Catch up with Sacha.
+Keywords: 
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--muse--1.0--patch-6
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-1
+   Some hacks on planner--muse
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-2
+   incorporated mwolson's changes
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-3
+   merged patches from the dev branch
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-4
+   merged changes from mwolson@gnu.org--2005/planner-muse--mwolson--1.0
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-5
+   merged changes from mwolson@gnu.org--2005/planner-muse--mwolson--1.0
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-6
+   Provide a string representation of index to solve the index publishing issue
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-7
+   fix note publishing
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-8
+   mwolson@gnu.org--2005 (patch 9-12)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-9
+   sacha@free.net.ph--main (patch 0-366, 413-428)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-10
+   Merged from arch@repose.cx--03 (patch 0-35, 37-43), camalot@picnicpark.org--2005-planner (patch 0-1), davidsmith@acm.org--2004 (patch 0-11), dne@mayonnaise.net--2004 (patch 0-2), dryice@liu.com.cn--public (patch 0-3, 5-11, 16-32), gary@gnu.org--2004 (patch 1-3, 5), gefla@pond.sub.org--2004 (patch 1), jeho@jeho.org--2005 (patch 0-49, 51-56), johnsu01@yahoo.com--2004-john (patch 1, 5), mark@dishevelled.net--2003-mst (patch 0-6), mwolson@gnu.org--2005 (patch 0-9, 13-15), mwolson@member.fsf.org--2004 (patch 0, 2-3, 5, 7, 11, 13), sacha@free.net.ph--main (patch 0-366)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-11
+   publish xtla:// links with respect to archive locations
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-12
+   doc improvement
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-13
+   Merged from mwolson@gnu.org--2005 (patch 16-17)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-14
+   Merged from jeho@jeho.org--2005 (patch 73-75), mwolson@gnu.org--2005 (patch 18), sacha@free.net.ph--main (patch 429-437)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-15
+   Merged from sacha@free.net.ph--main (patch 438-441)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-16
+   Merged from sacha@free.net.ph--main (patch 394-395)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-17
+   Merged from sacha@free.net.ph--main (patch 384)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-18
+   Merged from sacha@free.net.ph--main (patch 392-393)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-19
+   bugfix
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-20
+   fix links in planner-multi
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-21
+   don't use pos:// url as description
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-22
+   Merged from sacha@free.net.ph--main (patch 442-444)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-23
+   Merged from sacha@free.net.ph--main (patch 445)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-24
+   Merged from mwolson@gnu.org--2005 (patch 19-22)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-25
+   Fix pages from planner-multi
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-26
+   Merged from mwolson@gnu.org--2005 (patch 23), sacha@free.net.ph--main (patch 446)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-27
+   Merged from mwolson@gnu.org--2005 (patch 24)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-28
+   Merged from mwolson@gnu.org--2005 (patch 25-26), sacha@free.net.ph--main (patch 447-449)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-29
+   Fix bug #2638 : Extra set of brackets around page references in newly-created tasks
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-30
+   Merged from mwolson@gnu.org--2005 (patch 27-29), sacha@free.net.ph--main (patch 450)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-31
+   Fix bug #2647
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-32
+   Merged from mwolson@gnu.org--2005 (patch 30-31)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-33
+   Fix error in planner-xtla-url-transform
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-34
+   Fix false heading lines in notes, from planner-xtla
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-35
+   Merged from mwolson@gnu.org--2005 (patch 32-33)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-36
+   Use planner-make-link instead of hard-coded brackets
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-37
+   Merged from sacha@free.net.ph--main (patch 451)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-38
+   Make planner-directory a function
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-39
+   Fix incorrect behavior for planner-multi-remove-task-from-pool
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-40
+   Fix minor bug un planner-multi.el
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-41
+   Bugfix
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-267
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-1
+   Replace ChangeLog
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-2
+   sacha@free.net.ph--main (patch 268-429)
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-3
+   Don't pollute the XEmacs namespace.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-4
+   Use `planner-replace-regexp-in-string' for compat with Muse port.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-5
+   Put space in front of lists.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-6
+   Fix minor meaning change in `planner-report-find-tasks'.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-7
+   Use `planner-derived-mode-p' instead of `derived-mode-p'.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-8
+   Use `planner-match-string-no-properties'.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-9
+   Use `planner-current-file' to get around the temp file issue.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--muse--1.0--patch-6
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-1
+   Make a new ChangeLog file.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-2
+   Merge in Yann Hodique's planner-muse patch.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-3
+   Merge massively from sacha/367 to sacha/396, with some omissions.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-4
+   Cause task IDs to be colored.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-5
+   Make generated lists publish correctly.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-6
+   Patch from Peter K. Lee; make it less work to get started using this.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-7
+   Merged from hodique@lifl.fr--2005 (patch 2-4)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-8
+   Supply ChangeLog files for each of the major players of the Muse port.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-9
+   Merged from hodique@lifl.fr--2005 (patch 5-6)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-10
+   Remove `muse-index-as-string' workaround.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-11
+   Merged from hodique@lifl.fr--2005 (patch 7)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-12
+   Uniquify publishing number for notes.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-13
+   Merged from hodique@lifl.fr--2005 (patch 8-9), sacha@free.net.ph--main (patch 413-428)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-14
+   Merged from mwolson@gnu.org--2005 (patch 0-8)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-15
+   Merged from mwolson@gnu.org--2005 (patch 9)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-16
+   Merged from hodique@lifl.fr--2005 (patch 0, 10-12)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-17
+   Fix planner-derived-mode-p issues around planner-save-buffers.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-18
+   Merged from jeho@jeho.org--2005 (patch 73-75), sacha@free.net.ph--main (patch 429-437)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-19
+   Use muse-explicit-link-regexp instead of muse-link-regexp.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-20
+   Merged from hodique@lifl.fr--2005 (patch 13-20), sacha@free.net.ph--main (patch 384, 392-395, 438-441)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-21
+   Use `muse-publishing-current-file'.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-22
+   Merged from hodique@lifl.fr--2005 (patch 21)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-23
+   Merged from hodique@lifl.fr--2005 (patch 22-24), sacha@free.net.ph--main (patch 442-445)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-24
+   Fix insertion of diary entries and complaints about `emacs-wiki-link-base'.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-25
+   Metadata cleanup for tla upgrade.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-26
+   Merged from sacha@free.net.ph--main (patch 446-449)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-27
+   Merged from hodique@lifl.fr--2005 (patch 25-27), sacha@free.net.ph--main (patch 450)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-28
+   Make planner-xtla-url-transform work again.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-29
+   Merged from hodique@lifl.fr--2005 (patch 28-29)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-30
+   Merged from hodique@lifl.fr--2005 (patch 30-31)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-31
+   Replace a few emacs-wiki functions in planner-report.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-32
+   Merged from hodique@lifl.fr--2005 (patch 32-34)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-33
+   Minor caadr -> car cadr fixup.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-34
+   Merged from hodique@lifl.fr--2005 (patch 35-37), sacha@free.net.ph--main (patch 451)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-35
+   Highlight links in note headings.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-36
+   Merged from hodique@lifl.fr--2005 (patch 38-41)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-37
+   Merged from sacha@free.net.ph--main (patch 452-454)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-432
+   Bugfix: planner-edit-task-description, planner-deadline: keep point
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-433
+   Bugfix: Remove parens around planner-calendar-html-tag-marker 
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-434
+   planner-sort-tasks: Be paranoid about task sorting
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-435
+   Merge mwolson's patches to planner from the muse port
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-436
+   Bugfix: planner-multi-tasks-equal-p: Deal with tasks without link text
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-437
+   Bugfix: planner-derived-mode-p should pass the modes to derived-mode-p
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-438
+   Bugfix: planner-update-wiki-project: planner-name-regexp fix, planner-save-buffers SKIP-BUFFERS
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-439
+   Bugfix: planner-lower-task: typo
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-440
+   Fixes planner-timeclock + planner-multi, also planner-multi-update-task
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-441
+   Bugfix: planner-save-buffers should suppress planner-id
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-442
+   planner-save-buffers: Do not kill non-planner-mode buffers
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-443
+   New: planner-gnats.el adds support for the GNU bugtracking system
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-444
+   Bugfix: planner-multi-replan-task: Deal with tasks without dates
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-445
+   Bugfix: planner-multi-link-delete: Preserve order
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-446
+   planner-gnus-insinuate: Change keybinding to C-c C-t
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-447
+   Bugfix: planner-calendar-create-today-link: Quote shell arguments
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-448
+   Add p-create-task and p-create-task-from-buffer to planner-auto
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-449
+   planner-calendar-create-today-link: Use make-symbolic-link
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-450
+   planner-current-note-info: Be stricter with note links
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-451
+   planner-timeclock-summary-make-text-table-day: Format projects as links
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-452
+   Add autoload cookies to a bunch of files, remove planner-appt-filename-to-date
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-453
+   planner-create-note: Default to current page when called interactively
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-454
+   Merge patch to make note heading face less greedy
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-455
+   Bugfix: planner-rss-add-note: Remove tags from title
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-456
+   New: planner-ical.el
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-457
+   Docfix: Fix iCal example quotes
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-458
+   Massive merge with  mwolson@gnu.org--2005/planner-muse--mwolson--1.0 (to patch 37)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-459
+   Bugfix: planner-calendar: Do not over-pad months that end with Sunday
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-460
+   Bugfix: planner-calendar-published-file-href: Stop refreshing the file list all the time
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-461
+   Bugfix: planner-visit-link: Add missing alias
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-462
+   Bugfix: Add missing planner-link-target. New option: planner-calendar-nop-buttons-flag
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-463
+   Bugfix: planner-current-note-info: Recognize multi properly again
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-464
+   Bugfixes: Byte-compile properly (missing planner-link-name, bug in planner-annotation-from-file)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-465
+   planner-notes-index: Fix to work with files in subdirectories
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-466
+   NOTE: planner-create-section-function, planner-create-at-top, planner-create-at-bottom: RENAMED FROM planner-seek-
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-467
+   Bugfix: planner-timeclock should always work within Planner context to properly deal with some tasks
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-468
+   Bugfix: planner-notes-index should be in Planner project
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-469
+   planner-deadline bugfix: Avoid infinite loops by calculating deadlines as we insert them
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-470
+   Bugfix: planner-save-buffers: Check if buffer is associated with a file
+
+ * sacha@free.net.ph--main/planner--muse--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-366
+
+ * sacha@free.net.ph--main/planner--muse--1.0--patch-1
+   M-x plan works
+
+ * sacha@free.net.ph--main/planner--muse--1.0--patch-2
+   Plan pages highlight upon opening
+
+ * sacha@free.net.ph--main/planner--muse--1.0--patch-3
+   planner-delete-task now works.
+
+ * sacha@free.net.ph--main/planner--muse--1.0--patch-4
+   planner-list-tasks-with-status now works.
+
+ * sacha@free.net.ph--main/planner--muse--1.0--patch-5
+   Generates indices
+
+ * sacha@free.net.ph--main/planner--muse--1.0--patch-6
+   More twiddling
+

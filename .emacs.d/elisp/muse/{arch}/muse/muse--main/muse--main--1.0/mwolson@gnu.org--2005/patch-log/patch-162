@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-162
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 19 03:11:37 EST 2005
+Standard-date: 2005-07-19 08:11:37 GMT
+Modified-files: ChangeLog lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-162
+Summary: muse-texinfo: Improve formatting for enddots, dots, underline.
+Keywords: 
+
+* lisp/muse-texinfo.el (muse-texinfo-markup-strings): Improve translation
+  of enddots and dots.  For begin-underline and end-underline, use "_",
+  since we don't have anything better.

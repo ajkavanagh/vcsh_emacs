@@ -1,0 +1,19 @@
+Revision: planner--yh--1.0--patch-5
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Wed Jun 15 00:58:48 CEST 2005
+Standard-date: 2005-06-14 22:58:48 GMT
+New-files: .arch-ids/ChangeLog.sacha-muse.id
+    .arch-ids/ChangeLog.yh.id ChangeLog.sacha-muse
+    ChangeLog.yh
+Renamed-files: .arch-ids/ChangeLog.id .arch-ids/ChangeLog.mwolson.id
+    ChangeLog ChangeLog.mwolson
+Modified-files: ChangeLog.mwolson planner-appt.el
+    planner-xtla.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-5
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-7
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-8
+Summary: merged changes from mwolson@gnu.org--2005/planner-muse--mwolson--1.0
+Keywords:
+
+incorporated mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-8

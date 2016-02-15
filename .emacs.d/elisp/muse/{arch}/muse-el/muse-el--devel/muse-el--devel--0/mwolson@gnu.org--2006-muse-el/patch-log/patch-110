@@ -1,0 +1,40 @@
+Revision: muse-el--devel--0--patch-110
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 29 23:53:18 EST 2006
+Standard-date: 2006-10-30 04:53:18 GMT
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+    examples/mwolson/stylesheets/blog.css
+    examples/mwolson/stylesheets/common.css
+    examples/mwolson/templates/footer.html
+    examples/mwolson/templates/generic-header.html
+    examples/mwolson/templates/header.html
+    examples/mwolson/templates/header.tex
+    lisp/muse-colors.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse-regexps.el
+    lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-110
+    mwolson@gnu.org--2006/muse--main--1.0--patch-231
+    mwolson@gnu.org--2006/muse--main--1.0--patch-232
+    mwolson@gnu.org--2006/muse--main--1.0--patch-233
+    mwolson@gnu.org--2006/muse--main--1.0--patch-234
+    mwolson@gnu.org--2006/muse--main--1.0--patch-235
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 231-235)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-231
+   Permit non-Muse files in projects to be linked to, tweak file-regexp
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-232
+   Update my example configuration
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-233
+   Implement publish-time detection of whether a link needs link-suffix
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-234
+   Fix bug in coloring of <example> tags
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-235
+   Fix bug #7424: Error in redisplay while using Emacs 21.3

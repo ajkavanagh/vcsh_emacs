@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-233
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Dec 15 13:03:47 JST 2004
+Standard-date: 2004-12-15 04:03:47 GMT
+Modified-files: ChangeLog planner-rss.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-233
+Summary: planner-rss-add-note: Remove trailing tag from titles
+Keywords: 
+
+	* planner-rss.el (planner-rss-add-note): Remove new emacs-wiki
+	rule for paragraphs so that titles don't have trailing paragraph
+	end tags. Thanks to jan for pointing it out.

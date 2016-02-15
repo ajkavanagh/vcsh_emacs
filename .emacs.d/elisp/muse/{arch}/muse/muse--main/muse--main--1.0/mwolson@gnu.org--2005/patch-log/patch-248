@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-248
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Oct 12 10:57:20 EST 2005
+Standard-date: 2005-10-12 15:57:20 GMT
+New-files: contrib/.arch-ids/muse-latex2png.el.id
+    contrib/muse-latex2png.el
+Modified-files: AUTHORS ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-248
+Summary: Add ability to publish embedded LaTeX content as a PNG.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publishing-styles)
+  (muse-publishing-current-file, muse-publishing-current-style)
+  (muse-publishing-styles): Add documentation.
+
+* contrib/muse-latex2png.el: New file that adds the <latex> tag.  The tag
+  expects LaTeX content, and will publish a PNG file.  If you're
+  interesting in helping, check out To Do in the commentary.  This is in
+  /contrib for now, since the original author doesn't have a copyright
+  assignment on file with the FSF.

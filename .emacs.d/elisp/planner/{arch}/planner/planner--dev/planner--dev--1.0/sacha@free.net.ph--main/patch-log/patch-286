@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-286
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jan 11 09:23:22 JST 2005
+Standard-date: 2005-01-11 00:23:22 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-286
+Summary: planner-markup-task: Do not include missing priority
+Keywords: 
+
+	* planner.el (planner-markup-task): Do not include priority if
+	none is set.

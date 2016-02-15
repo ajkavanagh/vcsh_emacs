@@ -1,0 +1,14 @@
+Revision: planner-el--devel--0--patch-89
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Oct 20 15:22:02 EDT 2006
+Standard-date: 2006-10-20 19:22:02 GMT
+Modified-files: ChangeLog planner-calendar.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-89
+Summary: planner-calendar: Adapt for nested tag support
+Keywords: 
+
+2006-10-20  Michael Olson  <mwolson@gnu.org>
+
+	* planner-calendar.el: Adapt for nested tag support.  Thanks to
+	Charles philip Chan for noticing.

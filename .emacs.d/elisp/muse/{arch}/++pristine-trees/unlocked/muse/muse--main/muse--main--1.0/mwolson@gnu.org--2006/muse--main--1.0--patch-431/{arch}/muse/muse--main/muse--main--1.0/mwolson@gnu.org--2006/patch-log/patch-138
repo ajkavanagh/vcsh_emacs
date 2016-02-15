@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-138
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat May 27 02:25:32 EDT 2006
+Standard-date: 2006-05-27 06:25:32 GMT
+Modified-files: ChangeLog.2006
+    examples/mwolson/stylesheets/common.css
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-138
+Summary: Minor tweak in my example CSS stylesheet.
+Keywords: 
+
+* examples/mwolson/stylesheets/common.css: Be careful about
+  distinguishing between links and anchors.

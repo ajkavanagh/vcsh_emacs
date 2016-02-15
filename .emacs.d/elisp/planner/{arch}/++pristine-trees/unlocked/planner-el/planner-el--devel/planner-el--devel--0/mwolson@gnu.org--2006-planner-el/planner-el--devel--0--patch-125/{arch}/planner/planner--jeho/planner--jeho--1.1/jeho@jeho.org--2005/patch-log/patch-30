@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.1--patch-30
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Dec 17 13:11:32 GMT 2005
+Standard-date: 2005-12-17 13:11:32 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-30
+Summary: planner-appt: small fix for forthcoming appts
+Keywords: 
+
+* planner-appt.el (planner-appt-task-schedule-item-p): New function.
+(planner-appt-update-appt-section,planner-appt-add-appts-from-schedule):
+Use the new function planner-appt-task-schedule-item-p.
+(planner-appt-forthcoming-get-appts): Check that a schedule item was not
+added from the task list.
+

@@ -1,0 +1,31 @@
+Revision: planner--mwolson--1.0--patch-4
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 24 18:38:49 EST 2005
+Standard-date: 2005-06-24 23:38:49 GMT
+Modified-files: planner-bbdb.el planner-bibtex.el
+    planner-calendar.el planner-report.el
+    planner-timeclock-summary.el planner.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-4
+Summary: Use `planner-replace-regexp-in-string' for compat with Muse port.
+Keywords: 
+
+* planner.el (planner-replace-regexp-in-string): Renamed from
+  `planner-replace-in-string', since we use
+  `planner-replace-regexp-in-string' in the Muse port.
+
+* planner-bbdb.el (planner-bbdb-annotation-from-bbdb): Use
+  `planner-replace-regexp-in-string'.
+
+* planner-bibtex.el (planner-bibtex-annotation-old): Ditto.
+
+* planner-calendar.el (planner-calendar-published-file-href): Ditto.
+
+* planner-report.el (planner-report-find-notes)
+  (planner-report-find-tasks): Ditto.
+
+* planner-timeclock-summary.el (planner-timeclock-summary-extract-task-data)
+  (planner-timeclock-summary-make-summary-string-range)
+  (planner-timeclock-summary-update, planner-timeclock-summary-show-range)
+  (planner-timeclock-summary-show-2)
+  (planner-timeclock-summary-generate-report): Ditto.

@@ -1,0 +1,33 @@
+Revision: planner-el--devel--0--patch-16
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Mar 14 13:58:37 EST 2006
+Standard-date: 2006-03-14 18:58:37 GMT
+New-files: .arch-ids/COPYING.id COPYING
+Modified-files: AUTHORS README planner-accomplishments.el
+    planner-appt.el planner-authz.el planner-bbdb.el
+    planner-bibtex.el planner-bookmark.el
+    planner-calendar.el planner-cyclic.el
+    planner-deadline.el planner-diary.el planner-el.texi
+    planner-erc.el planner-experimental.el
+    planner-export-diary.el planner-gnats.el planner-gnus.el
+    planner-ical.el planner-id.el planner-ledger.el
+    planner-lisp.el planner-log-edit.el planner-mhe.el
+    planner-multi.el planner-notes-index.el planner-psvn.el
+    planner-publish.el planner-rank.el planner-rdf.el
+    planner-report.el planner-rmail.el planner-rss.el
+    planner-schedule.el planner-tasks-overview.el
+    planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-unix-mail.el planner-vm.el
+    planner-w3m.el planner-wl.el planner-xtla.el planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-16
+    mwolson@gnu.org--2006/planner--main--1.0--patch-17
+    mwolson@gnu.org--2006/planner--main--1.0--patch-18
+Summary: Merged from mwolson@gnu.org--2006 (patch 17-18)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-17
+   Add COPYING file; do bookkeeping.

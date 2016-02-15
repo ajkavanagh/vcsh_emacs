@@ -1,0 +1,36 @@
+Revision: muse--mwolson--1.0--patch-7
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Tue Nov 30 19:21:01 EST 2004
+Standard-date: 2004-12-01 00:21:01 GMT
+Modified-files: ChangeLog muse-colors.el muse-convert.el
+    muse-docbook.el muse-html.el muse-mode.el muse-publish.el
+    muse.el
+New-patches: mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-7
+Summary: Fix hard whitespace bug as reported by Pascal Quesseveur
+Keywords: 
+
+2004-11-30  Michael Olson  <mwolson@gnu.org>
+
+    * muse.el (muse-tag-regexp, muse-link-regexp): Replace use of "
+    \t\n(\r)" with "[:space:]" and " \t" with "[:blank:]".  This
+    should fix the problem reported by Pascal Quesseveur concerning
+    processing of emphasized text.
+
+    * muse-colors.el (muse-colors-verbatim, muse-colors-markup)
+    (muse-colors-custom-tags): Ditto.
+
+    * muse-convert.el (muse-write-citation): Ditto.
+
+    * muse-docbook.el (muse-docbook-markup-regexps)
+    (muse-docbook-markup-table): Ditto.
+
+    * muse-html.el (muse-html-markup-regexps)
+    (muse-html-insert-anchor, muse-html-markup-footnote): Ditto.
+
+    * muse-mode.el (muse-current-word, muse-link-at-point): Ditto.
+
+    * muse-publish.el (muse-publish-markup-regexps)
+    (muse-publish-markup-tag, muse-publish-markup-footnote)
+    (muse-publish-surround-text, muse-forward-paragraph)
+    (muse-publish-markup-list): Ditto.

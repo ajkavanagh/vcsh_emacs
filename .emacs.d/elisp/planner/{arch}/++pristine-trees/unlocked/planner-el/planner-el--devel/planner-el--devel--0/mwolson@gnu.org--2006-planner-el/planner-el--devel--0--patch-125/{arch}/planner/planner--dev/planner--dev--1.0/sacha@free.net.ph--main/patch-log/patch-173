@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-173
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Sep 29 22:57:30 JST 2004
+Standard-date: 2004-09-29 13:57:30 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-173
+Summary: planner-diary.el: Fall back to using buffer name if file name is not available
+Keywords: bugfix
+
+	* planner-diary.el (planner-diary-get-name): New. Pick up the
+	filename if possible. Fall back to buffer name if not yet
+	available. This works around a strange font-lock problem when
+	the buffer filename is not yet available. Update many functions
+	to use planner-diary-get-name. The lisp font-locking code
+        should work again.

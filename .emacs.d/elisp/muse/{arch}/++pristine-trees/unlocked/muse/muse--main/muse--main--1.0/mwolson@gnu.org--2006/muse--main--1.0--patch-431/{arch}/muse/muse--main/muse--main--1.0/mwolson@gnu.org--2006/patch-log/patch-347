@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-347
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 13 21:07:02 EDT 2007
+Standard-date: 2007-06-14 01:07:02 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-347
+Summary: muse-coiors: Fix reverse order in markup rules
+Keywords: 
+
+2007-06-13  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-colors.el (muse-configure-highlighting): Fix bug where
+	markup rules were being interpreted in reverse order.  This should
+	make implicit interwiki links work properly again.

@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-131
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 10:32:18 EST 2005
+Standard-date: 2005-12-16 15:32:18 GMT
+Modified-files: ChangeLog planner-xtla.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-131
+Summary: planner-xtla: Apply patch from Stefan Reichör.
+Keywords: 
+
+* planner-xtla.el (planner-xtla-log-edit-add-note): Apply patch from
+  Stefan Reichör.  This should write the note to planner-today rather
+  than temp*.muse.

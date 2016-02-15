@@ -1,0 +1,17 @@
+Revision: planner-muse--mwolson--1.0--patch-98
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Nov 18 18:51:18 EST 2005
+Standard-date: 2005-11-18 23:51:18 GMT
+Modified-files: ChangeLog contrib/timeclock.el
+    planner-timeclock.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+Summary: This version of timeclock.el is only to be used with XEmacs.
+Keywords: 
+
+* contrib/timeclock.el: Give an error if we are using this with Emacs.
+  This version is only meant to be used with XEmacs.
+  (timeclock-propertize): Never call propertize.
+
+* planner-timeclock.el: Warn about this version of timeclock.el and
+  Emacs.

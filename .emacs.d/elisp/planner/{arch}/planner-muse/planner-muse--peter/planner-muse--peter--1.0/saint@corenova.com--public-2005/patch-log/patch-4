@@ -1,0 +1,19 @@
+Revision: planner-muse--peter--1.0--patch-4
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Mon Aug  1 17:06:57 PDT 2005
+Standard-date: 2005-08-02 00:06:57 GMT
+Modified-files: planner-publish.el
+    planner-timeclock-summary.el
+New-patches: saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-4
+Summary: publish and buffer alignment display change for timeclock summary
+Keywords: planner timeclock align summary
+
+* planner-timeclock-summary.el
+	(planner-timeclock-summary-make-text-table-day): changed basis of
+	code back to align-regexp call.  Instead of complex alignment
+	handling, we just go through once more at the end and add a few more
+	spaces to make the column with links show up properly in the
+	planner-mode buffer.  Furthermore, the changes allows muse publishing
+	to display the timeclock summary table properly.  
+

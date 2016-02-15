@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-289
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jan 11 15:13:23 JST 2005
+Standard-date: 2005-01-11 06:13:23 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-289
+Summary: planner-multi / planner-replan-note: Allow single-page notes
+Keywords: 
+
+	* planner-multi.el (planner-replan-note): Still allow single-page notes.

@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-213
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Oct 10 22:19:38 EDT 2006
+Standard-date: 2006-10-11 02:19:38 GMT
+Modified-files: NEWS
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-213
+Summary: Update NEWS for 3.02.6 release
+Keywords: 
+
+* NEWS: Update for 3.02.8 release.

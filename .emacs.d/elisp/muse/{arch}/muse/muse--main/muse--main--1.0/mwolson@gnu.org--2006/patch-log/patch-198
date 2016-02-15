@@ -1,0 +1,27 @@
+Revision: muse--main--1.0--patch-198
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Aug 27 11:31:14 EDT 2006
+Standard-date: 2006-08-27 15:31:14 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-198
+Summary: muse-wiki: Separate project-file stuff from wikiword regexp.
+Keywords: 
+
+2006-08-27  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-wiki.el (muse-wiki-match-all-project-files)
+	(muse-wiki-ignore-implicit-links-to-current-page)
+	(muse-wiki-interwiki-regexp, muse-wiki-interwiki-alist)
+	(muse-wiki-resolve-project-page, muse-wiki-handle-interwiki)
+	(muse-wiki-publish-small-title-words)
+	(muse-wiki-publish-pretty-title): Docfix.
+	(muse-wiki-update-local-wikiword-regexp): Rename from
+	muse-wiki-update-local-wikiword-regexp.  Set
+	muse-wiki-project-file-regexp instead of
+	muse-wiki-wikiword-regexp, as suggested by Per Sederberg.  Don't
+	take muse-wiki-use-wikiword into account, since this is a
+	different concept now.
+	(muse-wiki-update-wikiword-regexp): Remove.
+	(muse-wiki-wikiword-regexp): In-line the :set function.
+	(muse-wiki-handle-wikiword): Use muse-wiki-project-file-regexp.

@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-107
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Nov 22 11:38:48 EST 2005
+Standard-date: 2005-11-22 16:38:48 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-107
+Summary: Fix bug in planner-multi-create-task-from-info.
+Keywords: 
+
+* planner-multi.el (planner-multi-create-task-from-info): Fix bug
+  introduced in recent changes.  Thanks to Michael Heinrich for the heads
+  up.

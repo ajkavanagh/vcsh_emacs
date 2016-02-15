@@ -1,0 +1,24 @@
+Revision: planner--main--1.0--patch-14
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Feb 27 23:50:49 EST 2006
+Standard-date: 2006-02-28 04:50:49 GMT
+Modified-files: README planner-appt.el planner-report.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-8
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-9
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-10
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-11
+    mwolson@gnu.org--2006/planner--main--1.0--patch-14
+Summary: Merged from mwolson@gnu.org--2006-planner-el (patch 8-11)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-8
+   planner-appt: fix highlighting in plan pages
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-9
+   small fix to README file
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-10
+   sort status report entries by plan page name

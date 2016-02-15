@@ -1,0 +1,54 @@
+Revision: muse--yh--1.0--patch-12
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jun 24 09:44:45 CEST 2005
+Standard-date: 2005-06-24 07:44:45 GMT
+Renamed-files: experimental/.arch-ids/muse-wiki.el.id experimental/.arch-ids/muse-wiki-old.el.id
+    experimental/muse-wiki.el experimental/muse-wiki-old.el
+Modified-files: AUTHORS ChangeLog README lisp/muse-blosxom.el
+    lisp/muse-colors.el lisp/muse-html.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-mode.el lisp/muse-poem.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-texinfo.el
+    lisp/muse-wiki.el lisp/muse.el muse.texi
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-12
+    mwolson@gnu.org--2005/muse--main--1.0--patch-68
+    mwolson@gnu.org--2005/muse--main--1.0--patch-69
+    mwolson@gnu.org--2005/muse--main--1.0--patch-70
+    mwolson@gnu.org--2005/muse--main--1.0--patch-71
+    mwolson@gnu.org--2005/muse--main--1.0--patch-72
+    mwolson@gnu.org--2005/muse--main--1.0--patch-73
+    mwolson@gnu.org--2005/muse--main--1.0--patch-74
+    mwolson@gnu.org--2005/muse--main--1.0--patch-75
+    mwolson@gnu.org--2005/muse--main--1.0--patch-76
+Summary: Merged from mwolson@gnu.org--2005 (patch 68-76)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-68
+   Finish documenting 2 more publishing styles.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-69
+   Tweak documentation thoroughly; still incomplete.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-70
+   Release Muse 3.01.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-71
+   Minor grammar fix in Introduction section of manual.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-72
+   Try to make Muse play nice with outline minor mode.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-73
+   Tell people where to find on-line version of manual.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-74
+   Merged from hodique@lifl.fr--2005 (patch 7-11)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-75
+   Minor doc changes and code prettification.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-76
+   Play nicely with fill, adaptive-fill, and flyspell.

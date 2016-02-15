@@ -1,0 +1,29 @@
+Revision: muse--main--1.0--patch-70
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 22 01:32:02 EST 2005
+Standard-date: 2005-06-22 06:32:02 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-html.el lisp/muse-poem.el lisp/muse-texinfo.el
+    lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-70
+Summary: Release Muse 3.01.
+Keywords: 
+
+* lisp/muse-colors.el: Remove unnecessary use of Version in header.
+
+* lisp/muse-html.el (muse-html-encoding-map): Add mapping for iso-8859-1.
+
+* lisp/muse-poem.el (muse-poem-markup-strings)
+  (muse-poem-chapbook-strings): Make customizable.
+
+* lisp/muse-poem.el (muse-chapbook-latex-header)
+  (muse-chapbook-latex-footer): Docfix.
+
+* lisp/muse-texinfo.el (muse-texinfo-info-extension)
+  (muse-texinfo-pdf-extension): Ditto.
+
+* lisp/muse.el (muse-version): Change to 3.01.
+
+* muse.texi (Poem, Texinfo): Last two publishing styles complete.  We're
+  done, for now!

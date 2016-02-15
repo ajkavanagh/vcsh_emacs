@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-131
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 26 15:47:53 PHT 2004
+Standard-date: 2004-06-26 07:47:53 GMT
+Modified-files: planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-131
+Summary: planner-gnus: Add check for from, copy article buffer
+Keywords: bugfix
+
+	* planner-gnus.el (planner-gnus-annotation-from-summary): Add
+	check for from.
+	(planner-gnus-annotation-from-message): Copy the article buffer.
+	Add check for from.

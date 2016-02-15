@@ -1,0 +1,17 @@
+Revision: planner--jeho--1.0--patch-56
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Apr  4 21:59:00 BST 2005
+Standard-date: 2005-04-04 20:59:00 GMT
+Modified-files: planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-56
+Summary: planner-multi minibuffer properties fix
+Keywords: 
+
+* planner-multi.el (planner-multi-remprop): function to remove a property
+  from a property list
+
+  (planner-multi-read-name): bind minibuffer-prompt-properties sans
+  read-only locally
+
+  top-level: remove rebinding of minibuffer-prompt-properties

@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-55
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 13 17:37:20 EST 2005
+Standard-date: 2005-06-13 22:37:20 GMT
+Modified-files: ChangeLog muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-55
+Summary: Fix publishing error when given an empty string for header/footer.
+Keywords: 
+
+* muse-publish.el (muse-insert-file-or-string): Don't pass argument to
+  `file-readable-p' if it is an empty string.  For some reason,
+  `file-readable-p' and `insert-file-contents' were treating an empty
+  string as if it were the current directory.

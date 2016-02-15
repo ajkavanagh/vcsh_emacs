@@ -1,0 +1,28 @@
+Revision: planner--yh--1.0--patch-30
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 14 12:09:57 CEST 2005
+Standard-date: 2005-07-14 10:09:57 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-xtla.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-30
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-27
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-28
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-29
+    sacha@free.net.ph--main/planner--dev--1.0--patch-450
+Summary: Merged from mwolson@gnu.org--2005 (patch 27-29), sacha@free.net.ph--main (patch 450)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-27
+   Merged from hodique@lifl.fr--2005 (patch 25-27), sacha@free.net.ph--main (patch 450)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-28
+   Make planner-xtla-url-transform work again.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-29
+   Merged from hodique@lifl.fr--2005 (patch 28-29)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-450
+   planner-current-note-info: Be stricter with note links

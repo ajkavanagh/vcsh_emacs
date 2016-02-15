@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-31
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 15 11:45:53 PHT 2004
+Standard-date: 2004-04-15 03:45:53 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-31
+Summary: Change pending task mark to "P"
+Keywords: 
+
+	* planner.el (planner-publishing-markup): Accept P as task status.
+	(planner-marks-regexp): Accept P as task status.
+	(planner-renumber-tasks): Sort pending, then delegated, then
+	completed, then cancelled tasks.
+	(planner-markup-task): Mark up pending tasks.
+	(planner-task-pending): Change pending task mark to P.
+        Thanks to Ephrem for the feature request.
+        
+        * planner.el (planner-list-unfinished-tasks): Consider
+        cancelled tasks finished.

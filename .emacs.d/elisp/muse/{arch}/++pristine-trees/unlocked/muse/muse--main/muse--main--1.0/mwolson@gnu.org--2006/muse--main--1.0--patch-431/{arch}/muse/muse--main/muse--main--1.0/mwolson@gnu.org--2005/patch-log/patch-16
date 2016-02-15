@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-16
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar 20 14:40:10 EST 2005
+Standard-date: 2005-03-20 19:40:10 GMT
+Modified-files: ChangeLog examples/muse-johnw.el
+    muse-journal.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-16
+Summary: Apply latest journal-related updates from johnw
+Keywords: 
+

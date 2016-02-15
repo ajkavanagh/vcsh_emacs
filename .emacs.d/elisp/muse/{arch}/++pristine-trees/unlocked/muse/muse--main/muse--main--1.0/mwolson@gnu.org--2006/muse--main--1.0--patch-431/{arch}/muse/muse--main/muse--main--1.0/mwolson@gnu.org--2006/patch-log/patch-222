@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-222
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 23:19:17 EDT 2006
+Standard-date: 2006-10-16 03:19:17 GMT
+Modified-files: AUTHORS ChangeLog NEWS
+    lisp/muse-import-docbook.el lisp/muse-import-xml.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-222
+Summary: New files: muse-import-docbook.el and muse-import-xml.el
+Keywords: 
+
+* AUTHORS: Bookkeeping.
+
+* lisp/muse-import-docbook.el (muse-import-docbook) 
+  (muse-import-docbook-files): Docfix.
+  (muse-import-docbook-get-title): Remove cl.el-ism.
+
+* lisp/muse-import-xml.el (muse-import-xml): Fix compiler warning.
+
+* NEWS: Mention new files.

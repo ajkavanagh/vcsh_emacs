@@ -1,0 +1,19 @@
+Revision: planner--jeho--1.1--patch-19
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Dec 12 22:58:47 GMT 2005
+Standard-date: 2005-12-12 22:58:47 GMT
+Modified-files: ChangeLog planner-authz.el planner-psvn.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-19
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-124
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-125
+Summary: Merged from mwolson@gnu.org--2005 (patch 124-125)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-124
+   planner-psvn: Apply patch from Seth Falcon.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-125
+   planner-authz: Fix an issue with the Muse 3.02.02 release.

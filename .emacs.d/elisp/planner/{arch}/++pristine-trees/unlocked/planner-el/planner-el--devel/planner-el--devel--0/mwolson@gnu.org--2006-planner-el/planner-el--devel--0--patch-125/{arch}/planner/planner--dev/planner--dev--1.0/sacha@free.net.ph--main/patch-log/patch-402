@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-402
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun  2 19:07:46 PHT 2005
+Standard-date: 2005-06-02 11:07:46 GMT
+Modified-files: ChangeLog planner-xtla.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-402
+Summary: Provide planner-log-edit like functionality for xtla
+Keywords: 
+
+* planner-xtla.el (planner-xtla-log-edit-add-note): Merge patch from
+  Stefan Reichör providing planner-log-edit like functionality for xtla.

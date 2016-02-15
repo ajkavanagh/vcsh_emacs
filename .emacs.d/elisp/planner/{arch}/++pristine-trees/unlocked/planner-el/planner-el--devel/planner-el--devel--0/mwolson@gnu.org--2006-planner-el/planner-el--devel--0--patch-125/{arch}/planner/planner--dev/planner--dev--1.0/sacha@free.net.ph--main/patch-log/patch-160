@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-160
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Aug 16 16:24:25 PHT 2004
+Standard-date: 2004-08-16 08:24:25 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-160
+Summary: New: planner-use-task-numbers
+Keywords: feature
+
+	* planner.el (planner-use-task-numbers): New option.
+	(planner-format-task): Obey planner-use-task-numbers.
+	(planner-highlight-tasks): Allow unnumbered tasks.
+	(planner-create-task): Bugfix: nil plan pages.
+
+	* planner.texi (Task Numbering): Document planner-use-task-numbers.

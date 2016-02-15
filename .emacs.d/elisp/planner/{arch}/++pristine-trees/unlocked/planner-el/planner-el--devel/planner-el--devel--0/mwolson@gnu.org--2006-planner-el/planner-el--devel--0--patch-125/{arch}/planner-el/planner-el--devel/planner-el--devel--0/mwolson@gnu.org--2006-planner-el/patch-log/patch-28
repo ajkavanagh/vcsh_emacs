@@ -1,0 +1,16 @@
+Revision: planner-el--devel--0--patch-28
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  7 23:00:29 EDT 2006
+Standard-date: 2006-04-08 03:00:29 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-28
+    mwolson@gnu.org--2006/planner--main--1.0--patch-31
+Summary: Merged from mwolson@gnu.org--2006 (patch 31)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-31
+   Prepare new Debian package for Arch snapshot.

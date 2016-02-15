@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-70
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Sep 24 20:18:36 EST 2005
+Standard-date: 2005-09-25 01:18:36 GMT
+Modified-files: ChangeLog.mwolson planner-deadline.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-70
+Summary: If passed deadline, keep it rather than discarding.
+Keywords: 
+
+* planner-deadline.el (planner-deadline-days-left): Return a negative
+  value if date is not specified and the deadline date is greater than
+  today.  The previous behavior was to return nil, which seems wrong.
+  Thanks to Chris Parsons for the report.

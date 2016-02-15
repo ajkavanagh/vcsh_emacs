@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-409
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun  9 17:34:02 PHT 2005
+Standard-date: 2005-06-09 09:34:02 GMT
+Modified-files: ChangeLog planner-accomplishments.el
+    planner-appt.el planner-id.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-409
+Summary: Bugfix: Use write-file-hooks
+Keywords: 
+
+* planner-appt.el (planner-appt-write-file-hook): Use write-file-hooks
+  instead of local-write-file-hooks. Thanks to David Lord for pointing this out.
+* planner-id.el (planner-id-setup): Use write-file-hooks.
+* planner.el (planner-mode): Use write-file-hooks.
+* planner-accomplishments.el (planner-accomplishments-insinuate): Use write-file-hooks.

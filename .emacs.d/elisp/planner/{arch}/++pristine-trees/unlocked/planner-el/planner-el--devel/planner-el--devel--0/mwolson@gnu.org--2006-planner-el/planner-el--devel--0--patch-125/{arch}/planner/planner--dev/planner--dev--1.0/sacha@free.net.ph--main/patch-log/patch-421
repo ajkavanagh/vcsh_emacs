@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-421
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jun 20 10:52:08 PHT 2005
+Standard-date: 2005-06-20 02:52:08 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-421
+Summary: New: planner-annotation-from-file-with-position
+Keywords: 
+
+* planner.el (planner-resolve-position-url): New.
+(planner-browse-position-url): New.
+(planner-annotation-from-file-with-position): New.
+(planner-annotation-functions): Use
+planner-annotation-from-file-with-position instead of
+planner-annotation-from-file.

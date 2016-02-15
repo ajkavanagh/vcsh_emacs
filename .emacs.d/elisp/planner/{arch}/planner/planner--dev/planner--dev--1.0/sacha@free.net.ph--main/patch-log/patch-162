@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-162
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Sep 16 19:10:56 JST 2004
+Standard-date: 2004-09-16 10:10:56 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-162
+Summary: planner-diary: Separate multiple days with horizontal rules
+Keywords: improvement
+
+	* planner-diary.el (planner-diary-get-diary-entries): Feature:
+	deal with multiple days properly. Replace ==== inserted by
+	fancy-diary-display with ----, which will be replaced by a
+	horizontal line. Thanks to Michael Olson for pointing this out.
+ 

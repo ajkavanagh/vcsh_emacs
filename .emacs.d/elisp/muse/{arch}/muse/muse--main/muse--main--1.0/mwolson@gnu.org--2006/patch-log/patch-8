@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-8
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 27 21:42:03 EST 2006
+Standard-date: 2006-01-28 02:42:03 GMT
+Modified-files: lisp/muse-project.el muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-8
+Summary: Fix an error with `custom-quote'.
+Keywords: 
+
+* lisp/muse-project.el: Require 'cus-edit, since that is where
+  `custom-quote' is defined.
+
+* muse.texi: Use copyright symbol.

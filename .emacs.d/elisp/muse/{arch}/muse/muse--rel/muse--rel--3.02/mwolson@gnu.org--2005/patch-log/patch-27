@@ -1,0 +1,13 @@
+Revision: muse--rel--3.02--patch-27
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Dec 11 02:04:56 EST 2005
+Standard-date: 2005-12-11 07:04:56 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-27
+Summary: muse-project: Prevent auto-save files from being included.
+Keywords: 
+
+* lisp/muse-project.el (muse-project-ignore-regexp): Apply small patch
+  from Jim Ottaway that causes auto-save files to be excluded from
+  muse-project-file-entries.

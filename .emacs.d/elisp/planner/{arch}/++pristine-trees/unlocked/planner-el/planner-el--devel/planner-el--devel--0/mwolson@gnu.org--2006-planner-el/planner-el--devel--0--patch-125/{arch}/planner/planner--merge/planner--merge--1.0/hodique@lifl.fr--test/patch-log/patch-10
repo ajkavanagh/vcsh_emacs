@@ -1,0 +1,28 @@
+Revision: planner--merge--1.0--patch-10
+Archive: hodique@lifl.fr--test
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jul 15 17:35:16 CEST 2005
+Standard-date: 2005-07-15 15:35:16 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-xtla.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-34
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-35
+    hodique@lifl.fr--test/planner--merge--1.0--patch-10
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-32
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-33
+Summary: Merged from hodique@lifl.fr--2005 (patch 34-35), mwolson@gnu.org--2005 (patch 32-33)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-34
+   Fix false heading lines in notes, from planner-xtla
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-35
+   Merged from mwolson@gnu.org--2005 (patch 32-33)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-32
+   Merged from hodique@lifl.fr--2005 (patch 32-34)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-33
+   Minor caadr -> car cadr fixup.

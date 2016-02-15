@@ -1,0 +1,24 @@
+Revision: planner--dev--1.0--patch-300
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jan 15 11:18:05 JST 2005
+Standard-date: 2005-01-15 02:18:05 GMT
+Modified-files: ChangeLog planner-calendar.el
+    planner-diary.el planner-id.el planner-log-edit.el
+    planner-multi.el planner-schedule.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-300
+Summary: Convert all defsubst to defun in my code
+Keywords: 
+
+	* planner.el: Convert all defsubst to defun. Defsubst cannot be advised
+	or overridden, and lead to subtle bugs when you try it. Defuns
+	provide more flexibility.
+	* planner-calendar.el: Convert all defsubst to defun.
+	* planner-multi.el: Convert all defsubst to defun.
+	* planner-timeclock-summary.el: Convert all defsubst to defun.
+	* planner-schedule.el: Convert all defsubst to defun.
+	* planner-timeclock.el: Convert all defsubst to defun.
+	* planner-logedit.el: Convert all defsubst to defun.
+	* planner-diary.el: Convert all defsubst to defun.

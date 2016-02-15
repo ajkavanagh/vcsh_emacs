@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-331
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Feb 27 13:07:25 JST 2005
+Standard-date: 2005-02-27 04:07:25 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-331
+Summary: Remove buggy unfontlock code from with-planner-update-setup
+Keywords: 
+
+* planner.el (with-planner-update-setup): Remove buggy unfontlock code.

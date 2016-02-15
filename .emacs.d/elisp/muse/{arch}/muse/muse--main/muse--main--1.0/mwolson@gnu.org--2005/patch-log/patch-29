@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-29
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Apr 21 13:25:28 EST 2005
+Standard-date: 2005-04-21 18:25:28 GMT
+Modified-files: ChangeLog muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-29
+Summary: Add simple `muse-version' function.
+Keywords: 
+
+* muse.el (muse-version): New function that displays the value of the
+  `muse-version' variable.  This should be easier for the user to type
+  than C-h v muse-version.

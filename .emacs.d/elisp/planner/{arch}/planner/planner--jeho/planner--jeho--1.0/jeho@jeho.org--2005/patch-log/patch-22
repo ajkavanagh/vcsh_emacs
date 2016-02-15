@@ -1,0 +1,36 @@
+Revision: planner--jeho--1.0--patch-22
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Feb 24 19:39:27 GMT 2005
+Standard-date: 2005-02-24 19:39:27 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-22
+Summary: merge Henrik's font lock code, minor documentation changes
+Keywords: 
+
+* planner-appt.el: some documentation changes
+
+merged patch from Henrik Hansen:
+
+2005-02-24 Henrik S. Hansen  <hsh@freecode.dk>
+
+* planner-appt.el:
+
+Added font highlighting for tasks.
+
+New faces:
+- planner-appt-added-face
+- planner-appt-overdue-face
+
+New functions:
+- planner-appt-task-highlight-face
+- planner-appt-task-highlight
+- planner-appt-update-tasks
+- planner-appt-font-setup
+
+(planner-appt-task-insinuate): added a planner-mode hook for
+planner-appt-font-setup.
+	
+	
+
+

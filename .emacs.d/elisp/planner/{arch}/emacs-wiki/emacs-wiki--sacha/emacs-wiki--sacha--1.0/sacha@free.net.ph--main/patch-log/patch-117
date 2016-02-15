@@ -1,0 +1,17 @@
+Revision: emacs-wiki--sacha--1.0--patch-117
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 16 12:43:46 PHT 2004
+Standard-date: 2004-03-16 04:43:46 GMT
+Modified-files: emacs-wiki.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-117
+Summary: Emacs21 non-CVS bugfix wrt task highlighting, fixed by moving tasks, notes highlighting to before emacs-wiki
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-before-highlight-buffer-hook): New.
+	(emacs-wiki-highlight-region): Call
+	emacs-wiki-before-highlight-buffer-hook.
+
+	* planner.el (planner-mode): Move tasks, notes highlighting to
+	_before_ emacs-wiki highlighting. Kludge so that emacs21 non-CVS
+	renders things properly.

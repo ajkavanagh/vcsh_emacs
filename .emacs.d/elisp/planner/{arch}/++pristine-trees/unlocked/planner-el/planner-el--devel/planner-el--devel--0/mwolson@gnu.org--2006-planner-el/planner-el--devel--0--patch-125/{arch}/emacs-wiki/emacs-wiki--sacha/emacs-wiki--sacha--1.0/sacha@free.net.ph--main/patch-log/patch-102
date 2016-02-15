@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-102
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Mar 14 22:40:56 PHT 2004
+Standard-date: 2004-03-14 14:40:56 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-102
+Summary: Bugfix
+Keywords: 
+
+	* planner.el (planner-find-task): Bugfix: allow more than one
+	digit for the priority. Oops!

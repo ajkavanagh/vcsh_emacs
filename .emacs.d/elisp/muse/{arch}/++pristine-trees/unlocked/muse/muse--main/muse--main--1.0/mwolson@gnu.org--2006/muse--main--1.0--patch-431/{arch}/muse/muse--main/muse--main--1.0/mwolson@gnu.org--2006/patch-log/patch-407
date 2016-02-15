@@ -1,0 +1,33 @@
+Revision: muse--main--1.0--patch-407
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 27 11:31:10 EDT 2007
+Standard-date: 2007-07-27 15:31:10 GMT
+Modified-files: ChangeLog lisp/muse-context.el
+    lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-147
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-148
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-149
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-150
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-151
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-152
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-153
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-154
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-155
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-156
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-157
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-158
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-159
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-160
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-161
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-162
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-163
+    mwolson@gnu.org--2006/muse--main--1.0--patch-407
+Summary: Merged from mwolson@gnu.org--2006-muse-el/muse-el--devel--0 (patch 163)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-163
+   Fixed some inconsistencies in muse-context.el and modified the math
+   tag for context styles

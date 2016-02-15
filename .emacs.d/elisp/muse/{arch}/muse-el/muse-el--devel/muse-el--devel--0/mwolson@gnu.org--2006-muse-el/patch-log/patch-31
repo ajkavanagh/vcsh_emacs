@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-31
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar 26 01:37:19 EST 2006
+Standard-date: 2006-03-26 06:37:19 GMT
+Modified-files: ChangeLog.2006 lisp/muse-docbook.el
+    lisp/muse-html.el lisp/muse-publish.el lisp/muse-xml.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-31
+    mwolson@gnu.org--2006/muse--main--1.0--patch-73
+Summary: Merged from mwolson@gnu.org--2006 (patch 73)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-73
+   Fix bug in verse markup, undesired behavior with emdash.

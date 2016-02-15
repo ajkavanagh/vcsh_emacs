@@ -1,0 +1,23 @@
+Revision: planner--dev--1.0--patch-476
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Aug 25 08:48:21 EDT 2005
+Standard-date: 2005-08-25 12:48:21 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-476
+Summary: planner.el: Remove exit-calendar compile advice, and uncollapse outline
+Keywords: 
+
+* planner.el (exit-calendar): Remove compile flag. Thanks to Sergey
+  Vlasov for spotting this!
+
+* planner.el: Oops, forgot to uncollapse the outline. Must remember to
+  call allout-show-all before saving planner.el
+
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

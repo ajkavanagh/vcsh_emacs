@@ -1,0 +1,22 @@
+Revision: emacs-wiki--sacha--1.0--patch-69
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Mar  8 13:51:49 PHT 2004
+Standard-date: 2004-03-08 05:51:49 GMT
+New-files: .arch-ids/schedule.el.id
+    .arch-ids/timeclock.el.id schedule.el timeclock.el
+Modified-files: emacs-wiki.el planner-rss.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-69
+Summary: With a prefix, planner-create-task-from-buffer prompts for a plan page. Also, planner-rss has category note.
+Keywords: 
+
+	* planner.el (planner-create-task-from-info): Pay attention to
+	plan and date.
+	(planner-create-task-from-buffer): With a prefix, prompt for a
+	plan page. If a plan page is specified and this is not equal to
+	the current annotation, move annotation into the task
+	description.
+	(planner-read-non-date-page): New defun.
+	(planner-create-task): Add plan-page.
+
+	* planner-rss.el (planner-rss-add-note): Add category link.

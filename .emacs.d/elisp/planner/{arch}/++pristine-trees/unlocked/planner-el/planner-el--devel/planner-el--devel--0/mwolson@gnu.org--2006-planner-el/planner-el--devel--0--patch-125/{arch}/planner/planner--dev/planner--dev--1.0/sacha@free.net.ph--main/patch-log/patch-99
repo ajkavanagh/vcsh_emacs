@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-99
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun  3 22:44:10 PHT 2004
+Standard-date: 2004-06-03 14:44:10 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-99
+Summary: Bugfix: Make C-S-x work under XEmacs
+Keywords: 
+
+	* planner.el (planner-mode-map): Make it work for XEmacs.
+	(planner-install-extra-task-keybindings): Make it work for
+	XEmacs. Thanks to pll for pointing this out. Apparently, I
+        need to be careful about the shift modifier...

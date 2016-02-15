@@ -1,0 +1,13 @@
+Revision: planner--main--1.0--patch-43
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu May 18 12:40:36 EDT 2006
+Standard-date: 2006-05-18 16:40:36 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-43
+Summary: Make notes publish with nicer default CSS elements.
+Keywords: 
+
+* planner-publish.el (planner-html-style-sheet): Add style elements for
+  Notes section.  This causes the note anchors to be placed on the same
+  line as note headings, which is the way it used to be.

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-147
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 31 23:44:00 EDT 2006
+Standard-date: 2006-06-01 03:44:00 GMT
+Modified-files: ChangeLog lisp/Makefile
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-147
+Summary: Try to work around a bug in XEmacs beta.
+Keywords: 
+
+* lisp/Makefile (ELC): Compile muse-publish.el first, to try to work
+  around a bug in XEmacs beta.

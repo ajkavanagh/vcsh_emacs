@@ -1,0 +1,18 @@
+Revision: emacs-wiki--sacha--1.0--patch-72
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Mar  8 18:36:00 PHT 2004
+Standard-date: 2004-03-08 10:36:00 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-72
+Summary: Bugfix in planner task creation, thanks to Nafai for pointing this out
+Keywords: 
+
+	* planner.el (planner-format-task): Fix typo. Thanks to Nafai for
+	pointing this out!
+	(planner-create-task): Fix dangling from.
+	(planner-create-task-from-info): Fix bug for creating with
+	plan-page set to a date page.
+	(planner-create-task-from-buffer): Fix bug for creating from a
+	date page.
+

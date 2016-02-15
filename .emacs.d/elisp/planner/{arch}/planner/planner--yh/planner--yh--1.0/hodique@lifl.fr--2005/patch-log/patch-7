@@ -1,0 +1,12 @@
+Revision: planner--yh--1.0--patch-7
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Wed Jun 22 23:18:39 CEST 2005
+Standard-date: 2005-06-22 21:18:39 GMT
+Modified-files: ChangeLog.yh planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-7
+Summary: fix note publishing
+Keywords:
+
+* planner.el (planner-markup-note): fix note publishing issue with muse (don't know exactly the reason though)
+

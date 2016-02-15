@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-354
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 29 08:34:18 PHT 2005
+Standard-date: 2005-03-29 00:34:18 GMT
+Modified-files: ChangeLog planner-el.texi planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-354
+Summary: Docfix: Publishing Calendars sample code. Bugfix: Remove cl dependency caused by declare
+Keywords: 
+
+* planner-el.texi (Publishing Calendars): Docfix: Missing -hook. Thanks
+  to Dryice Liu for pointing this out.
+
+* planner.el (with-planner): Remove that annoying declare thing. Will
+  CVSisms never cease?

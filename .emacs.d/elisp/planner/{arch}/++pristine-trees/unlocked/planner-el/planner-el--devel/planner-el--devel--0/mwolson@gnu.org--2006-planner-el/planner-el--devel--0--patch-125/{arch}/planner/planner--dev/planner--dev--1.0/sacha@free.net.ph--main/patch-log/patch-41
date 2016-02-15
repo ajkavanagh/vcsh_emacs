@@ -1,0 +1,21 @@
+Revision: planner--dev--1.0--patch-41
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr 20 12:14:30 PHT 2004
+Standard-date: 2004-04-20 04:14:30 GMT
+Modified-files: planner-bbdb.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-41
+Summary: Bugfix: planner-bbdb slashes optional, planner.el publishing (move tags first), planner-copy-or-move-task accepts nil
+Keywords: 
+
+
+	* planner.el (planner-publishing-markup): Bugfix: Process tags
+	before the rest of the stuff because things in <example> need to
+	be read-only.
+
+	* planner-bbdb.el: Make slashes optional.
+
+	* planner.el (planner-copy-or-move-task): Correctly work when
+	"nil" is specified. Thanks to Ray Fix for bringing this to my
+	attention.
+

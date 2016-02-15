@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-3
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Thu Dec 30 02:26:48 EST 2004
+Standard-date: 2004-12-30 07:26:48 GMT
+Modified-files: ChangeLog muse-colors.el muse-convert.el
+    muse-docbook.el muse-html.el muse-mode.el muse-publish.el
+    muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-3
+Summary: Extended regexps fix, allow spaces in 1st part of links
+Keywords: 
+
+2004-12-30  Michael Olson  <mwolson@gnu.org>
+
+    * muse.el (muse-link-regexp): Allow spaces in the first part of
+    links.
+
+    * muse-colors.el, muse-convert.el, muse-docbook.el: Use
+    customizable alternatives to extended character classes.
+
+    * muse-html.el, muse-mode.el, muse-publish.el: Ditto.

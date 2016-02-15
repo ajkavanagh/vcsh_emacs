@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-117
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Nov 29 13:00:48 EST 2005
+Standard-date: 2005-11-29 18:00:48 GMT
+Modified-files: ChangeLog planner-accomplishments.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-117
+Summary: planner-accomplishments: Fix muse-current-project issue.
+Keywords: 
+
+* planner-accomplishments.el (planner-accomplishments-show): Fix
+  wrong-type-argument error by expanding planner-project before setting
+  muse-current-project.  Thanks to Seth Falcon for the report and
+  suggested fix.

@@ -1,0 +1,20 @@
+Revision: emacs-wiki--sacha--1.0--patch-83
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 11 21:21:30 PHT 2004
+Standard-date: 2004-03-11 13:21:30 GMT
+Modified-files: emacs-wiki.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-83
+Summary: Merged John Wiegley's emacs-wiki changes in. Small bugfixes. 
+Keywords: 
+
+        * planner.el (planner-in-progress-task-face): Remove dupe. Thanks
+	to Florian Lanthaler for pointing this out.
+
+	* emacs-wiki.el (emacs-wiki-page-date): Remove parameter, correct
+	docstring.
+	(emacs-wiki-numbered-tag): Use ID attribute instead of unclosed <a
+	name=..>
+
+	* emacs-wiki.el: Merged John Wiegley's patch in preparation for
+	flexible publishing.

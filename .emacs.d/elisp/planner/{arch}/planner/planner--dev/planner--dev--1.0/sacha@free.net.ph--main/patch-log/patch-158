@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-158
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Aug 16 15:29:28 PHT 2004
+Standard-date: 2004-08-16 07:29:28 GMT
+Modified-files: planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-158
+Summary: Prefer local-write-file-hooks over write-file-hooks
+Keywords: bugfix
+
+	* planner-id.el (planner-id-setup): Prefer local-write-file-hooks
+        over write-file-hooks. Thanks to Frederik Fouvry for pointing this
+        out.

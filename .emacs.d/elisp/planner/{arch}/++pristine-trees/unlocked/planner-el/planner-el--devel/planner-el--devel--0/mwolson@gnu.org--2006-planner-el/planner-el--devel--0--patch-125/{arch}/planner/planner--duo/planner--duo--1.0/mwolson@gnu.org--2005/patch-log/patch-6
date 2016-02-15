@@ -1,0 +1,38 @@
+Revision: planner--duo--1.0--patch-6
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 20 10:58:48 EST 2005
+Standard-date: 2005-07-20 15:58:48 GMT
+Modified-files: ChangeLog.mwolson planner-appt.el
+    planner-authz.el planner-bibtex.el planner-cyclic.el
+    planner-deadline.el planner-diary.el
+    planner-export-diary.el planner-id.el planner-ledger.el
+    planner-log-edit.el planner-multi.el
+    planner-notes-index.el planner-psvn.el planner-rank.el
+    planner-rdf.el planner-report.el planner-rss.el
+    planner-schedule.el planner-tasks-overview.el
+    planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-w3m.el planner-xtla.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner--duo--1.0--patch-6
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-34
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-35
+    sacha@free.net.ph--main/planner--dev--1.0--patch-452
+    sacha@free.net.ph--main/planner--dev--1.0--patch-453
+Summary: Merged from mwolson@gnu.org--2005 (patch 34-35), sacha@free.net.ph--main (patch 452-453)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-34
+   Merged from hodique@lifl.fr--2005 (patch 35-37), sacha@free.net.ph--main (patch 451)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-35
+   Highlight links in note headings.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-452
+   Add autoload cookies to a bunch of files, remove planner-appt-filename-to-date
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-453
+   planner-create-note: Default to current page when called interactively

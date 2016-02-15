@@ -1,0 +1,27 @@
+Revision: planner-muse--mwolson--1.0--patch-129
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Dec 14 18:41:56 EST 2005
+Standard-date: 2005-12-14 23:41:56 GMT
+Modified-files: ChangeLog planner-authz.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-10
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-11
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-12
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-13
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-129
+Summary: Merged from ajk@iu.edu--2005 (patch 10-13)
+Keywords: merge
+
+Patches applied:
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-10
+   fix authz.mas generation
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-11
+   fix index generation
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-12
+   catch up with mwolson's patch-128
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-13
+   fix Muse 3.02.02 compatibility for planner-authz-index-as-string

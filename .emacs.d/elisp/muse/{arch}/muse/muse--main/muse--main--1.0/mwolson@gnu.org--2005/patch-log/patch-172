@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-172
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 22 01:42:10 EST 2005
+Standard-date: 2005-07-22 06:42:10 GMT
+Removed-files: experimental/.arch-ids/muse-wiki-old.el.id
+    experimental/muse-wiki-old.el
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-172
+Summary: Fix failure to publish emphasis properly.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-word): Darn off-by-one
+  errors.
+
+* experimental/muse-wiki-old.el: Removed, since I'm happy with the state
+  of muse-wiki.

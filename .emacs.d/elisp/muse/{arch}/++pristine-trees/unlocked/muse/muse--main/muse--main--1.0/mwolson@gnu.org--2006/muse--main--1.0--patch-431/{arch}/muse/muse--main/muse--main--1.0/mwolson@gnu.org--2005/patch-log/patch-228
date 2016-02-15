@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-228
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep  8 11:24:11 EST 2005
+Standard-date: 2005-09-08 16:24:11 GMT
+Modified-files: ChangeLog NEWS lisp/muse-protocols.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-228
+Summary: Update NEWS, fix muse-url-protocols customization interface.
+Keywords: 
+
+* lisp/muse-protocols.el (muse-url-protocols): Add customize choice for
+  using nil as the resolve function.
+
+* NEWS: Bring up-to-date.

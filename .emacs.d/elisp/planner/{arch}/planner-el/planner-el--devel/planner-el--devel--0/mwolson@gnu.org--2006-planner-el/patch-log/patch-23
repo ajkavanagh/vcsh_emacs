@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-23
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar 27 20:11:51 EST 2006
+Standard-date: 2006-03-28 01:11:51 GMT
+Modified-files: ChangeLog.2006
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-23
+    mwolson@gnu.org--2006/planner--main--1.0--patch-26
+Summary: Merged from mwolson@gnu.org--2006 (patch 26)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-26
+   Update ChangeLog.2006.

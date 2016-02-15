@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-105
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 15:13:35 EDT 2006
+Standard-date: 2006-10-15 19:13:35 GMT
+Modified-files: ChangeLog
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-105
+    mwolson@gnu.org--2006/muse--main--1.0--patch-220
+Summary: Merged from mwolson@gnu.org--2006 (patch 220)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-220
+   Add forgotten ChangeLog entry

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-60
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 28 13:01:39 PHT 2004
+Standard-date: 2004-04-28 05:01:39 GMT
+Modified-files: planner-bbdb.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-60
+Summary: Get BBDB links to resolve properly again
+Keywords: 
+
+	* planner-bbdb.el (planner-resolve-url-table): Add the right
+	protocols.
+

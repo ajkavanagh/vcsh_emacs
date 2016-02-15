@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.1--patch-57
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Mar 15 12:35:18 GMT 2006
+Standard-date: 2006-03-15 12:35:18 GMT
+Modified-files: planner-appt.el planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-57
+Summary: planner-appt: day names in forthcoming appointments
+Keywords: 
+
+* planner-appt.el (planner-appt-forthcoming-show-day-names-flag): new
+  option variable
+  (planner-appt-forthcoming-format): add day name insertion
+
+* planner-el.texi: Add documentation about new feature [and also for 
+  planner-appt-forthcoming-repeat-date-string]

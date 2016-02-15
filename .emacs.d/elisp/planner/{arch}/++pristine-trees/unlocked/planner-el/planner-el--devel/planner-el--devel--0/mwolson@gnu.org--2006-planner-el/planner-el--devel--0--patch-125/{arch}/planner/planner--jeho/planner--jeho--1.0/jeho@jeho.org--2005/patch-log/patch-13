@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-13
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Feb 18 17:25:46 GMT 2005
+Standard-date: 2005-02-18 17:25:46 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-13
+Summary: fix my previous so-called 'fix'
+Keywords: 
+
+* planner-appt.el (planner-appt-insinuate): fixed error in this function
+  introduced into the last patch; make the hook append as well
+

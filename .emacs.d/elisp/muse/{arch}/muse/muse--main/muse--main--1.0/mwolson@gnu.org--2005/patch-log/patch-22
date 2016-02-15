@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-22
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  1 12:59:47 EST 2005
+Standard-date: 2005-04-01 17:59:47 GMT
+Renamed-files: scripts/.arch-ids/publish-project.id examples/.arch-ids/publish-project.id
+    scripts/publish-project examples/publish-project
+Modified-files: ChangeLog examples/publish-project
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-22
+Summary: Add comments to the publish-project example script
+Keywords: 
+
+2005-04-01  Michael Olson  <mwolson@gnu.org>
+
+    * examples/publish-project: Moved here from
+    scripts/publish-project.  Added a few comments so people know what
+    it is used for.

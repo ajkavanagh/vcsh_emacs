@@ -1,0 +1,23 @@
+Revision: planner-muse--mwolson--1.0--patch-67
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Sep  7 23:38:36 EST 2005
+Standard-date: 2005-09-08 04:38:36 GMT
+Modified-files: ChangeLog.mwolson planner-multi.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-67
+    sacha@free.net.ph--main/planner--dev--1.0--patch-485
+    sacha@free.net.ph--main/planner--dev--1.0--patch-486
+    sacha@free.net.ph--main/planner--dev--1.0--patch-487
+Summary: Merged from sacha@free.net.ph--main (patch 485-487)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-485
+   Bugfix: planner-multi-update-task: Use planner-multi-task-string
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-486
+   Bugfix: planner-multi-task-string: Fix misplaced parens
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-487
+   Bugfix: planner-multi-edit-task-description: Use new description!

@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-36
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Mar  1 23:25:37 EST 2006
+Standard-date: 2006-03-02 04:25:37 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-36
+Summary: Fix #5325: nested formatting not working in HTML output.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-word): Make nested emphasis
+  work.  I'm a bit worried about possible double-escaping, though.
+  Perhaps we should write the context to a text property and escape it
+  later.  This should fix #5325.

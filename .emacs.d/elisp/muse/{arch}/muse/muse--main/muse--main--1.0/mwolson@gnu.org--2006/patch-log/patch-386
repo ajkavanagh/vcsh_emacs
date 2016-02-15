@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-386
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 14 23:04:04 EDT 2007
+Standard-date: 2007-07-15 03:04:04 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-386
+Summary: Fix stalling bug with malformed table.el table
+Keywords: 
+
+2007-07-14  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-markup-regexps): Add "^" to
+	beginning of table-el regexp.  This fixes a bug where Muse stalls
+	when trying to publish a malformed table.  Thanks to Ye Wenbin for
+	the report and the suggested fix.

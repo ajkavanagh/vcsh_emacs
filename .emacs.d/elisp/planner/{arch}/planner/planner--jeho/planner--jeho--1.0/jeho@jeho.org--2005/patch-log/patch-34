@@ -1,0 +1,32 @@
+Revision: planner--jeho--1.0--patch-34
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Feb 28 17:34:09 GMT 2005
+Standard-date: 2005-02-28 17:34:09 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-34
+Summary: planner-appt changes
+Keywords: 
+
+* planner-appt.el: documentation changes
+
+(planner-schedule-task-estimate): redefined this as advice to the
+original function [just in case someone does (load "planner-schedule")
+after loading planner-appt
+
+(planner-appt-task-insinuate): moved the hooking elsewhere
+
+(planner-appt-task-de-insinuate): moved the unhooking elsewhere
+
+(planner-appt-schedule-get-cyclic-tasks): made this really have a
+no-of-days option
+
+(planner-appt-schedule-add-cyclic-if-today): more restricted version of
+planner-appt-schedule-add-cyclic 
+
+(planner-appt-schedule-cyclic-insinuate): removed hooking into
+planner-goto-hook  [not necessary]
+
+(planner-appt-use): did a bit of the hooking here so that one doens't
+have to use planner-appt-insinuate if one really doesn't want to
+

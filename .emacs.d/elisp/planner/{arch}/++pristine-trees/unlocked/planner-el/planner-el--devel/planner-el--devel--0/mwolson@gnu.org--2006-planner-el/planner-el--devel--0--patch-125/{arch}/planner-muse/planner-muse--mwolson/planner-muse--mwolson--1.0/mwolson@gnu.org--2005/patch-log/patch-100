@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-100
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Nov 20 17:44:52 EST 2005
+Standard-date: 2005-11-20 22:44:52 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-100
+Summary: planner-multi: Attempt to keep multiple links from vanishing.
+Keywords: 
+
+* planner-multi.el (planner-multi-copy-or-move-task): Try to keep
+  multiple links from vanishing.  Thanks to Jim Ottaway for the patch.

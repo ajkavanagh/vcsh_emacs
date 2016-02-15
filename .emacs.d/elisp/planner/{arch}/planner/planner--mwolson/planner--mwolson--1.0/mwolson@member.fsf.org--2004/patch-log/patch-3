@@ -1,0 +1,16 @@
+Revision: planner--mwolson--1.0--patch-3
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Thu Sep 16 14:26:04 EST 2004
+Standard-date: 2004-09-16 19:26:04 GMT
+Modified-files: planner.el
+New-patches: mwolson@member.fsf.org--2004/planner--mwolson--1.0--base-0
+    mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-3
+Summary: Replace `.' with `\\.' in some regexps to be more correct
+Keywords:
+
+2004-09-16  Michael Olson  <mwolson@member.fsf.org>
+
+	* planner.el (planner-create-note): Change use of `.' in regexp to
+	`\\.'.
+	(planner-highlight-notes): Ditto.

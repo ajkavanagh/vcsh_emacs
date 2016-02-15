@@ -1,0 +1,34 @@
+Revision: muse--main--1.0--patch-373
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 17 12:47:27 EDT 2007
+Standard-date: 2007-06-17 16:47:27 GMT
+New-files: examples/.arch-ids/emacs-muse.png.id
+    examples/.arch-ids/muse-made-with.png.id
+    examples/emacs-muse.png examples/muse-made-with.png
+Modified-files: ChangeLog README examples/Makefile
+    examples/QuickStart.muse examples/mwolson/muse-init.el
+    lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-373
+Summary: Get Info version of QuickStart to publish
+Keywords: 
+
+2007-06-17  Michael Olson  <mwolson@gnu.org>
+
+	* examples/QuickStart.muse: Make images local so that the Info
+	version of this document works.  Add <example> for the Literal
+	paragraphs chapter, so that it is clear what is happening.
+
+	* examples/Makefile (%.html, %.pdf, %.info): Add message to
+	indicate what we are publishing.
+	(realclean distclean fullclean): Remove all TeX crud.
+
+	* examples/emacs-muse.png, examples/muse-made-with.png: Include so
+	that the Info version of QuickStart can publish correctly.
+
+	* lisp/muse-texinfo.el (muse-texinfo-process-natively): Set
+	default to nil, since texinfmt.el is a serious nuisance.
+	(muse-texinfo-markup-strings): Add newlines to begin-example and
+	end-example.
+	(muse-texinfo-decide-specials): Also escape URL-type specials in a
+	whole slew of other contexts.

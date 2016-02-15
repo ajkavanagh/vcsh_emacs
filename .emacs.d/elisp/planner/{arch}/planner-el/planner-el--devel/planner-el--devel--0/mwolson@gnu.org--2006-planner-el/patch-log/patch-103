@@ -1,0 +1,11 @@
+Revision: planner-el--devel--0--patch-103
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan 14 14:36:24 EST 2007
+Standard-date: 2007-01-14 19:36:24 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-103
+Summary: Manual: Clarify wording of `C-c C-c' explanation
+Keywords: 
+
+* planner-el.texi (Tasks): Clarify wording of `C-c C-c' explanation.

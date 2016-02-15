@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-133
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue May 23 11:30:02 EDT 2006
+Standard-date: 2006-05-23 15:30:02 GMT
+Modified-files: ChangeLog.2006 lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-133
+Summary: Make links colored blue by default.
+Keywords: 
+
+* lisp/muse-colors.el (muse-link): Make links blue by default, like most
+  other Emacs modes do.

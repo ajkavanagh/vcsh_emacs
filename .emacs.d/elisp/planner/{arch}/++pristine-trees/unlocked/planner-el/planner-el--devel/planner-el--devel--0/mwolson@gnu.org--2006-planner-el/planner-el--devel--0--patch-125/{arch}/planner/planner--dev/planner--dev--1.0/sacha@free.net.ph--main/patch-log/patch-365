@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-365
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr  5 09:29:40 PHT 2005
+Standard-date: 2005-04-05 01:29:40 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-365
+Summary: planner-el.texi: Update my sample configuration file
+Keywords: 
+
+* planner-el.texi (Sacha Chua's Configuration): Update my sample configration file.
+

@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-140
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jul 15 14:57:50 PHT 2004
+Standard-date: 2004-07-15 06:57:50 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-140
+Summary: planner-seek-next-unfinished-task
+Keywords: new
+
+	* planner.el (planner-seek-next-unfinished-task): New.
+
+	* planner.texi (Viewing Tasks): Add note about
+	planner-seek-next-unfinished-task.
+
+

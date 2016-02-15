@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-227
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Dec 11 16:58:26 JST 2004
+Standard-date: 2004-12-11 07:58:26 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-227
+Summary: planner-notes-tag: Work with new emacs-wiki
+Keywords: 
+
+	* planner.el (planner-notes-tag): Bugfix: Add page name so that
+	this works with the new emacs-wiki which doesn't recognize links
+	of the form [[#1][...]].

@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-203
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Aug 19 11:24:08 EST 2005
+Standard-date: 2005-08-19 16:24:08 GMT
+Modified-files: ChangeLog NEWS lisp/muse-mode.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-203
+Summary: Add items through patch-149 to NEWS.
+Keywords: 
+
+* NEWS (progress): Catch up to patch-149.
+
+* lisp/muse-mode.el (muse-mode): Remove spurious comment.
+
+* lisp/muse-publish.el (muse-publish): Ditto.

@@ -1,0 +1,14 @@
+Revision: planner--jeho--1.1--patch-33
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Dec 17 18:09:25 GMT 2005
+Standard-date: 2005-12-17 18:09:25 GMT
+Modified-files: planner-bibtex.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-33
+Summary: planner-bibtex: peripatetic point cure
+Keywords: 
+
+* planner-bibtex.el (planner-bibtex-annotation-new,
+  planner-bibtex-annotation-old): wrap in a save-excursion to stop point
+  moving around.
+

@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-304
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jan 28 14:28:57 JST 2005
+Standard-date: 2005-01-28 05:28:57 GMT
+Modified-files: ChangeLog planner-ledger.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-304
+Summary: planner-ledger: now usable with new versions of ledger
+Keywords: 
+
+	* planner-ledger.el: Merge patch from Travis B. Hartwell making
+	planner-ledger usable with new versions of ledger. planner-ledger
+	is now more flexible.
+	(planner-ledger-balance-accounts): Reasonable defaults.
+	(planner-ledger-balance-args): New option.
+	(planner-ledger-insert-maybe): Remove hardcoded things.

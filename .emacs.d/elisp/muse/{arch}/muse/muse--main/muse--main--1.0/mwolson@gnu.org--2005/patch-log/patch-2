@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-2
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Wed Dec 29 21:18:07 EST 2004
+Standard-date: 2004-12-30 02:18:07 GMT
+New-files: .arch-ids/muse-regexps.el.id muse-regexps.el
+Modified-files: ChangeLog muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-2
+Summary: Begin to change regexp handling, tweak muse.el header
+Keywords: 
+
+2004-12-29  Michael Olson  <mwolson@gnu.org>
+
+    * muse.el: Change Copyright notice to FSF.  Change Maintainer to
+    myself.  Update URL.
+
+    * muse-regexps.el: New file that implements regexp handling.
+    Generalized regexp options will be moved to it eventually.

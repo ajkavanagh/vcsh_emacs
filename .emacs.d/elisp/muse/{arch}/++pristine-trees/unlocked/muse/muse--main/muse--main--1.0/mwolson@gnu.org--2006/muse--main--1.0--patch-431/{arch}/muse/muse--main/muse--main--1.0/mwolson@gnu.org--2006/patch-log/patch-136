@@ -1,0 +1,23 @@
+Revision: muse--main--1.0--patch-136
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu May 25 17:23:55 EDT 2006
+Standard-date: 2006-05-25 21:23:55 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog examples/mwolson/muse-init.el
+    examples/mwolson/stylesheets/blog.css
+    examples/mwolson/stylesheets/common.css
+    examples/mwolson/stylesheets/print.css
+    examples/mwolson/stylesheets/screen.css
+    lisp/muse-html.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-136
+Summary: Make the Table of Contents CSS easier to customize.
+Keywords: 
+
+* examples/mwolson/muse-init.el (muse-bad-link): Update.
+
+* examples/mwolson/stylesheets/*.css: Update and add license.
+
+* lisp/muse-html.el (muse-html-insert-contents): Surround contents with
+  <div> section for easier CSS hacking.  Remove the class attribute of
+  other elements, since we don't need it anymore.

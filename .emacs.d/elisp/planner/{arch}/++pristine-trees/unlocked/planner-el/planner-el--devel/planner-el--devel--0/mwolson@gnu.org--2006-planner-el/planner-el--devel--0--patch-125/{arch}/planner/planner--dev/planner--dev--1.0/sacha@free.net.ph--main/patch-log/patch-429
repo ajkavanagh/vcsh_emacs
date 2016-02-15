@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-429
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 25 02:43:12 PHT 2005
+Standard-date: 2005-06-24 18:43:12 GMT
+Modified-files: ChangeLog planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-73
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-74
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-75
+    sacha@free.net.ph--main/planner--dev--1.0--patch-429
+Summary: planner-appt: Merge bugfix for duplicate appt bug
+Keywords: 
+
+Patches applied:
+
+ * jeho/73: merge latest
+ * jeho/74: planner-appt: fix duplicate appt bug
+ * jeho/75: planner-appt: remove redundant comments
+

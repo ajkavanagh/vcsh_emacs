@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-417
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 28 21:01:19 EDT 2007
+Standard-date: 2007-07-29 01:01:19 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-417
+Summary: Fix bug with definition list publishing and empty terms
+Keywords: 
+
+2007-07-28  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-ensure-blank-line): New
+	function that ensures that a blank line exists in the line before
+	point.
+	(muse-publish-markup-list): Use it, rather than
+	`muse-publish-ensure-block'.  This fixes a bug with definition
+	list publishing.  Thanks to meandtheshell for reporting this.

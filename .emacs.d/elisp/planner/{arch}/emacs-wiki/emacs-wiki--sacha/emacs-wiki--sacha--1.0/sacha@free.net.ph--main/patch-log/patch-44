@@ -1,0 +1,33 @@
+Revision: emacs-wiki--sacha--1.0--patch-44
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Feb 23 00:41:57 PHT 2004
+Standard-date: 2004-02-22 16:41:57 GMT
+New-files: .arch-ids/planner-bbdb.el.id
+    .arch-ids/planner-gnus.el.id
+    .arch-ids/planner-schedule.el.id
+    .arch-ids/planner-timeclock.el.id
+    .arch-ids/planner-w3m.el.id
+    .arch-ids/remember-bbdb.el.id
+    .arch-ids/remember-bibl.el.id
+    .arch-ids/remember-planner.el.id planner-bbdb.el
+    planner-gnus.el planner-schedule.el planner-timeclock.el
+    planner-w3m.el remember-bbdb.el remember-bibl.el
+    remember-planner.el
+Modified-files: planner-experimental.el planner-id.el
+    planner-notes.el planner.el remember-experimental.el
+    remember.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-44
+Summary: Major change: split planner.el and remember.el into modules
+Keywords: 
+
+	* planner.el: Split off -bbdb, -gnus, -schedule, -timeclock and
+	-w3m. Compiles cleanly under Emacs 21 CVS.
+	(planner-url-list): New variable for better modularization.
+	(planner-update-wiki-project): Automatically compose
+	regular expression for emacs-wiki-url-regexp.
+	(planner-markup-url-table): New variable.
+	(planner-browse-url-functions): New variable.
+
+	* remember.el: Split off -bbdb, -bibl and -planner. Compiles
+	cleanly under Emacs 21 CVS.

@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-109
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 19 00:55:30 PHT 2004
+Standard-date: 2004-06-18 16:55:30 GMT
+Modified-files: planner-bbdb.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-109
+Summary: planner-bbdb: Add mailto: URLs to e-mail addresses
+Keywords: bugfix
+
+	* planner-bbdb.el (planner-bbdb-resolve-url): Add the mailto:
+	URL. Thanks to ajk for bug report and patch idea

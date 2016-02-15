@@ -1,0 +1,19 @@
+Revision: planner-muse--mwolson--1.0--patch-9
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 18 23:20:08 EST 2005
+Standard-date: 2005-06-19 04:20:08 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-5
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-6
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-9
+Summary: Merged from hodique@lifl.fr--2005 (patch 5-6)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-5
+   merged changes from mwolson@gnu.org--2005/planner-muse--mwolson--1.0
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-6
+   Provide a string representation of index to solve the index publishing issue

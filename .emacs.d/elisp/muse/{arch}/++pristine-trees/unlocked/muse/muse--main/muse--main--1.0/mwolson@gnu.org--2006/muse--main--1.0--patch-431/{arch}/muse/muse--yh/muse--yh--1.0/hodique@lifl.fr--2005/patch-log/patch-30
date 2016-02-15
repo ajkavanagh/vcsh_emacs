@@ -1,0 +1,37 @@
+Revision: muse--yh--1.0--patch-30
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 14 12:13:40 CEST 2005
+Standard-date: 2005-07-14 10:13:40 GMT
+New-files: examples/mwolson/templates/.arch-ids/=id
+    examples/mwolson/templates/.arch-ids/footer.html.id
+    examples/mwolson/templates/.arch-ids/generic-footer.html.id
+    examples/mwolson/templates/.arch-ids/generic-header.html.id
+    examples/mwolson/templates/.arch-ids/header.html.id
+    examples/mwolson/templates/footer.html
+    examples/mwolson/templates/generic-footer.html
+    examples/mwolson/templates/generic-header.html
+    examples/mwolson/templates/header.html
+New-directories: examples/mwolson/templates
+    examples/mwolson/templates/.arch-ids
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+    lisp/muse-mode.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse-wiki.el lisp/muse.el
+    muse.texi
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-30
+    mwolson@gnu.org--2005/muse--main--1.0--patch-133
+    mwolson@gnu.org--2005/muse--main--1.0--patch-134
+    mwolson@gnu.org--2005/muse--main--1.0--patch-135
+Summary: Merged from mwolson@gnu.org--2005 (patch 133-135)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-133
+   Make published link handling do the right thing, plus misc. fixes.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-134
+   Attempt to get the right file extension when publishing; more examples.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-135
+   Prepare Muse 3.01.90 (3.02 RC1).

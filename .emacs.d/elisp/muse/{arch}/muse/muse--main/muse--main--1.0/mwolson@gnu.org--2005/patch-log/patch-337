@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-337
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan  1 20:05:13 EST 2006
+Standard-date: 2006-01-02 01:05:13 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-337
+Summary: muse-wiki: Allow interwiki links to use different base URLs.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-resolve-project-page): If :base-url is
+  defined for the remote style, use it instead of file-relative-name to
+  resolve the path.  Thanks to Justin Kirby for the idea.

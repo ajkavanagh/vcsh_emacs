@@ -1,0 +1,13 @@
+Revision: muse--rel--3.02--patch-23
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov 21 10:22:39 EST 2005
+Standard-date: 2005-11-21 15:22:39 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-23
+Summary: muse-wiki: WikiWords can have consecutive capital letters.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-wikiword-regexp): Use a looser definition
+  of what constitutes a WikiWord.  Namely: capital letters can appear
+  next to each other.

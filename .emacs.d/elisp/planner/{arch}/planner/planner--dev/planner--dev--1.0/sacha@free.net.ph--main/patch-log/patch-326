@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-326
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Feb 10 16:51:47 JST 2005
+Standard-date: 2005-02-10 07:51:47 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-326
+Summary: planner-el.texi: Docfix: planner-update-wiki-project is not interactive
+Keywords: 
+
+* planner-el.texi (Basic Configuration): Update note about
+  planner-update-wiki-project which is not an interactive function.
+  Thanks to Jeremy Cowgar for spotting this.

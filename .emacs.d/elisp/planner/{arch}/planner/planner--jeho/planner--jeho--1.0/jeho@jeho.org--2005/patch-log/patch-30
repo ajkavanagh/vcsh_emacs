@@ -1,0 +1,18 @@
+Revision: planner--jeho--1.0--patch-30
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Feb 27 11:16:06 GMT 2005
+Standard-date: 2005-02-27 11:16:06 GMT
+Modified-files: ChangeLog planner-appt.el planner-diary.el
+    planner-el.texi planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-30
+    sacha@free.net.ph--main/planner--dev--1.0--patch-331
+    sacha@free.net.ph--main/planner--dev--1.0--patch-332
+Summary: corrected mistypes and appended to a hook
+Keywords: 
+
+* planner-appt.el: small documentation changes
+(planner-appt-update): corrected typographic error
+(planner-appt-insinuate-if-today): append planner-appt-update-for-write
+to the write hook
+

@@ -1,0 +1,63 @@
+Revision: muse--jeho--1.0--patch-23
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Jan 21 15:52:17 GMT 2006
+Standard-date: 2006-01-21 15:52:17 GMT
+Modified-files: .arch-ids/AUTHORS.id
+    .arch-ids/ChangeLog.2004.id .arch-ids/Makefile.defs.id
+    .arch-ids/Makefile.id .arch-ids/NEWS.id
+    .arch-ids/README.id AUTHORS ChangeLog Makefile
+    Makefile.defs debian/changelog debian/copyright
+    debian/emacsen-install debian/emacsen-startup
+    debian/rules lisp/Makefile lisp/muse-latex.el
+    lisp/muse-project.el lisp/muse-publish.el lisp/muse.el
+    scripts/muse-build.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-23
+    mwolson@gnu.org--2005/muse--main--1.0--patch-353
+    mwolson@gnu.org--2005/muse--main--1.0--patch-354
+    mwolson@gnu.org--2005/muse--main--1.0--patch-355
+    mwolson@gnu.org--2005/muse--main--1.0--patch-356
+    mwolson@gnu.org--2005/muse--main--1.0--patch-357
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-56
+    mwolson@gnu.org--2006/muse--main--1.0--base-0
+    mwolson@gnu.org--2006/muse--main--1.0--patch-1
+    mwolson@gnu.org--2006/muse--main--1.0--patch-2
+    mwolson@gnu.org--2006/muse--main--1.0--patch-3
+    mwolson@gnu.org--2006/muse--main--1.0--patch-4
+Summary: Merged from mwolson@gnu.org--2005 (patch 56, 353-357), mwolson@gnu.org--2006 (patch 0-4)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-353
+   Fix typo.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-354
+   Post-release updates.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-355
+   Merged from mwolson@gnu.org--2005 (patch 56)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-356
+   Debian fixups.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-357
+   Another Debian fix.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-56
+   Merged from mwolson@gnu.org--2005 (patch 354)
+
+ * mwolson@gnu.org--2006/muse--main--1.0--base-0
+   tag of mwolson@gnu.org--2005/muse--main--1.0--patch-355
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-1
+   Oops, committed to the wrong archive.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-2
+   Pick a better default if publishing with more than one style.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-3
+   Create parents of output directories.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-4
+   muse-latex: Use \url to publish bare URLs.

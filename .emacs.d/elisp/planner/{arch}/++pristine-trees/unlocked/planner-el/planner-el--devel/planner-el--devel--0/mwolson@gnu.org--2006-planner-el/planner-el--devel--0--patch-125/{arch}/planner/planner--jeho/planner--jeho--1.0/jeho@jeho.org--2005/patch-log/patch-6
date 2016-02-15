@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.0--patch-6
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Feb 16 16:11:07 GMT 2005
+Standard-date: 2005-02-16 16:11:07 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-6
+    sacha@free.net.ph--main/planner--dev--1.0--patch-329
+Summary: merge planner latest
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-329
+   planner-multi-read-name: Check if str is null
+

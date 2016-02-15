@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-294
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jan 13 09:22:30 JST 2005
+Standard-date: 2005-01-13 00:22:30 GMT
+Modified-files: ChangeLog planner-bibtex.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-294
+Summary: planner-bibtex-browse-url: Handle labels with :
+Keywords: 
+
+	* planner-bibtex.el (planner-bibtex-browse-url): Merge small patch
+	from Jim Ottaway fixing case where bibtex labels contain :.

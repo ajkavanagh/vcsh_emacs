@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-441
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jul  2 23:10:37 PHT 2005
+Standard-date: 2005-07-02 15:10:37 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-441
+Summary: Bugfix: planner-save-buffers should suppress planner-id
+Keywords: 
+
+* planner.el (planner-save-buffers): Supress planner-id fixing in
+  automatically-saved pages. Thanks to Edgar Gonçalves for helping track
+  down this bug.

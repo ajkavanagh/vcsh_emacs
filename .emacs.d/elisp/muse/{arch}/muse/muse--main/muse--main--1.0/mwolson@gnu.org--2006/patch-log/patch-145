@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-145
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May 29 20:19:37 EDT 2006
+Standard-date: 2006-05-30 00:19:37 GMT
+Renamed-files: lisp/.arch-ids/muse-convert.el.id lisp/.arch-ids/muse-convert-latex.el.id
+    lisp/muse-convert.el lisp/muse-convert-latex.el
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    lisp/muse-convert-latex.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-145
+Summary: Rename muse-convert.el to muse-latex-convert.el.
+Keywords: 
+
+* lisp/muse-convert-latex.el: Rename from muse-convert.el, since more
+  files of this nature are expected in the future.

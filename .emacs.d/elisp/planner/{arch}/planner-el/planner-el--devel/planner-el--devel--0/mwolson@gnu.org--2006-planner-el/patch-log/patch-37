@@ -1,0 +1,16 @@
+Revision: planner-el--devel--0--patch-37
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 17 23:00:00 EDT 2006
+Standard-date: 2006-05-18 03:00:00 GMT
+Modified-files: planner-calendar.el planner-el.texi
+    planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-37
+    mwolson@gnu.org--2006/planner--main--1.0--patch-42
+Summary: Merged from mwolson@gnu.org--2006 (patch 42)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-42
+   Work on calendar, manual, and index generation.

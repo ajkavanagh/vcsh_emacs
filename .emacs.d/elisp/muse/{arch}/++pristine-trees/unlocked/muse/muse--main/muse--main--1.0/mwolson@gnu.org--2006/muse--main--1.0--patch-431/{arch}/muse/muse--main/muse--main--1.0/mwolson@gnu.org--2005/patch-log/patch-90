@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-90
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul  5 23:00:57 EST 2005
+Standard-date: 2005-07-06 04:00:57 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-90
+Summary: Mouse-2 on regular text will yank rather than give an error.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode-map): Remove mappings for mouse-2, since
+  this seems to be more trouble than it's worth.
+  (muse-follow-name-at-mouse): Don't call `muse-follow-name-at-point';
+  use our own implementation.
+

@@ -1,0 +1,40 @@
+Revision: planner--jeho--1.1--patch-32
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Dec 17 16:48:40 GMT 2005
+Standard-date: 2005-12-17 16:48:40 GMT
+Removed-files: .arch-ids/planner-auto.el.id planner-auto.el
+Renamed-files: .arch-ids/schedule.el.id contrib/.arch-ids/schedule.el.id
+    schedule.el contrib/schedule.el
+Modified-files: ChangeLog Makefile contrib/schedule.el
+    planner-schedule.el planner-xtla.el planner.el
+    scripts/planner-build.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-32
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-131
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-132
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-133
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-134
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-135
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-136
+Summary: Merged from mwolson@gnu.org--2005 (patch 131-136)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-131
+   planner-xtla: Apply patch from Stefan Reichör.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-132
+   Generate autoloads file automatically from Makefile rules.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-133
+   Merged from jeho@jeho.org--2005 (patch 23-28)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-134
+   schedule.el: Move to contrib directory.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-135
+   Fix tag coloring breakage.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-136
+   Merged from jeho@jeho.org--2005 (patch 29-30)

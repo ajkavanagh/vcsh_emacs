@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-98
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun  3 19:46:44 PHT 2004
+Standard-date: 2004-06-03 11:46:44 GMT
+New-files: .arch-ids/planner-tasks-overview.el.id
+    planner-tasks-overview.el
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-98
+Summary: New feature: planner-tasks-overview
+Keywords: 
+
+	* planner-tasks-overview.el: New.
+
+	* planner.texi: Document planner-tasks-overview.el.

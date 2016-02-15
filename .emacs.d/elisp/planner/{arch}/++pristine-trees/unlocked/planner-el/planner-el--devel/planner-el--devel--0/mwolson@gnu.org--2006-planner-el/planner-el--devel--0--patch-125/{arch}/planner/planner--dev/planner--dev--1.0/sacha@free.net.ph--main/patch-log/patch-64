@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-64
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Apr 30 17:15:11 PHT 2004
+Standard-date: 2004-04-30 09:15:11 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-64
+Summary: Bugfix: Allow multiple digits in +days or -days specification
+Keywords: 
+
+	* planner.el (planner-expand-name): Bugfix: Allow multiple digits
+	in +days or -days specification.
+

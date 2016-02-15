@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-402
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 24 00:46:38 EDT 2007
+Standard-date: 2007-07-24 04:46:38 GMT
+Modified-files: ChangeLog examples/QuickStart.muse
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-402
+Summary: QuickStart: Fix typo/omission
+Keywords: 
+
+2007-07-24  Michael Olson  <mwolson@gnu.org>
+
+	* examples/QuickStart.muse (Images): Fix typo where some text
+	existed in the output but not in the example region.

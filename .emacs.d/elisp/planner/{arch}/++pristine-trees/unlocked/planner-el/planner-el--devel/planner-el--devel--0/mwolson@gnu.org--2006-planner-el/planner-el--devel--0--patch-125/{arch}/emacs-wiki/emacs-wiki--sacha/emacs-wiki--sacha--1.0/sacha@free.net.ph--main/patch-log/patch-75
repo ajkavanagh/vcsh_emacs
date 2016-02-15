@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-75
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar  9 12:54:26 PHT 2004
+Standard-date: 2004-03-09 04:54:26 GMT
+Removed-files: .arch-ids/timeclock.el.id timeclock.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-75
+Summary: Removed timeclock.el
+Keywords: 
+
+	* timeclock.el: Removed as already in Emacs.
+

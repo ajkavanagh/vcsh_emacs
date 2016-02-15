@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-387
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 27 11:13:30 PHT 2005
+Standard-date: 2005-04-27 03:13:30 GMT
+Modified-files: ChangeLog planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-387
+Summary: Bugfix: planner-gnus-browse-url: Load group even if registry is not used
+Keywords: 
+
+* planner-gnus.el (planner-gnus-browse-url): Fix group loading code when
+  registry is not used.

@@ -1,0 +1,11 @@
+Revision: planner-el--devel--0--patch-25
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Wed Mar 29 15:23:27 EST 2006
+Standard-date: 2006-03-29 20:23:27 GMT
+Modified-files: planner-authz.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-25
+Summary: fix free variable warning
+Keywords: 
+
+* planner-authz.el (planner-authz-multi-union): declare `sublist'

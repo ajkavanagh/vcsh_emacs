@@ -1,0 +1,13 @@
+Revision: planner--main--1.0--patch-58
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun 15 23:59:59 EDT 2006
+Standard-date: 2006-06-16 03:59:59 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-58
+Summary: Spot check documentation through planner-gnus.el.
+Keywords: 
+
+* planner-el.texi (Planner-Diary Advanced Features): Add a few index
+  entries.  Document planner-export-diary.el.
+  (Emacs Relay Chat): Update the syntax.

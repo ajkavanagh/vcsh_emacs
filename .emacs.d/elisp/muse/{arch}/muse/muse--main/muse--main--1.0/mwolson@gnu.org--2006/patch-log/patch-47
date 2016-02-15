@@ -1,0 +1,25 @@
+Revision: muse--main--1.0--patch-47
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar  6 01:06:38 EST 2006
+Standard-date: 2006-03-06 06:06:38 GMT
+Modified-files: ChangeLog.2006 lisp/muse-colors.el
+    lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-47
+Summary: Get increase and decrease of list indentation to work with complex cases.
+Keywords: 
+
+* lisp/muse-colors.el: Miscellaneous whitespace fixes.
+  (muse-colors-explicit-link): Minor logic tweak.  The indentation seems
+  to indicate this interpretation, though parens are different.
+
+* lisp/muse-mode.el: Miscellaneous whitespace fixes.
+  (muse-alter-list-item-indentation): New function that alters the list
+  structure at point.  The behavior to use is specified by the OPERATION
+  argument.  Currently-supported operations are 'increase and 'decrease
+  indentation level.  This now uses the same sort of list detection
+  algorithm that is used during publishing, so it should work as expected
+  for complicated cases.
+  (muse-increase-list-item-indentation)
+  (muse-decrease-list-item-indentation): Use
+  `muse-alter-list-item-indentation'.

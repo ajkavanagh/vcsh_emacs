@@ -1,0 +1,10 @@
+Revision: planner--dev--1.0--patch-167
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Sep 21 20:07:56 JST 2004
+Standard-date: 2004-09-21 11:07:56 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-167
+Summary: Bugfix: planner-update-task: Actually follow planner-tasks-file-behavior
+Keywords: 
+

@@ -1,0 +1,21 @@
+Revision: planner--dev--1.0--patch-358
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 30 18:28:57 PHT 2005
+Standard-date: 2005-03-30 10:28:57 GMT
+Modified-files: ChangeLog planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-358
+Summary: planner-multi: Sane completing read in XEmacs
+Keywords: 
+
+* planner-multi.el (nil): crm is optional.
+  (planner-multi-read-name): Replace defadvice with more flexible way to
+  define planner-multi prompting. This makes it work better under XEmacs
+  because users can choose the next function instead.
+  (planner-multi-read-name-multiple-prompts): New function for XEmacs users.
+  Thanks to Jody Klymak for the idea.
+
+* planner.el (planner-read-name-function): New variable removes the need for
+  defadvice in planner-multi.
+  (planner-read-name-single): Contains old code for prompting for a single page.
+  (planner-read-name-no-completion): Just in case people like it that way.

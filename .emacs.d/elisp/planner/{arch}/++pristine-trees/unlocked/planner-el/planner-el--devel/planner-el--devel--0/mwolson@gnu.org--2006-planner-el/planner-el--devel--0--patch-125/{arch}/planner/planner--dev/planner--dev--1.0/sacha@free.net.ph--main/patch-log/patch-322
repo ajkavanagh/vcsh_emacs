@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-322
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb  9 00:52:09 JST 2005
+Standard-date: 2005-02-08 15:52:09 GMT
+Modified-files: ChangeLog planner-bibtex.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-322
+Summary: planner-bibtex: Make separator more flexible
+Keywords: 
+
+* planner-bibtex.el (planner-bibtex-separator): New.
+(planner-bibtex-regexp): New.
+(planner-bibtex-annotation-new): Use planner-bibtex-separator.
+(planner-bibtex-annotation-old): Use planner-bibtex-separator.
+(planner-bibtex-browse-url): Use planner-bibtex-regexp
+

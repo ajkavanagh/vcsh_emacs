@@ -1,0 +1,16 @@
+Revision: planner-el--devel--0--patch-118
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May  7 16:47:30 EDT 2007
+Standard-date: 2007-05-07 20:47:30 GMT
+Modified-files: ChangeLog README planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-118
+Summary: manual: Mention new planner-el-logs list
+Keywords: 
+
+2007-05-07  Michael Olson  <mwolson@gnu.org>
+
+	* README: Mention that there are multiple mailing lists.
+
+	* planner-el.texi (Getting Help): Add entry for the new log
+	messages list.

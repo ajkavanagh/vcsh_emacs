@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-160
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jul 23 16:39:35 EDT 2007
+Standard-date: 2007-07-23 20:39:35 GMT
+Modified-files: ChangeLog lisp/muse-context.el
+    lisp/muse-docbook.el lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-160
+    mwolson@gnu.org--2006/muse--main--1.0--patch-400
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 400)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-400
+   Remove some unneeded uses of save-restriction

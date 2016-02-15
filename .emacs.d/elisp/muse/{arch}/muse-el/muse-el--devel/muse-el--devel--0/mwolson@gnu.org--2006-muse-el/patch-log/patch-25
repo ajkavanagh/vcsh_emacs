@@ -1,0 +1,25 @@
+Revision: muse-el--devel--0--patch-25
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Per B. Sederberg <per@med.upenn.edu>
+Date: Mon Mar 20 19:15:39 EST 2006
+Standard-date: 2006-03-21 00:15:39 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-25
+Summary: Add general searching and backlink searching.
+Keywords: 
+
+* lisp/muse-mode.el (muse-grep-command): Add custom to set up the command
+  used for grepping.
+
+* muse-mode.el (muse-mode-map): Changed muse-browse-result to C-c C-v and
+  made muse-find-backlinks C-c C-b
+
+* muse-mode.el (muse-grep): New function to envoke a search with the compiler.
+
+* muse-mode.el (muse-search-with-command): New function to search for
+  text, optionally editing the command.
+
+* muse-mode.el (muse-search): New function to search for text.
+
+* muse-mode.el (muse-find-backlinks): New function to search for
+  backlinks to the current page.

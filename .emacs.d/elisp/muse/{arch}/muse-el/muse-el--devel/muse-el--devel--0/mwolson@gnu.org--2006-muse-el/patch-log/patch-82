@@ -1,0 +1,43 @@
+Revision: muse-el--devel--0--patch-82
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 27 14:56:14 EDT 2006
+Standard-date: 2006-07-27 18:56:14 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-html.el lisp/muse-latex.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-wiki.el lisp/muse.el
+    muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-82
+    mwolson@gnu.org--2006/muse--main--1.0--patch-158
+    mwolson@gnu.org--2006/muse--main--1.0--patch-159
+    mwolson@gnu.org--2006/muse--main--1.0--patch-160
+    mwolson@gnu.org--2006/muse--main--1.0--patch-161
+    mwolson@gnu.org--2006/muse--main--1.0--patch-162
+    mwolson@gnu.org--2006/muse--main--1.0--patch-163
+    mwolson@gnu.org--2006/muse--main--1.0--patch-164
+Summary: Merged from mwolson@gnu.org--2006 (patch 158-164)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-158
+   Make muse-publish-markup-buffer usable even with no current file.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-159
+   Fix publishing of blank table fields.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-160
+   Make links to files in subdirectories work.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-161
+   Fix publishing bug introduced in last patch.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-162
+   muse-latex: Make publishing of <contents> tags optional.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-163
+   Make space around emdash optional.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-164
+   Make escaping of brackets in links work properly.

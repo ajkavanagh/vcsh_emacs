@@ -1,0 +1,23 @@
+Revision: planner--dev--1.0--patch-417
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jun 17 16:26:53 PHT 2005
+Standard-date: 2005-06-17 08:26:53 GMT
+Modified-files: ChangeLog planner-el.texi planner-multi.el
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-417
+Summary: planner-multi-copy-tasks-to-page: New option automatically copies tasks
+Keywords: 
+
+* planner-multi.el (planner-multi-copy-tasks-to-page): New option
+  allows you to automatically copy tasks to a page.
+  (planner-multi-create-task-from-info): Convert from advice.
+  (planner-create-task-from-info-function): Override with planner-multi version.
+  (planner-multi-remove-task-from-pool): New hook function to remove
+  copied tasks.
+
+* planner.el (planner-create-task-from-info-function): Change to variable.
+  (planner-create-task-from-info): Call the function.
+  (planner-create-task-from-info-basic): Rename from old function.
+
+* planner-el.texi (Multiple Projects): Document planner-multi.el.

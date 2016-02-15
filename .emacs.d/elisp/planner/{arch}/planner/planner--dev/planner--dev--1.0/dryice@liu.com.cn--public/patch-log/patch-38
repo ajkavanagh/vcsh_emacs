@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-38
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Thu Apr  7 09:46:32 CST 2005
+Standard-date: 2005-04-07 01:46:32 GMT
+Modified-files: planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-38
+Summary: fix private symbal introduced yesterday
+Keywords: bugfix
+
+* planner.el (planner-create-task-from-buffer): Fix the private
+  ddliu-planner-annotation-symbol-string I blindly copied from my config
+  file yesterday. It should be planner-annotation-symbol-string. I should
+  test it more.
+

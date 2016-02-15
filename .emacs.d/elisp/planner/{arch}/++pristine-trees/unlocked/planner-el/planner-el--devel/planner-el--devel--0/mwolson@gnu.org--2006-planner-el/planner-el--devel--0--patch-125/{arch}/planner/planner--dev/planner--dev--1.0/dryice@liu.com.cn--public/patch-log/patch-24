@@ -1,0 +1,53 @@
+Revision: planner--dev--1.0--patch-24
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Mar  2 22:38:19 CST 2005
+Standard-date: 2005-03-02 14:38:19 GMT
+Modified-files: planner-trunk.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-24
+Summary: merge from Keith Amidon: support trunk on plan pages and add sub-section headers
+Keywords: newfeature, merge
+
+* planner-trunk.el: Lots of changes, changing planner-trunk-rule-list
+  format to support trunk on plan pages and add sub-section
+  headers. Here's the docstring of planner-trunk-rule-list, describing
+  the new features:
+
+    "List of rules for trunking tasks
+  
+  Each rule is a sublist of the form:
+  
+     (PAGE-REGEXP COMPLETE-HEADING TRUNK-SECTIONS-LIST)
+  
+  PAGE-REGEXP is used to select the set of trunk sections that should be
+  used.  It is matched against the name of the current planner page.  If
+  no matching PAGE-REGEXP is found, no trunking is done.  If there is
+  more than one match, the first one in the list is used.
+  
+  If COMPLETE-HEADING is nil, completed and not completed tasks will be
+  in the same trunk, sorted according to `PLANNER-SORT-TASKS-KEY-FUNCTION'.
+  If it is a string, it is the name of a sub-heading of the tasks
+  section under which to sort completed tasks separately, in which
+  case it will be the last subsection of the tasks section of the page.
+  
+  Each element of TRUNK-SECTIONS-LIST describes a trunk of the page.
+  Elements can either be a simple TASK-PLAN-REGEXP, or a sublist of the form:
+  
+     (TASK-PLAN-REGEXP TRUNK-HEADING)
+  
+  The TASK-PLAN-REGEXP is matched against the plan page (or pages if you
+  are using planner-multi) for the task.  If more than one
+  TASK-PLAN-REGEXP matches, the first one in the list is used.  All
+  tasks that match the same TASK-PLAN-REGEXP will be grouped together.
+  The order of the groups will match the order of TRUNK-SECTIONS-LIST.
+  Tasks that do not match any entry in TRUNK-SECTIONS-LIST will be in a
+  separate group at the end of the tasks section.  If the sublist form
+  of an entry is used, TRUNK-HEADING is a name for the outline heading
+  to be inserted at the top of the trunk.  If TRUNK-SECTIONS-LIST
+  contains a mix of items in the regexp and sublist forms, when tasks
+  are present that match a regexp form entry, but no tasks are present
+  that match the most recent preceeding sublist form entry in the list,
+  the heading from the sublist form entry will be inserted anyway.  In
+  use, it will become obvious why this is desirable."
+  
+

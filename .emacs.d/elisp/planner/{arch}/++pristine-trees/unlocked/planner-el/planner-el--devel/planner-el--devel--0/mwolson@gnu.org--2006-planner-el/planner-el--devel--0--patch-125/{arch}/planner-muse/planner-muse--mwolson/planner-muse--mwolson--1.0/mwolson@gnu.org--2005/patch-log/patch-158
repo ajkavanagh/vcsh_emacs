@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-158
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan  5 17:23:39 EST 2006
+Standard-date: 2006-01-05 22:23:39 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-158
+Summary: planner-el.texi: Task numbers are not displayed by default.
+Keywords: 
+
+* planner-el.texi (Viewing Tasks): Note that by default, task numbers
+  will not be displayed.  Explain how to get them.  Thanks to Stefan van
+  der Walt for the report.

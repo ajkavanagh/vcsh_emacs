@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-400
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat May 28 20:41:43 PHT 2005
+Standard-date: 2005-05-28 12:41:43 GMT
+Modified-files: ChangeLog planner-lisp.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-65
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-66
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-67
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-68
+    sacha@free.net.ph--main/planner--dev--1.0--patch-400
+Summary: planner-lisp: Allow arbitrary Lisp expressions
+Keywords: 
+
+* planner-lisp.el (planner-lisp-browse-url): Allow arbitrary Lisp
+  expressions. Thanks to Jim Ottaway for the patch.

@@ -1,0 +1,22 @@
+Revision: muse--jeho--1.0--patch-9
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Oct 21 17:26:26 BST 2005
+Standard-date: 2005-10-21 16:26:26 GMT
+Modified-files: ChangeLog experimental/muse-xml.el
+    lisp/muse-docbook.el lisp/muse-html.el
+    lisp/muse-latex.el lisp/muse-publish.el
+    lisp/muse-texinfo.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-9
+    mwolson@gnu.org--2005/muse--main--1.0--patch-252
+    mwolson@gnu.org--2005/muse--main--1.0--patch-253
+Summary: Merged from mwolson@gnu.org--2005 (patch 252-253)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-252
+   Allow anchors to occur near (rather than at) the beginning of line.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-253
+   Anchor fixes; muse-latex: Use \label{} and \ref{} for anchors.

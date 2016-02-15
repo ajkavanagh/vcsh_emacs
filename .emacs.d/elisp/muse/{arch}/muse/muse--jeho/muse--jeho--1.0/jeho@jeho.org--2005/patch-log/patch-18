@@ -1,0 +1,33 @@
+Revision: muse--jeho--1.0--patch-18
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Nov 27 12:06:12 GMT 2005
+Standard-date: 2005-11-27 12:06:12 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-wiki.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-18
+    mwolson@gnu.org--2005/muse--main--1.0--patch-276
+    mwolson@gnu.org--2005/muse--main--1.0--patch-277
+    mwolson@gnu.org--2005/muse--main--1.0--patch-278
+    mwolson@gnu.org--2005/muse--main--1.0--patch-279
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-23
+Summary: Merged from mwolson@gnu.org--2005 (patch 23, 276-279)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-276
+   Deal with case when muse-make-link is passed an explicit link.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-277
+   Merged from mwolson@gnu.org--2005 (patch 23)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-278
+   Don't split anchors in URLs.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-279
+   Update AUTHORS.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-23
+   muse-wiki: WikiWords can have consecutive capital letters.

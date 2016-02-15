@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-166
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 20 11:13:37 EST 2005
+Standard-date: 2005-07-20 16:13:37 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-166
+Summary: Link with anchor bugfix.
+Keywords: 
+
+* lisp/muse-colors.el (muse-link-face): Highlight links with anchors as
+  valid, as long as the base is valid.

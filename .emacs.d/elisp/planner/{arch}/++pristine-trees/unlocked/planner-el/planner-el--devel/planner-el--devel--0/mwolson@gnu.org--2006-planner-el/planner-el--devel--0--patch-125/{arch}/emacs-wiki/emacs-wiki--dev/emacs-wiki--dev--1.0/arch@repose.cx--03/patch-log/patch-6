@@ -1,0 +1,19 @@
+Revision: emacs-wiki--dev--1.0--patch-6
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Mon Jun 23 01:19:26 EST 2003
+Standard-date: 2003-06-22 15:19:26 GMT
+Summary: (emacs-wiki-read-name): accept optional prompt argument
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-6
+Removed-patches: 
+
+This allows for better integration with planner.el.

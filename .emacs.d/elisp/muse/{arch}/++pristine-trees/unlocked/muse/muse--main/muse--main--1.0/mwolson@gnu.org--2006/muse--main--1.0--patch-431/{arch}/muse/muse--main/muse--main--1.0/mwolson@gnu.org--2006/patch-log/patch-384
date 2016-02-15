@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-384
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 10 22:59:12 EDT 2007
+Standard-date: 2007-07-11 02:59:12 GMT
+Modified-files: ChangeLog lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-384
+Summary: Work around a very bad color-theme.el bug
+Keywords: 
+
+	* lisp/muse.el (muse-replace-regexp-in-string): Explicitly check
+	for XEmacs, since color-theme.el is poorly behaved, and defines
+	its own replace-in-string.  Bad color-theme.el -- no cookie for
+	you.

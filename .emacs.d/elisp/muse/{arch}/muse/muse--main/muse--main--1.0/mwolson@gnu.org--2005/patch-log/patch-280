@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-280
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 30 18:00:34 EST 2005
+Standard-date: 2005-11-30 23:00:34 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-280
+Summary: muse-latex2png: XEmacs compatibility.
+Keywords: 
+
+* lisp/muse-latex2png.el (latex2png-move2pubdir): Remove use of
+  file-expand-wildcards, since it was a no-op.
+  (latex2png): Fall back to a temporary directory variable that works
+  with XEmacs.  Thanks to Neilen Marais for the report and suggested fix.

@@ -1,0 +1,41 @@
+Revision: muse--main--1.0--patch-419
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 29 00:46:34 EDT 2007
+Standard-date: 2007-07-29 04:46:34 GMT
+Modified-files: ChangeLog contrib/httpd.el
+    examples/mwolson/muse-init.el
+    experimental/muse-split.el lisp/muse-book.el
+    lisp/muse-http.el lisp/muse-poem.el lisp/muse-publish.el
+    lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-419
+Summary: Use insert-file-contents-literally instead of insert-file-contents
+Keywords: 
+
+* contrib/httpd.el (httpd-send-file): Use insert-file-contents-literally
+  instead of insert-file-contents.
+
+* examples/mwolson/muse-init.el (my-muse-prepare-entry-for-xanga): Use
+  insert-file-contents-literally instead of insert-file-contents.
+
+* experimental/muse-split.el (muse-publish-file)
+  (muse-publish-presplit-publish, muse-publish-no-split-function)
+  (muse-journal-split-by-entry, muse-journal-split-by-month): Use
+  insert-file-contents-literally instead of insert-file-contents.
+
+* lisp/muse-book.el (muse-book-publish-chapter)
+  (muse-book-get-directives): Use insert-file-contents-literally instead
+  of insert-file-contents.
+
+* lisp/muse-http.el (muse-http-render-page): Use
+  insert-file-contents-literally instead of insert-file-contents.
+
+* lisp/muse-poem.el (muse-poem-markup-tag): Use
+  insert-file-contents-literally instead of insert-file-contents.
+
+* lisp/muse-publish.el (muse-insert-file-or-string, muse-publish-file)
+  (muse-publish-include-tag, muse-published-contents): Use
+  insert-file-contents-literally instead of insert-file-contents.
+
+* lisp/muse.el (muse-with-temp-buffer): Mention
+  `insert-file-contents-literally'.

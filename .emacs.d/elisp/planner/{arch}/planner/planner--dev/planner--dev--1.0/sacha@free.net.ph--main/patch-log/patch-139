@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-139
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jul 15 14:39:01 PHT 2004
+Standard-date: 2004-07-15 06:39:01 GMT
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-139
+Summary: Add note about hierarchical tasks to planner.texi
+Keywords: docfix
+
+	* planner.texi (Hierarchical Tasks): New note.

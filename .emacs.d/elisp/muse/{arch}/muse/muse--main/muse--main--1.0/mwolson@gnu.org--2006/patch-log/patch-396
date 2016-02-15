@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-396
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 15 22:25:02 EDT 2007
+Standard-date: 2007-07-16 02:25:02 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-396
+Summary: Widen before executing code in lisp tags
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-lisp-tag): Use (point-min)
+  and (point-max) rather than beg and end.  Widen before executing code,
+  in order to not surprise those who make custom code.
+
+Add forgotten ChangeLog entries from the last commit.

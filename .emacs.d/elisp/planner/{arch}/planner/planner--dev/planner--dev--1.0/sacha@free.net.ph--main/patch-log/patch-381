@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-381
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 20 17:11:00 PHT 2005
+Standard-date: 2005-04-20 09:11:00 GMT
+Modified-files: ChangeLog planner-vm.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-381
+Summary: planner-vm: Turn on annotations in vm-presentation-mode as well
+Keywords: 
+
+* planner-vm.el (planner-vm-annotation-from-mail): Turn on annotations in
+  vm-presentation-mode as well. Thanks to Fran Burstall for the patch.

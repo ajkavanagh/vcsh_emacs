@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-126
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Dec 12 23:30:42 EST 2005
+Standard-date: 2005-12-13 04:30:42 GMT
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-126
+Summary: planner-publish: Fix void-function error when compiling.
+Keywords: 
+
+* planner-publish.el (planner-insert-markup): Wrap eval-and-compile
+  around this since it's a defsubst.  Thanks to Jim Ottaway for the
+  patch.

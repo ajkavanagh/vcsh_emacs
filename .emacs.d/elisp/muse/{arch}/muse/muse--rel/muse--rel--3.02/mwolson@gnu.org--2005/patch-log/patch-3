@@ -1,0 +1,14 @@
+Revision: muse--rel--3.02--patch-3
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 16 20:22:42 EST 2005
+Standard-date: 2005-11-17 01:22:42 GMT
+Modified-files: AUTHORS lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-3
+Summary: Apply LaTeX table underlining from patch-259.
+Keywords: 
+
+* AUTHORS: Update.
+
+* lisp/muse-latex.el (muse-latex-markup-table): Implement underlining of
+  table headers and overlining table footers, as suggested by Trent Buck.

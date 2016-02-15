@@ -1,0 +1,13 @@
+Revision: emacs-wiki--sacha--1.0--patch-141
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 24 16:52:46 PHT 2004
+Standard-date: 2004-03-24 08:52:46 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-141
+Summary: Bugfix: planner-renumber-tasks should not error for incomplete tasks
+Keywords: 
+
+	* planner.el (planner-renumber-tasks): Do not error for incomplete
+	tasks.
+

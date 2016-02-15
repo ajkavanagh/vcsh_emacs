@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-221
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Sep  4 12:07:07 EST 2005
+Standard-date: 2005-09-04 17:07:07 GMT
+Modified-files: ChangeLog lisp/muse-protocols.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-221
+Summary: Make info:// and man:// not publish a link, handle insert URL edge case.
+Keywords: 
+
+* lisp/muse-protocols.el (muse-url-protocols): info:// and man:// should
+  publish only the description, not the URL.
+
+* lisp/muse-publish.el (muse-publish-insert-url): Handle case where we
+  get nil from muse-publish-url by not inserting any text.

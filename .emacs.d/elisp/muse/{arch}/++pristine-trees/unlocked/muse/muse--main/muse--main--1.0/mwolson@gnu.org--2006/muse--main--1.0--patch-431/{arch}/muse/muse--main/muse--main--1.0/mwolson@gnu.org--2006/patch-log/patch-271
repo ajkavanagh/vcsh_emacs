@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-271
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan 14 18:02:19 EST 2007
+Standard-date: 2007-01-14 23:02:19 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-protocols.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-271
+Summary: muse-protocols: Add woman:// handler
+Keywords: 
+
+2007-01-15  Valery V. Vorotyntsev  <valery.vv@gmail.com>
+
+	* lisp/muse-protocols.el (muse-url-protocols): Add "woman://"
+	protocol.
+	(muse-browse-url-man): Change man page URL format.  The code is
+	simpler when the section is left inside parentheses.
+	(muse-browse-url-woman): New function.

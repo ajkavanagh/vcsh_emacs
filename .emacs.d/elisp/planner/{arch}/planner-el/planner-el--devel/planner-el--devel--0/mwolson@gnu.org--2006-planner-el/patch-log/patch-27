@@ -1,0 +1,21 @@
+Revision: planner-el--devel--0--patch-27
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  7 21:35:28 EDT 2006
+Standard-date: 2006-04-08 01:35:28 GMT
+New-files: .arch-ids/planner-registry.el.id
+    planner-registry.el
+Modified-files: AUTHORS
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-27
+    mwolson@gnu.org--2006/planner--main--1.0--patch-29
+    mwolson@gnu.org--2006/planner--main--1.0--patch-30
+Summary: Merged from mwolson@gnu.org--2006 (patch 29-30)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-29
+   Include planner-registry.el.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-30
+   planner-registry: Minor code cleanup.

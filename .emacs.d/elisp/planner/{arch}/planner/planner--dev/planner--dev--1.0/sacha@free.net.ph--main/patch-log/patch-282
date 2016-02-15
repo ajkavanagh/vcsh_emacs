@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-282
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jan  6 18:10:00 JST 2005
+Standard-date: 2005-01-06 09:10:00 GMT
+Modified-files: ChangeLog planner-bookmark.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-282
+Summary: planner-bookmark-add-note-title-flag: New user option
+Keywords: 
+
+	* planner-bookmark.el (planner-bookmark): Fix typo.
+	(planner-bookmark-add-note-title-flag): New user option.
+	(bookmark-set): Optionally add note title.

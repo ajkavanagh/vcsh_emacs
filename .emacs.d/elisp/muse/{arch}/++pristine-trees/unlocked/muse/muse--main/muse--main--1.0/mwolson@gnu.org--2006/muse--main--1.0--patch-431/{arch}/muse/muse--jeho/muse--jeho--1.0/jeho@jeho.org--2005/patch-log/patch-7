@@ -1,0 +1,13 @@
+Revision: muse--jeho--1.0--patch-7
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Oct 20 19:50:54 BST 2005
+Standard-date: 2005-10-20 18:50:54 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-7
+Summary: muse-mode.el fix intangible problem in muse-link-at-point
+Keywords: 
+
+* lisp/muse-mode.el (muse-link-at-point): let inhibit-point-motion-hooks
+  be t to make links like [[project::page][title]] work.
+

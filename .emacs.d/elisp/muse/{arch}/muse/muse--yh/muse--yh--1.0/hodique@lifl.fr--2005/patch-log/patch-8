@@ -1,0 +1,79 @@
+Revision: muse--yh--1.0--patch-8
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Jun 20 14:23:25 CEST 2005
+Standard-date: 2005-06-20 12:23:25 GMT
+New-files: .arch-ids/Makefile.defs.id Makefile.defs
+    lisp/.arch-ids/=id lisp/.arch-ids/Makefile.id
+    lisp/.arch-ids/muse-wiki.el.id lisp/Makefile
+    lisp/muse-wiki.el
+New-directories: lisp lisp/.arch-ids
+Removed-files: .arch-ids/muse-wiki.el.id muse-wiki.el
+Renamed-files: .arch-ids/muse-blosxom.el.id lisp/.arch-ids/muse-blosxom.el.id
+    .arch-ids/muse-book.el.id lisp/.arch-ids/muse-book.el.id
+    .arch-ids/muse-colors.el.id lisp/.arch-ids/muse-colors.el.id
+    .arch-ids/muse-convert.el.id lisp/.arch-ids/muse-convert.el.id
+    .arch-ids/muse-docbook.el.id lisp/.arch-ids/muse-docbook.el.id
+    .arch-ids/muse-html.el.id lisp/.arch-ids/muse-html.el.id
+    .arch-ids/muse-http.el.id lisp/.arch-ids/muse-http.el.id
+    .arch-ids/muse-journal.el.id lisp/.arch-ids/muse-journal.el.id
+    .arch-ids/muse-latex.el.id lisp/.arch-ids/muse-latex.el.id
+    .arch-ids/muse-mode.el.id lisp/.arch-ids/muse-mode.el.id
+    .arch-ids/muse-poem.el.id lisp/.arch-ids/muse-poem.el.id
+    .arch-ids/muse-project.el.id lisp/.arch-ids/muse-project.el.id
+    .arch-ids/muse-publish.el.id lisp/.arch-ids/muse-publish.el.id
+    .arch-ids/muse-regexps.el.id lisp/.arch-ids/muse-regexps.el.id
+    .arch-ids/muse-texinfo.el.id lisp/.arch-ids/muse-texinfo.el.id
+    .arch-ids/muse.el.id lisp/.arch-ids/muse.el.id
+    muse-blosxom.el lisp/muse-blosxom.el
+    muse-book.el lisp/muse-book.el
+    muse-colors.el lisp/muse-colors.el
+    muse-convert.el lisp/muse-convert.el
+    muse-docbook.el lisp/muse-docbook.el
+    muse-html.el lisp/muse-html.el
+    muse-http.el lisp/muse-http.el
+    muse-journal.el lisp/muse-journal.el
+    muse-latex.el lisp/muse-latex.el
+    muse-mode.el lisp/muse-mode.el
+    muse-poem.el lisp/muse-poem.el
+    muse-project.el lisp/muse-project.el
+    muse-publish.el lisp/muse-publish.el
+    muse-regexps.el lisp/muse-regexps.el
+    muse-texinfo.el lisp/muse-texinfo.el
+    muse.el lisp/muse.el
+Modified-files: AUTHORS ChangeLog ChangeLog.2004 Makefile
+    README examples/Makefile examples/QuickStart
+    examples/johnw/muse-johnw.el
+    experimental/muse-message.el experimental/muse-wiki.el
+    lisp/muse-blosxom.el lisp/muse-book.el
+    lisp/muse-colors.el lisp/muse-convert.el
+    lisp/muse-docbook.el lisp/muse-html.el lisp/muse-http.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-mode.el lisp/muse-poem.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse-texinfo.el lisp/muse.el
+    scripts/muse-build.el scripts/publish
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-8
+    mwolson@gnu.org--2005/muse--main--1.0--patch-63
+    mwolson@gnu.org--2005/muse--main--1.0--patch-64
+    mwolson@gnu.org--2005/muse--main--1.0--patch-65
+    mwolson@gnu.org--2005/muse--main--1.0--patch-66
+    mwolson@gnu.org--2005/muse--main--1.0--patch-67
+Summary: Merged from mwolson@gnu.org--2005 (patch 63-67), adapted muse-wiki features
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-63
+   Merged from hodique@lifl.fr--2005 (patch 2-6), without the WikiWord change.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-64
+   Massively untabify files.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-65
+   Move lisp files to `lisp' directory; hack on Makefiles, XEmacs compat.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-66
+   Cater even more to XEmacs and its annoying whims.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-67
+   Make Muse installable and correct an Emacs21 issue.

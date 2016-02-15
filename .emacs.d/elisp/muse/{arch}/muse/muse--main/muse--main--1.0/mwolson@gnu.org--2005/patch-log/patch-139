@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-139
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 20:07:35 EST 2005
+Standard-date: 2005-07-15 01:07:35 GMT
+Modified-files: ChangeLog lisp/muse-project.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-139
+Summary: Improve customize interface for `muse-project-alist' once more.
+Keywords: 
+
+* lisp/muse-project.el (muse-project-alist-get): Allow cdr of each
+  setting to be anything, since we now support settings that use lists.
+  (muse-project): Vastly improve this by naming each setting and showing
+  what exact type is required.  Handle case where a function is not
+  defined yet.  Use a set for styles, which looks nice.  This is about as
+  good as it can be ... unless we add some sort of inline documentation
+  later on.  A setting was added for Yann's :force-publish tag.
+
+* lisp/muse.el (muse-eval-lisp): Fix compile warning by not displaying
+  project name.

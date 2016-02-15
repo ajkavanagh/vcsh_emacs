@@ -1,0 +1,262 @@
+Revision: planner--yh--1.0--patch-42
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Aug 22 03:27:37 CEST 2005
+Standard-date: 2005-08-22 01:27:37 GMT
+New-files: .arch-ids/ChangeLog.sacha.id
+    .arch-ids/Makefile.defs.id .arch-ids/Makefile.id
+    .arch-ids/planner-ical.el.id
+    .arch-ids/planner-publish.el.id ChangeLog.sacha Makefile
+    Makefile.defs debian/.arch-ids/=id
+    debian/.arch-ids/README.Debian.id
+    debian/.arch-ids/changelog.id
+    debian/.arch-ids/control.id
+    debian/.arch-ids/copyright.id
+    debian/.arch-ids/emacsen-install.id
+    debian/.arch-ids/emacsen-remove.id
+    debian/.arch-ids/emacsen-startup.id
+    debian/.arch-ids/planner-el.docs.id
+    debian/.arch-ids/rules.id debian/README.Debian
+    debian/changelog debian/control debian/copyright
+    debian/emacsen-install debian/emacsen-remove
+    debian/emacsen-startup debian/planner-el.docs
+    debian/rules planner-ical.el planner-publish.el
+    scripts/.arch-ids/=id
+    scripts/.arch-ids/planner-build.el.id
+    scripts/planner-build.el
+New-directories: debian debian/.arch-ids scripts
+    scripts/.arch-ids
+Removed-files: .arch-ids/ChangeLog.sacha-muse.id
+    ChangeLog.sacha-muse
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-accomplishments.el planner-appt.el
+    planner-authz.el planner-bibtex.el planner-calendar.el
+    planner-cyclic.el planner-deadline.el planner-diary.el
+    planner-el.texi planner-experimental.el
+    planner-export-diary.el planner-id.el planner-ledger.el
+    planner-log-edit.el planner-multi.el
+    planner-notes-index.el planner-psvn.el planner-rank.el
+    planner-rdf.el planner-report.el planner-rss.el
+    planner-schedule.el planner-tasks-overview.el
+    planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-w3m.el planner-xtla.el
+    planner.el
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-5
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-42
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-34
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-35
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-36
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-37
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-38
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-39
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-40
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-41
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-42
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-43
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-44
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-45
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-46
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-47
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-48
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-49
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-50
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-51
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-52
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-53
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-54
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-55
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-56
+    sacha@free.net.ph--main/planner--dev--1.0--patch-452
+    sacha@free.net.ph--main/planner--dev--1.0--patch-453
+    sacha@free.net.ph--main/planner--dev--1.0--patch-454
+    sacha@free.net.ph--main/planner--dev--1.0--patch-455
+    sacha@free.net.ph--main/planner--dev--1.0--patch-456
+    sacha@free.net.ph--main/planner--dev--1.0--patch-457
+    sacha@free.net.ph--main/planner--dev--1.0--patch-458
+    sacha@free.net.ph--main/planner--dev--1.0--patch-459
+    sacha@free.net.ph--main/planner--dev--1.0--patch-460
+    sacha@free.net.ph--main/planner--dev--1.0--patch-461
+    sacha@free.net.ph--main/planner--dev--1.0--patch-462
+    sacha@free.net.ph--main/planner--dev--1.0--patch-463
+    sacha@free.net.ph--main/planner--dev--1.0--patch-464
+    sacha@free.net.ph--main/planner--dev--1.0--patch-465
+    sacha@free.net.ph--main/planner--dev--1.0--patch-466
+    sacha@free.net.ph--main/planner--dev--1.0--patch-467
+    sacha@free.net.ph--main/planner--dev--1.0--patch-468
+    sacha@free.net.ph--main/planner--dev--1.0--patch-469
+    sacha@free.net.ph--main/planner--dev--1.0--patch-470
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--base-0
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-1
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-2
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-3
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-4
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-5
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-6
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-7
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-8
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-9
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-10
+Summary: Merged from mwolson@gnu.org--2005 (patch 34-56), sacha@free.net.ph--main (patch 452-470), saint@corenova.com--public-2005 (patch 0-10)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-34
+   Merged from hodique@lifl.fr--2005 (patch 35-37), sacha@free.net.ph--main (patch 451)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-35
+   Highlight links in note headings.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-36
+   Merged from hodique@lifl.fr--2005 (patch 38-41)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-37
+   Merged from sacha@free.net.ph--main (patch 452-454)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-38
+   Merged from sacha@free.net.ph--main (patch 455-457)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-39
+   Merged from sacha@free.net.ph--main (patch 458)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-40
+   Merged from sacha@free.net.ph--main (patch 459-462)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-41
+   planner-multi: remember + note fix.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-42
+   Merged from sacha@free.net.ph--main (patch 463-464)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-43
+   Merged from sacha@free.net.ph--main (patch 465-466)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-44
+   Fix error in planner-annotation-from-wiki.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-45
+   Merged from sacha@free.net.ph--main (patch 467-468)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-46
+   Implement Makefile system and include Debian files.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-47
+   Prepare initial Debian package for planner-muse-el.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-48
+   Debian tweaks.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-49
+   Merged from saint@corenova.com--public-2005 (patch 0-6)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-50
+   Remove old code sections.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-51
+   Update the Debian package.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-52
+   Make generated Debian packages slightly easier to upload.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-53
+   Make use of BUILDOPTS.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-54
+   Merged from saint@corenova.com--public-2005 (patch 7-9)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-55
+   Merged from saint@corenova.com--public-2005 (patch 10)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-56
+   Merged from sacha@free.net.ph--main (patch 469-470)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-452
+   Add autoload cookies to a bunch of files, remove planner-appt-filename-to-date
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-453
+   planner-create-note: Default to current page when called interactively
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-454
+   Merge patch to make note heading face less greedy
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-455
+   Bugfix: planner-rss-add-note: Remove tags from title
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-456
+   New: planner-ical.el
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-457
+   Docfix: Fix iCal example quotes
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-458
+   Massive merge with  mwolson@gnu.org--2005/planner-muse--mwolson--1.0 (to patch 37)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-459
+   Bugfix: planner-calendar: Do not over-pad months that end with Sunday
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-460
+   Bugfix: planner-calendar-published-file-href: Stop refreshing the file list all the time
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-461
+   Bugfix: planner-visit-link: Add missing alias
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-462
+   Bugfix: Add missing planner-link-target. New option: planner-calendar-nop-buttons-flag
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-463
+   Bugfix: planner-current-note-info: Recognize multi properly again
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-464
+   Bugfixes: Byte-compile properly (missing planner-link-name, bug in planner-annotation-from-file)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-465
+   planner-notes-index: Fix to work with files in subdirectories
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-466
+   NOTE: planner-create-section-function, planner-create-at-top, planner-create-at-bottom: RENAMED FROM planner-seek-
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-467
+   Bugfix: planner-timeclock should always work within Planner context to properly deal with some tasks
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-468
+   Bugfix: planner-notes-index should be in Planner project
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-469
+   planner-deadline bugfix: Avoid infinite loops by calculating deadlines as we insert them
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-470
+   Bugfix: planner-save-buffers: Check if buffer is associated with a file
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--base-0
+   tag of mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-38
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-1
+   planner publishing tree
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-2
+   planner publish html styles and extensions improvements
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-3
+   Merged from planner-muse--mwolson--1.0
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-4
+   publish and buffer alignment display change for timeclock summary
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-5
+   html inner-header and inner-footer as well as better timeclock summary format table output
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-6
+   Merged from planner-muse--mwolson--1.0 (patch 43-45)
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-7
+   fix timeclock entry with planner-multi continue publishing :before hook
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-8
+   Merged from mwolson@gnu.org--2005 (patch 46-53)
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-9
+   fixup note publishing to include anchor, timestamp, links
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-10
+   publish task links now

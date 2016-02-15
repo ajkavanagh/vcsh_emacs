@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-97
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 12 23:12:25 PHT 2004
+Standard-date: 2004-03-12 15:12:25 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-97
+Summary: Improve annotation matching
+Keywords: 
+
+	* planner.el (planner-create-task): Improve annotation matching.
+

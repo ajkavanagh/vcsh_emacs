@@ -1,0 +1,24 @@
+Revision: planner--jeho--1.1--patch-29
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Dec 17 12:50:23 GMT 2005
+Standard-date: 2005-12-17 12:50:23 GMT
+Modified-files: planner-appt.el planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-29
+Summary: planner-appt: improved empty cells; rename commands
+Keywords: 
+
+* planner-appt.el (planner-appt-format-appt-section-line): Remove the
+  "''''" hack: it doesn't appear to be necessary any more.
+  (planner-appt-forthcoming-format): Change the repeated date cell format
+  to "     -    " [to save precious ink].
+  (planner-appt-forthcoming-display): Renamed from
+  planner-appt-display-forthcoming for consistency.
+  (planner-appt-forthcoming-update-section): Renamed from
+  planner-appt-update-forthcoming-appts-section for consistency.
+  (planner-appt-forthcoming-update-section-maybe): Renamed from
+  planner-appt-update-forthcoming-appts-section-maybe for consistency
+
+* planner-el.texi: Changed renamed function names for planner-appt-forthcoming-
+  commands.
+

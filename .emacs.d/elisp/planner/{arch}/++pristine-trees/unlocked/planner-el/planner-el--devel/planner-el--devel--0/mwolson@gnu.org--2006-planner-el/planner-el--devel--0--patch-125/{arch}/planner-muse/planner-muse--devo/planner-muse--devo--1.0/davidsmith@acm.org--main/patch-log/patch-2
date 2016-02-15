@@ -1,0 +1,16 @@
+Revision: planner-muse--devo--1.0--patch-2
+Archive: davidsmith@acm.org--main
+Creator: David D. Smith <davidsmith@acm.org>
+Date: ·î  9·î  5 01:46:40 JST 2005
+Standard-date: 2005-09-04 16:46:40 GMT
+Modified-files: ChangeLog.mwolson planner-calendar.el
+    planner-deadline.el planner-publish.el planner.el
+New-patches: davidsmith@acm.org--main/planner-muse--devo--1.0--patch-2
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-56
+    sacha@free.net.ph--main/planner--dev--1.0--patch-469
+    sacha@free.net.ph--main/planner--dev--1.0--patch-470
+Summary: sync
+Keywords: 
+
+Sync all changes up to this point. There's a bit of overlap here and it
+needs refactoring.

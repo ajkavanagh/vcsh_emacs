@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-116
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 24 12:34:49 PHT 2004
+Standard-date: 2004-06-24 04:34:49 GMT
+Modified-files: planner-authz.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-116
+Summary: Merge tweaked patch from ajk changing use of planner-name-regexp to planner-date-regexp in planner-authz.el
+Keywords: bugfix, docfix
+
+	* planner-authz.el: Merge tweaked patch from ajk changing use of
+	planner-name-regexp to planner-date-regexp.
+	(planner-authz-day-p): Use planner-date-regexp instead of
+	planner-name-regexp. Accept an optional parameter PAGE.
+	(planner-authz-default): Use planner-authz-day-p instead of
+	duplicating the test.
+	(planner-authz-users): Docfix: Use planner-date-regexp instead of
+	planner-name-regexp.

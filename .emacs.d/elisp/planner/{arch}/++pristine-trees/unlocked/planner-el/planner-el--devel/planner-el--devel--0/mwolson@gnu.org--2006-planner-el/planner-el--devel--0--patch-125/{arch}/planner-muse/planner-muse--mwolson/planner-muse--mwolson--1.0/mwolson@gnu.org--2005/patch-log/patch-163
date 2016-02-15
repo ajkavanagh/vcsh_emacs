@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-163
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan  5 20:45:10 EST 2006
+Standard-date: 2006-01-06 01:45:10 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-163
+Summary: planner-el.texi: Fix a few URL examples.
+Keywords: 
+
+* planner-el.texi (Emacs Relay Chat): Use "irc://" instead of "erc://" in
+  the examples.
+  (BibTeX): Remove the initial forward-slashes from the sample bibtex
+  URL.  Thanks to Stefan van der Walt for the report.

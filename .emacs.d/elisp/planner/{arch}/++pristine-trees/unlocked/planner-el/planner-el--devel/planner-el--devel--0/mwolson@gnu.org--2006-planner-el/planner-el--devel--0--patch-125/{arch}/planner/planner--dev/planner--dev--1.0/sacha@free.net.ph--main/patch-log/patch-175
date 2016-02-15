@@ -1,0 +1,10 @@
+Revision: planner--dev--1.0--patch-175
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Sep 30 12:47:20 JST 2004
+Standard-date: 2004-09-30 03:47:20 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-175
+Summary: Bugfix: Remove planner-diary-font-locking code
+Keywords: 
+

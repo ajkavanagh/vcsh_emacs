@@ -1,0 +1,20 @@
+Revision: emacs-wiki--dev--1.0--patch-19
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Thu Jul 17 16:19:51 EST 2003
+Standard-date: 2003-07-17 06:19:51 GMT
+Summary: markup tables using the class `ewiki-table', for easy formatting
+Keywords:
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-19
+Removed-patches: 
+
+markup tables using the class `ewiki-table', for easy formatting
+

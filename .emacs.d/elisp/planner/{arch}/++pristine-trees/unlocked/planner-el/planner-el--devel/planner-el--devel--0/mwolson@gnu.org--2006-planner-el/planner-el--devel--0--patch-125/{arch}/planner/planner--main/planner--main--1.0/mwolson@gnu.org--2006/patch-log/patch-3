@@ -1,0 +1,14 @@
+Revision: planner--main--1.0--patch-3
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan 23 12:22:16 EST 2006
+Standard-date: 2006-01-23 17:22:16 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-3
+Summary: Make planner-visit-link more robust.
+Keywords: 
+
+* planner.el (planner-visit-link): Make this more robust by merging in
+  some changes from Muse.  Thanks to Seth Falcon for the sample fix.
+  Among other things, this correctly adds the file extension when
+  visiting a new Muse file.

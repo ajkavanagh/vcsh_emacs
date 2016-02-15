@@ -1,0 +1,31 @@
+Revision: muse-el--devel--0--patch-77
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun  1 00:16:21 EDT 2006
+Standard-date: 2006-06-01 04:16:21 GMT
+New-files: .arch-ids/ChangeLog.2005.id ChangeLog.2005
+Removed-files: .arch-ids/ChangeLog.2005.id ChangeLog.2005
+Modified-files: .arch-ids/muse.texi.id ChangeLog
+    Makefile.defs debian/changelog lisp/muse-publish.el
+    lisp/muse-regexps.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-77
+    mwolson@gnu.org--2006/muse--main--1.0--patch-147
+    mwolson@gnu.org--2006/muse--main--1.0--patch-148
+    mwolson@gnu.org--2006/muse--main--1.0--patch-149
+    mwolson@gnu.org--2006/muse--main--1.0--patch-150
+Summary: Merged from mwolson@gnu.org--2006 (patch 147-150)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-147
+   Try to work around a bug in XEmacs beta.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-148
+   Update ChangeLogs.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-149
+   Second attempt at fixing XEmacs beta problem.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-150
+   Really update ChangeLog.2005.

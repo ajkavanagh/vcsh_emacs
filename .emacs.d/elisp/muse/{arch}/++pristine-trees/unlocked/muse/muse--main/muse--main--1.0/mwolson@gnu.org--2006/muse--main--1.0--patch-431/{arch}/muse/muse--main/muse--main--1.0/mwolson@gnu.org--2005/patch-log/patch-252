@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-252
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Oct 21 09:39:50 EST 2005
+Standard-date: 2005-10-21 14:39:50 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-252
+Summary: Allow anchors to occur near (rather than at) the beginning of line.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-regexps): Allow non-word
+  characters before anchor, like " - ".  Thanks to Phillip Lord for the
+  suggestion.

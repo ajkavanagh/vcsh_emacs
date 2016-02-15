@@ -1,0 +1,22 @@
+Revision: emacs-wiki--dev--1.0--patch-8
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Tue Jun 24 02:53:17 EST 2003
+Standard-date: 2003-06-23 16:53:17 GMT
+Summary: changelog typos corrected
+Keywords:
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+    ./{arch}/emacs-wiki/emacs-wiki--dev/emacs-wiki--dev--1.0/arch@repose.cx--03/patch-log/patch-2
+    ./{arch}/emacs-wiki/emacs-wiki--dev/emacs-wiki--dev--1.0/arch@repose.cx--03/patch-log/patch-7
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-8
+Removed-patches: 
+
+changelog typos corrected
+

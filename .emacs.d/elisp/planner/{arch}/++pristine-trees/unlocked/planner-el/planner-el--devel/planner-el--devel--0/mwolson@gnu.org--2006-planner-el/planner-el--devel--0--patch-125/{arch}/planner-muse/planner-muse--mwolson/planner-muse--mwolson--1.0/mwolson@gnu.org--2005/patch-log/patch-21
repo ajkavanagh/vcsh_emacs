@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-21
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  6 02:13:17 EST 2005
+Standard-date: 2005-07-06 07:13:17 GMT
+Modified-files: ChangeLog.mwolson planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-21
+Summary: Use `muse-publishing-current-file'.
+Keywords: 
+
+* planner.el (planner-current-file): Use `muse-publishing-current-file'
+  instead of `muse-current-file'.
+

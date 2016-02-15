@@ -1,0 +1,19 @@
+Revision: planner--merge--1.0--patch-1
+Archive: hodique@lifl.fr--test
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jul  9 18:17:27 CEST 2005
+Standard-date: 2005-07-09 16:17:27 GMT
+New-files: .arch-ids/planner-backend.el.id
+    .arch-ids/planner-emacs-wiki-backend.el.id
+    .arch-ids/planner-muse-backend.el.id planner-backend.el
+    planner-emacs-wiki-backend.el planner-muse-backend.el
+Modified-files: planner-accomplishments.el
+    planner-calendar.el planner-experimental.el
+    planner-id.el planner-multi.el planner-tasks-overview.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-xtla.el planner.el
+New-patches: hodique@lifl.fr--test/planner--merge--1.0--patch-1
+Summary: First version of backend support for planner
+Keywords:
+
+This version tries to split concerns about backend in separate packages. Ultimately, it should allow th user to switch between backends on the fly

@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-319
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 16:51:48 EDT 2007
+Standard-date: 2007-05-25 20:51:48 GMT
+Modified-files: ChangeLog
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-319
+Summary: muse-publish: Fix inline use of <lisp>
+Keywords: 
+
+2007-05-25  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-markup-attribute): Don't use
+	muse-publish-ensure-block here after all, because <lisp> et al may
+	occur inline as part of other things.
+
+[Note: accidentally committed in previous patch.]

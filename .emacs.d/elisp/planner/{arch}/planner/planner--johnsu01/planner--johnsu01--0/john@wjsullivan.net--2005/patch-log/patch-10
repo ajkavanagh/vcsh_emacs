@@ -1,0 +1,12 @@
+Revision: planner--johnsu01--0--patch-10
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Tue May 17 17:34:27 EDT 2005
+Standard-date: 2005-05-17 21:34:27 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-10
+Summary: Fixes to Appointments node
+Keywords: 
+
+Added missing @item's to @itemize list.
+

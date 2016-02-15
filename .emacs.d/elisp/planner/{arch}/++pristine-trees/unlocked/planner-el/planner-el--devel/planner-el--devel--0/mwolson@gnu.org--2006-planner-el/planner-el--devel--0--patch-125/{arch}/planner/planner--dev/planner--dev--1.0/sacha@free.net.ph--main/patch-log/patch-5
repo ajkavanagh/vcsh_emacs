@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-5
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 30 12:55:34 PHT 2004
+Standard-date: 2004-03-30 04:55:34 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-5
+Summary: Docfix: planner-create-task-from-buffer. NOTE: default behavior asks for plan page after creating a task
+Keywords: 
+
+	* planner.el (planner-create-task-from-buffer): Update
+	documentation to reflect new behavior. NOTE: By default,
+	planner-create-task-from-buffer now assumes that you
+	want to associate the task with a plan page. This keeps in
+	line with planner's original philosophy that most (if not all)
+	of your tasks should be part of a plan.
+

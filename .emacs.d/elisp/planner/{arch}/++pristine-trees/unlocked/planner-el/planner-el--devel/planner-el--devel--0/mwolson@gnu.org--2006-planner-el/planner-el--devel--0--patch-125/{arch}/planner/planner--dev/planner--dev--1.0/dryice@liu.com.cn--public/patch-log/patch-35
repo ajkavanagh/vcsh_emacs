@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-35
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Apr  6 16:16:26 CST 2005
+Standard-date: 2005-04-06 08:16:26 GMT
+Modified-files: planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-35
+Summary: speed up planner-rank
+Keywords: update
+
+* planner-rank.el (planner-rank-update-current-task): only run
+  planner-rank-change when needed, i.e, urgency changed.
+  (planner-rank-update-all): only search in the tasks section.
+

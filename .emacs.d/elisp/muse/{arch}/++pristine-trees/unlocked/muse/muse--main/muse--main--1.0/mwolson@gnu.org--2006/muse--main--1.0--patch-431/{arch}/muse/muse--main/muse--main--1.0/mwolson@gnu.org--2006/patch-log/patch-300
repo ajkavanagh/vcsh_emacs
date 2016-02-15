@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-300
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr 22 14:25:35 EDT 2007
+Standard-date: 2007-04-22 18:25:35 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-300
+Summary: Deal with trailing backslash in muse-project-alist-styles
+Keywords: 
+
+2007-04-22  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-project.el (muse-project-alist-styles): Deal with case
+	where entry-dir has a trailing backslash.

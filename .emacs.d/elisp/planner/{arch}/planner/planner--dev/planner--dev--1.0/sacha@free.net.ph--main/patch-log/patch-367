@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-367
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr  5 23:28:45 PHT 2005
+Standard-date: 2005-04-05 15:28:45 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-367
+Summary: Always add menu to planner-mode buffers
+Keywords: 
+
+* planner.el (planner-mode): Always add menu. Thanks to Surendra Singhi
+  for the suggestion.

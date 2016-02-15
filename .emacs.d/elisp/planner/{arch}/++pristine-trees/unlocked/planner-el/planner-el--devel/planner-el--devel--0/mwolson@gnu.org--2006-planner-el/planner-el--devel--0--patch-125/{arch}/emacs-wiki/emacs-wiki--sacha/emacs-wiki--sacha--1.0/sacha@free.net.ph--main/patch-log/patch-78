@@ -1,0 +1,30 @@
+Revision: emacs-wiki--sacha--1.0--patch-78
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 10 11:06:46 PHT 2004
+Standard-date: 2004-03-10 03:06:46 GMT
+Modified-files: emacs-wiki.el planner-experimental.el
+    planner.el test/emacs-wiki-test.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-78
+Summary: Remove 'cl dependency of emacs-wiki.el. Add planner-search-notes-next/previous-match.
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-visit-link): Hardcode
+	emacs-wiki-after-save-hook in so that we can avoid using gensym.
+	(emacs-wiki-refresh-buffers): New function updates all project
+	buffers.
+	(add-once-hook): Deleted.
+
+	* planner.el (planner-search-notes-internal): Sort entries
+	correctly even if reverse-chronologically arranged.
+	(planner-search-notes-buffer): New. Save buffer so that we can go
+	to the previous and next matches.
+	(planner-search-notes): Save buffer in planner-search-notes-buffer
+	so that we can go to the next and previous matches.
+
+	* planner-experimental.el (planner-search-notes-next-match): New.
+	(planner-search-notes-previous-match): New.
+
+	* emacs-wiki.el (add-once-hook): Use make-symbol instead of
+	gensym.
+

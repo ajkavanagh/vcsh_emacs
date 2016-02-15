@@ -1,0 +1,13 @@
+Revision: planner--main--1.0--patch-23
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Mar 23 09:14:17 EST 2006
+Standard-date: 2006-03-23 14:14:17 GMT
+Modified-files: planner-psvn.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-23
+Summary: planner-psvn.el: Install update from author.
+Keywords: 
+
+* planner-psvn.el: Apply modified patch from Stefan Reichör that improves
+  compatibility with newer versions of psvn.el and pops to the diff
+  buffer.

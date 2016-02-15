@@ -1,0 +1,12 @@
+Revision: muse--lidaobing--1.0--patch-2
+Archive: lidaobing@gmail.com--2004
+Creator: Li Daobing <lidaobing@gmail.com>
+Date: Sat Oct  9 15:36:22 CST 2004
+Standard-date: 2004-10-09 07:36:22 GMT
+Modified-files: muse-html.el
+New-patches: lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-2
+Summary: add support of chinese-gbk
+Keywords: 
+
+* muse-html.el (muse-html-encoding-map): add support of chinese-gbk
+

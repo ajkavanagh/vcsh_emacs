@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-77
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 24 16:15:35 EST 2005
+Standard-date: 2005-06-24 21:15:35 GMT
+Modified-files: ChangeLog lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-77
+Summary: Make muse-replace-regexp-in-string closer to its parent; no func change.
+Keywords: 
+
+* lisp/muse.el (muse-replace-regexp-in-string): Add 2 more optional args
+  to implement all functionality of `replace-regexp-in-string'.  No
+  functionality change.
+

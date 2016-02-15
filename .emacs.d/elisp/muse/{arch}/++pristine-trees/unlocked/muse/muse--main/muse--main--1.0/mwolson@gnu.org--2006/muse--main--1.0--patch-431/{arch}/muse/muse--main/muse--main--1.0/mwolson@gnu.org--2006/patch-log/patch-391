@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-391
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 15 17:40:46 EDT 2007
+Standard-date: 2007-07-15 21:40:46 GMT
+Modified-files: ChangeLog lisp/muse-journal.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-391
+Summary: muse-journal: Escape title properly for journal-rss and journal-rdf
+Keywords: 
+
+* lisp/muse-journal.el (muse-journal-rss-munge-buffer): Make sure that
+  title is escaped properly.

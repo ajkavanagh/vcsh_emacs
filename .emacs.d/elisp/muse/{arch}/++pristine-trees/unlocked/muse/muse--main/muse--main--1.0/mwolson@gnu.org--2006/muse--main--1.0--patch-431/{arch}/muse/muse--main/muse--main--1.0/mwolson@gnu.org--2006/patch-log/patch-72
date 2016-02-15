@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-72
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Mar 25 00:57:36 EST 2006
+Standard-date: 2006-03-25 05:57:36 GMT
+Modified-files: ChangeLog.2006 contrib/httpd.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-72
+Summary: httpd.el: Update to work with newer versions of Emacs.
+Keywords: 
+
+* contrib/httpd.el (httpd-start): Update this to work with newer versions
+  of Emacs.

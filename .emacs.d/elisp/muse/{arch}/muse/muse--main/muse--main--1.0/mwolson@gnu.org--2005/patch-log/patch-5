@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-5
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Mon Jan  3 01:00:43 EST 2005
+Standard-date: 2005-01-03 06:00:43 GMT
+Modified-files: ChangeLog muse-colors.el muse-regexps.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-5
+Summary: Fix problem with headings being given wrong face
+Keywords: 
+
+2005-01-03  Michael Olson  <mwolson@gnu.org>
+
+	* muse-colors.el: Add header.
+	(muse-colors-emphasized): Headings were being given the coloring
+	for the next level of heading instead of the real
+	level (i.e. `muse-header-2' instead of `muse-header-1' for "*
+	Heading").  Thanks to Lan Yufeng for finding this and sending a
+	patch.
+
+	* muse-regexps.el: Fix header.

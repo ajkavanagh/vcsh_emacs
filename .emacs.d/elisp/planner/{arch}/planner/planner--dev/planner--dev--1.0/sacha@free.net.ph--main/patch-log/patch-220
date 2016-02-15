@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-220
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec  3 12:59:23 JST 2004
+Standard-date: 2004-12-03 03:59:23 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-220
+Summary: planner-lower-task: Last-task bugfix
+Keywords: 
+
+	* planner.el (planner-raise-task): Split planner-lower-task so
+	that the code is clearer.
+	(planner-lower-task): Redo functionality. Fix last-task bug
+	reported by Jonathan Hankins.
+
+	* planner.texi (Changing Tasks): Document changes to
+	planner-raise-task and planner-lower-task.

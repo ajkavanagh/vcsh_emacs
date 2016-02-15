@@ -1,0 +1,13 @@
+Revision: planner-el--devel--0--patch-121
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat May 26 18:16:19 EDT 2007
+Standard-date: 2007-05-26 22:16:19 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-121
+Summary: manual: Update archzoom URL
+Keywords: 
+
+2007-05-26  Michael Olson  <mwolson@gnu.org>
+
+	* planner-el.texi (Installing from Arch): Update Archzoom URL.

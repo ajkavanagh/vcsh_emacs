@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-66
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May  8 20:58:43 EDT 2006
+Standard-date: 2006-05-09 00:58:43 GMT
+Modified-files: ChangeLog.2006 lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-66
+    mwolson@gnu.org--2006/muse--main--1.0--patch-124
+Summary: Merged from mwolson@gnu.org--2006 (patch 124)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-124
+   Fix a couple of beginning-of-buffer errors.

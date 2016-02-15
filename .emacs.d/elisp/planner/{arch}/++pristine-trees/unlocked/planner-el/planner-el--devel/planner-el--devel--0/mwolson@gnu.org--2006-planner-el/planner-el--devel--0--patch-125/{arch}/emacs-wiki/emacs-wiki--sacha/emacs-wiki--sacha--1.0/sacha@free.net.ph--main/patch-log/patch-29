@@ -1,0 +1,13 @@
+Revision: emacs-wiki--sacha--1.0--patch-29
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Feb 13 11:42:46 PHT 2004
+Standard-date: 2004-02-13 03:42:46 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-29
+Summary: Documentation fix for local planner task references
+Keywords: 
+
+	* planner.el: Removed incorrect documentation note about local
+	planner task references.
+	(planner-name-regexp): Shorter regular expression.

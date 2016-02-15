@@ -1,0 +1,25 @@
+Revision: muse-el--devel--0--patch-147
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 25 22:32:01 EDT 2007
+Standard-date: 2007-06-26 02:32:01 GMT
+Modified-files: ChangeLog NEWS lisp/muse-html.el
+    lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-147
+    mwolson@gnu.org--2006/muse--main--1.0--patch-376
+    mwolson@gnu.org--2006/muse--main--1.0--patch-377
+    mwolson@gnu.org--2006/muse--main--1.0--patch-378
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 376-378)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-376
+   NEWS: Remove "not yet released" text
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-377
+   muse-html: Add xhtml1.1 style
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-378
+   Merged from mwolson@gnu.org--2006-muse-el/muse-el--devel--0 (patch 139-146)
+   Removed merge conflict.

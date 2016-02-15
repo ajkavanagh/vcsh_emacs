@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-191
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 12 15:23:17 EDT 2006
+Standard-date: 2006-08-12 19:23:17 GMT
+Modified-files: ChangeLog Makefile Makefile.defs
+    lisp/Makefile
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-191
+Summary: Make sure the autoloads file is distributed with releases.
+Keywords: 
+
+* Makefile: (realclean fullclean): Call realclean in subdirs, not
+  distclean.
+  (distclean): Don't call realclean, since this would wipe out our
+  autoloads file.
+  (dist): Use correct path to autoloads file.
+
+* lisp/Makefile (distclean): Do the same thing as "clean", not
+  "realclean".

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-373
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Apr  8 16:16:23 PHT 2005
+Standard-date: 2005-04-08 08:16:23 GMT
+Modified-files: ChangeLog planner-el.texi planner-psvn.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-373
+Summary: planner-psvn bugfix: stray paren
+Keywords: 
+
+* planner-el.texi (Acknowledgements): Thanks to Stefan for planner-xtla.
+* planner-psvn.el (planner-psvn-log-edit-add-note): Fix stray paren.
+  (Where did that come from?) Thanks to Stefan for spotting this.

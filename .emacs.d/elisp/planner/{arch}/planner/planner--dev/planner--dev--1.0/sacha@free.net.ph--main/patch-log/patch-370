@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-370
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr  7 17:27:19 PHT 2005
+Standard-date: 2005-04-07 09:27:19 GMT
+Modified-files: ChangeLog planner-appt.el
+    planner-timeclock-summary.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-370
+Summary: New: planner-timewarp. Bugfix: Group .*? regexp to deal with possible XEmacs bug.
+Keywords: 
+
+* planner.el (planner-timewarp): New. Thanks to Raymond Zeitler for the idea.
+  (planner-timewarp-date): New.
+  (planner-today): Pay attention to timewarp.
+  (planner-expand-name): Pay attention to timewarp.
+
+* planner-appt.el (planner-appt-de-wiki): Group .*? regexp to deal with
+  possible XEmacs bug.
+* planner-timeclock-summary.el (planner-timeclock-summary-extract-task-data): 
+  Group .*? regexp.

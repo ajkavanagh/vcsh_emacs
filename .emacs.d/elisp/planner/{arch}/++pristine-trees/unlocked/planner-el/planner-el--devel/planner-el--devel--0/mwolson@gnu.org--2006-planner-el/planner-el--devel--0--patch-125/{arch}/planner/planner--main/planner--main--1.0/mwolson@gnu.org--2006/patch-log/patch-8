@@ -1,0 +1,12 @@
+Revision: planner--main--1.0--patch-8
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Feb 10 17:53:52 EST 2006
+Standard-date: 2006-02-10 22:53:52 GMT
+Modified-files: planner-gnus.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-8
+Summary: Fix Bug #5234: planner-gnus pseudo-article error.
+Keywords: 
+
+* planner-gnus.el (planner-gnus-browse-url): Apply patch from Sacha that
+  should fix Bug #5234: planner-gnus pseudo-article error.

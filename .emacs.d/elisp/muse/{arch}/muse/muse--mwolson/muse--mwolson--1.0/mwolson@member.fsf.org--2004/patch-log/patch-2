@@ -1,0 +1,21 @@
+Revision: muse--mwolson--1.0--patch-2
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Fri Oct 15 03:49:55 EST 2004
+Standard-date: 2004-10-15 08:49:55 GMT
+New-files: .arch-ids/muse-latexcjk.el.id muse-latexcjk.el
+New-patches: lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--patch-2
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-2
+Summary: Add muse-latexcjk.el
+Keywords: 
+
+2004-10-14  Li Daobing  <lidaobing@gmail.com>
+
+    * muse-latexcjk.el: New file that provides LaTeX publishing with
+    CJK support.
+
+Patches applied:
+
+ * lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--patch-2
+   add muse-latexcjk.el
+

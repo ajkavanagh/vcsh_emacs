@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-250
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Nov 26 10:12:54 EST 2006
+Standard-date: 2006-11-26 15:12:54 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-250
+Summary: Publish private files by default to avoid confusion
+Keywords: 
+
+2006-11-26  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-project.el (muse-project-ignore-regexp): Minor docfix.
+	(muse-project-publish-private-files): New option that indicates
+	whether files with private filesystem permissions should be
+	published.  The default is to publish them, since it avoids
+	confusion in new users.
+	(muse-project-private-p): Use it.

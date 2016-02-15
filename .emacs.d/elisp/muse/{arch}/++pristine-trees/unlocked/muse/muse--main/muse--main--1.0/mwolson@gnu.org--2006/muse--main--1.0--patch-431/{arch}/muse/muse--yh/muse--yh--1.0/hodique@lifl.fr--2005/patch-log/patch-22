@@ -1,0 +1,11 @@
+Revision: muse--yh--1.0--patch-22
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Tue Jul  5 22:31:44 CEST 2005
+Standard-date: 2005-07-05 20:31:44 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-22
+Summary: Fix interpretation order
+Keywords:
+
+reordered declarations

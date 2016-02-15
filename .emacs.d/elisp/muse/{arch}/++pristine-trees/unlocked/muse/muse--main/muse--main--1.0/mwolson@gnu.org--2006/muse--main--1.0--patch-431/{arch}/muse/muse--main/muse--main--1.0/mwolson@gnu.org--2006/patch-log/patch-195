@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-195
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Aug 24 22:11:53 EDT 2006
+Standard-date: 2006-08-25 02:11:53 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-195
+Summary: muse-blosxom: Fix XEmacs format-time-string bug.
+Keywords: 
+
+2006-08-24  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-blosxom.el (muse-blosxom-new-entry): Remove the
+	numbers from the argument to format-time-string.  This fixes an
+	XEmacs bug.  Thanks to Michael Welle for the report and analysis.

@@ -1,0 +1,28 @@
+Revision: emacs-wiki--sacha--1.0--patch-66
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Mar  7 22:21:29 PHT 2004
+Standard-date: 2004-03-07 14:21:29 GMT
+Modified-files: emacs-wiki.el planner-experimental.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-66
+Summary: Michal Maruska's idea: include #title in the wiki index.
+Keywords: 
+
+	* emacs-wiki.el: Merged in ideas from Michal Maruska's patch for
+	including #title in the wiki index. See
+        emacs-wiki-index-title-threshold for more details.
+	(emacs-wiki-index-title-threshold): New variable.
+	(emacs-wiki-get-title-fast): New defun.
+	(emacs-wiki-file-alist-with-titles): New defun.
+	(emacs-wiki-index-files-list): New convenience function.
+	(emacs-wiki-index-file-title): New convenience function.
+	(emacs-wiki-index-file-page): New convenience function.
+	(emacs-wiki-generate-index): Observe
+	emacs-wiki-index-title-threshold.
+	(emacs-wiki-index): More verbose, now that it takes time to
+	process.
+	(emacs-wiki-publish-index): More verbose, now that it takes time
+	to process.
+
+	* planner-experimental.el (planner-generate-index): Observe
+	emacs-wiki-index-title-threshold.

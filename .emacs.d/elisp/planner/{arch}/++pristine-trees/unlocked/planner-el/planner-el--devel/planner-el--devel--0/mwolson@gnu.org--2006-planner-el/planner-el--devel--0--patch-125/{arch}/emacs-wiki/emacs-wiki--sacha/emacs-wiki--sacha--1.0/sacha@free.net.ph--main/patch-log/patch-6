@@ -1,0 +1,11 @@
+Revision: emacs-wiki--sacha--1.0--patch-6
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jan 21 09:07:19 PHT 2004
+Standard-date: 2004-01-21 01:07:19 GMT
+Modified-files: dblentry.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-6
+Summary: Reorganization 
+
+Organized functions into two sections. No code changes.
+

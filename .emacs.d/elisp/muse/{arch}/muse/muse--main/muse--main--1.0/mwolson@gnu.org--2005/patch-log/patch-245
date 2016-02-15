@@ -1,0 +1,24 @@
+Revision: muse--main--1.0--patch-245
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep 26 17:31:57 EST 2005
+Standard-date: 2005-09-26 22:31:57 GMT
+New-files: debian/.arch-ids/NEWS.id debian/NEWS
+Modified-files: ChangeLog Makefile.defs NEWS debian/changelog
+    debian/rules examples/mwolson/muse-init.el
+    examples/mwolson/templates/footer.html lisp/muse.el
+    muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-245
+Summary: Release Emacs Muse 3.02.01.
+Keywords: 
+
+* NEWS: Update entries for Muse 3.02.01.
+
+* debian/rules: Install NEWS.Debian.
+
+* debian/NEWS: New file that contains Debian-related news items.
+
+* examples/mwolson/muse-init.el: Update with my latest changes.
+
+* examples/mwolson/templates/footer.html: Use
+  `muse-publishing-directive'.

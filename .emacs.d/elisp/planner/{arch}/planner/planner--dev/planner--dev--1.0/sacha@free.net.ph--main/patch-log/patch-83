@@ -1,0 +1,29 @@
+Revision: planner--dev--1.0--patch-83
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri May 14 14:17:51 PHT 2004
+Standard-date: 2004-05-14 06:17:51 GMT
+Modified-files: planner-rss.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-83
+Summary: planner-rss.el: NOTE: accept functions for conditions and phase out planner-rss-filename, planner-rss-initial-contents
+Keywords: 
+
+	* planner-rss.el (planner-rss-initial-contents): NOTE: Move
+	default value into planner-rss-category-feeds. Demote from
+	customizable user option to global variable.
+	(planner-rss-file-name): NOTE: Move into
+	planner-rss-category-feeds. Demote from customizable user option
+	to global variable.
+	(planner-rss-category-feeds): Add default entry for all blog
+	items. Allow choice between regular expression and function.
+	(planner-rss-initialize): Remove. Move code into
+	planner-rss-add-item.
+	(planner-rss-add-item): Initialize file if necessary.
+	(planner-rss-add-note): New argument FEED allows you to specify
+	feed. New code for allowing the first element of
+	planner-rss-category-feeds elements to be a function. Ensure that
+	blog entries are not duplicated.
+
+	* planner.texi (Using planner-rss.el): Add usage note for
+	planner-rss-category-feeds.
+

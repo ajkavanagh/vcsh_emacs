@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-372
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr  7 23:27:26 PHT 2005
+Standard-date: 2005-04-07 15:27:26 GMT
+Modified-files: ChangeLog planner-vm.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-372
+Summary: Bugfix: planner-vm-browse-url
+Keywords: 
+
+* planner-vm.el (planner-vm-browse-url): Merge message-id bugfix from
+  Greg Novak.
+
+

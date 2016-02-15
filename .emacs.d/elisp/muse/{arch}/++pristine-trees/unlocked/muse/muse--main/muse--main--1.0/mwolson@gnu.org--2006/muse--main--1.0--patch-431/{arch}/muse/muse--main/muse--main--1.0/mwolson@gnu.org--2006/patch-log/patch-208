@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-208
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Sep 15 00:06:30 EDT 2006
+Standard-date: 2006-09-15 04:06:30 GMT
+Modified-files: ChangeLog lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-208
+Summary: muse-texinfo: Silence compiler warning
+Keywords: 
+
+* Add ChangeLog entries for last patch.
+
+2006-09-14  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-texinfo.el (muse-texinfo-protect-wikiwords): Silence
+	compiler warning.

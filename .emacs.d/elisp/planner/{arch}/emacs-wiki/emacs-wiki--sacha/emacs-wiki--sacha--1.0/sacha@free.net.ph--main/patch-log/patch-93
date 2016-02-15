@@ -1,0 +1,14 @@
+Revision: emacs-wiki--sacha--1.0--patch-93
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 12 14:03:15 PHT 2004
+Standard-date: 2004-03-12 06:03:15 GMT
+Modified-files: remember.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-93
+Summary: Return remember.el to old behavior re remember-region, remember-buffer
+Keywords: 
+
+	* remember.el (remember-region): Return to old behavior. Whoops!
+	(remember-buffer): Return to old behavior. Whoops!
+
+

@@ -1,0 +1,17 @@
+Revision: planner-muse--devo--1.0--patch-1
+Archive: davidsmith@acm.org--main
+Creator: David D. Smith <davidsmith@acm.org>
+Date: ·î  9·î  5 00:59:47 JST 2005
+Standard-date: 2005-09-04 15:59:47 GMT
+Modified-files: planner-rss.el
+New-patches: davidsmith@acm.org--main/planner-muse--devo--1.0--patch-1
+Summary: integration with muse mode
+Keywords: 
+
+This is a first-draft implementation of RSS support for planner-muse,
+completely not backwards-compatible.
+
+Naturally there is a lot of room for a better implementation but the code
+is much smaller and simpler than the previous planner-rss.el.
+
+Hopefully this can get other people hacking.

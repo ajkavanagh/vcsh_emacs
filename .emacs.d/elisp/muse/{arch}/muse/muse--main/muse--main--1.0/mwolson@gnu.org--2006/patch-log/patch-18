@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-18
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Feb 21 18:19:36 EST 2006
+Standard-date: 2006-02-21 23:19:36 GMT
+Modified-files: ChangeLog.2006 lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-18
+Summary: muse-texinfo: Fix link suffix.
+Keywords: 
+
+* lisp/muse-texinfo.el: Specify :link-suffix for info and info-pdf
+  styles.  This should fix a bug where links in published info files use
+  an incorrect extension.  Thanks to Hans Ekbrand for the report!

@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-112
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Oct 30 08:48:28 EST 2006
+Standard-date: 2006-10-30 13:48:28 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-112
+    mwolson@gnu.org--2006/muse--main--1.0--patch-237
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 237)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-237
+   Really fix <example> highlighting bug this time

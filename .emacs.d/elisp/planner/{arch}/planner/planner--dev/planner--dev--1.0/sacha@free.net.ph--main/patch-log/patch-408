@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-408
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun  9 17:31:44 PHT 2005
+Standard-date: 2005-06-09 09:31:44 GMT
+Modified-files: ChangeLog planner-el.texi
+    planner-tasks-overview.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-408
+Summary: planner-tasks-overview-get-summary: Work with files in subdirectories
+Keywords: 
+
+* planner-tasks-overview.el (planner-tasks-overview-get-summary): Prefix
+  command prompts for pages to display. Work with files in
+  subdirectories. Unfortunately, this results in the function being much
+  slower...
+
+* planner-el.texi (Task Overviews): Document planner-tasks-overview-get-summary.
+

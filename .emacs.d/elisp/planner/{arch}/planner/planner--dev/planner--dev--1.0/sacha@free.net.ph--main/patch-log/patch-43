@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-43
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr 20 21:00:59 PHT 2004
+Standard-date: 2004-04-20 13:00:59 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-43
+Summary: Obey command passed to planner-find-file
+Keywords: 
+
+	* planner.el (planner-find-file): Actually obey command.
+        Thanks to Charles Philip Chan for pointing this out.

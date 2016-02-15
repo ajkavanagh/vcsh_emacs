@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-148
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul  1 10:17:14 EDT 2007
+Standard-date: 2007-07-01 14:17:14 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-148
+    mwolson@gnu.org--2006/muse--main--1.0--patch-379
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 379)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-379
+   Fix three-part-link with description bug

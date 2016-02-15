@@ -1,0 +1,14 @@
+Revision: muse--rel--3.02--patch-36
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Dec 17 12:14:51 EST 2005
+Standard-date: 2005-12-17 17:14:51 GMT
+Modified-files: ChangeLog Makefile.defs NEWS debian/changelog
+    lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-36
+Summary: Release Emacs Muse 3.02.5.
+Keywords: 
+
+* NEWS: Add items for 3.02.5 release.
+
+* muse.el: Release Muse 3.02.5.

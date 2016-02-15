@@ -1,0 +1,27 @@
+Revision: planner--jeho--1.0--patch-66
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun May  8 11:53:46 BST 2005
+Standard-date: 2005-05-08 10:53:46 GMT
+Modified-files: ChangeLog planner-el.texi planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-66
+    sacha@free.net.ph--main/planner--dev--1.0--patch-392
+    sacha@free.net.ph--main/planner--dev--1.0--patch-393
+    sacha@free.net.ph--main/planner--dev--1.0--patch-394
+    sacha@free.net.ph--main/planner--dev--1.0--patch-395
+Summary: merge latest patches
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-392
+   planner-list-tasks-with-status: Fix insert-file-contents(nil) backtrace
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-393
+   planner-list-tasks-with-status: Put an insane amount of meaning into a PAGES argument
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-394
+   planner-list-unfinished-tasks: Add PAGES argument
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-395
+   planner-list-tasks-with-status bugfix: Deal with undated tasks; do not touch planner-task-format

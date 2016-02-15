@@ -1,0 +1,40 @@
+Revision: planner--jeho--1.0--patch-51
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Mar 16 17:29:36 GMT 2005
+Standard-date: 2005-03-16 17:29:36 GMT
+Modified-files: jeho-diary.el planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-51
+Removed-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+Summary: jeho-diary: lots of changes
+Keywords: 
+
+* jeho-diary.el: fixed some incorrect defcustom groups
+(jeho-diary-calendar-show): new variable
+(jeho-diary-day-page-face, jeho-diary-diary-face, jeho-diary-block-face) 
+(jeho-diary-anniversary-face): new facesxb
+(jeho-diary-entry-handler-alist): new variable: handlers for diary sexps
+(jeho-diary-entry-calendar-face-alist): new variable: faces for
+particular diary sexps
+(jeho-diary-carry-tasks-forward): new convenience function 
+(jeho-diary-add-to-date-planner): new convenience function 
+(jeho-diary-cyclic-entry-sexp): added this to the cyclic entry data
+structure 
+(jeho-diary-native-date, jeho-diary-native-text, jeho-diary-native-sexp):
+functions to access diary data structure
+(jeho-diary-format-anniversary, jeho-diary-format-block): handlers for
+diary sexps
+(jeho-diary-make-entry-element): added handling
+(jeho-diary-get-cyclic): now gets information for carried forward task
+handling 
+(jeho-diary-get-date-range): reverses the list now, so that it is in date
+order 
+(jeho-diary-restore-carried-forward-diary-entries): deal with carried
+forward entries
+(plan): advise plan to deal with carriedforward entries
+(jeho-diary-schedule-sort): fixed sorting the schedule
+(jeho-diary-do-plan-marking, jeho-diary-do-diary-marking): deal with
+these differently rather than the old off-the-peg function
+(jeho-diary-goto, jeho-diary-calendar-insinuate): standalone calendar
+functionality [no longer piggy-backs on planner.el]
+

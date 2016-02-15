@@ -1,0 +1,18 @@
+Revision: muse--rel--3.02--patch-7
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Nov 17 00:19:42 EST 2005
+Standard-date: 2005-11-17 05:19:42 GMT
+Modified-files: AUTHORS lisp/muse-html.el lisp/muse-mode.el
+    muse.texi
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-7
+Summary: Miscellaneous safe updates from muse--main--1.0.
+Keywords: 
+
+* AUTHORS: Housekeeping.
+
+* lisp/muse-html.el (muse-html): Minor wording change.
+
+* lisp/muse-mode.el (muse-mode): Fix compile-time warning.
+
+* muse.texi (Directives): Manual fix.

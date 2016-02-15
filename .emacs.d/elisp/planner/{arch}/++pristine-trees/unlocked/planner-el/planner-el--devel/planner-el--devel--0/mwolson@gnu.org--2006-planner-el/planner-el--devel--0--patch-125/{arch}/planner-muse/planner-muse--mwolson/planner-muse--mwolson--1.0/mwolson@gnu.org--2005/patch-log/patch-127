@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-127
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec 13 09:52:06 EST 2005
+Standard-date: 2005-12-13 14:52:06 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-127
+Summary: planner-publish: Make planner-insert-markup a function.
+Keywords: 
+
+* planner-publish.el (planner-insert-markup): Make this into a function
+  rather than trying to alias it.
+  (planner-publish-title-tag): Fix compiler warning.

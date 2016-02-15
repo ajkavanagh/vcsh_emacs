@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-40
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Apr 17 23:36:17 PHT 2004
+Standard-date: 2004-04-17 15:36:17 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-40
+Summary: Rewrite planner-tasks-equal-p for clarity
+Keywords: 
+
+	* planner.el (planner-tasks-equal-p): Rewrite for clarity by
+	using descriptive names. Thanks to Frederik for feedback.
+

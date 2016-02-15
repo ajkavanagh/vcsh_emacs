@@ -1,0 +1,25 @@
+Revision: muse--main--1.0--patch-383
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 10 22:54:26 EDT 2007
+Standard-date: 2007-07-11 02:54:26 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-383
+Summary: Try to fix error when loading Muse with muse-project-alist set to nil
+Keywords: 
+
+2007-07-10  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-mode.el (muse-grep): Abort search if the current
+	project contains no directories.
+
+	* lisp/muse-project.el (muse-project-file-alist): If
+	muse-project-alist is not defined, or project is nil, return nil
+	right away.  This ought to fix a bug that occurred when using Muse
+	with muse-project-alist set to nil.
+	(muse-project-of-file): Make sure muse-project-alist is not nil.
+	(muse-project-save-buffers): Make sure project is not nil.
+
+	* lisp/muse-wiki.el (muse-wiki-resolve-project-page): Deal with
+	case where muse-project-alist is nil.

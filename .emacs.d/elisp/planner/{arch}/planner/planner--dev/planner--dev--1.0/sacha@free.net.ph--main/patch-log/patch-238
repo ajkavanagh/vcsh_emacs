@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-238
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec 17 18:10:31 JST 2004
+Standard-date: 2004-12-17 09:10:31 GMT
+New-files: .arch-ids/planner-bookmark.el.id
+    planner-bookmark.el
+Modified-files: ChangeLog planner-auto.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-238
+Summary: New: planner-bookmark
+Keywords: 
+
+	* planner-bookmark.el: New from Dryice Liu. Requires remember.
+          Creates a note buffer with a bookmark:// URL after you set a
+          bookmark.
+
+	* planner-auto.el: Add planner-bookmark.el
+
+	* planner.texi (planner-bookmark.el): Document planner-bookmark.el

@@ -1,0 +1,25 @@
+Revision: planner-muse--mwolson--1.0--patch-153
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan  3 16:14:52 EST 2006
+Standard-date: 2006-01-03 21:14:52 GMT
+Modified-files: ChangeLog planner-accomplishments.el
+    planner-el.texi planner-publish.el
+    planner-tasks-overview.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-153
+Summary: Use "D" to indicate delegated tasks, instead of ">".
+Keywords: 
+
+* planner-accomplishments.el (planner-accomplishments-status-display):
+  Use "D" to indicate delegated tasks, instead of ">".
+
+* planner-el.texi (Modifying Tasks): Ditto.
+
+* planner-publish.el (planner-publish-task-status-expand): 
+  (planner-publish-task-status-collapse): Ditto.
+
+* planner-tasks-overview.el (planner-tasks-overview-sort-by-status):
+  Ditto.
+
+* planner.el (planner-sort-tasks-by-link, planner-highlight-tasks): 
+  (planner-task-delegated): Ditto.

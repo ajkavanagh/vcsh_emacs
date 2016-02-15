@@ -1,0 +1,28 @@
+Revision: muse-el--devel--0--patch-54
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr  9 23:15:25 EDT 2006
+Standard-date: 2006-04-10 03:15:25 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog lisp/muse-html.el lisp/muse-mode.el
+    lisp/muse-publish.el lisp/muse-wiki.el lisp/muse.el
+    muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-54
+    mwolson@gnu.org--2006/muse--main--1.0--patch-102
+    mwolson@gnu.org--2006/muse--main--1.0--patch-103
+    mwolson@gnu.org--2006/muse--main--1.0--patch-104
+    mwolson@gnu.org--2006/muse--main--1.0--patch-105
+    mwolson@gnu.org--2006/muse--main--1.0--patch-106
+Summary: Merged from mwolson@gnu.org--2006 (patch 102-106)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-102
+   muse-html: Add :style-sheet element.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-103
+   Try to fix failure to recognize Muse file extension (5th attempt).
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-105
+   Try to fix failure to recognize Muse file extension (6th attempt).

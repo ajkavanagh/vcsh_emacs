@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-253
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec  1 20:31:33 EST 2006
+Standard-date: 2006-12-02 01:31:33 GMT
+Modified-files: ChangeLog lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-253
+Summary: Fix minor bug in muse-replace-regexp-in-string
+Keywords: 
+
+2006-12-01  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse.el (muse-replace-regexp-in-string): In case someone is
+	using a very old Emacs, avoid an infinite loop that could occur
+	when the regexp is an empty string.

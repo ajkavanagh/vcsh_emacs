@@ -1,0 +1,25 @@
+Revision: planner-muse--mwolson--1.0--patch-6
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun 14 14:27:17 EST 2005
+Standard-date: 2005-06-14 19:27:17 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-6
+Summary: Patch from Peter K. Lee; make it less work to get started using this.
+Keywords: 
+
+* planner.el: Apply patch from Peter K. Lee.  Require `muse-mode' instead
+  of `muse'.
+  (planner-option-customized): Since there are still a lot of functions
+  that call this, keep it for now.
+  (planner-page-exists-p): This is sometimes called with 2 arguments
+  instead of 1, so defalias it to `planner-page-file'.
+
+* planner.el (planner-version): Change to "Planner (Muse)" so that this
+  is somewhat meaningful.
+  (planner-regexp-space): Make the default value equivalent to
+  `muse-regexp-space'.
+  (planner-update-wiki-project): Bring this back, but make it do nothing.
+  I want to make the instructions on the PlannerMusePort wiki page a bit
+  simpler.
+  (planner-markup-tags): Ditto.

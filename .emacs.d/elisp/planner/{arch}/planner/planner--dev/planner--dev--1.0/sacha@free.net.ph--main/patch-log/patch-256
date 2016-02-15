@@ -1,0 +1,10 @@
+Revision: planner--dev--1.0--patch-256
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec 27 08:09:30 JST 2004
+Standard-date: 2004-12-26 23:09:30 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-256
+Summary: Major bugfix: planner-find-file
+Keywords: 
+

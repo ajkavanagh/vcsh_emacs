@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-9
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 20:27:14 CST 2005
+Standard-date: 2005-01-30 12:27:14 GMT
+Modified-files: planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-9
+Summary: doc fix
+Keywords: docfix
+
+* planner-rank.el: obey the good doc string style. Change the docstring
+  of planner-rank-calculate-rank-* from a result table to asking the user
+  to eval a sexp. This is "real time" if the user customized some
+  parameters, and save lots of space :)

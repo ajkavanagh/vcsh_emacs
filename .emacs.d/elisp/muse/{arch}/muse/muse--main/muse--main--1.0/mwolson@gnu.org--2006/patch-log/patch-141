@@ -1,0 +1,24 @@
+Revision: muse--main--1.0--patch-141
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun May 28 03:45:09 EDT 2006
+Standard-date: 2006-05-28 07:45:09 GMT
+New-files: contrib/pyblosxom/.arch-ids/make-blog.id
+    contrib/pyblosxom/make-blog
+Modified-files: ChangeLog.2006
+    contrib/pyblosxom/getstamps.py
+    examples/mwolson/stylesheets/common.css muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-141
+Summary: Provide explanation of how to invoke getstamps.py.
+Keywords: 
+
+* contrib/pyblosxom/getstamps.py: Strip the Muse file extension when
+  writing the timestamps file.
+
+* contrib/pyblosxom/make-blog: New example script that shows how to
+  invoke getstamps.py.
+
+* examples/mwolson/stylesheets/common.css: Update.
+
+* muse.texi (Blosxom Requirements): Mention the new example script.
+  Additionally, explain how to call getstamps.py.

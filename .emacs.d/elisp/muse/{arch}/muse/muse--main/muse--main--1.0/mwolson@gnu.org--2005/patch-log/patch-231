@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-231
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Sep 13 01:30:18 EST 2005
+Standard-date: 2005-09-13 06:30:18 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-231
+Summary: muse.texi: Add publishing order information.
+Keywords: 
+
+* muse.texi (Markup Regexps): Add publishing order.

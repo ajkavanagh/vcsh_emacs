@@ -1,0 +1,43 @@
+Revision: planner-muse--mwolson--1.0--patch-49
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 01:50:55 EST 2005
+Standard-date: 2005-08-09 06:50:55 GMT
+New-files: .arch-ids/planner-publish.el.id
+    planner-publish.el
+Modified-files: ChangeLog.mwolson
+    planner-accomplishments.el planner-timeclock-summary.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-49
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--base-0
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-1
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-2
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-3
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-4
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-5
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-6
+Summary: Merged from saint@corenova.com--public-2005 (patch 0-6)
+Keywords: merge
+
+Patches applied:
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--base-0
+   tag of mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-38
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-1
+   planner publishing tree
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-2
+   planner publish html styles and extensions improvements
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-3
+   Merged from planner-muse--mwolson--1.0
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-4
+   publish and buffer alignment display change for timeclock summary
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-5
+   html inner-header and inner-footer as well as better timeclock summary format table output
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-6
+   Merged from planner-muse--mwolson--1.0 (patch 43-45)

@@ -1,0 +1,22 @@
+Revision: planner-muse--peter--1.0--patch-17
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Tue Jan 10 17:28:32 PST 2006
+Standard-date: 2006-01-11 01:28:32 GMT
+Modified-files: planner-publish.el
+New-patches: saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-17
+Summary: (planner-publish.el) properly derives "xml" to form "planner-xml" style!
+Keywords: planner-xml derive style muse-xml
+
+* planner-publish.el (muse-xml): add require for 'muse-xml
+(planner-xml-extension): no longer needed since 'muse-xml-extension exists.
+(planner-publish-markup-tags): changed to nested-section and tasks-section to match notes-section precedent.
+(planner-xml-markup-strings): revamped to behave similar to `planner-html-markup-strings'
+(planner-xml-header): mimics `muse-xml-header', but the root element is PLANNER not MUSE.
+(planner-html-markup-strings): resort to using the TITLE tag to generate static html code, instead of using H2, H3, etc. like before.
+(planner-html-style-sheet): added some defaults for nested .section .title style differentiation.
+(planner-publish-markup-note): there's no LEVEL in TITLE anymore.
+(planner-publish-nested-section-tag): naming changes
+(planner-publish-title-tag): simplify title tag generation.  use a static markup string, instead of drawing from 'section, 'subsection variables.  The reason for this change, although I _did_ like the former behavior of using H2, H3, etc. for HTML markup is that the 'section, 'subsection variables of muse-xml do NOT behave the same way as muse-html does (where muse-html acts more like just a title).
+(sectionalize): generate title tag w/o LEVEL attribute.
+(muse-derive-style): the REAL reason for all the changes above!  Now planner-publish takes in the new muse-xml style and derives a new planner specific style, "planner-xml" style.

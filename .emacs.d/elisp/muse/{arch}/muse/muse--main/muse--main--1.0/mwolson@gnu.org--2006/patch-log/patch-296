@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-296
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr 20 09:36:04 EDT 2007
+Standard-date: 2007-04-20 13:36:04 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-296
+Summary: Simplify <markup> implementation
+Keywords: 
+
+2007-04-20  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-inhibit-style-hooks): New
+	variable that causes the :before and :before-end hooks to be
+	ignored when non-nil.
+	(muse-publish-markup-region): Use it.  Also, guarantee that point
+	is at end of region after publishing.
+	(muse-publish-mark-up-tag): Simplify, taking advantage of the new
+	variable.

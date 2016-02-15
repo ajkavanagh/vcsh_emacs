@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-40
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 26 10:48:23 EDT 2006
+Standard-date: 2006-05-26 14:48:23 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-40
+    mwolson@gnu.org--2006/planner--main--1.0--patch-49
+Summary: Merged from mwolson@gnu.org--2006 (patch 49)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-49
+   Display a helpful message if muse-project-alist undefined.

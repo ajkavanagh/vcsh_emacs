@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-104
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr  9 20:08:01 EDT 2006
+Standard-date: 2006-04-10 00:08:01 GMT
+Modified-files: ChangeLog.2006 lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-48
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-49
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-50
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-51
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-52
+    mwolson@gnu.org--2006/muse--main--1.0--patch-104
+Summary: Merged from mwolson@gnu.org--2006-muse-el (patch 48-52)
+Keywords: merge
+
+(Author: Per B. Sederberg <per@med.upenn.edu>)
+
+* lisp/muse-wiki.el (muse-wiki-project-files-with-spaces): New function
+  to return a list of project files that have spaces.
+  (muse-wiki-update-interwiki-regexp): Make use of new project-files with
+  spaces function.  Don't make this buffer-local.

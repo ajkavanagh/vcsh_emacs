@@ -1,0 +1,19 @@
+Revision: muse-el--devel--0--patch-157
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 15 22:26:00 EDT 2007
+Standard-date: 2007-07-16 02:26:00 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-157
+    mwolson@gnu.org--2006/muse--main--1.0--patch-395
+    mwolson@gnu.org--2006/muse--main--1.0--patch-396
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 395-396)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-395
+   Try to fix some issues with <markup> in headers and footers
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-396
+   Widen before executing code in lisp tags

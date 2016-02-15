@@ -1,0 +1,32 @@
+Revision: planner--duo--1.0--patch-3
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 15 00:01:59 EST 2005
+Standard-date: 2005-07-15 05:01:59 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-xtla.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-32
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-33
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-34
+    mwolson@gnu.org--2005/planner--duo--1.0--patch-3
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-32
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-33
+Summary: Merged from hodique@lifl.fr--2005 (patch 32-34), mwolson@gnu.org--2005 (patch 32-33)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-32
+   Merged from mwolson@gnu.org--2005 (patch 30-31)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-33
+   Fix error in planner-xtla-url-transform
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-34
+   Fix false heading lines in notes, from planner-xtla
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-32
+   Merged from hodique@lifl.fr--2005 (patch 32-34)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-33
+   Minor caadr -> car cadr fixup.

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-180
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Oct  4 23:10:50 JST 2004
+Standard-date: 2004-10-04 14:10:50 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-180
+Summary: planner-find-file: Do not double-open pages
+Keywords: improvement
+
+	* planner.el (planner-find-file): Prevent double-opening pages by
+	checking if the current buffer is already the page we want to
+	open.

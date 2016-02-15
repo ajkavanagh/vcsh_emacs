@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-57
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun 27 21:48:09 EDT 2006
+Standard-date: 2006-06-28 01:48:09 GMT
+Modified-files: README
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-57
+Summary: Mention Emacs Muse in README.
+Keywords: 
+
+* README: Mention that Emacs Muse must be installed before compiling.
+

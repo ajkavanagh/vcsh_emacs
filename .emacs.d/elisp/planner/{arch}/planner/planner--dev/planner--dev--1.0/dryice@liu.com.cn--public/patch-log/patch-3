@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-3
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 11:52:01 CST 2005
+Standard-date: 2005-01-30 03:52:01 GMT
+Modified-files: planner-deadline.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-3
+Summary: New helper functions for getting deadline date
+Keywords: newfeature
+
+* planner-deadline.el (planner-deadline-get-deadline-from-string): return
+  the deadline data in string.
+  (planner-deadline-get-current-deadline): return the deadline date in
+  the current task.
+

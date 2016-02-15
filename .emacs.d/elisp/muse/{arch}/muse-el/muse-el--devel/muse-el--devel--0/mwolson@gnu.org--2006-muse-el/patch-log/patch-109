@@ -1,0 +1,24 @@
+Revision: muse-el--devel--0--patch-109
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 29 02:45:28 EST 2006
+Standard-date: 2006-10-29 07:45:28 GMT
+Modified-files: ChangeLog NEWS lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-109
+    mwolson@gnu.org--2006/muse--main--1.0--patch-228
+    mwolson@gnu.org--2006/muse--main--1.0--patch-229
+    mwolson@gnu.org--2006/muse--main--1.0--patch-230
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 228-230)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-228
+   Fix issue with link suffix in links to other files
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-229
+   Fix some link resolving bugs
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-230
+   Update NEWS

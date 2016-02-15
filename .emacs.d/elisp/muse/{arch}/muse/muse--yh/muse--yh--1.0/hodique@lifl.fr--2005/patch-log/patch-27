@@ -1,0 +1,71 @@
+Revision: muse--yh--1.0--patch-27
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sun Jul 10 15:01:46 CEST 2005
+Standard-date: 2005-07-10 13:01:46 GMT
+Modified-files: ChangeLog examples/johnw/publish-johnw
+    examples/mwolson/muse-init.el lisp/muse-blosxom.el
+    lisp/muse-html.el lisp/muse-http.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-wiki.el lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-27
+    mwolson@gnu.org--2005/muse--main--1.0--patch-107
+    mwolson@gnu.org--2005/muse--main--1.0--patch-108
+    mwolson@gnu.org--2005/muse--main--1.0--patch-109
+    mwolson@gnu.org--2005/muse--main--1.0--patch-110
+    mwolson@gnu.org--2005/muse--main--1.0--patch-111
+    mwolson@gnu.org--2005/muse--main--1.0--patch-112
+    mwolson@gnu.org--2005/muse--main--1.0--patch-113
+    mwolson@gnu.org--2005/muse--main--1.0--patch-114
+    mwolson@gnu.org--2005/muse--main--1.0--patch-115
+    mwolson@gnu.org--2005/muse--main--1.0--patch-116
+    mwolson@gnu.org--2005/muse--main--1.0--patch-117
+    mwolson@gnu.org--2005/muse--main--1.0--patch-118
+    mwolson@gnu.org--2005/muse--main--1.0--patch-119
+    mwolson@gnu.org--2005/muse--main--1.0--patch-120
+Summary: Merged from mwolson@gnu.org--2005 (patch 107-120)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-107
+   Make a distinction between implicit and explicit links at publish-time.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-108
+   Try to fix an error with `muse-blosxom-get-categories'.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-109
+   Fix error with `muse-blosxom-new-entry' and Emacs21.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-110
+   Fix Emacs21 issue with muse-insert-tag.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-111
+   Make natural interwiki links between projects mostly work.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-112
+   Fix some gross mistakes.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-113
+   Tackle a project name interwiki highlighting snafu.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-114
+   Update my example configuration.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-115
+   Escape "&", "<", and ">" in URL text.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-116
+   Escape specials in link descriptions.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-117
+   Fix image-link goof-up and add pretty titles.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-118
+   Handle a few edge cases with project-page resolution gracefully.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-119
+   XEmacs wiki fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-120
+   Use different mapping for S-tab on Windows.

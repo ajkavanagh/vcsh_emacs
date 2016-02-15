@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-453
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jul 18 13:52:27 EDT 2005
+Standard-date: 2005-07-18 17:52:27 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-453
+Summary: planner-create-note: Default to current page when called interactively
+Keywords: 
+
+* planner.el (planner-create-note): Default to current page. Thanks to
+  Janne Hellsten for suggesting this.
+

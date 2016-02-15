@@ -1,0 +1,40 @@
+Revision: muse--main--1.0--patch-1
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Wed Dec 29 20:49:50 EST 2004
+Standard-date: 2004-12-30 01:49:50 GMT
+New-files: contrib/.arch-ids/=id
+    contrib/.arch-ids/pcomplete.el.id contrib/pcomplete.el
+    examples/.arch-ids/=id scripts/.arch-ids/=id
+New-directories: contrib contrib/.arch-ids examples
+    examples/.arch-ids scripts scripts/.arch-ids
+Renamed-files: .arch-ids/cgi.el.id contrib/.arch-ids/cgi.el.id
+    .arch-ids/httpd.el.id contrib/.arch-ids/httpd.el.id
+    .arch-ids/muse-johnw.el.id examples/.arch-ids/muse-johnw.el.id
+    .arch-ids/publish-johnw.id examples/.arch-ids/publish-johnw.id
+    .arch-ids/publish-project.id scripts/.arch-ids/publish-project.id
+    .arch-ids/publish.id scripts/.arch-ids/publish.id
+    cgi.el contrib/cgi.el
+    httpd.el contrib/httpd.el
+    muse-johnw.el examples/muse-johnw.el
+    publish scripts/publish
+    publish-johnw examples/publish-johnw
+    publish-project scripts/publish-project
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-1
+Summary: Do some early spring cleaning
+Keywords: 
+
+2004-12-29  Michael Olson  <mwolson@gnu.org>
+
+    * Makefile: Change path to `publish' script.
+
+    * contrib/pcomplete.el: New file that is used by Muse without
+    actually being a part of it: hence its location in the contrib
+    directory.
+
+    * contrib/cgi.el, contrib/httpd.el: New location.
+
+    * examples/muse-johnw.el, examples/publish-johnw: Ditto.
+
+    * scripts/publish, scripts/publish-project: Ditto.

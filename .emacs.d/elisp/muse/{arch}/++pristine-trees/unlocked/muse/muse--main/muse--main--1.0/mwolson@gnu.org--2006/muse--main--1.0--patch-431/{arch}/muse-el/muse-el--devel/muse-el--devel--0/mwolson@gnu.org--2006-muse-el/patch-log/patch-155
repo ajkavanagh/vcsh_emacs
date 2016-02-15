@@ -1,0 +1,27 @@
+Revision: muse-el--devel--0--patch-155
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 15 18:06:50 EDT 2007
+Standard-date: 2007-07-15 22:06:50 GMT
+Modified-files: ChangeLog lisp/muse-journal.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-155
+    mwolson@gnu.org--2006/muse--main--1.0--patch-390
+    mwolson@gnu.org--2006/muse--main--1.0--patch-391
+    mwolson@gnu.org--2006/muse--main--1.0--patch-392
+    mwolson@gnu.org--2006/muse--main--1.0--patch-393
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 390-393)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-390
+   muse-journal: Fix journal-html escaping bug introduced in last commit
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-391
+   muse-journal: Escape title properly for journal-rss and journal-rdf
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-392
+   muse-journal: Fix mistake in last commit
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-393
+   muse-journal: Publish <qotd> properly for journal-rss and journal-rdf

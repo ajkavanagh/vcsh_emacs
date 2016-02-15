@@ -1,0 +1,16 @@
+Revision: planner--yh--1.0--patch-27
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jul  9 10:39:09 CEST 2005
+Standard-date: 2005-07-09 08:39:09 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-diary.el planner-multi.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-27
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-24
+Summary: Merged from mwolson@gnu.org--2005 (patch 24)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-24
+   Fix insertion of diary entries and complaints about `emacs-wiki-link-base'.

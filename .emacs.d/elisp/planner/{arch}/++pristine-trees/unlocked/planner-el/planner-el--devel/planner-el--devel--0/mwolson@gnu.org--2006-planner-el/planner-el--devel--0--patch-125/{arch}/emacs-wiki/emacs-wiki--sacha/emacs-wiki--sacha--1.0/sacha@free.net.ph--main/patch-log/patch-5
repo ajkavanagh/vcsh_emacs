@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-5
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jan 20 16:47:20 PHT 2004
+Standard-date: 2004-01-20 08:47:20 GMT
+Modified-files: planner-experimental.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-5
+Summary: 
+
+Moved note functions from planner-experimental.el to planner.el.
+Fixed planner-mark-task bug in planner.el. Thanks to Brent Goodrick for bug report.
+

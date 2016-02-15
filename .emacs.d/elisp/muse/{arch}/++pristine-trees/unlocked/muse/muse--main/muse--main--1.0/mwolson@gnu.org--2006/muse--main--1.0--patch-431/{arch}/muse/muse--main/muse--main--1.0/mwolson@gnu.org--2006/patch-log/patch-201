@@ -1,0 +1,29 @@
+Revision: muse--main--1.0--patch-201
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Aug 30 13:01:14 EDT 2006
+Standard-date: 2006-08-30 17:01:14 GMT
+Modified-files: contrib/pyblosxom/getstamps.py
+    contrib/pyblosxom/hardcodedates.py
+    contrib/pyblosxom/make-blog
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-201
+Summary: Update pyblosxom plugin header info.
+Keywords: 
+
+2006-08-30  Michael Olson  <mwolson@gnu.org>
+
+	* contrib/pyblosxom/getstamps.py (recurse): Ignore metadata
+	directories for bzr and darcs.
+
+	* contrib/pyblosxom/make-blog, contrib/pyblosxom/hardcodedates.py:
+	contrib/pyblosxom/getstamps.py: Update version and headers.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   lisp/muse-publish.el
+   contrib/pyblosxom/hardcodedates.py
+   contrib/pyblosxom/getstamps.py
+   contrib/pyblosxom/make-blog
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

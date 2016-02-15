@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-371
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr  7 23:15:00 PHT 2005
+Standard-date: 2005-04-07 15:15:00 GMT
+New-files: .arch-ids/planner-psvn.el.id planner-psvn.el
+Modified-files: ChangeLog planner-el.texi planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-371
+Summary: New: planner-annotation-from-dired, planner-psvn
+Keywords: 
+
+* planner.el (planner-annotation-from-dired): New from Stefan Reichör.
+ (planner-annotation-functions): Add planner-annotation-from-dired.
+* planner-psvn.el: New from Stefan Reichör.
+* planner-el.texi (Acknowledgements): Add note about planner-psvn.
+
+

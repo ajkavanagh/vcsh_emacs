@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-266
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jan  6 18:29:01 EST 2007
+Standard-date: 2007-01-06 23:29:01 GMT
+Modified-files: ChangeLog Makefile Makefile.defs
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-266
+Summary: Makefile: Keep track of distributor (debian/ubuntu)
+Keywords: 
+
+2007-01-06  Michael Olson  <mwolson@gnu.org>
+
+	* Makefile (debclean): New rule split from debrevision and
+	debrelease.
+	(debbuild): Take distributor into account.
+
+	* Makefile.defs (DISTRIBUTOR): New field that tracks what
+	vendor/distributor we are building for.

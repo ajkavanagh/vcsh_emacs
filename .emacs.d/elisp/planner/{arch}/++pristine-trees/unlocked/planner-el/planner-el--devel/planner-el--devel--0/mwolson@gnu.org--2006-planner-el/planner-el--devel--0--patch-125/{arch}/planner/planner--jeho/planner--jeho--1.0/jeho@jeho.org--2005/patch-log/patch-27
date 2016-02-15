@@ -1,0 +1,11 @@
+Revision: planner--jeho--1.0--patch-27
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Feb 25 18:39:09 GMT 2005
+Standard-date: 2005-02-25 18:39:09 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-27
+Summary: updates to update
+Keywords: 
+
+changed all updating hooks to planner-appt-update 

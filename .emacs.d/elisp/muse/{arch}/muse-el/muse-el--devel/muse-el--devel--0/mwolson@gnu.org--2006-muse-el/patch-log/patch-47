@@ -1,0 +1,22 @@
+Revision: muse-el--devel--0--patch-47
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Per B. Sederberg <per@med.upenn.edu>
+Date: Sat Apr  8 02:37:02 EDT 2006
+Standard-date: 2006-04-08 06:37:02 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-47
+Summary: First attempt at getting interwiki-regexp with spaces.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-update-interwiki-regexp): Modify
+  interwiki-regexp to search for any project file name.  This is so it
+  will match files with spaces.
+
+
+
+--This line, and those below, will be ignored--
+Files to commit:
+   lisp/muse-wiki.el
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

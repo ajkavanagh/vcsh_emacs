@@ -1,0 +1,22 @@
+Revision: planner--dev--1.0--patch-462
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jul 26 10:46:18 EDT 2005
+Standard-date: 2005-07-26 14:46:18 GMT
+Modified-files: planner-calendar.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-462
+Summary: Bugfix: Add missing planner-link-target. New option: planner-calendar-nop-buttons-flag
+Keywords: 
+
+* planner.el (planner-link-target): Add missing alias.
+
+* planner-calendar.el (planner-calendar-nop-buttons-flag): New option.
+  (planner-calendar): Use planner-calendar-nop-buttons-flag.
+  (planner-calendar-published-file-href): Make sure <nop> is needed.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

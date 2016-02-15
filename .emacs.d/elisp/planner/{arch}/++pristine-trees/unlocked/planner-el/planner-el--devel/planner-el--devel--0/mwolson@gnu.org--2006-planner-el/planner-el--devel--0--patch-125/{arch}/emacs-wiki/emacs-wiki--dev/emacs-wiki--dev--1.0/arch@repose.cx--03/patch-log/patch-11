@@ -1,0 +1,35 @@
+Revision: emacs-wiki--dev--1.0--patch-11
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Mon Jul 14 16:31:44 EST 2003
+Standard-date: 2003-07-14 06:31:44 GMT
+Summary: add support for a project to default to
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-11
+Removed-patches: 
+
+emacs-wiki-default-project: new variable, describing the preferred default
+(emacs-wiki-change-project): if user doesn't choose an available completion,
+use the default.
+
+This change lets you use (emacs-wiki-change-project) as a shortcut key to
+accessing your wikis. I bind it to F8, like so:
+
+(global-set-key
+ [f8] (lambda ()
+        (interactive)
+        (require 'emacs-wiki)
+        ;; i prefer to publish a page at a time
+        (define-key emacs-wiki-mode-map (kbd "C-c C-p")
+	  'emacs-wiki-publish-this-page)
+	(call-interactively 'emacs-wiki-change-project)))
+
+For times when I want to go to my main wiki, I just hit F8 RET.

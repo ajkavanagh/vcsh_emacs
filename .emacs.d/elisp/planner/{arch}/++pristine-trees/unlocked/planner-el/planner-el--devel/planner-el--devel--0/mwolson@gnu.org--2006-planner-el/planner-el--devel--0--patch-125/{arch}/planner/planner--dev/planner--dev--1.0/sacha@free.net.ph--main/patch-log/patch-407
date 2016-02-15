@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-407
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun  9 14:40:10 PHT 2005
+Standard-date: 2005-06-09 06:40:10 GMT
+Modified-files: ChangeLog
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-407
+Summary: Bugfix: planner-appt-add-appts-from-schedule and empty schedules
+Keywords: 
+
+* planner-appt.el (planner-appt-add-appts-from-schedule): Merged bugfix
+  from Jim for case where schedule is empty.

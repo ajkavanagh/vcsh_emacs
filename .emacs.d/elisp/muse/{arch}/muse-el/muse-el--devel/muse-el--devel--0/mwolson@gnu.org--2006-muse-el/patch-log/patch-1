@@ -1,0 +1,28 @@
+Revision: muse-el--devel--0--patch-1
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Feb 25 01:08:41 EST 2006
+Standard-date: 2006-02-25 06:08:41 GMT
+Modified-files: ChangeLog.2006 lisp/muse-blosxom.el
+    lisp/muse-publish.el lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-1
+    mwolson@gnu.org--2006/muse--main--1.0--patch-18
+    mwolson@gnu.org--2006/muse--main--1.0--patch-19
+    mwolson@gnu.org--2006/muse--main--1.0--patch-20
+    mwolson@gnu.org--2006/muse--main--1.0--patch-21
+Summary: Merged from mwolson@gnu.org--2006 (patch 18-21)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-18
+   muse-texinfo: Fix link suffix.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-19
+   Fix backtrace when publishing unsaved files.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-20
+   muse-blosxom: Add ability to use tags in entries.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-21
+   muse-blosxom: Fix order of #tags line in header.

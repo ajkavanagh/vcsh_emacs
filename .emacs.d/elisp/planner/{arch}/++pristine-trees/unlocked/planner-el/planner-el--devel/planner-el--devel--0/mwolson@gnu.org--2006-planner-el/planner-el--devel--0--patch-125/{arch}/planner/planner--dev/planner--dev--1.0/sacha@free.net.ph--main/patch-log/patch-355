@@ -1,0 +1,23 @@
+Revision: planner--dev--1.0--patch-355
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 30 01:54:55 PHT 2005
+Standard-date: 2005-03-29 17:54:55 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-355
+Summary: New options: planner-default-section, planner-sections
+Keywords: 
+
+* planner.el (planner-default-section): New option.
+  (planner-sections): New option.
+  (planner-day-page-template): Mention planner-sections.
+  (planner-plan-page-template): Mention planner-sections.
+  (planner-seek-to-first): Look up symbols in planner-sections.
+  (planner-narrow-to-note): Look up symbols in planner-sections.
+  (planner-seek-task-creation-point): Look up section name.
+  (planner-create-note): Look up section name for notes.
+  Thanks to Tyler Weir for pointing out the need to make
+  this more flexible.
+
+* planner.el (with-planner): Add edebug properties. Thanks to Jim Ottaway
+  for the two-line tip.

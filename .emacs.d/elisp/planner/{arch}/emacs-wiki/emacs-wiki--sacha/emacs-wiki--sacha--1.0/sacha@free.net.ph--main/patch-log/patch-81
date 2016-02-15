@@ -1,0 +1,25 @@
+Revision: emacs-wiki--sacha--1.0--patch-81
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 11 10:32:24 PHT 2004
+Standard-date: 2004-03-11 02:32:24 GMT
+Modified-files: emacs-wiki.el planner.el remember.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-81
+Summary: Emacs20 compatibility
+Keywords: 
+
+	* remember.el (remember-clipboard): Use compatibility function.
+
+	* planner.el (planner-list-daily-files): Remove mapc call.
+	(planner-tasks-tag): Remove mapc call.
+	(planner-list-tasks-with-status): Remove mapc call.
+	(planner-extract-tasks): Remove mapc call.
+	(planner-search-notes-internal): add-to-list in emacs20 has only
+	two parameters. Remove need for three parameters by reversing the
+	list.
+	(planner-extract-tasks): Remove mapc call.
+
+	* emacs-wiki.el (emacs-wiki-make-faces): Remove mapc call.
+
+        Files now compile cleanly under Emacs21 and Emacs20 (except for
+        emacs-wiki, which still has lots of warnings.)

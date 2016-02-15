@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-322
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 23:36:01 EDT 2007
+Standard-date: 2007-05-26 03:36:01 GMT
+Modified-files: ChangeLog NEWS lisp/muse-html.el
+    lisp/muse-journal.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-322
+Summary: Make <src> and <qotd> block-level
+Keywords: 
+
+2007-05-25  Michael Olson  <mwolson@gnu.org>
+
+	* NEWS: Update.
+
+	* lisp/muse-html.el (muse-html-src-tag): Ensure that we have
+	sufficient blank lines before the tag.
+
+	* lisp/muse-journal.el (muse-journal-latex-qotd-tag): Ensure that
+	we have sufficient blank lines before the tag.

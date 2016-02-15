@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-347
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Mar 21 00:35:30 PHT 2005
+Standard-date: 2005-03-20 16:35:30 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-347
+Summary: planner-multi: Modify planner-tasks-equal-p
+Keywords: 
+
+* planner-multi.el (planner-multi-tasks-equal-p): New function checks if
+  the link text is a multilink. This fixes the planner-id infinite saving
+  bug. Thanks to sf for pointing this out.
+  (planner-tasks-equal-p): Defalias to planner-multi-tasks-equal-p.

@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-95
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  7 21:33:27 EDT 2006
+Standard-date: 2006-04-08 01:33:27 GMT
+Removed-files: lisp/.arch-ids/muse-registry.el.id
+    lisp/muse-registry.el
+Modified-files: AUTHORS ChangeLog.2006
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-95
+Summary: Remove muse-registry.el.
+Keywords: 
+
+* lisp/muse-registry.el: Move to the Planner project, since it is a
+  better fit with Planner than Muse.

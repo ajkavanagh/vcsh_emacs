@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-394
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri May  6 11:58:31 PHT 2005
+Standard-date: 2005-05-06 03:58:31 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-394
+Summary: planner-list-unfinished-tasks: Add PAGES argument
+Keywords: 
+
+* planner.el (planner-list-unfinished-tasks): Add PAGES argument.
+  Same semantics as planner-list-tasks-with-status.

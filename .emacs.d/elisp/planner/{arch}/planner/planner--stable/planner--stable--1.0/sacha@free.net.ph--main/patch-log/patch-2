@@ -1,0 +1,12 @@
+Revision: planner--stable--1.0--patch-2
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 30 12:19:25 PHT 2004
+Standard-date: 2004-03-30 04:19:25 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--stable--1.0--patch-2
+Summary: Updated planner-diary.el from Thomas Gehrlein
+Keywords: 
+
+	* planner-diary.el: Update from Thomas Gehrlein: version 1.0. Some
+	patches for documentation. Passes checkdoc now.

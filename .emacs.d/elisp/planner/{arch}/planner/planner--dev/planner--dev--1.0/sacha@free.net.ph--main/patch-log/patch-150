@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-150
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Aug  6 15:28:57 PHT 2004
+Standard-date: 2004-08-06 07:28:57 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-150
+Summary: Accept functions for planner-day/plan-page-template
+Keywords: feature
+
+	* planner.el (planner-day-page-template): Accept a function.
+	(planner-plan-page-template): Accept a function.
+	(planner-page-default-p): Add note about
+	planner-day-page-template. Make sure it only checks string
+	templates.
+	(planner-prepare-file): Allow the use of functions.
+
+	* planner.texi (Customizing Your Day Pages): Update note about
+	planner-day-page-template.

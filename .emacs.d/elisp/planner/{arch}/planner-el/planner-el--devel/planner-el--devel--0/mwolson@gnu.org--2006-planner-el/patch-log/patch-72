@@ -1,0 +1,23 @@
+Revision: planner-el--devel--0--patch-72
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  8 01:10:36 EDT 2006
+Standard-date: 2006-08-08 05:10:36 GMT
+Renamed-files: .arch-ids/ChangeLog.2004.id .arch-ids/ChangeLog.1.id
+    .arch-ids/ChangeLog.2005.id .arch-ids/ChangeLog.2.id
+    .arch-ids/ChangeLog.id .arch-ids/ChangeLog.3.id
+    ChangeLog ChangeLog.3
+    ChangeLog.2004 ChangeLog.1
+    ChangeLog.2005 ChangeLog.2
+Modified-files: ChangeLog.2 ChangeLog.3
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-72
+Summary: Rename ChangeLogs as per Emacs standards and provide non-Arch ChangeLog
+Keywords: 
+
+* ChangeLog.1: Rename from ChangeLog.2004 to comply with standards in the
+  Emacs source tree.
+
+* ChangeLog.2: Rename from ChangeLog.2005 to comply with standards in the
+  Emacs source tree.
+
+* ChangeLog.3: New file created from the old ChangeLog.

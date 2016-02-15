@@ -1,0 +1,10 @@
+Revision: planner-muse--johnsu01--1.0--patch-1
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sat Nov 19 18:41:50 EST 2005
+Standard-date: 2005-11-19 23:41:50 GMT
+Modified-files: planner-cyclic.el
+New-patches: john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-1
+Summary: Installed Sacha Chua's patch to fix the behavior of planner-cyclic at publishing time.
+Keywords: 
+

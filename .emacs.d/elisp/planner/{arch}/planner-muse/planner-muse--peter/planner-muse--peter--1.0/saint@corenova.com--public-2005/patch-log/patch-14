@@ -1,0 +1,41 @@
+Revision: planner-muse--peter--1.0--patch-14
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Fri Oct 28 12:05:31 PDT 2005
+Standard-date: 2005-10-28 19:05:31 GMT
+Modified-files: ChangeLog.mwolson Makefile.defs
+    debian/changelog planner-accomplishments.el
+    planner-multi.el planner-publish.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-73
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-74
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-75
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-76
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-77
+    sacha@free.net.ph--main/planner--dev--1.0--patch-490
+    sacha@free.net.ph--main/planner--merge--1.0--patch-3
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-14
+Summary: Merged from mwolson@gnu.org--2005 (patch 73-77), sacha@free.net.ph--main (patch 3, 490)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-73
+   Merged from saint@corenova.com--public-2005 (patch 13)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-74
+   Merged from sacha@free.net.ph--main (patch 3)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-75
+   Minor update to Makefile.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-76
+   planner-multi: Extraneous brackets fix.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-77
+   planner-publish: New planner-xhtml publishing style.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-490
+   planner-accomplishments.el: Line up accomplishments neatly
+
+ * sacha@free.net.ph--main/planner--merge--1.0--patch-3
+   planner-accomplishments.el: Line up accomplishments neatly

@@ -1,0 +1,40 @@
+Revision: planner--dev--1.0--patch-87
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue May 25 15:10:27 PHT 2004
+Standard-date: 2004-05-25 07:10:27 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-87
+Summary: Rearrange user customizations, promote some defvars to defcustoms
+Keywords: 
+
+	* planner.el (planner-tasks): New customize group.
+	(planner-carry-tasks-forward): Move to planner-tasks group.
+	(planner-marks-regexp): Move to planner-tasks group.
+	(planner-default-task-priority): Move to planner-tasks group.
+	(planner-add-task-at-end-flag): Move to planner-tasks group.
+	Promote from defvar.
+	(planner-emacs-wiki): New customize group.
+	(planner-name-regexp): Move to planner-emacs-wiki group.
+	(planner-custom-variables): Move to planner-emacs-wiki group.
+	(planner-publishing-markup): Move to planner-emacs-wiki group.
+	(planner-markup-tags): Move to planner-emacs-wiki group.
+	(planner-fontlock): New customize group.
+	(planner-completed-task-face): Move to planner-fontlock group.
+	(planner-cancelled-task-face): Move to planner-fontlock group.
+	(planner-delegated-task-face): Move to planner-fontlock group.
+	(planner-in-progress-task-face): Move to planner-fontlock group.
+	(planner-high-priority-task-face): Move to planner-fontlock group.
+	(planner-medium-priority-task-face): Move to planner-fontlock
+	group.
+	(planner-low-priority-task-face): Move to planner-fontlock group.
+	(planner-default-page): Promote to user option under
+	planner-tasks.
+	(planner-hide-task-status-when-highlighting): Promote to user
+	option under planner-fontlock.
+	(planner-create-task-hook): Promote to user option under
+	planner-tasks.
+	(planner-task-dates-favor-future-p): Promote to user option under
+	planner-tasks.
+	(planner-expand-name-favor-future-p): Promote to user option under
+	planner.

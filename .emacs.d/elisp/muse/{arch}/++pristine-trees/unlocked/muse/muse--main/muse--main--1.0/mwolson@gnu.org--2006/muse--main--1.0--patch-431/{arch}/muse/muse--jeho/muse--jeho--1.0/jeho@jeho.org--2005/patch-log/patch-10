@@ -1,0 +1,13 @@
+Revision: muse--jeho--1.0--patch-10
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Oct 21 17:29:43 BST 2005
+Standard-date: 2005-10-21 16:29:43 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-10
+Summary: muse-mode.el: fix finding an anchor
+Keywords: 
+
+* lisp/muse-mode.el (muse-visit-link-default): fix the anchor regexp so
+  that forward references work
+

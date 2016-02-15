@@ -1,0 +1,14 @@
+Revision: emacs-wiki--dev--1.0--patch-41
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Wed Nov 26 00:16:15 EST 2003
+Standard-date: 2003-11-25 13:16:15 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-41
+Summary: process remaining lisp tags in changelog markup
+Keywords: 
+
+Thanks to Götz Waschk (waschk at informatik dot uni-rostock dot de)
+
+Process remaining lisp tags (such as those in the header/footer)
+after marking up the changelog.

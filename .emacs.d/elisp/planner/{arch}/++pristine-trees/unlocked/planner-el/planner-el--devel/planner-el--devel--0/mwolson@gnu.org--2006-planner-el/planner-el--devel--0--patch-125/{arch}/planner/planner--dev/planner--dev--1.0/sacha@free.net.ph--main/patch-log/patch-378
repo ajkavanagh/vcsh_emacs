@@ -1,0 +1,29 @@
+Revision: planner--dev--1.0--patch-378
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr 19 22:40:47 PHT 2005
+Standard-date: 2005-04-19 14:40:47 GMT
+Modified-files: ChangeLog planner-appt.el planner-id.el
+    planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-59
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-60
+    sacha@free.net.ph--main/planner--dev--1.0--patch-378
+Summary: Merge planner-appt updates from jeho: create task fix, better advising
+Keywords: 
+
+* planner.el (planner-live-task-regexp): Rename from planner-appt-live-task-regexp.
+* planner-id.el (planner-id-update-tasks-on-page): Use planner-live-task-regexp.
+  (planner-id-remove-tasks-on-page): Use planner-task-regexp.
+  (planner-id-add-task-id-to-all): Use planner-task-regexp.
+* planner-appt.el: Remove planner-appt-live-task-regexp.
+  (planner-appt-add-appts-from-tasks): Use planner-live-task-regexp.
+
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-59
+   merge latest 
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-60
+   planner-appt: create task fix, better advising, etc.
+

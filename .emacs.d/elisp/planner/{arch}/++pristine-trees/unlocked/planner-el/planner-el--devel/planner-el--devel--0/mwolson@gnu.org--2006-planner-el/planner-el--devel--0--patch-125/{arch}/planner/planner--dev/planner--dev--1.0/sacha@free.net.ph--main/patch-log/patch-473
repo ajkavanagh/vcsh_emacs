@@ -1,0 +1,36 @@
+Revision: planner--dev--1.0--patch-473
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Aug 19 18:36:29 EDT 2005
+Standard-date: 2005-08-19 22:36:29 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-14
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-15
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-16
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-17
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-18
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+    sacha@free.net.ph--main/planner--dev--1.0--patch-473
+Summary: Catch up with john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+Keywords: 
+
+Patches applied:
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-14
+   Catch up with Sacha. Fix typ-o.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-15
+   Catch up with Sacha.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-16
+   Change name of node and menu item from Changing Tasks to Modifying tasks, since Changing Tasks has other meanings in the context of workflow and timeclock. Add some helpful related index entries.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-17
+   Corrected installation instructions for registering and pulling from the tla emacs-wiki archive. We were still saying 2004, should be 2005.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-18
+   Fixed pxref in <tasks> node. Fleshed out and added cindex entries around it.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+   Get the mwolson archive address right, for real.
+

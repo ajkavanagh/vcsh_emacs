@@ -1,0 +1,37 @@
+Revision: muse--main--1.0--patch-214
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 01:07:07 EDT 2006
+Standard-date: 2006-10-15 05:07:07 GMT
+Modified-files: ChangeLog NEWS lisp/muse-groff.el
+    lisp/muse-html.el lisp/muse-journal.el
+    lisp/muse-latex2png.el lisp/muse-poem.el
+    lisp/muse-publish.el muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-214
+Summary: Initial implementation of nested tag support
+Keywords: 
+
+2006-10-15  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-groff.el (muse-groff-markup-tags): Adapt for nested
+	tags.
+
+	* lisp/muse-html.el (muse-html-markup-tags): Ditto.
+
+	* lisp/muse-journal.el (muse-journal-latex-markup-tags): Ditto.
+
+	* lisp/muse-latex2png.el (muse-publish-markup-tags): Ditto.
+
+	* lisp/muse-poem.el (muse-poem-tag): Ditto.
+
+	* lisp/muse-publish.el (muse-publish-markup-tags)
+	(muse-publish-markup-header-footer-tags): Shift 4th element to 5th
+	element and make 4th element determine whether tags are nestable.
+	(muse-publish-goto-tag-end): New function that moves to the end of
+	a tag.  Handle nested tags when NESTED is non-nil.
+	(muse-publish-markup-tag): Call muse-publish-goto-tag-end.  Use
+	5th element for function.
+	(muse-publish-quote-tag): Handle nested quote tags.  I've tested
+	this on several scenarios, and it seems to work.
+
+	* muse.texi (Markup Tags): Mention nestable tags.

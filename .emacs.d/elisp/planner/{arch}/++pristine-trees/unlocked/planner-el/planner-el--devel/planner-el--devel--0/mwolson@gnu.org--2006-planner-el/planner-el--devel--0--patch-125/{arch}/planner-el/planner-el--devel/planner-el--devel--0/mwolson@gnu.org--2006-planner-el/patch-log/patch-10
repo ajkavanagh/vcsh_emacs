@@ -1,0 +1,13 @@
+Revision: planner-el--devel--0--patch-10
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Mon Feb 27 14:38:45 EST 2006
+Standard-date: 2006-02-27 19:38:45 GMT
+Modified-files: planner-report.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-10
+Summary: sort status report entries by plan page name
+Keywords: 
+
+* planner-report.el (planner-report-generate): sort pages by name using
+  string<
+

@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-39
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb 17 12:23:28 PHT 2004
+Standard-date: 2004-02-17 04:23:28 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-39
+Summary: Bugfix in planner-name-regexp
+Keywords: 
+
+	* planner.el (planner-name-regexp): Corrected regular expression
+          so that emacs-wiki recognizes yyyy.mm.dd#link again.

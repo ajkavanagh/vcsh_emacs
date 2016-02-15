@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-165
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Sep 21 19:14:35 JST 2004
+Standard-date: 2004-09-21 10:14:35 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-165
+Summary: planner-replan-task: minor bugfix
+Keywords: bug
+
+	* planner.el (planner-replan-task): Correct small bug:
+	buffer-list should be live-buffers variable. (That
+	should teach me to make sure planner.el byte-compiles
+	cleanly before checking it in...)

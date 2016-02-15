@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.1--patch-45
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Jan 30 11:55:00 GMT 2006
+Standard-date: 2006-01-30 11:55:00 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-45
+Summary: further fix for XEmacs initialization
+Keywords: 
+
+* planner-appt.el (planner-appt-insinuate): for XEmacs, create a diary
+  file if one doesn't already exist
+

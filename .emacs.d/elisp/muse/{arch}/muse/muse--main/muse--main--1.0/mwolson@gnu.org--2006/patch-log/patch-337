@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-337
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun  5 22:20:23 EDT 2007
+Standard-date: 2007-06-06 02:20:23 GMT
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-337
+Summary: Makefile: Fix error when doing "make install"
+Keywords: 
+
+2007-06-05  Michael Olson  <mwolson@gnu.org>
+
+	* Makefile (install-info): Remove $(MANUAL).info part, since this
+	is taken care of already by texi/Makefile.  Thanks to Leo for the
+	report.

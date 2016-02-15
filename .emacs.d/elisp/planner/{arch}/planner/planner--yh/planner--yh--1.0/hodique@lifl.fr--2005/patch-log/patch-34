@@ -1,0 +1,11 @@
+Revision: planner--yh--1.0--patch-34
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jul 15 00:55:15 CEST 2005
+Standard-date: 2005-07-14 22:55:15 GMT
+Modified-files: ChangeLog.yh planner-xtla.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-34
+Summary: Fix false heading lines in notes, from planner-xtla
+Keywords:
+
+* planner-xtla.el (planner-xtla-log-edit-add-note): lines beginning with * should really be list items

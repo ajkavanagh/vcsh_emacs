@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-414
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 16 13:16:43 PHT 2005
+Standard-date: 2005-06-16 05:16:43 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-414
+Summary: Bugfix: planner-narrow-to-note should recognize more notes properly now
+Keywords: 
+
+* planner.el (planner-narrow-to-note): Recognize notes even outside sections.
+

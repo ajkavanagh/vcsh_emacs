@@ -1,0 +1,11 @@
+Revision: planner--yh--1.0--patch-29
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Wed Jul 13 17:04:39 CEST 2005
+Standard-date: 2005-07-13 15:04:39 GMT
+Modified-files: ChangeLog.yh planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-29
+Summary: Fix bug #2638 : Extra set of brackets around page references in newly-created tasks
+Keywords:
+
+This is a side-effect of making planner-make-link generate valid links when given a valid link as input

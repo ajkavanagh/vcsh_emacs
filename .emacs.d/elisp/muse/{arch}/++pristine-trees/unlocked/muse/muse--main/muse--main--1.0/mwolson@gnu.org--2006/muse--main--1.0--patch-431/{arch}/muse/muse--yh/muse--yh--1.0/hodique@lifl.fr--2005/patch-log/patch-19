@@ -1,0 +1,13 @@
+Revision: muse--yh--1.0--patch-19
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Tue Jul  5 20:15:40 CEST 2005
+Standard-date: 2005-07-05 18:15:40 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-19
+Summary: Fix customization of muse-wiki-wikiword-regexp
+Keywords:
+
+* lisp/muse-wiki.el (require): fixed compilation warnings
+(muse-wiki-update-wikiword-regexp): new function to set muse-wiki-wikiword-regexp
+

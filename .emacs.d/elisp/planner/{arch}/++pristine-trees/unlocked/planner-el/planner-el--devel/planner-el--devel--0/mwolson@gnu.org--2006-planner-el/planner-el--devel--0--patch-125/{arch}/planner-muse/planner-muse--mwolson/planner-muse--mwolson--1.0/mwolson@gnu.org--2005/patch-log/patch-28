@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-28
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 13 14:16:10 EST 2005
+Standard-date: 2005-07-13 19:16:10 GMT
+Modified-files: ChangeLog.mwolson planner-xtla.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-28
+Summary: Make planner-xtla-url-transform work again.
+Keywords: 
+
+* planner-xtla.el (planner-xtla-url-transform): Ignore other args.
+  Thanks to Peter K. Lee for the report!

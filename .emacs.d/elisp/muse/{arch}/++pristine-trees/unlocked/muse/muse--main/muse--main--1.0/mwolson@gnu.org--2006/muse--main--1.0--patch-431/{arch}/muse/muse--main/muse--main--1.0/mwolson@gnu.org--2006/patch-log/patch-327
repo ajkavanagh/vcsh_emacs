@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-327
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu May 31 08:59:31 EDT 2007
+Standard-date: 2007-05-31 12:59:31 GMT
+Modified-files: ChangeLog lisp/muse-xml-common.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-327
+Summary: muse-xml-common: Allow multiple tbody tags in orgtbl-mode tables
+Keywords: 
+
+2007-05-31  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-xml-common.el (muse-xml-markup-table): Add docstring.
+	Publish multiple tbody tags if there is a horizontal separator
+	after the heading, because that is valid HTML after all

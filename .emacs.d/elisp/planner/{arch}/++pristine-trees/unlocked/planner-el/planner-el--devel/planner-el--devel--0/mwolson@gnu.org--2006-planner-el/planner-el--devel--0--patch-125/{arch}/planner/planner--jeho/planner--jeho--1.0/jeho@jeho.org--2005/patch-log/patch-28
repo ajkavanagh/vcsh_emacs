@@ -1,0 +1,27 @@
+Revision: planner--jeho--1.0--patch-28
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Feb 26 00:07:55 GMT 2005
+Standard-date: 2005-02-26 00:07:55 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-28
+Summary: shuffling and gentle refining
+Keywords: 
+
+* planner-appt.el: moved things around for better reading
+
+(planner-appt-todays-page-p): new function
+
+(planner-appt-time-regexp): generalized regexps a bit
+
+(planner-appt-task-insinuate): removed planner-appt-update
+
+(planner-appt-update-for-write): moved the test for
+planner-appt-update-appts-on-save-flag to this function
+
+(planner-appt-schedule-insinuate): removed planner-appt-update
+
+(planner-appt-insinuate-if-today): added to local-write-file-hooks
+directly here 
+
+(planner-appt-mark-calendar): a little consistency edit

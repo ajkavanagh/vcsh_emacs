@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-12
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Apr  4 18:29:29 PHT 2004
+Standard-date: 2004-04-04 10:29:29 GMT
+Modified-files: planner-schedule.el planner-timeclock.el
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-12
+Summary: Condition-case keybindings, require easymenu
+Keywords: 
+
+	* planner-schedule.el: Wrap a condition-case around key 
+	definitions. Require easymenu.
+
+	* planner-timeclock.el: Wrap a condition-case around key
+        definitions. Require easymenu.
+
+	* planner.el: Require easymenu.
+

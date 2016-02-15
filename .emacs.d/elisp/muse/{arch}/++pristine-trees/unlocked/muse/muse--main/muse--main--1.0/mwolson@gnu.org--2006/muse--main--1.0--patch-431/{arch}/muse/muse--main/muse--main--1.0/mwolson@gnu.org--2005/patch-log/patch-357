@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-357
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan 19 10:49:56 EST 2006
+Standard-date: 2006-01-19 15:49:56 GMT
+Renamed-files: debian/.arch-ids/NEWS.Debian.id debian/.arch-ids/NEWS.id
+    debian/NEWS.Debian debian/NEWS
+Modified-files: ChangeLog debian/rules
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-357
+Summary: Another Debian fix.
+Keywords: 
+
+* debian/NEWS: Rename from NEWS.Debian at the suggestion of Romain.
+
+* debian/rules: Drop explicit installation of NEWS.Debian.  This should
+  happen automatically now.

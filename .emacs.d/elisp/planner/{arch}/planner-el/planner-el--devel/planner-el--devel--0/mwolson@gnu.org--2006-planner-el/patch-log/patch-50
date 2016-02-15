@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-50
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 23 09:54:58 EDT 2006
+Standard-date: 2006-06-23 13:54:58 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-50
+Summary: Fix bug in last patch.
+Keywords: 
+
+* planner.el (allout-mode-leaders): Make this use `add-hook' rather than
+  `add-to-list' to avoid load errors.

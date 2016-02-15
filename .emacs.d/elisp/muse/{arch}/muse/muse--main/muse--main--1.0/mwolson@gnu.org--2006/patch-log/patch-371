@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-371
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 17 11:54:00 EDT 2007
+Standard-date: 2007-06-17 15:54:00 GMT
+Modified-files: ChangeLog Makefile Makefile.defs
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-371
+Summary: Makefile: build ELPA package for Muse
+Keywords: 
+
+2007-06-17  Michael Olson  <mwolson@gnu.org>
+
+	* Makefile: Add elpa target, which is used for building an ELPA
+	package for Muse.
+
+	* Makefile.defs (ELPADIR, ELPADESC): New variables used for
+	building ELPA packages.

@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-215
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 01:33:37 EDT 2006
+Standard-date: 2006-10-15 05:33:37 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-protocols.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-99
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-100
+    mwolson@gnu.org--2006/muse--main--1.0--patch-215
+    stefan_schlee@yahoo.com--2006-emacs/muse--bugfixes--0--patch-2
+Summary: Merged from mwolson@gnu.org--2006-muse-el (patch 99-100)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-99
+   Fix of bug #6741: Exclude colon in recognised URLs
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-100
+   Add support for pyblosxom metadate plugin.

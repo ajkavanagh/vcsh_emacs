@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-6
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 14:03:35 CST 2005
+Standard-date: 2005-01-30 06:03:35 GMT
+Modified-files: planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-6
+Summary: E= -> U=
+Keywords: bugfix
+
+* planner-rank.el: change from "E=" to "U=" in the task description to
+  come on with the phrase change from Emergency to Urgency.
+

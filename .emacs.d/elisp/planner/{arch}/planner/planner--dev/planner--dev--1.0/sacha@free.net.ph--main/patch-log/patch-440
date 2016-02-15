@@ -1,0 +1,29 @@
+Revision: planner--dev--1.0--patch-440
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jul  1 19:19:28 PHT 2005
+Standard-date: 2005-07-01 11:19:28 GMT
+Modified-files: ChangeLog planner-multi.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-440
+Summary: Fixes planner-timeclock + planner-multi, also planner-multi-update-task
+Keywords: 
+
+* planner-timeclock.el (planner-timeclock-task-marked): Use
+  planner-timeclock-plan-string to deal with multi tasks.
+  (planner-replan-task, planner-edit-task-description,
+  (planner-timeclock-task-info): Deal with planner-multi tasks.
+  (planner-timeclock-plan-string): Convenience function for easier
+  formatting.
+  
+* planner-timeclock-summary.el (planner-timeclock-summary-extract-data):
+  Use new functions available in planner-timeclock.el to default to the
+  first plan in a task.
+  (planner-timeclock-summary-extract-task-data): Remove.
+
+* planner.el (planner-task-info-override): New.
+
+* planner-multi.el (planner-multi-remove-task-from-pool): Call standard
+  replan task function to trigger advice.
+  (planner-edit-task-description): Remove crufty and miscopied advice.

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-216
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Dec  1 18:50:11 JST 2004
+Standard-date: 2004-12-01 09:50:11 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-216
+Summary: planner-create-note-from-task: Follow original patch
+Keywords: bugfix
+
+	* planner.el (planner-create-note-from-task): Come to think of
+	it, Chris' way of checking date-ness is better than mine.
+	Silly maintainer alert! How embarrassing.

@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-254
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Dec 25 10:46:47 JST 2004
+Standard-date: 2004-12-25 01:46:47 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-254
+Summary: New: planner-dates-relative-to-today-flag
+Keywords: 
+
+	* planner.el (planner-dates-relative-to-today-flag): New.
+        Thanks to John Sullivan for the suggestion.
+	(planner-expand-name): Use planner-dates-relative-to-today.
+	(planner-read-date): Keep track of base buffer and expand relative
+	to that.

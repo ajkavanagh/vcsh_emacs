@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-79
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun  3 19:40:14 EDT 2006
+Standard-date: 2006-06-03 23:40:14 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-79
+    mwolson@gnu.org--2006/muse--main--1.0--patch-153
+Summary: Merged from mwolson@gnu.org--2006 (patch 153)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-153
+   Fix bug introduced in last patch.

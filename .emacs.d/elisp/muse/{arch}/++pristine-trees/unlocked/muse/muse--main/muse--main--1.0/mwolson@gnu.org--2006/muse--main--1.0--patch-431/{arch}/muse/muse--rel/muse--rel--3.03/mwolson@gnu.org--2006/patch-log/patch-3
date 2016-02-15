@@ -1,0 +1,11 @@
+Revision: muse--rel--3.03--patch-3
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 14:23:19 EDT 2007
+Standard-date: 2007-05-25 18:23:19 GMT
+Modified-files: Makefile
+New-patches: mwolson@gnu.org--2006/muse--rel--3.03--patch-3
+Summary: Makefile: Fix typo in debprepare
+Keywords: 
+
+* Makefile (debprepare): Fix typo.

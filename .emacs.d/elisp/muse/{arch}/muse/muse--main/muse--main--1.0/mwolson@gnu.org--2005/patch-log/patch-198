@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-198
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Aug 12 15:36:10 EST 2005
+Standard-date: 2005-08-12 20:36:10 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-198
+Summary: Keep lists from getting mashed together on M-q.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode): Handle footnotes.  Set `paragraph-start'
+  locally so that lists don't get blended together incorrectly upon
+  hitting M-q.

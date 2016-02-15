@@ -1,0 +1,22 @@
+Revision: planner--dev--1.0--patch-212
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Nov 27 16:27:42 JST 2004
+Standard-date: 2004-11-27 07:27:42 GMT
+Modified-files: planner-calendar.el planner-gnus.el
+    planner-timeclock-summary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-212
+Summary: Clean up bytecompiling errors
+Keywords: 
+
+	* planner-calendar.el (planner-calendar-date-to-filename): Move
+	before first call.
+
+	* planner-timeclock-summary.el
+	(planner-timeclock-summary-generate-report):
+	Add let bindings for free variables project-name and task-name.
+	(planner-timeclock-summary-make-table-day): Fix typo in defun.
+
+	* planner-gnus.el (planner-gnus-annotation-from-summary): Fix bug;
+	free variable `from'.
+

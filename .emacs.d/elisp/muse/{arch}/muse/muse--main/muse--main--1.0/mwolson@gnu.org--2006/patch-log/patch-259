@@ -1,0 +1,28 @@
+Revision: muse--main--1.0--patch-259
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Dec 21 23:53:16 EST 2006
+Standard-date: 2006-12-22 04:53:16 GMT
+Renamed-files: examples/johnw/.arch-ids/muse-johnw.el.id examples/johnw/.arch-ids/muse-init.el.id
+    examples/johnw/muse-johnw.el examples/johnw/muse-init.el
+Modified-files: ChangeLog examples/johnw/muse-init.el
+    examples/mwolson/muse-init.el lisp/muse-book.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-259
+Summary: manual: Update book example
+Keywords: 
+
+* examples/johnw/muse-johnw.el: Update for preferred muse-derive-style
+  usage.  Rename to muse-init.el.
+
+* examples/mwolson/muse-init.el: Update.
+
+* lisp/muse-book.el (muse-book-publish-p): New function split from
+  muse-book-publish.
+  (muse-book-get-directives): New function that retrieves the publishing
+  directives from the given file.
+  (muse-book-publish): Use muse-book-get-directives to set the title if
+  no title was specified.
+
+* texi/muse.texi (Book): Mention new way to publish books and provide an
+  example, since the process may be non-obvious.

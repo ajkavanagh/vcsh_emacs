@@ -1,0 +1,25 @@
+Revision: planner--yh--1.0--patch-22
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Wed Jul  6 16:42:07 CEST 2005
+Standard-date: 2005-07-06 14:42:07 GMT
+New-files: .arch-ids/planner-gnats.el.id planner-gnats.el
+Modified-files: ChangeLog.yh planner-el.texi
+    planner-multi.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-22
+    sacha@free.net.ph--main/planner--dev--1.0--patch-442
+    sacha@free.net.ph--main/planner--dev--1.0--patch-443
+    sacha@free.net.ph--main/planner--dev--1.0--patch-444
+Summary: Merged from sacha@free.net.ph--main (patch 442-444)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-442
+   planner-save-buffers: Do not kill non-planner-mode buffers
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-443
+   New: planner-gnats.el adds support for the GNU bugtracking system
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-444
+   Bugfix: planner-multi-replan-task: Deal with tasks without dates

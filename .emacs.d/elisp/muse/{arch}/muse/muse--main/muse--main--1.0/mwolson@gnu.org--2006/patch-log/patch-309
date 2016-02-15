@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-309
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May 14 19:45:19 EDT 2007
+Standard-date: 2007-05-14 23:45:19 GMT
+Modified-files: ChangeLog README texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-309
+Summary: Mention new muse-el-logs mailing list in documentation
+Keywords: 
+
+2007-05-14  Michael Olson  <mwolson@gnu.org>
+
+	* README, texi/muse.texi (Getting Help and Reporting Bugs):
+	Mention the new muse-el-logs mailing list.

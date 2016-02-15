@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-190
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  2 23:34:50 EST 2005
+Standard-date: 2005-08-03 04:34:50 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-190
+Summary: Fix trailing backslash error.
+Keywords: 
+
+* lisp/muse-project.el (muse-project-of-file): Apply 1-line
+  regexp-quoting fix from drkm.

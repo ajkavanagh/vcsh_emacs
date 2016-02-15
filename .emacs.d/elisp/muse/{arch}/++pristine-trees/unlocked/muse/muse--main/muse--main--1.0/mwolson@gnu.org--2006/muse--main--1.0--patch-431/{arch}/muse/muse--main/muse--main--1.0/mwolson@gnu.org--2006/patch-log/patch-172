@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-172
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Aug  6 12:44:16 EDT 2006
+Standard-date: 2006-08-06 16:44:16 GMT
+Modified-files: ChangeLog examples/johnw/publish-johnw
+    lisp/muse-publish.el muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-172
+Summary: Implement <perl>, <python>, and <ruby> tags.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-tags): Add <perl>, <python>,
+  and <ruby> tags.
+  (muse-publish-command-tag): Code indentation.
+  (muse-publish-perl-tag): New function that publishes a <perl> tag.
+  (muse-publish-python-tag): New function that publishes a <python> tag.
+  (muse-publish-ruby-tag): New function that publishes a <ruby> tag.
+
+* muse.texi (Tag Summary): Document <perl>, <python>, and <ruby>.
+
+* examples/johnw/publish-johnw: Add explanatory comment.

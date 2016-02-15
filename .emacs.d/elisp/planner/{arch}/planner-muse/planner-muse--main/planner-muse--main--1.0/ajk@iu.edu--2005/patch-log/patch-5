@@ -1,0 +1,12 @@
+Revision: planner-muse--main--1.0--patch-5
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Mon Dec  5 11:07:58 EST 2005
+Standard-date: 2005-12-05 16:07:58 GMT
+Modified-files: planner-authz.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-5
+Summary: avoid errors due to bad links
+Keywords: 
+
+ - use planner-authz-project-default when a nonexistent project page is
+   referenced

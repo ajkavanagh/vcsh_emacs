@@ -1,0 +1,13 @@
+Revision: planner-el--devel--0--patch-68
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul  9 18:03:24 EDT 2006
+Standard-date: 2006-07-09 22:03:24 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-68
+Summary: Manual: Heading fixes.
+Keywords: 
+
+* planner-el.texi (Installing from a Source Archive) 
+  (Installing from Arch, Installing from Debian): Change a few
+  @subsubsections to @subheadings.

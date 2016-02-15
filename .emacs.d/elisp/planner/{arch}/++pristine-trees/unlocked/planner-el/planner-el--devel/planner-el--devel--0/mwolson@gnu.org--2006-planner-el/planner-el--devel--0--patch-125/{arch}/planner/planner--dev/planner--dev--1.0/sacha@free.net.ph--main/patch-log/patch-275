@@ -1,0 +1,24 @@
+Revision: planner--dev--1.0--patch-275
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan  3 15:49:30 JST 2005
+Standard-date: 2005-01-03 06:49:30 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-275
+Summary: planner-multi.el: Task support
+Keywords: 
+
+	* planner-multi.el (planner-multi-separator): Change default to " ".
+	(planner-task-date): Determine the date from a list of links.
+	(planner-multi-task-xref): New interactive function.
+	(planner-copy-or-move-task): New advice.
+	(planner-update-task): New advice.
+	(planner-delete-task): New advice.
+	(planner-make-link): New advice.
+	(planner-create-task-from-info): New advice.
+	(planner-multi-task-delete-this-page): New interactive function.
+	(planner-current-note-info): planner-multi-separator is not a regexp.
+	(planner-multi-note-update): Modify update code.
+	(planner-multi-note-xref): Modify update code.
+	(planner-multi-note-delete): Modify update code.
+	(planner-multi-note-delete-this-page): Modify update code.

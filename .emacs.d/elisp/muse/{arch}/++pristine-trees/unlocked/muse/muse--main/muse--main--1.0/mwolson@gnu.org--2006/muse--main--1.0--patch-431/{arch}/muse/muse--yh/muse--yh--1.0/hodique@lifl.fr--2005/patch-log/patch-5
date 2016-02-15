@@ -1,0 +1,25 @@
+Revision: muse--yh--1.0--patch-5
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jun 18 08:42:39 CEST 2005
+Standard-date: 2005-06-18 06:42:39 GMT
+New-files: .arch-ids/README.id README
+Modified-files: ChangeLog Makefile examples/QuickStart
+    muse-blosxom.el muse-book.el muse-html.el muse.texi
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-5
+    mwolson@gnu.org--2005/muse--main--1.0--patch-60
+    mwolson@gnu.org--2005/muse--main--1.0--patch-61
+    mwolson@gnu.org--2005/muse--main--1.0--patch-62
+Summary: Merged from mwolson@gnu.org--2005 (patch 60-62)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-60
+   Document Markup Rules.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-61
+   Begin work on Publishing Styles section of manual.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-62
+   Document Blosxom, Book, DocBook, and HTML publishing styles.

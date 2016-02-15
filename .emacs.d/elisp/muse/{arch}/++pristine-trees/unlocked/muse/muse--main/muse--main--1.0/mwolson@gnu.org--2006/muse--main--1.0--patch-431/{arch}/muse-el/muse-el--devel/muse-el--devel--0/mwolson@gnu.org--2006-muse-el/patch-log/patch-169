@@ -1,0 +1,28 @@
+Revision: muse-el--devel--0--patch-169
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 29 01:30:41 EDT 2007
+Standard-date: 2007-07-29 05:30:41 GMT
+Modified-files: ChangeLog contrib/httpd.el
+    examples/mwolson/muse-init.el
+    experimental/muse-split.el lisp/muse-book.el
+    lisp/muse-http.el lisp/muse-import-latex.el
+    lisp/muse-journal.el lisp/muse-poem.el
+    lisp/muse-publish.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-169
+    mwolson@gnu.org--2006/muse--main--1.0--patch-418
+    mwolson@gnu.org--2006/muse--main--1.0--patch-419
+    mwolson@gnu.org--2006/muse--main--1.0--patch-420
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 418-420)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-418
+   Set markers to nil when done so they don't slow things down
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-419
+   Use insert-file-contents-literally instead of insert-file-contents
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-420
+   Really fix termless definition list bug

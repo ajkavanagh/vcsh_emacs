@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-33
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 23:56:35 EST 2005
+Standard-date: 2005-07-15 04:56:35 GMT
+Modified-files: ChangeLog.mwolson planner-xtla.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-33
+Summary: Minor caadr -> car cadr fixup.
+Keywords: 
+
+* planner-xtla.el (planner-xtla-url-transform): Use (car (cadr ...))
+  rather than (caadr ...) since some Emacsen can't handle that.

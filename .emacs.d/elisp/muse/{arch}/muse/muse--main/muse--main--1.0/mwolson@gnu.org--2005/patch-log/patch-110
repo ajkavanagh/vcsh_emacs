@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-110
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul  8 17:57:55 EST 2005
+Standard-date: 2005-07-08 22:57:55 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-110
+Summary: Fix Emacs21 issue with muse-insert-tag.
+Keywords: 
+
+* lisp/muse-mode.el (muse-insert-tag): Pass a list of lists to
+  completing-read to appease older Emacsen.

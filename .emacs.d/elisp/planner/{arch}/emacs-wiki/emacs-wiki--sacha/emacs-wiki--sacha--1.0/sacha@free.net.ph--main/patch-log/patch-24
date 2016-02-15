@@ -1,0 +1,16 @@
+Revision: emacs-wiki--sacha--1.0--patch-24
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Feb  9 10:44:50 PHT 2004
+Standard-date: 2004-02-09 02:44:50 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-24
+Summary: Added major-mode check to emacs-wiki
+Keywords: 
+
+	* planner.el (planner-annotation-from-wiki): Added derived-mode-p
+	check for emacs-wiki-mode.
+	(planner-annotation-from-planner): Added derived-mode-p check for
+	planner-mode.
+	(planner-annotation-from-planner-note): Added derived-mode-p check
+	for planner-mode.

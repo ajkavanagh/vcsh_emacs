@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-284
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec  6 11:57:48 EST 2005
+Standard-date: 2005-12-06 16:57:48 GMT
+New-files: lisp/.arch-ids/muse-registry.el.id
+    lisp/muse-registry.el
+Modified-files: AUTHORS ChangeLog
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-284
+Summary: Add muse-registry.el to Muse.
+Keywords: 
+
+* lisp/muse-registry.el: New file contributed by Bastien Guerry that
+  provides a URL registry for Muse.

@@ -1,0 +1,16 @@
+Revision: emacs-wiki--sacha--1.0--patch-142
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 24 19:30:54 PHT 2004
+Standard-date: 2004-03-24 11:30:54 GMT
+Modified-files: planner-erc.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-142
+Summary: Preliminary support for irc:// URLs
+Keywords: 
+
+	* planner.el (planner-encode-url): New.
+
+	* planner-erc.el (planner-erc-annotation-from-erc): Preliminary
+	support for irc:// URLs as specified by
+	http://ftp.ics.uci.edu/pub/ietf/uri/draft-mirashi-url-irc-01.txt
+

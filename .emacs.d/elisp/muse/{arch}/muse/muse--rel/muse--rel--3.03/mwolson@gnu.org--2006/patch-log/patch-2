@@ -1,0 +1,14 @@
+Revision: muse--rel--3.03--patch-2
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 14:18:05 EDT 2007
+Standard-date: 2007-05-25 18:18:05 GMT
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2006/muse--rel--3.03--patch-2
+Summary: Makefile: Remove unnecessary command
+Keywords: 
+
+2007-05-25  Michael Olson  <mwolson@gnu.org>
+
+	* Makefile (dist): No need to remove the debian/ directory, since
+	it is now in its own branch.

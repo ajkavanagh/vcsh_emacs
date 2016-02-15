@@ -1,0 +1,26 @@
+Revision: planner--main--1.0--patch-2
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 20 20:55:13 EST 2006
+Standard-date: 2006-01-21 01:55:13 GMT
+Renamed-files: debian/.arch-ids/NEWS.Debian.id debian/.arch-ids/NEWS.id
+    debian/NEWS.Debian debian/NEWS
+Modified-files: Makefile Makefile.defs debian/README.Debian
+    debian/changelog debian/emacsen-install debian/rules
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-2
+Summary: Debian package refinements.
+Keywords: 
+
+* Makefile (debrevision): New rule that causes a Debian package with a
+  revision to be built.  The main difference between this and
+  `debrelease' is that the .orig.tar.gz file is left alone.
+  (debbuild): New rule factored from debrelease.
+  (debclean): Removed, since we use slightly differing variations of this
+  in debrelease and debrevision.
+
+* debian/README.Debian: Add comments and my debian repo.
+
+* debian/emacsen-install: Make sure we symlink planner-autoloads.el.  Thanks to
+  Romain Francoise for noticing.
+
+* debian/rules: DTRT with NEWS and README.Debian.

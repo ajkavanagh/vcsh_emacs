@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-105
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 12 21:39:23 PHT 2004
+Standard-date: 2004-06-12 13:39:23 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-105
+Summary: NOTE: planner-create-task prompts for plan page unless prefix argument is supplied
+Keywords: feature
+
+	* planner.el (planner-create-task): Add prefix argument
+	which controls whether or not to prompt for a plan page.
+        Thanks to Yvonne Thomson for the suggestion.
+
+	* planner.texi (List of Interactive Functions): Update
+	documentation for planner-create-task to include prefix arg.

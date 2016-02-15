@@ -1,0 +1,18 @@
+Revision: planner-el--devel--0--patch-47
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun 20 14:10:46 EDT 2006
+Standard-date: 2006-06-20 18:10:46 GMT
+Modified-files: ChangeLog planner-el.texi planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-47
+Summary: Document through planner-publish.el.
+Keywords: 
+
+* ChangeLog: Update.
+
+* planner-el.texi (Publishing Planner pages): New section that documents
+  planner-publish.el.
+  (PSVN): New section that documents planner-psvn.el.
+
+* planner-publish.el (planner-html-inner-header): 
+  (planner-html-inner-footer): Docfix.

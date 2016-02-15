@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-321
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb  9 00:50:49 JST 2005
+Standard-date: 2005-02-08 15:50:49 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-321
+Summary: planner-multi: Be graceful about missing crm
+Keywords: 
+
+* planner-multi.el: Condition-case (require 'crm) instead of using
+CVS-style require.
+(planner-read-name): Check for completing-read-multiple.

@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-332
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Feb 27 13:41:02 JST 2005
+Standard-date: 2005-02-27 04:41:02 GMT
+Modified-files: ChangeLog planner-diary.el planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-332
+Summary: planner-diary-include-all-output-flag: New option
+Keywords: 
+
+* planner-diary.el (planner-diary-get-diary-entries): Honor
+planner-diary-include-all-output.
+(planner-diary-include-all-output-flag): New user option suggested by
+Raymond Zeitler.

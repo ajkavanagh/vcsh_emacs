@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-56
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr 14 15:05:49 EDT 2006
+Standard-date: 2006-04-14 19:05:49 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-56
+    mwolson@gnu.org--2006/muse--main--1.0--patch-108
+Summary: Merged from mwolson@gnu.org--2006 (patch 108)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-108
+   muse-wiki: Fix bug that caused WikiWords not to publish or display.

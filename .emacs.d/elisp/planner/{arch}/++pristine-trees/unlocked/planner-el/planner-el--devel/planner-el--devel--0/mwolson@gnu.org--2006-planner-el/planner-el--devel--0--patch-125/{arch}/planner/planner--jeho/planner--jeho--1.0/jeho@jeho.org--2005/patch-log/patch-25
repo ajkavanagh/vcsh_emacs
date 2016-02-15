@@ -1,0 +1,40 @@
+Revision: planner--jeho--1.0--patch-25
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Feb 25 17:56:08 GMT 2005
+Standard-date: 2005-02-25 17:56:08 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-25
+Summary: lots of little changes 
+Keywords: 
+
+* planner-appt.el: documentation changes
+(planner-appt-update-appts-on-save-flag): moved up the file
+
+
+(planner-appt-font-lock-appointments-flag): option for font-locking
+
+(planner-appt-clear-appts, planner-appt-remember-appt): new functions
+
+(planner-appt-task-regexp): modified to match with whitespace after the @ 
+
+(planner-copy-or-move-task): changed changed function names
+
+(--planner-appt-tasks-added-appts): new variable to track task-based
+appointments 
+
+
+(planner-appt-task-add): now keeps track of the appointments it adds
+
+(planner-appt-add-appts-from-tasks): renamed to be consistent with
+planner-appt-add-appts-from-schedule, changed regexp usage
+
+(planner-appt-add-appts-from-schedule): uses new clean up and tracking
+functions 
+
+(planner-appt-update, planner-appt-write-func): new unified update
+function and hook
+
+(planner-appt-methods): fiddled with the methods
+
+(planner-appt-face): renaming of planner-appt-add-face

@@ -1,0 +1,40 @@
+Revision: planner--jeho--1.0--patch-67
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri May 20 14:15:28 BST 2005
+Standard-date: 2005-05-20 13:15:28 GMT
+Modified-files: ChangeLog planner-bibtex.el planner-el.texi
+    planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-67
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-4
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-5
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-6
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-7
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-8
+    sacha@free.net.ph--main/planner--dev--1.0--patch-396
+    sacha@free.net.ph--main/planner--dev--1.0--patch-397
+Summary: merge latest
+Keywords: 
+
+Patches applied:
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-4
+   Catch up with sachac's patch-377
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-5
+   Caught up with Sacha through patch-384
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-6
+   
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-7
+   Catch up, add content to docs.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-8
+   Fixed typo.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-396
+   NOTE: planner-tasks-file-behavior new default: 'close
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-397
+   planner-bibtex-regexp: Fix typo. planner-el.texi: Add note about allout.el

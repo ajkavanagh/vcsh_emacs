@@ -1,0 +1,19 @@
+Revision: planner-muse--mwolson--1.0--patch-83
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 02:22:00 EST 2005
+Standard-date: 2005-10-29 07:22:00 GMT
+Modified-files: ChangeLog planner-deadline.el
+    planner-diary.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-83
+Summary: planner-deadline, planner-diary: Work even if day pages are disabled.
+Keywords: 
+
+* planner.el (planner-read-date): If new argument FORCE-READ is non-nil,
+  prompt for the date even when we're not using day pages.  The default
+  behavior is not to prompt when day pages are not being used.
+
+* planner-deadline.el (planner-deadline-change): Ensure that we get a
+  date, even if we're not using day pages.
+
+* planner-diary.el (planner-diary-add-entry): Ditto.

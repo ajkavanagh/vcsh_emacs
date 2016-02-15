@@ -1,0 +1,27 @@
+Revision: planner-muse--peter--1.0--patch-5
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Mon Aug  8 11:35:21 PDT 2005
+Standard-date: 2005-08-08 18:35:21 GMT
+Modified-files: planner-accomplishments.el
+    planner-publish.el planner-timeclock-summary.el
+    planner.el
+New-patches: saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-5
+Summary: html inner-header and inner-footer as well as better timeclock summary format table output
+Keywords: 
+
+* planner-accomplishments.el (planner-accomplishments-format-table): call
+  planner-align-table routine
+
+* planner-publish.el (planner-html-header): include inner-header section
+
+* planner-publish.el (planner-html-footer): include inner-footer section
+
+* planner-timeclock-summary.el
+  (planner-timeclock-summary-make-text-table-day): call
+  planner-align-table routine for table formatting
+
+* planner.el: added planner-align-table routine which does a better job
+  of displaying and publishing tables taking into account links which
+  hide invisible link wrapper characters
+

@@ -1,0 +1,12 @@
+Revision: planner--gary--1.0--patch-2
+Archive: gary@gnu.org--2004
+Creator: Gary V. Vaughan <gary@gnu.org>
+Date: Thu May 20 13:07:52 BST 2004
+Standard-date: 2004-05-20 12:07:52 GMT
+Modified-files: planner-calendar.el
+New-patches: gary@gnu.org--2004/planner--gary--1.0--patch-2
+Summary: render calendar day links correctly
+Keywords:
+
+	* planner-calendar.el (planner-calendar):  Correct an arithmetic
+	error that made calender day page links point from the wrong cell.

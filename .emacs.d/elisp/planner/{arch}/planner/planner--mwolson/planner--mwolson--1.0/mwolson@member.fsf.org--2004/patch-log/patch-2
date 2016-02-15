@@ -1,0 +1,19 @@
+Revision: planner--mwolson--1.0--patch-2
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Wed Sep 15 22:13:07 EST 2004
+Standard-date: 2004-09-16 03:13:07 GMT
+Modified-files: planner.el
+New-patches: mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-2
+Summary: Make project name customizable, fix spurious newlines in notes
+Keywords:
+
+2004-09-12  Michael Olson  <mwolson@member.fsf.org>
+
+	* planner.el (planner-project): Make this variable customizable so
+	that people are not stuck with "WikiPlanner" as the project name.
+	(planner-seek-task-creation-point): Use (bolp) instead of a
+	much-longer method to determine whether the point is at the
+	beginning of the line.
+	(planner-create-note): Ditto.  Only insert newlines if we are not
+	at the end of the buffer.

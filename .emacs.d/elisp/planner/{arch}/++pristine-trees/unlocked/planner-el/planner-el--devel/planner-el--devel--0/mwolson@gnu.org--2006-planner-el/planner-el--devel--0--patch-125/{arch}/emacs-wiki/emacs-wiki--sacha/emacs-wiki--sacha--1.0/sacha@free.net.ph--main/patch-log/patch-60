@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-60
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Mar  6 13:17:12 PHT 2004
+Standard-date: 2004-03-06 05:17:12 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-60
+Summary: Promote planner-default-task-priority to a customizable variable.
+Keywords: 
+
+	* planner.el (planner-default-task-priority): Promote to a
+	customizable variable.

@@ -1,0 +1,16 @@
+Revision: muse--yh--1.0--patch-14
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Jun 27 10:13:52 CEST 2005
+Standard-date: 2005-06-27 08:13:52 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+    lisp/muse-regexps.el lisp/muse-wiki.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-14
+    mwolson@gnu.org--2005/muse--main--1.0--patch-81
+Summary: Merged from mwolson@gnu.org--2005 (patch 81)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-81
+   Wiki hacking, regexp tweaks.

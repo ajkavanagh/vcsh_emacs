@@ -1,0 +1,11 @@
+Revision: planner--johnsu01--0--patch-7
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Wed May 11 22:06:55 EDT 2005
+Standard-date: 2005-05-12 02:06:55 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-7
+Summary: Catch up, add content to docs.
+Keywords: 
+
+Added Sacha's tip about using Allout mode with notes.

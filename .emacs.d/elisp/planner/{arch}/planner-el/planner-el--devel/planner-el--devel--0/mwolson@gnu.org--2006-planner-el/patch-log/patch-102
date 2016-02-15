@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-102
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan 14 14:20:37 EST 2007
+Standard-date: 2007-01-14 19:20:37 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-102
+Summary: Fix customize interface for planner-annotation-functions
+Keywords: 
+
+2007-01-14  Michael Olson  <mwolson@gnu.org>
+
+	* planner.el: Make sure various planner-annotation functions show
+	up in the customize interface for `planner-annotation-functions'.
+	Thanks to Hadron Quark for the report.

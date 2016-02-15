@@ -1,0 +1,16 @@
+Revision: planner-el--devel--0--patch-21
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar 24 23:49:40 EST 2006
+Standard-date: 2006-03-25 04:49:40 GMT
+New-files: .arch-ids/planner-zoom.el.id planner-zoom.el
+Modified-files: AUTHORS planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-21
+    mwolson@gnu.org--2006/planner--main--1.0--patch-24
+Summary: Merged from mwolson@gnu.org--2006 (patch 24)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-24
+   planner-zoom.el: New file used for navigating Planner pages.

@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-314
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb  1 13:27:59 JST 2005
+Standard-date: 2005-02-01 04:27:59 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-314
+Summary: planner-use-calendar-flag: Make calendar optional
+Keywords: 
+
+	* planner.el (planner-use-calendar-flag): New.
+	(planner-read-date): Make calendar optional.

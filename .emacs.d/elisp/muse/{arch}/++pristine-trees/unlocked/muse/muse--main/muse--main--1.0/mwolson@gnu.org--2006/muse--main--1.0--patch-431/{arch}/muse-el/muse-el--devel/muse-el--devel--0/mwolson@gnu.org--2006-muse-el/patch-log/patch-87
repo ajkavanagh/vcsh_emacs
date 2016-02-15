@@ -1,0 +1,29 @@
+Revision: muse-el--devel--0--patch-87
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 26 19:06:40 EDT 2006
+Standard-date: 2006-08-26 23:06:40 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-docbook.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-87
+    mwolson@gnu.org--2006/muse--main--1.0--patch-194
+    mwolson@gnu.org--2006/muse--main--1.0--patch-195
+    mwolson@gnu.org--2006/muse--main--1.0--patch-196
+    mwolson@gnu.org--2006/muse--main--1.0--patch-197
+Summary: Merged from mwolson@gnu.org--2006 (patch 194-197)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-194
+   Fix issue where backup files were being added to the file alist.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-195
+   muse-blosxom: Fix XEmacs format-time-string bug.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-196
+   muse-wiki: Try to fix an issue with large projects.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-197
+   Fix a publishing bug with nested list items.

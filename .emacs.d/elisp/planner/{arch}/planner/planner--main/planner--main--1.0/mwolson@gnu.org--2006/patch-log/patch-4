@@ -1,0 +1,20 @@
+Revision: planner--main--1.0--patch-4
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan 23 21:11:47 EST 2006
+Standard-date: 2006-01-24 02:11:47 GMT
+Modified-files: planner-calendar.el planner-publish.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-4
+Summary: planner-calendar: Make a <calendar> tag.
+Keywords: 
+
+* planner-calendar.el (planner-calendar-insert-calendar-maybe): Insert a
+  <calendar> tag, rather than using a <lisp> tag, since we can't yet tell
+  <lisp> to publish read-only.
+  (planner-calendar-move-calendar-to-top-of-page-maybe): Use
+  planner-insert-markup rather than `insert'.  Make sure we can snarf the
+  region safely, even if it is read-only.
+  (planner-publish-calendar-tag): New function that publishes a
+  <calendar> tag.
+
+* planner-publish.el (planner-publish-markup-tags): Docfix.

@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-94
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Sep 15 00:09:54 EDT 2006
+Standard-date: 2006-09-15 04:09:54 GMT
+Modified-files: ChangeLog lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-94
+    mwolson@gnu.org--2006/muse--main--1.0--patch-207
+    mwolson@gnu.org--2006/muse--main--1.0--patch-208
+Summary: Merged from mwolson@gnu.org--2006 (patch 207-208)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-208
+   muse-texinfo: Silence compiler warning

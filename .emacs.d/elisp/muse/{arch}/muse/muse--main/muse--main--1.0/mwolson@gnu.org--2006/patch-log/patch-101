@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-101
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Apr  8 22:23:47 EDT 2006
+Standard-date: 2006-04-09 02:23:47 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-101
+Summary: Try to fix failure to recognize Muse file extension (4th attempt).
+Keywords: 
+
+* lisp/muse.el: Enter Muse mode correctly on files that are specified by
+  the command line.

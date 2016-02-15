@@ -1,0 +1,75 @@
+Revision: planner--yh--1.0--patch-2
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Tue May 24 15:07:39 CEST 2005
+Standard-date: 2005-05-24 13:07:39 GMT
+New-files: .arch-ids/ChangeLog.id
+    .arch-ids/planner-psvn.el.id ChangeLog planner-psvn.el
+Removed-files: .arch-ids/ChangeLog.id ChangeLog
+Modified-files: planner-appt.el planner-bookmark.el
+    planner-diary.el planner-el.texi planner-gnus.el
+    planner-id.el planner-log-edit.el planner-multi.el
+    planner-rank.el planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-vm.el planner.el
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-5
+Modified-directories: {arch}/planner/planner--dev-kea
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0/camalot@picnicpark.org--2005-planner
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0/camalot@picnicpark.org--2005-planner/patch-log
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-33
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-34
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-35
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-36
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-37
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-38
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-2
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-57
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-58
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-59
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-60
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-61
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-62
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-63
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-64
+    john@wjsullivan.net--2005/planner--johnsu01--0--base-0
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-1
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-2
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-3
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--base-0
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-1
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-2
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-3
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-4
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-5
+    sacha@free.net.ph--main/planner--dev--1.0--patch-367
+    sacha@free.net.ph--main/planner--dev--1.0--patch-368
+    sacha@free.net.ph--main/planner--dev--1.0--patch-369
+    sacha@free.net.ph--main/planner--dev--1.0--patch-370
+    sacha@free.net.ph--main/planner--dev--1.0--patch-371
+    sacha@free.net.ph--main/planner--dev--1.0--patch-372
+    sacha@free.net.ph--main/planner--dev--1.0--patch-373
+    sacha@free.net.ph--main/planner--dev--1.0--patch-374
+    sacha@free.net.ph--main/planner--dev--1.0--patch-375
+    sacha@free.net.ph--main/planner--dev--1.0--patch-376
+    sacha@free.net.ph--main/planner--dev--1.0--patch-377
+    sacha@free.net.ph--main/planner--dev--1.0--patch-378
+    sacha@free.net.ph--main/planner--dev--1.0--patch-379
+    sacha@free.net.ph--main/planner--dev--1.0--patch-380
+    sacha@free.net.ph--main/planner--dev--1.0--patch-381
+    sacha@free.net.ph--main/planner--dev--1.0--patch-382
+    sacha@free.net.ph--main/planner--dev--1.0--patch-383
+    sacha@free.net.ph--main/planner--dev--1.0--patch-385
+    sacha@free.net.ph--main/planner--dev--1.0--patch-386
+    sacha@free.net.ph--main/planner--dev--1.0--patch-387
+    sacha@free.net.ph--main/planner--dev--1.0--patch-388
+    sacha@free.net.ph--main/planner--dev--1.0--patch-389
+    sacha@free.net.ph--main/planner--dev--1.0--patch-390
+    sacha@free.net.ph--main/planner--dev--1.0--patch-391
+    sacha@free.net.ph--main/planner--dev--1.0--patch-396
+Removed-patches: hodique@lifl.fr--2005/planner--yh--1.0--base-0
+Summary: incorporated mwolson's changes
+Keywords:
+
+synchronized with latest mwolson@gnu.org--2005/planner-muse--mwolson--1.0

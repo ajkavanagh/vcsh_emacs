@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-108
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul  8 16:59:41 EST 2005
+Standard-date: 2005-07-08 21:59:41 GMT
+Modified-files: ChangeLog examples/johnw/publish-johnw
+    lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-108
+Summary: Try to fix an error with `muse-blosxom-get-categories'.
+Keywords: 
+
+* lisp/muse-blosxom.el (muse-blosxom-get-categories): Be extra cautious
+  about processing directories.

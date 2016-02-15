@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-122
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Dec  1 13:50:12 EST 2005
+Standard-date: 2005-12-01 18:50:12 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-122
+Summary: planner-publish: Try again to fix link issue.
+Keywords: 
+
+* planner-publish.el (planner-publish-task-tag): Make another attempt at
+  fixing the link issue.

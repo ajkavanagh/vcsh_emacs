@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-230
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 29 02:44:40 EST 2006
+Standard-date: 2006-10-29 07:44:40 GMT
+Modified-files: ChangeLog NEWS
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-230
+Summary: Update NEWS
+Keywords: 
+
+2006-10-29  Michael Olson  <mwolson@gnu.org>
+
+	* NEWS: Update.

@@ -1,0 +1,19 @@
+Revision: planner-muse--mwolson--1.0--patch-136
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Dec 17 09:30:04 EST 2005
+Standard-date: 2005-12-17 14:30:04 GMT
+Modified-files: ChangeLog planner-appt.el planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-29
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-30
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-136
+Summary: Merged from jeho@jeho.org--2005 (patch 29-30)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-29
+   planner-appt: improved empty cells; rename commands
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-30
+   planner-appt: small fix for forthcoming appts

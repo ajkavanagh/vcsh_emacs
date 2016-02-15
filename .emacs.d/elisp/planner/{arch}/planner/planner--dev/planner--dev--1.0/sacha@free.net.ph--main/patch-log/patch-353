@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-353
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Mar 26 10:15:30 PHT 2005
+Standard-date: 2005-03-26 02:15:30 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-353
+Summary: planner-tasks-never-suppress-fixing-flag
+Keywords: 
+
+* planner.el (planner-tasks-never-suppress-fixing-flag): New.
+(planner-save-buffers): Follow planner-tasks-never-suppress-fixing-flag.
+Thanks to Jeremy Cowgar for pointing out this need.

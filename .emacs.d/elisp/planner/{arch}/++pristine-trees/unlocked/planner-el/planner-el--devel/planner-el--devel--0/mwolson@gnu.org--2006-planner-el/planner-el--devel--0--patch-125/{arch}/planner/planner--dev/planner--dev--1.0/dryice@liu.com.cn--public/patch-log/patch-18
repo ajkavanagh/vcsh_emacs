@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-18
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Tue Feb 22 22:20:17 CST 2005
+Standard-date: 2005-02-22 14:20:17 GMT
+New-files: .arch-ids/planner-trunk.el.id planner-trunk.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-18
+Summary: new planner-trunk.el to group tasks in day page
+Keywords: newfile, newfeature
+
+This file provide `planner-trunk-tasks', which will group the tasks in
+day pages according to `planner-trunk-rule-list'.

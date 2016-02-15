@@ -1,0 +1,21 @@
+Revision: planner--dev--1.0--patch-143
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jul 24 20:57:50 PHT 2004
+Standard-date: 2004-07-24 12:57:50 GMT
+Modified-files: planner-id.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-143
+Summary: Bugfix: Understand tasks with parenthesized non-link text
+Keywords: bugfix
+
+	* planner.el: Be more understanding of tasks that include
+        parenthesized non-link text. Thanks to John Anderson for
+        pointing this out.
+        (planner-task-info-from-string): Make sure the link
+	text is really a link before setting planner-task-link.
+	(planner-format-task): Do not unconditionally make links.
+
+	* planner-id.el (planner-id-add-task-id): Check if there's a
+	linked task.
+	(planner-id-jump-to-linked-task): Use planner-find-file instead of
+	emacs-wiki-find-file.

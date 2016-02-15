@@ -1,0 +1,24 @@
+Revision: muse-el--devel--0--patch-14
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Per B. Sederberg <per@med.upenn.edu>
+Date: Sun Mar  5 18:55:51 EST 2006
+Standard-date: 2006-03-05 23:55:51 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-14
+Summary: Added enhanced list item indentation.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode-map): Added key mappings to increase or
+  decrease the current item indentation.
+
+* muse-mode.el (muse-get-paragraph-start): Helper function to determine
+  the start of the current paragraph.
+
+* muse-mode.el (muse-insert-list-item): Cleaned up list item insertion
+  code and made it handle definitions.
+
+* muse-mode.el (muse-increase-list-item-indentation): New interactive
+  function to increase list item indentation.
+
+* muse-mode.el (muse-decrease-list-item-indentation): New interactive
+  function to decrease list item indentation.

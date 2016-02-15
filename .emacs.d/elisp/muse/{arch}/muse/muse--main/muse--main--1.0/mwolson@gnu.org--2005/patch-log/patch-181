@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-181
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 24 17:46:22 EST 2005
+Standard-date: 2005-07-24 22:46:22 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-181
+Summary: Minor namespace fix.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-explicit-link): Use
+  muse-match-string-no-properties rather than match-string-no-properties.

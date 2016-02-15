@@ -1,0 +1,11 @@
+Revision: emacs-wiki--sacha--1.0--patch-7
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jan 21 09:07:56 PHT 2004
+Standard-date: 2004-01-21 01:07:56 GMT
+Modified-files: planner-id.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-7
+Summary: Work with local-write-file-hooks 
+
+Older Emacsen don't have the functions I used before.
+

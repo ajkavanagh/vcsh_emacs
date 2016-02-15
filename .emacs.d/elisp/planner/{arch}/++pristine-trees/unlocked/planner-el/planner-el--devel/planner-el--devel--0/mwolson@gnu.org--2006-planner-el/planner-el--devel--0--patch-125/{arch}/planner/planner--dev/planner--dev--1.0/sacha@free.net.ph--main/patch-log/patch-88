@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-88
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue May 25 15:19:21 PHT 2004
+Standard-date: 2004-05-25 07:19:21 GMT
+Modified-files: planner-export-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-88
+Summary: planner-export-diary: Simplify code, do not use insert-contents-literally
+Keywords: 
+
+	* planner-export-diary.el (planner-export-diary-future): Use
+	planner-export-diary.
+	(planner-export-diary-get-schedule-entries): Do not insert
+	contents literally.  Allow spaces at the start of appointment
+	lines.  Construct the list using cons instead of append. Note:
+	This function does not guarantee any particular order.  Thanks
+	to Xin Wei Hu for bug report and patch for both changes.

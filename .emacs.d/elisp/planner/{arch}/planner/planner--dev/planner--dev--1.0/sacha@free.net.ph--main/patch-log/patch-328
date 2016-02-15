@@ -1,0 +1,46 @@
+Revision: planner--dev--1.0--patch-328
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb 16 13:58:58 JST 2005
+Standard-date: 2005-02-16 04:58:58 GMT
+Modified-files: ChangeLog planner-id.el planner-multi.el
+    planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--base-0
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-1
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-2
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-3
+    sacha@free.net.ph--main/planner--dev--1.0--patch-328
+Summary: Merge jeho's changes fixing planner-id and planner-multi interaction; tweak implementation
+Keywords: 
+
+* planner.el (with-planner-update-setup): Remove redundant
+  save-excursion.
+* planner.el (planner-task-info-from-string): Do not use
+  planner-task-line-regexp. Make status more flexible.
+* planner.el (planner-jump-to-linked-task-function): Convert into a hook.
+* planner.el (planner-jump-to-linked-task-basic): New.
+* planner.el (planner-find-task-function): Convert into a hook.
+* planner.el (planner-find-task-basic): New.
+* planner.el (with-planner-update-setup): Expand macro so that we don't need to require edebug.
+* planner-id.el (planner-id-find-task): NOTE: Change first parameter to
+  task-info to be consistent with planner-find-task. Search for
+  description if no task ID is specified.
+* planner-id.el (planner-id-jump-to-linked-task): Use planner-id-find-task.
+* planner-id.el (planner-jump-to-linked-task-function): Set instead of using advice.
+* planner-id.el (planner-find-task-function): Set instead of using advice.
+* planner-multi.el (planner-edit-task-description): Implement multi version.
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-326
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-1
+   merged source
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-2
+   planner-id.el regexp bug
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-3
+   fix interaction between task ids and multiple links
+

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-294
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec 13 09:45:20 EST 2005
+Standard-date: 2005-12-13 14:45:20 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-294
+Summary: muse-publish: Make muse-insert-markup a function.
+Keywords: 
+
+* lisp/muse-publish.el (muse-insert-markup): Use defun rather than
+  defsubst.

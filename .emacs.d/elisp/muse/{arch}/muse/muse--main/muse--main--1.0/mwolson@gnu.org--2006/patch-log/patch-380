@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-380
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul  1 11:12:13 EDT 2007
+Standard-date: 2007-07-01 15:12:13 GMT
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-380
+Summary: Makefile: Update .PHONY lines
+Keywords: 
+
+2007-07-01  Michael Olson  <mwolson@gnu.org>
+
+	* Makefile (.PHONY): Update for new debian package rules.

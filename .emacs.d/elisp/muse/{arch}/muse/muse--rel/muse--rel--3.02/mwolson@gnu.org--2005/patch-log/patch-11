@@ -1,0 +1,14 @@
+Revision: muse--rel--3.02--patch-11
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Nov 17 11:38:36 EST 2005
+Standard-date: 2005-11-17 16:38:36 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-11
+Summary: Don't interpret enddots, dots, and rule inside of links.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-enddots)
+  (muse-publish-markup-dots, muse-publish-markup-rule): Don't insert
+  markup if we are inside of a link.  Thanks to Trent Buck for the heads
+  up.

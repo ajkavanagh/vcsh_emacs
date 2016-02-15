@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-218
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Dec  2 13:18:23 JST 2004
+Standard-date: 2004-12-02 04:18:23 GMT
+Modified-files: planner-tasks-overview.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-218
+Summary: planner-tasks-overview-show-summary: plan page overview
+Keywords: new feature
+
+	* planner-tasks-overview.el (planner-tasks-overview-show-summary):
+	New. Provides an overview of unfinished (scheduled/unscheduled)
+	and completed tasks in (plan) pages.
+	(planner-tasks-overview-get-summary): New.

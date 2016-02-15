@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-132
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan 23 07:48:22 EST 2007
+Standard-date: 2007-01-23 12:48:22 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-132
+    mwolson@gnu.org--2006/muse--main--1.0--patch-276
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 276)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-276
+   Fix paragraph detection near <example> tag

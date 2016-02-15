@@ -1,0 +1,13 @@
+Revision: planner-muse--main--1.0--patch-10
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Thu Dec  8 09:36:37 EST 2005
+Standard-date: 2005-12-08 14:36:37 GMT
+Modified-files: planner-authz.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-10
+Summary: fix authz.mas generation
+Keywords: 
+
+ - properly detect whether we're publishing WikiPlanner
+
+ - use correct name of `muse-after-project-publish-hook'

@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-169
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan  8 16:51:19 EST 2006
+Standard-date: 2006-01-08 21:51:19 GMT
+Modified-files: ChangeLog.2004 ChangeLog.2005 ChangeLog.2006
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-169
+Summary: Complete writing of ChangeLogs.
+Keywords: 
+
+* ChangeLog.2004, ChangeLog.2005, ChangeLog.2006: Complete the merging of
+  other logs and removal of "merged this" logs.

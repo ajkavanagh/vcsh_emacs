@@ -1,0 +1,65 @@
+Revision: muse--jeho--1.0--patch-32
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Sep 14 08:55:04 BST 2006
+Standard-date: 2006-09-14 07:55:04 GMT
+Modified-files: AUTHORS ChangeLog
+    contrib/pyblosxom/getstamps.py
+    contrib/pyblosxom/hardcodedates.py
+    contrib/pyblosxom/make-blog lisp/muse-blosxom.el
+    lisp/muse-book.el lisp/muse-colors.el
+    lisp/muse-publish.el lisp/muse-texinfo.el
+    lisp/muse-wiki.el lisp/muse.el muse.texi
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-32
+    mwolson@gnu.org--2006/muse--main--1.0--patch-195
+    mwolson@gnu.org--2006/muse--main--1.0--patch-196
+    mwolson@gnu.org--2006/muse--main--1.0--patch-197
+    mwolson@gnu.org--2006/muse--main--1.0--patch-198
+    mwolson@gnu.org--2006/muse--main--1.0--patch-199
+    mwolson@gnu.org--2006/muse--main--1.0--patch-200
+    mwolson@gnu.org--2006/muse--main--1.0--patch-201
+    mwolson@gnu.org--2006/muse--main--1.0--patch-202
+    mwolson@gnu.org--2006/muse--main--1.0--patch-203
+    mwolson@gnu.org--2006/muse--main--1.0--patch-204
+    mwolson@gnu.org--2006/muse--main--1.0--patch-205
+    mwolson@gnu.org--2006/muse--main--1.0--patch-206
+Summary: Merged from mwolson@gnu.org--2006 (patch 195-206)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-195
+   muse-blosxom: Fix XEmacs format-time-string bug.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-196
+   muse-wiki: Try to fix an issue with large projects.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-197
+   Fix a publishing bug with nested list items.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-198
+   muse-wiki: Separate project-file stuff from wikiword regexp.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-199
+   Fix bug introduced in last patch.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-200
+   Get rid of some tabs.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-201
+   Update pyblosxom plugin header info.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-202
+   muse.texi: Fix typo.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-203
+   Revert prematurely committed patch.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-204
+   Use our own safer variant of file-name-sans-extension
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-205
+   Manual: mention the muse-el-internationalization mailing list
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-206
+   Fix #6970: Info-pdf publishing fails when a WikiLink is included in a heading

@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.1--patch-20
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Dec 13 13:44:01 GMT 2005
+Standard-date: 2005-12-13 13:44:01 GMT
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    planner-publish.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-20
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-126
+Summary: Merged from mwolson@gnu.org--2005 (patch 126)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-126
+   planner-publish: Fix void-function error when compiling.

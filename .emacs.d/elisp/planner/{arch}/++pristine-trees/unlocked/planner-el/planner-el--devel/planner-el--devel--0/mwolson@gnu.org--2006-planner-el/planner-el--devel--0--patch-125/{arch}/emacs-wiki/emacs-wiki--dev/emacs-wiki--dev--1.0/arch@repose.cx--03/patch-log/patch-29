@@ -1,0 +1,30 @@
+Revision: emacs-wiki--dev--1.0--patch-29
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Aug 12 23:01:28 EST 2003
+Standard-date: 2003-08-12 13:01:28 GMT
+Summary: revert refresh-buffer hack to avoid rescanning files
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-29
+Removed-patches: 
+
+Windows machines (maybe others) don't support checking for updated
+files based on mtime, so (emacs-wiki-file-alist) has to rescan all
+files in the wiki directories. The idea with refresh-buffer was to
+accept a child buffer in which to base information on - that
+file/wiki name was added to the file alist when the file was saved,
+without having to rescan the directory contents.
+
+The problem was that this code was a bit buggy, and unless you have
+huge wiki directories it shouldn't be a problem anyway. If you're
+using a system which is affected by this change, let me know - and of
+course, patches are welcome. It's a bit of a hack though, so better
+solutions are preferable.

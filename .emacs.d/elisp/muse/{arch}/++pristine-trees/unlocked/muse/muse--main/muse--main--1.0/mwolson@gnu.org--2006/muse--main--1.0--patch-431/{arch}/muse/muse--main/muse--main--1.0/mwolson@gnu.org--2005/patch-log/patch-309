@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-309
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec 20 21:44:57 EST 2005
+Standard-date: 2005-12-21 02:44:57 GMT
+Modified-files: ChangeLog lisp/muse-mode.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-309
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-37
+Summary: Merged from mwolson@gnu.org--2005 (patch 37)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-37
+   Make error messages during publishing more friendly.

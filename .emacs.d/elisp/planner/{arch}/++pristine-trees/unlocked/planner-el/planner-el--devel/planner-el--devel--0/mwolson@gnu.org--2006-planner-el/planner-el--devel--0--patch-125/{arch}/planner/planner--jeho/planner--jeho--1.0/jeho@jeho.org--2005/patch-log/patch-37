@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-37
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Mar  1 15:50:08 GMT 2005
+Standard-date: 2005-03-01 15:50:08 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-37
+Summary: planner-appt fixed regexp
+Keywords: 
+
+* planner-appt.el (planner-appt-schedule-task-estimate-regexp): added the
+  "nag" marker to the regexp
+

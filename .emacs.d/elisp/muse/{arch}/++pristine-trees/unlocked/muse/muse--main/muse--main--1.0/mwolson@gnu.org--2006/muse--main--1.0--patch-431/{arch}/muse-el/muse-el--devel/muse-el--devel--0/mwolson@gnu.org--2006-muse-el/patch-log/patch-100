@@ -1,0 +1,14 @@
+Revision: muse-el--devel--0--patch-100
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Sasha Kovar <sasha@arcocene.org>
+Date: Fri Oct  6 02:49:59 PDT 2006
+Standard-date: 2006-10-06 09:49:59 GMT
+Modified-files: lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-100
+Summary: Add support for pyblosxom metadate plugin.
+Keywords: 
+
+The pyblosxom metadata plugin reads a #postdate directive in the
+published file to use as the publish date instead of the last-modified
+time on the file.  This patch inserts the date using the value in the
+muse #date directive.

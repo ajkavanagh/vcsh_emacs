@@ -1,0 +1,19 @@
+Revision: planner-el--devel--0--patch-117
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May  7 16:10:22 EDT 2007
+Standard-date: 2007-05-07 20:10:22 GMT
+Modified-files: ChangeLog README planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-117
+Summary: Fix calendar publishing, use new link to online documentation in README
+Keywords: 
+
+2007-05-07  Michael Olson  <mwolson@gnu.org>
+
+	* planner-publish.el: Fix bug in publishing of calendars.  The
+	finalization was happening before the header and footer were
+	inserted, which was incorrect.
+
+2007-04-09  Michael Olson  <mwolson@gnu.org>
+
+	* README: Use new link to online documentation.

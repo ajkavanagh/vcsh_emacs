@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-390
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 15 17:22:55 EDT 2007
+Standard-date: 2007-07-15 21:22:55 GMT
+Modified-files: ChangeLog lisp/muse-journal.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-390
+Summary: muse-journal: Fix journal-html escaping bug introduced in last commit
+Keywords: 
+
+* lisp/muse-journal.el (muse-journal-html-munge-buffer): Escape quote of
+  the day using entire-document specials before snarfing it.  Mark entire
+  template as read-only -- this fixes an incorrect escaping bug.  Remove
+  read-only properties before replacing template matches so that they can
+  still be escaped with entire-document specials later on.

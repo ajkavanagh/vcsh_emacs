@@ -1,0 +1,41 @@
+Revision: muse--jeho--1.0--base-0
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Feb 15 16:06:48 GMT 2005
+Standard-date: 2005-02-15 16:06:48 GMT
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--base-0
+    lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--base-0
+    lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--patch-1
+    lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--patch-2
+    lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-1
+    lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-2
+    mwolson@gnu.org--2005/muse--main--1.0--base-0
+    mwolson@gnu.org--2005/muse--main--1.0--patch-1
+    mwolson@gnu.org--2005/muse--main--1.0--patch-2
+    mwolson@gnu.org--2005/muse--main--1.0--patch-3
+    mwolson@gnu.org--2005/muse--main--1.0--patch-4
+    mwolson@gnu.org--2005/muse--main--1.0--patch-5
+    mwolson@gnu.org--2005/muse--main--1.0--patch-6
+    mwolson@gnu.org--2005/muse--main--1.0--patch-7
+    mwolson@gnu.org--2005/muse--main--1.0--patch-8
+    mwolson@gnu.org--2005/muse--main--1.0--patch-9
+    mwolson@gnu.org--2005/muse--main--1.0--patch-10
+    mwolson@gnu.org--2005/muse--main--1.0--patch-11
+    mwolson@gnu.org--2005/muse--main--1.0--patch-12
+    mwolson@member.fsf.org--2004/muse--main--1.0--base-0
+    mwolson@member.fsf.org--2004/muse--main--1.0--patch-1
+    mwolson@member.fsf.org--2004/muse--main--1.0--patch-2
+    mwolson@member.fsf.org--2004/muse--main--1.0--patch-3
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--base-0
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-1
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-2
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-3
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-4
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-5
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-6
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-7
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-8
+Continuation-of: mwolson@gnu.org--2005/muse--main--1.0--patch-12
+Summary: tag of mwolson@gnu.org--2005/muse--main--1.0--patch-12
+
+(automatically generated log message)

@@ -1,0 +1,33 @@
+Revision: muse--jeho--1.0--patch-24
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Jan 31 12:53:37 GMT 2006
+Standard-date: 2006-01-31 12:53:37 GMT
+Modified-files: lisp/muse-latex.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse-regexps.el
+    lisp/muse-registry.el muse.texi
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-24
+    mwolson@gnu.org--2006/muse--main--1.0--patch-5
+    mwolson@gnu.org--2006/muse--main--1.0--patch-6
+    mwolson@gnu.org--2006/muse--main--1.0--patch-7
+    mwolson@gnu.org--2006/muse--main--1.0--patch-8
+    mwolson@gnu.org--2006/muse--main--1.0--patch-9
+Summary: Merged from mwolson@gnu.org--2006 (patch 5-9)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-5
+   Allow beginning and ending empty elements in tables.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-6
+   muse-latex: Handle double-quote edge case.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-7
+   muse-registry: update from author.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-8
+   Fix an error with `custom-quote'.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-9
+   Add documentation to some publishing functions.

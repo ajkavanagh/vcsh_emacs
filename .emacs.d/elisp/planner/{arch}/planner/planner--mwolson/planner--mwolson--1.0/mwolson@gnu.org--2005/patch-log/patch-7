@@ -1,0 +1,19 @@
+Revision: planner--mwolson--1.0--patch-7
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 25 00:22:50 EST 2005
+Standard-date: 2005-06-25 05:22:50 GMT
+Modified-files: planner-el.texi planner-report.el planner.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-7
+Summary: Use `planner-derived-mode-p' instead of `derived-mode-p'.
+Keywords: 
+
+* planner.el (with-planner): Remove commented-out declare line since
+  we're using the correct alternative.
+
+* planner-el.texi (Publishing): Use `planner-derived-mode-p' instead of
+  `derived-mode-p'.
+
+* planner-report.el (planner-report-generate): Ditto.
+
+* planner.el (planner-read-task): Ditto.

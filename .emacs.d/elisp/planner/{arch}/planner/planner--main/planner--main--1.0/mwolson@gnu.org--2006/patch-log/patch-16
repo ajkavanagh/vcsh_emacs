@@ -1,0 +1,28 @@
+Revision: planner--main--1.0--patch-16
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar  6 16:33:43 EST 2006
+Standard-date: 2006-03-06 21:33:43 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-51
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-52
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-53
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-13
+    mwolson@gnu.org--2006/planner--main--1.0--patch-16
+Summary: Merged from jeho@jeho.org--2005 (patch 51-53), mwolson@gnu.org--2006-planner-el (patch 13)
+Keywords: merge
+
+(Author: Jim Ottaway <j.ottaway@lse.ac.uk>)
+
+* planner-appt.el: Revert to the old method of tracking appts added to
+  the schedule.  The text property method was simpler, but failed when
+  re-visiting today's plan page [since text properties don't get saved].
+  (planner-appt-update-appt-section): fix wrong side of bound error
+  (--planner-appt-lines-added-to-section): global variable tracking appts
+  added to the schedule
+  (planner-appt-task-schedule-item-p): use
+  --planner-appt-lines-added-to-section
+  (planner-appt-update-appt-section): revert to the old method
+  (planner-appt-forthcoming-get-appts): fix small bug where an appt
+  schedule item would fall through the conditional  and try to be parsed
+  as a task item.

@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-283
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Mar 31 19:21:18 EDT 2007
+Standard-date: 2007-03-31 23:21:18 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-283
+Summary: Fix muse-style-derived-p edge case
+Keywords: 
+
+2007-03-31  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-style-derived-p): Fix bug where the
+	expression (muse-style-derived-p "latex" (muse-style "latex"))
+	yielded nil.  It now yields t, as expected.  Thanks to Jim Ottaway
+	for the catch.

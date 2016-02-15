@@ -1,0 +1,23 @@
+Revision: muse--main--1.0--patch-403
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 24 00:53:27 EDT 2007
+Standard-date: 2007-07-24 04:53:27 GMT
+Modified-files: ChangeLog lisp/muse-context.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-403
+Summary: Document muse-context.el in manual
+Keywords: 
+
+2007-07-24  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-context.el (muse-context-pdf-program): New option that
+	determines the program to use for generating PDF files for
+	ConTeXt.
+	(muse-context-pdf-cruft): New option that specifies the extensions
+	of files to remove after generating PDF output successfully.
+	(muse-context-slides-header): Docfix.
+	(muse-context-pdf-generate): Use new options.
+
+	* texi/muse.texi (ConTeXt): New section that documents how to use
+	the ConTeXt publishing styles.

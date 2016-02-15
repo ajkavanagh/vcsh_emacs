@@ -1,0 +1,20 @@
+Revision: planner-el--devel--0--patch-75
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 12 15:47:56 EDT 2006
+Standard-date: 2006-08-12 19:47:56 GMT
+Modified-files: AUTHORS ChangeLog Makefile
+    contrib/schedule.el contrib/timeclock.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-75
+Summary: timeclock.el: Check in changes from Aidrian Aichner.
+Keywords: 
+
+* Makefile (.PHONY): Split long line.
+
+* AUTHORS: Bookkeeping.
+
+* contrib/schedule.el: Update header.
+
+* contrib/timeclock.el: Install Adrian's changes from 2006-08-01.  Note
+  that this version of the file is not distributed with GNU Emacs, but
+  with Planner instead.

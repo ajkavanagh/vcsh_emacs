@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-155
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan  3 17:26:15 EST 2006
+Standard-date: 2006-01-03 22:26:15 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-155
+Summary: Yet Another paragraph detection try.
+Keywords: 
+
+* planner-publish.el (planner-publish-markup-note): Put the newlines in a
+  different spot.
+  (planner-publish-content-tag): Be a bit more delicate about where we
+  insert the markup.

@@ -1,0 +1,19 @@
+Revision: planner-muse--mwolson--1.0--patch-167
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jan  7 01:02:30 EST 2006
+Standard-date: 2006-01-07 06:02:30 GMT
+New-files: .arch-ids/ChangeLog.2004.id
+    .arch-ids/ChangeLog.2005.id .arch-ids/ChangeLog.2006.id
+    ChangeLog.2004 ChangeLog.2005 ChangeLog.2006
+Removed-files: .arch-ids/ChangeLog.id ChangeLog
+Modified-files: Makefile Makefile.defs
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-167
+Summary: Update Makefile, split ChangeLog.
+Keywords: 
+
+* Makefile (release): Create GPG keys here instead of at upload time.
+
+* ChangeLog: Refactor into ChangeLog.2004-2006.  We'll just manually
+  merge in entries at release time, I guess.  It might be good to get the
+  full logs from merged sources, too.

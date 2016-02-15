@@ -1,0 +1,14 @@
+Revision: muse-epomulet--0--patch-6
+Archive: e.pomohaci@gmail.com--2006
+Creator: Elena Pomohaci <e.pomohaci@gmail.com>
+Date: Fri Aug  4 07:02:48 EEST 2006
+Standard-date: 2006-08-04 04:02:48 GMT
+New-patches: e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-6
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-83
+Summary: Merged from mwolson@gnu.org--2006-muse-el (patch 83)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-83
+   Merged from e.pomohaci@gmail.com--2006 (patch 0-5)

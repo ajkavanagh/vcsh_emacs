@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-385
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr 26 22:40:11 PHT 2005
+Standard-date: 2005-04-26 14:40:11 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-385
+Summary: Bugfix: Make planner-sort-tasks stop causing backtraces
+Keywords: 
+
+* planner.el (planner-sort-tasks): Merge Angus Lees' version fixing
+  fontification-related backtrace by using sort-subr instead of
+  sort-fields-1.

@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-216
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 01:45:05 EDT 2006
+Standard-date: 2006-10-15 05:45:05 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-blosxom.el
+    lisp/muse-protocols.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-216
+Summary: Do some bookkeeping
+Keywords: 
+
+2006-10-15  Michael Olson  <mwolson@gnu.org>
+
+	* AUTHORS: Bookkeeping.
+
+	* lisp/muse-blosxom.el (muse-blosxom-header): Indent code in lisp
+	tag.

@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-68
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Mar  7 23:49:23 PHT 2004
+Standard-date: 2004-03-07 15:49:23 GMT
+Modified-files: planner-rmail.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-68
+Summary: Add major-mode check for planner-rmail.
+Keywords: 
+
+	* planner-rmail.el (planner-rmail-annotation-from-mail): Add
+	major-mode check.

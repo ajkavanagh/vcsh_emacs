@@ -1,0 +1,96 @@
+Revision: planner--johnsu01--0--patch-12
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sun Jun 12 20:48:23 EDT 2005
+Standard-date: 2005-06-13 00:48:23 GMT
+Modified-files: ChangeLog planner-accomplishments.el
+    planner-appt.el planner-authz.el planner-diary.el
+    planner-el.texi planner-id.el planner-lisp.el
+    planner-rss.el planner-tasks-overview.el
+    planner-timeclock.el planner-xtla.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-39
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-41
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-42
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-65
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-66
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-67
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-68
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-12
+    sacha@free.net.ph--main/planner--dev--1.0--patch-399
+    sacha@free.net.ph--main/planner--dev--1.0--patch-400
+    sacha@free.net.ph--main/planner--dev--1.0--patch-401
+    sacha@free.net.ph--main/planner--dev--1.0--patch-402
+    sacha@free.net.ph--main/planner--dev--1.0--patch-403
+    sacha@free.net.ph--main/planner--dev--1.0--patch-404
+    sacha@free.net.ph--main/planner--dev--1.0--patch-405
+    sacha@free.net.ph--main/planner--dev--1.0--patch-406
+    sacha@free.net.ph--main/planner--dev--1.0--patch-407
+    sacha@free.net.ph--main/planner--dev--1.0--patch-408
+    sacha@free.net.ph--main/planner--dev--1.0--patch-409
+    sacha@free.net.ph--main/planner--dev--1.0--patch-410
+    sacha@free.net.ph--main/planner--dev--1.0--patch-411
+Summary: Merge to catch up with sachac. 
+Keywords: 
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-39
+   merge patch 368-398 from Sachac
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-41
+   merge patch 399-402 from Sacha
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-42
+   Merge Andrew's change and support definde section access rule
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-65
+   merget patches 385--391
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-66
+   merge latest patches
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-67
+   merge latest
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-68
+   small change to planner-lisp.el
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-399
+   Bugfix: planner-extract-tasks: Accept list of pages
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-400
+   planner-lisp: Allow arbitrary Lisp expressions
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-401
+   Docfix: planner-lisp: Add arbitrary functions example
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-402
+   Provide planner-log-edit like functionality for xtla
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-403
+   New function: planner-delete-section[-text], add CREATE to planner-narrow-to-section
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-404
+   Bugfix: planner-delete-note actually works now, and planner-rss recognizes categories
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-405
+   Bugfix: Allow arbitrary extensions by using emacs-wiki-page-name
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-406
+   Bugfix: planner-appt-add-appts-from-schedule and empty schedules
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-407
+   Bugfix: planner-appt-add-appts-from-schedule and empty schedules
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-408
+   planner-tasks-overview-get-summary: Work with files in subdirectories
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-409
+   Bugfix: Use write-file-hooks
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-410
+   planner-authz: Merge dryice/42 adding section access rules
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-411
+   New hook: planner-mark-task-hook
+

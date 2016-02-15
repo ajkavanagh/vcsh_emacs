@@ -1,0 +1,18 @@
+Revision: planner-muse--mwolson--1.0--patch-2
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 20 16:44:57 EST 2005
+Standard-date: 2005-05-20 21:44:57 GMT
+Modified-files: ChangeLog planner-gnus.el
+    planner-log-edit.el planner-mhe.el planner-unix-mail.el
+    planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-1
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-2
+Summary: Merge in Yann Hodique's planner-muse patch.
+Keywords: 
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-1
+   Some hacks on planner--muse
+

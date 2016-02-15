@@ -1,0 +1,24 @@
+Revision: muse--main--1.0--patch-225
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 28 17:37:14 EDT 2006
+Standard-date: 2006-10-28 21:37:14 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-225
+Summary: Checkpoint my definition list publishing changes
+Keywords: 
+
+2006-10-28  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-determine-dl-indent): New
+	function that is used as a callback to determine the initial
+	amount of indentation that the current dl item has.
+	(muse-publish-surround-dl): Use it.  Pass the initial indent value
+	and the post-indent value, instead of trying to determine them
+	both.
+	(muse-publish-strip-list-indentation): New function stripped from
+	`muse-publish-surround-text' for readability.
+	(muse-publish-surround-text): Instead of taking a determine-indent
+	value, take a determine-indent-func function, which is called just
+	after finding the next list item.  There are still some definition
+	list bugs with this implementation, but I need to checkpoint it.

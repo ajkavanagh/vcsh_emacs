@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-267
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  8 10:01:43 EST 2007
+Standard-date: 2007-01-08 15:01:43 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-267
+Summary: Fix bug with <include ... markup="example">
+Keywords: 
+
+2007-01-08  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-markup-tag-info): Use the given
+	argument rather than calling match-string.  Thanks to Stefan van
+	der Walt for the report.  This should fix a bug with publishing
+	<include file="..." markup="example">.

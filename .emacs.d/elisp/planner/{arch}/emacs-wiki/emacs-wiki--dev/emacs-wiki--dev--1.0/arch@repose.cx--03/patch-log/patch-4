@@ -1,0 +1,21 @@
+Revision: emacs-wiki--dev--1.0--patch-4
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Mon Jun 23 01:15:18 EST 2003
+Standard-date: 2003-06-22 15:15:18 GMT
+Summary: (emacs-wiki-read-name): use the provided file list
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-4
+Removed-patches: 
+
+Use just the xemacs version, rather than bothering with two code paths due to
+extra functionality in emacs's completing-read. Use file-alist rather than
+(emacs-wiki-file-alist), so that the completions are narrowed properly.

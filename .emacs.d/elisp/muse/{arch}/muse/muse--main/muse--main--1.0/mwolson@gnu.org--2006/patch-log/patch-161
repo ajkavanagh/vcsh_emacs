@@ -1,0 +1,24 @@
+Revision: muse--main--1.0--patch-161
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul  4 01:00:35 EDT 2006
+Standard-date: 2006-07-04 05:00:35 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+    lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-161
+Summary: Fix publishing bug introduced in last patch.
+Keywords: 
+
+* lisp/muse-project.el (muse-current-output-style): New variable that
+  holds the output style that is currently being used to publish a file.
+  (muse-project-page-file): When a subdirectory is used, only record
+  matches.  Sort using matches, not entire list.
+  (muse-project-resolve-link): Docfix.
+  (muse-project-current-output-style): New function that returns the
+  current output style.
+  (muse-project-link-page): Use the local output style, not the other
+  kind of style.
+  (muse-project-publish-file): Set muse-current-output-style.
+
+* lisp/muse-wiki.el (muse-wiki-resolve-project-page): Use
+  muse-current-output-style.

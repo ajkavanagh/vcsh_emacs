@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-231
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Dec 14 12:44:26 JST 2004
+Standard-date: 2004-12-14 03:44:26 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-231
+Summary: planner-mark-task: Minimize buffer editing
+Keywords: bugfix
+
+	* planner.el (planner-mark-task): Minimize buffer editing and make
+	save-excursion work.

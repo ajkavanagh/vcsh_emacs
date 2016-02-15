@@ -1,0 +1,35 @@
+Revision: planner-el--devel--0--patch-12
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Feb 28 16:49:28 GMT 2006
+Standard-date: 2006-02-28 16:49:28 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-46
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-47
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-48
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-49
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-50
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-12
+    mwolson@gnu.org--2006/planner--main--1.0--patch-14
+Summary: Merged from jeho@jeho.org--2005 (patch 46-50), mwolson@gnu.org--2006 (patch 14)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-46
+   Merged from mwolson@gnu.org--2006 (patch 7-8)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-47
+   planner-appt: fix highlighting on plan pages
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-48
+   planner-appt: refinement to highlighting 
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-49
+   Merged from mwolson@gnu.org--2006-planner-el (patch 0-11), mwolson@gnu.org--2006 (patch 9-14)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-50
+   planner-appt: fix coding issue in forthcoming appts
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-14
+   Merged from mwolson@gnu.org--2006-planner-el (patch 8-11)

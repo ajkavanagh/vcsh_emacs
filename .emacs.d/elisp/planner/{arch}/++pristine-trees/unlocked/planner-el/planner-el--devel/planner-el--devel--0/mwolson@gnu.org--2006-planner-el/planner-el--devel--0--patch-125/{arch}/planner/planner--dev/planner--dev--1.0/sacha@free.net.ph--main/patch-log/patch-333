@@ -1,0 +1,26 @@
+Revision: planner--dev--1.0--patch-333
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar  1 17:17:05 PHT 2005
+Standard-date: 2005-03-01 09:17:05 GMT
+Modified-files: ChangeLog planner-bibtex.el
+    planner-bookmark.el planner-gnus.el planner-mhe.el
+    planner-multi.el planner-w3m.el planner-wl.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-333
+Summary: 
+Keywords: 
+
+* planner.el (planner-make-link): New parameter SINGLE forces link to be
+  treated as a single link. Thanks to Dryice Liu for the bugfix suggestion
+  and patch.
+  (planner-annotation-from-planner-note): Single link.
+  (planner-annotation-from-file): Single link.
+  (planner-annotation-from-info): Single link.
+* planner-bibtex.el (planner-bibtex-annotation-new): Single link.
+* planner-bookmark.el (planner-bookmark-make-url): Single link.
+* planner-gnus.el (planner-gnus-annotation-from-message): Single link.
+  (planner-gnus-annotation-from-summary): Single link.
+* planner-mhe.el (planner-mhe-annotation): Single link.
+* planner-vm.el (planner-vm-annotation-from-mail): Single link.
+* planner-w3m.el (planner-w3m-annotation-from-w3m): Single link.
+* planner-wl.el (planner-wl-annotation-from-wl): Single link.

@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-53
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 22 10:17:25 PHT 2004
+Standard-date: 2004-04-22 02:17:25 GMT
+Modified-files: planner-wl.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-53
+Summary: planner-wl: Merge bugfixes from Angus Lee
+Keywords: 
+
+	* planner-wl.el: Merge bugfixes from Angus Lee.
+

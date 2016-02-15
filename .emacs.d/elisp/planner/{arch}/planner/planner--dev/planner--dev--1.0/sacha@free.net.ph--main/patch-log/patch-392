@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-392
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri May  6 11:08:32 PHT 2005
+Standard-date: 2005-05-06 03:08:32 GMT
+Modified-files: ChangeLog planner-el.texi planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-392
+Summary: planner-list-tasks-with-status: Fix insert-file-contents(nil) backtrace
+Keywords: 
+
+* planner.el (planner-tasks-tag): Do not include temporary files.
+(planner-search-notes-internal): Do not include temporary files.
+(planner-past-notes-tag): Do not include temporary files.
+(planner-list-tasks-with-status): Do not include temporary files. Do not
+insert template. Add new arguments START and END. Thanks to sf for
+reporting this bug. This should fix the case where unsaved files cause a
+backtrace starting with insert-file-contents(nil).
+
+* planner-el.texi (Viewing Tasks): Update docuentation for
+  planner-list-tasks-with-status.

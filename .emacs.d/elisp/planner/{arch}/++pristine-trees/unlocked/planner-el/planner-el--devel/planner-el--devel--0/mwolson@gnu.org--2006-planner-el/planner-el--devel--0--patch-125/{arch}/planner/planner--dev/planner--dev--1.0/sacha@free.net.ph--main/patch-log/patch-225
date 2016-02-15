@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-225
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Dec  9 23:48:17 JST 2004
+Standard-date: 2004-12-09 14:48:17 GMT
+Modified-files: ChangeLog planner-deadline.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-225
+Summary: planner-deadline.el: Remove hook
+Keywords: bugfix
+
+	* planner-deadline.el: Remove hook.

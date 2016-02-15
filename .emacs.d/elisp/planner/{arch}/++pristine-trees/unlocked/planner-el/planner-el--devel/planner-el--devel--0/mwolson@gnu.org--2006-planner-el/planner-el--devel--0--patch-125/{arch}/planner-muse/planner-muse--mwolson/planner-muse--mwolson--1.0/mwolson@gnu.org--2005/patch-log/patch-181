@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-181
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan 15 11:51:31 EST 2006
+Standard-date: 2006-01-15 16:51:31 GMT
+Modified-files: planner-appt.el planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-41
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-181
+Summary: planner-appt: Handle initialization of the appt system.
+Keywords: 
+
+* planner-appt.el (planner-appt-insinuate): Merged patch from Jim Ottaway
+  that initializes the appt system.
+
+* planner-el.texi (Appointments): Remove old kludge.

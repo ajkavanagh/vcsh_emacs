@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-356
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 30 12:01:26 PHT 2005
+Standard-date: 2005-03-30 04:01:26 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-356
+Summary: planner-multi-filter-links makes planner-create-task-from-info better at overriding dates
+Keywords: 
+
+* planner-multi.el (planner-create-task-from-info): Handle overriding dates better.
+  (planner-multi-filter-links): New convenience function for keeping or removing
+  links.

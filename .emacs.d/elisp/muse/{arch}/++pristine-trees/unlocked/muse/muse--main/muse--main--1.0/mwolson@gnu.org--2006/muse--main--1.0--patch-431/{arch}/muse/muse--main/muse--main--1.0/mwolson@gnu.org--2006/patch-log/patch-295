@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-295
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Apr 19 20:16:20 EDT 2007
+Standard-date: 2007-04-20 00:16:20 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-295
+Summary: Fix bug introduced in patch-293
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-mark-up-tag): Don't forget to escape
+  specials in the region before making it read-only.

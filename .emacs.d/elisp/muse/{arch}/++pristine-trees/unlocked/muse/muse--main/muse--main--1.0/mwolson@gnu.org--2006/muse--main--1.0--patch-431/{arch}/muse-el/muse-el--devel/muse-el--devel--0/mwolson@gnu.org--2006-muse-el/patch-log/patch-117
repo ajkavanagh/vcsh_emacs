@@ -1,0 +1,33 @@
+Revision: muse-el--devel--0--patch-117
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Nov 19 16:53:51 EST 2006
+Standard-date: 2006-11-19 21:53:51 GMT
+Modified-files: ChangeLog Makefile.defs NEWS
+    lisp/muse-latex.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-117
+    mwolson@gnu.org--2006/muse--main--1.0--patch-245
+    mwolson@gnu.org--2006/muse--main--1.0--patch-246
+    mwolson@gnu.org--2006/muse--main--1.0--patch-247
+    mwolson@gnu.org--2006/muse--main--1.0--patch-248
+    mwolson@gnu.org--2006/muse--main--1.0--patch-249
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 245-249)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-245
+   Make Emacs Muse 3.02.93 (3.03 RC3) available
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-246
+   Fix several typos in the manual
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-247
+   muse-latex: Make lists nested inside of definition lists look right
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-248
+   muse-latex: Fix nested enumerated list bug
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-249
+   muse-publish: Prevent suffix from being added to non-Muse-page links

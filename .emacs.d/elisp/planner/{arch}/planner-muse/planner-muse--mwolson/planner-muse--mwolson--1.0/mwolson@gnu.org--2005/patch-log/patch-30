@@ -1,0 +1,20 @@
+Revision: planner-muse--mwolson--1.0--patch-30
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 13:58:44 EST 2005
+Standard-date: 2005-07-14 18:58:44 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-timeclock.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-30
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-31
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-30
+Summary: Merged from hodique@lifl.fr--2005 (patch 30-31)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-30
+   Merged from mwolson@gnu.org--2005 (patch 27-29), sacha@free.net.ph--main (patch 450)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-31
+   Fix bug #2647

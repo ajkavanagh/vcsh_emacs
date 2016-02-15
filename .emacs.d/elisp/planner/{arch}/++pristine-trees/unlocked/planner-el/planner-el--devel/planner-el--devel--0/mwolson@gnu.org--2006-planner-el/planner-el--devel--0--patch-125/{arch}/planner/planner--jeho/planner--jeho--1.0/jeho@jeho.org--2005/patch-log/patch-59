@@ -1,0 +1,71 @@
+Revision: planner--jeho--1.0--patch-59
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Apr 15 17:48:26 BST 2005
+Standard-date: 2005-04-15 16:48:26 GMT
+New-files: .arch-ids/planner-psvn.el.id planner-psvn.el
+Modified-files: ChangeLog planner-appt.el
+    planner-bookmark.el planner-diary.el planner-el.texi
+    planner-rank.el planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-vm.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-33
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-34
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-35
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-36
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-37
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-38
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-59
+    sacha@free.net.ph--main/planner--dev--1.0--patch-368
+    sacha@free.net.ph--main/planner--dev--1.0--patch-369
+    sacha@free.net.ph--main/planner--dev--1.0--patch-370
+    sacha@free.net.ph--main/planner--dev--1.0--patch-371
+    sacha@free.net.ph--main/planner--dev--1.0--patch-372
+    sacha@free.net.ph--main/planner--dev--1.0--patch-373
+    sacha@free.net.ph--main/planner--dev--1.0--patch-374
+    sacha@free.net.ph--main/planner--dev--1.0--patch-375
+Summary: merge latest 
+Keywords: 
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-33
+   Merge patch 345-352 from Sacha
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-34
+   merge patch 353-367 from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-35
+   speed up planner-rank
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-36
+   conditional require remember.el
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-37
+   Place the annotation in task title where I want
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-38
+   fix private symbal introduced yesterday
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-368
+   Merge planner-multi-read-name bugfix from jeho
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-369
+   Bugfix: planner-timeclock-summary-proj. New: planner-annotation-symbol-string, planner-create-task-from-note
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-370
+   New: planner-timewarp. Bugfix: Group .*? regexp to deal with possible XEmacs bug.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-371
+   New: planner-annotation-from-dired, planner-psvn
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-372
+   Bugfix: planner-vm-browse-url
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-373
+   planner-psvn bugfix: stray paren
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-374
+   Docfix: Update URL for remind
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-375
+   Docfix: carrying over unfinished tasks.

@@ -1,0 +1,21 @@
+Revision: muse-el--devel--0--patch-102
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 01:56:41 EDT 2006
+Standard-date: 2006-10-15 05:56:41 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-blosxom.el
+    lisp/muse-protocols.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-102
+    mwolson@gnu.org--2006/muse--main--1.0--patch-215
+    mwolson@gnu.org--2006/muse--main--1.0--patch-216
+Summary: Finish merge from muse--main--1.0
+Keywords: 
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-215
+   Merged from mwolson@gnu.org--2006-muse-el (patch 99-100)
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-216
+   Do some bookkeeping
+

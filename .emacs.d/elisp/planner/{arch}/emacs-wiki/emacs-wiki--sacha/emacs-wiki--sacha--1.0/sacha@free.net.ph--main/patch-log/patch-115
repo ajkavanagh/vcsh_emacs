@@ -1,0 +1,16 @@
+Revision: emacs-wiki--sacha--1.0--patch-115
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 16 11:47:05 PHT 2004
+Standard-date: 2004-03-16 03:47:05 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-115
+Summary: Make non-reactive tasks easier to schedule; swap sense of C-u on planner-create-task-from-buffer
+Keywords: 
+
+	* planner.el (planner-create-task-from-buffer): User-visible
+	change: Swap sense of C-u. You now need to press C-u to associate
+	a task only with a date page (punish reactive tasks!). By default,
+	tasks are associated with the current plan page or the last plan
+	page selected from the minibuffer.
+	(planner-default-page): New.

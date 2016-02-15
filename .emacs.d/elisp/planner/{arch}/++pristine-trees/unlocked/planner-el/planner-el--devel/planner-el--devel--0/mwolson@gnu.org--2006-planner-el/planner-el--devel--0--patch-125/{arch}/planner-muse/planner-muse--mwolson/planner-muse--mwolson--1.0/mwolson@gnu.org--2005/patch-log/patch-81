@@ -1,0 +1,21 @@
+Revision: planner-muse--mwolson--1.0--patch-81
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 00:54:43 EST 2005
+Standard-date: 2005-10-29 05:54:43 GMT
+Modified-files: ChangeLog planner-deadline.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-81
+Summary: Tasks with deadlines will be moved properly from previous days.
+Keywords: 
+
+* planner-deadline.el: Whitespace munging.  Make sure
+ planner-deadline-update to planner-goto-hook -- it's a sure thing that
+ this behavior will be desired if you have deadlines!
+ (planner-deadline-change-hook): Add planner-deadline-update as the
+ default value.
+
+* planner.el (planner-copy-or-move-region): Optimize.  Only move upwards
+  if no tasks exists at this line, or if we encounter an error.  This
+  should prevent planner from playing Russian Roulette with tasks from
+  previous days, such as deadlines.
+  (plan): Use point-min and point-max for the sake of clarity.

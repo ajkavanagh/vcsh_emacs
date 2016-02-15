@@ -1,0 +1,30 @@
+Revision: muse--yh--1.0--patch-13
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jun 25 11:21:01 CEST 2005
+Standard-date: 2005-06-25 09:21:01 GMT
+Modified-files: ChangeLog Makefile Makefile.defs README
+    examples/QuickStart lisp/muse-blosxom.el
+    lisp/muse-poem.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse.el muse.texi
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-13
+    mwolson@gnu.org--2005/muse--main--1.0--patch-77
+    mwolson@gnu.org--2005/muse--main--1.0--patch-78
+    mwolson@gnu.org--2005/muse--main--1.0--patch-79
+    mwolson@gnu.org--2005/muse--main--1.0--patch-80
+Summary: Merged from mwolson@gnu.org--2005 (patch 77-80)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-77
+   Make muse-replace-regexp-in-string closer to its parent; no func change.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-78
+   Add `muse-current-file', fix minor QuickStart issue.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-79
+   Fix compiler warning induced by last patch.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-80
+   Make installation of manual when not using Debian go smoothly.

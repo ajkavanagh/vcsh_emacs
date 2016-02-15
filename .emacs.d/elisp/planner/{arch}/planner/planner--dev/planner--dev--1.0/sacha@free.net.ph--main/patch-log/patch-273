@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-273
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan  3 15:12:26 JST 2005
+Standard-date: 2005-01-03 06:12:26 GMT
+Modified-files: ChangeLog planner-experimental.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-273
+Summary: Promote planner-update-note from experimental to planner.el
+Keywords: 
+
+	* planner.el (planner-update-note): Merge from planner-experimental.el.
+
+	* planner-experimental.el: Move planner-update-note to main.

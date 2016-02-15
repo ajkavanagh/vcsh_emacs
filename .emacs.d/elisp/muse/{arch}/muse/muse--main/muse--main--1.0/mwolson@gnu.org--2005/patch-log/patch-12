@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-12
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Feb  7 23:20:41 EST 2005
+Standard-date: 2005-02-08 04:20:41 GMT
+New-files: .arch-ids/muse.texi.id muse.texi
+Modified-files: ChangeLog
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-12
+Summary: Initial commit of muse.texi, nothing substantial
+Keywords: 
+
+2005-02-07  Michael Olson  <mwolson@gnu.org>
+
+    * muse.texi: New file that provides the documentation for Muse.
+    It is in a very rough form at the moment.  Nothing substantial may
+    be found here yet.  Be ye warned.

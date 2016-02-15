@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-415
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 16 13:57:33 PHT 2005
+Standard-date: 2005-06-16 05:57:33 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-415
+Summary: planner-multi: planner-task-plan: override for planner-multi
+Keywords: 
+
+* planner-multi.el (planner-task-plan): Override this for planner-multi as well.

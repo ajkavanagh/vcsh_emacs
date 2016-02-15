@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-17
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Feb 19 13:17:35 GMT 2005
+Standard-date: 2005-02-19 13:17:35 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-17
+Summary: smarter and faster calendar markup
+Keywords: 
+
+* planner-appt.el (planner-appt-mark-calendar): added TO option; made it
+  only do as much work as necessary
+

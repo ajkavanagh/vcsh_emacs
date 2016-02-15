@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.1--patch-22
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Dec 13 14:09:20 GMT 2005
+Standard-date: 2005-12-13 14:09:20 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-22
+Summary: planner-appt: make appt highlighting conditional
+Keywords: 
+
+* planner-appt.el (planner-appt-limit-highlighting-flag): New
+  customizable variable.
+  (planner-appt-task-highlight): check that the user wants to limit
+  highlighting to tasks and schedule; if so, check that this is a task or
+  schedule line.
+

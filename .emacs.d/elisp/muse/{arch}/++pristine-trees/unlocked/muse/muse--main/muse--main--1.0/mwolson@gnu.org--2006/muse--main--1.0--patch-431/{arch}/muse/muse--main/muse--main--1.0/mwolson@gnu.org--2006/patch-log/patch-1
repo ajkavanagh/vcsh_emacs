@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-1
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan 19 10:55:19 EST 2006
+Standard-date: 2006-01-19 15:55:19 GMT
+Renamed-files: debian/.arch-ids/NEWS.Debian.id debian/.arch-ids/NEWS.id
+    debian/NEWS.Debian debian/NEWS
+Modified-files: ChangeLog debian/emacsen-startup
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-356
+    mwolson@gnu.org--2005/muse--main--1.0--patch-357
+    mwolson@gnu.org--2006/muse--main--1.0--patch-1
+Summary: Oops, committed to the wrong archive.
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-356
+   Debian fixups.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-357
+   Another Debian fix.

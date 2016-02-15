@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-131
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 19 00:49:03 EST 2007
+Standard-date: 2007-01-19 05:49:03 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-131
+    mwolson@gnu.org--2006/muse--main--1.0--patch-275
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 275)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-275
+   muse-latex2png: Don't touch preceding blank line unless Latex style

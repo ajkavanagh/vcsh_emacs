@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-339
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  2 16:59:27 EST 2006
+Standard-date: 2006-01-02 21:59:27 GMT
+Modified-files: ChangeLog lisp/muse-mode.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-339
+Summary: Implement escaping of "[" and "]" in extended links.
+Keywords: 
+
+* lisp/muse-mode.el (muse-make-link): Use muse-link-escape
+
+* lisp/muse.el (muse-link-escape): Escape "[" and "]" in links.
+  (muse-link-unescape): Unescape "[" and "]" in links.
+  (muse-handle-explicit-link): Use muse-link-unescape.

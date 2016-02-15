@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-137
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Dec 19 16:38:28 EST 2005
+Standard-date: 2005-12-19 21:38:28 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-137
+Summary: planner-publish: Fix publishing bug.
+Keywords: 
+
+* planner-publish.el (planner-insert-markup): Fix bug.  Thanks to Jim
+  Ottaway and Seth Falcon for the fix.

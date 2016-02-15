@@ -1,0 +1,28 @@
+Revision: planner--main--1.0--patch-36
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr 26 14:01:36 EDT 2006
+Standard-date: 2006-04-26 18:01:36 GMT
+Modified-files: planner-calendar.el planner-el.texi
+    planner-publish.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-36
+Summary: Make publishing of calendars work better using a new method.
+Keywords: 
+
+* planner-calendar.el: Docfix.  Recognize <calendar> tags even in the
+  header and footer.
+  (planner-calendar-insert-calendar-maybe) 
+  (planner-calendar-move-calendar-to-top-of-page-maybe): Remove, since
+  they are not needed by the new method.
+
+* planner-el.texi (Publishing Calendars): Update.
+
+* planner-publish.el (planner-publish-prepare-regexps): New option that
+  specifies the publishing regexps to apply before doing other
+  publishing.
+  (planner-publish-finalize-regexps): New option that specifies the
+  publishing regexps to apply after doing other publishing.
+  (planner-publish-prepare-buffer): Use planner-publish-prepare-regexps.
+  (planner-publish-finalize-buffer): New function that finalizes Planner
+  buffers after publishing.
+  (planner-section-tagnames): Fix ordering error.

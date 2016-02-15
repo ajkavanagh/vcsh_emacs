@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-200
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Nov 20 15:21:51 JST 2004
+Standard-date: 2004-11-20 06:21:51 GMT
+Modified-files: planner-diary.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-200
+Summary: planner-diary-create-section-flag
+Keywords: 
+
+	* planner-diary.el (planner-diary-create-section-flag): New.
+	(planner-diary-update-section): Honor
+	planner-diary-create-section-flag.
+
+	* planner.texi (Diary): Document planner-diary-create-section-flag.

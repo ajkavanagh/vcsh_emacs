@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-14
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Feb 28 21:25:15 EST 2005
+Standard-date: 2005-03-01 02:25:15 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-14
+Summary: Correct documentation, adding some content.
+Keywords: 
+
+2005-02-28  Michael Olson  <mwolson@gnu.org>
+
+    * muse.texi: Change license terms of the documentation to the GNU
+    GPL instead of the GNU FDL, as per the consent of the copyright
+    holders of the emacs-wiki manual, from which this is based.  Some
+    emacs-wiki-isms in the manual were corrected, and the Getting
+    Started section was updated.

@@ -1,0 +1,11 @@
+Revision: muse--yh--1.0--patch-39
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Aug 22 18:24:43 CEST 2005
+Standard-date: 2005-08-22 16:24:43 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-39
+Summary: read directory name with proper function
+Keywords:
+
+* lisp/muse-publish.el (muse-publish-get-output-dir): use read-directory-name instead of read-file-name (makes a difference when using ido.el for example)

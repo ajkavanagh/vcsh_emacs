@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-129
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 12 02:18:27 EST 2005
+Standard-date: 2005-07-12 07:18:27 GMT
+Modified-files: ChangeLog lisp/muse-mode.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-129
+Summary: Compilation fix, minor shuffling in `muse-mode'.
+Keywords: 
+
+* lisp/muse.el (muse-file-extension): Make sure sym is bound before
+  accessing it.  Fixes Yet Another Compiler Error.
+
+* lisp/muse-mode.el (muse-mode): Move font-lock setup to very end so that
+ project-specific settings happen first.

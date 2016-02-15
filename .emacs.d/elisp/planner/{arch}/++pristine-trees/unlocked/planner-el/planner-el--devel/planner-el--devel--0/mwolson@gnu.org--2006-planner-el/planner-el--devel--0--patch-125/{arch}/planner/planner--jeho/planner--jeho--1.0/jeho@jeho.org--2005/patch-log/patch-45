@@ -1,0 +1,11 @@
+Revision: planner--jeho--1.0--patch-45
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Mar 13 18:54:48 GMT 2005
+Standard-date: 2005-03-13 18:54:48 GMT
+New-files: .arch-ids/jeho-diary.el.id jeho-diary.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-45
+Summary: added jeho-diary
+Keywords: 
+
+jeho-diary.el: my diary, calendar and schedule set up

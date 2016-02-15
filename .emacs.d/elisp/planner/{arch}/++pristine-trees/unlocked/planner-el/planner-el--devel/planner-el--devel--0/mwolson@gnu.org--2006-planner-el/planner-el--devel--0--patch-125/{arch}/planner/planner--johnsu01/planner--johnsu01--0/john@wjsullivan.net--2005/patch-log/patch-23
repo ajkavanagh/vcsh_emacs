@@ -1,0 +1,10 @@
+Revision: planner--johnsu01--0--patch-23
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Thu Sep 22 01:17:40 EDT 2005
+Standard-date: 2005-09-22 05:17:40 GMT
+Modified-files: planner-w3m.el
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-23
+Summary: w3m-current-title is often nil, so we also check w3m-buffer-title.
+Keywords: 
+

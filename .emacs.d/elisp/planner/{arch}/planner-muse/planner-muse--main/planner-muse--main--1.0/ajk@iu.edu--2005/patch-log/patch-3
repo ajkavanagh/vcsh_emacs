@@ -1,0 +1,78 @@
+Revision: planner-muse--main--1.0--patch-3
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Sun Dec  4 11:25:58 EST 2005
+Standard-date: 2005-12-04 16:25:58 GMT
+Modified-files: ChangeLog planner-publish.el
+    {arch}/planner-muse/planner-muse--main/planner-muse--main--1.0/ajk@iu.edu--2005/patch-log/base-0
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-3
+    jeho@jeho.org--2005/planner--jeho--1.1--base-0
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-15
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-10
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-11
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-12
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-13
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-14
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-15
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-16
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-119
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-120
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-121
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-122
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-14
+Summary: catch up to mwolson's patch-122
+Keywords: 
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--base-0
+   tag of mwolson@gnu.org--2005/planner--mwolson--1.0--patch-16
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-15
+   planner-publish: fix task publishing
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-10
+   Merged from sacha@free.net.ph--main (patch 430-438)
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-11
+   Typo fix.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-12
+   Merged from hodique@lifl.fr--2005 (patch 0-41), mwolson@gnu.org--2005 (patch 0-37), sacha@free.net.ph--main (patch 0-6, 439-468)
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-13
+   Implement Makefile system and include Debian files.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-14
+   Tweak Debian package building further.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-15
+   Fix Muse-ism.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-16
+   Improve building of Debian packages.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-96
+   Make new Debian snapshot.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-97
+   Add contrib directory and XEmacs-friendly version of timeclock.el.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+   This version of timeclock.el is only to be used with XEmacs.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-119
+   Merged from jeho@jeho.org--2005 (patch 15)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-120
+   Sync metadata: no changes.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-121
+   Merged from ajk@iu.edu--2005 (patch 0-2)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-122
+   planner-publish: Try again to fix link issue.
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-14
+   Merged from mwolson@gnu.org--2005 (patch 73-77), sacha@free.net.ph--main (patch 3, 490)
+

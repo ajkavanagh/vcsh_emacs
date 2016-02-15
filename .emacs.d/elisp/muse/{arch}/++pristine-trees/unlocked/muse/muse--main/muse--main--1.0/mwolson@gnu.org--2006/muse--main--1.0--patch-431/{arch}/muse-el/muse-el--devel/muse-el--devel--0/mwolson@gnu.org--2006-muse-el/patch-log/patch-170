@@ -1,0 +1,11 @@
+Revision: muse-el--devel--0--patch-170
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: cordier <jean@bornier.net>
+Date: Sun Jul 29 10:51:47 CEST 2007
+Standard-date: 2007-07-29 08:51:47 GMT
+Modified-files: ChangeLog Makefile.defs lisp/muse-context.el
+    lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-170
+Summary: Fixed the "rule" command in latex and context styles; defined verse mechanism and fixed problems with muse-context-markup-specials-literal in context
+Keywords: 
+

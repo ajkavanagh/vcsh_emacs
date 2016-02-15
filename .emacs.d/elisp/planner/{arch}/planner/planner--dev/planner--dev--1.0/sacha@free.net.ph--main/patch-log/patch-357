@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-357
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 30 17:15:45 PHT 2005
+Standard-date: 2005-03-30 09:15:45 GMT
+Modified-files: ChangeLog PLANNER-README planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-357
+Summary: planner-read-date: save and restore calendar mode map
+Keywords: 
+
+* planner.el (planner-read-date): Save and restore calendar mode map.
+  This should fix the bug reported by Pascal Quesseveur; dates should
+  be selectable even when calendar-setup is non-nil.

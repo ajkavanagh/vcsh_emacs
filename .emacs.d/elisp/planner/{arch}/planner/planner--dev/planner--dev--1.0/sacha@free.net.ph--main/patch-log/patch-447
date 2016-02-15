@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-447
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jul 10 11:13:15 PHT 2005
+Standard-date: 2005-07-10 03:13:15 GMT
+Modified-files: ChangeLog planner-calendar.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-447
+Summary: Bugfix: planner-calendar-create-today-link: Quote shell arguments
+Keywords: 
+
+* planner-calendar.el (planner-calendar-create-today-link): Quote
+argument to shell. Thanks to drkm for pointing this out.
+

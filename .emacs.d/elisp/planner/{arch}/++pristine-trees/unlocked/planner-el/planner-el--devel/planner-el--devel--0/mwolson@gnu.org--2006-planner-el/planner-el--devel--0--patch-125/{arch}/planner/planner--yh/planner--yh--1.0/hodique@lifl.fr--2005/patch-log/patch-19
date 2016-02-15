@@ -1,0 +1,13 @@
+Revision: planner--yh--1.0--patch-19
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sun Jul  3 09:46:19 CEST 2005
+Standard-date: 2005-07-03 07:46:19 GMT
+Modified-files: ChangeLog.yh planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-19
+Summary: bugfix
+Keywords:
+
+* planner.el (planner-prepare-file): planner-file-name may be nil
+use planner-file-name instead of muse-file-name
+

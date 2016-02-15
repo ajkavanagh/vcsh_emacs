@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-268
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan  9 22:41:45 EST 2007
+Standard-date: 2007-01-10 03:41:45 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-268
+Summary: muse-publish: Make comments higher priority than tags
+Keywords: 
+
+2007-01-09  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-markup-regexps): Make
+	comments higher priority than tags.  Thanks to Stefan van der Walt
+	for the report.

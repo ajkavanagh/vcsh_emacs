@@ -1,0 +1,11 @@
+Revision: planner-el--devel--0--patch-66
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul  8 15:25:03 EDT 2006
+Standard-date: 2006-07-08 19:25:03 GMT
+Modified-files: ChangeLog
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-66
+Summary: Bring ChangeLog in sync.
+Keywords: 
+
+* ChangeLog: Sync.

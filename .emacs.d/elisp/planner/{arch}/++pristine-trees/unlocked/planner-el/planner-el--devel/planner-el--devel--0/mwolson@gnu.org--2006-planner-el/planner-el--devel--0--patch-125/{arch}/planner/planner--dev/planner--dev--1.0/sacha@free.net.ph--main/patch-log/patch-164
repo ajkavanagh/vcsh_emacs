@@ -1,0 +1,23 @@
+Revision: planner--dev--1.0--patch-164
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Sep 21 19:13:03 JST 2004
+Standard-date: 2004-09-21 10:13:03 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-164
+Summary: NOTE: planner-tasks-file-behavior option. Closes opened files by default.
+Keywords: 
+
+	* planner.el (planner-update-task),
+	(planner-copy-or-move-task),
+	(planner-copy-or-move-region),
+	(plan): Obey planner-tasks-file-behavior
+	(planner-tasks-file-behavior): New customizable option controls
+	the behavior of task creation and updates. If set to
+	'close (default), newly-opened files are saved and closed. See
+	variable documentation for more details.
+	(planner-save-buffers): Add BUFFER-LIST parameter
+	to allow restoring to a particular buffer list.
+
+	* planner.texi (Variables to Customize): Document
+	planner-tasks-file-behavior.

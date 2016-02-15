@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-361
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Apr  1 14:36:41 PHT 2005
+Standard-date: 2005-04-01 06:36:41 GMT
+Modified-files: ChangeLog planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-361
+Summary: planner-id-find-task bugfix: Stop at first task found
+Keywords: 
+
+* planner-id.el (planner-id-find-task): Fix bug where task ID appears in
+  notes as well. Thanks to Michael Heinrich for pointing this out.
+

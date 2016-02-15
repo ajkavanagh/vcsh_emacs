@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-367
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 16 17:19:28 EDT 2007
+Standard-date: 2007-06-16 21:19:28 GMT
+Modified-files: texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-367
+Summary: Manual: Begin documenting muse-project-alist options
+Keywords: 
+
+* texi/muse.texi (Introduction): Remove "this is not in any way new" and
+  replace with something that does not potentially turn users away ;^) .
+  (Options for Projects): Work on this.

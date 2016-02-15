@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-301
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr 22 15:44:29 EDT 2007
+Standard-date: 2007-04-22 19:44:29 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-301
+Summary: Display prominent warning for malformed muse-project-alist entries
+Keywords: 
+
+2007-04-22  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-project.el (muse-project-publish-file): If a style is
+	malformed, skip it and display a warning message.  This should
+	help people figure out where the problem is.

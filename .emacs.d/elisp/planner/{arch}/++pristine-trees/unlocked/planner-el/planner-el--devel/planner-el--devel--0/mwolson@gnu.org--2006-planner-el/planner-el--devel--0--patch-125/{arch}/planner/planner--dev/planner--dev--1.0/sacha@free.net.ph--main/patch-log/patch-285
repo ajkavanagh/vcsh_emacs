@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-285
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan 10 17:48:28 JST 2005
+Standard-date: 2005-01-10 08:48:28 GMT
+New-files: .arch-ids/planner-xtla.el.id planner-xtla.el
+Modified-files: ChangeLog planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-285
+Summary: New: planner-xtla.el
+Keywords: 
+
+	* planner-xtla.el: New from Stefan Reichör.
+
+	* planner.texi (XTLA): Document planner-xtla.el

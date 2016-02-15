@@ -1,0 +1,11 @@
+Revision: planner--yh--1.0--patch-31
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 14 15:20:07 CEST 2005
+Standard-date: 2005-07-14 13:20:07 GMT
+Modified-files: ChangeLog.yh planner-timeclock.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-31
+Summary: Fix bug #2647
+Keywords:
+
+* planner-timeclock.el (planner-timeclock-task-info): use muse-explicit-link-regexp instead of emacs-wiki stuff

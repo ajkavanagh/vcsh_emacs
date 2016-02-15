@@ -1,0 +1,20 @@
+Revision: muse--yh--1.0--patch-41
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Aug 27 12:52:24 CEST 2005
+Standard-date: 2005-08-27 10:52:24 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-41
+    mwolson@gnu.org--2005/muse--main--1.0--patch-209
+    mwolson@gnu.org--2005/muse--main--1.0--patch-210
+Summary: Merged from mwolson@gnu.org--2005 (patch 209-210)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-209
+   Don't prompt unnecessarily when doing C-c C-t in a Muse project file.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-210
+   Allow Emacs 21.3 to use extended character classes in regexps.

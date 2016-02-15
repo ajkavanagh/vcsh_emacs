@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-124
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Dec 11 01:32:56 EST 2005
+Standard-date: 2005-12-11 06:32:56 GMT
+Modified-files: ChangeLog planner-psvn.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-124
+Summary: planner-psvn: Apply patch from Seth Falcon.
+Keywords: 
+
+* planner-psvn.el (planner-psvn-log-edit-add-note): Apply patch from Seth
+  Falcon.  This should write the note to planner-today rather than
+  *temp*.muse.

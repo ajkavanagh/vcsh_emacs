@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-471
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Aug 19 11:12:38 EDT 2005
+Standard-date: 2005-08-19 15:12:38 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-471
+Summary: Bugfix: with-planner: Defer evaluation of planner-derived-mode-p
+Keywords: 
+
+* planner.el (with-planner): Merge patch moving planner-derived-mode-p
+  test into with-planner body. Thanks to Sergey Vlasov for the patch!
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-142
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jul 24 20:29:48 PHT 2004
+Standard-date: 2004-07-24 12:29:48 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-142
+Summary: Bugfix: Improve overlay handling
+Keywords: bugfix
+
+	* planner.el:
+	Depends on emacs-wiki--dev--1.0--patch-53.
+	(planner-zap-overlays): New.
+	(planner-mode): Don't forget to zap overlays before highlighting
+	tasks and notes.
+	(planner-highlight-tasks): Honor END.
+	(planner-highlight-region): Tag it with 'planner t.

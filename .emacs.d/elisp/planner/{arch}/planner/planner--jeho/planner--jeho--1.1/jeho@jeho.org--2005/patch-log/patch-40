@@ -1,0 +1,14 @@
+Revision: planner--jeho--1.1--patch-40
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Jan 11 10:43:30 GMT 2006
+Standard-date: 2006-01-11 10:43:30 GMT
+Modified-files: planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-40
+Summary: planner.el: excessive highlighting
+Keywords: 
+
+* planner.el (with-planner-update-setup): remove highlight inhibition to
+  see whether the problem is really with planner-mode
+  (planner-mode): don't explicitly call muse-colors-buffer
+

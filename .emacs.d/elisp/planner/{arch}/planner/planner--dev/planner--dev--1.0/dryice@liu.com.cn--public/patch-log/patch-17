@@ -1,0 +1,40 @@
+Revision: planner--dev--1.0--patch-17
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Feb 20 21:05:46 CST 2005
+Standard-date: 2005-02-20 13:05:46 GMT
+Modified-files: ChangeLog planner-bibtex.el
+    planner-bookmark.el planner-el.texi planner-id.el
+    planner-multi.el planner-rank.el planner-wl.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-17
+    jeho@jeho.org--2005/planner--jeho--1.0--base-0
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-1
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-2
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-3
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-4
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-5
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-6
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-7
+    sacha@free.net.ph--main/planner--dev--1.0--patch-315
+    sacha@free.net.ph--main/planner--dev--1.0--patch-316
+    sacha@free.net.ph--main/planner--dev--1.0--patch-317
+    sacha@free.net.ph--main/planner--dev--1.0--patch-318
+    sacha@free.net.ph--main/planner--dev--1.0--patch-319
+    sacha@free.net.ph--main/planner--dev--1.0--patch-320
+    sacha@free.net.ph--main/planner--dev--1.0--patch-321
+    sacha@free.net.ph--main/planner--dev--1.0--patch-322
+    sacha@free.net.ph--main/planner--dev--1.0--patch-323
+    sacha@free.net.ph--main/planner--dev--1.0--patch-324
+    sacha@free.net.ph--main/planner--dev--1.0--patch-325
+    sacha@free.net.ph--main/planner--dev--1.0--patch-326
+    sacha@free.net.ph--main/planner--dev--1.0--patch-327
+    sacha@free.net.ph--main/planner--dev--1.0--patch-328
+    sacha@free.net.ph--main/planner--dev--1.0--patch-329
+    sacha@free.net.ph--main/planner--dev--1.0--patch-330
+Removed-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-12
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-13
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-14
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-15
+Summary: merge from main stream
+Keywords: merge
+

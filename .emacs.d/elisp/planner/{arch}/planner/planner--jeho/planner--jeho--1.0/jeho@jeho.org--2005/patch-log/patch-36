@@ -1,0 +1,18 @@
+Revision: planner--jeho--1.0--patch-36
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Mar  1 12:58:59 GMT 2005
+Standard-date: 2005-03-01 12:58:59 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-36
+Summary: planner-appt added Henrik's nagging feature
+Keywords: 
+
+* planner-appt.el: added very plausible documentation for the nagging
+  feature 
+  (planner-appt-task-regexp): modified to allow for nags
+  (planner-appt-task-nagging-regexp): new regexp to match nags
+  (planner-appt-task-nagging-p): new test for nagging
+  (planner-copy-or-move-task): modified plan in progress pass-through to
+  take nagging into account
+

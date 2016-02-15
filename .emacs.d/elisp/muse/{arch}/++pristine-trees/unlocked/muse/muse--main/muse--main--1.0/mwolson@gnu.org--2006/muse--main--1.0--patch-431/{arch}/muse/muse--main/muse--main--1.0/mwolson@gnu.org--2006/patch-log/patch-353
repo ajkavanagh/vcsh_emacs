@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-353
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun 14 15:15:47 EDT 2007
+Standard-date: 2007-06-14 19:15:47 GMT
+New-files: etc/.arch-ids/emacs-wiki-migration.txt.id
+    etc/emacs-wiki-migration.txt
+Modified-files: ChangeLog
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-353
+Summary: Initial incomplete draft of etc/emacs-wiki-migration.txt
+Keywords: 
+
+2007-06-14  Michael Olson  <mwolson@gnu.org>
+
+	* etc/emacs-wiki-migration.txt: New document that explains how to
+	migrate from emacs-wiki to Muse.

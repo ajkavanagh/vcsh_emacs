@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-223
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 23:26:47 EDT 2006
+Standard-date: 2006-10-16 03:26:47 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-223
+Summary: Add autoload cookie for muse-mode-choose-mode 
+Keywords: 
+
+* lisp/muse-mode.(muse-mode-choose-mode): Add autoload cookie.  Thanks to
+  Leo for the suggestion.

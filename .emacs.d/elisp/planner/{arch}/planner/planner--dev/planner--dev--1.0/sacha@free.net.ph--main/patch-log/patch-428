@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-428
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jun 24 00:32:27 PHT 2005
+Standard-date: 2005-06-23 16:32:27 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-428
+Summary: Bugfix: planner-annotation-as-kill: Make sure link is set
+Keywords: 
+
+* planner.el (planner-annotation-as-kill): Make sure link is set before
+  using it in link-name. Thanks to Jim Ottaway for catching this.

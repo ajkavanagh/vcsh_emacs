@@ -1,0 +1,13 @@
+Revision: planner--main--1.0--patch-5
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan 25 07:51:16 EST 2006
+Standard-date: 2006-01-25 12:51:16 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-5
+Summary: Don't insert too many spaces around task number.
+Keywords: 
+
+* planner.el (planner-task-format, planner-format-task): Apply patch from
+  Stefan Reichör that keeps extra spaces from being inserted when
+  planner-use-task-numbers is nil.

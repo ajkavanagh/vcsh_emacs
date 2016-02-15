@@ -1,0 +1,24 @@
+Revision: planner--duo--1.0--patch-2
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 16:47:00 EST 2005
+Standard-date: 2005-07-14 21:47:00 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-report.el planner-timeclock.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-31
+    mwolson@gnu.org--2005/planner--duo--1.0--patch-2
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-30
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-31
+Summary: Merged from hodique@lifl.fr--2005 (patch 31), mwolson@gnu.org--2005 (patch 30-31)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-31
+   Fix bug #2647
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-30
+   Merged from hodique@lifl.fr--2005 (patch 30-31)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-31
+   Replace a few emacs-wiki functions in planner-report.

@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-71
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue May  4 22:29:29 PHT 2004
+Standard-date: 2004-05-04 14:29:29 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-71
+Summary: NOTE: Changed behavior of planner-carry-tasks-forward, now default for FORCE-DAYS (with minor tweaks)
+Keywords: 
+
+	* planner.el (planner-carry-tasks-forward): NOTE: Now behaves
+	similar to the FORCE-DAYS parameter of `plan'. Defaults to
+	scanning the past three days _AND_ carrying the tasks forward, as
+	this makes more sense for new users. Always checks for new tasks.
+	(plan): Follow new meaning of planner-carry-tasks-forward as the
+	default.

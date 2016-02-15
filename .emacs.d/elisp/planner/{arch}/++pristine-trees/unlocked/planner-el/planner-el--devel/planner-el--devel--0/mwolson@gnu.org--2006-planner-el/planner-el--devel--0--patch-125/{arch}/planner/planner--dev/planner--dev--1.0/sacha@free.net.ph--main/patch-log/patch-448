@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-448
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jul 10 11:16:23 PHT 2005
+Standard-date: 2005-07-10 03:16:23 GMT
+Modified-files: ChangeLog planner-auto.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-448
+Summary: Add p-create-task and p-create-task-from-buffer to planner-auto
+Keywords: 
+
+* planner-auto.el: Add planner-create-task and
+  planner-create-task-from-buffer. Thanks to drkm for pointing this out.

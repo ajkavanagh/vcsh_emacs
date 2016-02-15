@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-46
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 21 01:24:33 PHT 2004
+Standard-date: 2004-04-20 17:24:33 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-46
+Summary: Feature: planner-search-notes-with-body
+Keywords: 
+
+	* planner.el (planner-search-notes-internal): Can include body.
+	(planner-search-notes-with-body): New.
+	(planner-search-notes): Can include body.
+        Thanks to cpchan for the suggestion.

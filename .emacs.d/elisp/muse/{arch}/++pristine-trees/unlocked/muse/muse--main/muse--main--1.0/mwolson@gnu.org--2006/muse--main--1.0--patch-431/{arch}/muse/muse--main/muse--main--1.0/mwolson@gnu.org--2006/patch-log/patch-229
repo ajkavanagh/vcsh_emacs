@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-229
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 29 01:54:10 EDT 2006
+Standard-date: 2006-10-29 05:54:10 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+    lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-229
+Summary: Fix some link resolving bugs
+Keywords: 
+
+2006-10-29  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-url): Allow the original link
+	to serve as a description for a URL, as long as it differs from
+	the destination URL.  This fixes the description of WikPage links
+	in PDF output.
+
+	* lisp/muse-wiki.el (muse-wiki-resolve-project-page): Use the path
+	of the current page as the local path, instead of duplicating the
+	remote file's path.  This probably fixes at least one reported
+	bug. since it's quite major.

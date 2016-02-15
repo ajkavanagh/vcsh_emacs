@@ -1,0 +1,20 @@
+Revision: planner-el--devel--0--patch-91
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov  1 20:53:23 EST 2006
+Standard-date: 2006-11-02 01:53:23 GMT
+Modified-files: ChangeLog contrib/timeclock.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-91
+Summary: timeclock.el: Improve error detection and reporting, intro timeclock-use-history
+Keywords: 
+
+2006-10-16  Adrian Aichner  <adrian@xemacs.org>
+
+	* timeclock.el: Typo fixes.
+	* timeclock.el (timeclock-history): New.
+	* timeclock.el (timeclock-use-history): New.
+	* timeclock.el (timeclock-log): Honor timeclock-use-history.
+	* timeclock.el (timeclock-read-moment): Provide error on
+	unexpected data in timeclock-file, going unnoticed until now.
+	* timeclock.el (timeclock-find-discrep): Report line number of
+	discrepancy to ease manual fixing.

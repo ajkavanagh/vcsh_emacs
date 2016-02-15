@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-123
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jun 25 22:29:45 PHT 2004
+Standard-date: 2004-06-25 14:29:45 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-123
+Summary: Make planner-mode-hook customizable
+Keywords: improvement
+
+	* planner.el (planner-mode-hook): Make planner-mode-hook
+	customizable. Thanks to bigmike160 for pointing this out.
+
+	* planner.texi (Variables to Customize): Add planner-mode-hook.

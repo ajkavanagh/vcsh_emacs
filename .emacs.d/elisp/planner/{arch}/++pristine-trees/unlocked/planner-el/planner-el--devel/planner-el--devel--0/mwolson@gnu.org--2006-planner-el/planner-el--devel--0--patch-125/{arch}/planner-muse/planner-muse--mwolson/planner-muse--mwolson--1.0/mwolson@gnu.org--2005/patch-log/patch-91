@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-91
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Oct 31 10:54:03 EST 2005
+Standard-date: 2005-10-31 15:54:03 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-91
+Summary: planner: Make shortened dates like "2005.1.6" Just Work.
+Keywords: 
+
+* planner.el (planner-filename-to-calendar-date): Use match-string
+  instead of substring to extract the days.  This should allow shortened
+  filenames like "1005.1.6" to Just Work.  Thanks to Edgar Gonçalves for
+  the report.

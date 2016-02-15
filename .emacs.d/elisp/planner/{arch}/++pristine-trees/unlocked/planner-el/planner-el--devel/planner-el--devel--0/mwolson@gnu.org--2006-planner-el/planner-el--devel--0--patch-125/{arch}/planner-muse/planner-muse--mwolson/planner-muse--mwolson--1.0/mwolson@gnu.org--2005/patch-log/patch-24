@@ -1,0 +1,19 @@
+Revision: planner-muse--mwolson--1.0--patch-24
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul  8 00:12:47 EST 2005
+Standard-date: 2005-07-08 05:12:47 GMT
+Modified-files: ChangeLog.mwolson planner-diary.el
+    planner-multi.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-24
+Summary: Fix insertion of diary entries and complaints about `emacs-wiki-link-base'.
+Keywords: 
+
+* planner-diary.el (planner-diary-get-name): Use `planner-page-name'.  No
+  need to reinvent the wheel.  This should fix a diary insertion problem
+  when using a Muse file extension.
+
+* planner-multi.el (planner-task-plan): Use `planner-link-base' instead
+  of `emacs-wiki-link-base'.
+
+

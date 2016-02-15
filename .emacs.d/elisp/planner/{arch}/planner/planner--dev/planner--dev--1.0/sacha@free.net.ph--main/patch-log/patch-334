@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-334
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar  3 07:05:54 PHT 2005
+Standard-date: 2005-03-02 23:05:54 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-334
+Summary: planner-multi major bugfix for planner-make-link
+Keywords: 
+
+* planner-multi.el (planner-make-link): Bugfix for the bugfix. Mrph.
+  Clearly, the third argument should make this behave in the single-link
+  case.

@@ -1,0 +1,38 @@
+Revision: muse--main--1.0--patch-174
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Aug  6 17:56:16 EDT 2006
+Standard-date: 2006-08-06 21:56:16 GMT
+New-files: .arch-ids/ChangeLog.3.id ChangeLog.3
+Removed-files: .arch-ids/ChangeLog.id ChangeLog
+Renamed-files: .arch-ids/ChangeLog.2004.id .arch-ids/ChangeLog.1.id
+    .arch-ids/ChangeLog.2005.id .arch-ids/ChangeLog.2.id
+    ChangeLog.2004 ChangeLog.1
+    ChangeLog.2005 ChangeLog.2
+Modified-files: ChangeLog.2 Makefile.defs NEWS
+    lisp/muse-mode.el lisp/muse-publish.el lisp/muse.el
+    muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-174
+Summary: Fix bug #6399; designate this 3.02.91 (RC2).
+Keywords: 
+
+* ChangeLog.1: Rename from ChangeLog.2004 to comply with standards in the
+  Emacs source tree.
+
+* ChangeLog.2: Rename from ChangeLog.2005 to comply with standards in the
+  Emacs source tree.
+
+* ChangeLog.3: New file created from the old ChangeLog.
+
+* Makefile.defs (VERSION): Set to 3.02.91.
+
+* NEWS: Update through patch-70.
+
+* lisp/muse.el (muse-version): Set to 3.02.91.
+
+* lisp/muse-mode.el (muse-insert-thing): Qualify "tag".
+
+* lisp/muse-publish.el (muse-style-run-hooks): Use `muse-style-element'
+  instead of `muse-get-keyword' here.  This should fix #6399.
+
+* muse.texi: Set version to 3.02.91 (3.02 RC2).

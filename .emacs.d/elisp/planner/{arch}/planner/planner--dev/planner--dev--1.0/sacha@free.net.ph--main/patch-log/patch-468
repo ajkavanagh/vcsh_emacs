@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-468
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Aug  7 11:17:09 EDT 2005
+Standard-date: 2005-08-07 15:17:09 GMT
+Modified-files: planner-notes-index.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-468
+Summary: Bugfix: planner-notes-index should be in Planner project
+Keywords: 
+
+* planner-notes-index.el (planner-notes-index): Make sure pages are in
+  Planner context. This resolves the emacs-wiki-visit-link problem.
+  Thanks to Kohkichi Hosoda for pointing this out!
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

@@ -1,0 +1,15 @@
+Revision: planner--main--1.0--patch-28
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr  2 14:20:31 EDT 2006
+Standard-date: 2006-04-02 18:20:31 GMT
+Modified-files: planner-appt.el planner-bibtex.el
+    planner-deadline.el planner-erc.el planner-id.el
+    planner-mhe.el planner-rdf.el planner-tasks-overview.el
+    planner-timeclock.el planner-vm.el planner.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-28
+Summary: Correct several regexps.
+Keywords: 
+
+If a regexp has a character set negation, make sure it includes the
+newline, so that newlines aren't matched.

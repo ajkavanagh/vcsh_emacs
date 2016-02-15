@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-73
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Oct  6 16:36:11 EST 2005
+Standard-date: 2005-10-06 21:36:11 GMT
+Modified-files: ChangeLog.mwolson planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-73
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-13
+Summary: Merged from saint@corenova.com--public-2005 (patch 13)
+Keywords: merge
+
+Patches applied:
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-13
+   changed task publishing to use ul and li 

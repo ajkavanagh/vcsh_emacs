@@ -1,0 +1,67 @@
+Revision: planner--yh--1.0--patch-14
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jun 30 20:52:56 CEST 2005
+Standard-date: 2005-06-30 18:52:56 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-appt.el planner-bbdb.el planner-bibtex.el
+    planner-calendar.el planner-deadline.el planner-multi.el
+    planner-rank.el planner-report.el
+    planner-tasks-overview.el planner-xtla.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-14
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-73
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-74
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-75
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-18
+    sacha@free.net.ph--main/planner--dev--1.0--patch-429
+    sacha@free.net.ph--main/planner--dev--1.0--patch-430
+    sacha@free.net.ph--main/planner--dev--1.0--patch-431
+    sacha@free.net.ph--main/planner--dev--1.0--patch-432
+    sacha@free.net.ph--main/planner--dev--1.0--patch-433
+    sacha@free.net.ph--main/planner--dev--1.0--patch-434
+    sacha@free.net.ph--main/planner--dev--1.0--patch-435
+    sacha@free.net.ph--main/planner--dev--1.0--patch-436
+    sacha@free.net.ph--main/planner--dev--1.0--patch-437
+Summary: Merged from jeho@jeho.org--2005 (patch 73-75), mwolson@gnu.org--2005 (patch 18), sacha@free.net.ph--main (patch 429-437)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-73
+   merge latest
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-74
+   planner-appt: fix duplicate appt bug
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-75
+   planner-appt: remove redundant comments
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-18
+   Merged from jeho@jeho.org--2005 (patch 73-75), sacha@free.net.ph--main (patch 429-437)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-429
+   planner-appt: Merge bugfix for duplicate appt bug
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-430
+   planner-update-task: Remove need for advice, planner-multi-replan-task: Accept list as argument
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-431
+   planner-create-note: Default to current page
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-432
+   Bugfix: planner-edit-task-description, planner-deadline: keep point
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-433
+   Bugfix: Remove parens around planner-calendar-html-tag-marker
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-434
+   planner-sort-tasks: Be paranoid about task sorting
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-435
+   Merge mwolson's patches to planner from the muse port
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-436
+   Bugfix: planner-multi-tasks-equal-p: Deal with tasks without link text
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-437
+   Bugfix: planner-derived-mode-p should pass the modes to derived-mode-p

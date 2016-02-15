@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-425
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jun 22 11:43:37 PHT 2005
+Standard-date: 2005-06-22 03:43:37 GMT
+Modified-files: ChangeLog planner-id.el planner-multi.el
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-425
+Summary: Bugfix: with-planner-update-setup, planner-browse-position-url, planner-multi-tasks-equal-p 
+Keywords: 
+
+* planner.el (with-planner-update-setup): Set planner-id-update-automatically to nil.
+  (planner-save-buffers): Don't bind planner-id-update-automatically.
+  (planner-browse-position-url): Correct typo.
+
+* planner-multi.el (planner-multi-tasks-equal-p): Bugfix: Correct
+  equality test for tasks with only one plan page.

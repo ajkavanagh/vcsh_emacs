@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-55
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 13 23:07:57 EST 2005
+Standard-date: 2005-08-14 04:07:57 GMT
+Modified-files: ChangeLog.mwolson planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-55
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-10
+Summary: Merged from saint@corenova.com--public-2005 (patch 10)
+Keywords: merge
+
+Patches applied:
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-10
+   publish task links now

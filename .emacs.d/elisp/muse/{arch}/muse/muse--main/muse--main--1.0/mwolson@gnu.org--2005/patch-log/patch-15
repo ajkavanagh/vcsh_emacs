@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-15
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Feb 28 21:58:29 EST 2005
+Standard-date: 2005-03-01 02:58:29 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-15
+Summary: Add Projects node to the manual
+Keywords: 
+
+2005-02-28  Michael Olson  <mwolson@gnu.org>
+
+    * muse.texi: Change copyright notice since the FSF is now the
+    copyright holder.
+    (Projects): New node, based on a section from the README file.

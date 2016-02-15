@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-24
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Mar 16 20:59:18 EST 2006
+Standard-date: 2006-03-17 01:59:18 GMT
+Modified-files: ChangeLog.2006 lisp/muse-colors.el
+    lisp/muse-journal.el lisp/muse-mode.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-24
+    mwolson@gnu.org--2006/muse--main--1.0--patch-65
+Summary: Merged from mwolson@gnu.org--2006 (patch 65)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-65
+   Attempt to make new syntaxes easier to support.

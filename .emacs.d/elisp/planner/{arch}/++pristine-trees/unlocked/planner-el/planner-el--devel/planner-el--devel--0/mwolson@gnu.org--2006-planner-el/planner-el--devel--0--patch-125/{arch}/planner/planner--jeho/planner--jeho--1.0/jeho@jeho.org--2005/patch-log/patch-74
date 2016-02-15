@@ -1,0 +1,17 @@
+Revision: planner--jeho--1.0--patch-74
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Jun 23 12:49:42 BST 2005
+Standard-date: 2005-06-23 11:49:42 GMT
+Modified-files: planner-appt.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-74
+Summary: planner-appt: fix duplicate appt bug
+Keywords: 
+
+* planner-appt.el (planner-appt-clear-appts): removed previous attempt at
+  a fix
+  (planner-appt-make-appt-element): new function for building elements of
+  appt-time-msg-list
+  (planner-appt-remember-appt): use planner-appt-make-appt-element
+  (planner-appt-task-member): use planner-appt-make-appt-element
+

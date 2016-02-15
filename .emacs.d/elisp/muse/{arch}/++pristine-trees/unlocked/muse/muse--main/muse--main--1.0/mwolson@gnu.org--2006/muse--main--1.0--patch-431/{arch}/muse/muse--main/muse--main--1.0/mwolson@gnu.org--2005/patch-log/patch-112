@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-112
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul  8 21:25:26 EST 2005
+Standard-date: 2005-07-09 02:25:26 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-project.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-112
+Summary: Fix some gross mistakes.
+Keywords: 
+
+* lisp/muse-blosxom.el (muse-blosxom-update-page-date-alist): Fix several
+  gross misspellings.
+
+* lisp/muse-project.el (muse-project-file-entries): If
+  `muse-file-extension' is defined, use it to filter the entries.
+
+* lisp/muse.el (muse-file-extension): Fix messed up attempt to set
+  variable.  Move higher in file.
+
+* lisp/muse.el (muse-update-ignored-extensions-regexp): Use given
+  argument instead of the real name of the variable.

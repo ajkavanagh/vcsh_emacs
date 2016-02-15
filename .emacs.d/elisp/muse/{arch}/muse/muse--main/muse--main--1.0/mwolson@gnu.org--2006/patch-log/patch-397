@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-397
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 22 20:05:16 EDT 2007
+Standard-date: 2007-07-23 00:05:16 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-397
+Summary: muse-latex2png: Include some contex fixes
+Keywords: 
+
+2007-07-22  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-latex2png.el (muse-publish-latex-tag)
+	(muse-publish-math-tag): Allow the contex style -- which I plan to
+	include soon -- to work with these tags.

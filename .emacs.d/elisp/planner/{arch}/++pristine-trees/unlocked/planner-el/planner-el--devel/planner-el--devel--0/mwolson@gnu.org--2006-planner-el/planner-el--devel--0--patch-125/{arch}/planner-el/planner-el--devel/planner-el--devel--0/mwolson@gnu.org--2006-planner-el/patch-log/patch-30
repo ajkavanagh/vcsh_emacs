@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-30
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr 25 18:29:14 EDT 2006
+Standard-date: 2006-04-25 22:29:14 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-30
+    mwolson@gnu.org--2006/planner--main--1.0--patch-34
+Summary: Merged from mwolson@gnu.org--2006 (patch 34)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-34
+   Fix a paragraph publishing problem near end of file.

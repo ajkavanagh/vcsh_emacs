@@ -1,0 +1,23 @@
+Revision: planner--dev--1.0--patch-306
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan 31 10:26:32 JST 2005
+Standard-date: 2005-01-31 01:26:32 GMT
+Modified-files: ChangeLog planner-el.texi planner-multi.el
+    planner-rdf.el planner-rdf.owl planner-tasks-overview.el
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-306
+Summary: MAJOR NOTE: 'Category' renamed to 'Priority', old 'Priority' renamed to 'Number'
+Keywords: 
+
+	* planner.el: NOTE: Rename categories to priorities (A, B, C) and
+	  the old priorities (1, 2, 3...) to numbers. This breaks old code
+	  and keybindings, but should be done for clarity.
+
+	* planner-tasks-overview.el: Update references to categories and priorities.
+	* planner-multi.el: Update references to categories and priorities.
+	* planner-rdf.el: Update references to categories and priorities.
+	* planner-rdf.owl: Update references to categories and priorities.
+	* planner-el.texi: Update references to categories and priorities.
+
+	* planner-multi.el (planner-multi-split): New. Use in other functions.

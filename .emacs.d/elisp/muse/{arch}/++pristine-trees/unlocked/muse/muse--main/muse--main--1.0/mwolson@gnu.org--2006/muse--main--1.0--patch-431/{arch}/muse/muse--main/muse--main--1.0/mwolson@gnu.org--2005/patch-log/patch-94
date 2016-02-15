@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-94
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  6 14:30:34 EST 2005
+Standard-date: 2005-07-06 19:30:34 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-94
+Summary: Fix goof-up in instructions for using `muse-blosxom-new-entry'.
+Keywords: 
+
+* lisp/muse-blosxom.el: Fix goof-up in instructions for using
+  `muse-blosxom-new-entry'.
+
+* muse.texi (Blosxom Entries): Ditto.
+

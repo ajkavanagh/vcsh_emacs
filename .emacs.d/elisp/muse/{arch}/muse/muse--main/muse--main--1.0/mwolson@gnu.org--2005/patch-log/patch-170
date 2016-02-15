@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-170
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 20 20:00:25 EST 2005
+Standard-date: 2005-07-21 01:00:25 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-170
+Summary: Fix #2654: Append a newline when using pdf publishing style.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-footer, muse-latexcjk-footer): Append a
+  newline to the end.

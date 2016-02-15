@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-199
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Aug 27 21:31:40 EDT 2006
+Standard-date: 2006-08-28 01:31:40 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-199
+Summary: Fix bug introduced in last patch.
+Keywords: 
+
+2006-08-27  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-colors.el (muse-configure-highlighting): Prune out any
+	nil values before they get to mapconcat.  This fixes a lockup when
+	muse-wiki-match-all-project-files is nil.

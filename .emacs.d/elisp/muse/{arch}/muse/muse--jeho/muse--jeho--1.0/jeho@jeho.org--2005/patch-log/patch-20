@@ -1,0 +1,21 @@
+Revision: muse--jeho--1.0--patch-20
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Dec  8 20:57:30 GMT 2005
+Standard-date: 2005-12-08 20:57:30 GMT
+New-files: lisp/.arch-ids/muse-registry.el.id
+    lisp/muse-registry.el
+Modified-files: AUTHORS ChangeLog lisp/muse-mode.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-20
+    mwolson@gnu.org--2005/muse--main--1.0--patch-283
+    mwolson@gnu.org--2005/muse--main--1.0--patch-284
+Summary: Merged from mwolson@gnu.org--2005 (patch 283-284)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-283
+   muse-mode: Minor fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-284
+   Add muse-registry.el to Muse.

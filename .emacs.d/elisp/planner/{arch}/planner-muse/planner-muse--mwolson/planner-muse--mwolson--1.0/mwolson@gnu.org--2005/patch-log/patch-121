@@ -1,0 +1,23 @@
+Revision: planner-muse--mwolson--1.0--patch-121
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 30 22:51:03 EST 2005
+Standard-date: 2005-12-01 03:51:03 GMT
+Modified-files: ChangeLog planner-authz.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--base-0
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-1
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-2
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-121
+Summary: Merged from ajk@iu.edu--2005 (patch 0-2)
+Keywords: merge
+
+Patches applied:
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--base-0
+   tag of mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-95
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-1
+   Muse port and related improvements
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-2
+   catch up with mwolson patch-118

@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-173
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 22 02:19:30 EST 2005
+Standard-date: 2005-07-22 07:19:30 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-173
+Summary: Don't publish implicit links that have a double-quote at begin or end.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-implicit-link): Don't colorize if a
+  double-quote exists at beginning or end.
+
+* lisp/muse-publish.el (muse-publish-markup-link): When link is implicit,
+  don't colorize if a double-quote exists at beginning or end.

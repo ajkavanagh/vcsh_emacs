@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-145
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 15 23:56:02 EST 2005
+Standard-date: 2005-07-16 04:56:02 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-145
+Summary: S-TAB issue with Windows.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode-map): Try once more to fix the Shift-TAB
+  issue with Windows.

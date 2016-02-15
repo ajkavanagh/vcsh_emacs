@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-41
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb 18 11:31:36 PHT 2004
+Standard-date: 2004-02-18 03:31:36 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-41
+Summary: Embarrassing typo in planner.el
+Keywords: 
+
+	* planner.el (planner-list-unfinished-tasks): Whoops! Added an n
+	by mistake. Thanks to Frederik Fouvry for pointing this out.

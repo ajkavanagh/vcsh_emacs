@@ -1,0 +1,193 @@
+Revision: planner--duo--1.0--patch-1
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 16:13:23 EST 2005
+Standard-date: 2005-07-14 21:13:23 GMT
+New-files: .arch-ids/planner-customize.el.id
+    planner-customize.el
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-auto.el planner-backend.el planner-calendar.el
+    planner-emacs-wiki-backend.el planner-id.el
+    planner-multi.el planner-muse-backend.el
+    planner-notes-index.el planner-timeclock.el
+    planner-wl.el planner-xtla.el planner.el schedule.el
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/base-0
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-1
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-10
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-100
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-101
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-102
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-103
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-104
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-105
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-106
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-107
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-108
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-109
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-11
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-110
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-111
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-112
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-113
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-114
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-115
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-116
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-117
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-118
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-119
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-12
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-120
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-121
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-122
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-123
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-124
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-125
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-126
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-127
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-128
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-129
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-13
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-130
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-131
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-132
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-133
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-134
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-135
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-137
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-14
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-15
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-16
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-17
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-18
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-19
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-2
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-20
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-21
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-22
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-23
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-24
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-25
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-26
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-27
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-28
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-29
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-3
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-30
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-31
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-32
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-33
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-34
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-35
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-36
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-37
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-38
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-39
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-4
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-40
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-41
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-42
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-43
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-44
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-45
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-46
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-47
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-48
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-49
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-50
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-51
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-52
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-53
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-54
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-55
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-56
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-57
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-58
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-59
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-6
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-60
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-61
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-62
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-63
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-64
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-65
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-66
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-67
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-68
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-69
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-7
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-70
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-71
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-72
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-73
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-74
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-75
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-76
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-77
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-78
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-79
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-8
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-80
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-81
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-82
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-83
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-84
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-85
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-86
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-87
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-88
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-89
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-9
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-90
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-91
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-92
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-93
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-94
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-95
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-96
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-97
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-98
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-99
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0/camalot@picnicpark.org--2005-planner/patch-log/base-0
+    {arch}/planner/planner--dev/planner--dev--1.0/sacha@free.net.ph--main/patch-log/patch-15
+    {arch}/planner/planner--dev/planner--dev--1.0/sacha@free.net.ph--main/patch-log/patch-17
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-28
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-29
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-30
+    hodique@lifl.fr--test/planner--merge--1.0--patch-2
+    hodique@lifl.fr--test/planner--merge--1.0--patch-3
+    hodique@lifl.fr--test/planner--merge--1.0--patch-4
+    hodique@lifl.fr--test/planner--merge--1.0--patch-5
+    hodique@lifl.fr--test/planner--merge--1.0--patch-6
+    hodique@lifl.fr--test/planner--merge--1.0--patch-7
+    mwolson@gnu.org--2005/planner--duo--1.0--patch-1
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-25
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-26
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-27
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-28
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-29
+    sacha@free.net.ph--main/planner--dev--1.0--patch-447
+    sacha@free.net.ph--main/planner--dev--1.0--patch-448
+    sacha@free.net.ph--main/planner--dev--1.0--patch-449
+    sacha@free.net.ph--main/planner--dev--1.0--patch-450
+Summary: hodique@lifl.fr--test (patch 2-7)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--test/planner--merge--1.0--patch-2
+   Merged from hodique@lifl.fr--2005 (patch 28-29), mwolson@gnu.org--2005 (patch 25-26), sacha@free.net.ph--main (patch 447-449)
+
+ * hodique@lifl.fr--test/planner--merge--1.0--patch-3
+   Merged from hodique@lifl.fr--2005 (patch 30), mwolson@gnu.org--2005 (patch 27-29), sacha@free.net.ph--main (patch 450)
+
+ * hodique@lifl.fr--test/planner--merge--1.0--patch-4
+   Various fixes
+
+ * hodique@lifl.fr--test/planner--merge--1.0--patch-5
+   Solve some problems related to planner-mode definitions
+
+ * hodique@lifl.fr--test/planner--merge--1.0--patch-6
+   Fix planner-mode-map
+
+ * hodique@lifl.fr--test/planner--merge--1.0--patch-7
+   Fix bug #2639

@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-30
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Mar 25 00:58:27 EST 2006
+Standard-date: 2006-03-25 05:58:27 GMT
+Modified-files: ChangeLog.2006 contrib/httpd.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-30
+    mwolson@gnu.org--2006/muse--main--1.0--patch-72
+Summary: Merged from mwolson@gnu.org--2006 (patch 72)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-72
+   httpd.el: Update to work with newer versions of Emacs.

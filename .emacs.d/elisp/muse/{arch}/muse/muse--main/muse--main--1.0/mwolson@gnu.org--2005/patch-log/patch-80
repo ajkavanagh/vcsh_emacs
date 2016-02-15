@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-80
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 24 23:44:00 EST 2005
+Standard-date: 2005-06-25 04:44:00 GMT
+Modified-files: ChangeLog Makefile Makefile.defs README
+    muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-80
+Summary: Make installation of manual when not using Debian go smoothly.
+Keywords: 
+
+* Makefile.defs (INSTALLINFO): New variable that specifies what command
+  and options are to be used when insinuating the Muse documentation into
+  the Info menu.
+
+* Makefile (install): Make use of INSTALLINFO.
+
+* README (Installation): Give directions for changing INSTALLINFO on a
+  Debian system and changing where Muse is installed.
+
+* muse.texi: Ditto.

@@ -1,0 +1,18 @@
+Revision: planner--jeho--1.0--patch-35
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Mar  1 12:38:07 GMT 2005
+Standard-date: 2005-03-01 12:38:07 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-35
+Summary: planner-appt.el hooking and minor changes
+Keywords: 
+
+* planner-appt.el (planner-appt-task-add, planner-appt-task-delete): made
+  these interactive again
+
+  (planner-appt-use): move non-insinuating hooking to here
+
+  (planner-appt-font-setup): added a test for today here so that it only
+  highlights when it should [part of the non-insinuation changes]
+

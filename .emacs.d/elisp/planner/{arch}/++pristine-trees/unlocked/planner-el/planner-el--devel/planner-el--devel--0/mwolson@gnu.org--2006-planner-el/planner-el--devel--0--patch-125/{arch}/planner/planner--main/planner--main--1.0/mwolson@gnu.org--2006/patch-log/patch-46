@@ -1,0 +1,12 @@
+Revision: planner--main--1.0--patch-46
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue May 23 18:14:14 EDT 2006
+Standard-date: 2006-05-23 22:14:14 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-46
+Summary: Remove duplicate note links when publishing.
+Keywords: 
+
+* planner-publish.el (planner-publish-note-tag): Ensure that a page
+  cannot appear in both link and categories.

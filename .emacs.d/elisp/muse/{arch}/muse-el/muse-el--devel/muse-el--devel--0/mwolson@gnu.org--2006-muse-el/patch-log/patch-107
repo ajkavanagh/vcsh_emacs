@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-107
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 23:27:39 EDT 2006
+Standard-date: 2006-10-16 03:27:39 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-107
+    mwolson@gnu.org--2006/muse--main--1.0--patch-223
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 223)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-223
+   Add autoload cookie for muse-mode-choose-mode 

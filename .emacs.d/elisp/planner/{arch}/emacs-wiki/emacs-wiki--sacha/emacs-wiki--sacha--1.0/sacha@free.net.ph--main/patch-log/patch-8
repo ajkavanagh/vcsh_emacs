@@ -1,0 +1,30 @@
+Revision: emacs-wiki--sacha--1.0--patch-8
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jan 21 09:16:33 PHT 2004
+Standard-date: 2004-01-21 01:16:33 GMT
+Modified-files: planner.el
+New-patches: davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-1
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-2
+    davidsmith@acm.org--2004/emacs-wiki--planner-read-date--1.0--base-0
+    davidsmith@acm.org--2004/emacs-wiki--planner-read-date--1.0--patch-1
+    sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-8
+Summary: Save planner-read-date's map
+
+  Modified davidsmith's patch to restore the old map, whatever
+  it is. 
+
+Patches applied:
+
+ * davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-1
+   unwind-protect for planner-read-date
+
+ * davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-2
+   whitespace adjustment
+
+ * davidsmith@acm.org--2004/emacs-wiki--planner-read-date--1.0--base-0
+   tag of sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-4
+
+ * davidsmith@acm.org--2004/emacs-wiki--planner-read-date--1.0--patch-1
+   make planner-read-date reset proper key map
+

@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-210
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Aug 26 21:25:35 EST 2005
+Standard-date: 2005-08-27 02:25:35 GMT
+Modified-files: ChangeLog lisp/muse-regexps.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-210
+Summary: Allow Emacs 21.3 to use extended character classes in regexps.
+Keywords: 
+
+* lisp/muse-regexps.el (muse-extreg-usable-p): Use a simpler algorithm.
+  Since enough positive reports have come in about the usability of 21.3,
+  we'll allow it to use extended character classes in regexps by default.

@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-327
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Dec 29 14:49:39 EST 2005
+Standard-date: 2005-12-29 19:49:39 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-327
+Summary: Minor logic tweak in muse-forward-list-item.
+Keywords: 
+
+* lisp/muse-publish.el (muse-forward-list-item): On second thought, let's
+  not use POST-INDENT.  It would accidentally merge lists that were
+  1-space-different in indentation.  Even more so for definition lists.

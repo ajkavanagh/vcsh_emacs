@@ -1,0 +1,21 @@
+Revision: planner-muse--mwolson--1.0--patch-99
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Nov 20 17:33:42 EST 2005
+Standard-date: 2005-11-20 22:33:42 GMT
+Modified-files: ChangeLog planner-cyclic.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-40
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--base-0
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-1
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-99
+Summary: Merged from dryice@liu.com.cn--public (patch 40), john@wjsullivan.net--2005 (patch 0-1)
+Keywords: merge
+
+Patches applied:
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--base-0
+   tag of mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-1
+   Installed Sacha Chua's patch to fix the behavior of planner-cyclic at
+   publishing time.

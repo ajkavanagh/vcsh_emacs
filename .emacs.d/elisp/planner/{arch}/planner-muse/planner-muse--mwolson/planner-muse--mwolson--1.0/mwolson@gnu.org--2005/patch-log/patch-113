@@ -1,0 +1,16 @@
+Revision: planner-muse--mwolson--1.0--patch-113
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 23 01:21:01 EST 2005
+Standard-date: 2005-11-23 06:21:01 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-113
+Summary: planner-multi: Add option to put date links after other links.
+Keywords: 
+
+* planner-multi.el (planner-multi-date-links-last-p): New option that
+  determines whether to put date links after links to other pages in the
+  task description.  The default is to put date links after other pages.
+  (planner-multi-replan-task, planner-multi-create-task-from-info): Use
+  this option.  Thanks to Sacha for finding these places and to Paul
+  Lussier for the suggestion.

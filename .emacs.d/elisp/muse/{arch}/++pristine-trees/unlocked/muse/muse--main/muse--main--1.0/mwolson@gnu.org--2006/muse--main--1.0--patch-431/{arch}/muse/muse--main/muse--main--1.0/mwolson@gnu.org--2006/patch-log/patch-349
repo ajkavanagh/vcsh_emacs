@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-349
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 13 22:16:22 EDT 2007
+Standard-date: 2007-06-14 02:16:22 GMT
+Modified-files: ChangeLog lisp/muse-colors.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-349
+Summary: Fix a few Emacs 21 bugs that caused errors during display
+Keywords: 
+
+2007-06-13  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-colors.el (muse-colors-insert-image): Catch error
+	that occurs in Emacs 21 when an image does not exist.
+
+	* lisp/muse.el (muse-file-remote-p): In Emacs 21,
+	ange-ftp-name-format is a list that has the regexp in its car.

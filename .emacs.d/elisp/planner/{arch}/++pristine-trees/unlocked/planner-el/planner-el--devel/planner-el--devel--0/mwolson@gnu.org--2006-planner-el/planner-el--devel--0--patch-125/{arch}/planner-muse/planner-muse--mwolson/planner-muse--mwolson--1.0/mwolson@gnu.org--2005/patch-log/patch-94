@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-94
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Nov  3 18:16:01 EST 2005
+Standard-date: 2005-11-03 23:16:01 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-94
+Summary: Turn raw dates into links.
+Keywords: 
+
+* planner.el (planner-date-regexp): Move higher.
+  (planner-setup-highlighting): Make Muse handle implicit links matching
+  dates.
+  (planner-muse-handle-date-link): New function that defines how to
+  recognize implicit date links.

@@ -1,0 +1,15 @@
+Revision: emacs-wiki--sacha--1.0--patch-59
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Mar  6 00:54:50 PHT 2004
+Standard-date: 2004-03-05 16:54:50 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-59
+Summary: planner-renumber-tasks renumbers chunks of tasks
+Keywords: 
+
+	* planner.el (planner-renumber-tasks): Renumber chunks of tasks,
+	not only the first one. This lets you have a Completed Tasks
+	section, although you still have to manually move tasks over to
+	it. Maybe we can have a hook to control this, if other people find
+	"Completed Tasks" interesting.

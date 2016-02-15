@@ -1,0 +1,159 @@
+Revision: planner-muse--mwolson--1.0--patch-7
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun 14 16:29:06 EST 2005
+Standard-date: 2005-06-14 21:29:06 GMT
+Modified-files: ChangeLog planner-accomplishments.el
+    planner-appt.el planner-authz.el planner-bibtex.el
+    planner-diary.el planner-el.texi planner-id.el
+    planner-lisp.el planner-log-edit.el planner-rss.el
+    planner-tasks-overview.el planner-timeclock.el
+    planner-xtla.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-39
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-41
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-42
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-2
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-3
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-4
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-65
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-66
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-67
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-68
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-4
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-5
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-6
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-7
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-8
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-9
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-10
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-11
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-12
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-13
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-7
+    sacha@free.net.ph--main/planner--dev--1.0--patch-397
+    sacha@free.net.ph--main/planner--dev--1.0--patch-398
+    sacha@free.net.ph--main/planner--dev--1.0--patch-399
+    sacha@free.net.ph--main/planner--dev--1.0--patch-400
+    sacha@free.net.ph--main/planner--dev--1.0--patch-401
+    sacha@free.net.ph--main/planner--dev--1.0--patch-402
+    sacha@free.net.ph--main/planner--dev--1.0--patch-403
+    sacha@free.net.ph--main/planner--dev--1.0--patch-404
+    sacha@free.net.ph--main/planner--dev--1.0--patch-405
+    sacha@free.net.ph--main/planner--dev--1.0--patch-406
+    sacha@free.net.ph--main/planner--dev--1.0--patch-407
+    sacha@free.net.ph--main/planner--dev--1.0--patch-408
+    sacha@free.net.ph--main/planner--dev--1.0--patch-409
+    sacha@free.net.ph--main/planner--dev--1.0--patch-410
+    sacha@free.net.ph--main/planner--dev--1.0--patch-411
+    sacha@free.net.ph--main/planner--dev--1.0--patch-412
+Summary: Merged from hodique@lifl.fr--2005 (patch 2-4)
+Keywords: merge
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-39
+   merge patch 368-398 from Sachac
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-41
+   merge patch 399-402 from Sacha
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-42
+   Merge Andrew's change and support definde section access rule
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-2
+   incorporated mwolson's changes
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-3
+   merged patches from the dev branch
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-4
+   merged changes from mwolson@gnu.org--2005/planner-muse--mwolson--1.0
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-65
+   merget patches 385--391
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-66
+   merge latest patches
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-67
+   merge latest
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-68
+   small change to planner-lisp.el
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-4
+   Catch up with sachac's patch-377
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-5
+   Caught up with Sacha through patch-384
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-6   
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-7
+   Catch up, add content to docs.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-8
+   Fixed typo.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-9
+   Catch up with sachac.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-10
+   Fixes to Appointments node
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-11
+   Catch up with Sacha.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-12
+   Merge to catch up with sachac. 
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-13
+   Reorganization of More about Tasks node 
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-397
+   planner-bibtex-regexp: Fix typo. planner-el.texi: Add note about allout.el
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-398
+   Docfix: planner-el.texi refers to wrong URL
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-399
+   Bugfix: planner-extract-tasks: Accept list of pages
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-400
+   planner-lisp: Allow arbitrary Lisp expressions
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-401
+   Docfix: planner-lisp: Add arbitrary functions example
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-402
+   Provide planner-log-edit like functionality for xtla
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-403
+   New function: planner-delete-section[-text], add CREATE to planner-narrow-to-section
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-404
+   Bugfix: planner-delete-note actually works now, and planner-rss recognizes categories
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-405
+   Bugfix: Allow arbitrary extensions by using emacs-wiki-page-name
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-406
+   Bugfix: planner-appt-add-appts-from-schedule and empty schedules
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-407
+   Bugfix: planner-appt-add-appts-from-schedule and empty schedules
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-408
+   planner-tasks-overview-get-summary: Work with files in subdirectories
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-409
+   Bugfix: Use write-file-hooks
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-410
+   planner-authz: Merge dryice/42 adding section access rules
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-411
+   New hook: planner-mark-task-hook
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-412
+   Docfix: Reorganize Tasks section (johnsu01/13)

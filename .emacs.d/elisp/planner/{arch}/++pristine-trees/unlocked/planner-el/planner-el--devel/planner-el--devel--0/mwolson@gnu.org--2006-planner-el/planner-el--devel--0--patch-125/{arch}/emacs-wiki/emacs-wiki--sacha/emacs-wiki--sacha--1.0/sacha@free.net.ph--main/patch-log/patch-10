@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-10
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jan 23 16:45:29 PHT 2004
+Standard-date: 2004-01-23 08:45:29 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-10
+Summary: planner-list-unfinished-tasks lists all non-X 
+
+Instead of just listing the undone tasks (_), planner-list-unfinished-tasks lists all incomplete tasks (non-X status).
+That way, in-progress and delegated tasks will be included in the list.
+

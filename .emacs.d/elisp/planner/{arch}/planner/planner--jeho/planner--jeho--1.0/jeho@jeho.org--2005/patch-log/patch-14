@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.0--patch-14
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Feb 18 21:48:04 GMT 2005
+Standard-date: 2005-02-18 21:48:04 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-14
+Summary: regexp tuning
+Keywords: 
+
+* planner-appt.el (planner-appt-schedule-regexp): made this more generous
+than it was before, so it should match, e.g.
+
+            12:00 |      | foobie bletch
+
+which didn't match before.

@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-346
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan  4 22:51:57 EST 2006
+Standard-date: 2006-01-05 03:51:57 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+    lisp/muse-registry.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-346
+Summary: Fix #4973: muse-project-ignore-regexp too aggressive
+Keywords: 
+
+* lisp/muse-project.el (muse-project-ignore-regexp): Note that
+  case-fold-search should be nil before using this regexp.
+  (muse-project-recurse-directory, muse-project-file-entries)
+  (muse-project-of-file): Set case-fold-search to nil before matching
+  against muse-project-ignore-regexp.  Thanks to G. J. Teale for the
+  report.
+
+* muse-registry.el (muse-registry-make-new-registry): Ditto.

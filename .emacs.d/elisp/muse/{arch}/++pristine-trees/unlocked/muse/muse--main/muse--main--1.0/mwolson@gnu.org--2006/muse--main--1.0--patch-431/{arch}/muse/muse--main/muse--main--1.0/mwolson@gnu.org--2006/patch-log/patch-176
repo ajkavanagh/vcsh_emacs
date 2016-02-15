@@ -1,0 +1,28 @@
+Revision: muse--main--1.0--patch-176
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Aug  7 16:53:06 EDT 2006
+Standard-date: 2006-08-07 20:53:06 GMT
+Modified-files: ChangeLog.3 NEWS lisp/muse-latex.el
+    lisp/muse-publish.el lisp/muse-texinfo.el
+    lisp/muse-xml-common.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-176
+Summary: Use separate escaping for embedded images.
+Keywords: 
+
+* NEWS: Update through patch-95.
+
+* lisp/muse-latex.el (muse-latex-markup-specials-url): Use
+  \textbackslash{} for "\".  Thanks to Jim Ottaway for the suggestion.
+  (muse-latex-markup-specials-image): New option that enables escaping of
+  specials in images.  This was split from the URL specials.
+  (muse-latex-decide-specials): Handle 'image context.
+
+* lisp/muse-publish.el (muse-publish-escape-specials): Document 'image
+  context.
+  (muse-publish-url): Use 'image context for images.
+
+* lisp/muse-texinfo.el (muse-texinfo-decide-specials): Treat images the
+  same as URLs.
+
+* lisp/muse-xml-common.el (muse-xml-decide-specials): Ditto.

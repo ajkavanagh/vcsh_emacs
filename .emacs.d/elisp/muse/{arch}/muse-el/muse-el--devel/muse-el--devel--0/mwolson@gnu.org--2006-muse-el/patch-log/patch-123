@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-123
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  8 10:02:48 EST 2007
+Standard-date: 2007-01-08 15:02:48 GMT
+Modified-files: ChangeLog Makefile Makefile.defs
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-123
+    mwolson@gnu.org--2006/muse--main--1.0--patch-266
+    mwolson@gnu.org--2006/muse--main--1.0--patch-267
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 266-267)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-266
+   Makefile: Keep track of distributor (debian/ubuntu)
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-267
+   Fix bug with <include ... markup="example">

@@ -1,0 +1,10 @@
+Revision: muse--main--1.0--patch-135
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 13 18:20:12 EST 2005
+Standard-date: 2005-07-13 23:20:12 GMT
+Modified-files: ChangeLog lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-135
+Summary: Prepare Muse 3.01.90 (3.02 RC1).
+Keywords: 
+

@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-400
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jul 23 16:38:19 EDT 2007
+Standard-date: 2007-07-23 20:38:19 GMT
+Modified-files: ChangeLog lisp/muse-context.el
+    lisp/muse-docbook.el lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-400
+Summary: Remove some unneeded uses of save-restriction
+Keywords: 
+
+* lisp/muse-context.el (muse-context-bibliography):
+  (muse-context-setup-bibliography): Remove unneeded save-restriction
+  use.
+
+* lisp/muse-latex.el (muse-latex-bibliography): Remove unneeded
+  save-restriction use.
+
+* lisp/muse-docbook.el (muse-docbook-entities)
+  (muse-docbook-bibliography): Remove unneeded save-restriction use.

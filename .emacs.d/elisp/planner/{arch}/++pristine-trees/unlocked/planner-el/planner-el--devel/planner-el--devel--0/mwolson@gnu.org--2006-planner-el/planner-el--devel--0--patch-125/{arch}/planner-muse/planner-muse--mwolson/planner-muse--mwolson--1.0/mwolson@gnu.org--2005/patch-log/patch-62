@@ -1,0 +1,16 @@
+Revision: planner-muse--mwolson--1.0--patch-62
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep  1 11:26:09 EST 2005
+Standard-date: 2005-09-01 16:26:09 GMT
+Modified-files: ChangeLog.mwolson planner-authz.el
+    planner-notes-index.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-62
+Summary: Begin list items with " - " instead of "- ".
+Keywords: 
+
+* planner-authz.el (planner-authz-markup-task): Handle case where we have
+  extra whitespace after the dash.
+
+* planner-notes-index.el (planner-notes-index-tag, planner-notes-index):
+  Use " - " to begin list items rather than "- ".

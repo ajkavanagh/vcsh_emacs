@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-398
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun May 22 11:24:30 PHT 2005
+Standard-date: 2005-05-22 03:24:30 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-398
+Summary: Docfix: planner-el.texi refers to wrong URL
+Keywords: 
+
+* planner-el.texi (Getting Help): Fix wrong URL. Thanks to Neal McBurnett
+  for pointing this out!

@@ -1,0 +1,12 @@
+Revision: emacs-wiki--gary--1.0--patch-5
+Archive: gary@gnu.org--2004
+Creator: Gary V. Vaughan <gary@gnu.org>
+Date: Fri Apr 23 11:44:51 BST 2004
+Standard-date: 2004-04-23 10:44:51 GMT
+New-files: .arch-ids/planner-calendar.el.id
+    planner-calendar.el
+New-patches: gary@gnu.org--2004/emacs-wiki--gary--1.0--patch-5
+Summary: render planner day page calendars with elisp
+Keywords:
+
+	  * planner-calendar.el: New file.

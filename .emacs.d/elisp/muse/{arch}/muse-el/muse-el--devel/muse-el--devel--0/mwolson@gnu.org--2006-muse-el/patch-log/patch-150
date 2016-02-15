@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-150
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  4 15:33:57 EDT 2007
+Standard-date: 2007-07-04 19:33:57 GMT
+New-files: .arch-ids/.arch-inventory.id .arch-inventory
+    contrib/.arch-ids/.arch-inventory.id
+    contrib/.arch-inventory
+    experimental/.arch-ids/.arch-inventory.id
+    experimental/.arch-inventory
+    lisp/.arch-ids/.arch-inventory.id lisp/.arch-inventory
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-150
+    mwolson@gnu.org--2006/muse--main--1.0--patch-382
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 382)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-382
+   Add .arch-inventory to mark some files as precious

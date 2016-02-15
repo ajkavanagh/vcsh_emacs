@@ -1,0 +1,12 @@
+Revision: muse--rel--3.02--patch-5
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 16 20:45:58 EST 2005
+Standard-date: 2005-11-17 01:45:58 GMT
+Modified-files: lisp/muse-project.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-5
+Summary: Add with-muse-project macro from parts of patch-260.
+Keywords: 
+
+* lisp/muse-project.el (with-muse-project): New function courtesy of Jim
+  Ottaway.

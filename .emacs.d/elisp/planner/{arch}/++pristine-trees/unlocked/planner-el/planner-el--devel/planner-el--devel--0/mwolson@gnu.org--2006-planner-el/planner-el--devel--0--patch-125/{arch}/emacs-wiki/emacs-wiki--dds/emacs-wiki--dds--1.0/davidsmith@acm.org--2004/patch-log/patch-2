@@ -1,0 +1,10 @@
+Revision: emacs-wiki--dds--1.0--patch-2
+Archive: davidsmith@acm.org--2004
+Creator: David D. Smith <davidsmith@acm.org>
+Date: Mon Jan 19 20:00:15 EST 2004
+Standard-date: 2004-01-20 01:00:15 GMT
+Modified-files: planner.el
+New-patches: davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-2
+Summary: whitespace adjustment
+
+Use same indent settings as Sacha.

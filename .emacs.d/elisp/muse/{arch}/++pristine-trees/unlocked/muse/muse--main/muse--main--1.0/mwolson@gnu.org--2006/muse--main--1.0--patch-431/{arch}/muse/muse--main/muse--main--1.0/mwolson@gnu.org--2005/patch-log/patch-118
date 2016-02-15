@@ -1,0 +1,27 @@
+Revision: muse--main--1.0--patch-118
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul  9 03:53:33 EST 2005
+Standard-date: 2005-07-09 08:53:33 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-118
+Summary: Handle a few edge cases with project-page resolution gracefully.
+Keywords: 
+
+* lisp/muse-project.el (muse-project-applicable-styles): Add assertion to
+  make sure that PAGE is specified.  STYLES should be generated
+  automatically, but it could theoretically fail.  I'm managing to
+  trigger this when messing with unsaved Muse files.  Handle case where
+  buffer has not yet been saved.
+  (muse-project-find-file): Don't try to resolve relative links; just
+  open them.
+
+* lisp/muse-wiki.el (muse-wiki-resolve-project-page): Fix
+  point-of-reference bug.  No need to call muse-project-page-of-file
+  since buffer-file-name and muse-publishing-current-file both give us
+  full paths.
+
+* lisp/muse-mode.el (muse-link-at-point): For some reason,
+  `skip-chars-backward' only respects the newline some of the time.
+  Damned annoying.

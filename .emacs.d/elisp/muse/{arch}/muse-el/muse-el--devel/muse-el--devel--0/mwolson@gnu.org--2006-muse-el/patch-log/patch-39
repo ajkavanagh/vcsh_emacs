@@ -1,0 +1,25 @@
+Revision: muse-el--devel--0--patch-39
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Per B. Sederberg <per@med.upenn.edu>
+Date: Wed Apr  5 01:30:08 EDT 2006
+Standard-date: 2006-04-05 05:30:08 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-39
+Summary: Add in extension to implicit links to match project files.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-wikiword-match-project-files): Add custom
+  variable for whether to match project files as implicit links.
+
+* muse-wiki.el (muse-wiki-update-local-wikiword-regexp-hook): Function to
+  make the wikiword-regexp local and append the project files.
+
+* muse-wiki.el (muse-mode-hook): Append the update-local-wikiword hook to
+  the muse-mode-hook.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   lisp/muse-wiki.el
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

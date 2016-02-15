@@ -1,0 +1,26 @@
+Revision: emacs-wiki--dev--1.0--patch-16
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Jul 15 04:53:55 EST 2003
+Standard-date: 2003-07-14 18:53:55 GMT
+Summary: support images in the description part of an [[extended][link]]
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-16
+Removed-patches: 
+
+This patch allows you to specify a path to an image in the description part
+of an extended link, which is especially useful for thumbnails. Thanks to
+Gary Vaughan (gary AT gnu DOT org) for this patch.
+
+(emacs-wiki-markup-link): check if the link and description fields are the
+    same - if not, and the description is an image, mark it up as an anchored
+    image
+    

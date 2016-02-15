@@ -1,0 +1,74 @@
+Revision: planner--jeho--1.1--patch-11
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Nov 21 22:51:21 GMT 2005
+Standard-date: 2005-11-21 22:51:21 GMT
+New-files: contrib/.arch-ids/=id
+    contrib/.arch-ids/timeclock.el.id contrib/timeclock.el
+New-directories: contrib contrib/.arch-ids
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    debian/rules planner-appt.el planner-cyclic.el
+    planner-export-diary.el planner-id.el planner-multi.el
+    planner-notes-index.el planner-tasks-overview.el
+    planner-timeclock.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-40
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-11
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--base-0
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-1
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-96
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-97
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-99
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-100
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-101
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-102
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-103
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-104
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-105
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-106
+Summary: Merged from dryice@liu.com.cn--public (patch 40), john@wjsullivan.net--2005 (patch 0-1), mwolson@gnu.org--2005 (patch 96-106)
+Keywords: merge
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-40
+   New file: planner-pyblosxom.el, init (incomplete) version
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--base-0
+   tag of mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-1
+   Installed Sacha Chua's patch to fix the behavior of planner-cyclic at publishing time.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-96
+   Make new Debian snapshot.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-97
+   Add contrib directory and XEmacs-friendly version of timeclock.el.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+   This version of timeclock.el is only to be used with XEmacs.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-99
+   Merged from dryice@liu.com.cn--public (patch 40), john@wjsullivan.net--2005 (patch 0-1)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-100
+   planner-multi: Attempt to keep multiple links from vanishing.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-101
+   Apply task ID patch from Sacha.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-102
+   Fix parameters of planner-visit-link.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-103
+   Make tasks overview, notes index, and a few other things work.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-104
+   planner-multi: Don't create extraneous copy of new task.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-105
+   Fix obvious bug.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-106
+   planner-appt: Try to fix infinite loop error.

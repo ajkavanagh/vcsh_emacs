@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-189
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Oct 24 21:08:06 JST 2004
+Standard-date: 2004-10-24 12:08:06 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-189
+Summary: planner-create-task: Change "from" annotation to ":"
+Keywords: minor improvement
+
+	* planner.el (planner-create-task): Change annotation string to :
+	so that the grammar isn't weird. Thanks to Richi Plana for
+	pointing this out.

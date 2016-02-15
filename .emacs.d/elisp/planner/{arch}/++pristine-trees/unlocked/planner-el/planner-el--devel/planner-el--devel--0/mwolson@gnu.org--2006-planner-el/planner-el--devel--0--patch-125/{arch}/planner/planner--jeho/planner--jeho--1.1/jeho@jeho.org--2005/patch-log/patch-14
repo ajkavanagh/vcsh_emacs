@@ -1,0 +1,20 @@
+Revision: planner--jeho--1.1--patch-14
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Nov 27 20:32:24 GMT 2005
+Standard-date: 2005-11-27 20:32:24 GMT
+Modified-files: ChangeLog planner-appt.el planner-report.el
+    scripts/planner-build.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-14
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-115
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-116
+Summary: planner-appt: fix formatting; Merge from mwolson@gnu.org--2005 (patch 115-116)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-115
+   Merged from jeho@jeho.org--2005 (patch 1-12)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-116
+   planner-report: Implement suggestions from Seth Falcon.

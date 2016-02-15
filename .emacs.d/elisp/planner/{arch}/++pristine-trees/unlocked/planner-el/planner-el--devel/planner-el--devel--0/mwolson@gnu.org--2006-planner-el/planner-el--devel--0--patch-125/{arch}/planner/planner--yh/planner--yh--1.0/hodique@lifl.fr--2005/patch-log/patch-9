@@ -1,0 +1,77 @@
+Revision: planner--yh--1.0--patch-9
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jun 24 10:03:10 CEST 2005
+Standard-date: 2005-06-24 08:03:10 GMT
+Modified-files: ChangeLog.yh planner-diary.el
+    planner-el.texi planner-gnus.el planner-id.el
+    planner-multi.el planner-timeclock.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-9
+    sacha@free.net.ph--main/planner--dev--1.0--patch-413
+    sacha@free.net.ph--main/planner--dev--1.0--patch-414
+    sacha@free.net.ph--main/planner--dev--1.0--patch-415
+    sacha@free.net.ph--main/planner--dev--1.0--patch-416
+    sacha@free.net.ph--main/planner--dev--1.0--patch-417
+    sacha@free.net.ph--main/planner--dev--1.0--patch-418
+    sacha@free.net.ph--main/planner--dev--1.0--patch-419
+    sacha@free.net.ph--main/planner--dev--1.0--patch-420
+    sacha@free.net.ph--main/planner--dev--1.0--patch-421
+    sacha@free.net.ph--main/planner--dev--1.0--patch-422
+    sacha@free.net.ph--main/planner--dev--1.0--patch-423
+    sacha@free.net.ph--main/planner--dev--1.0--patch-424
+    sacha@free.net.ph--main/planner--dev--1.0--patch-425
+    sacha@free.net.ph--main/planner--dev--1.0--patch-426
+    sacha@free.net.ph--main/planner--dev--1.0--patch-427
+    sacha@free.net.ph--main/planner--dev--1.0--patch-428
+Summary: sacha@free.net.ph--main (patch 0-366, 413-428)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-413
+   Bugfix: planner-current-note-info should work with notes with parens
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-414
+   Bugfix: planner-narrow-to-note should recognize more notes properly now
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-415
+   planner-multi: planner-task-plan: override for planner-multi
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-416
+   planner-mark-task: Do everything inside with-planner-update-setup
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-417
+   planner-multi-copy-tasks-to-page: New option automatically copies tasks
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-418
+   Enhancement: planner-multi-remove-task-from-pool works with multiple pages
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-419
+   Docfix: Note that Lisp tags work only for GNU Emacs
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-420
+   planner-annotation-as-kill: New interactive prefix
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-421
+   New: planner-annotation-from-file-with-position
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-422
+   Bugfix: planner-annotation-from-file-with-position: Check if buffer has a file
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-423
+   Bugfix: planner-browse-position-url: Do not clobber match data
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-424
+   Bugfix: planner-gnus-browse-url and long grou pnames
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-425
+   Bugfix: with-planner-update-setup, planner-browse-position-url, planner-multi-tasks-equal-p
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-426
+   Bugfix: with-planner-update-setup: Don't block planner-id
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-427
+   Embarrassing typo: Missing )
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-428
+   Bugfix: planner-annotation-as-kill: Make sure link is set

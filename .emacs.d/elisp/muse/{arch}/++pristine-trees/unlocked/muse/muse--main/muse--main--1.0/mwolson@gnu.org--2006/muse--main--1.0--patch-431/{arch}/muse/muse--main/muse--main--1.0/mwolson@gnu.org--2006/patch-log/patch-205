@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-205
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep 11 21:53:01 EDT 2006
+Standard-date: 2006-09-12 01:53:01 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-205
+Summary: Manual: mention the muse-el-internationalization mailing list
+Keywords: 
+
+2006-09-11  Michael Olson  <mwolson@gnu.org>
+
+	* muse.texi (Getting Help and Reporting Bugs): Mention the
+	muse-el-internationalization mailing list.

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-445
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jul  6 01:24:36 PHT 2005
+Standard-date: 2005-07-05 17:24:36 GMT
+Modified-files: ChangeLog planner-multi.el
+    planner-timeclock-summary.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-445
+Summary: Bugfix: planner-multi-link-delete: Preserve order
+Keywords: 
+
+* planner-multi.el (planner-multi-link-delete): Docfix. Preserve order.
+  Thanks to Chris Parsons for pointing out this bug.

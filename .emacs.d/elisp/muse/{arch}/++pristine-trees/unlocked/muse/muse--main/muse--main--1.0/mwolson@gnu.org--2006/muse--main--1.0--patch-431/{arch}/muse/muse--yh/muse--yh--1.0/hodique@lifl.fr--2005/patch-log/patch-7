@@ -1,0 +1,23 @@
+Revision: muse--yh--1.0--patch-7
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Jun 20 13:41:33 CEST 2005
+Standard-date: 2005-06-20 11:41:33 GMT
+New-files: .arch-ids/muse-wiki.el.id muse-wiki.el
+Modified-files: muse-colors.el muse-mode.el muse-publish.el
+    muse-regexps.el muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-7
+Summary: split WikiWords and InterWiki links into their own package
+Keywords:
+
+* muse-colors.el (muse-link-face): compute face on handled url
+
+* muse-mode.el (muse-mode-link-functions): new variable for holding custom link recognition functions
+(muse-mode-handler-functions): new variable for holding custom url handler (pre-processor) function
+(muse-handled-url): obtain an url in its handled form (unchanged if no handler applicable
+(muse-link-at-point): use muse-mode-handler-functions
+
+* muse.el (muse-page-name): give an empty string instead of nil if buffer-file-name is not applicable
+
+* muse-wiki.el:  new file for managing wiki functions: WikiWords and interwiki links
+

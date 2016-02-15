@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-356
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan 18 20:54:58 EST 2006
+Standard-date: 2006-01-19 01:54:58 GMT
+Modified-files: ChangeLog debian/emacsen-startup
+    debian/rules
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-356
+Summary: Debian fixups.
+Keywords: 
+
+* debian/emacsen-startup: Remove unnecessary path addition.
+
+* debian/rules: Explicitly install NEWS.Debian.  Thanks to Romain
+  Francoise for noticing.

@@ -1,0 +1,31 @@
+Revision: planner--mwolson--1.0--patch-8
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 25 00:33:19 EST 2005
+Standard-date: 2005-06-25 05:33:19 GMT
+Modified-files: planner-appt.el planner-deadline.el
+    planner-gnus.el planner-id.el planner-rank.el
+    planner-rdf.el planner.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-8
+Summary: Use `planner-match-string-no-properties'.
+Keywords: 
+
+* planner.el (planner-match-string-no-properties): Use instead of
+  `match-string-no-properties'.
+  (planner-annotation-from-planner-note)
+  (planner-task-info-from-string, planner-current-note-info) 
+  (planner-notes-get-headlines): Make use of this variable.
+
+* planner-appt.el (planner-appt-add-appts-from-schedule): Ditto.
+
+* planner-deadline.el (planner-deadline-get-deadline-from-string): Ditto.
+
+* planner-gnus.el (planner-gnus-get-address): Ditto.
+
+* planner-id.el (planner-id-get-id-from-string): Ditto.
+
+* planner-rank.el (planner-rank-get-task-info): Ditto.
+
+* planner-rdf.el (planner-rdf-get-taskid, planner-rdf-get-note-info)
+  (planner-rdf-replace-links, planner-rdf-note-get-alias)
+  (planner-rdf-note-get-plan, planner-rdf-note): Ditto.

@@ -1,0 +1,10 @@
+Revision: muse-el--devel--0--patch-95
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Sasha Kovar <sasha@arcocene.org>
+Date: Sun Sep 24 18:13:10 PDT 2006
+Standard-date: 2006-09-25 01:13:10 GMT
+Modified-files: lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-95
+Summary: fix for bug #6942 - muse-blosxom-new-entry fails when using tags.
+Keywords: 
+

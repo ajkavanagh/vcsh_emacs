@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-395
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat May  7 22:19:21 PHT 2005
+Standard-date: 2005-05-07 14:19:21 GMT
+Modified-files: ChangeLog planner-el.texi planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-395
+Summary: planner-list-tasks-with-status bugfix: Deal with undated tasks; do not touch planner-task-format
+Keywords: 
+
+* planner.el (planner-list-tasks-with-status): Use planner-task-page
+instead of date to deal with undated tasks. Do not use
+planner-task-format. Thanks to sf for pointing these out.
+
+* planner-el.texi (Viewing Tasks): Update documentation for
+planner-list-unfinished-tasks to reflect new argument PAGES.
+

@@ -1,0 +1,23 @@
+Revision: planner--dev-kea--1.0--patch-1
+Archive: camalot@picnicpark.org--2005-planner
+Creator: Keith Amidon <camalot@picnicpark.org>
+Date: Mon Mar 14 09:02:03 PST 2005
+Standard-date: 2005-03-14 17:02:03 GMT
+Modified-files: planner-trunk.el {arch}/=tagging-method
+New-patches: camalot@picnicpark.org--2005-planner/planner--dev-kea--1.0--patch-1
+Summary: Cleanup planner-trunk and fix task sorting bug
+Keywords: 
+
+2005-03-14  Keith Amidon  <camalot@picnicpark.org>
+
+    * planner-trunk.el: make text fit on 80-column display
+    (planner-trunk-list-plan-regexp) renamed planner-trunk-list-regexp
+    (planner-trunk-task-completed-p) renamed planner-trunk-completed-p
+    (planner-trunk-insert-heading) renamed planner-trunk-ins-heading
+    (planner-trunk-do-trunk-section) shortened some local variable names
+
+    * planner-trunk.el: fix bug involving tasks w/o a plan page
+    (planner-trunk-task-plan-str) returns "" if no plan page for task
+    (planner-trunk-do-trunk-section) removed no plan page special case,
+    changed dummy non-matching regexp entry to "(_-)", which doesn't
+    match an empty string and hopefully no one ever wants to use.

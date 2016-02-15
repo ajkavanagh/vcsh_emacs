@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-312
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb  1 13:19:03 JST 2005
+Standard-date: 2005-02-01 04:19:03 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-312
+Summary: planner-expand-name: Specify dates by day name; ex: +5tue
+Keywords: 
+
+	* planner.el (planner-expand-name): Add +5tue2005.01.01 to
+	planner-expand-name. You can now specify dates by day names.
+	Example: -2mon = 2 Mondays ago. +fri = next Friday.
+	(planner-expand-name-days-alist): New.

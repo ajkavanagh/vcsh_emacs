@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-104
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov 21 02:06:21 EST 2005
+Standard-date: 2005-11-21 07:06:21 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-104
+Summary: planner-multi: Don't create extraneous copy of new task.
+Keywords: 
+
+* planner-multi.el (planner-multi-create-task-from-info): Deal with case
+  where planner-multi-copy-tasks-to-page is an extended link.  Thanks to
+  Seth Falcon for the report.

@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-368
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr  6 19:20:19 PHT 2005
+Standard-date: 2005-04-06 11:20:19 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-57
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-58
+    sacha@free.net.ph--main/planner--dev--1.0--patch-368
+Summary: Merge planner-multi-read-name bugfix from jeho
+Keywords: 
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-57
+   merge latest
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-58
+   fixed fix of planner-multi-read-name
+

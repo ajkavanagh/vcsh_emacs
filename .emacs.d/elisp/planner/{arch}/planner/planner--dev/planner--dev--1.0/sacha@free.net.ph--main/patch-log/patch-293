@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-293
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jan 12 22:28:48 JST 2005
+Standard-date: 2005-01-12 13:28:48 GMT
+Modified-files: ChangeLog planner-deadline.el planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-293
+Summary: planner-deadline: Allow deadline text anywhere
+Keywords: 
+
+	* planner-deadline.el (planner-deadline-update): Allow deadline
+	text anywhere.
+
+	* planner-id.el (planner-id-at-point): Trigger only for tasks.
+	(planner-id-remove-tasks-on-page): Trigger only for tasks.
+	(planner-id-keymap): Comment out.
+	(planner-id-markup): Do not highlight with keymap.

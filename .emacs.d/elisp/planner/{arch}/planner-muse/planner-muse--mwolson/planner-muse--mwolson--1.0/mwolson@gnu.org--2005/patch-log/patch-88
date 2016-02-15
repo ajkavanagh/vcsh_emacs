@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-88
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 03:53:18 EST 2005
+Standard-date: 2005-10-29 08:53:18 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-88
+Summary: Yet another anti-day-pages hack.
+Keywords: 
+
+* planner.el (planner-expand-name): Make it work with "30" as input and
+  no day pages.

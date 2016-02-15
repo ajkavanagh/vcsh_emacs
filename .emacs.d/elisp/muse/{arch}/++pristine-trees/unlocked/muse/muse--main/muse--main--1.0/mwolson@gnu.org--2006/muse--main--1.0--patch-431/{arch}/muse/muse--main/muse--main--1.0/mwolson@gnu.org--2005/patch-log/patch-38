@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-38
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu May 19 18:44:16 EST 2005
+Standard-date: 2005-05-19 23:44:16 GMT
+Modified-files: ChangeLog muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-38
+Summary: Parenthesis goofup.
+Keywords: 
+
+* muse-blosxom.el (muse-blosxom-markup-regexps): Remove stray parenthesis.
+

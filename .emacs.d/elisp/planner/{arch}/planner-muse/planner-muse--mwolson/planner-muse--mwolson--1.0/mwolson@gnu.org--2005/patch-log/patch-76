@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-76
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Oct 20 12:39:14 EST 2005
+Standard-date: 2005-10-20 17:39:14 GMT
+Modified-files: ChangeLog.mwolson planner-multi.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-76
+Summary: planner-multi: Extraneous brackets fix.
+Keywords: 
+
+* planner-multi.el: Apply patch from Marco Gidde that fixes a problem
+  with extraneous brackets.

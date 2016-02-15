@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-292
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jan 11 21:08:01 JST 2005
+Standard-date: 2005-01-11 12:08:01 GMT
+Modified-files: ChangeLog planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-292
+Summary: New option: planner-use-plan-pages
+Keywords: 
+
+	* planner.el (planner-use-plan-pages): New option. Yes, you can
+	turn plan pages off as well. Try not to have planner-use-day-pages
+	and planner-use-plan-pages off at the same time.
+	(planner-create-task-from-buffer): Follow planner-use-day-pages
+	and planner-use-plan-pages.
+	(planner-create-task): Follow planner-use-day-pages and
+	planner-use-plan-pages.
+
+	* planner.texi (Variables to Customize): Document planner-use-plan-pages.

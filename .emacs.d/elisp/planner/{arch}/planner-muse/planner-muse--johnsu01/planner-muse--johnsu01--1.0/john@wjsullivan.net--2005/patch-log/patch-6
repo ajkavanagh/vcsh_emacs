@@ -1,0 +1,38 @@
+Revision: planner-muse--johnsu01--1.0--patch-6
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Tue Jan  3 19:33:28 EST 2006
+Standard-date: 2006-01-04 00:33:28 GMT
+Modified-files: ChangeLog Makefile Makefile.defs
+    planner-accomplishments.el planner-el.texi
+    planner-publish.el planner-tasks-overview.el planner.el
+New-patches: john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-6
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-150
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-151
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-152
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-153
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-154
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-155
+Summary: Catch up.
+Keywords: 
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-150
+   muse-publish: Try again to fix paragraph detection.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-151
+   Merged from john@wjsullivan.net--2005 (patch 2-3)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-152
+   Fix double-escaping issue.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-153
+   Use "D" to indicate delegated tasks, instead of ">".
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-154
+   Makefile: Fix argument for install-info.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-155
+   Yet Another paragraph detection try.
+

@@ -1,0 +1,11 @@
+Revision: planner-muse--mwolson--1.0--patch-85
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 02:53:25 EST 2005
+Standard-date: 2005-10-29 07:53:25 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-85
+Summary: Make day-page-less name expansion *really* work.
+Keywords: 
+
+* planner.el (planner-expand-name): Fix logic goof.

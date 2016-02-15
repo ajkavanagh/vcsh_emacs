@@ -1,0 +1,37 @@
+Revision: muse--main--1.0--patch-426
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 29 18:36:27 EDT 2007
+Standard-date: 2007-07-29 22:36:27 GMT
+Modified-files: COPYING ChangeLog README contrib/cgi.el
+    contrib/httpd.el etc/muse.rnc examples/QuickStart.muse
+    experimental/muse-cite.el experimental/muse-mathml.el
+    experimental/muse-message.el
+    experimental/muse-protocol-iw.el
+    experimental/muse-split.el lisp/muse-backlink.el
+    lisp/muse-blosxom.el lisp/muse-book.el
+    lisp/muse-colors.el lisp/muse-context.el
+    lisp/muse-docbook.el lisp/muse-groff.el
+    lisp/muse-html.el lisp/muse-http.el
+    lisp/muse-import-docbook.el lisp/muse-import-latex.el
+    lisp/muse-import-xml.el lisp/muse-journal.el
+    lisp/muse-latex.el lisp/muse-latex2png.el
+    lisp/muse-mode.el lisp/muse-poem.el lisp/muse-project.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-texinfo.el
+    lisp/muse-wiki.el lisp/muse-xml-common.el
+    lisp/muse-xml.el lisp/muse.el texi/doclicense.texi
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-426
+Summary: Relicense to GPLv3
+Keywords: 
+
+2007-07-29  Michael Olson  <mwolson@gnu.org>
+
+	* Relicense to GPLv3.
+
+	* texi/doclicense.texi (GNU Free Documentation License): Use
+	pristine copy from Emacs source tree.
+
+	* texi/muse.texi (Contributors): Move node and appendix indicators
+	here, rather than doclicense.texi.

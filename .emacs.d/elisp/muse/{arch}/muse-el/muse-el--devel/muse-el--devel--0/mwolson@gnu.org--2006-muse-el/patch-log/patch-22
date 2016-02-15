@@ -1,0 +1,69 @@
+Revision: muse-el--devel--0--patch-22
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar 13 17:26:57 EST 2006
+Standard-date: 2006-03-13 22:26:57 GMT
+New-files: .arch-ids/COPYING.id COPYING
+    lisp/.arch-ids/muse-backlink.el.id
+    lisp/muse-backlink.el
+Modified-files: AUTHORS ChangeLog.2006 README
+    debian/copyright examples/muse.rnc
+    examples/mwolson/muse-init.el
+    examples/mwolson/stylesheets/blog.css
+    examples/mwolson/stylesheets/common.css
+    examples/mwolson/stylesheets/print.css
+    examples/mwolson/stylesheets/screen.css
+    experimental/muse-cite.el experimental/muse-mathml.el
+    experimental/muse-message.el lisp/muse-blosxom.el
+    lisp/muse-book.el lisp/muse-colors.el
+    lisp/muse-convert.el lisp/muse-docbook.el
+    lisp/muse-groff.el lisp/muse-html.el lisp/muse-http.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-latex2png.el lisp/muse-mode.el
+    lisp/muse-poem.el lisp/muse-project.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-registry.el
+    lisp/muse-texinfo.el lisp/muse-wiki.el
+    lisp/muse-xml-common.el lisp/muse-xml.el lisp/muse.el
+    muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-22
+    mwolson@gnu.org--2006/muse--main--1.0--patch-55
+    mwolson@gnu.org--2006/muse--main--1.0--patch-56
+    mwolson@gnu.org--2006/muse--main--1.0--patch-57
+    mwolson@gnu.org--2006/muse--main--1.0--patch-58
+    mwolson@gnu.org--2006/muse--main--1.0--patch-59
+    mwolson@gnu.org--2006/muse--main--1.0--patch-60
+    mwolson@gnu.org--2006/muse--main--1.0--patch-61
+    mwolson@gnu.org--2006/muse--main--1.0--patch-62
+    mwolson@gnu.org--2006/muse--main--1.0--patch-63
+Summary: Merged from mwolson@gnu.org--2006 (patch 55-63)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-55
+   Add backlink support, thanks to Jim Ottaway.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-56
+   Make nested definition list items work much better.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-57
+   Slightly improve flyspell integration.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-58
+   Make C-> and C-< keybindings not indent nested items.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-59
+   Fix output for consecutive list items of same type.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-60
+   Update Muse XML schema.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-61
+   Add COPYING file; update headers.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-62
+   Fix publishing error with multi-line wrapped list items.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-63
+   muse-latex: Add footnotes to links so that they show up on printed copies.

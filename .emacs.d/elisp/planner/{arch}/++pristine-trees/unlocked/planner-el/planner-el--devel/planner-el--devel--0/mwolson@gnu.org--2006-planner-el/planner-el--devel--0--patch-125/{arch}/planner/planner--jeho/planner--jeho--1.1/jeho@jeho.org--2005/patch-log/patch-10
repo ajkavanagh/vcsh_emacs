@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.1--patch-10
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Nov  8 11:40:30 GMT 2005
+Standard-date: 2005-11-08 11:40:30 GMT
+Modified-files: planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-10
+Summary: planner-multi-task-xref: multiple date page fix
+Keywords: 
+
+* planner-multi.el (planner-multi-task-xref): Don't repeat the date page
+  link. 
+

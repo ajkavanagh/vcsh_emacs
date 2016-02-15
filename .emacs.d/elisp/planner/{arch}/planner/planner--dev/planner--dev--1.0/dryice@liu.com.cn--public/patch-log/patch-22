@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-22
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Mar  2 10:57:50 CST 2005
+Standard-date: 2005-03-02 02:57:50 GMT
+Modified-files: ChangeLog planner-bibtex.el
+    planner-bookmark.el planner-gnus.el planner-mhe.el
+    planner-multi.el planner-w3m.el planner-wl.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-22
+    sacha@free.net.ph--main/planner--dev--1.0--patch-333
+Summary: merge from main stream patch-333
+Keywords: merge
+

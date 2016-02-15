@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-343
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 11 10:33:54 PHT 2005
+Standard-date: 2005-03-11 02:33:54 GMT
+Modified-files: ChangeLog planner-trunk.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-343
+Summary: Bugfixes: planner.el: remove unfontlocking code, add missing paren in planner-generate-index
+Keywords: 
+
+* planner-trunk.el: Remove cl dependency.
+* planner.el (planner-create-task-from-info): Remove buggy unfontlocking code.
+* planner.el (planner-sort-tasks): Remove buggy unfontlocking code.
+* planner.el (planner-renumber-notes): Remove buggy unfontlocking code.
+* planner.el (planner-generate-index): Embarrassing trivial bugfix: missing paren

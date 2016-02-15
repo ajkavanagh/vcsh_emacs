@@ -1,0 +1,21 @@
+Revision: planner-muse--mwolson--1.0--patch-97
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Nov 17 00:08:58 EST 2005
+Standard-date: 2005-11-17 05:08:58 GMT
+New-files: contrib/.arch-ids/=id
+    contrib/.arch-ids/timeclock.el.id contrib/timeclock.el
+New-directories: contrib contrib/.arch-ids
+Modified-files: ChangeLog planner-timeclock.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-97
+Summary: Add contrib directory and XEmacs-friendly version of timeclock.el.
+Keywords: 
+
+* contrib: New directory containing small programs that are used with
+  Planner, but are not part of it.
+
+* contrib/timeclock.el: Fixed version of timeclock.el that might work
+  better with XEmacs.
+
+* planner-timeclock.el: Note that timeclock.el is now distributed with
+  Planner in the contrib directory.

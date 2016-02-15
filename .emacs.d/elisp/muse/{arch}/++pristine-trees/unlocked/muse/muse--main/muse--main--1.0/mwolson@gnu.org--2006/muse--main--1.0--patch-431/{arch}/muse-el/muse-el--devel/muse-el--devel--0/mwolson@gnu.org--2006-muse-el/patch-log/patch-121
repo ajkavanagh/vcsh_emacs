@@ -1,0 +1,66 @@
+Revision: muse-el--devel--0--patch-121
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Dec 30 23:19:16 EST 2006
+Standard-date: 2006-12-31 04:19:16 GMT
+New-files: texi/.arch-ids/=id texi/.arch-ids/Makefile.id
+    texi/.arch-ids/doclicense.texi.id texi/Makefile
+    texi/doclicense.texi
+New-directories: texi texi/.arch-ids
+Renamed-files: .arch-ids/muse.texi.id texi/.arch-ids/muse.texi.id
+    examples/johnw/.arch-ids/muse-johnw.el.id examples/johnw/.arch-ids/muse-init.el.id
+    examples/johnw/muse-johnw.el examples/johnw/muse-init.el
+    muse.texi texi/muse.texi
+Modified-files: AUTHORS ChangeLog Makefile NEWS README
+    examples/johnw/muse-init.el
+    examples/mwolson/muse-init.el
+    experimental/muse-mathml.el lisp/muse-blosxom.el
+    lisp/muse-book.el lisp/muse-docbook.el
+    lisp/muse-groff.el lisp/muse-html.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-latex2png.el lisp/muse-mode.el
+    lisp/muse-poem.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse-texinfo.el
+    lisp/muse-wiki.el lisp/muse-xml.el lisp/muse.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-121
+    mwolson@gnu.org--2006/muse--main--1.0--patch-255
+    mwolson@gnu.org--2006/muse--main--1.0--patch-256
+    mwolson@gnu.org--2006/muse--main--1.0--patch-257
+    mwolson@gnu.org--2006/muse--main--1.0--patch-258
+    mwolson@gnu.org--2006/muse--main--1.0--patch-259
+    mwolson@gnu.org--2006/muse--main--1.0--patch-260
+    mwolson@gnu.org--2006/muse--main--1.0--patch-261
+    mwolson@gnu.org--2006/muse--main--1.0--patch-262
+    mwolson@gnu.org--2006/muse--main--1.0--patch-263
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 255-263)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-255
+   muse-latex: Use simpler comment syntax
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-256
+   Fix problem with <include> and <contents> tags.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-257
+   Re-license manual to GFDL instead of GPL
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-258
+   Make it possible to specify different publishing functions
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-259
+   manual: Update book example
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-260
+   Implement <src> tag
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-261
+   muse-latex2png: handle publishing to styles other than HTML
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-262
+   Rename <math> tag in muse-mathml.el to <mathml>
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-263
+   (Harmless empty commit)

@@ -1,0 +1,29 @@
+Revision: muse--yh--1.0--patch-35
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jul 16 20:50:23 CEST 2005
+Standard-date: 2005-07-16 18:50:23 GMT
+Modified-files: ChangeLog lisp/muse-book.el
+    lisp/muse-docbook.el lisp/muse-http.el lisp/muse-mode.el
+    lisp/muse-poem.el lisp/muse-publish.el lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-35
+    mwolson@gnu.org--2005/muse--main--1.0--patch-143
+    mwolson@gnu.org--2005/muse--main--1.0--patch-144
+    mwolson@gnu.org--2005/muse--main--1.0--patch-145
+    mwolson@gnu.org--2005/muse--main--1.0--patch-146
+Summary: Merged from mwolson@gnu.org--2005 (patch 143-146)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-143
+   muse-docbook: split-string Emacs21 fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-144
+   Improve temp buffer usage.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-145
+   S-TAB issue with Windows.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-146
+   Allow `muse-index-as-string' to remove current file from output.

@@ -1,0 +1,110 @@
+Revision: planner--jeho--1.0--patch-60
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Apr 15 18:07:46 BST 2005
+Standard-date: 2005-04-15 17:07:46 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-60
+Summary: planner-appt: create task fix, better advising, etc.
+Keywords: 
+
+* planner-appt.el 
+
+Quite a few changes here: 
+
+Fixed a bug in task creation with multi links: previously, there would
+either be an error [if the task ends up added to an empty page] or the
+wrong task line would be considered for appointment adding [these
+problems due to idiosyncrasies in planner-multi].
+
+Debugging macros and functions.
+
+Better advising: while investigating the task creation bug, I
+found that there were many redundant calls to the function advice,
+so I have added code temporarily to switch the advice off. I also
+noticed that the advice to `planner-update-task' couldn't possibly
+do anything useful before, since the current task line is
+unaffected by `planner-update-task', but that some advice was
+called for; so I added something here.  This, however, turned out
+to be far too slow for the mass updating done by
+`planner-id-update-tasks-on-page', so I added some advice for that
+too.
+
+There are also improvements to the advising itself [preactivation
+and avoiding using ad-foo-regexp], with some speed gains.
+
+(planner-appt-live-task-regexp): fixed matching just whitespace
+after the task status
+
+(planner-appt-debug-buffer, planner-appt-debug-flag)
+(planner-appt-debug, planner-appt-debug-message): new debugging
+functionality
+
+(--planner-appt-task-cache, planner-appt-task-parse-task): added
+memoizing optimization
+
+(planner-schedule-task-estimate): added a docstring
+
+(planner-appt-task-add, planner-appt-task-delete): re-organized to
+make more efficient and more readable
+
+(--planner-appt-advice, planner-appt-advice-common-flags): support
+for new advising stuff; `--planner-appt-advice' holds information
+about advice added by `planner-appt-defadvice',
+`planner-appt-advice-common-flags' flags that are used in all
+advice.  Preactivation of advice added here for load-time
+efficiency
+
+(planner-appt-defadvice): defadvice macro wrapper that remembers
+the advice args for later use
+
+(planner-appt-disable-all-advice, planner-appt-enable-all-advice):
+new functions: enable/disable all advice added with
+`planner-appt-defadvice'
+
+(with-planner-appt-task-advice-disabled): temporary disabling of
+advice added with `planner-appt-defadvice'
+
+(planner-task-cancelled, planner-task-done, planner-delete-task):
+now use `planner-appt-defadvice'
+
+(planner-appt-get-diff-links, planner-update-task): enhanced
+handling of `planner-update-task': previous code didn't actually
+do anything
+
+(planner-id-update-tasks-on-page): for speed, advised to avoid
+lots of update advice
+
+(plan): replaced the setq with a let clause
+
+(planner-copy-or-move-task): disable planner-appt advice while
+this advice is active; fixed bug in handling of planner-multi
+dates
+
+(planner-edit-task-description): use `planner-appt-defadvice'
+
+(--planner-appt-created-task-marker): support for create task
+advice
+
+(--planner-appt-close-the-buffer-flag): support for create task
+advice
+
+(planner-appt-create-task-hook-func): remember the place where the
+task was created, so it can be revisited to update appointments
+
+(planner-create-task-from-info): visit the place where the task
+was created, update appointments, and behave according to
+`planner-tasks-file-behavior'
+
+(planner-appt-methods): moved up the file to avoid
+byte-compilation warning
+
+(planner-appt-use): change function added to
+`planner-create-task-hook' to
+`planner-appt-create-task-hook-func'; moved the advice enabling to
+the end of the function [so advice can be explicitly disabled if
+the task method is not used [otherwise there is a problem with
+preactivation]]
+
+(planner-appt-de-insinuate): updated to take changes to hooks and
+advice handling into account

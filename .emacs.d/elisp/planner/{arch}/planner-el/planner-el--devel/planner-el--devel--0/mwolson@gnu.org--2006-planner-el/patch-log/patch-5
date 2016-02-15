@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-5
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Tue Feb 21 20:48:52 EST 2006
+Standard-date: 2006-02-22 01:48:52 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-5
+Summary: enable multiple links with "categories" attribute
+Keywords: 
+
+* planner-publish.el (planner-publish-note-tag): enable "categories"
+  attribute, which stores all of a note's links

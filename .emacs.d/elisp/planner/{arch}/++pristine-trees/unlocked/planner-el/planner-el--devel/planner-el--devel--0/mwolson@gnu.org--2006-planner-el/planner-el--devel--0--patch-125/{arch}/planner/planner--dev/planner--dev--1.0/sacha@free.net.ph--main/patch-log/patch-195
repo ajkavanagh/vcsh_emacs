@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-195
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Oct 31 23:12:22 JST 2004
+Standard-date: 2004-10-31 14:12:22 GMT
+New-files: .arch-ids/planner-bibtex.el.id planner-bibtex.el
+Modified-files: planner-auto.el planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-195
+Summary: New: planner-bibtex, planner-annotation-as-kill
+Keywords: external, new
+
+	* planner-bibtex.el: New. Thanks to James Clarke for the
+	contribution.
+
+	* planner.el (planner-annotation-as-kill): New. Thanks to James
+	Clarke for the idea.
+
+	* planner.texi (Overview): Add planner-annotation-as-kill.
+	(planner-bibtex.el): New.

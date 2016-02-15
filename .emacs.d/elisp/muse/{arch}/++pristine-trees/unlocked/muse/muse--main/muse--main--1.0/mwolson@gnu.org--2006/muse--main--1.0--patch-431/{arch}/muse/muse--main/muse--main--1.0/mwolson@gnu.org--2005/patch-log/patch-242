@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-242
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Sep 23 19:01:56 EST 2005
+Standard-date: 2005-09-24 00:01:56 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-242
+Summary: Use modification time for date directive.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-buffer): Set the date
+  directive using the currently-publishing file's modification time,
+  rather than the current time.

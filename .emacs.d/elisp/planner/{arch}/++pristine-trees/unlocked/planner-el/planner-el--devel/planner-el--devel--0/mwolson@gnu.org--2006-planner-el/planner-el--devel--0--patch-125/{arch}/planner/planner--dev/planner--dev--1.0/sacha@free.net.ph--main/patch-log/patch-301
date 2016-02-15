@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-301
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan 24 19:13:53 JST 2005
+Standard-date: 2005-01-24 10:13:53 GMT
+Modified-files: ChangeLog planner-timeclock-summary.el
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-301
+Summary: New: planner-create-task-from-buffer-hook, minor bugfix to planner-timeclock-summary
+Keywords: 
+
+	* planner.el (planner-create-task-from-buffer-hook): New.
+	Thanks to Dryice Liu for the suggestion.
+	(planner-create-task-from-buffer): Append
+	planner-create-task-from-buffer-hook.
+
+	* planner-timeclock-summary.el (planner-timeclock-summary-update): Minor
+	bugfix: Don't complain when there is no plan page.

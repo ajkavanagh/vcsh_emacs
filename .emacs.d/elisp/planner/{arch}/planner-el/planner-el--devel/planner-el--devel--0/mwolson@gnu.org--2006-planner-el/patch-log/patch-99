@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-99
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sun Jan  7 14:56:22 EST 2007
+Standard-date: 2007-01-07 19:56:22 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-99
+Summary: Remove erroneously committed ChangeLog entries, fix bug in planner-visit-link from Wanrong Lin.
+Keywords: 
+
+
+

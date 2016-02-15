@@ -1,0 +1,50 @@
+Revision: planner-muse--main--1.0--patch-1
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Tue Nov 29 17:57:42 EST 2005
+Standard-date: 2005-11-29 22:57:42 GMT
+Modified-files: planner-authz.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-1
+Summary: Muse port and related improvements
+Keywords: 
+
+ - port to Muse
+
+ - mark up planner's <note> and <task> tags instead of using markup
+   regexps
+
+ - should now be easier to support other templating systems than Mason by
+   defining new styles and changing planner-authz-after-publish-hook
+
+ - allow the regexp used to control access to sections to be customized
+   (planner-authz-sections-regexp)
+
+ - optionally control access to published diary entries (suggested by Jim
+   Ottaway)
+
+ - build per-page access control lists on demand instead of all at once
+   at the beginning -- should be more efficient because we'll rarely need
+   a full list
+
+ - use :strings to avoid contortions when inserting Mason tags
+
+ - instead of automatically generating an index, Muse seems to prefer
+   that users add the index to pages using <lisp> tags, so instead of
+   overloading Muse's index-generating functions, simply provide
+   planner-authz-index-as-string
+
+ - while looping through planner-authz-pages-to-republish, actually pop
+   off the entries to avoid republishing the same page twice if the
+   process gets interrupted
+
+ - run planner-authz-markup-sections on the whole buffer before
+   planner.el gets a chance to convert everything into XML-like tags (I'd
+   rather work with the <section> tags, but Muse needs support for nested
+   tags of the same name)
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

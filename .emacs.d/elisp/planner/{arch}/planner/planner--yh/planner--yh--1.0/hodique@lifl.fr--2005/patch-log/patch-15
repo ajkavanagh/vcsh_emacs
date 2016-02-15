@@ -1,0 +1,29 @@
+Revision: planner--yh--1.0--patch-15
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jul  2 19:57:29 CEST 2005
+Standard-date: 2005-07-02 17:57:29 GMT
+Modified-files: ChangeLog.yh planner-multi.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-15
+    sacha@free.net.ph--main/planner--dev--1.0--patch-438
+    sacha@free.net.ph--main/planner--dev--1.0--patch-439
+    sacha@free.net.ph--main/planner--dev--1.0--patch-440
+    sacha@free.net.ph--main/planner--dev--1.0--patch-441
+Summary: Merged from sacha@free.net.ph--main (patch 438-441)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-438
+   Bugfix: planner-update-wiki-project: planner-name-regexp fix, planner-save-buffers SKIP-BUFFERS
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-439
+   Bugfix: planner-lower-task: typo
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-440
+   Fixes planner-timeclock + planner-multi, also planner-multi-update-task
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-441
+   Bugfix: planner-save-buffers should suppress planner-id

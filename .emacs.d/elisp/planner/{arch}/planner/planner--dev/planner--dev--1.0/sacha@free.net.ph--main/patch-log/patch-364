@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-364
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Apr  4 01:39:18 PHT 2005
+Standard-date: 2005-04-03 17:39:18 GMT
+Modified-files: ChangeLog planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-364
+Summary: planner-replan-task: Preserve initial task location as much as possible; fix planner-multi as well
+Keywords: 
+
+* planner-multi.el (planner-multi-replan-task): Extensive
+  debugging and testing. Converted from defadvice version and fixed.
+
+* planner.el (planner-replan-task-function): New variable.
+  (planner-replan-task): Call the function.
+  (planner-replan-task-basic): Tweak to preserve place.
+

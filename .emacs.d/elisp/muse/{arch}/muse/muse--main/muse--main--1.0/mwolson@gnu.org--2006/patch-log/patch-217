@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-217
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 14:54:29 EDT 2006
+Standard-date: 2006-10-15 18:54:29 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-98
+    mwolson@gnu.org--2006/muse--main--1.0--patch-217
+    stefan_schlee@yahoo.com--2006-emacs/muse--bugfixes--0--base-0
+    stefan_schlee@yahoo.com--2006-emacs/muse--bugfixes--0--patch-1
+Summary: Merged from mwolson@gnu.org--2006-muse-el (patch 98)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-98
+   Bugfix #6367

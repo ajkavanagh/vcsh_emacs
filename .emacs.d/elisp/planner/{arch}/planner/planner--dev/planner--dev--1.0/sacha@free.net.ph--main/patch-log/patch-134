@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-134
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 26 17:00:00 PHT 2004
+Standard-date: 2004-06-26 09:00:00 GMT
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-134
+Summary: Document different ways to plan (bare-bones)
+Keywords: docfix
+
+	* planner.texi (Bare-Bones Planning): New.
+	(Bare-Bones Planning with Plan Pages): New.
+	(Tasks on Plan Pages with Some Day Pages): New.
+	(Planning based on the Franklin-Covey Approach): Renamed.

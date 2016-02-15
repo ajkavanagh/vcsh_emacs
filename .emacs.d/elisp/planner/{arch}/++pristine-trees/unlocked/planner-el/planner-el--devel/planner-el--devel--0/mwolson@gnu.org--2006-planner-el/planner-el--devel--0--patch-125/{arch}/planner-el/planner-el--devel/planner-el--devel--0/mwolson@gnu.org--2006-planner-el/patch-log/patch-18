@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-18
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Mar 14 16:14:32 EST 2006
+Standard-date: 2006-03-14 21:14:32 GMT
+Modified-files: planner-appt.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-18
+    mwolson@gnu.org--2006/planner--main--1.0--patch-20
+Summary: Merged from mwolson@gnu.org--2006 (patch 20)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-20
+   planner-appt: Mention that documentation is available in Planner manual.

@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-323
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 23:44:41 EDT 2007
+Standard-date: 2007-05-26 03:44:41 GMT
+Modified-files: ChangeLog examples/Makefile
+    examples/QuickStart.muse
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-323
+Summary: Publish the QuickStart as pdf, rather than info-pdf
+Keywords: 
+
+2007-05-25  Michael Olson  <mwolson@gnu.org>
+
+	* examples/Makefile (%.pdf): Publish the example using the normal
+	pdf style, rather than info-pdf.
+
+	* examples/QuickStart.muse: Add myself to the authors list.

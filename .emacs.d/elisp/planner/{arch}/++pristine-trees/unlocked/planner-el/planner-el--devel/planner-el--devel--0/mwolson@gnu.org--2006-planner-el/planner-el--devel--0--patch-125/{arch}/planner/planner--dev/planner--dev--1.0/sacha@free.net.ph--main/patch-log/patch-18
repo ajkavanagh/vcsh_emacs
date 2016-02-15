@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-18
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr  7 13:59:39 PHT 2004
+Standard-date: 2004-04-07 05:59:39 GMT
+Modified-files: planner-experimental.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-18
+Summary: Save position and restriction for planner-update-note
+Keywords: 
+
+	* planner-experimental.el (planner-update-note): Save position,
+	restriction, and window excursion so that we don't freak pll out.
+

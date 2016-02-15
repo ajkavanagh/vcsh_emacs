@@ -1,0 +1,25 @@
+Revision: muse-el--devel--0--patch-96
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Sep 25 17:51:10 BST 2006
+Standard-date: 2006-09-25 16:51:10 GMT
+Modified-files: lisp/muse-backlink.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-96
+Summary: fix muse-backlink
+Keywords: 
+
+* lisp/muse-backlink.el (muse-backlink-split-string): Compatibility with
+  Emacs versions < 22
+  
+* lisp/muse-backlink.el (muse-backlink-pending): New internal variable
+
+* lisp/muse-backlink.el (muse-backlink-get-mode-hook): Find the major
+  mode hook to use, so that backlinks are inserted at the right time.
+
+* lisp/muse-backlink.el (muse-backlink-insert-hook-func): Remove
+  unwind-protection; check for pending backlink, and that this is the
+  targe page.
+
+* lisp/muse-backlink.el (muse-backlink-handle-link): Don’t handle the link
+  if we are already handling one. Return the link as well as the parent
+  links. 

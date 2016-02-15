@@ -1,0 +1,23 @@
+Revision: planner--dev--1.0--patch-25
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Mar  2 23:51:59 CST 2005
+Standard-date: 2005-03-02 15:51:59 GMT
+Modified-files: planner-trunk.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-25
+Summary: optional force trunk completed tasks together with non-completed tasks and minor improvements
+Keywords: newfeature
+
+* planner-trunk.el (cl): require cl
+(planner-trunk-task-plan-str): if planner-multi is not loaded, return
+task link first if it's not nil. So on plan pages we can always(with and
+without planner-multi) trunk by date.
+(planner-trunk-sort-tasks): also move cancled tasks to the "done" trunk.
+(planner-trunk-insert-heading): also support cancled tasks
+(planner-trunk-do-trunk): ditto.
+(planner-trunk-tasks): optional arg force to force trunk completed tasks
+together with non-completed tasks.
+(planner-trunk-rule-list): update ":type" to catch up the new format for
+customize.
+
+

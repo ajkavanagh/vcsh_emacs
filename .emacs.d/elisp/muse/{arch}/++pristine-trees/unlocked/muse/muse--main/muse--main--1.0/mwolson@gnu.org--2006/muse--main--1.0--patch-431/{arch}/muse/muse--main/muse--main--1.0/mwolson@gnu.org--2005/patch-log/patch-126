@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-126
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 12 00:56:42 EST 2005
+Standard-date: 2005-07-12 05:56:42 GMT
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+    lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-126
+Summary: Add specified Muse file extension to auto-mode-alist.
+Keywords: 
+
+* lisp/muse.el (muse-file-extension): If extension is specified, remove
+  the old extension from auto-mode-alist and add the new one.  This
+  eliminates the need to set muse-mode-auto-p when you have specified a
+  Muse file extension.
+
+* examples/mwolson/muse-init.el: Sync.

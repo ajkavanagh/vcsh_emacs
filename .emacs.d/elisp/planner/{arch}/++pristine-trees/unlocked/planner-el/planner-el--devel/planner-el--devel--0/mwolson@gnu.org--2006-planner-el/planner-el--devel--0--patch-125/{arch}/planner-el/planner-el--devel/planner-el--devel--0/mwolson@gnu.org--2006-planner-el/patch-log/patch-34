@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-34
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr 26 15:56:02 EDT 2006
+Standard-date: 2006-04-26 19:56:02 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-34
+    mwolson@gnu.org--2006/planner--main--1.0--patch-39
+Summary: Merged from mwolson@gnu.org--2006 (patch 39)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-39
+   Add default CSS elements for calendar stuff.

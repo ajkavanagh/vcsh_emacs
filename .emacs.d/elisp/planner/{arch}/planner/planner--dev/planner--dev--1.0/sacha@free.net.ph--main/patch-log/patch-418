@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-418
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jun 17 16:45:31 PHT 2005
+Standard-date: 2005-06-17 08:45:31 GMT
+Modified-files: ChangeLog planner-el.texi planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-418
+Summary: Enhancement: planner-multi-remove-task-from-pool works with multiple pages
+Keywords: 
+
+* planner-multi.el (planner-multi-remove-task-from-pool): Work with multiple pages.
+(planner-multi-split): Gracefully deal with lists.
+(planner-multi-copy-tasks-to-page): Docfix: note multiple pages syntax.

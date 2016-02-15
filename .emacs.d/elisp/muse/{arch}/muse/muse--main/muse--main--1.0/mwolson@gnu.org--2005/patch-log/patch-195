@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-195
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 17:39:09 EST 2005
+Standard-date: 2005-08-09 22:39:09 GMT
+Modified-files: ChangeLog Makefile Makefile.defs
+    debian/changelog debian/rules
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-195
+Summary: Make generated Debian packages slightly easier to upload.
+Keywords: 
+
+* debian/changelog: Generate 3.01.arch.195-1.
+
+* debian/rules (clean): Call $(MAKE) realclean instead of $(MAKE) clean.
+
+* Makefile.defs (LASTUPLOAD): New variable that indicates the version
+  that was last uploaded to Debian.
+
+* Makefile (debrelease): Use $(LASTUPLOAD) to ensure that a full set of
+  changes is generated.  This means we have to use dpkg-buildpackage,
+  since debuild doesn't recognize the environment variables that it
+  claims to recognize.

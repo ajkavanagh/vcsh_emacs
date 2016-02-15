@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-15
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Tue Feb  1 13:59:03 CST 2005
+Standard-date: 2005-02-01 05:59:03 GMT
+Modified-files: ChangeLog planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-15
+    sacha@free.net.ph--main/planner--dev--1.0--patch-313
+    sacha@free.net.ph--main/planner--dev--1.0--patch-314
+Summary: merge from main stream 313 and 314
+Keywords: merge
+

@@ -1,0 +1,23 @@
+Revision: muse-el--devel--0--patch-65
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May  8 19:44:21 EDT 2006
+Standard-date: 2006-05-08 23:44:21 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog muse.texi
+New-patches: john@wjsullivan.net--2006/muse--johnsu01--0--patch-2
+    john@wjsullivan.net--2006/muse--johnsu01--0--patch-3
+    john@wjsullivan.net--2006/muse--johnsu01--0--patch-4
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-65
+    mwolson@gnu.org--2006/muse--main--1.0--patch-122
+    mwolson@gnu.org--2006/muse--main--1.0--patch-123
+Summary: Merged from mwolson@gnu.org--2006 (patch 122-123)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-122
+   muse.texi: Change subsections to subheadings.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-123
+   muse.texi: Change use of @subsubheading to @subheading.

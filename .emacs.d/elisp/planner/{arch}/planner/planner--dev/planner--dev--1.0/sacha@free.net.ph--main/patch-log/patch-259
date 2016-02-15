@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-259
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec 27 09:50:39 JST 2004
+Standard-date: 2004-12-27 00:50:39 GMT
+Modified-files: ChangeLog planner-timeclock.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-259
+Summary: planner-timeclock: Update entries when tasks are edited
+Keywords: 
+
+	* planner-timeclock.el: Automatically update timelog entries when
+	a task is edited.
+	(planner-replan-task): Merge from my config.
+	(planner-edit-task-description): Merge from my config.

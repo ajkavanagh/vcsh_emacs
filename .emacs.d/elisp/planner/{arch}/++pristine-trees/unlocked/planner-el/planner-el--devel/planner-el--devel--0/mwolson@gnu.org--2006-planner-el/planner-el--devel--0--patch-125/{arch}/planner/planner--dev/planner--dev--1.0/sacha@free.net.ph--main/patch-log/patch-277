@@ -1,0 +1,24 @@
+Revision: planner--dev--1.0--patch-277
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan  3 19:39:46 JST 2005
+Standard-date: 2005-01-03 10:39:46 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-277
+Summary: planner-multi: Numerous bugfixes, ugly hack for planner-read-name
+Keywords: 
+
+	* planner-multi.el
+	(planner-multi-separator): Unbelievably ugly hack. Change default
+	to ".
+	(planner-task-info-from-string): Quote separator.
+	(planner-update-task): Minor rearrangement.
+	(planner-delete-task): Bugfix: Actually loop.
+	(planner-make-link): Allow non-WikiCase links; force everything to
+	link.
+	(planner-create-task-from-info): Minor rearrangement.
+	(planner-edit-task-description): New advice.
+	(planner-multi-read-name): Ugly hack for completing multiple
+	pages.
+	(planner-read-name): Call planner-multi-read-name.
+	(planner-multi-task-xref): Call planner-task-update.

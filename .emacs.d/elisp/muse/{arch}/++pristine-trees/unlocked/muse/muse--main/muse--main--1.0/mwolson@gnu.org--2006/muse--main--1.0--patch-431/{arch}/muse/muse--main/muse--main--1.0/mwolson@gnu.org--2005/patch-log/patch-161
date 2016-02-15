@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-161
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 19 02:51:54 EST 2005
+Standard-date: 2005-07-19 07:51:54 GMT
+Modified-files: ChangeLog lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-161
+Summary: muse-texinfo: Fix #2635 by adding `}' and `{' to specials list.
+Keywords: 
+
+* lisp/muse-texinfo.el (muse-texinfo-markup-specials): Add `{' and `}' to
+  list.  This should fix #2635.

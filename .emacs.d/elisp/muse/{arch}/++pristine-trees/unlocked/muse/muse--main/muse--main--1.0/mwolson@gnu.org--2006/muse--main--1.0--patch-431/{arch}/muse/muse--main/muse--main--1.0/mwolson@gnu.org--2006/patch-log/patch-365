@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-365
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 16 14:00:00 EDT 2007
+Standard-date: 2007-06-16 18:00:00 GMT
+Modified-files: texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-365
+Summary: manual: Write "Projects and Subdirectories" chapter
+Keywords: 
+
+* texi/muse.texi (Projects and Subdirectories): Write this.

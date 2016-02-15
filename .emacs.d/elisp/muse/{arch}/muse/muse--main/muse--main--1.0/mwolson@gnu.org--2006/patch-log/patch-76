@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-76
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar 26 14:54:43 EST 2006
+Standard-date: 2006-03-26 19:54:43 GMT
+Modified-files: ChangeLog.2006
+    {arch}/muse-el/muse-el--devel/muse-el--devel--0/mwolson@gnu.org--2006-muse-el/patch-log/patch-14
+    {arch}/muse-el/muse-el--devel/muse-el--devel--0/mwolson@gnu.org--2006-muse-el/patch-log/patch-25
+    {arch}/muse-el/muse-el--devel/muse-el--devel--0/mwolson@gnu.org--2006-muse-el/patch-log/patch-3
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-19
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-46
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-58
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-60
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-74
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-76
+Summary: Remove cruft from patch logs.
+Keywords: 
+

@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-32
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Mar 16 15:52:51 CST 2005
+Standard-date: 2005-03-16 07:52:51 GMT
+Modified-files: planner-timeclock-summary.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-32
+Summary: fix timeclock-summary publishing problem
+Keywords: newfeature, bugfix
+
+* planner-timeclock-summary.el: The emacs-wiki simple table markup rule
+  don't support a blank cell in the table, especially at the end of a
+  line. So we need a placeholder to fix the published HTML table.
+  
+  (planner-timeclock-summary-placeholder-char): New option to define the
+  placeholder character. Set it to " " to get the original behavior.
+  (planner-timeclock-summary-make-text-table-day): Utilize
+  planner-timeclock-summary-placeholder-char in the report table.
+

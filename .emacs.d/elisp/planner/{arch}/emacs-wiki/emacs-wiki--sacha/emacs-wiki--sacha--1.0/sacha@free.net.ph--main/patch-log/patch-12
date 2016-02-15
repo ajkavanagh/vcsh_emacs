@@ -1,0 +1,32 @@
+Revision: emacs-wiki--sacha--1.0--patch-12
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jan 25 11:14:57 PHT 2004
+Standard-date: 2004-01-25 03:14:57 GMT
+Modified-files: planner.el
+New-patches: davidsmith@acm.org--2004/emacs-wiki--dds--1.0--base-0
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-3
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-4
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-5
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-6
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-7
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-8
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-9
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-10
+    davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-11
+    sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-12
+Summary: Merged David Smith's patch for planner-copy-or-move-task, planner-mark-task, and planner-read-date
+Keywords: 
+
+planner-copy-or-move-task's invocation of planner-format-task had
+left-over code from when planner inserted the string itself instead of
+using planner-format-task. Not only that, the condition was incorrect.
+I'd tried to use it to retain non-plan-page annotations, but that
+should have been after the plan-page entry. Now that we're using
+planner-format-task, I can just use a when form that'll evaluate to
+nil. Strangely, however, M-x plan has been working without ill effects.
+
+planner-mark-task wasn't marking it with the specified task status.
+Silly me.
+
+planner-read-date now does save-excursion and save-window-excursion.

@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-19
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr  7 18:53:00 PHT 2004
+Standard-date: 2004-04-07 10:53:00 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-19
+Summary: Context-sensitive keyboard shortcuts (S-up, S-down, S-right)
+Keywords: 
+
+	* planner.el (planner-mode-map): New keybindings: shift up (move
+	up), shift down (move down), and shift right (follow link). NOTE:
+        They might be more convenient than the current defaults.
+	(planner-jump-to-link): New.
+	(planner-move-up): New.
+	(planner-move-down): New.
+	(planner-current-note-info): Save excursion.
+	(planner-update-task): Save excursion.
+

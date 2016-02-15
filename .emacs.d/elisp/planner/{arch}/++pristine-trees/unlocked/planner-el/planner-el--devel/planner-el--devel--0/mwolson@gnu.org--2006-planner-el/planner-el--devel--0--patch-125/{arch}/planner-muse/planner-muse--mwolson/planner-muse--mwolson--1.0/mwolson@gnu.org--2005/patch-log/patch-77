@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-77
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Oct 28 13:07:13 EST 2005
+Standard-date: 2005-10-28 18:07:13 GMT
+Modified-files: ChangeLog.mwolson planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-77
+Summary: planner-publish: New planner-xhtml publishing style.
+Keywords: 
+
+* planner-publish.el: Miscellaneous docfixes and whitespace cleanups.
+  (planner-xhtml-header, planner-xhtml-footer): New options that
+  implement a header and footer for the planner-xhtml publishing style.
+  ("planner-xhtml"): New publishing style that outputs XHTML files for
+  Planner.

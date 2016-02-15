@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-311
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb  1 12:35:52 JST 2005
+Standard-date: 2005-02-01 03:35:52 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-311
+Summary: Fix: Add planner-menu to XEmacs menu
+Keywords: 
+
+	* planner.el (planner-menu): Add to XEmacs menu. Thanks to sf for
+	reporting the bug and providing information.

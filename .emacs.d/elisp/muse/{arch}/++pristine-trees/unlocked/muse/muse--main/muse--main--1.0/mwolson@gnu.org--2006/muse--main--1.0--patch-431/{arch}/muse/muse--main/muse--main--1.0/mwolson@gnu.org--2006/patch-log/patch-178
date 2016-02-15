@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-178
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  8 00:46:10 EDT 2006
+Standard-date: 2006-08-08 04:46:10 GMT
+Modified-files: lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-178
+Summary: Fix bug introduced in last patch.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-explicit-link): Fix recently
+  introduced wrong-type-argument error.

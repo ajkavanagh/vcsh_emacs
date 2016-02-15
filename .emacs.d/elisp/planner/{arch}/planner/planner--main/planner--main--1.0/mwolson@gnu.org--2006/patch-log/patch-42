@@ -1,0 +1,38 @@
+Revision: planner--main--1.0--patch-42
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 17 17:43:59 EDT 2006
+Standard-date: 2006-05-17 21:43:59 GMT
+Modified-files: planner-calendar.el planner-el.texi
+    planner.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-42
+Summary: Work on calendar, manual, and index generation.
+Keywords: 
+
+* planner-calendar.el: Fix example in header.  Remove the word "wiki"
+  from everything, since "page" works better.
+  (planner-calendar-coerce-day-page): New function that determines which
+  day page to base the calendar on.
+  (planner-calendar-from-page): Use `planner-calendar-coerce-day-page'.
+  Check for null page name.
+  (planner-calendar-create-today-link): Make sure that the page we are
+  linking to actually exists.  This function should now be safe to add
+  globally to muse-after-publish-hook.
+  (planner-publish-calendar-tag): If no calendar is returned, don't
+  insert anything.
+  ("planner-publish-finalize-regexps"): Use a better regexp to match the
+  calendar tag, so that it is processed correctly.
+
+* planner-el.texi: Add subheadings for Keys, Options, and Functions, if
+  applicable.
+  (Publishing Calendars): Mention "page" and "arrows" options.  Mention
+  workaround for problem where the text in the arrows doesn't get
+  published correctly.  Give working example for
+  planner-calendar-create-today-link.
+
+* planner.el (planner-published-file): Try to figure out where the file
+  exists, if the output directory is not specified.  This could be more
+  elaborate to handle multiple source directories, but I haven't gotten
+  around to that yet.
+  (planner-index-as-string): Add exclude-daypages option for those who do
+  not want day pages to show up in the index.

@@ -1,0 +1,64 @@
+Revision: planner--dev--1.0--patch-307
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan 31 11:31:15 JST 2005
+Standard-date: 2005-01-31 02:31:15 GMT
+New-files: .arch-ids/planner-rank.el.id planner-rank.el
+Modified-files: ChangeLog
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--base-0
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-1
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-2
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-3
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-5
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-6
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-7
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-8
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-9
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-10
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-11
+    sacha@free.net.ph--main/planner--dev--1.0--patch-307
+Summary: Merge planner-rank.el, modify, rename functions
+Keywords: 
+
+	* planner-rank.el: Rename importancy to importance, task
+	categories to priorities. Rename -weighing- functions to
+	-weighted-. Rewrite some of the implementations.
+	(planner-rank-calculate-urgency-from-deadline): More flexible
+	implementation.
+	(planner-rank-test-algorithm): Rewrite to not use loop defvar.
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-304
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-1
+   New function planner-set-task-category
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-2
+   Move the calculation of how many days left out to be a function
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-3
+   New helper functions for getting deadline date
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-5
+   New: planner-rank.el
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-6
+   E= -> U=
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-7
+   improve test function
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-8
+   don't update rank if we are not on a task line
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-9
+   doc fix
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-10
+   new rank calculating functions taking weight in to consideration
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-11
+   add direction to the test table
+

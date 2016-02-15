@@ -1,0 +1,22 @@
+Revision: planner-muse--mwolson--1.0--patch-78
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Oct 28 18:53:26 EST 2005
+Standard-date: 2005-10-28 23:53:26 GMT
+Modified-files: ChangeLog.mwolson debian/emacsen-install
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-78
+Summary: Install patches from Trent Buck.
+Keywords: 
+
+* debian/emacsen-install: Use the proper mechanism for installing Emacs
+  Lisp files for Debian.
+
+* planner.el (planner-initial-page): New option that determines which
+  page visit by default when not using day pages.
+  (planner-use-day-pages): Refer to `planner-initial-page' in
+  documentation.
+  (planner-today): Visit `planner-initial-page' rather than
+  "WelcomePage".
+  (plan): Visit either `planner-default-page' or `planner-initial-page'
+  rather than "WelcomePage".

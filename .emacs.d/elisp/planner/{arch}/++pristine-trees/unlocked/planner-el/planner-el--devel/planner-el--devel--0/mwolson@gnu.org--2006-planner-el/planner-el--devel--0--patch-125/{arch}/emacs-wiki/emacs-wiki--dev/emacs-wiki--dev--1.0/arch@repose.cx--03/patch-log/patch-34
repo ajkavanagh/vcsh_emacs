@@ -1,0 +1,14 @@
+Revision: emacs-wiki--dev--1.0--patch-34
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Nov 25 14:11:00 EST 2003
+Standard-date: 2003-11-25 03:11:00 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-34
+Summary: derived-mode-p when testing for emacs-wiki-mode
+Keywords: 
+
+Patch from Brent Goodrick (bgoodrick /at/ ipns /dot/ com)
+
+* use derived-mode-p instead of eq 'emacs-wiki-mode, so that derived
+  modes such as planner work correctly

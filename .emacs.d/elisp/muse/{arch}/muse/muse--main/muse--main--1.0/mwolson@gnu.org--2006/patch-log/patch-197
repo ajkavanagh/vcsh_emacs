@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-197
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 26 18:35:27 EDT 2006
+Standard-date: 2006-08-26 22:35:27 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-197
+Summary: Fix a publishing bug with nested list items.
+Keywords: 
+
+2006-08-26  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-surround-text): When looking
+	for indented list items, ignore blank lines.

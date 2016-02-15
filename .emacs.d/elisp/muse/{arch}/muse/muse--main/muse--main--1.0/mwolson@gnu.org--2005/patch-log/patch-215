@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-215
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep  1 06:41:14 EST 2005
+Standard-date: 2005-09-01 11:41:14 GMT
+Modified-files: ChangeLog lisp/muse-regexps.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-215
+Summary: Fix save-match-data gaffe.
+Keywords: 
+
+* lisp/muse-regexps.el (muse-regexp-emacs-revision): Move save-match-data
+  outside of `and' statement.

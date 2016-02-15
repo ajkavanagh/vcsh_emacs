@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-180
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 13 19:20:17 EST 2006
+Standard-date: 2006-01-14 00:20:17 GMT
+Modified-files: AUTHORS planner-gnus.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-180
+Summary: planner-gnus: Make browsing Gnus URLs work with Emacs21, hopefully.
+Keywords: 
+
+* planner-gnus.el (planner-gnus-browse-url): Try some ideas from Dale
+  Smith that might make this work with Emacs21.

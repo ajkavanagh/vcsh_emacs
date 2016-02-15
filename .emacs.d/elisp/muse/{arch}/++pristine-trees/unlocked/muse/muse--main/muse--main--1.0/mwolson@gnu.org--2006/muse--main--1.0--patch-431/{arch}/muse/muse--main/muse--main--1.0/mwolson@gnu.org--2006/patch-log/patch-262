@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-262
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Dec 30 23:16:24 EST 2006
+Standard-date: 2006-12-31 04:16:24 GMT
+Modified-files: ChangeLog NEWS experimental/muse-mathml.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-262
+Summary: Rename <math> tag in muse-mathml.el to <mathml>
+Keywords: 
+
+2006-12-30  Michael Olson  <mwolson@gnu.org>
+
+	* NEWS: Update.
+
+	* experimental/muse-mathml.el (muse-publish-mathml-tag): Rename
+	from muse-publish-math-tag to avoid conflict with
+	muse-latex2png.el.

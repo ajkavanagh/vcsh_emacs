@@ -1,0 +1,30 @@
+Revision: planner-muse--mwolson--1.0--patch-34
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 16 17:31:20 EST 2005
+Standard-date: 2005-07-16 22:31:20 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-bbdb.el planner-psvn.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-xtla.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-35
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-36
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-37
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-34
+    sacha@free.net.ph--main/planner--dev--1.0--patch-451
+Summary: Merged from hodique@lifl.fr--2005 (patch 35-37), sacha@free.net.ph--main (patch 451)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-35
+   Merged from mwolson@gnu.org--2005 (patch 32-33)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-36
+   Use planner-make-link instead of hard-coded brackets
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-37
+   Merged from sacha@free.net.ph--main (patch 451)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-451
+   planner-timeclock-summary-make-text-table-day: Format projects as links

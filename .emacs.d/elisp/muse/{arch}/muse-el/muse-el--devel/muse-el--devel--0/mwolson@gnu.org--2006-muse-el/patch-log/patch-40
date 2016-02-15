@@ -1,0 +1,23 @@
+Revision: muse-el--devel--0--patch-40
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Per B. Sederberg <per@med.upenn.edu>
+Date: Wed Apr  5 08:42:24 EDT 2006
+Standard-date: 2006-04-05 12:42:24 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-40
+Summary: Append implicit file link update to publish/save hooks.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-before-publish-hook): Add
+  update-local-wikiword-regexp to before-publish so that implicit links
+  are published properly.
+
+* muse-wiki.el (after-save-hook): Add update-local-wikiword-regexp to
+  update after save.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   lisp/muse-wiki.el
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

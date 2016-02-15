@@ -1,0 +1,26 @@
+Revision: planner-muse--mwolson--1.0--patch-115
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Nov 26 21:30:21 EST 2005
+Standard-date: 2005-11-27 02:30:21 GMT
+Modified-files: ChangeLog planner-appt.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-1
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-2
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-3
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-4
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-5
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-6
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-7
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-8
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-9
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-10
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-11
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-12
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-115
+Summary: Merged from jeho@jeho.org--2005 (patch 1-12)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-12
+   planner.el: with-planner-update-setup

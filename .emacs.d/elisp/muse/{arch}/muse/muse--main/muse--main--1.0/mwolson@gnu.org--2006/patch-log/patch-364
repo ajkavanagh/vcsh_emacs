@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-364
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 16 11:50:57 EDT 2007
+Standard-date: 2007-06-16 15:50:57 GMT
+Modified-files: ChangeLog examples/QuickStart.muse
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-364
+Summary: Manual: update significantly
+Keywords: 
+
+2007-06-16  Michael Olson  <mwolson@gnu.org>
+
+	* texi/muse.texi: Overhaul.  It would be too time-consuming to
+	list all of the changes here.  The "Getting Started" and
+	"Projects" chapters, in particular, were heavily revised.
+
+	* examples/QuickStart.muse: Wording fix.

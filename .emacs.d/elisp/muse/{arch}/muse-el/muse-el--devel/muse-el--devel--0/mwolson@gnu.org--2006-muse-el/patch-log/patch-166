@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-166
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 28 16:31:56 EDT 2007
+Standard-date: 2007-07-28 20:31:56 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-166
+    mwolson@gnu.org--2006/muse--main--1.0--patch-411
+    mwolson@gnu.org--2006/muse--main--1.0--patch-412
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 411-412)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-411
+   muse-wiki: Pick better default project when given nil argument
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-412
+   Fix bug involving links to files when not in first publishing style

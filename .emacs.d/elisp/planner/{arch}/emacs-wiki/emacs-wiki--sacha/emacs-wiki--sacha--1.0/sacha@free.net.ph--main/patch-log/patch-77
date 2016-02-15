@@ -1,0 +1,36 @@
+Revision: emacs-wiki--sacha--1.0--patch-77
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 10 02:26:26 PHT 2004
+Standard-date: 2004-03-09 18:26:26 GMT
+New-files: test/.arch-ids/=id
+    test/.arch-ids/emacs-wiki-test.el.id
+    test/emacs-wiki-test.el
+New-directories: test test/.arch-ids
+Modified-files: emacs-wiki.el planner-diary.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-77
+Summary: New function: emacs-wiki-edit-link-at-point, bound to C-c C-e by default. Minor bugfixes.
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-edit-link-at-point): New function.
+	(emacs-wiki-mode-map): Bind C-c C-e to
+	emacs-wiki-edit-link-at-point.
+
+	* emacs-wiki.el (emacs-wiki-make-link): Better matching for names.
+	Works more intelligently if passed a link as the link. Tested with
+	the test cases in test/emacs-wiki-test.el .
+
+	* planner.el (planner-format-task): Use emacs-wiki-make-link to
+	catch pages with non-emacs-wiki-name-matching names.
+
+	* planner-diary.el (planner-diary-insinuate): Do not bind to C-c
+	C-e, as emacs-wiki-edit-link-at-point is more useful.
+
+	* emacs-wiki.el (emacs-wiki-highlight-link): Revert to old
+	behavior of not unescaping displayed text.
+
+	* planner.el (planner-format-task): emacs-wiki-make-link is now
+	very smart.
+
+	* test/emacs-wiki-test.el: Added to archive.
+

@@ -1,0 +1,45 @@
+Revision: planner--dev--1.0--patch-68
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue May  4 17:29:11 PHT 2004
+Standard-date: 2004-05-04 09:29:11 GMT
+Modified-files: planner-bbdb.el planner-erc.el
+    planner-gnus.el planner-lisp.el planner-rmail.el
+    planner-vm.el planner-wl.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-68
+Summary: Use emacs-wiki-url-protocols code in emacs-wiki--dev--1.0--patch-26
+Keywords: 
+
+	* planner.el (planner-custom-variables): No longer use
+	emacs-wiki-browse-url-function.
+	(planner-url-list, planner-url-regexp): NOTE: Use
+	emacs-wiki-url-protocols instead.
+	(planner-publishing-markup): Remove planner-markup-url.
+	(planner-update-wiki-project): Remove planner-url-regexp.
+	(planner-browse-url-*): Remove.
+	(planner-add-protocol): New.
+
+	* planner-wl.el: Add wl to protocols.
+	(planner-wl-annotation-from-wl, planner-wl-browse-url): Autoload.
+	* planner-vm.el: Add vm to protocols.
+	(planner-vm-annotation-from-mail, planner-vm-browse-url):
+	Autoload.
+
+	* planner-rmail.el: Add rmail to protocols.
+	(planner-rmail-annotation-from-mail, planner-rmail-browse-url):
+	Autoload.
+		
+	* planner-lisp.el: Add lisp to protocols.
+	(planner-lisp-browse-url): Autoload.
+
+	* planner-gnus.el: Add gnus to protocols.
+	(planner-gnus-insinuate, planner-gnus-annotation,
+	planner-gnus-browse-url): Autoload.
+	* planner-erc.el: Add erc and irc to protocols.
+	(planner-erc-annotation-from-erc, planner-erc-browse-url):
+	Autoload.
+
+	* planner-bbdb.el: Add bbdb to protocols.
+	(planner-bbdb-resolve-url, planner-bbdb-browse-url,
+	planner-bbdb-annotation-from-bbdb): Autoload.
+

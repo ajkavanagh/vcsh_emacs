@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-79
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Mar 30 23:27:54 EST 2006
+Standard-date: 2006-03-31 04:27:54 GMT
+Modified-files: ChangeLog.2006 muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-79
+Summary: muse.texi: Move some sections to a new Extending Muse chapter.
+Keywords: 
+
+* muse.texi (Extending Muse): New chapter containing nodes that deal with
+  extending Muse in various ways.
+  (Common Elements, Deriving Styles): Move to Extending Muse chapter.

@@ -1,0 +1,24 @@
+Revision: planner--jeho--1.1--patch-4
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Oct 20 22:42:55 BST 2005
+Standard-date: 2005-10-20 21:42:55 GMT
+Modified-files: ChangeLog.mwolson Makefile.defs
+    debian/changelog planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-4
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-75
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-76
+    sacha@free.net.ph--main/planner--dev--1.0--patch-490
+Summary: Merged from mwolson@gnu.org--2005 (patch 75-76), sacha@free.net.ph--main (patch 490)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-75
+   Minor update to Makefile.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-76
+   planner-multi: Extraneous brackets fix.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-490
+   planner-accomplishments.el: Line up accomplishments neatly

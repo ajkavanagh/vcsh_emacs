@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-17
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr  6 00:08:13 PHT 2004
+Standard-date: 2004-04-05 16:08:13 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-17
+Summary: Make date optional for tasks.
+Keywords: 
+
+	* planner.el (planner-create-task-from-info): Make date optional.
+	(planner-create-task-from-buffer): Make date optional. Thanks to
+	Alan Schussman and emacs-wiki-discuss for the suggestion. You can
+	now specify a non-date as the date to make a task that is not
+	associated with any date. Warning: Unscheduled tasks might be
+	forgotten.
+

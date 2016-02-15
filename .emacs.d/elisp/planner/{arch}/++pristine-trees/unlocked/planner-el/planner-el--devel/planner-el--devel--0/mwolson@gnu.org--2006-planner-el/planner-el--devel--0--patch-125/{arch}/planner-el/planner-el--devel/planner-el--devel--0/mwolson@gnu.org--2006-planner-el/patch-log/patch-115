@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-115
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Tue Apr  3 20:47:48 EDT 2007
+Standard-date: 2007-04-04 00:47:48 GMT
+Modified-files: ChangeLog planner-el.texi planner-wl.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-115
+Summary: Change Wanderlust keybinding to C-c C-t. Closes #8361.
+Keywords: 
+
+
+

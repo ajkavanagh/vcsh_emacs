@@ -1,0 +1,19 @@
+Revision: muse-el--devel--0--patch-134
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Feb 15 09:14:49 EST 2007
+Standard-date: 2007-02-15 14:14:49 GMT
+Modified-files: ChangeLog lisp/muse-publish.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-134
+    mwolson@gnu.org--2006/muse--main--1.0--patch-279
+    mwolson@gnu.org--2006/muse--main--1.0--patch-280
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 279-280)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-279
+   muse-publish: Fix remote image detection
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-280
+   Fix error with nestable tags, <class> in particular

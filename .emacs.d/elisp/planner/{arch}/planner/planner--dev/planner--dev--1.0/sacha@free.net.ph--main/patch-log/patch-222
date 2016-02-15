@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-222
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Dec  4 14:44:18 JST 2004
+Standard-date: 2004-12-04 05:44:18 GMT
+Modified-files: ChangeLog planner-log-edit.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-222
+Summary: planner-create-note: Make chronological notes neater
+Keywords: 
+
+	* planner.el (planner-create-note): Add extra newline before
+	created notes so that chronological notes look neat.

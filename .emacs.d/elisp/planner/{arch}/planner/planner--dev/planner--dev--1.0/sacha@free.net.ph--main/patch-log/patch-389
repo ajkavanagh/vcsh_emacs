@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-389
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 28 02:50:52 PHT 2005
+Standard-date: 2005-04-27 18:50:52 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-389
+Summary: Bugfix: planner-sort-tasks should use 5-arg sort-subr for older GNU Emacs
+Keywords: 
+
+* planner.el (planner-sort-tasks): Guard against old GNU Emacs with 5
+  arguments instead of 6. Thanks to sf for reporting the bug.

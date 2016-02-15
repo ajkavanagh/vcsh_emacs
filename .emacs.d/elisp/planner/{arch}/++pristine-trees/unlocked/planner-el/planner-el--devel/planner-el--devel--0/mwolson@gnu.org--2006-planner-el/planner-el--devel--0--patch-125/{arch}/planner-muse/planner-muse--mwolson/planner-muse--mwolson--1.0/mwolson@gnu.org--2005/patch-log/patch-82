@@ -1,0 +1,11 @@
+Revision: planner-muse--mwolson--1.0--patch-82
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 01:41:39 EST 2005
+Standard-date: 2005-10-29 06:41:39 GMT
+Modified-files: ChangeLog debian/rules
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-82
+Summary: Minor debian packaging fix.
+Keywords: 
+
+* rules (binary-indep): Fix name of ChangeLog.

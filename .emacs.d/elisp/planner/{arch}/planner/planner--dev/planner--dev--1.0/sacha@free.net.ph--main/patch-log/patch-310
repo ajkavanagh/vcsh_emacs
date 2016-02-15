@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-310
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb  1 12:16:28 JST 2005
+Standard-date: 2005-02-01 03:16:28 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-310
+Summary: planner.el: Don't font-lock minor operations
+Keywords: 
+
+	* planner.el (planner-create-task-from-info): Do not font-lock
+	when creating tasks.
+	(planner-sort-tasks): Minimize font-locking.
+	(planner-renumber-notes): Minimize font-locking.
+	(planner-update-task): Minimize font-locking.

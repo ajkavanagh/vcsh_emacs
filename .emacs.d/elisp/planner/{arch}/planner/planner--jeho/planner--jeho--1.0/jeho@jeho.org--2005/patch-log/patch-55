@@ -1,0 +1,20 @@
+Revision: planner--jeho--1.0--patch-55
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Apr  4 21:16:25 BST 2005
+Standard-date: 2005-04-04 20:16:25 GMT
+Modified-files: ChangeLog planner-el.texi planner-multi.el
+    planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-55
+    sacha@free.net.ph--main/planner--dev--1.0--patch-363
+    sacha@free.net.ph--main/planner--dev--1.0--patch-364
+Summary: merge latest patches
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-363
+   Merge docfixes from johnsu01
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-364
+   planner-replan-task: Preserve initial task location as much as possible; fix planner-multi as well

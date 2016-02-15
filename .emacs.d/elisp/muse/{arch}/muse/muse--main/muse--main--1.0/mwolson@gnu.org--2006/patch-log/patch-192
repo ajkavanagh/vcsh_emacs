@@ -1,0 +1,10 @@
+Revision: muse--main--1.0--patch-192
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 12 16:11:06 EDT 2006
+Standard-date: 2006-08-12 20:11:06 GMT
+Modified-files: Makefile Makefile.defs NEWS
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-192
+Summary: Really put autoloads in the right place.
+Keywords: 
+

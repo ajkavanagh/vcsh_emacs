@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-416
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jun 17 11:28:54 PHT 2005
+Standard-date: 2005-06-17 03:28:54 GMT
+Modified-files: ChangeLog planner-timeclock.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-416
+Summary: planner-mark-task: Do everything inside with-planner-update-setup
+Keywords: 
+
+* planner.el (planner-mark-task): Do everything inside with-planner-update-setup.
+  (planner-tasks-never-suppress-fixing-flag): Default to t.
+  (planner-mark-task-hook): Docfix: Add note about behavior and return value.
+  (with-planner-update-setup): Nullify planner-tasks-file-behavior inside the macro.
+
+* planner-timeclock.el (planner-timeclock-task-marked): Return t following
+  new planner-mark-task-hook.

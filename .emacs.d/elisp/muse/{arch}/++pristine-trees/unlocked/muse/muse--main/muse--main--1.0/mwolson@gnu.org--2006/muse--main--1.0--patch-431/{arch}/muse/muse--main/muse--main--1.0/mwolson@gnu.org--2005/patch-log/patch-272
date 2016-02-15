@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-272
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Nov 18 18:56:22 EST 2005
+Standard-date: 2005-11-18 23:56:22 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-272
+Summary: muse-texinfo: Correct markup strings for dots, enddots, center.
+Keywords: 
+
+* AUTHORS: Bookkeeping
+
+* lisp/muse-texinfo.el (muse-texinfo-markup-strings): Apply patch from
+  Jim Ottaway that produces correct output for dots, enddots, and
+  centered text.

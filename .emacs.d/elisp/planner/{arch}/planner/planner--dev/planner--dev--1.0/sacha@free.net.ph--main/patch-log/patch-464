@@ -1,0 +1,21 @@
+Revision: planner--dev--1.0--patch-464
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jul 28 09:04:09 EDT 2005
+Standard-date: 2005-07-28 13:04:09 GMT
+Modified-files: planner-ical.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-464
+Summary: Bugfixes: Byte-compile properly (missing planner-link-name, bug in planner-annotation-from-file)
+Keywords: 
+
+* planner.el (planner-link-name): Add missing alias. Thanks to Wei-Hao
+Lin for spotting this.
+(planner-annotation-from-file): Fix misplaced parenthesis.
+* planner-ical.el (planner-ical-export): Add missing variables.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

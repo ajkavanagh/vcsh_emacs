@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-15
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Apr  5 12:57:03 PHT 2004
+Standard-date: 2004-04-05 04:57:03 GMT
+Modified-files: planner-timeclock.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-15
+Summary: Preliminary support for clocking out when a task is finished
+Keywords: 
+
+	* planner-timeclock.el: Preliminary support for clocking out when
+	a task is finished. Thanks to dto for pointing this out.
+

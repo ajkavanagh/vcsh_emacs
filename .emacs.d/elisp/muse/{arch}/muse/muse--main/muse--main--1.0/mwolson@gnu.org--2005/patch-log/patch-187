@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-187
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 26 03:49:38 EST 2005
+Standard-date: 2005-07-26 08:49:38 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-187
+Summary: Inter-project output name fix.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-resolve-project-page): I would've sworn
+  that I had fixed this before.

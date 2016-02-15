@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.0--patch-8
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Feb 17 16:52:39 GMT 2005
+Standard-date: 2005-02-17 16:52:39 GMT
+Modified-files: ChangeLog planner-multi.el planner2diary.py
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-8
+    sacha@free.net.ph--main/planner--dev--1.0--patch-330
+Summary: merge latest
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-330
+   planner-multi.el: planner-create-task-from-info should call the create-task hook
+

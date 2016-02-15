@@ -1,0 +1,11 @@
+Revision: planner-el--devel--0--patch-59
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 28 17:03:18 EDT 2006
+Standard-date: 2006-06-28 21:03:18 GMT
+Modified-files: scripts/planner-build.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-59
+Summary: Add load-path example for Remember.
+Keywords: 
+
+* scripts/planner-build.el: Add a load-path example for Remember.

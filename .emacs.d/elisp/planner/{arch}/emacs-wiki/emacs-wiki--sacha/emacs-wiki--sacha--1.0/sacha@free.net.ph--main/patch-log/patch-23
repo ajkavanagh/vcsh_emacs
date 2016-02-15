@@ -1,0 +1,15 @@
+Revision: emacs-wiki--sacha--1.0--patch-23
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Feb  6 12:11:56 PHT 2004
+Standard-date: 2004-02-06 04:11:56 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-23
+Summary: Minor bugfixes with replace-regexp-in-string and the message-id regexp.
+Keywords: 
+
+	* planner.el (planner-strip-whitespace): To be safe, use the
+	replace-regexp-in-string defined in xemacs.
+	(planner-gnus-get-message-id): To be safe, use the
+	replace-regexp-in-string defined in xemacs.
+	(planner-gnus-get-message-id): Fix embarrassing regexp error.

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-4
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 20 21:45:36 EST 2006
+Standard-date: 2006-01-21 02:45:36 GMT
+Modified-files: lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-4
+Summary: muse-latex: Use \url to publish bare URLs.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-markup-strings): Use \url instead of
+  \href for bare URLs.  Thanks to Na Li for the suggestion!

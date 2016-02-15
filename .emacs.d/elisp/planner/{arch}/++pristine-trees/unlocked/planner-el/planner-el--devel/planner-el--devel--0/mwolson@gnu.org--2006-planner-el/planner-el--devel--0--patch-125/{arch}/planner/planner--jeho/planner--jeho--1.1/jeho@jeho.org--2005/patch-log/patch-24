@@ -1,0 +1,22 @@
+Revision: planner--jeho--1.1--patch-24
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Dec 15 12:07:52 GMT 2005
+Standard-date: 2005-12-15 12:07:52 GMT
+Modified-files: ChangeLog planner-appt.el planner-authz.el
+    planner-publish.el planner-timeclock-summary-proj.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-10
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-11
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-12
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-13
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-24
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-127
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-128
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-129
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-130
+Summary: planner-appt
+Keywords: 
+
+* planner-appt.el (planner-appt-format-time-and-description): Renamed
+  from the confusing planner-appt-format-time-description.
+

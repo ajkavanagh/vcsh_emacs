@@ -1,0 +1,19 @@
+Revision: planner-muse--mwolson--1.0--patch-42
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 28 21:00:32 EST 2005
+Standard-date: 2005-07-29 02:00:32 GMT
+Modified-files: ChangeLog.mwolson planner-ical.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-42
+    sacha@free.net.ph--main/planner--dev--1.0--patch-463
+    sacha@free.net.ph--main/planner--dev--1.0--patch-464
+Summary: Merged from sacha@free.net.ph--main (patch 463-464)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-463
+   Bugfix: planner-current-note-info: Recognize multi properly again
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-464
+   Bugfixes: Byte-compile properly (missing planner-link-name, bug in planner-annotation-from-file)

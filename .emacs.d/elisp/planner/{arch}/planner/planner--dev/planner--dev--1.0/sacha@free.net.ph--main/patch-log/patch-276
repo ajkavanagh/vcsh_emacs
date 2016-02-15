@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-276
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan  3 16:00:01 JST 2005
+Standard-date: 2005-01-03 07:00:01 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-276
+Summary: planner-multi: Read multiple pages
+Keywords: 
+
+	* planner-multi.el (planner-read-name): Read multiple pages.
+	(planner-multi-separator): Default to "," to make multiple pages
+	easier.

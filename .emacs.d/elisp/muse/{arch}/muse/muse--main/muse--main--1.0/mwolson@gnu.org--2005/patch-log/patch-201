@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-201
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Aug 14 02:10:16 EST 2005
+Standard-date: 2005-08-14 07:10:16 GMT
+Modified-files: ChangeLog Makefile.defs debian/changelog
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-201
+Summary: Prepare initial upload for Debian project.
+Keywords: 
+
+* Makefile.defs (LASTUPLOAD): Mark as the previous Debian package
+  version, since we only want the last changelog entry to appear on the
+  initial Debian upload.
+
+* debian/changelog: New Debian package 3.01.arch.201-1.

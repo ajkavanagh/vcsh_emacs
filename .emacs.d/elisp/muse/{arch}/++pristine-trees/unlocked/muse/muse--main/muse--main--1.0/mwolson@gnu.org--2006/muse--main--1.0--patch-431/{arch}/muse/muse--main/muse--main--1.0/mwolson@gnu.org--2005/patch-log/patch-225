@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-225
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep  5 09:25:37 EST 2005
+Standard-date: 2005-09-05 14:25:37 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-225
+Summary: muse-latex: Fix compiler warning.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-pdf-generate): Provide 3rd argument for
+  format.

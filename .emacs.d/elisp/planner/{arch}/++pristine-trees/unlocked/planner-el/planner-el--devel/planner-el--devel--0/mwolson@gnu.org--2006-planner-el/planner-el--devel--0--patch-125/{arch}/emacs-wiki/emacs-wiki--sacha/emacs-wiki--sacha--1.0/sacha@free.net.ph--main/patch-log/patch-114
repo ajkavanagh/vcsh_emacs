@@ -1,0 +1,13 @@
+Revision: emacs-wiki--sacha--1.0--patch-114
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 16 10:49:55 PHT 2004
+Standard-date: 2004-03-16 02:49:55 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-114
+Summary: Fix planner-cyclic bug by not anchoring regex at start of string in planner-task-info-from-string
+Keywords: 
+
+	* planner.el (planner-task-info-from-string): Do not anchor
+	regular expression at start of string so that planner-cyclic tasks
+	are more flexible.

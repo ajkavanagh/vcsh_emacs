@@ -1,0 +1,48 @@
+Revision: planner--mwolson--1.0--patch-10
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun 30 23:08:48 EST 2005
+Standard-date: 2005-07-01 04:08:48 GMT
+Modified-files: ChangeLog planner-calendar.el
+    planner-deadline.el planner-multi.el planner.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-10
+    sacha@free.net.ph--main/planner--dev--1.0--patch-430
+    sacha@free.net.ph--main/planner--dev--1.0--patch-431
+    sacha@free.net.ph--main/planner--dev--1.0--patch-432
+    sacha@free.net.ph--main/planner--dev--1.0--patch-433
+    sacha@free.net.ph--main/planner--dev--1.0--patch-434
+    sacha@free.net.ph--main/planner--dev--1.0--patch-435
+    sacha@free.net.ph--main/planner--dev--1.0--patch-436
+    sacha@free.net.ph--main/planner--dev--1.0--patch-437
+    sacha@free.net.ph--main/planner--dev--1.0--patch-438
+Summary: Merged from sacha@free.net.ph--main (patch 430-438)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-430
+   planner-update-task: Remove need for advice, planner-multi-replan-task: Accept list as argument
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-431
+   planner-create-note: Default to current page
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-432
+   Bugfix: planner-edit-task-description, planner-deadline: keep point
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-433
+   Bugfix: Remove parens around planner-calendar-html-tag-marker 
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-434
+   planner-sort-tasks: Be paranoid about task sorting
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-435
+   Merge mwolson's patches to planner from the muse port
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-436
+   Bugfix: planner-multi-tasks-equal-p: Deal with tasks without link text
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-437
+   Bugfix: planner-derived-mode-p should pass the modes to derived-mode-p
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-438
+   Bugfix: planner-update-wiki-project: planner-name-regexp fix, planner-save-buffers SKIP-BUFFERS

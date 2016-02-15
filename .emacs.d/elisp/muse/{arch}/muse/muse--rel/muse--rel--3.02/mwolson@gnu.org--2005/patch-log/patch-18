@@ -1,0 +1,13 @@
+Revision: muse--rel--3.02--patch-18
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Nov 19 00:51:32 EST 2005
+Standard-date: 2005-11-19 05:51:32 GMT
+Modified-files: ChangeLog NEWS debian/NEWS debian/changelog
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-18
+Summary: NEWS: Add migration note.
+Keywords: 
+
+* NEWS: Explain how to migrate to the new file extension behavior.
+
+* debian/NEWS: Add item about file extension.

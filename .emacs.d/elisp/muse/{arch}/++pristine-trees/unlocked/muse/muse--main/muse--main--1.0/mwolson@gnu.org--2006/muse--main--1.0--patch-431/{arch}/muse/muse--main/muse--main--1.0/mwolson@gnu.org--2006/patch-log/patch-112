@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-112
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr 21 15:31:23 EDT 2006
+Standard-date: 2006-04-21 19:31:23 GMT
+Modified-files: ChangeLog.2006 contrib/cgi.el
+    examples/mwolson/muse-init.el
+    examples/mwolson/templates/footer.html
+    examples/mwolson/templates/header.html
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-112
+Summary: Re-add some cgi.el stuff and update my example config.
+Keywords: 
+
+* contrib/cgi.el (cgi-calendar-string, cgi-calendar): Re-add these, since
+  they are mentioned in the documentation.
+
+* examples/mwolson/: Update.

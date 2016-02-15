@@ -1,0 +1,14 @@
+Revision: muse--yh--1.0--patch-6
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jun 18 18:28:02 CEST 2005
+Standard-date: 2005-06-18 16:28:02 GMT
+Modified-files: muse-mode.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-6
+Summary: provide a string view of the index
+Keywords:
+
+* muse-mode.el (muse-index-as-string): new function. Generates the index
+  in a string format, to be used in lisp code.
+  (muse-generate-index): make use of muse-index-as-string
+

@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-13
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Tue Feb  1 11:01:36 CST 2005
+Standard-date: 2005-02-01 03:01:36 GMT
+Modified-files: planner-bookmark.el planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-13
+Summary: autoload to calm down compiler
+Keywords: bugfix
+
+* planner-bookmark.el (planner-bookmark-make-url): autoload to calm down compiler.
+

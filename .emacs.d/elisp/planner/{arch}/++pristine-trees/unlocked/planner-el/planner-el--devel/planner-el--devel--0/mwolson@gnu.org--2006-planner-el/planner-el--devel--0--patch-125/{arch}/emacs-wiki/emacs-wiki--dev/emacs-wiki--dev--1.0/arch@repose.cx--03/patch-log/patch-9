@@ -1,0 +1,21 @@
+Revision: emacs-wiki--dev--1.0--patch-9
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Tue Jul  1 01:34:02 EST 2003
+Standard-date: 2003-06-30 15:34:02 GMT
+Summary: add euc-jp to list of coding translations
+Keywords:
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-9
+Removed-patches: 
+
+add euc-jp to list of coding translations, thanks to a patch by
+Junichi Uekawa (dancer AT netfort DOT gr DOT jp).
+

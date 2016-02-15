@@ -1,0 +1,31 @@
+Revision: planner--jeho--1.0--patch-38
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Mar  4 10:23:34 GMT 2005
+Standard-date: 2005-03-04 10:23:34 GMT
+Modified-files: ChangeLog planner-appt.el planner-bibtex.el
+    planner-bookmark.el planner-gnus.el planner-mhe.el
+    planner-multi.el planner-w3m.el planner-wl.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-38
+    sacha@free.net.ph--main/planner--dev--1.0--patch-333
+    sacha@free.net.ph--main/planner--dev--1.0--patch-334
+Summary: merge latest patches and defeat appt-check
+Keywords: 
+
+* planner-appt.el (planner-appt-show-alerts): change behaviour when there
+  are no alerts
+  (planner-appt-defeat-appt-check): new function to stop appt-check
+  reseting the appointment list each day 
+  (planner-appt-midnight-functions, planner-appt-midnight-setup):  new
+  function and hook to do something each midnight.  Intended for
+  sustaining defeating of appt-check, but could be useful for other
+  things... 
+  (planner-appt-use): added appt-check defeating
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-333
+   
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-334
+   planner-multi major bugfix for planner-make-link

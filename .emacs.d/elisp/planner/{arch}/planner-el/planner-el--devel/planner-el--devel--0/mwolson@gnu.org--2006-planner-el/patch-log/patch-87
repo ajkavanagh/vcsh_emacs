@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-87
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Sep 26 02:50:52 EDT 2006
+Standard-date: 2006-09-26 06:50:52 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-87
+Summary: Fix bug that was noticed in recent Emacs 22 builds
+Keywords: 
+
+2006-09-26  Michael Olson  <mwolson@gnu.org>
+
+	* planner.el (planner-setup-highlighting): Don't quote
+	beginning-of-line.  This should fix a bug that was noticed in
+	recent Emacs 22 builds.

@@ -1,0 +1,12 @@
+Revision: planner--main--1.0--patch-45
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue May 23 12:19:01 EDT 2006
+Standard-date: 2006-05-23 16:19:01 GMT
+Modified-files: planner-id.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-45
+Summary: Remove task IDs when publishing.
+Keywords: 
+
+* planner-id.el ("planner-publish"): Remove Task IDs and anything else
+  that uses the ID syntax when publishing.

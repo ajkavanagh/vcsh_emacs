@@ -1,0 +1,28 @@
+Revision: muse--main--1.0--patch-425
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 29 14:02:04 EDT 2007
+Standard-date: 2007-07-29 18:02:04 GMT
+New-files: .arch-ids/.arch-inventory.id .arch-inventory
+Renamed-files: .arch-ids/.arch-inventory.id texi/.arch-ids/.arch-inventory.id
+    .arch-ids/Makefile.defs.id .arch-ids/Makefile.defs.default.id
+    .arch-inventory texi/.arch-inventory
+    Makefile.defs Makefile.defs.default
+Modified-files: ChangeLog Makefile Makefile.defs.default
+    contrib/Makefile examples/Makefile experimental/Makefile
+    lisp/Makefile texi/Makefile
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-425
+Summary: Change build system so that changes to Makefile.defs don't get tracked
+Keywords: 
+
+2007-07-29  Michael Olson  <mwolson@gnu.org>
+
+	* Makefile.defs.default: Rename from Makefile.defs.  This allows
+	people to copy this file to Makefile.defs and make changes,
+	without having the changes be accidentally committed.  If
+	Makefile.defs does not exist, this file is read instead, in order
+	to minimize inconvenience to the casual user.
+
+	* Makefile, contrib/Makefile, examples/Makefile,
+	experimental/Makefile, lisp/Makefile, texi/Makefile: Use either
+	Makefile.defs.default or Makefile.defs.

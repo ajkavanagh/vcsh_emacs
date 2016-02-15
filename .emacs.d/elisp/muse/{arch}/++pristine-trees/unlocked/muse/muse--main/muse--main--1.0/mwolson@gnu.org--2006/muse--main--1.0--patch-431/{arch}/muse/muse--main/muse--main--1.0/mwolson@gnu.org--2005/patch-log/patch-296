@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-296
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec 13 19:57:11 EST 2005
+Standard-date: 2005-12-14 00:57:11 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-296
+Summary: muse-wiki: WikiWord suffix fix.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-wikiword-regexp): Don't require there to
+  be nothing at the end.  This allows us to separate WikiWords with
+  "''''" to indicate suffixes.

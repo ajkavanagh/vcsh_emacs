@@ -1,0 +1,10 @@
+Revision: planner-muse--johnsu01--1.0--patch-3
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Mon Jan  2 20:32:10 EST 2006
+Standard-date: 2006-01-03 01:32:10 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-3
+Summary: Updated maintainer information. Removed distinction between stable and development versions. Distributed the Updating Your Version node information and removed it. Made new nodes for each installation method under a new Getting the Files section.
+Keywords: 
+

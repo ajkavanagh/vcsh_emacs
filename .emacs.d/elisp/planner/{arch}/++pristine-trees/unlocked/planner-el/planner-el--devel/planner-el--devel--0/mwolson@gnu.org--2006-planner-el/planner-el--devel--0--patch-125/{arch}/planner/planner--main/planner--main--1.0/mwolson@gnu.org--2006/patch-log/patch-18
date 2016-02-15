@@ -1,0 +1,22 @@
+Revision: planner--main--1.0--patch-18
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar 13 21:39:45 EST 2006
+Standard-date: 2006-03-14 02:39:45 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-54
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-55
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-14
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-15
+    mwolson@gnu.org--2006/planner--main--1.0--patch-18
+Summary: Merged from jeho@jeho.org--2005 (patch 54-55), mwolson@gnu.org--2006-planner-el (patch 14-15)
+Keywords: merge
+
+(Author: Jim Ottaway <j.ottaway@lse.ac.uk>)
+
+* planner-appt.el (planner-fit-window-to-buffer): Use
+  shrink-window-if-large-than-buffer if fit-window-to-buffer is not
+  available.
+  (planner-appt-forthcoming-regexp): Remove the shyness from the groups:
+  this makes it match ok in XEmacs [don't know why it didn't before
+  though].

@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-412
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 28 16:29:07 EDT 2007
+Standard-date: 2007-07-28 20:29:07 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+    lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-412
+Summary: Fix bug involving links to files when not in first publishing style
+Keywords: 
+
+2007-07-28  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-mode.el (muse-browse-result): Set
+	muse-current-output-style.
+
+	* lisp/muse-project.el (muse-project-publish-this-file): Set
+	muse-current-output-style.  This fixes a bug when publishing to a
+	style that is not first in the list of styles.  Thanks to Jean
+	Magnan de Bornier for the report.

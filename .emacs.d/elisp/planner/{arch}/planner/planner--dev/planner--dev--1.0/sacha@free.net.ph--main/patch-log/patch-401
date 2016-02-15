@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-401
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat May 28 20:44:54 PHT 2005
+Standard-date: 2005-05-28 12:44:54 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-401
+Summary: Docfix: planner-lisp: Add arbitrary functions example
+Keywords: 
+
+* planner-el.texi (Interactive Lisp): Document arbitrary functions and provide an example.
+

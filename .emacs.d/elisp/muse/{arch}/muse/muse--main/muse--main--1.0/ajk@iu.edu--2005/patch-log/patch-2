@@ -1,0 +1,89 @@
+Revision: muse--main--1.0--patch-2
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Wed Dec 14 11:51:29 EST 2005
+Standard-date: 2005-12-14 16:51:29 GMT
+New-files: lisp/.arch-ids/muse-registry.el.id
+    lisp/muse-registry.el
+Modified-files: AUTHORS ChangeLog lisp/muse-groff.el
+    lisp/muse-latex.el lisp/muse-latex2png.el
+    lisp/muse-mode.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse-wiki.el
+New-patches: ajk@iu.edu--2005/muse--main--1.0--patch-2
+    mwolson@gnu.org--2005/muse--main--1.0--patch-283
+    mwolson@gnu.org--2005/muse--main--1.0--patch-284
+    mwolson@gnu.org--2005/muse--main--1.0--patch-285
+    mwolson@gnu.org--2005/muse--main--1.0--patch-286
+    mwolson@gnu.org--2005/muse--main--1.0--patch-287
+    mwolson@gnu.org--2005/muse--main--1.0--patch-288
+    mwolson@gnu.org--2005/muse--main--1.0--patch-289
+    mwolson@gnu.org--2005/muse--main--1.0--patch-290
+    mwolson@gnu.org--2005/muse--main--1.0--patch-291
+    mwolson@gnu.org--2005/muse--main--1.0--patch-292
+    mwolson@gnu.org--2005/muse--main--1.0--patch-293
+    mwolson@gnu.org--2005/muse--main--1.0--patch-294
+    mwolson@gnu.org--2005/muse--main--1.0--patch-295
+    mwolson@gnu.org--2005/muse--main--1.0--patch-296
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-25
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-27
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-28
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-29
+Summary: catch up with mwolson's patch 296
+Keywords: 
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-283
+   muse-mode: Minor fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-284
+   Add muse-registry.el to Muse.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-285
+   Merged from muse--rel--3.02 (patch 25)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-286
+   muse-wiki: First try at implementing WikiName separator.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-287
+   muse-registry.el: Fix compiler warnings.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-288
+   XEmacs fixes in muse-latex2png and muse-registry.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-289
+   muse-registry: Attempt to increase Emacs20 compatibility.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-290
+   muse-groff: Fix compiler warning.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-291
+   Merged from muse--rel--3.02 (patch 27)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-292
+   Merged from muse--rel--3.02 (patch 28)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-293
+   Merged from muse--rel--3.02 (patch 29)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-294
+   muse-publish: Make muse-insert-markup a function.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-295
+   muse-wiki: Fix an error that occurs when muse-colors is not loaded.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-296
+   muse-wiki: WikiWord suffix fix.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-25
+   muse-latex: Get table of contents to publish correctly.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-27
+   muse-project: Prevent auto-save files from being included.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-28
+   muse-project: Deal with edge case.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-29
+   muse-mode: Fix semicolon in paragraph issue.
+

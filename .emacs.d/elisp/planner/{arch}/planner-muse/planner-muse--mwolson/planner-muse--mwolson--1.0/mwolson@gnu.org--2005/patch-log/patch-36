@@ -1,0 +1,30 @@
+Revision: planner-muse--mwolson--1.0--patch-36
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 22 20:56:26 EST 2005
+Standard-date: 2005-07-23 01:56:26 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-export-diary.el planner-id.el planner-multi.el
+    planner-notes-index.el planner-report.el
+    planner-tasks-overview.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-38
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-39
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-40
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-41
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-36
+Summary: Merged from hodique@lifl.fr--2005 (patch 38-41)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-38
+   Make planner-directory a function
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-39
+   Fix incorrect behavior for planner-multi-remove-task-from-pool
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-40
+   Fix minor bug un planner-multi.el
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-41
+   Bugfix

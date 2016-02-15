@@ -1,0 +1,29 @@
+Revision: muse-el--devel--0--patch-108
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 28 19:57:25 EDT 2006
+Standard-date: 2006-10-28 23:57:25 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-html.el lisp/muse-publish.el lisp/muse-wiki.el
+    lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-108
+    mwolson@gnu.org--2006/muse--main--1.0--patch-224
+    mwolson@gnu.org--2006/muse--main--1.0--patch-225
+    mwolson@gnu.org--2006/muse--main--1.0--patch-226
+    mwolson@gnu.org--2006/muse--main--1.0--patch-227
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 224-227)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-224
+   Add self-nested tag support to muse-colors as well
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-225
+   Checkpoint my definition list publishing changes
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-226
+   Fix all known definition list publishing issues
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-227
+   Update ChangeLog for last change

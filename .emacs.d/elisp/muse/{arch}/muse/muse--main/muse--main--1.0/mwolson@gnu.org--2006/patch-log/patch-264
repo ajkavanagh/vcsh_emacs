@@ -1,0 +1,32 @@
+Revision: muse--main--1.0--patch-264
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan  3 18:38:07 EST 2007
+Standard-date: 2007-01-03 23:38:07 GMT
+Modified-files: ChangeLog lisp/muse-html.el
+    lisp/muse-publish.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-264
+Summary: Make <include> tag work with markup="src"
+Keywords: 
+
+2007-01-03  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-html.el (muse-html-src-tag): Document.
+
+	* lisp/muse-publish.el (muse-publish-call-tag-on-buffer): New
+	command that calls a given tag on the current buffer.  Attributes
+	may be passed.
+	(muse-publish-examplify-buffer, muse-publish-versify-buffer): Use
+	it.
+	(muse-publish-srcify-buffer): New function that allows
+	markup="src" in the <include> tag.
+	(muse-publish-get-and-delete-attr): New macro that gets an
+	attribute from a list and removes the first instance of that
+	attribute from said list.
+	(muse-publish-markup-attribute): Handle markup="src".
+	(muse-publish-command-tag, muse-publish-include-tag): Use
+	muse-publish-get-and-delete-attr.  This allows the remaining
+	attributes to be passed.
+
+	* texi/muse.texi (Tag Summary): Update for new <src> tag as well
+	as changes to <command> and <include>.

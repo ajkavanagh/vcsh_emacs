@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-161
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Aug 28 15:48:26 JST 2004
+Standard-date: 2004-08-28 06:48:26 GMT
+New-files: .arch-ids/planner-unix-mail.el.id
+    planner-unix-mail.el
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-161
+Summary: New: planner-unix-mail
+Keywords: new, external
+
+	* planner-unix-mail.el: New from Frederik Fouvry.
+	* planner.texi (Top): Document planner-unix-mail.

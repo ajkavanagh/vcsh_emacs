@@ -1,0 +1,16 @@
+Revision: muse--jeho--1.0--patch-14
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Nov  7 20:03:26 GMT 2005
+Standard-date: 2005-11-07 20:03:26 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-14
+Summary: require muse-colors correctly, add insinuation function
+Keywords: 
+
+* lisp/muse-wiki.el: require muse-colors at run-time [perhaps should be an
+  eval-and-compile?] 
+  (muse-wiki-insinuate): new function to actually install muse-wiki
+  functionality.  This is so that muse-wiki can be required without being
+  installed.  
+

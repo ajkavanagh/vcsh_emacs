@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-278
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Feb 13 13:43:46 EST 2007
+Standard-date: 2007-02-13 18:43:46 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-278
+Summary: Handle empty comments
+Keywords: 
+
+2007-02-13  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-markup-regexps): Handle
+	comments that have no text better.  Thanks to fang.lungang for the
+	report.
+	(muse-publish-markup-comment): Deal with case where no comment
+	text is provided.

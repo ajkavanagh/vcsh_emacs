@@ -1,0 +1,22 @@
+Revision: planner-muse--peter--1.0--patch-9
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Fri Aug 12 15:19:51 PDT 2005
+Standard-date: 2005-08-12 22:19:51 GMT
+Modified-files: planner-publish.el
+New-patches: saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-9
+Summary: fixup note publishing to include anchor, timestamp, links
+Keywords: planner notes
+
+* planner-publish.el: Thanks to Chris McMahan <cmcmahan@one.net> for the
+	patch to publish notes properly!
+
+	(planner-html-markup-strings): add extra strings for marking up notes
+	to html.  now notes publish with tags and links correctly.
+
+    (planner-publish-notes-tag): the end marker was incorrect when
+	markup-region was complete.
+
+    (planner-publish-note-tag): notes publish with anchor references as
+    well as timestamp and links!
+

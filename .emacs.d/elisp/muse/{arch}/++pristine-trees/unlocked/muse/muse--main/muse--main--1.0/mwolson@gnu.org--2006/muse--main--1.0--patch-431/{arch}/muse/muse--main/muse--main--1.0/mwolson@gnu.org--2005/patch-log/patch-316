@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-316
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Dec 24 17:07:28 EST 2005
+Standard-date: 2005-12-24 22:07:28 GMT
+Modified-files: ChangeLog lisp/muse-groff.el
+    lisp/muse-latex2png.el lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-316
+Summary: Adapt the remaining publishing styles.
+Keywords: 
+
+* lisp/muse-groff.el (muse-groff-markup-paragraph): Use
+  muse-insert-markup.
+
+* lisp/muse-latex2png.el (muse-publish-latex-tag): Use
+  muse-insert-markup.
+  (latex2png): Clean up the code a bit.
+
+* lisp/muse-texinfo.el (muse-texinfo-insert-anchor): Use
+  muse-insert-markup.
+  (muse-texinfo-markup-table): Use the shiny new
+  muse-publish-table-fields function.

@@ -1,0 +1,68 @@
+Revision: muse--yh--1.0--patch-23
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Wed Jul  6 22:33:31 CEST 2005
+Standard-date: 2005-07-06 20:33:31 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-colors.el lisp/muse-html.el
+    lisp/muse-journal.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-wiki.el lisp/muse.el
+    muse.texi
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-23
+    mwolson@gnu.org--2005/muse--main--1.0--patch-83
+    mwolson@gnu.org--2005/muse--main--1.0--patch-84
+    mwolson@gnu.org--2005/muse--main--1.0--patch-85
+    mwolson@gnu.org--2005/muse--main--1.0--patch-86
+    mwolson@gnu.org--2005/muse--main--1.0--patch-87
+    mwolson@gnu.org--2005/muse--main--1.0--patch-88
+    mwolson@gnu.org--2005/muse--main--1.0--patch-89
+    mwolson@gnu.org--2005/muse--main--1.0--patch-90
+    mwolson@gnu.org--2005/muse--main--1.0--patch-91
+    mwolson@gnu.org--2005/muse--main--1.0--patch-92
+    mwolson@gnu.org--2005/muse--main--1.0--patch-93
+    mwolson@gnu.org--2005/muse--main--1.0--patch-94
+    mwolson@gnu.org--2005/muse--main--1.0--patch-95
+Summary: Merged from mwolson@gnu.org--2005 (patch 83-95)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-83
+   Update postal address of FSF in muse-wiki.el.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-84
+   Allow WikiWords to be ignored with <nop> or "''''".
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-85
+   Hack on WikiName handling and make TAB work for Wiki links.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-86
+   Warn if file not published; hack further on Wiki stuff.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-87
+   Apply a few fixes from Yann's branch.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-88
+   Fix publishing of bare interwiki names.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-89
+   Make interwiki links publish with the correct extension.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-90
+   Mouse-2 on regular text will yank rather than give an error.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-91
+   Work on getting to the point where we can resolve project interwiki links.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-92
+   Fix publishing error.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-93
+   Re-add global mouse-2 event.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-94
+   Fix goof-up in instructions for using `muse-blosxom-new-entry'.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-95
+   Minor docfixes.

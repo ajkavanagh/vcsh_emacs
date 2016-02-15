@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-331
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Dec 29 20:42:30 EST 2005
+Standard-date: 2005-12-30 01:42:30 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-331
+Summary: Fix #4923: Definition lists with numbers are not possible.
+Keywords: 
+
+* lisp/muse-publish.el (muse-list-item-type): Use string-match to
+  determine whether an item is an ordered list or definition list.  This
+  should fix Bug #4923.

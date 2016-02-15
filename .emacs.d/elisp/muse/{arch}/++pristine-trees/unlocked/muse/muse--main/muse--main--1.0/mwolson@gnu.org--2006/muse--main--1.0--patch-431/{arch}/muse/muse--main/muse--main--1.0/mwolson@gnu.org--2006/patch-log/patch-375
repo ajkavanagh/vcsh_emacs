@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-375
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 17 13:14:03 EDT 2007
+Standard-date: 2007-06-17 17:14:03 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-375
+Summary: Ignore .git metadata directories
+Keywords: 
+
+* lisp/muse-project.el (muse-project-ignore-regexp): Add .git to the list
+  of things to ignore.

@@ -1,0 +1,24 @@
+Revision: planner--dev--1.0--patch-135
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jun 28 12:43:01 PHT 2004
+Standard-date: 2004-06-28 04:43:01 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-135
+Summary: Menu tweaks: planner notes submenu, new keybindings
+Keywords: improvement, note
+
+	* planner.el: Merge patch from Michael Olson.
+	(planner-install-extra-note-keybindings): Add a new function
+	`planner-install-extra-note-keybindings', modeled after
+	`planner-install-extra-task-keybindings', that makes all of the
+	note-related entries in the Planner menu keyboard-accessible. The
+	prefix for all of these keys is C-c C-o, since C-c C-n was already
+	in use.
+	(planner-menu): Add a submenu called "Notes" to the Planner menu.
+	(planner-menu): Fix the "Info" menu entry so that it brings up the
+	planner info manual instead of displaying a message. This item is
+	now called "Info manual".
+	(planner-menu): Change the Goto submenu so that the word "Goto" is
+	removed from the beginning of each entry. It seems ambiguous to
+	have it there.

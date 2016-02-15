@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-336
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun  5 08:56:02 EDT 2007
+Standard-date: 2007-06-05 12:56:02 GMT
+Modified-files: ChangeLog lisp/muse-journal.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-336
+Summary: muse-journal: Fix double-escaping of qotd contents
+Keywords: 
+
+2007-06-05  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-journal.el (muse-journal-html-munge-buffer): Add
+	read-only properties to qotd contents, so that they don't get
+	double-escaped.  Thanks to Leo for the report.

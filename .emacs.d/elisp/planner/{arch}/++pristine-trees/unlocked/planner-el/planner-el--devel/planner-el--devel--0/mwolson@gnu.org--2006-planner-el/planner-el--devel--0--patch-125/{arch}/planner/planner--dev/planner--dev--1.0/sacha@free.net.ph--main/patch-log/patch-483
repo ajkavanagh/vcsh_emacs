@@ -1,0 +1,24 @@
+Revision: planner--dev--1.0--patch-483
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Aug 31 10:48:02 EDT 2005
+Standard-date: 2005-08-31 14:48:02 GMT
+Modified-files: planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-483
+Summary: Bugfix: planner-multi-replan-task should suggest only plan pages
+Keywords: 
+
+* planner-multi.el (planner-multi-task-string): New convenience function
+  that determines the right task line.
+  (planner-multi-replan-task): Bugfix: Suggest only plan pages. Work with nil.
+  Thanks to John Sullivan for suggesting this!
+
+* planner.el (planner-replan-task): Use alias mechanism instead of
+  function variable.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

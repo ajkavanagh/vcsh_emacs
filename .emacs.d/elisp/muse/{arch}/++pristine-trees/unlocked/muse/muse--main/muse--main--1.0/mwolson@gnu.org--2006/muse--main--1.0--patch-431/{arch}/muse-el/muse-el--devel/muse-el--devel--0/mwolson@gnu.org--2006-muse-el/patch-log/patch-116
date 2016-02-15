@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-116
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov  6 09:07:36 EST 2006
+Standard-date: 2006-11-06 14:07:36 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-116
+    mwolson@gnu.org--2006/muse--main--1.0--patch-242
+    mwolson@gnu.org--2006/muse--main--1.0--patch-243
+    mwolson@gnu.org--2006/muse--main--1.0--patch-244
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 242-244)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-242
+   Fix link-following bug with invalid relative links
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-244
+   Add ChangeLog entry for manual change

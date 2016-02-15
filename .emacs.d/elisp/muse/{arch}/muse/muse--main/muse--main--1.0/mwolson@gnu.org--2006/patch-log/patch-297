@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-297
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Apr 21 14:28:21 EDT 2007
+Standard-date: 2007-04-21 18:28:21 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-297
+Summary: muse-latex2png: Make this work with ConTeX
+Keywords: 
+
+2007-04-21  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-latex2png.el (muse-publish-math-tag): If using the
+	yet-to-be-included "context" publishing style, use "$$" rather
+	than "\[" and "\]".  Thanks to Jean Magnan de Bornier for pointing
+	this out.

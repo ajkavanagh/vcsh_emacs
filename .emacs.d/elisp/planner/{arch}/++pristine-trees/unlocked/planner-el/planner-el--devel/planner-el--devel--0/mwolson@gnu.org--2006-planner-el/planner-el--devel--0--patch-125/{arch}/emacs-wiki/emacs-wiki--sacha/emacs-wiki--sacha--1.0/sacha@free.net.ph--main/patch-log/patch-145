@@ -1,0 +1,18 @@
+Revision: emacs-wiki--sacha--1.0--patch-145
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 25 13:46:38 PHT 2004
+Standard-date: 2004-03-25 05:46:38 GMT
+Modified-files: emacs-wiki.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-145
+Summary: Allow spaces in names by default, correctly publishing them
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-extended-link-regexp): Allow spaces by
+	default. If you feel this incurs too much of a performance penalty
+	or it breaks the way you work, set it back to
+	"\\[\\[\\([^][ \t\n]+\\)\\]\\(\\[\\([^][\n]+\\)\\]\\)?\\]".
+	(emacs-wiki-escape-url): New.
+	(emacs-wiki-markup-link): Use correct URL escaping.
+	(emacs-wiki-link-url): Escape the URL.
+

@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-351
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 23 09:56:55 PHT 2005
+Standard-date: 2005-03-23 01:56:55 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-351
+Summary: Docfix: Spamguard addresses and add other contributors
+Keywords: 
+
+* planner-el.texi (Acknowledgements): Spamguard addresses. Add contributors.
+

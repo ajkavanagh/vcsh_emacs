@@ -1,0 +1,16 @@
+Revision: muse--yh--1.0--patch-15
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jul  2 01:26:31 CEST 2005
+Standard-date: 2005-07-01 23:26:31 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+    lisp/muse-wiki.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-15
+    mwolson@gnu.org--2005/muse--main--1.0--patch-82
+Summary: Merged from mwolson@gnu.org--2005 (patch 82)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-82
+   Interpret explicit links before emphasis.

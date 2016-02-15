@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-80
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Oct 28 19:32:45 EST 2005
+Standard-date: 2005-10-29 00:32:45 GMT
+Modified-files: ChangeLog planner-bibtex.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-80
+Summary: planner-bibtex: Use "bibtex:" to match bibtex URLs.
+Keywords: 
+
+* planner-bibtex.el: Use "bibtex:" rather than "bibtex://" to match
+  bibtex URLs.  Thanks to Bastien Guerry for the heads up.

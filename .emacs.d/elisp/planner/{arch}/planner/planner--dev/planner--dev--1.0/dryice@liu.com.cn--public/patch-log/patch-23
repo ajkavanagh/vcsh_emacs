@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-23
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Mar  2 15:23:00 CST 2005
+Standard-date: 2005-03-02 07:23:00 GMT
+Modified-files: planner-el.texi planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-23
+Summary: document planner-rank in info and some related docfixs
+Keywords: docfix, newfeature
+
+* planner-rank.el: doc fix to cache up the code changes
+
+* planner-el.texi (Task Ranks): new node describing planner-rank.el
+

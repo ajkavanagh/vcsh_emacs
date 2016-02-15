@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-210
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Nov 27 15:53:13 JST 2004
+Standard-date: 2004-11-27 06:53:13 GMT
+New-files: .arch-ids/planner-timeclock-summary.el.id
+    planner-timeclock-summary.el
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-210
+Summary: New: planner-timeclock-summary.el
+Keywords: new
+
+	* planner-timeclock-summary.el: New from Dryice Liu.
+
+	* planner.texi (Timeclock): Note about
+	planner-timeclock-summary.el .

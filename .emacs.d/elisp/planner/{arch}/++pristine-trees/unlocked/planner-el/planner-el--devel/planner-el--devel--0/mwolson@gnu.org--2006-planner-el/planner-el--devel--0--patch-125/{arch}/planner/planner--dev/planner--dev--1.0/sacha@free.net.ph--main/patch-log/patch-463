@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-463
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jul 27 18:41:06 EDT 2005
+Standard-date: 2005-07-27 22:41:06 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-463
+Summary: Bugfix: planner-current-note-info: Recognize multi properly again
+Keywords: 
+
+* planner.el (planner-current-note-info): Add missing closing paren.
+  Thanks to Sven Kloppenburg for the patch! This fixes remembering to
+  multiple pages.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

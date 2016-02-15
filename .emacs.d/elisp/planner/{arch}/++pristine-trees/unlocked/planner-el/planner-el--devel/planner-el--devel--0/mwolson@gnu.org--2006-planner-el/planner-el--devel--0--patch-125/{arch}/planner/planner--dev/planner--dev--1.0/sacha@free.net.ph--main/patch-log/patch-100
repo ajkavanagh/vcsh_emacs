@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-100
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun  3 22:49:01 PHT 2004
+Standard-date: 2004-06-03 14:49:01 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-100
+Summary: Bugfix: Revert planner-task-cancelled keybinding
+Keywords: 
+
+	* planner.el (planner-install-extra-task-keybindings): Bugfix:
+	Revert planner-task-cancelled keybinding for extra task
+        keybindings.

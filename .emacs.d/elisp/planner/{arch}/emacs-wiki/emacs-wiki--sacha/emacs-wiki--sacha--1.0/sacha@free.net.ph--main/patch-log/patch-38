@@ -1,0 +1,15 @@
+Revision: emacs-wiki--sacha--1.0--patch-38
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb 17 11:09:30 PHT 2004
+Standard-date: 2004-02-17 03:09:30 GMT
+Modified-files: planner.el planner2diary.py
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-38
+Removed-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-36
+Summary: Added info URLs to planner.el
+Keywords: 
+
+	* planner.el (planner-url-regexp): Added info handling.
+	(planner-browse-url): Added info handling.
+	Thanks to Frederik Fouvry for patch.
+

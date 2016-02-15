@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-99
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  6 22:16:38 EST 2005
+Standard-date: 2005-07-07 03:16:38 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-99
+Summary: Document new blosxom convenience feature.
+Keywords: 
+
+* lisp/muse-blosxom.el: Document `muse-blosxom-project-alist-dirs' and
+  `muse-blosxom-project-alist-entry'.  An example is provided in the
+  header.
+

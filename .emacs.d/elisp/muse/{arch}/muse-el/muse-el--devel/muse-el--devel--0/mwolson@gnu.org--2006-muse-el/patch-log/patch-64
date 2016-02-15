@@ -1,0 +1,24 @@
+Revision: muse-el--devel--0--patch-64
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May  8 04:54:22 EDT 2006
+Standard-date: 2006-05-08 08:54:22 GMT
+Modified-files: ChangeLog.2006 lisp/muse-latex.el
+    lisp/muse-mode.el lisp/muse-publish.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-64
+    mwolson@gnu.org--2006/muse--main--1.0--patch-119
+    mwolson@gnu.org--2006/muse--main--1.0--patch-120
+    mwolson@gnu.org--2006/muse--main--1.0--patch-121
+Summary: Merged from mwolson@gnu.org--2006 (patch 119-121)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-119
+   muse-latex: Make images look better.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-120
+   Fix buggy behavior in muse-browse-result.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-121
+   Update keystrokes used in muse-mode, as well as docs.

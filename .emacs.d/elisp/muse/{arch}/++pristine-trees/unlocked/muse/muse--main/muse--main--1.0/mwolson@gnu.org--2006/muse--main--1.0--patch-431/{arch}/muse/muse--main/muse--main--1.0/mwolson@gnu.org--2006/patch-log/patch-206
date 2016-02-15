@@ -1,0 +1,23 @@
+Revision: muse--main--1.0--patch-206
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Sep 13 09:25:17 EDT 2006
+Standard-date: 2006-09-13 13:25:17 GMT
+Modified-files: ChangeLog lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-206
+Summary: Fix #6970: Info-pdf publishing fails when a WikiLink is included in a heading
+Keywords: 
+
+2006-09-13  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-texinfo.el (muse-texinfo-markup-heading): New function
+	adopted from Jim Ottaway's patch.  It removes links from the
+	heading, and then marks the region read-only to inhibit WikiWord
+	detection.
+
+2006-09-13  Jim Ottaway  <j.ottaway@lse.ac.uk>
+
+	* lisp/muse-texinfo.el (muse-texinfo-markup-functions): Add
+	special handling for headings.
+	(muse-texinfo-remove-links): New function that removes explicit
+	links from the given strings, replacing them with a description.

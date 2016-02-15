@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-243
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec 17 20:39:40 JST 2004
+Standard-date: 2004-12-17 11:39:40 GMT
+Modified-files: ChangeLog planner-timeclock-summary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-243
+Summary: planner-timeclock-summary: Alias time-subtract if necessary
+Keywords: 
+
+    	* planner-timeclock-summary.el (time-date): Alias time-subtract.
+

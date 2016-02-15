@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-109
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Mar 15 15:05:13 PHT 2004
+Standard-date: 2004-03-15 07:05:13 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-109
+Summary: planner-annotation-from-info
+Keywords: 
+
+	* planner.el (planner-annotation-from-info): New. Thanks to Yvonne
+	Thomson for contributing this.

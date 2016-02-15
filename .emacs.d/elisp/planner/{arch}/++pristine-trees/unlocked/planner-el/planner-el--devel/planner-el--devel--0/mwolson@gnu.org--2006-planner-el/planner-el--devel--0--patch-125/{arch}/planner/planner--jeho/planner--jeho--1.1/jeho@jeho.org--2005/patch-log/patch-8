@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.1--patch-8
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Nov  8 11:13:53 GMT 2005
+Standard-date: 2005-11-08 11:13:53 GMT
+Modified-files: planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-8
+Summary: planner-multi-task-delete-this-page
+Keywords: 
+
+* planner-multi.el (planner-multi-task-delete-this-page): Remove the page
+  to delete from the link list correctly. Allow for various cases
+  previously unaccommodated: two links becomes a single link, one link
+  becomes no link at all.  This also required allowing the regexp to
+  match on a single link.
+

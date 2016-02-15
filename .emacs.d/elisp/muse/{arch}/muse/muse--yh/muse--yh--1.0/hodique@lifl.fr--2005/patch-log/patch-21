@@ -1,0 +1,12 @@
+Revision: muse--yh--1.0--patch-21
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Tue Jul  5 22:16:12 CEST 2005
+Standard-date: 2005-07-05 20:16:12 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-21
+Summary: Fix mouse-2 yank bug in muse-mode
+Keywords:
+
+* lisp/muse-mode.el (muse-follow-name-at-mouse-maybe): add this function, that falls back into the corresponding global keybinding if no link found
+

@@ -1,0 +1,19 @@
+Revision: muse--yh--1.0--patch-45
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Sep 19 18:56:22 CEST 2005
+Standard-date: 2005-09-19 16:56:22 GMT
+Modified-files: ChangeLog lisp/muse-html.el muse.texi
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-45
+    mwolson@gnu.org--2005/muse--main--1.0--patch-238
+    mwolson@gnu.org--2005/muse--main--1.0--patch-239
+Summary: Merged from mwolson@gnu.org--2005 (patch 238-239)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-238
+   muse-html: Add muse-xhtml-style-sheet.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-239
+   muse.texi: Use @example instead of @smallexample.

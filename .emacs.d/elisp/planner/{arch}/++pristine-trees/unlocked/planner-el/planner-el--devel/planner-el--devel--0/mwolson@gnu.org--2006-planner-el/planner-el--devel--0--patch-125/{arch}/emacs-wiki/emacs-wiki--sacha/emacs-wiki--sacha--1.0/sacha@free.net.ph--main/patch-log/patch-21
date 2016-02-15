@@ -1,0 +1,20 @@
+Revision: emacs-wiki--sacha--1.0--patch-21
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Feb  1 13:37:06 PHT 2004
+Standard-date: 2004-02-01 05:37:06 GMT
+Modified-files: emacs-wiki.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-21
+Summary: Added URL escaping to emacs-wiki
+Keywords: 
+
+   emacs-wiki-wiki-link-target unescapes the wiki link.
+   planner-gnus-get-message-id deals with summary mode.
+   planner-annotation-from-gnus uses emacs-wiki-make-link.
+   planner-annotation-from-gnus-summary uses emacs-wiki-make-link.
+   
+   New functions:
+   emacs-wiki-link-escape
+   emacs-wiki-link-unescape
+   emacs-wiki-make-link
+

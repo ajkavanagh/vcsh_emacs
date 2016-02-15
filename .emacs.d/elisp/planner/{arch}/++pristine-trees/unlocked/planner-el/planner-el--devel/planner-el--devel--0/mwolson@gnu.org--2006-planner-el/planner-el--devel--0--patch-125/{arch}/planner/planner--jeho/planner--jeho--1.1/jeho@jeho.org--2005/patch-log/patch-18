@@ -1,0 +1,44 @@
+Revision: planner--jeho--1.1--patch-18
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Dec  8 20:57:04 GMT 2005
+Standard-date: 2005-12-08 20:57:04 GMT
+Modified-files: ChangeLog planner-authz.el
+    planner-publish.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-3
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-4
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-5
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-6
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-7
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-8
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-9
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-18
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-123
+Summary: Merged from ajk@iu.edu--2005 (patch 3-9), mwolson@gnu.org--2005 (patch 123)
+Keywords: merge
+
+Patches applied:
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-3
+   catch up to mwolson's patch-122
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-4
+   fix diary markup
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-5
+   avoid errors due to bad links
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-6
+   fix bug when used with muse-wiki.el
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-7
+   fix markup of all-day appointments
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-8
+   allow markup of elements inside note details
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-9
+   fix bug in regexp introduced in patch-7
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-123
+   Merged from ajk@iu.edu--2005 (patch 3-9)

@@ -1,0 +1,157 @@
+Revision: emacs-wiki--dds--1.0--patch-4
+Archive: davidsmith@acm.org--2004
+Creator: David D. Smith <davidsmith@acm.org>
+Date: Thu Jan 22 00:52:35 EST 2004
+Standard-date: 2004-01-22 05:52:35 GMT
+Modified-files: planner.el
+New-patches: davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-4
+Summary: 
+
+
+
+Patches applied:
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--base-0
+   initial import
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-1
+   fix for bare interwikis, additional header faces
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-2
+   remove octal references (fixes http publishing on xemacs)
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-3
+   process custom tags in changelog markup before escaping html entities
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-4
+   (emacs-wiki-read-name): use the provided file list
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-5
+   support GNU style changelog entries in the changelog markup
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-6
+   (emacs-wiki-read-name): accept optional prompt argument
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-7
+   show InterWiki#BadLink in bad link face
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-8
+   changelog typos corrected
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-9
+   add euc-jp to list of coding translations
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-10
+   (emacs-wiki-grep): fix bug with (require 'compile) failing
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-11
+   add support for a project to default to
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-12
+   redisplay a badlink as a normal link when it is saved
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-13
+   bring in compile-time cl dependency, refactor previous change
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-14
+   highlight broken [[interwiki]] links in badlink face 
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-15
+   don't try to inline URL-based images when highlighting
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-16
+   support images in the description part of an [[extended][link]]
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-17
+   don't markup email addresses delimited by a trailing -
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-18
+   correct bug in patch-15
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-19
+   markup tables using the class `ewiki-table', for easy formatting
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-20
+   allow any non-whitespace character in anchor names
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-21
+   require the final character of an anchor to be alphanumeric
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-22
+   add coding-map support for big5
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-23
+   improved rename handling; markup hidden text
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-24
+   disallow [ in extended links, to improve matching
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-25
+   don't try to load wiki mode for ignored files in a wiki dir
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-26
+   directories-member: treat an unreadable path as a directory
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-27
+   don't allow a leading - in bare email
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-28
+   rename-link-at-point fixes
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-29
+   revert refresh-buffer hack to avoid rescanning files
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-30
+   new files in wiki directories were not recognised
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-31
+   allow for up to five levels of headings
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-32
+   patch from johnw: httpd, eval-when-compile, etc
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-33
+   johnw: don't add <br> in list-closing
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-34
+   derived-mode-p when testing for emacs-wiki-mode
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-35
+   add support for finding documents in the other window
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-36
+   typo in -publishing-transforms
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-37
+   fix -find-file from a non-file
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-38
+   use a default project, instead of no project
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-39
+   fix interactive project switch behavior (see prev patch)
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-40
+   fix buglet in -directories-member
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-41
+   process remaining lisp tags in changelog markup
+
+ * arch@repose.cx--03/emacs-wiki--dev--1.0--patch-42
+   don't mark up email addresses inside links
+
+ * sacha@free.net.ph--main/emacs-wiki--sacha--1.0--base-0
+   tag of arch@repose.cx--03/emacs-wiki--dev--1.0--patch-42
+
+ * sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-1
+   Grand import 
+
+ * sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-2
+   
+
+ * sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-3
+   
+
+ * sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-4
+   
+

@@ -1,0 +1,12 @@
+Revision: planner--jeho--1.0--patch-2
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Feb 15 14:53:23 GMT 2005
+Standard-date: 2005-02-15 14:53:23 GMT
+Modified-files: planner-id.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-2
+Summary: planner-id.el regexp bug
+Keywords: 
+
+* planner-id.el (planner-id-regexp): 
+  missing + in regexp

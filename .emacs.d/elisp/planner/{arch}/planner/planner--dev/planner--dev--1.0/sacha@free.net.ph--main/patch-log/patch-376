@@ -1,0 +1,37 @@
+Revision: planner--dev--1.0--patch-376
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Apr 18 21:41:27 PHT 2005
+Standard-date: 2005-04-18 13:41:27 GMT
+Modified-files: ChangeLog planner-el.texi planner-id.el
+    planner.el
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--base-0
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-1
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-2
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-3
+    sacha@free.net.ph--main/planner--dev--1.0--patch-376
+Summary: planner-id bugfix (completed/cancelled tasks) and planner-el docfixes
+Keywords: 
+
+* planner-id.el (planner-id-update-tasks-on-page): Fix cyclic saving
+  caused when planner-id updates completed bugs even if force is nil.
+  Thanks to SAITO Fuyuki for spotting the bug and suggesting a fix.
+
+* planner-el.texi: Change @var to @code whenever it referred to a program
+  variable instead of a metasyntactic variable.
+  
+Patches applied:
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-375
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-1
+   
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-2
+   Replaced all occurrences of PlannerMode with Planner except where inaccurate.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-3
+   planner-el.texi (Diary): Corrected instructions for showing
+	diary entries for multiple days. Replaced @code's with @var
+	where appropriate.

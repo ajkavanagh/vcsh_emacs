@@ -1,0 +1,29 @@
+Revision: muse-el--devel--0--patch-71
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 24 20:52:50 EDT 2006
+Standard-date: 2006-05-25 00:52:50 GMT
+Modified-files: ChangeLog.2006 lisp/muse-colors.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-71
+    mwolson@gnu.org--2006/muse--main--1.0--patch-132
+    mwolson@gnu.org--2006/muse--main--1.0--patch-133
+    mwolson@gnu.org--2006/muse--main--1.0--patch-134
+    mwolson@gnu.org--2006/muse--main--1.0--patch-135
+Summary: Merged from mwolson@gnu.org--2006 (patch 132-135)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-132
+   Fix publishing error with tables and initial whitespace.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-133
+   Make links colored blue by default.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-134
+   Try not to call tramp during publishing.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-135
+   Fix a potential unbounded recursive call.

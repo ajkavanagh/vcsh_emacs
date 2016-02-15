@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-280
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan  3 23:12:12 JST 2005
+Standard-date: 2005-01-03 14:12:12 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-280
+Summary: planner-multi: planner-task-date: Bugfix for tasks without links
+Keywords: 
+
+	* planner-multi.el (planner-task-date): Recognize tasks without links.

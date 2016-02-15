@@ -1,0 +1,87 @@
+Revision: planner--jeho--1.1--patch-49
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Feb 28 16:32:22 GMT 2006
+Standard-date: 2006-02-28 16:32:22 GMT
+New-files: debian/.arch-ids/compat.id debian/compat
+Modified-files: ChangeLog.2006 Makefile.defs NEWS README
+    debian/changelog debian/control debian/emacsen-install
+    debian/rules planner-appt.el planner-authz.el
+    planner-publish.el planner-report.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-49
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--base-0
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-1
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-2
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-3
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-4
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-5
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-6
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-7
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-8
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-9
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-10
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-11
+    mwolson@gnu.org--2006/planner--main--1.0--patch-9
+    mwolson@gnu.org--2006/planner--main--1.0--patch-10
+    mwolson@gnu.org--2006/planner--main--1.0--patch-11
+    mwolson@gnu.org--2006/planner--main--1.0--patch-12
+    mwolson@gnu.org--2006/planner--main--1.0--patch-13
+    mwolson@gnu.org--2006/planner--main--1.0--patch-14
+Summary: Merged from mwolson@gnu.org--2006-planner-el (patch 0-11), mwolson@gnu.org--2006 (patch 9-14)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--base-0
+   tag of mwolson@gnu.org--2006/planner--main--1.0--patch-7
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-1
+   Merged from mwolson@gnu.org--2006 (patch 8)
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-2
+   Merged from mwolson@gnu.org--2006 (patch 9)
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-3
+   update to work with latest planner-publish.el
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-4
+   add planner-multi support to planner-authz
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-5
+   enable multiple links with "categories" attribute
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-6
+   consider all of a note's links when building an access list
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-7
+   only publish dependencies if they haven't already been published
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-8
+   planner-appt: fix highlighting in plan pages
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-9
+   small fix to README file
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-10
+   sort status report entries by plan page name
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-11
+   Merged from mwolson@gnu.org--2006 (patch 10-13)
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-9
+   Use debian/compat to determine debhelper compat level.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-10
+   Merged from mwolson@gnu.org--2006-planner-el (patch 0-4)
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-11
+   Merged from mwolson@gnu.org--2006-planner-el (patch 5-7)
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-12
+   Update NEWS and ChangeLog
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-13
+   Prepare new Debian package.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-14
+   Merged from mwolson@gnu.org--2006-planner-el (patch 8-11)

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-111
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr 21 11:23:13 EDT 2006
+Standard-date: 2006-04-21 15:23:13 GMT
+Modified-files: ChangeLog.2006 lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-111
+Summary: muse-mode: Make C-c C-e work better.
+Keywords: 
+
+* lisp/muse-mode.el (muse-edit-link-at-point): Save link data earlier so
+  that this is more robust.

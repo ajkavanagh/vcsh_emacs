@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-71
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug  5 22:32:41 EDT 2006
+Standard-date: 2006-08-06 02:32:41 GMT
+Modified-files: Makefile
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-71
+Summary: Minor Makefile tweaks.
+Keywords: 
+
+* Makefile: Abstract some mentions of Planner so that this can be more
+  easily re-used by other projects.

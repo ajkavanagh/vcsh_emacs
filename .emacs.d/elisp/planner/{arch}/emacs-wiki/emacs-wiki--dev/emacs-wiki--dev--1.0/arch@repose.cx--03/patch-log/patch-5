@@ -1,0 +1,22 @@
+Revision: emacs-wiki--dev--1.0--patch-5
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Mon Jun 23 01:17:33 EST 2003
+Standard-date: 2003-06-22 15:17:33 GMT
+Summary: support GNU style changelog entries in the changelog markup
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-5
+Removed-patches: 
+
+Thanks again to Gary Vaughan for his suite of patches. This modification to
+emacswiki-changelog-markup supports the GNU-style changelog markup:
+
+	* Filename (function): Explanatory text.

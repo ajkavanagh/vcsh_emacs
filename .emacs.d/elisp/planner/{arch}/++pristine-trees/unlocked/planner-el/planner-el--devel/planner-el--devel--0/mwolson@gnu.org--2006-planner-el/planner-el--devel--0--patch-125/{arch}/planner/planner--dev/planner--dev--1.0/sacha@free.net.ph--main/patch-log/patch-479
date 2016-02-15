@@ -1,0 +1,22 @@
+Revision: planner--dev--1.0--patch-479
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Aug 25 20:00:31 EDT 2005
+Standard-date: 2005-08-26 00:00:31 GMT
+Modified-files: planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-479
+Summary: planner-multi-task-date bugfix: Fix matching finally!
+Keywords: 
+
+* planner-multi.el (planner-multi-task-date): Merge Sergey Vlasov's
+  bugfix for lists with dates in them.
+
+* planner.el (planner-list-diary-entries): Change require to 'diary-lib.
+  Thanks to Sergey for pointing this out!
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

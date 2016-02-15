@@ -1,0 +1,14 @@
+Revision: planner-el--devel--0--patch-114
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr  3 13:03:20 EDT 2007
+Standard-date: 2007-04-03 17:03:20 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-114
+Summary: manual: Use John's on-line documentation
+Keywords: 
+
+2007-04-03  Michael Olson  <mwolson@gnu.org>
+
+	* planner-el.texi (Preface): Use John's on-line documentation for
+	Planner, rather than mine.

@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-313
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb  1 13:22:56 JST 2005
+Standard-date: 2005-02-01 04:22:56 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-313
+Summary: Bugfix: planner-expand-name
+Keywords: 
+
+	* planner.el (planner-expand-name): Bugfix; flipped "or" ignored offsets.

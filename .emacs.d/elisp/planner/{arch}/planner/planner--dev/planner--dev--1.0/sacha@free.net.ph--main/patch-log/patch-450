@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-450
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jul 13 12:26:47 PHT 2005
+Standard-date: 2005-07-13 04:26:47 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-450
+Summary: planner-current-note-info: Be stricter with note links
+Keywords: 
+
+* planner.el (planner-current-note-info): Be a lot stricter with note
+links to prevent (C-c a) from being recognized as a note link. Thanks to
+Xavier Maillard for reporting this bug.

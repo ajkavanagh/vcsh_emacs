@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-316
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Feb  3 00:12:33 JST 2005
+Standard-date: 2005-02-02 15:12:33 GMT
+Modified-files: ChangeLog planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-16
+    sacha@free.net.ph--main/planner--dev--1.0--patch-316
+Summary: planner-rank.el: Merge patch-16 bugfix from dryice
+Keywords: 
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-16
+   Fix bug coorperating with planner-deadline
+

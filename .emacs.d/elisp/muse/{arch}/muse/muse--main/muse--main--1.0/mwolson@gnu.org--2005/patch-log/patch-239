@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-239
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Sep 18 20:34:48 EST 2005
+Standard-date: 2005-09-19 01:34:48 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-239
+Summary: muse.texi: Use @example instead of @smallexample.
+Keywords: 
+
+* muse.texi: Replace @smallexample with @example.  It didn't do what I
+  thought it did, and the result looked worse.  Hence, the reversal.

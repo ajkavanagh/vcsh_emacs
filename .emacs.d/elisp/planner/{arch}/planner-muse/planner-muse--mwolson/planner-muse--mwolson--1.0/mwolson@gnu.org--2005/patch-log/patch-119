@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-119
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 30 22:28:39 EST 2005
+Standard-date: 2005-12-01 03:28:39 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-15
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-119
+Summary: Merged from jeho@jeho.org--2005 (patch 15)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-15
+   planner-publish: fix task publishing

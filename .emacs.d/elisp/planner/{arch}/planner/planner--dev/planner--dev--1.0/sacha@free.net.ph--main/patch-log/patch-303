@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-303
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jan 26 23:37:12 JST 2005
+Standard-date: 2005-01-26 14:37:12 GMT
+Modified-files: ChangeLog planner-mhe.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-303
+Summary: planner-mhe: Use message IDs
+Keywords: 
+
+	* planner-mhe.el (planner-mhe-get-message-id): New. Thanks to pll
+	for suggesting it and patiently testing various buggy
+	implementations.
+	(planner-mhe-annotation): Use message ID. Merge
+	planner-mhe-annotation-from-message and
+	planner-mhe-annotation-from-folder.
+	(planner-mhe-browse-url): Use message ID.

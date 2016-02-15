@@ -1,0 +1,35 @@
+Revision: planner--dev--1.0--patch-366
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr  5 09:43:34 PHT 2005
+Standard-date: 2005-04-05 01:43:34 GMT
+Modified-files: ChangeLog planner-appt.el planner-multi.el
+    planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-53
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-54
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-55
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-56
+    sacha@free.net.ph--main/planner--dev--1.0--patch-366
+Summary: Bugfix: planner-multi read-only prompt, planner-sort-tasks excursions, planner-appt advice
+Keywords: 
+
+* planner-multi.el (planner-multi-remprop): Remove cl dependency from
+  planner-multi patch from jeho.
+
+* planner.el (planner-sort-tasks): Merge patch from Angus Lees removing
+  unnecessary save-excursion.
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-53
+   merge latest, planner-appt advice fixes
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-54
+   merge latest 
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-55
+   merge latest patches
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-56
+   planner-multi minibuffer properties fix
+

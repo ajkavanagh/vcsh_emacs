@@ -1,0 +1,23 @@
+Revision: planner-el--devel--0--patch-116
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr  8 20:00:16 EDT 2007
+Standard-date: 2007-04-09 00:00:16 GMT
+Modified-files: ChangeLog README planner-accomplishments.el
+    planner-bbdb.el planner-cyclic.el planner-deadline.el
+    planner-diary.el planner-erc.el planner-export-diary.el
+    planner-gnats.el planner-id.el planner-lisp.el
+    planner-notes-index.el planner-report.el
+    planner-rmail.el planner-rss.el planner-schedule.el
+    planner-tasks-overview.el planner-timeclock.el
+    planner-vm.el planner-w3m.el planner-wl.el planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-116
+Summary: Remove plannerlove references
+Keywords: 
+
+2007-04-08  Michael Olson  <mwolson@gnu.org>
+
+	* planner*.el: Replace plannerlove website with maintainer's
+	website.  Closes #8847.
+
+	* README: Mention maintainer's Planner page.  Remove plannerlove.

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-218
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep  1 11:11:57 EST 2005
+Standard-date: 2005-09-01 16:11:57 GMT
+Modified-files: ChangeLog experimental/muse-xml.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-218
+Summary: muse-xml: Use a more standard sort of header.
+Keywords: 
+
+* experimental/muse-xml.el (muse-xml-header): Use <MUSE> instead of <page
+  type="muse">, as suggested by Brad Collins.

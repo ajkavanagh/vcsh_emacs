@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-182
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Aug 10 18:30:47 EDT 2006
+Standard-date: 2006-08-10 22:30:47 GMT
+Modified-files: lisp/muse-html.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-182
+Summary: Make centered captioned images work for XHTML.
+Keywords: 
+
+* lisp/muse-html.el (muse-html-markup-strings)
+  (muse-xhtml-markup-strings): Use a smarter method for table centering
+  that works with XHTML.

@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-103
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul  7 14:14:38 EST 2005
+Standard-date: 2005-07-07 19:14:38 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-103
+Summary: Hack on muse-blosxom timestamps somewhat.
+Keywords: 
+
+* lisp/muse-blosxom.el (muse-blosxom-markup-date-directive): Make this
+  actually do something useful.  This should have a different name,
+  really.
+  ("blosxom-html", "blosxom-xhtml"): Call
+  `muse-blosxom-markup-date-directive' after publishing each entry.
+

@@ -1,0 +1,27 @@
+Revision: muse--main--1.0--patch-257
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Dec 20 23:55:21 EST 2006
+Standard-date: 2006-12-21 04:55:21 GMT
+New-files: texi/.arch-ids/=id texi/.arch-ids/Makefile.id
+    texi/.arch-ids/doclicense.texi.id texi/Makefile
+    texi/doclicense.texi
+New-directories: texi texi/.arch-ids
+Renamed-files: .arch-ids/muse.texi.id texi/.arch-ids/muse.texi.id
+    muse.texi texi/muse.texi
+Modified-files: Makefile NEWS README texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-257
+Summary: Re-license manual to GFDL instead of GPL
+Keywords: 
+
+* README: Update for license change in the manual.  Improve "Getting
+  Started" example.
+
+* muse.texi: Move to `texi' directory.  Change license to the GFDL.  See
+  NEWS for rationale.  Remove GPL license section, since it seems to be
+  unnecessary.
+
+* texi/doclicense.texi: New file containing the text of the GFDL.
+
+* texi/Makefile: New file split from the top-level Makefile that handles
+  generation and installation of the manual.

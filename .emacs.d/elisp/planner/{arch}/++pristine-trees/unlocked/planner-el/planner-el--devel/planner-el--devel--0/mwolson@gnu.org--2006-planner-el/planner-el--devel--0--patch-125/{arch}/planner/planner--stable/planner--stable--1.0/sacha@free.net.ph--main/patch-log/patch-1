@@ -1,0 +1,24 @@
+Revision: planner--stable--1.0--patch-1
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 26 14:37:55 PHT 2004
+Standard-date: 2004-03-26 06:37:55 GMT
+Removed-files: .arch-ids/dblentry.el.id
+    .arch-ids/emacs-wiki-id.el.id
+    .arch-ids/emacs-wiki-table.el.id
+    .arch-ids/emacs-wiki.el.id
+    .arch-ids/remember-bbdb.el.id
+    .arch-ids/remember-bibl.el.id
+    .arch-ids/remember-diary.el.id
+    .arch-ids/remember-experimental.el.id
+    .arch-ids/remember-planner.el.id
+    .arch-ids/remember.el.id dblentry.el emacs-wiki-id.el
+    emacs-wiki-table.el emacs-wiki.el remember-bbdb.el
+    remember-bibl.el remember-diary.el
+    remember-experimental.el remember-planner.el remember.el
+    test/.arch-ids/emacs-wiki-test.el.id
+    test/emacs-wiki-test.el
+New-patches: sacha@free.net.ph--main/planner--stable--1.0--patch-1
+Summary: Remove unrelated files
+Keywords: 
+

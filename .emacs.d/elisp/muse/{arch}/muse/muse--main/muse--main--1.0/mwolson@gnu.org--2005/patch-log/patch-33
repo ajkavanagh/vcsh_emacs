@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-33
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 18 01:00:27 EST 2005
+Standard-date: 2005-05-18 06:00:27 GMT
+Modified-files: ChangeLog muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-33
+Summary: New feature: tag completion with C-c TAB.
+Keywords: 
+
+* muse-mode.el (muse-mode-map): Map C-c TAB to `muse-insert-tag'.
+  (muse-tag-history, muse-custom-tags): New variables that keep track of
+  the tag history and newly-entered tags respectively for
+  `muse-insert-tag'.
+  (muse-insert-tag): New function that interactively prompts the user for
+  a tag to use.

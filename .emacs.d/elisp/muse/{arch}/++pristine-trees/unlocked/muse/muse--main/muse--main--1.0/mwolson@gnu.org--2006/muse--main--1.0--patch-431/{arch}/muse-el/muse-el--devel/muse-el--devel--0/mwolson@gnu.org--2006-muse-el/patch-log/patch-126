@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-126
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan 14 13:55:32 EST 2007
+Standard-date: 2007-01-14 18:55:32 GMT
+Modified-files: AUTHORS ChangeLog texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-126
+    mwolson@gnu.org--2006/muse--main--1.0--patch-270
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 270)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-270
+   Manual: Mention muse-file-extension and loading .emacs issues

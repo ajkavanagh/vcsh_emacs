@@ -1,0 +1,19 @@
+Revision: planner-el--devel--0--patch-29
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr  9 15:31:05 EDT 2006
+Standard-date: 2006-04-09 19:31:05 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-29
+    mwolson@gnu.org--2006/planner--main--1.0--patch-32
+    mwolson@gnu.org--2006/planner--main--1.0--patch-33
+Summary: Merged from mwolson@gnu.org--2006 (patch 32-33)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-32
+   manual: Remove use of old Planner variables.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-33
+   manual: Fix errors introduced in last patch.

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-329
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Dec 29 18:02:18 EST 2005
+Standard-date: 2005-12-29 23:02:18 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-329
+Summary: muse-latex: Fix comment markup.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-markup-strings): Fix typo in
+  comment-end.  Thanks to Ken Brown for reporting this.

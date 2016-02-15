@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-296
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jan 14 09:37:42 JST 2005
+Standard-date: 2005-01-14 00:37:42 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-296
+Summary: New: planner-expand-name-default allows undated tasks
+Keywords: 
+
+	* planner.el (planner-expand-name-default): New option allows
+	people to make undated tasks easily. By default, keep the old
+	behavior of scheduling tasks onto today. Set this to "nil" to
+	create undated tasks.
+	(planner-expand-name): Allow "." (today) and honor
+	planner-expand-name-default.

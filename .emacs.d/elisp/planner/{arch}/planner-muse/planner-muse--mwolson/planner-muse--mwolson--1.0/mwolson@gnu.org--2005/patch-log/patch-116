@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-116
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Nov 26 22:31:54 EST 2005
+Standard-date: 2005-11-27 03:31:54 GMT
+Modified-files: ChangeLog planner-report.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-116
+Summary: planner-report: Implement suggestions from Seth Falcon.
+Keywords: 
+
+* planner-report.el (planner-report-generate): Add file extension to
+  report file.
+  (planner-report-pretty-print-plan-pages): New option that indicates
+  whether the plan page names in reports should be pretty-printed.
+  (planner-report-generate): Use the new option.

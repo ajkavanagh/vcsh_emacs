@@ -1,0 +1,10 @@
+Revision: planner--dev--1.0--patch-127
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 26 13:06:45 PHT 2004
+Standard-date: 2004-06-26 05:06:45 GMT
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-127
+Summary: planner-authz.el update from ajk
+Keywords: external
+
+	* planner-authz.el: Merge update from ajk removing cl dependency.

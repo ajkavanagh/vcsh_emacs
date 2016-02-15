@@ -1,0 +1,67 @@
+Revision: planner--jeho--1.0--patch-20
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Feb 23 19:54:28 GMT 2005
+Standard-date: 2005-02-23 19:54:28 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-20
+Summary: lots of changes
+Keywords: 
+
+2005-02-23  Jim Ottaway  <j.ottaway@lse.ac.uk>
+
+* planner-appt.el: 
+
+Added copyright and licence notice.
+
+Created friendlier configuration functions
+`planner-appt-use-tasks', `planner-appt-use-schedule', and
+`planner-appt-use-tasks-and-schedule'. Modified documentation as
+appropriate.
+
+(planner-appt-earlier-than-now-p): Renamed
+`planner-appt-time-old-p' to the more informative
+`planner-appt-earlier-than-now-p'.
+
+Added `planner-appt-later-than-now-p' to satisfy a mania for
+symmetry.
+
+(planner-appt-schedule-appt-regexp): Modified so that it captures
+the second time in a schedule entry: it could be useful for some
+other schedule handling code.
+
+(planner-appt-use): Made this  idempotent, substituting `add-to-list'
+ for `push'.
+
+(planner-appt-task-add, planner-appt-task-delete): Added check
+that there is a current task.  Without this there was an
+uninformative error message. Added optional argument INFO: use
+that instead of the current task info [useful to save visiting
+today's plan page to add appointments [see advice to
+`planner-copy-or-move-task']].
+
+(planner-appt-task-delete): Return a list of deleted appointments
+in the format used in `appt-time-msg-list' [can be useful in some
+cases]. 
+
+(planner-appt-task-member): Renamed `planner-appt-task-added-p' to
+this to hint that it behaves like `member'.
+
+
+(plan): Added advise to this so that the advice to
+planner-copy-or-move-task can know whether `plan' is being
+called; protected against error.  I hate function advice!
+
+(planner-copy-or-move-task): Modified advice a lot to make it
+delete and add appointments correctly, and also to handle errors
+within the advised function.  This seems to be the only advice
+that requires such elaborate handling: in the others any problems
+are trapped by the test for a current task line added to
+`planner-appt-task-delete'.
+
+Added handling for when `plan' has been called: don't carry a task
+forward if it is an appointment.
+
+(planner-schedule-task-estimate): Moved the require into this
+function to save loading if tasks are not being used.
+ 

@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-342
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 11 21:56:46 EDT 2007
+Standard-date: 2007-06-12 01:56:46 GMT
+Modified-files: ChangeLog lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-342
+Summary: Make add-to-list 'auto-mode-alist part an autoload line
+Keywords: 
+
+2007-06-11  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse.el: Make the add-to-list 'auto-mode-alist part an
+	autoload, rather than having it exist at top-level.  Thanks to Leo
+	for the suggestion.
+	(muse-update-file-extension): Docfix.

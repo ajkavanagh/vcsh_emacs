@@ -1,0 +1,13 @@
+Revision: emacs-wiki--sacha--1.0--patch-130
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 19 14:56:16 PHT 2004
+Standard-date: 2004-03-19 06:56:16 GMT
+Modified-files: planner-experimental.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-130
+Summary: Save restriction for planner-update-note
+Keywords: 
+
+	* planner-experimental.el (planner-update-note): Save restriction.
+        Thanks to Jody Klymak for pointing this out.
+

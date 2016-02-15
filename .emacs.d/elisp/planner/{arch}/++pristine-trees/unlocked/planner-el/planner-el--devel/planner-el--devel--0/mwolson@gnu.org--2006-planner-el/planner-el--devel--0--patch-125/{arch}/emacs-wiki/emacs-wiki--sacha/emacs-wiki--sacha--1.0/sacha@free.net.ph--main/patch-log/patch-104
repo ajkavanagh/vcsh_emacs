@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-104
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Mar 15 00:08:37 PHT 2004
+Standard-date: 2004-03-14 16:08:37 GMT
+New-files: .arch-ids/planner-lisp.el.id planner-lisp.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-104
+Summary: Add planner-lisp.el for interactive Emacs Lisp functions
+Keywords: 
+
+	* planner-lisp.el: New.
+

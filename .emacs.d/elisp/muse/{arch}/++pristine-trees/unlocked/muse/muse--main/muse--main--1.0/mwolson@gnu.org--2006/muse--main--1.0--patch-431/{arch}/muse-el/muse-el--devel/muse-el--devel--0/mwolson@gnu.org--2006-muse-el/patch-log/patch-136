@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-136
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Mar 31 19:22:11 EDT 2007
+Standard-date: 2007-03-31 23:22:11 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-136
+    mwolson@gnu.org--2006/muse--main--1.0--patch-283
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 283)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-283
+   Fix muse-style-derived-p edge case

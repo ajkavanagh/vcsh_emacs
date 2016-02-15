@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-7
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan 25 13:27:53 EST 2006
+Standard-date: 2006-01-25 18:27:53 GMT
+Modified-files: lisp/muse-registry.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-7
+Summary: muse-registry: update from author.
+Keywords: 
+
+* lisp/muse-registry.el: Update to newest version from author.
+  Re-tabify.

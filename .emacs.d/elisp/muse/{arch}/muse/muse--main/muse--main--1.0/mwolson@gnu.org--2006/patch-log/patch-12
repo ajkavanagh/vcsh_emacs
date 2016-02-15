@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-12
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Feb 12 17:56:27 EST 2006
+Standard-date: 2006-02-12 22:56:27 GMT
+New-files: .arch-ids/ChangeLog.2006.id ChangeLog.2006
+Renamed-files: .arch-ids/ChangeLog.id .arch-ids/ChangeLog.2005.id
+    ChangeLog ChangeLog.2005
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-12
+Summary: Add ChangeLog for 2006 and move previous ChangeLog for 2005.
+Keywords: 
+

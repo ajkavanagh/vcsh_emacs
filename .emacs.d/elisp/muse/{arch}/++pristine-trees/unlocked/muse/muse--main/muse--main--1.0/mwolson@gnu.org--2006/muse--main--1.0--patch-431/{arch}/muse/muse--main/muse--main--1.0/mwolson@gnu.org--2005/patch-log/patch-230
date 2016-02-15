@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-230
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Sep  9 10:12:05 EST 2005
+Standard-date: 2005-09-09 15:12:05 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-230
+Summary: Hack on documentation.  The release is in sight!
+Keywords: 
+
+* muse.texi: Use @subsubheading for all logical split headers rather than
+  @emph.  Move all examples against left margin.  Add comments to
+  indicate what still needs to be done.
+  (DocBook): Correct a few misspelled variable names and add some new
+  variables.
+  (Common Elements): Split this into 4 new subsections.

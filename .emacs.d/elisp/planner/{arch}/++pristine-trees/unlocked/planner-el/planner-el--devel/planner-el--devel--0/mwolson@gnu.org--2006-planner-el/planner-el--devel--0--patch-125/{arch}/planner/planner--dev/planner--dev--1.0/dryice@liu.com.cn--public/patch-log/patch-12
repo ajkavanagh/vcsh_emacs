@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-12
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Mon Jan 31 12:03:01 CST 2005
+Standard-date: 2005-01-31 04:03:01 GMT
+Modified-files: ChangeLog planner-deadline.el
+    planner-el.texi planner-multi.el planner-rank.el
+    planner-rdf.el planner-rdf.owl planner-tasks-overview.el
+    planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-12
+    sacha@free.net.ph--main/planner--dev--1.0--patch-305
+    sacha@free.net.ph--main/planner--dev--1.0--patch-306
+    sacha@free.net.ph--main/planner--dev--1.0--patch-307
+Removed-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-4
+Summary: merge from Sacha's main tree
+Keywords: merge
+
+She took my changes into the main stream and made many corrections.

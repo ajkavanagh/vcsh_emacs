@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-5
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun May 22 01:02:41 EST 2005
+Standard-date: 2005-05-22 06:02:41 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-5
+Summary: Make generated lists publish correctly.
+Keywords: 
+
+* planner.el (planner-notes-tag, planner-markup-task): Print space before
+  the dash when composing a list entry.

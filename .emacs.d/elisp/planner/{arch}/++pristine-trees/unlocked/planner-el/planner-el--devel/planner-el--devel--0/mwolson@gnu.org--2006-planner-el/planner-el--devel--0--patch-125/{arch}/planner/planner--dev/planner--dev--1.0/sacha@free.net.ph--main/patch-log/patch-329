@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-329
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb 16 23:56:25 JST 2005
+Standard-date: 2005-02-16 14:56:25 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-329
+Summary: planner-multi-read-name: Check if str is null
+Keywords: 
+
+* planner-multi.el (planner-multi-read-name): Check if str is null to
+  distinguish default case properly. (string= nil "nil"), apparently.
+  Thanks to Jim Ottaway for the patch.

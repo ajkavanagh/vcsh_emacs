@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-413
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 16 12:51:37 PHT 2005
+Standard-date: 2005-06-16 04:51:37 GMT
+Modified-files: ChangeLog planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-413
+Summary: Bugfix: planner-current-note-info should work with notes with parens
+Keywords: 
+
+* planner.el (planner-current-note-info): Bugfix: Work with notes with parens in titles.
+* planner-multi.el (planner-update-note): Go to the right file.

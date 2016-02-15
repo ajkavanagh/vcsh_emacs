@@ -1,0 +1,63 @@
+Revision: planner--jeho--1.1--patch-41
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Jan 15 11:38:27 GMT 2006
+Standard-date: 2006-01-15 11:38:27 GMT
+Modified-files: AUTHORS ChangeLog.2005 planner-appt.el
+    planner-authz.el planner-bbdb.el planner-bibtex.el
+    planner-calendar.el planner-deadline.el planner-diary.el
+    planner-el.texi planner-export-diary.el planner-gnus.el
+    planner-id.el planner-ledger.el planner-log-edit.el
+    planner-mhe.el planner-multi.el planner-notes-index.el
+    planner-psvn.el planner-publish.el planner-rank.el
+    planner-rdf.el planner-report.el planner-rmail.el
+    planner-rss.el planner-schedule.el
+    planner-tasks-overview.el
+    planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-unix-mail.el planner-vm.el
+    planner-w3m.el planner-wl.el planner-xtla.el planner.el
+    planner2diary.py {arch}/=tagging-method
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-41
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-175
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-176
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-177
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-178
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-179
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-180
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-16
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-17
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-18
+Summary: Merged from mwolson@gnu.org--2005 (patch 175-180), saint@corenova.com--public-2005 (patch 16-18)
+Keywords: merge
+
+* planner-appt.el (planner-appt-insinuate): add appt system initialization
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-175
+   Merged from saint@corenova.com--public-2005 (patch 16-18)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-176
+   Merged from jeho@jeho.org--2005 (patch 35-40)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-177
+   Progress: planner-rmail.el
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-178
+   Progress: planner.el (2005)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-179
+   Finish copyright notices and AUTHORS file.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-180
+   planner-gnus: Make browsing Gnus URLs work with Emacs21, hopefully.
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-16
+   Merged from ajk@iu.edu--2005 (patch 3-14), jeho@jeho.org--2005 (patch 16-34), john@wjsullivan.net--2005 (patch 2-6), mwolson@gnu.org--2005 (patch 123-173)
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-17
+   (planner-publish.el) properly derives "xml" to form "planner-xml" style!
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-18
+   Merged from mwolson@gnu.org--2005 (patch 174)

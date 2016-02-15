@@ -1,0 +1,41 @@
+Revision: planner-muse--main--1.0--patch-12
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Wed Dec 14 10:45:01 EST 2005
+Standard-date: 2005-12-14 15:45:01 GMT
+Modified-files: ChangeLog debian/changelog planner-authz.el
+    planner-psvn.el planner-publish.el
+    planner-timeclock-summary-proj.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-12
+Summary: catch up with mwolson's patch-128
+Keywords: 
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-96
+   Make new Debian snapshot.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-97
+   Add contrib directory and XEmacs-friendly version of timeclock.el.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+   This version of timeclock.el is only to be used with XEmacs.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-123
+   Merged from ajk@iu.edu--2005 (patch 3-9)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-124
+   planner-psvn: Apply patch from Seth Falcon.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-125
+   planner-authz: Fix an issue with the Muse 3.02.02 release.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-126
+   planner-publish: Fix void-function error when compiling.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-127
+   planner-publish: Make planner-insert-markup a function.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-128
+   planner-timeclock-summary-proj: Make it work with muse-file-extension.
+

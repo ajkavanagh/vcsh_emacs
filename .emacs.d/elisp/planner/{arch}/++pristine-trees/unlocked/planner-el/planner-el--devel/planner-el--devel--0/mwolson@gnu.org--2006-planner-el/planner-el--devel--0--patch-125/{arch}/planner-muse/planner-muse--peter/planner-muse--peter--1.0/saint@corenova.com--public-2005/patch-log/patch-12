@@ -1,0 +1,143 @@
+Revision: planner-muse--peter--1.0--patch-12
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Fri Sep  2 13:31:53 PDT 2005
+Standard-date: 2005-09-02 20:31:53 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-appt.el planner-authz.el planner-cyclic.el
+    planner-deadline.el planner-el.texi planner-multi.el
+    planner-notes-index.el planner-publish.el
+    planner-timeclock-summary.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-42
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-43
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-14
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-15
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-16
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-17
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-18
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-55
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-56
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-57
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-58
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-59
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-60
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-61
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-62
+    sacha@free.net.ph--main/planner--dev--1.0--patch-469
+    sacha@free.net.ph--main/planner--dev--1.0--patch-470
+    sacha@free.net.ph--main/planner--dev--1.0--patch-471
+    sacha@free.net.ph--main/planner--dev--1.0--patch-472
+    sacha@free.net.ph--main/planner--dev--1.0--patch-473
+    sacha@free.net.ph--main/planner--dev--1.0--patch-474
+    sacha@free.net.ph--main/planner--dev--1.0--patch-475
+    sacha@free.net.ph--main/planner--dev--1.0--patch-476
+    sacha@free.net.ph--main/planner--dev--1.0--patch-477
+    sacha@free.net.ph--main/planner--dev--1.0--patch-478
+    sacha@free.net.ph--main/planner--dev--1.0--patch-479
+    sacha@free.net.ph--main/planner--dev--1.0--patch-480
+    sacha@free.net.ph--main/planner--dev--1.0--patch-481
+    sacha@free.net.ph--main/planner--dev--1.0--patch-482
+    sacha@free.net.ph--main/planner--dev--1.0--patch-483
+    sacha@free.net.ph--main/planner--dev--1.0--patch-484
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-12
+Summary: Merged from hodique@lifl.fr--2005 (patch 42-43), john@wjsullivan.net--2005 (patch 14-19), mwolson@gnu.org--2005 (patch 55-62), sacha@free.net.ph--main (patch 469-484)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-42
+   Merged from mwolson@gnu.org--2005 (patch 34-56), sacha@free.net.ph--main (patch 452-470), saint@corenova.com--public-2005 (patch 0-10)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-43
+   Merged from john@wjsullivan.net--2005 (patch 14-19), sacha@free.net.ph--main (patch 471-474)
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-14
+   Catch up with Sacha. Fix typ-o.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-15
+   Catch up with Sacha.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-16
+   Change name of node and menu item from Changing Tasks to Modifying tasks, since Changing Tasks has other meanings in the context of workflow and timeclock. Add some helpful related index entries.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-17
+   Corrected installation instructions for registering and pulling from the tla emacs-wiki archive. We were still saying 2004, should be 2005.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-18
+   Fixed pxref in <tasks> node. Fleshed out and added cindex entries around it.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+   Get the mwolson archive address right, for real.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-55
+   Merged from saint@corenova.com--public-2005 (patch 10)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-56
+   Merged from sacha@free.net.ph--main (patch 469-470)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-57
+   Merged from hodique@lifl.fr--2005 (patch 42-43), john@wjsullivan.net--2005 (patch 14-19), sacha@free.net.ph--main (patch 471-474)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-58
+   Merged from sacha@free.net.ph--main (patch 475-480)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-59
+   Merged from sacha@free.net.ph--main (patch 481-484)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-60
+   Allow Planner to visit links to temporary files.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-61
+   Use a more standard root element.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-62
+   Begin list items with " - " instead of "- ".
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-469
+   planner-deadline bugfix: Avoid infinite loops by calculating deadlines as we insert them
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-470
+   Bugfix: planner-save-buffers: Check if buffer is associated with a file
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-471
+   Bugfix: with-planner: Defer evaluation of planner-derived-mode-p
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-472
+   Bugfix: with-planner-update-setup: Save current window point as well
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-473
+   Catch up with john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-474
+   Bugfix: planner-appt-mark-calendar shouldn't call planner-appt-filename-to-date
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-475
+   Merge planner-cyclic and planner-multi bugfixes from Sergey Vlasov
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-476
+   planner.el: Remove exit-calendar compile advice, and uncollapse outline
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-477
+   planner-multi-task-date bugfix: Be careful about links
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-478
+   Bugfix: planner-task-info-from-string: Make sure link is non-nil before string-matching
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-479
+   planner-multi-task-date bugfix: Fix matching finally!
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-480
+   Bugfix: planner-extract-tasks should use planner-line-beginning-position
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-481
+   Bugfix: planner-timeclock-summary-day-range-entry: Accept functions again
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-482
+   Bugfix: planner-multi-task-xref: Use planner-replan-task
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-483
+   Bugfix: planner-multi-replan-task should suggest only plan pages
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-484
+   Bugfix: planner-delete-task and planner-edit-task-description-basic when linked tasks do not exist

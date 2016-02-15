@@ -1,0 +1,10 @@
+Revision: muse--main--1.0--patch-297
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Dec 15 18:09:32 EST 2005
+Standard-date: 2005-12-15 23:09:32 GMT
+Modified-files: ChangeLog lisp/muse-protocols.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-297
+Summary: Change mode of muse-protocols to 644.
+Keywords: 
+

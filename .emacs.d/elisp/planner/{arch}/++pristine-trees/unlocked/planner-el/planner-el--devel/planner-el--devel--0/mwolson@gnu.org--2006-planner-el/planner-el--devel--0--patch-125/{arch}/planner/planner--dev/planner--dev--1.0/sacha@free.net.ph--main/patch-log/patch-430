@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-430
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jun 27 20:14:44 PHT 2005
+Standard-date: 2005-06-27 12:14:44 GMT
+Modified-files: ChangeLog planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-430
+Summary: planner-update-task: Remove need for advice, planner-multi-replan-task: Accept list as argument
+Keywords: 
+
+* planner.el (planner-update-task-basic): Rename old planner-update-task
+  to remove the need for advice.
+  (planner-update-task): Alias to planner-update-task-basic.
+
+* planner-multi.el (planner-multi-replan-task): Accept lists.
+  (planner-multi-update-task): Remove need for advice.
+  (planner-update-task): Alias to planner-multi-update-task.
+  (planner-multi-read-name): Use planner-make-link.
+  (planner-multi-remove-task-from-pool): Take advantage
+  of lists as argument for planner-multi-replan-task.

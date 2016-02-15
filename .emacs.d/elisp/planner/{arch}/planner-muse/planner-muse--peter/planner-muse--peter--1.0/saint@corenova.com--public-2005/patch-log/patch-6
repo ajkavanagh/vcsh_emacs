@@ -1,0 +1,21 @@
+Revision: planner-muse--peter--1.0--patch-6
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Mon Aug  8 11:36:22 PDT 2005
+Standard-date: 2005-08-08 18:36:22 GMT
+Modified-files: ChangeLog.mwolson planner-notes-index.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-43
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-44
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-45
+    sacha@free.net.ph--main/planner--dev--1.0--patch-465
+    sacha@free.net.ph--main/planner--dev--1.0--patch-466
+    sacha@free.net.ph--main/planner--dev--1.0--patch-467
+    sacha@free.net.ph--main/planner--dev--1.0--patch-468
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-6
+Summary: Merged from planner-muse--mwolson--1.0 (patch 43-45)
+Keywords: 
+
+
+

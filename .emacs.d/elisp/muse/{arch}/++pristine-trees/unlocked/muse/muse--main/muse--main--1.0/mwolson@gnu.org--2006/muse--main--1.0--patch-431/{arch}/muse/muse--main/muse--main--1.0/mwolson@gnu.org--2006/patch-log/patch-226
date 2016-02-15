@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-226
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 28 18:04:18 EDT 2006
+Standard-date: 2006-10-28 22:04:18 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-226
+Summary: Fix all known definition list publishing issues
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-text): If we are asked to
+  determine the amount of indentation, concatenate indent and post-indent
+  the first time around.  This effectively fixes all known definition
+  list issues.

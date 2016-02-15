@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-248
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Dec 21 22:24:42 JST 2004
+Standard-date: 2004-12-21 13:24:42 GMT
+New-files: .arch-ids/planner-timeclock-summary-proj.el.id
+    planner-timeclock-summary-proj.el
+Modified-files: ChangeLog planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-248
+Summary: New: planner-timeclock-summary-proj.el
+Keywords: 
+
+	* planner-timeclock-summary-proj.el: New from Pascal Quesseveur.
+	Add copyright notice. Make it pass checkdoc and byte-compile.
+
+	* planner.texi (Timeclock): Add sample for
+	planner-timeclock-summary. Document
+	planner-timeclock-summary-proj.
+	

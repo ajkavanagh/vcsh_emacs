@@ -1,0 +1,16 @@
+Revision: emacs-wiki--sacha--1.0--patch-52
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Feb 29 22:44:33 PHT 2004
+Standard-date: 2004-02-29 14:44:33 GMT
+Modified-files: planner-gnus.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-52
+Summary: Added compatibility functions for older versions of emacs-wiki.el.
+Keywords: 
+
+	* planner.el (fboundp): Added compatibility functions
+	planner-link-escape, planner-link-unescape, planner-make-link, and
+	advice around emacs-wiki-wiki-link-target.
+
+	* planner-gnus.el (planner-gnus-annotation-from-summary): Used compatibility functions.
+	(planner-gnus-annotation-from-message): Used compatibility functions.

@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-234
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Dec 15 22:35:01 JST 2004
+Standard-date: 2004-12-15 13:35:01 GMT
+Modified-files: ChangeLog planner-timeclock-summary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-234
+Summary: New: planner-timeclock-summary-show-range
+Keywords: external feature
+
+	* planner-timeclock-summary.el: Merge patch from Chris Parsons
+	allowing date ranges when summarizing data. Many functions now
+	have range arguments.
+	(planner-timeclock-summary-show-range): New user function.

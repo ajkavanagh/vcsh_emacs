@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-369
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 16 19:29:11 EDT 2007
+Standard-date: 2007-06-16 23:29:11 GMT
+Modified-files: texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-369
+Summary: Manual: Complete Options for Projects, on to new features
+Keywords: 
+
+* texi/muse.texi (Options for Projects): Finish documenting this.  The
+  only thing left is to briefly go through the rest of the manual and
+  catch up on new features.

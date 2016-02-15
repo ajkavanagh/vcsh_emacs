@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-29
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 15 01:23:11 PHT 2004
+Standard-date: 2004-04-14 17:23:11 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-29
+Summary: Bugfix: Save restriction in planner-copy-or-move-task
+Keywords: 
+
+	* planner.el (planner-copy-or-move-task): Save restriction now
+	that we do fancy things in planner-copy-or-move-region. This
+	fixes the problem of interactively calling
+	planner-copy-or-move-region with a marked region.
+

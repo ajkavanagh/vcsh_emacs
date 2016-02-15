@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-128
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec 13 18:58:41 EST 2005
+Standard-date: 2005-12-13 23:58:41 GMT
+Modified-files: ChangeLog planner-timeclock-summary-proj.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-128
+Summary: planner-timeclock-summary-proj: Make it work with muse-file-extension.
+Keywords: 
+
+* planner-timeclock-summary-proj.el
+  (planner-timeclock-summary-proj-current): Use planner-page-name so that
+  this works with muse-file-extension enabled.  Thanks to Pascal
+  Quesseveur for the report.

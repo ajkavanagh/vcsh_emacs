@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-278
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan  3 19:41:44 JST 2005
+Standard-date: 2005-01-03 10:41:44 GMT
+Modified-files: ChangeLog planner-id.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-278
+Summary: Minor tweaks to planner-id-add-task-id, planner-create-task
+Keywords: 
+
+	* planner-id.el (planner-id-add-task-id): Use convenience function.
+
+	* planner.el (planner-create-task): Add space before annotation.

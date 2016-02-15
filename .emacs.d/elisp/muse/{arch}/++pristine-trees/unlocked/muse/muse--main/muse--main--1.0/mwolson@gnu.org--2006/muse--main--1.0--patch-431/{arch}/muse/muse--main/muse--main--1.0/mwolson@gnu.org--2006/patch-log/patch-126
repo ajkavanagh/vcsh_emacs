@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-126
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue May 16 11:53:56 EDT 2006
+Standard-date: 2006-05-16 15:53:56 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-126
+Summary: Fix emdash in link description bug.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-emdash): Don't markup emdash
+  if we are in a link, since otherwise it will be incorrectly escaped.
+  Thanks to Chiyuan Zhang for the report.

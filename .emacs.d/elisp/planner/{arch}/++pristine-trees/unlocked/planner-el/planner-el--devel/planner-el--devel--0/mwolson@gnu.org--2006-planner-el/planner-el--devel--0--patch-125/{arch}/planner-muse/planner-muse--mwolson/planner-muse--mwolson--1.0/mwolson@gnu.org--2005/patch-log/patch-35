@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-35
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 20 10:46:12 EST 2005
+Standard-date: 2005-07-20 15:46:12 GMT
+Modified-files: ChangeLog.mwolson planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-35
+Summary: Highlight links in note headings.
+Keywords: 
+
+* planner.el (planner-highlight-notes): Don't apply
+  planner-note-headline-face to parentheses and link.  Thanks to Chris
+  McMahan for the report.

@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-21
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Feb 23 21:26:43 GMT 2005
+Standard-date: 2005-02-23 21:26:43 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-21
+Summary: rudimentary schoolboy error in planner-copy-or-move-task advice
+Keywords: 
+
+* planner-appt.el (planner-copy-or-move-task): fixed silly error checking
+  for an appointment in the task
+

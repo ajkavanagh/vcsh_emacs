@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-267
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec 27 14:27:14 JST 2004
+Standard-date: 2004-12-27 05:27:14 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-267
+Summary: Bugfix: planner-align-tasks CVSism
+Keywords: 
+
+	* planner.el (planner-align-tasks): Ugly hack to get around the fact
+	that ?\s is a CVSism. Thanks to Dryice Liu for reporting this

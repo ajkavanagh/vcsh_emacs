@@ -1,0 +1,38 @@
+Revision: planner-dev--john--1.0--patch-1
+Archive: johnsu01@yahoo.com--2004-john
+Creator: John Sullivan <johnsu01@yahoo.com>
+Date: Sun May  2 20:51:06 EDT 2004
+Standard-date: 2004-05-03 00:51:06 GMT
+Modified-files: planner.texi
+New-patches: johnsu01@yahoo.com--2004-john/planner-dev--john--1.0--patch-1
+Summary: Created branch to Sacha's planner-dev, revised planner.texi.
+Keywords: 
+
+Added external refs for Emacs manual: Gnus, Calendar/Diary,
+Holidays, Appointments, Time Intervals.
+
+Fixed Rmail references.
+
+Minor cosmetic and typo fixes along the way.
+
+Added information about manually creating tasks without dates and/or
+project pages to "Working With Tasks".
+
+Added "Customizing Your Day Pages" section with @xref's to other
+sections.
+
+Added info about images to "Using emacs-wiki.el".
+
+Added info about listing unfinished tasks to "Working With Tasks".
+
+Added section "Introducing Annotation Functions" based on an email to
+emacs-wiki-discuss by Yvonne Thompson.
+
+Added info about the Gmane gateway for the mailing list, and the Orkut
+community to the "Getting Help" section.
+
+
+
+
+
+

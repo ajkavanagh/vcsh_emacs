@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-177
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan 12 11:32:51 EST 2006
+Standard-date: 2006-01-12 16:32:51 GMT
+Modified-files: AUTHORS planner-el.texi planner-multi.el
+    planner-notes-index.el planner-psvn.el
+    planner-publish.el planner-rank.el planner-rdf.el
+    planner-report.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-177
+Summary: Progress: planner-rmail.el
+Keywords: 
+

@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-421
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 29 13:03:12 EDT 2007
+Standard-date: 2007-07-29 17:03:12 GMT
+Modified-files: ChangeLog lisp/muse-context.el
+    lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-421
+Summary: Merged from mwolson@gnu.org--2006-muse-el/muse-el--devel--0 (patch 170)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-170
+   Fixed the "rule" command in latex and context styles; defined verse
+   mechanism and fixed problems with muse-context-markup-specials-literal
+   in context

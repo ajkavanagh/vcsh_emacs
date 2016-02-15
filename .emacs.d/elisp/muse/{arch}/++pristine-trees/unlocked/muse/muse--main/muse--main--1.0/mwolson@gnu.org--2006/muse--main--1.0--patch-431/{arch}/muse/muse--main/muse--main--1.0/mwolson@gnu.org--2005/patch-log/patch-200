@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-200
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 13 00:05:41 EST 2005
+Standard-date: 2005-08-13 05:05:41 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-200
+Summary: muse-mode: Minor regexp tweak.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode): Use \\s- instead of [[:blank:]].

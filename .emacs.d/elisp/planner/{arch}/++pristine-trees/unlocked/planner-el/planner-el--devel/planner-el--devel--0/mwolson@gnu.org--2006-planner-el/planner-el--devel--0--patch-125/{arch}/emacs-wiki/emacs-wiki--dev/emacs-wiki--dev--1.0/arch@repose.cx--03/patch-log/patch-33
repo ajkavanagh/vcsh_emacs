@@ -1,0 +1,11 @@
+Revision: emacs-wiki--dev--1.0--patch-33
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Nov 25 12:55:34 EST 2003
+Standard-date: 2003-11-25 01:55:34 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-33
+Summary: johnw: don't add <br> in list-closing
+
+johnw: don't add <br> in list-closing
+

@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-32
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 15 21:20:14 PHT 2004
+Standard-date: 2004-04-15 13:20:14 GMT
+Modified-files: planner-gnus.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-32
+Summary: Bugfix: planner-list-daily-files and other buffers, planner-gnus and URLs
+Keywords: 
+
+	* planner-gnus.el (planner-gnus-browse-url): Make sure
+	planner-gnus always handles gnus: URLs.
+
+	* planner.el (planner-list-daily-files): Make sure the page has a
+	name.
+

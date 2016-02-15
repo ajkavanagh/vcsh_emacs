@@ -1,0 +1,25 @@
+Revision: muse-el--devel--0--patch-10
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Mar  2 00:01:42 EST 2006
+Standard-date: 2006-03-02 05:01:42 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+    muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-10
+    mwolson@gnu.org--2006/muse--main--1.0--patch-36
+    mwolson@gnu.org--2006/muse--main--1.0--patch-37
+    mwolson@gnu.org--2006/muse--main--1.0--patch-38
+Summary: Merged from mwolson@gnu.org--2006 (patch 36-38)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-36
+   Fix #5325: nested formatting not working in HTML output.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-37
+   Fix #5376: Changing muse-wiki-wikiword-regexp does not seem to affect
+   anything.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-38
+   Fix problem when previous list item was nested.

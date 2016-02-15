@@ -1,0 +1,20 @@
+Revision: planner-muse--mwolson--1.0--patch-43
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Aug  5 08:00:52 EST 2005
+Standard-date: 2005-08-05 13:00:52 GMT
+Modified-files: ChangeLog.mwolson planner-notes-index.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-43
+    sacha@free.net.ph--main/planner--dev--1.0--patch-465
+    sacha@free.net.ph--main/planner--dev--1.0--patch-466
+Summary: Merged from sacha@free.net.ph--main (patch 465-466)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-465
+   planner-notes-index: Fix to work with files in subdirectories
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-466
+   NOTE: planner-create-section-function, planner-create-at-top, planner-create-at-bottom: RENAMED FROM planner-seek-

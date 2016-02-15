@@ -1,0 +1,25 @@
+Revision: emacs-wiki--dev--1.0--patch-27
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Mon Aug 11 23:26:35 EST 2003
+Standard-date: 2003-08-11 13:26:35 GMT
+Summary: don't allow a leading - in bare email
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-27
+Removed-patches: 
+
+The earlier change which prevents bare email from being marked up if
+it has a trailing - unfortunately broke email addresses with a - in
+the middle. By disallowing a '-' at the start, too, this should fix
+the problem.
+
+Note that you can still mark up email addresses with a leading or
+trailing '-' by simply prefixing mailto:

@@ -1,0 +1,12 @@
+Revision: planner--main--1.0--patch-40
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr 26 15:59:37 EDT 2006
+Standard-date: 2006-04-26 19:59:37 GMT
+Modified-files: planner-calendar.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-40
+Summary: planner-calendar: Default to today if not publishing a day page.
+Keywords: 
+
+* planner-calendar.el (planner-calendar-from-wiki): Default to current
+  day if we're not publishing a day page.

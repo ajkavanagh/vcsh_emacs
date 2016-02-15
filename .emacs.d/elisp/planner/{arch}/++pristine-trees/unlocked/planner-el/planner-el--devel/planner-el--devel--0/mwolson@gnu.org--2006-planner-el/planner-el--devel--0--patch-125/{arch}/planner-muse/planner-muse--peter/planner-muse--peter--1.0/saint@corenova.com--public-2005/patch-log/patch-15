@@ -1,0 +1,324 @@
+Revision: planner-muse--peter--1.0--patch-15
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Tue Dec  6 13:26:27 PST 2005
+Standard-date: 2005-12-06 21:26:27 GMT
+New-files: contrib/.arch-ids/=id
+    contrib/.arch-ids/timeclock.el.id contrib/timeclock.el
+New-directories: contrib contrib/.arch-ids
+Removed-files: .arch-ids/ChangeLog.sacha.id
+    .arch-ids/ChangeLog.yh.id ChangeLog.sacha ChangeLog.yh
+Renamed-files: .arch-ids/ChangeLog.mwolson.id .arch-ids/ChangeLog.id
+    ChangeLog.mwolson ChangeLog
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    debian/emacsen-install debian/rules
+    planner-accomplishments.el planner-appt.el
+    planner-authz.el planner-bibtex.el planner-cyclic.el
+    planner-deadline.el planner-diary.el
+    planner-export-diary.el planner-id.el planner-multi.el
+    planner-notes-index.el planner-publish.el
+    planner-report.el planner-tasks-overview.el
+    planner-timeclock-summary-proj.el planner-timeclock.el
+    planner-trunk.el planner.el test/planner-cyclic-test.el
+    test/planner-test.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--base-0
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-1
+    ajk@iu.edu--2005/planner-muse--main--1.0--patch-2
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-40
+    jeho@jeho.org--2005/planner--jeho--1.1--base-0
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-1
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-2
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-3
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-4
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-5
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-6
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-7
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-8
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-9
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-10
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-11
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-12
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-13
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-14
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-15
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--base-0
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-1
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-10
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-11
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-12
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-13
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-14
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-15
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-16
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-78
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-79
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-80
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-81
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-82
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-83
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-84
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-85
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-86
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-87
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-88
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-89
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-90
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-91
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-92
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-93
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-94
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-95
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-96
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-97
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-99
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-100
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-101
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-102
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-103
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-104
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-105
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-106
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-107
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-108
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-109
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-110
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-111
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-112
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-113
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-114
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-115
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-116
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-117
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-118
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-119
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-120
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-121
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-122
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-15
+Summary: Merged from ajk@iu.edu--2005 (patch 0-2), dryice@liu.com.cn--public (patch 40), jeho@jeho.org--2005 (patch 0-15), john@wjsullivan.net--2005 (patch 0-1), mwolson@gnu.org--2005 (patch 10-16, 78-122)
+Keywords: merge
+
+Patches applied:
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--base-0
+   tag of mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-95
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-1
+   Muse port and related improvements
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-2
+   catch up with mwolson patch-118
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-40
+   New file: planner-pyblosxom.el, init (incomplete) version
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--base-0
+   tag of mwolson@gnu.org--2005/planner--mwolson--1.0--patch-16
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-1
+   tag of mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-74
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-2
+   planner-build.el
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-3
+   planner-multi.el
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-4
+   Merged from mwolson@gnu.org--2005 (patch 75-76), sacha@free.net.ph--main (patch 490)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-5
+   Merged from mwolson@gnu.org--2005 (patch 77-95)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-6
+   planner-multi-replan-task bugfix
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-7
+   planner-multi: planner-make-link advice
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-8
+   planner-multi-task-delete-this-page
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-9
+   planner-multi-task-delete-this-page: use planner-multi-replan-task
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-10
+   planner-multi-task-xref: multiple date page fix
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-11
+   Merged from dryice@liu.com.cn--public (patch 40), john@wjsullivan.net--2005 (patch 0-1), mwolson@gnu.org--2005 (patch 96-106)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-12
+   planner.el: with-planner-update-setup
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-13
+   planner-appt: fix infinite looping caused by planner-copy-or-move-region.
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-14
+   planner-appt: fix formatting; Merge from mwolson@gnu.org--2005 (patch 115-116)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-15
+   planner-publish: fix task publishing
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--base-0
+   tag of mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-1
+   Installed Sacha Chua's patch to fix the behavior of planner-cyclic at publishing time.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-10
+   Merged from sacha@free.net.ph--main (patch 430-438)
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-11
+   Typo fix.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-12
+   Merged from hodique@lifl.fr--2005 (patch 0-41), mwolson@gnu.org--2005 (patch 0-37), sacha@free.net.ph--main (patch 0-6, 439-468)
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-13
+   Implement Makefile system and include Debian files.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-14
+   Tweak Debian package building further.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-15
+   Fix Muse-ism.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-16
+   Improve building of Debian packages.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-78
+   Install patches from Trent Buck.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-79
+   Remove other ChangeLogs.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-80
+   planner-bibtex: Use "bibtex:" to match bibtex URLs.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-81
+   Tasks with deadlines will be moved properly from previous days.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-82
+   Minor debian packaging fix.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-83
+   planner-deadline, planner-diary: Work even if day pages are disabled.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-84
+   Anti-day pages fix.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-85
+   Make day-page-less name expansion *really* work.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-86
+   planner-deadline: Yet another anti-day-pages fix.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-87
+   anti-day-pages: Deal with hitting ENTER in planner-read-date.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-88
+   Yet another anti-day-pages hack.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-89
+   Adapt to addition of muse-insert-markup in Muse.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-90
+   planner-report: Port to Planner-Muse.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-91
+   planner: Make shortened dates like "2005.1.6" Just Work.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-92
+   planner-deadline: Add "deadline-add" and "deadline-remove" functions.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-93
+   planner-timeclock-summary-proj.el: Add enhancements from twb.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-94
+   Turn raw dates into links.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-95
+   Publish raw dates as links.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-96
+   Make new Debian snapshot.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-97
+   Add contrib directory and XEmacs-friendly version of timeclock.el.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-98
+   This version of timeclock.el is only to be used with XEmacs.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-99
+   Merged from dryice@liu.com.cn--public (patch 40), john@wjsullivan.net--2005 (patch 0-1)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-100
+   planner-multi: Attempt to keep multiple links from vanishing.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-101
+   Apply task ID patch from Sacha.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-102
+   Fix parameters of planner-visit-link.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-103
+   Make tasks overview, notes index, and a few other things work.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-104
+   planner-multi: Don't create extraneous copy of new task.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-105
+   Fix obvious bug.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-106
+   planner-appt: Try to fix infinite loop error.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-107
+   Fix bug in planner-multi-create-task-from-info.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-108
+   planner-multi: Apply replan-task improvement from Seth Falcon.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-109
+   planner-multi: Apply replan-task improvement from Seth Falcon.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-110
+   Make publishing work with Muse 3.02.02.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-111
+   planner-authz.el: Begin porting to Muse.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-112
+   planner-trunk: Use correct regexp and don't hardcode "Tasks" string.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-113
+   planner-multi: Add option to put date links after other links.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-114
+   planner-publish: Work with *both* muse--main and muse--rel.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-115
+   Merged from jeho@jeho.org--2005 (patch 1-12)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-116
+   planner-report: Implement suggestions from Seth Falcon.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-117
+   planner-accomplishments: Fix muse-current-project issue.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-118
+   Merged from jeho@jeho.org--2005 (patch 13-14)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-119
+   Merged from jeho@jeho.org--2005 (patch 15)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-120
+   Sync metadata: no changes.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-121
+   Merged from ajk@iu.edu--2005 (patch 0-2)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-122
+   planner-publish: Try again to fix link issue.

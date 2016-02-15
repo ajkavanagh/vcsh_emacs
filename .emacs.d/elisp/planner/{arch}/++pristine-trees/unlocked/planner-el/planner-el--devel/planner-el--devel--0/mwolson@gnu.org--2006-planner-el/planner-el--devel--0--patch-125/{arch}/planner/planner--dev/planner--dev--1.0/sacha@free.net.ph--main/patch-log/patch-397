@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-397
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu May 12 18:21:55 PHT 2005
+Standard-date: 2005-05-12 10:21:55 GMT
+Modified-files: ChangeLog planner-bibtex.el planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-4
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-5
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-6
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-7
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-8
+    sacha@free.net.ph--main/planner--dev--1.0--patch-397
+Summary: planner-bibtex-regexp: Fix typo. planner-el.texi: Add note about allout.el
+Keywords: 
+
+* planner-bibtex.el (planner-bibtex-regexp): Fix typo. Thanks to Wei-Hao
+  Lin for the patch.
+
+* planner-el.texi (Using Allout Mode): Merge patch from johnsu01/8 for allout+notes.

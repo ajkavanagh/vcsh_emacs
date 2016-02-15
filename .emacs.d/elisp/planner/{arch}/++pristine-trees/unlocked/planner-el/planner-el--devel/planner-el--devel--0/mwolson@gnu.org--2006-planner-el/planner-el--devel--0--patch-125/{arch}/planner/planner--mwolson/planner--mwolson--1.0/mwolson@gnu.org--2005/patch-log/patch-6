@@ -1,0 +1,13 @@
+Revision: planner--mwolson--1.0--patch-6
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 25 00:02:34 EST 2005
+Standard-date: 2005-06-25 05:02:34 GMT
+Modified-files: planner-report.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-6
+Summary: Fix minor meaning change in `planner-report-find-tasks'.
+Keywords: 
+
+* planner-report.el (planner-report-find-tasks): Re-add two dropped
+  arguments.
+

@@ -1,0 +1,15 @@
+Revision: muse--yh--1.0--patch-33
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jul 15 00:48:38 CEST 2005
+Standard-date: 2005-07-14 22:48:38 GMT
+Modified-files: lisp/muse-project.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-33
+Summary: Introduce :force-publish project keyword. Fix bug #2637
+Keywords:
+
+example of use:
+:force-publish ("WikiIndex")
+will force the publication of the index. More generally, it can be useful for any page containing lisp code
+
+* lisp/muse-project.el (muse-project-publish): introduce a new project keyword :force-publish that forces the publication of a list of pages

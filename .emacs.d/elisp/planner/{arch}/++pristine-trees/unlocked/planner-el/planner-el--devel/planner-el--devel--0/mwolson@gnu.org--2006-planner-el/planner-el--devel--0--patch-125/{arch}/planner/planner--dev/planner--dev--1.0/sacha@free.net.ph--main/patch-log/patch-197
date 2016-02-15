@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-197
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Nov  8 22:52:39 JST 2004
+Standard-date: 2004-11-08 13:52:39 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-197
+Summary: planner-markup-task: Make unfinished tasks behave
+Keywords: 
+
+	* planner.el (planner-markup-task): Use ajk's fix for
+	the unfinished tasks markup bug. This prevents task
+	underlines from matching markup underlines.

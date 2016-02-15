@@ -1,0 +1,38 @@
+Revision: muse--yh--1.0--patch-40
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Aug 26 00:44:41 CEST 2005
+Standard-date: 2005-08-25 22:44:41 GMT
+Modified-files: ChangeLog NEWS examples/mwolson/muse-init.el
+    experimental/muse-xml.el lisp/muse-colors.el
+    lisp/muse-docbook.el lisp/muse-html.el lisp/muse-mode.el
+    lisp/muse-publish.el muse.texi
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-40
+    mwolson@gnu.org--2005/muse--main--1.0--patch-203
+    mwolson@gnu.org--2005/muse--main--1.0--patch-204
+    mwolson@gnu.org--2005/muse--main--1.0--patch-205
+    mwolson@gnu.org--2005/muse--main--1.0--patch-206
+    mwolson@gnu.org--2005/muse--main--1.0--patch-207
+    mwolson@gnu.org--2005/muse--main--1.0--patch-208
+Summary: Merged from mwolson@gnu.org--2005 (patch 203-208)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-203
+   Add items through patch-149 to NEWS.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-204
+   muse-html: Add muse-xhtml-extension.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-205
+   Finish NEWS, handle emphasis at EOF edge case.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-206
+   Document WikiNames and update header publishing information.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-207
+   Document publishing directives.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-208
+   Fix problem with links at beginning of buf and paragraphs.

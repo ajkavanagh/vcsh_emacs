@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-113
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jun 22 21:29:26 PHT 2004
+Standard-date: 2004-06-22 13:29:26 GMT
+New-files: .arch-ids/planner-authz.el.id planner-authz.el
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-113
+Summary: NEW: planner-authz.el
+Keywords: new
+
+	* planner-authz.el: New module contributed by Andrew J. Korty.
+	Modified to pass checkdoc.
+
+	* planner.texi (Using planner-authz.el): New.
+	(Components): Add entry for planner-authz.el

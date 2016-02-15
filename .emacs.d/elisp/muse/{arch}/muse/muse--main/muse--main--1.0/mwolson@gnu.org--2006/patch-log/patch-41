@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-41
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar  3 14:28:22 EST 2006
+Standard-date: 2006-03-03 19:28:22 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-41
+Summary: Fix nested list regression.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-text): Keep track of
+  original indentation value and use that.  This fixes a regression
+  caused by the last patch.

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-171
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Sep 28 12:52:51 JST 2004
+Standard-date: 2004-09-28 03:52:51 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-171
+Summary: planner-task-info-from-string: fix tasks that are not true wiki names
+Keywords: bugfix, external
+
+	* planner.el (planner-task-info-from-string): Fix tasks that are
+	not true wiki names. Thanks to Dale P. Smith for bug report and
+	patch.

@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-340
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun  6 19:20:06 EDT 2007
+Standard-date: 2007-06-06 23:20:06 GMT
+Modified-files: ChangeLog texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-340
+Summary: manual: Fix archive year.  Now, back to disaster recovery ...
+Keywords: 
+
+2007-06-06  Michael Olson  <mwolson@gnu.org>
+
+	* texi/muse.texi: Update copyright years.
+	(HTML): Document muse-xhtml-style-sheet.  Thanks
+	to thorne for noticing.
+	(Development): Change archive year to 2006.  Thanks to Adrian
+	Tritschler for noticing.  So *that's* why some people had the 2005
+	version ....

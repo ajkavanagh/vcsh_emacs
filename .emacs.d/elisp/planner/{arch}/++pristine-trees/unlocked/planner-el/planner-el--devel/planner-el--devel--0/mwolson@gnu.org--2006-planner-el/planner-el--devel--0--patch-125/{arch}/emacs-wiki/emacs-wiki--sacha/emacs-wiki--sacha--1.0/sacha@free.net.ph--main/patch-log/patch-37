@@ -1,0 +1,25 @@
+Revision: emacs-wiki--sacha--1.0--patch-37
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb 17 10:55:39 PHT 2004
+Standard-date: 2004-02-17 02:55:39 GMT
+Modified-files: emacs-wiki-id.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-37
+Summary: Cleaned up emacs-wiki-id.el - almost releasable
+Keywords: 
+
+	* emacs-wiki-id.el: Added short commentary.
+	(emacs-wiki-id-regexp): Moved up.
+	(emacs-wiki-id-save): Removed.
+	(emacs-wiki-id-load): Removed.
+	(emacs-wiki-id-markup): New defun.
+	(emacs-wiki-id-next-value): New defun.
+	(emacs-wiki-id-make-id): Changed documentation string. Check pages.
+	(emacs-wiki-id-add-page): Changed documentation string.
+	(emacs-wiki-id-at-point): Changed documentation string.
+	(emacs-wiki-id-at-point): Correctly recognize IDs if on second character.
+	(emacs-wiki-id-follow-id-at-point): Follow checkdoc.
+	(emacs-wiki-id-follow-id-at-mouse): New defun.
+	(emacs-wiki-id-insert-at-point): New defun.
+	(emacs-wiki-id-keymap): New.
+

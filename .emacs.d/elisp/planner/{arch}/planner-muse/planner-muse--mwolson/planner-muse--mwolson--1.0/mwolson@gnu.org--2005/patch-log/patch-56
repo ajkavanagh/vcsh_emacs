@@ -1,0 +1,20 @@
+Revision: planner-muse--mwolson--1.0--patch-56
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Aug 17 14:54:54 EST 2005
+Standard-date: 2005-08-17 19:54:54 GMT
+Modified-files: ChangeLog.mwolson planner-deadline.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-56
+    sacha@free.net.ph--main/planner--dev--1.0--patch-469
+    sacha@free.net.ph--main/planner--dev--1.0--patch-470
+Summary: Merged from sacha@free.net.ph--main (patch 469-470)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-469
+   planner-deadline bugfix: Avoid infinite loops by calculating deadlines as we insert them
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-470
+   Bugfix: planner-save-buffers: Check if buffer is associated with a file

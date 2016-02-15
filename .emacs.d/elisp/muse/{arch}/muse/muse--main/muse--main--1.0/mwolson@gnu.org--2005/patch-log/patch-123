@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-123
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 10 17:19:26 EST 2005
+Standard-date: 2005-07-10 22:19:26 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-123
+Summary: muse-docbook: Merge several other types of tags if necessary.
+Keywords: 
+
+* lisp/muse-docbook.el (muse-docbook-fixup-tags): Renamed from
+  `muse-docbook-fixup-sections'.  For each TAG in
+  `muse-docbook-merged-tags', if consecutive groupings of TAG exist,
+  merge them together.  Thanks to Dale P. Smith for the suggestion.
+  (muse-docbook-merged-tags): Customizable list of tags that need merging.

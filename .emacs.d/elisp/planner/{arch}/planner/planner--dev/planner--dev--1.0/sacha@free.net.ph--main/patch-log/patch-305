@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-305
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan 31 10:06:54 JST 2005
+Standard-date: 2005-01-31 01:06:54 GMT
+Modified-files: ChangeLog planner-deadline.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-305
+Summary: planner-deadline: helper functions, planner-deadline-change-hook
+Keywords: 
+
+	* planner-deadline.el: Merge patch from Dryice Liu.
+	(planner-deadline-change-hook): New option.
+	(planner-deadline-get-deadline-from-string): New helper function.
+	(planner-deadline-get-current-deadline): New helper function.
+	(planner-deadline-days-left): New helper function.
+	(planner-deadline-update): Use planner-deadline-days-left.
+	(planner-deadline-change): Run planner-deadline-change-hook.

@@ -1,0 +1,17 @@
+Revision: planner-muse--mwolson--1.0--patch-175
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan 11 22:48:03 EST 2006
+Standard-date: 2006-01-12 03:48:03 GMT
+Modified-files: planner-publish.el {arch}/=tagging-method
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-175
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-16
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-17
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-18
+Summary: Merged from saint@corenova.com--public-2005 (patch 16-18)
+Keywords: merge
+
+Patches applied:
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-17
+   (planner-publish.el) properly derives "xml" to form "planner-xml" style!

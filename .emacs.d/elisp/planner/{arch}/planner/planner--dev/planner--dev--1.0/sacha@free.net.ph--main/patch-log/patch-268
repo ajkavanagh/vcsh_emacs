@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-268
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jan  1 18:11:54 JST 2005
+Standard-date: 2005-01-01 09:11:54 GMT
+Modified-files: ChangeLog planner-timeclock-summary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-268
+Summary: planner-timeclock-summary: Don't choke when soemone logs in without comments
+Keywords: 
+
+	* planner-timeclock-summary.el
+	(planner-timeclock-summary-extract-task-data):
+	Don't choke on nil check-in. Thanks to Alan Schussman for the
+	bug report.

@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-110
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr 18 17:09:37 EDT 2006
+Standard-date: 2006-04-18 21:09:37 GMT
+Modified-files: ChangeLog.2006 lisp/muse-latex.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-110
+Summary: muse-latex: Don't escape backslash in <example> regions.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-markup-specials-example): We don't need
+  to escape the backslash after all.
+  (muse-latex-markup-specials-literal): Docfix.
+
+* lisp/muse-publish.el (muse-publish-escape-specials): Docfix.

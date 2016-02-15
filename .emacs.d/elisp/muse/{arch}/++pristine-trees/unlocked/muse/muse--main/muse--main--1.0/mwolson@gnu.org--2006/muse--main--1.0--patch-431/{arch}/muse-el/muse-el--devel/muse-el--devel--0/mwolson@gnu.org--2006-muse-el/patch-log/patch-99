@@ -1,0 +1,19 @@
+Revision: muse-el--devel--0--patch-99
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Stefan Schlee <stefan_schlee@yahoo.com>
+Date: Sat Sep 30 14:01:52 CEST 2006
+Standard-date: 2006-09-30 12:01:52 GMT
+Modified-files: lisp/muse-protocols.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-99
+    stefan_schlee@yahoo.com--2006-emacs/muse--bugfixes--0--patch-2
+Summary: Fix of bug #6741: Exclude colon in recognised URLs
+Keywords: 
+
+Patches applied:
+
+ * stefan_schlee@yahoo.com--2006-emacs/muse--bugfixes--0--patch-2
+   Fix of bug #6741: Exclude colon in recognised URLs
+
+   Additionally added a little complement to chapter "8.10 Bare 
+   URLs, WikiNames, and InterWiki links" of the documentation to 
+   clarify handling of implicit links.

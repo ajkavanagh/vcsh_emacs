@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-152
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 17 21:33:12 EST 2005
+Standard-date: 2005-07-18 02:33:12 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-book.el lisp/muse-docbook.el lisp/muse-html.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-poem.el lisp/muse-texinfo.el muse.texi
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2005/patch-log/patch-144
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-152
+Summary: Header/footer docfix; ChangeLog correction.
+Keywords: 
+
+* {arch}/.../patch-log/patch-144: Correct previous ChangeLog entry.
+  Thanks to drkm for pointing out my error.
+
+Use better documentation and customize interface for headers and footers.
+Thanks to Chris McMahan.

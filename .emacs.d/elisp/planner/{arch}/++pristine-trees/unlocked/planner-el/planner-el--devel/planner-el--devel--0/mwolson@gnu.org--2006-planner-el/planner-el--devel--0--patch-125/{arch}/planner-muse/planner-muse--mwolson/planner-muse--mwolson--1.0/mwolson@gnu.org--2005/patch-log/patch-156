@@ -1,0 +1,20 @@
+Revision: planner-muse--mwolson--1.0--patch-156
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan  3 23:21:37 EST 2006
+Standard-date: 2006-01-04 04:21:37 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-4
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-5
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-6
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-156
+Summary: Merged from john@wjsullivan.net--2005 (patch 4-6)
+Keywords: merge
+
+Patches applied:
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-4
+   Fixed name of Debian package and instructions for installing the package.
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-5
+   Added example and instructions for setting up a new Planner project.

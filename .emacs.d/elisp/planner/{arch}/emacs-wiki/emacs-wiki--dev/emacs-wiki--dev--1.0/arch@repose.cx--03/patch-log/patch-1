@@ -1,0 +1,26 @@
+Revision: emacs-wiki--dev--1.0--patch-1
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Mon Jun 23 00:28:09 EST 2003
+Standard-date: 2003-06-22 14:28:09 GMT
+Summary: fix for bare interwikis, additional header faces
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-1
+Removed-patches: 
+
+Previously a project InterWiki that was not qualified with # would cause an
+error when publishing / highlighting. A patch from Gary Vaughan (gary /at/
+gnu.org) corrects this so that the bare link becomes a link to the home page
+of that project.
+
+Some additional header faces have been added to support the extra faces wikis
+like MoinMoin use. The code to display MoinMoin wiki markup is not currently
+included, though.

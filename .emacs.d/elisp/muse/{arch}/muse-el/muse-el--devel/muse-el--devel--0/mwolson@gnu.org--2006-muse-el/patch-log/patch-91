@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-91
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Sep 13 09:27:43 EDT 2006
+Standard-date: 2006-09-13 13:27:43 GMT
+Modified-files: ChangeLog lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-91
+    mwolson@gnu.org--2006/muse--main--1.0--patch-206
+Summary: Merged from mwolson@gnu.org--2006 (patch 206)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-206
+   Fix #6970: Info-pdf publishing fails when a WikiLink is included in a
+   heading

@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-299
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jan 14 21:27:28 JST 2005
+Standard-date: 2005-01-14 12:27:28 GMT
+Renamed-files: .arch-ids/planner.texi.id .arch-ids/planner-el.texi.id
+    planner.texi planner-el.texi
+Modified-files: ChangeLog planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-299
+Summary: planner-el.texi: Rename output file to planner-el.info, rewrite intro, reorganize
+Keywords: 
+
+	* planner-el.texi: NOTE: Rename to planner-el from PlannerMode for
+	greater consistency with packaging. Rearrange intro section
+	extensively. Group Planner features under tasks and notes.

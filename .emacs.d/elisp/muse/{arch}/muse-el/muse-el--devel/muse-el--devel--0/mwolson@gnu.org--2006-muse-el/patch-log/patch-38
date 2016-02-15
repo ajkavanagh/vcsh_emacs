@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-38
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr  4 18:50:46 EDT 2006
+Standard-date: 2006-04-04 22:50:46 GMT
+Modified-files: ChangeLog.2006 lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-38
+    mwolson@gnu.org--2006/muse--main--1.0--patch-86
+Summary: Merged from mwolson@gnu.org--2006 (patch 86)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-86
+   Update Muse's file-alist after saving any Muse page.

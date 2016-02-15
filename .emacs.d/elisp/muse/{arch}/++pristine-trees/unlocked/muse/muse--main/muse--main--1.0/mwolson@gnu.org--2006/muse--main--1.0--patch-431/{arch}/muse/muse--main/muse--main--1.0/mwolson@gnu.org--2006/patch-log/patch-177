@@ -1,0 +1,57 @@
+Revision: muse--main--1.0--patch-177
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Aug  7 23:39:15 EDT 2006
+Standard-date: 2006-08-08 03:39:15 GMT
+Modified-files: lisp/muse-colors.el lisp/muse-docbook.el
+    lisp/muse-groff.el lisp/muse-html.el lisp/muse-latex.el
+    lisp/muse-publish.el lisp/muse-texinfo.el
+    lisp/muse-xml.el lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-177
+Summary: Publish captions for images that have descriptions.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-lisp-tag): Use a simpler regexp to
+  match the tags.
+  (muse-colors-explicit-link): Show images in link descriptions if
+  inlined images are enabled.
+
+* lisp/muse-docbook.el (muse-docbook-markup-strings): Add definitions for
+  'image-with-desc, 'image, and 'image-link.
+  (muse-docbook-markup-paragraph): If an inlined image begins a
+  paragraph, insert <para> before it.
+  (muse-docbook-fixup-images): New function that upper-cases the "format"
+  attribute of the <imagedata> tag.
+  (muse-docbook-finalize-buffer): Call it.
+
+* lisp/muse-html.el (muse-html-markup-strings): Publish images with
+  descriptions as centered tables, with a centered caption underneath.
+  The resulting look is consistent with the way that they are published
+  in the LaTeX style.  Thanks to Jody Klymak for the suggestion.
+  (muse-xhtml-markup-strings): Ditto, but XHTML apparently has no valid
+  way to center a table.
+  (muse-html-markup-paragraph): Use class="image" instead of "image-link"
+  for paragraphs that start with an embedded image.
+
+* lisp/muse-latex.el (muse-latex-fixup-dquotes): Go to beginning of
+  document, instead of relying on caller to do this for us.
+
+* lisp/muse-publish.el (muse-publish-url): Use 'image instead of
+  'image-link and 'image-link in place of 'url-with-image.  Separate the
+  image file from its extension so that docbook and texinfo can publish
+  images correctly.
+  (muse-publish-markup-link): Don't force a description if one is not
+  given.  This fixes a bug where images without descriptions were being
+  published as 'image-with-desc instead of 'image.
+
+* lisp/muse-texinfo.el (muse-texinfo-markup-strings): Improve image
+  markup to achieve an effect similar to that of the LaTeX publishing
+  style.  Simplify 'url string.
+
+* lisp/muse.el (muse-replace-regexp-in-string): Save match data when we
+  have to use the custom version of this function.
+
+* muse.texi (Images): Explain how to toggle inlining of images and give
+  better examples.  Mention captions and that captioned images should not
+  be used inside of text paragraphs.
+  (Markup Strings): Bring up-to-date with the changes made since 3.02.

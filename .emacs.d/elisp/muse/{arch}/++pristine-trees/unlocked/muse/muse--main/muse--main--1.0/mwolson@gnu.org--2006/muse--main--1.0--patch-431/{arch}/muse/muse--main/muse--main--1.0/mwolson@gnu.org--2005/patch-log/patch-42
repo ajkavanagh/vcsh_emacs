@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-42
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun May 22 00:58:40 EST 2005
+Standard-date: 2005-05-22 05:58:40 GMT
+Modified-files: ChangeLog muse-docbook.el muse-html.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-42
+Summary: Always end the published document with a newline.
+Keywords: 
+
+* muse-html.el (muse-html-markup-paragraph-close): Always end the
+  published document with a newline.
+
+* muse-docbook.el (muse-docbook-markup-paragraph-close): Ditto.

@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-23
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Feb 27 23:43:15 EST 2006
+Standard-date: 2006-02-28 04:43:15 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-23
+Summary: Fix another wrapped list item edge case.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-text): Stop removing
+  indentation in a region when we encounter any list items.  This should
+  fix another wrapped list item edge case.  Thanks to Per B. Sederberg
+  for the report.

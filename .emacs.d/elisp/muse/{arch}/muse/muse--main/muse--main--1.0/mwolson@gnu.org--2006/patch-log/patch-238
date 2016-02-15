@@ -1,0 +1,24 @@
+Revision: muse--main--1.0--patch-238
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Nov  3 23:14:17 EST 2006
+Standard-date: 2006-11-04 04:14:17 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-238
+Summary: Fix bug when using C-c C-T to publish a file
+Keywords: 
+
+2006-11-03  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-this-file): Set the current
+	output style manually, since it will differ from anything in the
+	publishing style list.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   lisp/muse-publish.el
+   lisp/muse-project.el
+   ChangeLog
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

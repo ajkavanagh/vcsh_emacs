@@ -1,0 +1,21 @@
+Revision: planner-muse--mwolson--1.0--patch-45
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Aug  7 12:30:09 EST 2005
+Standard-date: 2005-08-07 17:30:09 GMT
+Modified-files: ChangeLog.mwolson
+    planner-timeclock-summary.el planner-timeclock.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-45
+    sacha@free.net.ph--main/planner--dev--1.0--patch-467
+    sacha@free.net.ph--main/planner--dev--1.0--patch-468
+Summary: Merged from sacha@free.net.ph--main (patch 467-468)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-467
+   Bugfix: planner-timeclock should always work within Planner context to properly deal with some tasks
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-468
+   Bugfix: planner-notes-index should be in Planner project

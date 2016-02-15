@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-28
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Mar  1 10:08:45 EST 2006
+Standard-date: 2006-03-01 15:08:45 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+    lisp/muse-regexps.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-28
+Summary: Merge consecutive definition list terms properly.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-dl): Keep track of status
+  correctly.  This makes Muse merge several definition list items into
+  one list.
+  (muse-forward-list-item): Use simpler regexp for 'dl.
+
+* lisp/muse-regexps.el (muse-list-item-regexp): Make terms optional in
+  definition lists, and make terms the 2nd matched text.

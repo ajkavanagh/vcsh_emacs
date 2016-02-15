@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-434
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 30 15:21:53 PHT 2005
+Standard-date: 2005-06-30 07:21:53 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-434
+Summary: planner-sort-tasks: Be paranoid about task sorting
+Keywords:
+
+* planner.el (planner-sort-tasks): Go back to old task if called from a
+  task, or to old point if not.

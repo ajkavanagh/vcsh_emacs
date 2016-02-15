@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-157
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan  3 23:24:15 EST 2006
+Standard-date: 2006-01-04 04:24:15 GMT
+Modified-files: ChangeLog planner.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-14
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-157
+Summary: Merged from ajk@iu.edu--2005 (patch 14)
+Keywords: merge
+
+Patches applied:
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-14
+   don't insert task number padding if planner-use-task-numbers is nil

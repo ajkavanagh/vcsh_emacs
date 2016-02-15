@@ -1,0 +1,24 @@
+Revision: planner-muse--mwolson--1.0--patch-32
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 23:55:13 EST 2005
+Standard-date: 2005-07-15 04:55:13 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-xtla.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-32
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-33
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-34
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-32
+Summary: Merged from hodique@lifl.fr--2005 (patch 32-34)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-32
+   Merged from mwolson@gnu.org--2005 (patch 30-31)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-33
+   Fix error in planner-xtla-url-transform
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-34
+   Fix false heading lines in notes, from planner-xtla

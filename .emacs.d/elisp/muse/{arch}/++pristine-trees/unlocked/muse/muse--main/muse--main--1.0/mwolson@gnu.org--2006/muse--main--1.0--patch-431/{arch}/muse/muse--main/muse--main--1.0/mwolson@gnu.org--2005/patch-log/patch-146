@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-146
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 16 00:10:31 EST 2005
+Standard-date: 2005-07-16 05:10:31 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-146
+Summary: Allow `muse-index-as-string' to remove current file from output.
+Keywords: 
+
+* lisp/muse-mode.el (muse-index-as-string): Add EXCLUDE-CURRENT option,
+  which excludes the current file from the output.  Improve
+  documentation.

@@ -1,0 +1,14 @@
+Revision: planner--main--1.0--patch-53
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun  5 11:52:57 EDT 2006
+Standard-date: 2006-06-05 15:52:57 GMT
+Modified-files: AUTHORS planner.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-53
+Summary: Make Planner's keymap inherit from Muse's keymap.
+Keywords: 
+
+* planner.el (planner-mode-map): Apply patch from Adrian Aichner that
+  inherits the keymap from Muse, rather than copying it.  We fall back to
+  copying it if the proper functionality does not exist in the user's
+  version of Emacs.

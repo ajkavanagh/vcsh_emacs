@@ -1,0 +1,11 @@
+Revision: planner-muse--mwolson--1.0--patch-87
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 03:31:20 EST 2005
+Standard-date: 2005-10-29 08:31:20 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-87
+Summary: anti-day-pages: Deal with hitting ENTER in planner-read-date.
+Keywords: 
+
+* planner.el (planner-expand-name): Missed one instance of planner-today.

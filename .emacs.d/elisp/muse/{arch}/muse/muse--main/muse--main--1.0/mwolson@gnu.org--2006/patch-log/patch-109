@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-109
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Apr 17 21:55:21 EDT 2006
+Standard-date: 2006-04-18 01:55:21 GMT
+Modified-files: ChangeLog.2006 lisp/muse-regexps.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-109
+Summary: Allow tab characters in the target of explicit links.
+Keywords: 
+
+* lisp/muse-regexps.el (muse-explicit-link-regexp): Allow tab characters
+  in the link target.  This doesn't seem like it could hurt anything, and
+  prevents unexpected behavior.  Thanks to rubikitch AT ruby-lang.org for
+  the report.

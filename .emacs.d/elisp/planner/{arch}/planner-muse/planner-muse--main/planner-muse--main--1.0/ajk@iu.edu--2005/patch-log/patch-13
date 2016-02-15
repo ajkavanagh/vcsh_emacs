@@ -1,0 +1,14 @@
+Revision: planner-muse--main--1.0--patch-13
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Wed Dec 14 10:52:57 EST 2005
+Standard-date: 2005-12-14 15:52:57 GMT
+Modified-files: planner-authz.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-13
+Summary: fix Muse 3.02.02 compatibility for planner-authz-index-as-string
+Keywords: 
+
+ - use planner-insert-markup instead of muse-insert-markup in
+   planner-authz-index-as-string (same changes as
+   mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-125 applied to
+   new code)

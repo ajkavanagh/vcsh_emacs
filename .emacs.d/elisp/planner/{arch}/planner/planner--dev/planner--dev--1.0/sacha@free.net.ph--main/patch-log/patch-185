@@ -1,0 +1,23 @@
+Revision: planner--dev--1.0--patch-185
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Oct  9 19:22:42 JST 2004
+Standard-date: 2004-10-09 10:22:42 GMT
+Modified-files: planner-notes-index.el planner.el
+    planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-185
+Summary: NEW: planner-notes-tag <notes>
+Keywords: feature
+
+	* planner.el (planner-markup-tags): New tag: <notes>.
+        Finally allows me to have blog headlines.
+	(planner-notes-get-headlines): Move from planner-notes-index.
+	(planner-notes-tag): New tag.
+	
+	* planner-notes-index.el (planner-notes-index-get-headlines):
+	Rename to planner-notes-index-headlines-on-page because
+	planner-notes-get-headlines refers to the current page.
+	(planner-notes-index-get-headlines-range): Fix grammar. Rename to
+	planner-notes-index-headlines-in-range.
+
+	* planner.texi (Planner Tags): New.

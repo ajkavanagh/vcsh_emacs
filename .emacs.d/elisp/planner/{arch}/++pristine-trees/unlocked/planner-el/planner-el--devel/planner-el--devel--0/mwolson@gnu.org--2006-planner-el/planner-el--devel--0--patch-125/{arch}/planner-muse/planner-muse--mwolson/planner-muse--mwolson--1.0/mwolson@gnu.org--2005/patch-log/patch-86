@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-86
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 03:08:47 EST 2005
+Standard-date: 2005-10-29 08:08:47 GMT
+Modified-files: ChangeLog planner-deadline.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-86
+Summary: planner-deadline: Yet another anti-day-pages fix.
+Keywords: 
+
+* planner-deadline.el (planner-deadline-days-left): When we're not using
+  day pages, do the right thing.

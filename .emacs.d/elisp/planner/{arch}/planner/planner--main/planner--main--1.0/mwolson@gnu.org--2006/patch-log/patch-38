@@ -1,0 +1,19 @@
+Revision: planner--main--1.0--patch-38
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr 26 15:35:10 EDT 2006
+Standard-date: 2006-04-26 19:35:10 GMT
+Modified-files: Makefile.defs debian/changelog
+    planner-calendar.el planner-el.texi planner-publish.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-38
+Summary: planner-calendar: Surround generated calendar with <div> tag.
+Keywords: 
+
+* planner-calendar.el: Fix example.
+  (planner-publish-calendar-tag): Surround in a <div> section for ease of
+  use.
+
+* planner-el.texi (Publishing Calendars): Make the example simpler.
+
+* planner-publish.el (planner-insert-markup): If we're using Muse 3.02.6,
+  manually make the region read-only.

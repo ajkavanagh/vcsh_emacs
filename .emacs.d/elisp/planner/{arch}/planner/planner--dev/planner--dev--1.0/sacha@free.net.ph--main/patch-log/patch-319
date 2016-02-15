@@ -1,0 +1,10 @@
+Revision: planner--dev--1.0--patch-319
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb  8 18:19:05 JST 2005
+Standard-date: 2005-02-08 09:19:05 GMT
+Modified-files: ChangeLog planner-rank.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-319
+Summary: planner-rank: Fix missing paren. Thanks to Chris parsons
+Keywords: 
+

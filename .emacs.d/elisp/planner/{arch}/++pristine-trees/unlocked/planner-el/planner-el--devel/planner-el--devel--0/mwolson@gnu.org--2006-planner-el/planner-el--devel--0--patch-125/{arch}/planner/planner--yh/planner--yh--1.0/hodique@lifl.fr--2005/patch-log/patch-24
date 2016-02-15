@@ -1,0 +1,28 @@
+Revision: planner--yh--1.0--patch-24
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Wed Jul  6 22:31:10 CEST 2005
+Standard-date: 2005-07-06 20:31:10 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-multi.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-24
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-19
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-20
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-21
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-22
+Summary: Merged from mwolson@gnu.org--2005 (patch 19-22)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-19
+   Use muse-explicit-link-regexp instead of muse-link-regexp.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-20
+   Merged from hodique@lifl.fr--2005 (patch 13-20), sacha@free.net.ph--main (patch 384, 392-395, 438-441)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-21
+   Use `muse-publishing-current-file'.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-22
+   Merged from hodique@lifl.fr--2005 (patch 21)

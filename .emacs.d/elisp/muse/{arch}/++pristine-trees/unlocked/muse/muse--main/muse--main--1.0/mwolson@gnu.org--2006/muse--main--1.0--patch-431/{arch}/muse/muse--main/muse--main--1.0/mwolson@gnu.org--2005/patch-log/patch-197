@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-197
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Aug 11 20:29:58 EST 2005
+Standard-date: 2005-08-12 01:29:58 GMT
+Modified-files: ChangeLog examples/QuickStart
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-197
+Summary: QuickStart: Minor typo in anchor example.
+Keywords: 
+
+* examples/QuickStart (Anchors and tagged links): Link to an anchor only,
+  rather than a full URL.

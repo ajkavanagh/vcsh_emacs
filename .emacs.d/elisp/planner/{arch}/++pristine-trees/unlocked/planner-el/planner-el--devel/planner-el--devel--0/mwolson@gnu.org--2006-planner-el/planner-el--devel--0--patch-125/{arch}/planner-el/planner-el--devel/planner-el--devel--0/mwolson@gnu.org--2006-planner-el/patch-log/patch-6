@@ -1,0 +1,11 @@
+Revision: planner-el--devel--0--patch-6
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Tue Feb 21 20:55:02 EST 2006
+Standard-date: 2006-02-22 01:55:02 GMT
+Modified-files: planner-authz.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-6
+Summary: consider all of a note's links when building an access list
+Keywords: 
+
+* planner-authz.el (planner-authz-note-tag): use "categories" attribute

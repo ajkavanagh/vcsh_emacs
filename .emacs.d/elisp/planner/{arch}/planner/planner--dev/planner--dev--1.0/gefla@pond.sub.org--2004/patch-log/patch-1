@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-1
+Archive: gefla@pond.sub.org--2004
+Creator: Gerd Flaig <gefla@pond.sub.org>
+Date: Thu May 20 23:03:55 CEST 2004
+Standard-date: 2004-05-20 21:03:55 GMT
+Modified-files: planner-lisp.el
+New-patches: gefla@pond.sub.org--2004/planner--dev--1.0--patch-1
+Summary: fixed docstring
+Keywords: 
+
+The docstring for planner-lisp-browse-url was wring. Fixed it.

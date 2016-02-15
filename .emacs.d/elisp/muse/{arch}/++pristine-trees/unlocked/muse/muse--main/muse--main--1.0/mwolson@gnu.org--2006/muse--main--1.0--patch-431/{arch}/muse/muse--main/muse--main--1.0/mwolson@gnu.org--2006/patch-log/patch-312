@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-312
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat May 19 22:17:06 EDT 2007
+Standard-date: 2007-05-20 02:17:06 GMT
+Modified-files: ChangeLog lisp/muse-html.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-312
+Summary: muse-html: "Borrow" idea about class tags in footnotes from the Org mailing list
+Keywords: 
+
+2007-05-19  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-html.el (muse-html-markup-footnote): Add class tags to
+	published footnotes and footnote references.  Thanks to Scott
+	Jaderholm for the idea.

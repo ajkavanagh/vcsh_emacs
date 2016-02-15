@@ -1,0 +1,20 @@
+Revision: emacs-wiki--dev--1.0--patch-7
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Mon Jun 23 01:31:11 EST 2003
+Standard-date: 2003-06-22 15:31:11 GMT
+Summary: show InterWiki#BadLink in bad link face
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-7
+Removed-patches: 
+
+(emacs-wiki-project-interwiki-link): supress qualifying the link if it
+    doesn't exist, so that it's rendered as a bad link

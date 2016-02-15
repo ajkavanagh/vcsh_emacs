@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-128
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 26 14:23:24 PHT 2004
+Standard-date: 2004-06-26 06:23:24 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-128
+Summary: New: planner-note-headline-face
+Keywords: improvement
+
+	* planner.el (planner-note-headline-face): Make customizable face.
+	(planner-highlight-notes): Use headline face. Thanks to people
+        on #emacs for the feedback.

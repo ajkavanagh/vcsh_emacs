@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-2
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Sat Dec 11 17:06:58 EST 2004
+Standard-date: 2004-12-11 22:06:58 GMT
+Modified-files: ChangeLog muse-project.el
+New-patches: mwolson@member.fsf.org--2004/muse--main--1.0--patch-2
+Summary: Fix Emacs CVS-ism in use of `save-some-buffers-action-alist'
+Keywords: 
+
+2004-12-11  Michael Olson  <mwolson@gnu.org>
+
+    * muse-project.el (muse-project-save-buffers): Attempt to fix
+    Emacs CVS-ism in use of `save-some-buffers-action-alist'.  Since
+    it looks like this is somewhat optional, only use it if it is
+    bound.  Thanks to Kenneth Geisshirt for reporting this.

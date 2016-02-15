@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-308
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun May 13 22:25:14 EDT 2007
+Standard-date: 2007-05-14 02:25:14 GMT
+Modified-files: ChangeLog lisp/muse-protocols.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-308
+Summary: muse-protocols: Fix publishing bug
+Keywords: 
+
+2007-05-13  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-protocols.el (muse-resolve-url): Don't concatenate
+	"\`" here.  This fixes a problem with publishing custom URLs.

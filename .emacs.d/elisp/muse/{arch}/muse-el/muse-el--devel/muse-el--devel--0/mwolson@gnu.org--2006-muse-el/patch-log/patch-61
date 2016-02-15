@@ -1,0 +1,25 @@
+Revision: muse-el--devel--0--patch-61
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Apr 24 20:33:00 EDT 2006
+Standard-date: 2006-04-25 00:33:00 GMT
+Modified-files: ChangeLog.2006 Makefile.defs contrib/cgi.el
+    contrib/httpd.el debian/changelog lisp/muse-publish.el
+    lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-61
+    mwolson@gnu.org--2006/muse--main--1.0--patch-114
+    mwolson@gnu.org--2006/muse--main--1.0--patch-115
+    mwolson@gnu.org--2006/muse--main--1.0--patch-116
+Summary: Merged from mwolson@gnu.org--2006 (patch 114-116)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-114
+   muse-publish: Get rid of warning when batch publishing.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-115
+   Make publishing DTRT when using escaped list markup.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-116
+   cgi.el: Make this work without cl-seq.el.

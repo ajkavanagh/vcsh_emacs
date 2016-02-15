@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-289
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Dec 11 01:24:18 EST 2005
+Standard-date: 2005-12-11 06:24:18 GMT
+Modified-files: ChangeLog lisp/muse-registry.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-289
+Summary: muse-registry: Attempt to increase Emacs20 compatibility.
+Keywords: 
+
+* lisp/muse-registry.el (muse-registry-show)
+  (muse-registry-update-registry, muse-registry-make-new-registry): Use
+  dolist instead of mapc for nomimal support of Emacs20, since Planner
+  tries to support it.

@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-292
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Apr 12 10:19:57 EDT 2007
+Standard-date: 2007-04-12 14:19:57 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+    lisp/muse-xml.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-292
+Summary: muse-publish: Ensure blank line exists after heading
+Keywords: 
+
+2007-04-12  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-markup-heading): Make sure
+	that a blank line always exists after a heading.  This fixes a bug
+	in Docbook paragraph detection.  Thanks to Jean Magnan de Bornier
+	for the report.
+
+	* lisp/muse-xml.el (muse-xml-markup-regexps): Update paragraph
+	detection regexp to that which is used in Docbook and HTML
+	publishing styles.

@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-245
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Nov  7 00:24:25 EST 2006
+Standard-date: 2006-11-07 05:24:25 GMT
+Modified-files: ChangeLog Makefile.defs NEWS lisp/muse.el
+    muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-245
+Summary: Make Emacs Muse 3.02.93 (3.03 RC3) available
+Keywords: 
+
+2006-11-07  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse.el (muse-version): Make Emacs Muse 3.02.93, the third
+	release candidate for Muse 3.03, available.
+
+	* NEWS: Update.

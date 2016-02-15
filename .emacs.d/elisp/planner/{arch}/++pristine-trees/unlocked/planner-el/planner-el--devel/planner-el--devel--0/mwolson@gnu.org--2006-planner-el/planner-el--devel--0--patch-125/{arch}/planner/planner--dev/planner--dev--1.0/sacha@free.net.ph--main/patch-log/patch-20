@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-20
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr  7 19:24:38 PHT 2004
+Standard-date: 2004-04-07 11:24:38 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-20
+Summary: Resolve windmove keybinding conflict
+Keywords: 
+
+	* planner.el (planner-install-extra-context-keybindings): Move
+	windmove-conflicting keybindings to this function. Thanks to TerryP
+        for pointing this out.
+

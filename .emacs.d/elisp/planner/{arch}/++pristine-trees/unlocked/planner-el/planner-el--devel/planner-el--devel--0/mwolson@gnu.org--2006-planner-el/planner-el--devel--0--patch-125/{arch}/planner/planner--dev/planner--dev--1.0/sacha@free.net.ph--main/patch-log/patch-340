@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-340
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 10 16:26:46 PHT 2005
+Standard-date: 2005-03-10 08:26:46 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-340
+Summary: planner-create-task-from-info: Always call planner-create-task-hook
+Keywords: 
+
+* planner.el (planner-create-task-from-info): Call
+  planner-create-task-hook even if there is no day page.
+  Thanks to Christophe Garion for the bug report.

@@ -1,0 +1,22 @@
+Revision: muse-el--devel--0--patch-53
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Per B. Sederberg <per@med.upenn.edu>
+Date: Sun Apr  9 22:58:29 EDT 2006
+Standard-date: 2006-04-10 02:58:29 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-53
+Summary: Add option to not create implicit links to the current page.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-ignore-implicit-links-to-current-page):
+  Option to not create implicit links to the current page.
+
+* muse-wiki.el (muse-wiki-handle-wikiword): Process the option to not
+  create implicit links to the current page.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   lisp/muse-wiki.el
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

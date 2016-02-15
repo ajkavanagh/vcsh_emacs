@@ -1,0 +1,16 @@
+Revision: planner-el--devel--0--patch-33
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr 26 15:36:18 EDT 2006
+Standard-date: 2006-04-26 19:36:18 GMT
+Modified-files: Makefile.defs debian/changelog
+    planner-calendar.el planner-el.texi planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-33
+    mwolson@gnu.org--2006/planner--main--1.0--patch-38
+Summary: Merged from mwolson@gnu.org--2006 (patch 38)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-38
+   planner-calendar: Surround generated calendar with <div> tag.

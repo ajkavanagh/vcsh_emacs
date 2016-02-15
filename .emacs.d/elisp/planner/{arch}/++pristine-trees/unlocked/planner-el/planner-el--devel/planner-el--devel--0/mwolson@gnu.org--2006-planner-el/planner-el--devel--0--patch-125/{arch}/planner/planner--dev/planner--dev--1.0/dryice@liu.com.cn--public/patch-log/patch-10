@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-10
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 21:46:21 CST 2005
+Standard-date: 2005-01-30 13:46:21 GMT
+Modified-files: planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-10
+Summary: new rank calculating functions taking weight in to consideration
+Keywords: newfeature
+
+* planner-rank.el: Now we have some algorithms that emphasis Importancy
+more than Urgency.
+(planner-rank-importancy-vs-urgency-factor): new customizable variable
+(planner-rank-rank-calculate-function): change the default to
+planner-rank-calculate-rank-weighing-rmsd. With the default settings,
+this one get a pretty reasonable result. I like this one :)
+(planner-rank-calculate-rank-weighing-average): new rank calculation
+function that take weight in to account.
+(planner-rank-calculate-rank-weighing-rmsd): Ditto.
+

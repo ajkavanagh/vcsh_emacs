@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-27
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Thu Mar  3 09:26:26 CST 2005
+Standard-date: 2005-03-03 01:26:26 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-27
+    sacha@free.net.ph--main/planner--dev--1.0--patch-334
+Summary: merge patch-334 from main stream
+Keywords: merge
+

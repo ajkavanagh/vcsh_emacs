@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-39
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 24 21:21:58 EDT 2006
+Standard-date: 2006-05-25 01:21:58 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-39
+    mwolson@gnu.org--2006/planner--main--1.0--patch-48
+Summary: Merged from mwolson@gnu.org--2006 (patch 48)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-48
+   Fix lock up with old delegated task mark.

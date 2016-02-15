@@ -1,0 +1,18 @@
+Revision: emacs-wiki--dev--1.0--patch-38
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Nov 25 20:58:21 EST 2003
+Standard-date: 2003-11-25 09:58:21 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-38
+Summary: use a default project, instead of no project
+Keywords: 
+
+Previously a 'nil' project was used when finding files listed in
+emacs-wiki-directories defined outside of an explicit project in
+`emacs-wiki-projects'. This caused a bit of confusion for people
+about what project was in effect.
+
+This change makes it so that there is always a project in use.
+Settings defined outside of the alist in emacs-wiki-projects will be
+associated with `emacs-wiki-default-project'.

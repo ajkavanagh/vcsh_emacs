@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-142
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May 29 10:59:31 EDT 2006
+Standard-date: 2006-05-29 14:59:31 GMT
+Renamed-files: .arch-ids/ChangeLog.2006.id .arch-ids/ChangeLog.id
+    ChangeLog.2006 ChangeLog
+Modified-files: ChangeLog ChangeLog.2004 ChangeLog.2005
+    debian/rules
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/base-0
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-142
+Summary: Make ChangeLog conform to conventions better.
+Keywords: 
+
+* ChangeLog: Renamed from ChangeLog.2006 in order to follow Emacs
+  conventions better.  Specify the buffer encoding.  Add helpful notices
+  near the bottom of this and ChangeLog.2005.

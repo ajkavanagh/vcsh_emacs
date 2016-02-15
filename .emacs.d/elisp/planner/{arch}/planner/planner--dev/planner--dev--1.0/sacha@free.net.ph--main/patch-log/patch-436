@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-436
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 30 19:51:10 PHT 2005
+Standard-date: 2005-06-30 11:51:10 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-436
+Summary: Bugfix: planner-multi-tasks-equal-p: Deal with tasks without link text
+Keywords: 
+
+* planner-multi.el (planner-multi-tasks-equal-p): Deal with tasks without
+  link text. Solves nil backtrace when you update a task without links.
+  (planner-multi-edit-task-description): Fix typo.
+

@@ -1,0 +1,12 @@
+Revision: planner--jeho--1.1--patch-35
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Dec 19 11:16:24 GMT 2005
+Standard-date: 2005-12-19 11:16:24 GMT
+Modified-files: planner-publish.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-35
+Summary: planner-publish: fix planner-insert-markup
+Keywords: 
+
+* planner-publish.el (planner-insert-markup): Use apply.
+

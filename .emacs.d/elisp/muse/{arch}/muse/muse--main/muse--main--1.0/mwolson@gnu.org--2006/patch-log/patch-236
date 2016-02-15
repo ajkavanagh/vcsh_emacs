@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-236
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Oct 30 00:27:07 EST 2006
+Standard-date: 2006-10-30 05:27:07 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-236
+Summary: Fix goofy assertion
+Keywords: 
+
+2006-10-30  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-wiki.el (muse-wiki-update-interwiki-regexp): Fix bug
+	introduced yesterday.

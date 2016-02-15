@@ -1,0 +1,13 @@
+Revision: planner-el--devel--0--patch-123
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul  3 20:15:42 EDT 2007
+Standard-date: 2007-07-04 00:15:42 GMT
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-123
+Summary: Makefile: Update debian package-building rules
+Keywords: 
+
+2007-07-03  Michael Olson  <mwolson@gnu.org>
+
+	* Makefile: Update debian package-building rules.

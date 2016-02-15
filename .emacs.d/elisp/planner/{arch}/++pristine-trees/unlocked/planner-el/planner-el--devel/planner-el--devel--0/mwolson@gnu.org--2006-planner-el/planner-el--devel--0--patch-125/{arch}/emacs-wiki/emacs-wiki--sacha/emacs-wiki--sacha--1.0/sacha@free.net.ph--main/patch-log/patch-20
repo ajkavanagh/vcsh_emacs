@@ -1,0 +1,13 @@
+Revision: emacs-wiki--sacha--1.0--patch-20
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jan 28 14:56:15 PHT 2004
+Standard-date: 2004-01-28 06:56:15 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-20
+Summary: planner-default-task-priority
+Keywords: 
+
+Ken Rachynski asked for a way to set the default task priority. Here
+it is - planner-default-task-priority (new variable, controls
+planner-create-task).

@@ -1,0 +1,29 @@
+Revision: muse--main--1.0--patch-381
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul  1 15:56:51 EDT 2007
+Standard-date: 2007-07-01 19:56:51 GMT
+Modified-files: ChangeLog lisp/muse-book.el
+    lisp/muse-docbook.el lisp/muse-latex.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-381
+Summary: Fix some <cite> indentation issues and bugs
+Keywords: 
+
+2007-07-01  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-book.el (muse-book-latex-footer): Wrap long line.
+
+	* lisp/muse-docbook.el (muse-docbook-fixup-citations): Re-indent.
+	Use save-restriction properly.
+	(muse-docbook-entities, muse-docbook-bibliography): : Re-indent.
+
+	* lisp/muse-latex.el (muse-latex-footer): Wrap long line.
+	(muse-latex-fixup-citations): Re-indent.  Use save-restriction
+	properly.
+	(muse-latex-bibliography): Re-indent.
+
+	* lisp/muse-publish.el (muse-publish-get-and-delete-attr): Move
+	higher.  This fixes an error at startup with some versions of
+	Emacs.
+	(muse-publish-cite-tag): Re-indent.

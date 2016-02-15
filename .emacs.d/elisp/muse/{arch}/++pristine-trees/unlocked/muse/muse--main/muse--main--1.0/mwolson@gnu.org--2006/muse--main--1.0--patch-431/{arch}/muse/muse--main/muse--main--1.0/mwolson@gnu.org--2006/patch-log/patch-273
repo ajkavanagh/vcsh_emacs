@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-273
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan 15 20:08:12 EST 2007
+Standard-date: 2007-01-16 01:08:12 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-273
+Summary: muse-latex2png: Implement centered <math> tag interpretation
+Keywords: 
+
+* lisp/muse-latex2png.el (muse-publish-math-tag): If 6 or more spaces
+  come before the tag, surround the region with "$$" rather than "$".
+  This is the Muse syntax for something centered, so it should be a good
+  fit.

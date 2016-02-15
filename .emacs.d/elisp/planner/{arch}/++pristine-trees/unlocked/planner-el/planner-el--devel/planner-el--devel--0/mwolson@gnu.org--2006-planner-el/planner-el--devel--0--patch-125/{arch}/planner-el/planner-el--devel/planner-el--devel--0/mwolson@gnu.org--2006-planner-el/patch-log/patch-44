@@ -1,0 +1,45 @@
+Revision: planner-el--devel--0--patch-44
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun  8 19:26:41 EDT 2006
+Standard-date: 2006-06-08 23:26:41 GMT
+Removed-files: debian/.arch-ids/=id
+    debian/.arch-ids/NEWS.id
+    debian/.arch-ids/README.Debian.id
+    debian/.arch-ids/changelog.id
+    debian/.arch-ids/compat.id debian/.arch-ids/control.id
+    debian/.arch-ids/copyright.id
+    debian/.arch-ids/emacsen-install.id
+    debian/.arch-ids/emacsen-remove.id
+    debian/.arch-ids/emacsen-startup.id
+    debian/.arch-ids/planner-el.docs.id
+    debian/.arch-ids/planner-el.info.id
+    debian/.arch-ids/rules.id debian/NEWS
+    debian/README.Debian debian/changelog debian/compat
+    debian/control debian/copyright debian/emacsen-install
+    debian/emacsen-remove debian/emacsen-startup
+    debian/planner-el.docs debian/planner-el.info
+    debian/rules
+Removed-directories: debian debian/.arch-ids
+Modified-files: NEWS planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-44
+    mwolson@gnu.org--2006/planner--main--1.0--patch-54
+    mwolson@gnu.org--2006/planner--main--1.0--patch-55
+    mwolson@gnu.org--2006/planner--main--1.0--patch-56
+    mwolson@gnu.org--2006/planner--main--1.0--patch-57
+Summary: Merged from mwolson@gnu.org--2006 (patch 54-57)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-54
+   Move Debian stuff to its own branch.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-55
+   Update NEWS.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-56
+   Document new mailing lists in the manual.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-57
+   planner-el.texi: Use shared Arch archive in instructions.

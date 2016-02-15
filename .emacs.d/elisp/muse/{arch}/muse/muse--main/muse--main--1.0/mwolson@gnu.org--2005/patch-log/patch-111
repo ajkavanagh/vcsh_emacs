@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-111
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul  8 19:10:01 EST 2005
+Standard-date: 2005-07-09 00:10:01 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-111
+Summary: Make natural interwiki links between projects mostly work.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-resolve-project-page): Uncomment this
+  function and flesh it out.  This seems to work properly, though for
+  some reason, interwiki links using projects are a bit flakey.
+  (muse-wiki-handle-interwiki): Deal with case where we have a project
+  name in an interwiki link.

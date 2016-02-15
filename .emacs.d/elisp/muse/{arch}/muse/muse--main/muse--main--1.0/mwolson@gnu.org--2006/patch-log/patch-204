@@ -1,0 +1,23 @@
+Revision: muse--main--1.0--patch-204
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep 11 19:53:24 EDT 2006
+Standard-date: 2006-09-11 23:53:24 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-book.el
+    lisp/muse-publish.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-204
+Summary: Use our own safer variant of file-name-sans-extension
+Keywords: 
+
+2006-09-11  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse.el (muse-path-sans-extension): New function that acts
+	like file-name-sans-extension, but guarantees to never modify the
+	directory part of the path.  Thanks to Evan Monroig for
+	investigating this.
+
+	* lisp/muse-book.el (muse-book-publish-project): Use
+	muse-path-sans-extension instead of file-name-sans-extension.
+
+	* lisp/muse-publish.el (muse-publish-file, muse-publish-url):
+	Ditto.

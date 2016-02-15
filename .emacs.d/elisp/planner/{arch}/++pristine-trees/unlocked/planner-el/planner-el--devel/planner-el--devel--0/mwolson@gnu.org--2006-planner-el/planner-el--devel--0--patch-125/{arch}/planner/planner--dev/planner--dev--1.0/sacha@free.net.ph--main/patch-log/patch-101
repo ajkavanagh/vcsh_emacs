@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-101
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jun  8 20:37:53 PHT 2004
+Standard-date: 2004-06-08 12:37:53 GMT
+Modified-files: planner-tasks-overview.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-101
+Summary: Bugfix: planner-tasks-overview.el keymap
+Keywords: 
+
+	* planner-tasks-overview.el (planner-tasks-overview): Correct typo
+	in keymap. Thanks to ajk for the bug report and patch.

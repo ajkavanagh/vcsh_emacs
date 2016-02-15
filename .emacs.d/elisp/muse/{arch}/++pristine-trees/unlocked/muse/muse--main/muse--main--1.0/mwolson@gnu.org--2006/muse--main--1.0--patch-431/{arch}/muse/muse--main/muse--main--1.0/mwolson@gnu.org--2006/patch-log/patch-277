@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-277
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Feb  7 08:37:14 EST 2007
+Standard-date: 2007-02-07 13:37:14 GMT
+Modified-files: Makefile.defs
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-277
+Summary: Fix typo in Makefile.defs
+Keywords: 
+
+* Makefile.defs: Fix typo in comment.  Thanks to Exal de Jesus Garcia
+  Carrillo for the report.

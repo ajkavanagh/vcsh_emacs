@@ -1,0 +1,14 @@
+Revision: muse--rel--3.02--patch-53
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan 12 21:41:00 EST 2006
+Standard-date: 2006-01-13 02:41:00 GMT
+Modified-files: ChangeLog lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-53
+Summary: Use better code for displaying warnings.
+Keywords: 
+
+* lisp/muse.el (muse-display-warning): New function that displays a
+  warning in the proper way, depending on the version of Emacs being
+  used.
+  (muse-eval-lisp, muse-with-temp-buffer): Use it.

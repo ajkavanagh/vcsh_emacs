@@ -1,0 +1,91 @@
+Revision: muse--main--1.0--patch-221
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 22:59:52 EDT 2006
+Standard-date: 2006-10-16 02:59:52 GMT
+New-files: lisp/.arch-ids/muse-import-docbook.el.id
+    lisp/.arch-ids/muse-import-xml.el.id
+    lisp/muse-import-docbook.el lisp/muse-import-xml.el
+New-patches: e.pomohaci@gmail.com--2006/muse-epomulet--0--base-0
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-1
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-2
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-3
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-4
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-5
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-6
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-7
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-54
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-55
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-56
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-57
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-58
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-59
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-60
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-61
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-62
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-63
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-64
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-65
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-66
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-67
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-68
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-69
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-70
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-71
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-72
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-73
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-74
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-75
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-76
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-77
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-78
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-79
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-80
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-81
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-82
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-83
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-84
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-85
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-86
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-87
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-88
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-89
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-90
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-91
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-93
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-94
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-97
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-101
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-102
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-103
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-104
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-105
+    mwolson@gnu.org--2006/muse--main--1.0--patch-221
+Summary: Merged from e.pomohaci@gmail.com--2006/muse-epomulet--0 (patch 0-7)
+Keywords: merge
+
+Patches applied:
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--base-0
+   tag of mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-81
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-1
+  
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-2
+   made the basic functionality for transforming into muse format
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-3
+   made the basic functionality for transforming into muse format
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-4
+   Merged from mwolson@gnu.org--2006-muse-el (patch 82), mwolson@gnu.org--2006 (patch 158-164)
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-5
+   Changed file names for muse-from-*
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-6
+   Merged from mwolson@gnu.org--2006-muse-el (patch 83)
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-7
+   Corrected references from muse-import-xml-*.

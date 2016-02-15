@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-12
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Feb 18 16:44:44 GMT 2005
+Standard-date: 2005-02-18 16:44:44 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-12
+Summary: planner-mode-hook misfunction
+Keywords: 
+
+* planner-appt.el (planner-appt-insinuate): fixed wrong function added to
+planner-mode-hook 
+

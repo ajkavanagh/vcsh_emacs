@@ -1,0 +1,33 @@
+Revision: planner-muse--mwolson--1.0--patch-103
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov 21 01:49:11 EST 2005
+Standard-date: 2005-11-21 06:49:11 GMT
+Modified-files: ChangeLog planner-appt.el
+    planner-export-diary.el planner-notes-index.el
+    planner-tasks-overview.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-103
+Summary: Make tasks overview, notes index, and a few other things work.
+Keywords: 
+
+* planner.el (planner-current-file): Defalias this to muse-current-file.
+  (planner-list-daily-files, planner-get-day-pages): Return an alist
+  rather than a date list.
+  (planner-get-previous-existing-day, planner-get-next-existing-day)
+  (planner-search-notes-internal, planner-past-notes-tag)
+  (planner-index-as-string, plan): Adapt to deal with alist.
+  (planner-extract-tasks): Deal with both alists and page lists.
+  (planner-list-tasks-with-status): Implement handling of PAGES parameter
+  as specified by the manual.
+
+* planner-tasks-overview.el (planner-tasks-overview-extract-all-tasks):
+  Use the filename rather than the page name.  Thanks to Janne Hellston
+  and Seth Falcon for the heads up.
+
+* planner-notes-index.el (planner-notes-index-headlines-in-range): Deal
+  with alist rather than page list.
+
+* planner-export-diary.el (planner-export-diary-get-schedule-entries):
+  Ditto.
+
+* planner-appt.el (planner-appt-mark-calendar): Ditto.

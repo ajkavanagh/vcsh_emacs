@@ -1,0 +1,16 @@
+Revision: emacs-wiki--sacha--1.0--patch-118
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 16 12:55:25 PHT 2004
+Standard-date: 2004-03-16 04:55:25 GMT
+Modified-files: emacs-wiki.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-118
+Summary: Restore planner-annotation-from-planner-note
+Keywords: 
+
+	* planner.el (planner-annotation-functions): Add
+	planner-annotation-from-planner-note.
+	(planner-annotation-from-planner-note): Remove redundant check.
+
+	* emacs-wiki.el (emacs-wiki-visit-link): Deal with bare tags.
+

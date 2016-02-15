@@ -1,0 +1,13 @@
+Revision: planner--main--1.0--patch-51
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue May 30 17:14:09 EDT 2006
+Standard-date: 2006-05-30 21:14:09 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-51
+Summary: Avoid a backtrace when using planner-calendar and not publishing.
+Keywords: 
+
+* planner.el (planner-published-file): Avoid error when not publishing.
+  (planner-yesterday): Docfix.
+  (planner-tomorrow): New function that returns the date for tomorrow.

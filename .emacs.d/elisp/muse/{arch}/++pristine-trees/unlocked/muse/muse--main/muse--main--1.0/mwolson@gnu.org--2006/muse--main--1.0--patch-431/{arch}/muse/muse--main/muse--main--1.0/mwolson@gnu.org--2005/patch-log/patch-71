@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-71
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 22 03:02:58 EST 2005
+Standard-date: 2005-06-22 08:02:58 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-71
+Summary: Minor grammar fix in Introduction section of manual.
+Keywords: 
+
+* muse.texi (Introduction): Minor grammar fix.

@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-75
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Oct 18 19:28:54 EST 2005
+Standard-date: 2005-10-19 00:28:54 GMT
+Modified-files: ChangeLog.mwolson Makefile.defs
+    debian/changelog
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-75
+    sacha@free.net.ph--main/planner--dev--1.0--patch-490
+Summary: Minor update to Makefile.
+Keywords: 
+
+* Makefile.defs (VERSION): Update for recent Debian package.
+
+* changelog: Ditto.

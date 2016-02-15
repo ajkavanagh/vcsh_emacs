@@ -1,0 +1,17 @@
+Revision: planner-el--devel--0--patch-63
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun 29 23:31:22 EDT 2006
+Standard-date: 2006-06-30 03:31:22 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-63
+Summary: Really fix double-escaping issue and protect task/note content.
+Keywords: 
+
+* planner-publish.el (planner-publish-markup-task): Remove bad patch.
+  Protect the task description from closing tags.
+  (planner-publish-markup-note): Protect the note content from closing
+  tags.
+  (planner-publish-task-tag): Remove bad patch.  Remove read-only
+  properties from task description so that it gets interpreted by Muse.
+  (planner-publish-note-tag): Remove read-only properties.

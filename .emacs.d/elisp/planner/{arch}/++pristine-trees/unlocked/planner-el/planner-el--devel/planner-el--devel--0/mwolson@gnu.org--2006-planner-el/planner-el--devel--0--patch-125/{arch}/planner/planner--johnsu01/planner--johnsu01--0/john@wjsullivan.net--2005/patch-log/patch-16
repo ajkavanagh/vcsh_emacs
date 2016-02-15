@@ -1,0 +1,10 @@
+Revision: planner--johnsu01--0--patch-16
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Thu Aug 18 01:55:06 EDT 2005
+Standard-date: 2005-08-18 05:55:06 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-16
+Summary: Change name of node and menu item from Changing Tasks to Modifying tasks, since Changing Tasks has other meanings in the context of workflow and timeclock. Add some helpful related index entries.
+Keywords: 
+

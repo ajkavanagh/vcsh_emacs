@@ -1,0 +1,26 @@
+Revision: muse--main--1.0--patch-346
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun 12 22:11:33 EDT 2007
+Standard-date: 2007-06-13 02:11:33 GMT
+Modified-files: ChangeLog etc/IDEAS.muse lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-346
+Summary: muse-latex: Install changes to publish slides and lecture notes
+Keywords: 
+
+2007-06-12  Michael Olson  <mwolson@gnu.org>
+
+	* etc/IDEAS.muse: Slides publishing has been installed.
+
+	* lisp/muse-latex.el (muse-latex-slides-header): New option that
+	determines the header to use for publishing slides.
+	(muse-latex-lecture-notes-header): New option that determines the
+	header to use for publishing lecture notes.
+	(muse-latex-slides-markup-tags): New option containing tags to use
+	when publishing slides.
+	(muse-latex-permit-contents-tag): Move higher in file.
+	(muse-latex-slide-tag): New function to publish the <slide> tag.
+	("slides", "slides-pdf"): New publishing styles that create slides
+	using Beamer.
+	("lecture-notes", "lecture-notes-pdf"): New publishing styles that
+	create lecture notes using Beamer.

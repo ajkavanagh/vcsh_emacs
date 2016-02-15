@@ -1,0 +1,20 @@
+Revision: planner--mwolson--1.0--patch-9
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 25 01:32:48 EST 2005
+Standard-date: 2005-06-25 06:32:48 GMT
+Modified-files: planner-diary.el planner-rss.el planner.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-9
+Summary: Use `planner-current-file' to get around the temp file issue.
+Keywords: 
+
+* planner.el (planner-current-file): New function that returns the name
+  of the file that is currently being published.  Make sure you use this
+  instead of `buffer-file-name' if your routine is called at
+  publish-time.  For safety, this makes sure that
+  `emacs-wiki-current-file' is bound and not null before using it; falls
+  back on the value of the `buffer-file-name' variable.
+
+* planner-diary.el (planner-diary-get-name): Use `planner-current-file'.
+
+* planner-rss.el (planner-rss-limit): Ditto.

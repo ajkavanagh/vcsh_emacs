@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-109
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Nov 22 15:20:14 EST 2005
+Standard-date: 2005-11-22 20:20:14 GMT
+Modified-files: ChangeLog
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-109
+Summary: planner-multi: Apply replan-task improvement from Seth Falcon.
+Keywords: 
+
+* planner-multi.el (planner-multi-replan-task): Apply patch from Seth
+  Falcon.

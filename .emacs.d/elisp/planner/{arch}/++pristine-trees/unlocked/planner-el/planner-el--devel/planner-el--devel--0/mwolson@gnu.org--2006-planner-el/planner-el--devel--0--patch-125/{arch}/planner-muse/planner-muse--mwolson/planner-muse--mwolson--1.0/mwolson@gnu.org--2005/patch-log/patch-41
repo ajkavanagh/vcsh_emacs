@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-41
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 27 16:26:24 EST 2005
+Standard-date: 2005-07-27 21:26:24 GMT
+Modified-files: ChangeLog.mwolson planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-41
+Summary: planner-multi: remember + note fix.
+Keywords: 
+
+* planner.el (planner-current-note-info): Apply patch from Sven
+  Kloppenburg, 1 changed line.

@@ -1,0 +1,26 @@
+Revision: planner--dev--1.0--patch-467
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Aug  6 00:01:03 EDT 2005
+Standard-date: 2005-08-06 04:01:03 GMT
+Modified-files: planner-timeclock-summary.el
+    planner-timeclock.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-467
+Summary: Bugfix: planner-timeclock should always work within Planner context to properly deal with some tasks
+Keywords: 
+
+* planner-timeclock-summary.el (planner-timeclock-summary-extract-data):
+  Ensure Planner context. This solves the planner-multi problem with
+  numbered pages reported by Karen Cooke.
+
+* planner-timeclock.el (planner-timeclock-task-info): Make sure this is
+  always evaluated within the Planner context.
+
+* planner.el (planner-find-task-basic): Anchor regular expression at start of string.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

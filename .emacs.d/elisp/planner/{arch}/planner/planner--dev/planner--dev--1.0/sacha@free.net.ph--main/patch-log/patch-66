@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-66
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon May  3 10:03:19 PHT 2004
+Standard-date: 2004-05-03 02:03:19 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-66
+Summary: Bugfix: planner-save-buffers problem with planner-id updates
+Keywords: 
+
+	* planner.el (planner-save-buffers): Try to fix problem with M-x
+	plan rollover to new day by iterating over the buffer list instead
+	of using save-buffers. Bug reported by Win Treese.
+

@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-31
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr 25 23:23:08 EDT 2006
+Standard-date: 2006-04-26 03:23:08 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-31
+    mwolson@gnu.org--2006/planner--main--1.0--patch-35
+Summary: Merged from mwolson@gnu.org--2006 (patch 35)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-35
+   Use h2, h3, ... for headings.

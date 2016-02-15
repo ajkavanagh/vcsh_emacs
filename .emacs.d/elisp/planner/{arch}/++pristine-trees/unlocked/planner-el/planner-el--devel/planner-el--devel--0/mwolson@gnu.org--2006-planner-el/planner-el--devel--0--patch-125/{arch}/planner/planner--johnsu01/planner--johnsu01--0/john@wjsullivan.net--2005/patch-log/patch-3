@@ -1,0 +1,13 @@
+Revision: planner--johnsu01--0--patch-3
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Mon Apr 18 02:49:41 EDT 2005
+Standard-date: 2005-04-18 06:49:41 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-3
+Summary: planner-el.texi (Diary): Corrected instructions for showing
+	diary entries for multiple days. Replaced @code's with @var
+	where appropriate.
+
+Keywords: 
+

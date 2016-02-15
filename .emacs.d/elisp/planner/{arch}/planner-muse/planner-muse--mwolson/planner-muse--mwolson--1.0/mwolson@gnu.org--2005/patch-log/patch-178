@@ -1,0 +1,16 @@
+Revision: planner-muse--mwolson--1.0--patch-178
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 13 12:00:44 EST 2006
+Standard-date: 2006-01-13 17:00:44 GMT
+Modified-files: AUTHORS planner-rmail.el planner-rss.el
+    planner-schedule.el planner-tasks-overview.el
+    planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-unix-mail.el planner-vm.el
+    planner-w3m.el planner-wl.el planner-xtla.el planner.el
+    planner2diary.py
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-178
+Summary: Progress: planner.el (2005)
+Keywords: 
+

@@ -1,0 +1,24 @@
+Revision: muse--jeho--1.0--patch-19
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Dec  1 12:46:39 GMT 2005
+Standard-date: 2005-12-01 12:46:39 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-colors.el
+    lisp/muse-latex2png.el lisp/muse-mode.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-19
+    mwolson@gnu.org--2005/muse--main--1.0--patch-280
+    mwolson@gnu.org--2005/muse--main--1.0--patch-281
+    mwolson@gnu.org--2005/muse--main--1.0--patch-282
+Summary: Merged from mwolson@gnu.org--2005 (patch 280-282)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-280
+   muse-latex2png: XEmacs compatibility.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-281
+   muse-colors: Add faces for all 3 levels of emphasis.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-282
+   muse-mode: Handle case where we visit an anchor-only link.

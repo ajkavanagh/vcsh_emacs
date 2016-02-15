@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-424
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jun 22 11:14:43 PHT 2005
+Standard-date: 2005-06-22 03:14:43 GMT
+Modified-files: ChangeLog planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-424
+Summary: Bugfix: planner-gnus-browse-url and long grou pnames
+Keywords: 
+
+* planner-gnus.el (planner-gnus-browse-url): Merge patch from Toby
+  Allsopp to fix case where gnus-registry-use-long-group-names is
+  non-nil.

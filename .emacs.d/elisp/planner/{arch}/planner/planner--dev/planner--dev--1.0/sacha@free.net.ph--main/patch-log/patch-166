@@ -1,0 +1,29 @@
+Revision: planner--dev--1.0--patch-166
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Sep 21 20:01:34 JST 2004
+Standard-date: 2004-09-21 11:01:34 GMT
+Modified-files: planner.el
+New-patches: mwolson@member.fsf.org--2004/planner--mwolson--1.0--base-0
+    mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-2
+    mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-3
+    mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-5
+    sacha@free.net.ph--main/planner--dev--1.0--patch-166
+Summary: Sync with planner--mwolson--1.0--patch-5
+Keywords: 
+
+Patches applied:
+
+ * mwolson@member.fsf.org--2004/planner--mwolson--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-161
+
+ * mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-2
+   Make project name customizable, fix spurious newlines in notes
+
+ * mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-3
+   Replace `.' with `\\.' in some regexps to be more correct
+
+ * mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-5
+   Fix scenario where the old project name still existed in project
+  list after being changed.
+

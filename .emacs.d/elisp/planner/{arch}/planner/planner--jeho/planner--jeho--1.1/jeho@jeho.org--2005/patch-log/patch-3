@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.1--patch-3
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Oct 16 16:25:24 BST 2005
+Standard-date: 2005-10-16 15:25:24 GMT
+Modified-files: planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-3
+Summary: planner-multi.el
+Keywords: 
+
+* planner-multi.el (planner-multi-task-string): applied patch to make
+  link formatting work correctly
+

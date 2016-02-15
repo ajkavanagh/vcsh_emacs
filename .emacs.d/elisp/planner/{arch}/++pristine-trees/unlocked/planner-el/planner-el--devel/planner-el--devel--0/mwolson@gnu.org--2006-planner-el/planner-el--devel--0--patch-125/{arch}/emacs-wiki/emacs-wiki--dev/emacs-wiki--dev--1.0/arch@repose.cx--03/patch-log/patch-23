@@ -1,0 +1,27 @@
+Revision: emacs-wiki--dev--1.0--patch-23
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Fri Aug  1 01:56:50 EST 2003
+Standard-date: 2003-07-31 15:56:50 GMT
+Summary: improved rename handling; markup hidden text
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-23
+Removed-patches: 
+
+(emacs-wiki-rename-link-at-point) now understands [[extendedLinks]]
+and will automatically make an extended link if the new name you
+provide isn't a valid wiki name in itself.
+
+(emacs-wiki-highlight-link) marks the hidden [[ ]] characters up in
+the relevant face, since emacs sometimes positions point on them even
+though they're intangible (such as after font-locking). this fixes
+some problems that you can run into when toggling font-lock off and
+on at the start of a link.

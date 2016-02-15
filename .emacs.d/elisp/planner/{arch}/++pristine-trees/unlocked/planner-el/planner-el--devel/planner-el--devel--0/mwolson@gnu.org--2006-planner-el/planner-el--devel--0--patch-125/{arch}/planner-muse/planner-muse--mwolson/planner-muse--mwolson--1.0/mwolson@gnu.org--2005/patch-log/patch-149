@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-149
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  2 18:31:02 EST 2006
+Standard-date: 2006-01-02 23:31:02 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-149
+Summary: planner-publish: Try to fix paragraph error.
+Keywords: 
+
+* planner-publish.el (planner-publish-section-tag): Attempt to fix a
+  paragraph markup error.

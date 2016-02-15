@@ -1,0 +1,19 @@
+Revision: planner-muse--mwolson--1.0--patch-29
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 13 20:13:58 EST 2005
+Standard-date: 2005-07-14 01:13:58 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-28
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-29
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-29
+Summary: Merged from hodique@lifl.fr--2005 (patch 28-29)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-28
+   Merged from mwolson@gnu.org--2005 (patch 25-26), sacha@free.net.ph--main (patch 447-449)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-29
+   Fix bug #2638 : Extra set of brackets around page references in newly-created tasks

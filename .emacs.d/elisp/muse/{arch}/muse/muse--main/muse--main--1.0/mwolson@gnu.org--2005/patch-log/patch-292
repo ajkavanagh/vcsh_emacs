@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-292
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Dec 12 19:04:50 EST 2005
+Standard-date: 2005-12-13 00:04:50 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-292
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-28
+Summary: Merged from muse--rel--3.02 (patch 28)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-28
+   muse-project: Deal with edge case.

@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-72
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed May  5 00:29:18 PHT 2004
+Standard-date: 2004-05-04 16:29:18 GMT
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-72
+Summary: planner.texi: Getting started section: tasks fleshed out
+Keywords: 
+
+
+	* planner.texi: Patch is very ugly, sorry. Must break documentation
+        changes down even smaller, but got carried away.
+        (Top): Sentence-case descriptions, some changes.
+	(Preface): Remove apology.
+	(Introduction): Move description here instead of Preface. Collapse
+	history.
+	(Getting Started): Major rewrite.
+	(Thoughts): New. Move essays under here, near the end.
+        

@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-184
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan 16 20:16:25 EST 2006
+Standard-date: 2006-01-17 01:16:25 GMT
+Modified-files: planner-el.texi planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-184
+Summary: Release Planner 3.40.
+Keywords: 
+
+* planner-el.texi (Installing from a Source Archive) 
+  (Installing from Arch, Installing from Debian): Update.

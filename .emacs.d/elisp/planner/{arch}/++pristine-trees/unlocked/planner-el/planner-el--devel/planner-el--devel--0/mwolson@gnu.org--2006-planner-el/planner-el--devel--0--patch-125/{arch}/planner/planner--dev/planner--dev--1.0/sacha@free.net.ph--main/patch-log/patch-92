@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-92
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed May 26 22:30:56 PHT 2004
+Standard-date: 2004-05-26 14:30:56 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-92
+Summary: Bugfix: planner-diary-get-diary-entries should return "No entries"
+Keywords: bugfix
+
+	* planner-diary.el (planner-diary-get-diary-entries): Return "No
+	entries" if diary returns no entries. Returning an empty string
+        screws up lisp tags.

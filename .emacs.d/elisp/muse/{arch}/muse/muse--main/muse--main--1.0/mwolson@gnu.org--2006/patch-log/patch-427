@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-427
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 29 21:07:58 EDT 2007
+Standard-date: 2007-07-30 01:07:58 GMT
+Modified-files: lisp/muse-book.el lisp/muse-publish.el
+    lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-427
+Summary: Make writing output files go faster, and do not trigger any other modes
+Keywords: 
+
+* lisp/muse-book.el (muse-book-publish): Use muse-write-file.  Only
+  display the success message if the write succeeded.
+
+* lisp/muse-publish.el (muse-publish-file): Use muse-write-file.  Only
+  run the :final hooks if the write succeeded.
+
+* lisp/muse.el (muse-with-temp-buffer): Put error message on separate
+  line for readability.
+  (muse-write-file): New function that writes the current buffer to the
+  given file, without trying to visit it, backing it up, or triggering
+  vc.el.

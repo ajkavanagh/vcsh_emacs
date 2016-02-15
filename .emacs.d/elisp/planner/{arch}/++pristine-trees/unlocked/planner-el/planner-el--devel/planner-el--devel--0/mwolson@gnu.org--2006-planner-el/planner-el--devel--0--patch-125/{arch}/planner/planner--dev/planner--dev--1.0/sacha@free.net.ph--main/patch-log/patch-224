@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-224
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Dec  8 19:32:48 JST 2004
+Standard-date: 2004-12-08 10:32:48 GMT
+New-files: .arch-ids/planner-deadline.el.id
+    planner-deadline.el
+Modified-files: ChangeLog
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-224
+Summary: planner-deadline: Preliminary implementation
+Keywords: new feature
+
+	* planner-deadline.el: Preliminary implementation.
+        Rewrites tasks with deadline information.

@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-97
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  6 17:42:35 EST 2005
+Standard-date: 2005-07-06 22:42:35 GMT
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+    lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-97
+Summary: New function: muse-blosxom-project-alist-entry.
+Keywords: 
+
+* examples/mwolson/muse-init.el: Update from my latest settings.
+  (muse-project-alist): Make use of `muse-blosxom-project-alist-entry'.
+
+* lisp/muse-blosxom.el (muse-blosxom-project-alist-entry): New function
+  that generates the latter part of an entry for `muse-project-alist'.
+

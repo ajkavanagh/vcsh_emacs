@@ -1,0 +1,31 @@
+Revision: muse-el--devel--0--patch-101
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 01:48:57 EDT 2006
+Standard-date: 2006-10-15 05:48:57 GMT
+Modified-files: ChangeLog NEWS lisp/muse-groff.el
+    lisp/muse-html.el lisp/muse-journal.el
+    lisp/muse-latex2png.el lisp/muse-poem.el
+    lisp/muse-publish.el muse.texi
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-62
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-101
+    mwolson@gnu.org--2006/muse--main--1.0--patch-212
+    mwolson@gnu.org--2006/muse--main--1.0--patch-213
+    mwolson@gnu.org--2006/muse--main--1.0--patch-214
+Summary: Partial merge from muse--main--1.0
+Keywords: 
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-62
+   Update NEWS for release.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-212
+   Update NEWS for 3.02.7 bugfix release.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-213
+   Update NEWS for 3.02.6 release
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-214
+   Initial implementation of nested tag support
+

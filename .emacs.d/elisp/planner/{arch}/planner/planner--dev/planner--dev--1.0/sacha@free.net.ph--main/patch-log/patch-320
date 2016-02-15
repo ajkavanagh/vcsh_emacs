@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-320
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb  9 00:24:47 JST 2005
+Standard-date: 2005-02-08 15:24:47 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-320
+Summary: Fix: planner-menu should use planner-el info file
+Keywords: 
+
+* planner.el (planner-menu): Use new Planner info file name
+planner-el. Thanks to Raymond Zeitler for the bug report.
+
+

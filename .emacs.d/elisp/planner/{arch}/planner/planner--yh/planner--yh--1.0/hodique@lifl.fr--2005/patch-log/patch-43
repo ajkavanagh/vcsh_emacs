@@ -1,0 +1,52 @@
+Revision: planner--yh--1.0--patch-43
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Aug 22 13:22:54 CEST 2005
+Standard-date: 2005-08-22 11:22:54 GMT
+Modified-files: ChangeLog.yh planner-appt.el planner-el.texi
+    planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-43
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-14
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-15
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-16
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-17
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-18
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+    sacha@free.net.ph--main/planner--dev--1.0--patch-471
+    sacha@free.net.ph--main/planner--dev--1.0--patch-472
+    sacha@free.net.ph--main/planner--dev--1.0--patch-473
+    sacha@free.net.ph--main/planner--dev--1.0--patch-474
+Summary: Merged from john@wjsullivan.net--2005 (patch 14-19), sacha@free.net.ph--main (patch 471-474)
+Keywords: merge
+
+Patches applied:
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-14
+   Catch up with Sacha. Fix typ-o.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-15
+   Catch up with Sacha.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-16
+   Change name of node and menu item from Changing Tasks to Modifying tasks, since Changing Tasks has other meanings in the context of workflow and timeclock. Add some helpful related index entries.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-17
+   Corrected installation instructions for registering and pulling from the tla emacs-wiki archive. We were still saying 2004, should be 2005.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-18
+   Fixed pxref in <tasks> node. Fleshed out and added cindex entries around it.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+   Get the mwolson archive address right, for real.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-471
+   Bugfix: with-planner: Defer evaluation of planner-derived-mode-p
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-472
+   Bugfix: with-planner-update-setup: Save current window point as well
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-473
+   Catch up with john@wjsullivan.net--2005/planner--johnsu01--0--patch-19
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-474
+   Bugfix: planner-appt-mark-calendar shouldn't call planner-appt-filename-to-date

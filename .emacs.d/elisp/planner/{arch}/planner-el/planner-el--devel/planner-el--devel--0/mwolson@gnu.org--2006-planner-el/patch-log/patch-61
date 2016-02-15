@@ -1,0 +1,11 @@
+Revision: planner-el--devel--0--patch-61
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 28 23:30:57 EDT 2006
+Standard-date: 2006-06-29 03:30:57 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-61
+Summary: planner-publish: Fix double-escaping of task descriptions.
+Keywords: 
+
+* planner-publish.el (planner-publish-task-tag): Fix double-escaping bug.

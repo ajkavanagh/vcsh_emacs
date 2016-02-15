@@ -1,0 +1,44 @@
+Revision: planner--jeho--1.0--patch-54
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Apr  1 17:45:53 BST 2005
+Standard-date: 2005-04-01 16:45:53 GMT
+Modified-files: ChangeLog PLANNER-README planner-id.el
+    planner-multi.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-54
+    sacha@free.net.ph--main/planner--dev--1.0--patch-355
+    sacha@free.net.ph--main/planner--dev--1.0--patch-356
+    sacha@free.net.ph--main/planner--dev--1.0--patch-357
+    sacha@free.net.ph--main/planner--dev--1.0--patch-358
+    sacha@free.net.ph--main/planner--dev--1.0--patch-359
+    sacha@free.net.ph--main/planner--dev--1.0--patch-360
+    sacha@free.net.ph--main/planner--dev--1.0--patch-361
+    sacha@free.net.ph--main/planner--dev--1.0--patch-362
+Summary: merge latest 
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-355
+   New options: planner-default-section, planner-sections
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-356
+   planner-multi-filter-links makes planner-create-task-from-info better at overriding dates
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-357
+   planner-read-date: save and restore calendar mode map
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-358
+   planner-multi: Sane completing read in XEmacs
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-359
+   planner-multi: planner-replan-note: properly cross-reference single-page entries
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-360
+   planner-expand-name: Fix day offset
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-361
+   planner-id-find-task bugfix: Stop at first task found
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-362
+   planner-multi: planner-copy-or-move-task: Unschedule tasks properly even if the date is escaped

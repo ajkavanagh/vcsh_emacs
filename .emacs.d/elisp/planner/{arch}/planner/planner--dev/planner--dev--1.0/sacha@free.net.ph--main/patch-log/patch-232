@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-232
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Dec 15 13:02:19 JST 2004
+Standard-date: 2004-12-15 04:02:19 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-232
+Summary: Bugfix: planner-mark-task Emacs CVS-ism
+Keywords: bugfix cvs
+
+	* planner.el (planner-mark-task): Fix Emacs CVS-ism in
+        skip-chars-forward. Thanks to John Sullivan for pointing it
+        out.

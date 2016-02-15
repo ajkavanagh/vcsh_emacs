@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-13
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar  3 14:36:31 EST 2006
+Standard-date: 2006-03-03 19:36:31 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-13
+    mwolson@gnu.org--2006/muse--main--1.0--patch-41
+Summary: Merged from mwolson@gnu.org--2006 (patch 41)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-41
+   Fix nested list regression.

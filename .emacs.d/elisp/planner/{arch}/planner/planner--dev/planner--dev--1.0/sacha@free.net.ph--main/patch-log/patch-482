@@ -1,0 +1,21 @@
+Revision: planner--dev--1.0--patch-482
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Aug 31 09:23:58 EDT 2005
+Standard-date: 2005-08-31 13:23:58 GMT
+Modified-files: planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-482
+Summary: Bugfix: planner-multi-task-xref: Use planner-replan-task
+Keywords: 
+
+* planner-multi.el (planner-task-info-from-string): Always add current
+  page to link list. This should simplify case for planner-multi.
+  (planner-multi-task-xref): Rewrite to use planner-replan-task. This
+  should fix the bug reported by Paul Lussier.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

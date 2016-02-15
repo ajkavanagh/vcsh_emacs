@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-343
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun 12 00:02:52 EDT 2007
+Standard-date: 2007-06-12 04:02:52 GMT
+Modified-files: ChangeLog lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-343
+Summary: No, we really did need the auto-mode-alist part at top-level
+Keywords: 
+
+2007-06-12  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse.el: Re-add the auto-mode-alist part to top-level,
+	since otherwise Planner is not happy when `plan' is called during
+	init.  Remove stray quote from autoload snippet.

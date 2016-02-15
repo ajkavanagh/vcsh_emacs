@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-35
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Apr  1 10:34:56 EST 2006
+Standard-date: 2006-04-01 15:34:56 GMT
+Modified-files: ChangeLog.2006 debian/rules
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-35
+    mwolson@gnu.org--2006/muse--main--1.0--patch-81
+Summary: Merged from mwolson@gnu.org--2006 (patch 81)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-81
+   debian: Install ChangeLog properly.

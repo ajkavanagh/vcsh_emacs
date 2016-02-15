@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-4
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Sat Jan  1 19:02:15 EST 2005
+Standard-date: 2005-01-02 00:02:15 GMT
+New-files: .arch-ids/ChangeLog.id ChangeLog
+Renamed-files: .arch-ids/ChangeLog.id .arch-ids/ChangeLog.2004.id
+    ChangeLog ChangeLog.2004
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-4
+Summary: Rotate ChangeLog
+Keywords: 
+
+2005-01-01  Michael Olson  <mwolson@gnu.org>
+
+    * ChangeLog: Move old ChangeLog to ChangeLog.2004.  This new
+    version will be automatically maintained by Arch.
+

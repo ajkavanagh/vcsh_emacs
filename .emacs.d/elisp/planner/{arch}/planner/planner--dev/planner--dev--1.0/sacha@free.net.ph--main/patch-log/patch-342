@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-342
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 10 17:50:33 PHT 2005
+Standard-date: 2005-03-10 09:50:33 GMT
+Modified-files: ChangeLog planner-trunk.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-342
+Summary: planner-trunk.el docfixes: not just for day page
+Keywords: 
+
+* planner-trunk.el: Docfix. planner-trunk not just for day page.
+  (planner-trunk-delete-non-task-lines): Docfix: commented-out alternative
+  was buggy.

@@ -1,0 +1,54 @@
+Revision: planner-muse--mwolson--1.0--patch-14
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 25 00:44:39 EST 2005
+Standard-date: 2005-06-25 05:44:39 GMT
+Modified-files: ChangeLog.mwolson planner-appt.el
+    planner-authz.el planner-bibtex.el planner-calendar.el
+    planner-deadline.el planner-el.texi
+    planner-experimental.el planner-gnus.el planner-id.el
+    planner-ledger.el planner-mhe.el planner-multi.el
+    planner-rank.el planner-rdf.el planner-report.el
+    planner-tasks-overview.el planner-timeclock-summary.el
+    planner-trunk.el planner-xtla.el planner.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--base-0
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-1
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-2
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-3
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-4
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-5
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-6
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-7
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-8
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-14
+Summary: Merged from mwolson@gnu.org--2005 (patch 0-8)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-267
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-1
+   Replace ChangeLog
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-2
+   sacha@free.net.ph--main (patch 268-429)
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-3
+   Don't pollute the XEmacs namespace.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-4
+   Use `planner-replace-regexp-in-string' for compat with Muse port.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-5
+   Put space in front of lists.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-6
+   Fix minor meaning change in `planner-report-find-tasks'.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-7
+   Use `planner-derived-mode-p' instead of `derived-mode-p'.
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-8
+   Use `planner-match-string-no-properties'.

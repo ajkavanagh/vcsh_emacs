@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-145
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jul 28 17:01:42 PHT 2004
+Standard-date: 2004-07-28 09:01:42 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-145
+Summary: New: planner-raise-task-category, planner-lower-task-category
+Keywords: feature
+
+	* planner.el (planner-menu): Change menu to use task categories
+	instead.
+
+	* planner.texi (List of Interactive Functions): Document
+	planner-raise-task-category, planner-lower-task-category.
+
+	* planner.el (planner-raise-task-category): New.
+	(planner-lower-task-category): New.

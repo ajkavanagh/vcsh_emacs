@@ -1,0 +1,24 @@
+Revision: planner--jeho--1.0--patch-5
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Feb 16 13:05:51 GMT 2005
+Standard-date: 2005-02-16 13:05:51 GMT
+Modified-files: planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-5
+Summary: fix handling of default in planner-multi-read-name
+Keywords: 
+
+* planner-multi.el (planner-multi-read-name): 
+
+Surprisingly, perhaps, (string= nil "nil") returns t.
+
+So when completing-read-multiple returns nil (i.e., default), the test
+for when the actual string "nil" has been entered at the prompt is also
+passed for nil as well. This modification tests for the nil case before
+the "nil" case, fixing the problem.
+
+
+
+
+
+

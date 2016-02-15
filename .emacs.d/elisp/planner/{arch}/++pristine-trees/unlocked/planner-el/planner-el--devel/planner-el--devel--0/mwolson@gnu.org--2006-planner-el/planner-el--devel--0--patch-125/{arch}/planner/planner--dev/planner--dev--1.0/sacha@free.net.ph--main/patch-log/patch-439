@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-439
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jul  1 11:50:19 PHT 2005
+Standard-date: 2005-07-01 03:50:19 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-439
+Summary: Bugfix: planner-lower-task: typo
+Keywords: 
+
+* planner.el (planner-lower-task): Fix typo. Thanks to Michael Olson for
+  the patch.
+

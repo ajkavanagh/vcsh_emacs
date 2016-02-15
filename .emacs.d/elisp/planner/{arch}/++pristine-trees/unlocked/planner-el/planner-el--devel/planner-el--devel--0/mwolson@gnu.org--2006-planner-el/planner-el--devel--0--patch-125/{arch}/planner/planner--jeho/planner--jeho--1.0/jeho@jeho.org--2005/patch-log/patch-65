@@ -1,0 +1,40 @@
+Revision: planner--jeho--1.0--patch-65
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Apr 29 12:59:22 BST 2005
+Standard-date: 2005-04-29 11:59:22 GMT
+Modified-files: ChangeLog planner-el.texi planner-gnus.el
+    planner-multi.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-65
+    sacha@free.net.ph--main/planner--dev--1.0--patch-385
+    sacha@free.net.ph--main/planner--dev--1.0--patch-386
+    sacha@free.net.ph--main/planner--dev--1.0--patch-387
+    sacha@free.net.ph--main/planner--dev--1.0--patch-388
+    sacha@free.net.ph--main/planner--dev--1.0--patch-389
+    sacha@free.net.ph--main/planner--dev--1.0--patch-390
+    sacha@free.net.ph--main/planner--dev--1.0--patch-391
+Summary: merget patches 385--391
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-385
+   Bugfix: Make planner-sort-tasks stop causing backtraces
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-386
+   Bugfix: planner-replan-note should properly add notes to non-wiki-named pages
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-387
+   Bugfix: planner-gnus-browse-url: Load group even if registry is not used
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-388
+   Tweak: planner-copy-or-move-region does not include last line if at start of line
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-389
+   Bugfix: planner-sort-tasks should use 5-arg sort-subr for older GNU Emacs
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-390
+   Bugfix: planner-sort-tasks: Remove non-fontification code
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-391
+   Sync with jeho: with-planner-update-setup returns value of body; planner-appt-task-appointments-section

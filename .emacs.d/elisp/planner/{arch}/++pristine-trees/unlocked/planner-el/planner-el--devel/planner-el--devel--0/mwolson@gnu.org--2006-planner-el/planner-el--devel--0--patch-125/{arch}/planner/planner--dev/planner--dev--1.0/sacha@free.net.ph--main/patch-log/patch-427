@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-427
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jun 22 22:03:02 PHT 2005
+Standard-date: 2005-06-22 14:03:02 GMT
+Modified-files: ChangeLog planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-427
+Summary: Embarrassing typo: Missing )
+Keywords: 
+
+* planner-gnus.el (planner-gnus-browse-url): Fix another embarrassing typo.
+

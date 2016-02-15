@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-136
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 13:49:56 EST 2005
+Standard-date: 2005-07-14 18:49:56 GMT
+Modified-files: ChangeLog Makefile Makefile.defs lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-136
+Summary: Customization error; Makefile tweaks.
+Keywords: 
+
+* Makefile (dist): Use a tla-specific method to create the tarball.
+  Create a zip file as well.
+  (upload): New rule that uploads the tarball and zip file to gna.org.
+
+* Makefile.defs (VERSION): New variable that determines the version
+  string to use in the `dist' and `upload' targets.
+
+* lisp/muse.el (muse-implicit-link-functions)
+  (muse-explicit-link-functions): Use :type of hook so that the options
+  get recognized.

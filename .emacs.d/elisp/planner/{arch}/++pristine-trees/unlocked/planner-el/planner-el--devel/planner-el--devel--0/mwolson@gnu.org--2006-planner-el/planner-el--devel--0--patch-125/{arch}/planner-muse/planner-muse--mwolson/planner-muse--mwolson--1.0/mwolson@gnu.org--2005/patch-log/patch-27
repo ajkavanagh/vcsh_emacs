@@ -1,0 +1,28 @@
+Revision: planner-muse--mwolson--1.0--patch-27
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 13 11:05:46 EST 2005
+Standard-date: 2005-07-13 16:05:46 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-multi.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-25
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-26
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-27
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-27
+    sacha@free.net.ph--main/planner--dev--1.0--patch-450
+Summary: Merged from hodique@lifl.fr--2005 (patch 25-27), sacha@free.net.ph--main (patch 450)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-25
+   Fix pages from planner-multi
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-26
+   Merged from mwolson@gnu.org--2005 (patch 23), sacha@free.net.ph--main (patch 446)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-27
+   Merged from mwolson@gnu.org--2005 (patch 24)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-450
+   planner-current-note-info: Be stricter with note links

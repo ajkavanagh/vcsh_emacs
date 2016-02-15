@@ -1,0 +1,13 @@
+Revision: muse--rel--3.02--patch-35
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 21:08:46 EST 2005
+Standard-date: 2005-12-17 02:08:46 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-35
+Summary: muse-colors: Fix QuickStart display bug.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-verbatim): Move past last delimiting
+  equal sign, since we don't need to look at the area in-between.  This
+  fixes a display bug involving =<verbatim><example></verbatim>=.

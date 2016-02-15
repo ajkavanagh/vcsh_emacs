@@ -1,0 +1,19 @@
+Revision: planner--yh--1.0--patch-6
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jun 18 18:35:34 CEST 2005
+Standard-date: 2005-06-18 16:35:34 GMT
+Modified-files: ChangeLog.yh planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-6
+Summary: Provide a string representation of index to solve the index publishing issue
+Keywords:
+
+* planner.el (planner-index-as-string): Generates an index for planner in
+  a string format. This solves the index publishing issue. If you want an
+  index for your pages, just put something like
+  <lisp>(planner-index-as-string t t)</lisp> somewhere in a page
+  (muse-index-as-string): planner-index-as-string uses this new function,
+  but it is not realeased as of version 3.0. Hack to be removed once muse
+  integrates its own version of muse-index-as-string
+  (planner-generate-index): make use of planner-index-as-string
+

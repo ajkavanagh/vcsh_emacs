@@ -1,0 +1,20 @@
+Revision: muse--rel--3.02--patch-56
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan 16 22:50:43 EST 2006
+Standard-date: 2006-01-17 03:50:43 GMT
+Renamed-files: debian/.arch-ids/NEWS.id debian/.arch-ids/NEWS.Debian.id
+    debian/NEWS debian/NEWS.Debian
+Modified-files: AUTHORS ChangeLog ChangeLog.main Makefile
+    Makefile.defs debian/changelog debian/copyright
+    debian/emacsen-install debian/emacsen-startup
+    debian/rules lisp/Makefile lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-354
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-56
+Summary: Merged from mwolson@gnu.org--2005 (patch 354)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-354
+   Post-release updates.

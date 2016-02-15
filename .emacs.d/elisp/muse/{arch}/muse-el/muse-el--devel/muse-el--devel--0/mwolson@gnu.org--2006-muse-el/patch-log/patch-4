@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-4
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Feb 27 23:45:53 EST 2006
+Standard-date: 2006-02-28 04:45:53 GMT
+Modified-files: ChangeLog.2006 debian/emacsen-remove
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-4
+    mwolson@gnu.org--2006/muse--main--1.0--patch-22
+    mwolson@gnu.org--2006/muse--main--1.0--patch-23
+Summary: Merged from mwolson@gnu.org--2006 (patch 22-23)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-22
+   Fix comment in Debian packaging.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-23
+   Fix another wrapped list item edge case.

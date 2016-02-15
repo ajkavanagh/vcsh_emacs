@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-45
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Feb 23 18:36:38 PHT 2004
+Standard-date: 2004-02-23 10:36:38 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-45
+Summary: Make planner-url a list of regular expressions
+Keywords: 
+
+	* planner.el (planner-url-list): Now a list of regular expressions
+	instead of strings.

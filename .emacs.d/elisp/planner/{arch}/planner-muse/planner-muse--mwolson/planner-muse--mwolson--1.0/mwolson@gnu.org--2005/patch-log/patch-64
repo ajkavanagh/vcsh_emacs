@@ -1,0 +1,20 @@
+Revision: planner-muse--mwolson--1.0--patch-64
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Sep  3 13:38:05 EST 2005
+Standard-date: 2005-09-03 18:38:05 GMT
+Modified-files: ChangeLog.mwolson planner-publish.el
+    planner-timeclock-summary.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-64
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-11
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-12
+Summary: Merged from saint@corenova.com--public-2005 (patch 11-12)
+Keywords: merge
+
+Patches applied:
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-11
+   Read-Only regions and Merged from mwolson@gnu.org--2005 (patch 54)
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-12
+   Merged from hodique@lifl.fr--2005 (patch 42-43), john@wjsullivan.net--2005 (patch 14-19), mwolson@gnu.org--2005 (patch 55-62), sacha@free.net.ph--main (patch 469-484)

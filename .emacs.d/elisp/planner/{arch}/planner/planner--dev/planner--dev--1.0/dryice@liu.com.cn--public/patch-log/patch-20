@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-20
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Mon Feb 28 17:40:11 CST 2005
+Standard-date: 2005-02-28 09:40:11 GMT
+Modified-files: planner-trunk.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-20
+Summary: merge Keith Amidon's bug fix and improvements
+Keywords: merge
+
+* planner-trunk.el (planner-trunk-delete-all-blank-lines): don't insert
+  new line at the end of buffer, they will be added in planner-trunk-do-trunk.
+  (planner-trunk-sort-tasks): be more lispy. New argument rule-list.
+  (planner-trunk-do-trunk): Fix infinite loop problem when there's no
+  tasks in the "* Tasks" section. New argument rule-list. Much more
+  concise code.
+  (planner-trunk-tasks): call planner-trunk-sort-tasks and
+  planner-trunk-do-trunk with arguments.
+

@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-34
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Apr  1 00:26:39 EST 2006
+Standard-date: 2006-04-01 05:26:39 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+    muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-34
+    mwolson@gnu.org--2006/muse--main--1.0--patch-79
+    mwolson@gnu.org--2006/muse--main--1.0--patch-80
+Summary: Merged from mwolson@gnu.org--2006 (patch 79-80)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-79
+   muse.texi: Move some sections to a new Extending Muse chapter.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-80
+   Fix a bug triggered by batch-publishing.

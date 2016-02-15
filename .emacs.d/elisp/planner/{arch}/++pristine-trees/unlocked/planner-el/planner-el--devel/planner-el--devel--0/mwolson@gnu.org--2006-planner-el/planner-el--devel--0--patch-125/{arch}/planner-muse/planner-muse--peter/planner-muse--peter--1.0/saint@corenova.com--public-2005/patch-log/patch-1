@@ -1,0 +1,17 @@
+Revision: planner-muse--peter--1.0--patch-1
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Mon Jul 25 11:08:09 EDT 2005
+Standard-date: 2005-07-25 15:08:09 GMT
+New-files: .arch-ids/planner-publish.el.id
+    planner-publish.el
+Modified-files: planner.el
+New-patches: saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-1
+Summary: planner publishing tree
+Keywords: planner publish muse split
+
+* planner.el: get rid of publishing specific code from planner.
+
+Added planner-publish.el which creates new Muse style for publishing
+planner specific files.
+

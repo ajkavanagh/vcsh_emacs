@@ -1,0 +1,20 @@
+Revision: muse--jeho--1.0--patch-15
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Nov 15 13:45:21 GMT 2005
+Standard-date: 2005-11-15 13:45:21 GMT
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    debian/rules lisp/muse-latex.el lisp/muse-project.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-15
+    mwolson@gnu.org--2005/muse--main--1.0--patch-266
+    mwolson@gnu.org--2005/muse--main--1.0--patch-267
+Summary: Merged from mwolson@gnu.org--2005 (patch 266-267)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-266
+   Call pdflatex a reasonable number of times.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-267
+   muse-latex: Fix "generation of PDF failed" message.

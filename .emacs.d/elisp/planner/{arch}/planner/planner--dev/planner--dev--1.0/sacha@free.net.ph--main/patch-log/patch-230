@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-230
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Dec 14 08:56:59 JST 2004
+Standard-date: 2004-12-13 23:56:59 GMT
+Modified-files: ChangeLog planner-log-edit.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-230
+Summary: planner-log-edit-quote-filenames-flag: New
+Keywords: external
+
+	* planner-log-edit.el: Merge and edit Dryice Liu's patch for
+	quoting filenames.
+	(planner-log-edit-quote-filenames-flag): New. Renamed from
+	planner-log-edit-quote-filenames in original patch in
+	order to pass checkdoc.
+	(planner-log-edit-quote-file-maybe): Changed implementation and
+	removed helper function.
+	(planner-log-edit-add-note): Guard against nil.

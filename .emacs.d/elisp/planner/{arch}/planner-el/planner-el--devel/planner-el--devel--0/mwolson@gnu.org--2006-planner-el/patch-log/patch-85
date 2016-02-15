@@ -1,0 +1,17 @@
+Revision: planner-el--devel--0--patch-85
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Sep 10 11:28:11 EDT 2006
+Standard-date: 2006-09-10 15:28:11 GMT
+Modified-files: ChangeLog planner-zoom.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-85
+Summary: planner-zoom: Fix error with file extensions.
+Keywords: 
+
+2006-09-10  Michael Olson  <mwolson@gnu.org>
+
+	* planner-zoom.el (planner-zoom-iup, planner-zoom-idown)
+	(planner-zoom-inext, planner-zoom-iprev): Use planner-page-name
+	instead of buffer-name.  This fixes a match-string error, and
+	makes things work when you have muse-file-extension set to
+	something.

@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-45
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 16 00:01:54 EDT 2006
+Standard-date: 2006-06-16 04:01:54 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-45
+    mwolson@gnu.org--2006/planner--main--1.0--patch-58
+Summary: Merged from mwolson@gnu.org--2006 (patch 58)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-58
+   Spot check documentation through planner-gnus.el.

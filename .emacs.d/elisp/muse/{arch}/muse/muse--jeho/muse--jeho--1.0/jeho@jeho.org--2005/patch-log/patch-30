@@ -1,0 +1,20 @@
+Revision: muse--jeho--1.0--patch-30
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Aug  9 16:09:46 BST 2006
+Standard-date: 2006-08-09 15:09:46 GMT
+Modified-files: lisp/muse-html.el lisp/muse-publish.el
+    lisp/muse.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-30
+    mwolson@gnu.org--2006/muse--main--1.0--patch-179
+    mwolson@gnu.org--2006/muse--main--1.0--patch-180
+Summary: Merged from mwolson@gnu.org--2006 (patch 179-180)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-179
+   Try to fix image centering with long captions issue.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-180
+   Trim whitespace from table fields.

@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-112
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 23 01:08:47 EST 2005
+Standard-date: 2005-11-23 06:08:47 GMT
+Modified-files: ChangeLog planner-trunk.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-112
+Summary: planner-trunk: Use correct regexp and don't hardcode "Tasks" string.
+Keywords: 
+
+* planner-trunk.el: Apply patch from Sergey Vlasov.
+  (planner-trunk-rule-list): Use correct syntax in regexp.
+  (planner-trunk-tasks): Don't use the hardcoded "Tasks" string.

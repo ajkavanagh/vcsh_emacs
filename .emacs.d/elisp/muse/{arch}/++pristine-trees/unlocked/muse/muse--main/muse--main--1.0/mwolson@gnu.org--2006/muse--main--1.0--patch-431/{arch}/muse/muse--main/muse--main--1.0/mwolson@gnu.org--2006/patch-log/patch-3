@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-3
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 20 11:22:04 EST 2006
+Standard-date: 2006-01-20 16:22:04 GMT
+Modified-files: lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-3
+Summary: Create parents of output directories.
+Keywords: 
+
+* lisp/muse-project.el (muse-project-publish-file): Create parent
+  directories as well, if the output directory does not exist.  This can
+  happen when we have nested directories in a project.

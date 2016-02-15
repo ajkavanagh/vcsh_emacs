@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-22
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Apr 11 14:37:22 PHT 2004
+Standard-date: 2004-04-11 06:37:22 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-22
+Summary: Enhancement: Always create planner-directory
+Keywords: 
+
+	* planner.el (planner-find-file): Always create planner-directory.
+	(planner-goto): Call planner-find-file.
+

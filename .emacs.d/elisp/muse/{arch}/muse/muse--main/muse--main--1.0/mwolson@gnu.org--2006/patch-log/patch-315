@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-315
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu May 24 17:31:14 EDT 2007
+Standard-date: 2007-05-24 21:31:14 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-315
+Summary: muse-publish: Docfix for last patch
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-attribute): Mention that the
+  BEG argument is modified.  Surprises are bad.

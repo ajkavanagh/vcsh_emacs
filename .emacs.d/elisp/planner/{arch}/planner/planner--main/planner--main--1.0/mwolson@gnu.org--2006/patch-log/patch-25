@@ -1,0 +1,17 @@
+Revision: planner--main--1.0--patch-25
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar 27 18:52:31 EST 2006
+Standard-date: 2006-03-27 23:52:31 GMT
+Modified-files: planner-erc.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-25
+Summary: planner-erc: Improve greatly.
+Keywords: 
+
+* planner-erc.el: Update the syntax for IRC URLs.  Add warning for users
+  of old versions of ERC.
+  (planner-erc-url-regexp): New variable that specifies the syntax of IRC
+  URLs.
+  (planner-erc-annotation-from-erc): Use `erc-server-announced-name'.
+  (planner-erc-browse-url): Figure out the desired chat buffer.  If no
+  chat buffer exists for the given URL, connect to the server.

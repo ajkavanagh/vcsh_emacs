@@ -1,0 +1,244 @@
+Revision: planner-muse--mwolson--1.0--patch-3
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 20 23:54:07 EST 2005
+Standard-date: 2005-05-21 04:54:07 GMT
+New-files: .arch-ids/planner-psvn.el.id planner-psvn.el
+Modified-files: ChangeLog planner-appt.el
+    planner-bookmark.el planner-diary.el planner-el.texi
+    planner-gnus.el planner-id.el planner-multi.el
+    planner-rank.el planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-vm.el planner.el
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-5
+Modified-directories: {arch}/planner/planner--dev-kea
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0/camalot@picnicpark.org--2005-planner
+    {arch}/planner/planner--dev-kea/planner--dev-kea--1.0/camalot@picnicpark.org--2005-planner/patch-log
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-33
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-34
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-35
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-36
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-37
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-38
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-57
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-58
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-59
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-60
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-61
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-62
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-63
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-64
+    john@wjsullivan.net--2005/planner--johnsu01--0--base-0
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-1
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-2
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-3
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-3
+    sacha@free.net.ph--main/planner--dev--1.0--patch-367
+    sacha@free.net.ph--main/planner--dev--1.0--patch-368
+    sacha@free.net.ph--main/planner--dev--1.0--patch-369
+    sacha@free.net.ph--main/planner--dev--1.0--patch-370
+    sacha@free.net.ph--main/planner--dev--1.0--patch-371
+    sacha@free.net.ph--main/planner--dev--1.0--patch-372
+    sacha@free.net.ph--main/planner--dev--1.0--patch-373
+    sacha@free.net.ph--main/planner--dev--1.0--patch-374
+    sacha@free.net.ph--main/planner--dev--1.0--patch-375
+    sacha@free.net.ph--main/planner--dev--1.0--patch-376
+    sacha@free.net.ph--main/planner--dev--1.0--patch-377
+    sacha@free.net.ph--main/planner--dev--1.0--patch-378
+    sacha@free.net.ph--main/planner--dev--1.0--patch-379
+    sacha@free.net.ph--main/planner--dev--1.0--patch-380
+    sacha@free.net.ph--main/planner--dev--1.0--patch-381
+    sacha@free.net.ph--main/planner--dev--1.0--patch-382
+    sacha@free.net.ph--main/planner--dev--1.0--patch-383
+    sacha@free.net.ph--main/planner--dev--1.0--patch-385
+    sacha@free.net.ph--main/planner--dev--1.0--patch-386
+    sacha@free.net.ph--main/planner--dev--1.0--patch-387
+    sacha@free.net.ph--main/planner--dev--1.0--patch-388
+    sacha@free.net.ph--main/planner--dev--1.0--patch-389
+    sacha@free.net.ph--main/planner--dev--1.0--patch-390
+    sacha@free.net.ph--main/planner--dev--1.0--patch-391
+    sacha@free.net.ph--main/planner--dev--1.0--patch-396
+Summary: Merge massively from sacha/367 to sacha/396, with some omissions.
+Keywords: 
+
+I ran "tla changes emacs-wiki--dev--1.0--patch-366" while in the
+directory containing the emacs-wiki--dev--1.0 tree so that I could get a
+cumulative patch of all the changes from patch-366 to the present.  I
+merged in as much as I could.
+
+It seemed that the file permissions changed to 644 recently for files in
+the planner archive, so I followed suit.
+
+It is hoped that this effort will help Sacha keep the Muse port of
+Planner current :^) .  I haven't yet tested these changes; I should do
+that soon.
+
+Patches that did not (fully) apply:
+
+ * patch-384 [Improve support for putting files in subdirectories]:
+   (planner-list-daily-files): This version was significantly different
+   in the Muse version, so I wasn't sure whether or not the fix was
+   applicable.
+
+   (planner-extract-tasks): Ditto.
+
+   (planner-search-notes-internal): Ditto.
+
+   (planner-past-notes-tag): This one applied cleanly.
+
+ * patch-392, patch-393, patch-394, patch-395: I applied the
+   documentation fixes.
+
+   (planner-list-unfinished-tasks, planner-file-alist,
+   planner-search-internal, planner-list-tasks-with-status): The
+   cumulative patch did not apply cleanly, so these functions were left
+   unaltered.
+
+   (planner-past-notes-tag): The changes for this applied correctly.
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-33
+   Merge patch 345-352 from Sacha
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-34
+   merge patch 353-367 from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-35
+   speed up planner-rank
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-36
+   conditional require remember.el
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-37
+   Place the annotation in task title where I want
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-38
+   fix private symbal introduced yesterday
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+   planner-appt 
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-57
+   merge latest
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-58
+   fixed fix of planner-multi-read-name
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-59
+   merge latest 
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-60
+   planner-appt: create task fix, better advising, etc.
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-61
+   merge latest
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-62
+   with-planner-update-setup
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-63
+   merge latest; planner-appt changes
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-64
+   planner-el.texi: updated planner-appt node
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-375
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-1   
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-2
+   Replaced all occurrences of PlannerMode with Planner except where
+   inaccurate.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-3
+   planner-el.texi (Diary): Corrected instructions for showing diary
+   entries for multiple days. Replaced @code's with @var where
+   appropriate.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-367
+   Always add menu to planner-mode buffers
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-368
+   Merge planner-multi-read-name bugfix from jeho
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-369
+   Bugfix: planner-timeclock-summary-proj. New:
+   planner-annotation-symbol-string, planner-create-task-from-note
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-370 New:
+   planner-timewarp. Bugfix: Group .*? regexp to deal with possible
+   XEmacs bug.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-371
+   New: planner-annotation-from-dired, planner-psvn
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-372
+   Bugfix: planner-vm-browse-url
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-373
+   planner-psvn bugfix: stray paren
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-374
+   Docfix: Update URL for remind
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-375
+   Docfix: carrying over unfinished tasks.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-376
+   planner-id bugfix (completed/cancelled tasks) and planner-el docfixes
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-377
+   planner-gnus: Pick up the group name properly
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-378
+   Merge planner-appt updates from jeho: create task fix, better advising
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-379
+   Document planner-trunk.el
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-380
+   Bugfix: planner-multi-replan-task, replace mapc with mapcar
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-381
+   planner-vm: Turn on annotations in vm-presentation-mode as well
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-382
+   XEmacs compatibility: condition-case instead of 4-arg require, XEmacs
+   menu strangeness
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-383
+   planner-multi-read-name-multiple-prompts: Easier multiple inputs with
+   nil default
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-385
+   Bugfix: Make planner-sort-tasks stop causing backtraces
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-386
+   Bugfix: planner-replan-note should properly add notes to
+   non-wiki-named pages
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-387
+   Bugfix: planner-gnus-browse-url: Load group even if registry is not
+   used
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-388
+   Tweak: planner-copy-or-move-region does not include last line if at
+   start of line
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-389
+   Bugfix: planner-sort-tasks should use 5-arg sort-subr for older GNU
+   Emacs
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-390
+   Bugfix: planner-sort-tasks: Remove non-fontification code
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-391
+   Sync with jeho: with-planner-update-setup returns value of body;
+   planner-appt-task-appointments-section
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-396
+   NOTE: planner-tasks-file-behavior new default: 'close

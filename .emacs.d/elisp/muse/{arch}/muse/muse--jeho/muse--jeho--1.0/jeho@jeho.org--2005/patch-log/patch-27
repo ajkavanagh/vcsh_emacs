@@ -1,0 +1,77 @@
+Revision: muse--jeho--1.0--patch-27
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Mar 21 15:53:08 GMT 2006
+Standard-date: 2006-03-21 15:53:08 GMT
+Modified-files: ChangeLog.2006 lisp/muse-colors.el
+    lisp/muse-journal.el lisp/muse-mode.el
+    lisp/muse-publish.el lisp/muse.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-27
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-15
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-16
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-17
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-18
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-19
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-20
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-21
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-22
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-23
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-24
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-25
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-26
+    mwolson@gnu.org--2006/muse--main--1.0--patch-65
+    mwolson@gnu.org--2006/muse--main--1.0--patch-66
+    mwolson@gnu.org--2006/muse--main--1.0--patch-67
+    mwolson@gnu.org--2006/muse--main--1.0--patch-68
+Summary: Merged from mwolson@gnu.org--2006-muse-el (patch 15-26), mwolson@gnu.org--2006 (patch 65-68)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-15
+   Merged from mwolson@gnu.org--2006 (patch 42-45)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-16
+   Merged from mwolson@gnu.org--2006 (patch 46-47)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-17
+   Merged from mwolson@gnu.org--2006 (patch 48)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-18
+   Merged from mwolson@gnu.org--2006 (patch 49)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-19
+   Merged from mwolson@gnu.org--2006 (patch 50)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-20
+   Merged from mwolson@gnu.org--2006 (patch 51-52)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-21
+   Merged from mwolson@gnu.org--2006 (patch 53-54)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-22
+   Merged from mwolson@gnu.org--2006 (patch 55-63)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-23
+   Merged from mwolson@gnu.org--2006 (patch 64)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-24
+   Merged from mwolson@gnu.org--2006 (patch 65)
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-25
+   Add general searching and backlink searching.
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-26
+   Merged from mwolson@gnu.org--2006 (patch 66)
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-65
+   Attempt to make new syntaxes easier to support.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-66
+   Make it easier to call context-specific region-escaping function.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-67
+   Merged from mwolson@gnu.org--2006-muse-el (patch 15-26)
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-68
+   Minor code cleanup.

@@ -1,0 +1,16 @@
+Revision: planner-el--devel--0--patch-97
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec 26 22:57:11 EST 2006
+Standard-date: 2006-12-27 03:57:11 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-97
+Summary: planner-publish: Change :after to :before-end
+Keywords: 
+
+2006-12-26  Michael Olson  <mwolson@gnu.org>
+
+	* planner-publish.el: Associate finalize function with
+	:before-end, rather than :after.  That way, if Planner files are
+	included in another file by means of Muse's new <include> tag,
+	these transforms will still be applied.

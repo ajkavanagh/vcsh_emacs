@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-150
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun  1 00:14:45 EDT 2006
+Standard-date: 2006-06-01 04:14:45 GMT
+New-files: .arch-ids/ChangeLog.2005.id ChangeLog.2005
+Removed-files: .arch-ids/ChangeLog.2005.id ChangeLog.2005
+Modified-files: .arch-ids/muse.texi.id ChangeLog
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-150
+Summary: Really update ChangeLog.2005.
+Keywords: 
+
+* ChangeLog.2005: Really update this.

@@ -1,0 +1,99 @@
+Revision: planner--jeho--1.0--patch-63
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Apr 23 18:06:25 BST 2005
+Standard-date: 2005-04-23 17:06:25 GMT
+Modified-files: ChangeLog planner-appt.el
+    planner-bookmark.el planner-el.texi planner-id.el
+    planner-multi.el planner-timeclock.el planner-trunk.el
+    planner-vm.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-63
+    sacha@free.net.ph--main/planner--dev--1.0--patch-378
+    sacha@free.net.ph--main/planner--dev--1.0--patch-379
+    sacha@free.net.ph--main/planner--dev--1.0--patch-380
+    sacha@free.net.ph--main/planner--dev--1.0--patch-381
+    sacha@free.net.ph--main/planner--dev--1.0--patch-382
+    sacha@free.net.ph--main/planner--dev--1.0--patch-383
+    sacha@free.net.ph--main/planner--dev--1.0--patch-384
+Summary: merge latest; planner-appt changes
+Keywords: 
+
+* planner-appt.el: 
+
+Summary:
+
+New functionality: task appointments may be copied into an
+appointments section.  
+
+Documentation for new appointments section feature.
+
+Appointment text now has its task-id removed.
+
+(planner-appt-task-appointments-section,
+planner-appt-task-use-appointments-section-flag,
+planner-appt-format-appt-section-line-function): Customizable
+variables for appointment section
+
+(--planner-appt-tasks-added-appts,
+--planner-appt-tasks-earlier-appts): Moved up the file
+
+(planner-appt-forget-appt): New function
+
+(planner-appt-remove-task-id): New function: removes task-ids
+
+(planner-appt-format-description): New function to do all
+formatting of the appt description
+
+(planner-appt-task-member): Now requires a list as third argument.
+I wanted this to be an optional argument, but that didn't work
+because the list could be null.
+
+(planner-appt-format-appt-section-line,
+planner-appt-update-appt-section,
+planner-appt-update-appt-section-maybe): New functions: the basis
+of the task appointment section business.
+
+(with-planner-appt-update-section-disabled): Macro to temporarily
+switch of updating.
+
+(planner-appt-task-add): Now returns t if an appointment was
+actually added; use planner-appt-format-description; added some
+code supporting the task appointment section.
+
+(planner-appt-task-delete): Use planner-appt-format-description;
+added some code supporting the task appointment section.
+
+(planner-appt-add-appts-from-tasks): Support for task appointment
+section
+
+(planner-id-update-tasks-on-page): Support for task appointment
+section: do update afterwards.
+
+(planner-appt-add-appts-from-schedule): Support for task
+appointment section; check that the line looked at didn't come
+from the task list.
+
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-378
+   Merge planner-appt updates from jeho: create task fix, better advising
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-379
+   Document planner-trunk.el
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-380
+   Bugfix: planner-multi-replan-task, replace mapc with mapcar
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-381
+   planner-vm: Turn on annotations in vm-presentation-mode as well
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-382
+   XEmacs compatibility: condition-case instead of 4-arg require, XEmacs menu strangeness
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-383
+   planner-multi-read-name-multiple-prompts: Easier multiple inputs with nil default
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-384
+   Improve support for putting files in subdirectories

@@ -1,0 +1,14 @@
+Revision: planner--johnsu01--0--patch-13
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sun Jun 12 22:20:27 EDT 2005
+Standard-date: 2005-06-13 02:20:27 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-13
+Summary: Reorganization of More about Tasks node 
+Keywords: 
+
+Reorganized the More about Tasks section into three subsections. Much more
+fine-tuning of the subsubsections to follow. The goal is to organize 
+things conceptually rather than by module, while still making it easy to
+locate information pertaining to a particular module. 

@@ -1,0 +1,16 @@
+Revision: planner--johnsu01--0--patch-9
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Tue May 17 17:12:40 EDT 2005
+Standard-date: 2005-05-17 21:12:40 GMT
+Modified-files: ChangeLog planner-bibtex.el
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-9
+    sacha@free.net.ph--main/planner--dev--1.0--patch-397
+Summary: Catch up with sachac.
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-397
+   planner-bibtex-regexp: Fix typo. planner-el.texi: Add note about allout.el
+

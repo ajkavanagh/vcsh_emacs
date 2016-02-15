@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-239
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec 17 18:26:54 JST 2004
+Standard-date: 2004-12-17 09:26:54 GMT
+Modified-files: ChangeLog planner-experimental.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-239
+Summary: Move index formatting code into planner.el
+Keywords: 
+
+	* planner.el (planner-index): Moved from
+	planner-experimental.el. Thanks to David Lord for the vote of
+	confidence.
+	(planner-generate-index): Moved from planner-experimental.el
+	(emacs-wiki-generate-index): Advise this function so that
+	planner pages get a planner-style index.
+
+	* planner-experimental.el: Remove index code.

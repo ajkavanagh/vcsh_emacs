@@ -1,0 +1,12 @@
+Revision: planner--yh--1.0--patch-36
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jul 16 00:17:48 CEST 2005
+Standard-date: 2005-07-15 22:17:48 GMT
+Modified-files: ChangeLog.yh planner-bbdb.el planner-psvn.el
+    planner-xtla.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-36
+Summary: Use planner-make-link instead of hard-coded brackets
+Keywords:
+
+Fix some incorrect usage of planner links pattern

@@ -1,0 +1,28 @@
+Revision: muse-el--devel--0--patch-143
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun  6 19:11:28 EDT 2007
+Standard-date: 2007-06-06 23:11:28 GMT
+Modified-files: ChangeLog Makefile lisp/muse-journal.el
+    lisp/muse-regexps.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-143
+    mwolson@gnu.org--2006/muse--main--1.0--patch-336
+    mwolson@gnu.org--2006/muse--main--1.0--patch-337
+    mwolson@gnu.org--2006/muse--main--1.0--patch-338
+    mwolson@gnu.org--2006/muse--main--1.0--patch-339
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 336-339)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-336
+   muse-journal: Fix double-escaping of qotd contents
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-337
+   Makefile: Fix error when doing "make install"
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-338
+   Make table publishing work with XEmacs 21
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-339
+   manual: Document muse-xhtml-style-sheet

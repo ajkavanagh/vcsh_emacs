@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-247
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Nov 16 23:51:34 EST 2006
+Standard-date: 2006-11-17 04:51:34 GMT
+Modified-files: ChangeLog NEWS lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-247
+Summary: muse-latex: Make lists nested inside of definition lists look right
+Keywords: 
+
+2006-11-16  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-latex.el (muse-latex-markup-strings): Make an ordered
+	list embedded in a definition list look right.  This also allows
+	for definitions to be separated from their terms, much like the
+	way HTML does it by default, if the user puts a blank line or a
+	line break between the term and the definition.  If the term and
+	definition are on the same line, they will be that way in the
+	output as well.

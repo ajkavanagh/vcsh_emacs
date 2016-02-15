@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-384
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Apr 22 12:50:36 PHT 2005
+Standard-date: 2005-04-22 04:50:36 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-384
+Summary: Improve support for putting files in subdirectories
+Keywords: 
+
+* planner.el (planner-list-daily-files): List daily files in
+subdirectories as well. Thanks to Wei-Hao Lin for pointing this out.
+(planner-extract-tasks): Use filenames from planner-file-alist.
+(planner-search-notes-internal): Use filenames from planner-file-alist.
+(planner-past-notes-tag): Use planner-get-day-pages and
+planner-file-alist.
+

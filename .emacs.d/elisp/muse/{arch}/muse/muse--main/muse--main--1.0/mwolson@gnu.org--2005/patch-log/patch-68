@@ -1,0 +1,27 @@
+Revision: muse--main--1.0--patch-68
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 19 02:15:45 EST 2005
+Standard-date: 2005-06-19 07:15:45 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-publish.el muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-68
+Summary: Finish documenting 2 more publishing styles.
+Keywords: 
+
+* lisp/muse-blosxom.el, lisp/muse-latex.el: Minor docfixes throughout.
+
+* lisp/muse-journal.el: Docfixes.
+
+* lisp/muse-publish.el (muse-publish-markup-functions): Add significant
+  documentation to this function.
+
+* muse.texi (Blosxom Options): New node containing the publishing styles
+  and options provided by Blosxom.
+  (Book): Add usage note, as I suspect a lot of people might be confused
+  by this style.
+  (HTML): Space out entries better.
+  (Journal, LaTeX): New nodes for publishing styles.
+  (Common Elements): Document a few options that are present in
+  `muse-publish.el'.

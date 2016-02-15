@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-9
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 27 21:47:07 EST 2006
+Standard-date: 2006-01-28 02:47:07 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-9
+Summary: Add documentation to some publishing functions.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-mark-read-only)
+  (muse-publish-mark-noemphasis): Add documentation.

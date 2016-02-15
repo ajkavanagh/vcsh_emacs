@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-455
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jul 23 15:50:37 EDT 2005
+Standard-date: 2005-07-23 19:50:37 GMT
+Modified-files: ChangeLog planner-rss.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-455
+Summary: Bugfix: planner-rss-add-note: Remove tags from title
+Keywords: 
+
+* planner-rss.el (planner-rss-strip-tags): New function.
+(planner-rss-add-note): Remove all tags from title.

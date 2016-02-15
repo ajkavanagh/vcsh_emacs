@@ -1,0 +1,19 @@
+Revision: muse--rel--3.02--patch-21
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Nov 19 01:50:45 EST 2005
+Standard-date: 2005-11-19 06:50:45 GMT
+New-files: examples/mwolson/templates/.arch-ids/header.tex.id
+    examples/mwolson/templates/header.tex
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+    examples/mwolson/templates/header.html
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-21
+Summary: Update examples.
+Keywords: 
+
+* examples/mwolson/muse-init.el: Update.
+
+* examples/mwolson/header.html: Update.
+
+* examples/mwolson/header.tex: New file that contains my custom LaTeX
+  header.

@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-254
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Dec  2 19:35:08 EST 2006
+Standard-date: 2006-12-03 00:35:08 GMT
+Modified-files: ChangeLog lisp/muse-html.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-254
+Summary: muse-html: Make <contents> work with Planner HTML output
+Keywords: 
+
+2006-12-02  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-html.el (muse-html-insert-contents): Tweak regexp so
+	that this can generate a proper table of contents for Planner HTML
+	publishing.

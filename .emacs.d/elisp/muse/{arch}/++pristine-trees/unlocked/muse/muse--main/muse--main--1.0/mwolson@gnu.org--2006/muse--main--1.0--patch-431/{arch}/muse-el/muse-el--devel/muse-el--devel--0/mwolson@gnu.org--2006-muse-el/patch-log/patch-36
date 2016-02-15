@@ -1,0 +1,21 @@
+Revision: muse-el--devel--0--patch-36
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr  4 18:24:54 EDT 2006
+Standard-date: 2006-04-04 22:24:54 GMT
+Modified-files: AUTHORS ChangeLog.2006 lisp/muse-journal.el
+    lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-36
+    mwolson@gnu.org--2006/muse--main--1.0--patch-82
+    mwolson@gnu.org--2006/muse--main--1.0--patch-83
+    mwolson@gnu.org--2006/muse--main--1.0--patch-84
+Summary: Merged from mwolson@gnu.org--2006 (patch 82-84)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-82
+   muse-journal: Fix dates in RSS feeds.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-84
+   muse-mode: Recognize definition lists when filling text.

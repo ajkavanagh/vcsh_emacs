@@ -1,0 +1,13 @@
+Revision: emacs-wiki--sacha--1.0--patch-56
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar  2 12:14:04 PHT 2004
+Standard-date: 2004-03-02 04:14:04 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-56
+Summary: Fixed embarrassing typo in compatibility function planner-link-unescape
+Keywords: 
+
+	* planner.el (fboundp): Whoops, planner-link-unescape was typo'd
+	to planner-link-escape. Thanks to Nascif Abousalh-Neto for the bug
+	report!

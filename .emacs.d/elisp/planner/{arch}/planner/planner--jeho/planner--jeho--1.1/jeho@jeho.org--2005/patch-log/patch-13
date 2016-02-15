@@ -1,0 +1,14 @@
+Revision: planner--jeho--1.1--patch-13
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Nov 25 14:06:18 GMT 2005
+Standard-date: 2005-11-25 14:06:18 GMT
+Modified-files: planner-appt.el planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-13
+Summary: planner-appt: fix infinite looping caused by planner-copy-or-move-region.
+Keywords: 
+
+* planner-appt.el (planner-appt-update-appt-section-maybe): Fix code indentation.
+(planner-copy-or-move-task): [function advice] Allow for new behaviour of
+planner-copy-or-move-region. 
+

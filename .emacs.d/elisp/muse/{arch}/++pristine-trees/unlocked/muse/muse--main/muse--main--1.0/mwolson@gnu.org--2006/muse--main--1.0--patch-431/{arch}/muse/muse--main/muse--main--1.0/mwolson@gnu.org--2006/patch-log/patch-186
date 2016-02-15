@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-186
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 12 13:05:27 EDT 2006
+Standard-date: 2006-08-12 17:05:27 GMT
+Modified-files: ChangeLog NEWS lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-186
+Summary: Miscellaneous clean-ups.
+Keywords: 
+
+* NEWS: Catch up through patch-120.
+
+* lisp/muse.el: Use defalias whenever convenient.
+
+* lisp/muse-project.el (muse-project-get-applicable-style): Indentation
+  tweak.
+
+* lisp/muse-publish.el (muse-publish-url): Pass the `explicit' arg to fix
+  a byte compiler warning.

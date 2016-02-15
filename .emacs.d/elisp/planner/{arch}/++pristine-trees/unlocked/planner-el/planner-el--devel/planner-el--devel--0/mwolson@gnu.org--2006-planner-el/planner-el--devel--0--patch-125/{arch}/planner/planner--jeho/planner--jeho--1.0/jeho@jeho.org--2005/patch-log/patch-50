@@ -1,0 +1,27 @@
+Revision: planner--jeho--1.0--patch-50
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Mar 15 22:42:50 GMT 2005
+Standard-date: 2005-03-15 22:42:50 GMT
+Modified-files: jeho-diary.el planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+Summary: planner-appt 
+Keywords: 
+
+* jeho-diary.el: fixed some wrong defcustom types, added some faces
+(jeho-diary-calendar-show): new variable
+(jeho-diary-entry-handler-alist): new variable 
+(jeho-diary-native-date, jeho-diary-native-text, jeho-diary-native-sexp):
+new functions for accessing the diary data structure
+(jeho-diary-format-anniversary, jeho-diary-format-block): handlers for
+diary-anniversary and diary-block sexp entries
+(jeho-diary-make-entry-element): added handler handling code
+(jeho-diary-schedule-sort): bug fixed 
+(jeho-diary-do-plan-marking, jeho-diary-do-diary-marking): separated
+handling plan and diaries since they require different treatments
+(jeho-diary-show): slight modification: removed (buffer-live-p ...)
+(jeho-diary-calendar-insinuate): copied and modified from planner.el to
+allow some modifications
+
+* planner-appt.el (planner-appt-schedule-sort): bug fixed 
+

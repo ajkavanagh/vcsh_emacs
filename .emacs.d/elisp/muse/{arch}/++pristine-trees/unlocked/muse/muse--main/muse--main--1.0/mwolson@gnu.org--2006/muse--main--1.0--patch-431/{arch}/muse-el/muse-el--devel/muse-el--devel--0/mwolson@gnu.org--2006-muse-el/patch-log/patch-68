@@ -1,0 +1,21 @@
+Revision: muse-el--devel--0--patch-68
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 17 22:57:21 EDT 2006
+Standard-date: 2006-05-18 02:57:21 GMT
+Modified-files: ChangeLog.2006 lisp/muse-html.el
+    lisp/muse-publish.el lisp/muse-regexps.el
+    lisp/muse-xml-common.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-68
+    mwolson@gnu.org--2006/muse--main--1.0--patch-127
+    mwolson@gnu.org--2006/muse--main--1.0--patch-128
+Summary: Merged from mwolson@gnu.org--2006 (patch 127-128)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-127
+   DTRT with explicit links that have no description.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-128
+   Fix bug where links with :: in them were marked up as lists.

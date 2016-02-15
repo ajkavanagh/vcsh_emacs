@@ -1,0 +1,12 @@
+Revision: planner--yh--1.0--patch-39
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 21 01:17:54 CEST 2005
+Standard-date: 2005-07-20 23:17:54 GMT
+Modified-files: ChangeLog.yh planner-multi.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-39
+Summary: Fix incorrect behavior for planner-multi-remove-task-from-pool
+Keywords:
+
+* planner-multi.el (planner-multi-task-xref): use muse-explicit-link-regexp
+(planner-multi-remove-task-from-pool): fix incorrect task replanning

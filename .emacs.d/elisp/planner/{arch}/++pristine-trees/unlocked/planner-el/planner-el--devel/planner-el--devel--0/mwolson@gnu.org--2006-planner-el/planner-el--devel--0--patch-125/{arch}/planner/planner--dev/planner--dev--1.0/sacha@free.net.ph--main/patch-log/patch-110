@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-110
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jun 20 00:25:57 PHT 2004
+Standard-date: 2004-06-19 16:25:57 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-110
+Summary: Remove duplicate defcustom for planner-template-fuzz-factor
+Keywords: minor fix
+
+	* planner.el (planner-template-fuzz-factor): Remove duplicate
+	defcustom. Thanks to johnsu01 for pointing this out.

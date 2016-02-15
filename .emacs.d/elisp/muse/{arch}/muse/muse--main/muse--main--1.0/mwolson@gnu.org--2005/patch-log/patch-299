@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-299
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 12:06:06 EST 2005
+Standard-date: 2005-12-16 17:06:06 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-mode.el lisp/muse-project.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-299
+Summary: Add autoload cookies.
+Keywords: 
+
+Add autoload cookies to several functions.

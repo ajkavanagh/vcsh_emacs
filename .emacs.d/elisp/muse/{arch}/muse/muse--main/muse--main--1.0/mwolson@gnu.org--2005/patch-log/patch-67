@@ -1,0 +1,32 @@
+Revision: muse--main--1.0--patch-67
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 18 23:45:46 EST 2005
+Standard-date: 2005-06-19 04:45:46 GMT
+Modified-files: ChangeLog Makefile Makefile.defs README
+    lisp/Makefile lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-67
+Summary: Make Muse installable and correct an Emacs21 issue.
+Keywords: 
+
+* Makefile (.PRECIOUS): Indicate that .info and .html files in this
+  directory will be generated.
+  (all): Compile muse.info by default.
+  (doc): Refactor into individual generation rules for .html and .info
+  files.
+  (install): New rule that installs Muse source code, compiled .elc
+  files, and the manual into proper places.
+
+* Makefile.defs (ELISPDIR, INFODIR): Correct minor goof-up.
+
+* README (Insinuation): Move old content of Installation here.
+  (Installation): Fill out this section.
+  (Further Documentation): Add link to my website and note that a full
+  manual is included with Muse.
+
+* lisp/Makefile (EL): Populate with .el files.
+  (install): New rule that installs both .elc and .el files.
+
+* lisp/muse-texinfo.el (muse-texinfo-info-generate): If we're running
+  Emacs21, hack in a handler for the @documentencoding tag so that it
+  doesn't error out.

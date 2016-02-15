@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-60
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun 16 20:10:41 EST 2005
+Standard-date: 2005-06-17 01:10:41 GMT
+Modified-files: ChangeLog examples/QuickStart muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-60
+Summary: Document Markup Rules.
+Keywords: 
+
+* examples/QuickStart: Remove stray <comment> tag.
+
+* muse.texi (Top): Comment every menu line.
+  (Markup Rules): New section with plenty of subsections.

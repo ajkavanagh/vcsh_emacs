@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-34
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 18 01:03:07 EST 2005
+Standard-date: 2005-05-18 06:03:07 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-34
+Summary: Update documentation for C-c TAB feature.
+Keywords: 
+
+* muse.texi (Keystroke Summary): Note that C-c TAB calls
+  `muse-insert-tag'.
+

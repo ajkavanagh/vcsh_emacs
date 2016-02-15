@@ -1,0 +1,26 @@
+Revision: muse--main--1.0--patch-378
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 25 22:29:12 EDT 2007
+Standard-date: 2007-06-26 02:29:12 GMT
+Modified-files: ChangeLog lisp/muse-book.el
+    lisp/muse-docbook.el lisp/muse-groff.el
+    lisp/muse-html.el lisp/muse-latex.el
+    lisp/muse-publish.el lisp/muse-texinfo.el
+    lisp/muse-xml.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-139
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-140
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-141
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-142
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-143
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-144
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-145
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-146
+    mwolson@gnu.org--2006/muse--main--1.0--patch-378
+Summary: Merged from mwolson@gnu.org--2006-muse-el/muse-el--devel--0 (patch 139-146)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-144
+   Added support for cite element

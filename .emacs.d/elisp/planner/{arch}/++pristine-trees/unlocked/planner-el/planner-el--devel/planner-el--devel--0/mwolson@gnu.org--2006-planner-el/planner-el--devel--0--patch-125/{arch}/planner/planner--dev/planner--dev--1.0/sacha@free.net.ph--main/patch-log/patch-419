@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-419
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jun 17 23:31:23 PHT 2005
+Standard-date: 2005-06-17 15:31:23 GMT
+Modified-files: ChangeLog planner-diary.el planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-419
+Summary: Docfix: Note that Lisp tags work only for GNU Emacs
+Keywords: 
+
+* planner-diary.el: Docfix: Note that Lisp tags work only for GNU Emacs.
+  Reverse order of recommendations.
+
+* planner-el.texi (Diary): Docfix: Note that Lisp tags work only for GNU Emacs.
+  Reverse order of recommendations.

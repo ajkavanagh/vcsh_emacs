@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-8
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 19:36:37 CST 2005
+Standard-date: 2005-01-30 11:36:37 GMT
+Modified-files: planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-8
+Summary: don't update rank if we are not on a task line
+Keywords: bugfix
+
+* planner-rank.el: In plan pages, if there's planner-rank-regexp match
+  outside the "* Tasks" section, when calling planner-rank-update-all,
+  Emacs will complain "Wrong type argument: stringp, nil" on the matching
+  line. This happens when there is a "* Timeclock" section in the plan
+  page.
+  (planner-rank-update-current-task): Check if we are on a task line
+  before doing the update.
+  (planner-rank-change): Ditto. Also protect the planner-rank-change-hook
+  and re-indent.
+

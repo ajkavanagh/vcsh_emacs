@@ -1,0 +1,11 @@
+Revision: muse--devo--1.0--patch-2
+Archive: davidsmith@acm.org--main
+Creator: David D. Smith <davidsmith@acm.org>
+Date: Æü  8·î 28 14:26:23 JST 2005
+Standard-date: 2005-08-28 05:26:23 GMT
+Modified-files: lisp/muse-regexps.el
+New-patches: davidsmith@acm.org--main/muse--devo--1.0--patch-2
+Summary: muse-extreg-usable-p for emacs-version 21.4
+Keywords: 
+
+logic fix to handle 21.4 version string properly

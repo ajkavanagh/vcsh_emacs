@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-414
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 28 19:50:35 EDT 2007
+Standard-date: 2007-07-28 23:50:35 GMT
+Modified-files: lisp/muse-mode.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-414
+Summary: Fix issue with muse-list-edit-minor-mode and font-locking in other modes
+Keywords: 
+
+* lisp/muse-mode.el (muse-on-blank-line, muse-get-paragraph-start):
+  Simplify some regexps.
+
+* lisp/muse.el (muse-forward-list-item): Only check the 'face property if
+  we are in Muse mode or one of its derivatives.  This allows movement on
+  nested lists to work in other modes, and fixes an issue with altering
+  list indentation in muse-list-edit-minor-mode.

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-120
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul  9 19:27:13 EST 2005
+Standard-date: 2005-07-10 00:27:13 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-120
+Summary: Use different mapping for S-tab on Windows.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode-map): If using either XEmacs or on
+  Windows, use [(shift tab)] for `muse-previous-reference'.

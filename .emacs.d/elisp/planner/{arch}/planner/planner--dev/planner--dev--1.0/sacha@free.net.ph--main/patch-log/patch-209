@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-209
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Nov 27 15:47:26 JST 2004
+Standard-date: 2004-11-27 06:47:26 GMT
+New-files: .arch-ids/planner-rdf.el.id
+    .arch-ids/planner-rdf.owl.id planner-rdf.el
+    planner-rdf.owl
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-209
+Summary: New: planner-rdf.el from Rainer Volz
+Keywords: 
+
+	* planner-rdf.el: New from Rainer Volz
+          (http://www.rainervolz.de/planner-rdf/).
+
+        * planner-rdf.owl: New.
+        
+	* planner.texi (RDF Publication): Copy and texinfo-ize
+          documentation.

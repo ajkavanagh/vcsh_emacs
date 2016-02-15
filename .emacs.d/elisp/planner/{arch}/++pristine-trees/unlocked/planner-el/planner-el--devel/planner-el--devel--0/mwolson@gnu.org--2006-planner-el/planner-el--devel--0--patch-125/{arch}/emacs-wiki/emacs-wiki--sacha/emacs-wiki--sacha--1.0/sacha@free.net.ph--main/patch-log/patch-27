@@ -1,0 +1,18 @@
+Revision: emacs-wiki--sacha--1.0--patch-27
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb 11 17:48:30 PHT 2004
+Standard-date: 2004-02-11 09:48:30 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-27
+Summary: Bugfixes in planner-seek-to-function that affected all those with planner-seek-create-at-bottom
+Keywords: 
+
+	* planner.el (planner-seek-to-first): Try to seek to the section
+	first. Call planner-seek-section-function only if it is not found.
+	(planner-seek-create-at-top): Moved the seek to
+	planner-seek-to-first. This function now only creates a new
+	section.
+	(planner-seek-create-at-bottom): Moved the seek to
+	planner-seek-to-first. This function now only creates a new
+	section.

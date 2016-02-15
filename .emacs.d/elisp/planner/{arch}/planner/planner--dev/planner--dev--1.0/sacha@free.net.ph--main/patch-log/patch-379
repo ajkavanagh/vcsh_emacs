@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-379
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 20 15:20:03 PHT 2005
+Standard-date: 2005-04-20 07:20:03 GMT
+Modified-files: ChangeLog planner-el.texi planner-trunk.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+    sacha@free.net.ph--main/planner--dev--1.0--patch-379
+Summary: Document planner-trunk.el
+Keywords: 
+
+* planner-el.texi (Grouping Tasks): Document planner-trunk.
+* planner-trunk.el (planner-trunk-rule-list): Put in the actual regular expression.
+  to make it less intimidating. Rewrite the custom rules to be more helpful.

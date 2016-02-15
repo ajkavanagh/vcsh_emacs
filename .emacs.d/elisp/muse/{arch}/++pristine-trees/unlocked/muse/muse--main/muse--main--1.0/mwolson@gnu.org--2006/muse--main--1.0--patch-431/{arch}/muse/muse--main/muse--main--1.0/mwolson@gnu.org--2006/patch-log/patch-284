@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-284
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr  1 19:20:10 EDT 2007
+Standard-date: 2007-04-01 23:20:10 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-284
+Summary: New function: muse-publish-region
+Keywords: 
+
+2007-04-01  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-date-format): Add
+	customization type ad group.
+	(muse-publish-region): New interactive function that publishes a
+	region to a new buffer.
+
+	* texi/muse.texi: Use "document" rather than "manual".

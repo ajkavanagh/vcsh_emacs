@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-196
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 26 11:25:46 EDT 2006
+Standard-date: 2006-08-26 15:25:46 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-196
+Summary: muse-wiki: Try to fix an issue with large projects.
+Keywords: 
+
+2006-08-26  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-wiki.el (muse-wiki-update-local-wikiword-regexp)
+	(muse-wiki-update-interwiki-regexp): Use regexp-opt instead of
+	mapconcat.  This should hopefully fix a problem with large amounts
+	of files with spaces in their name.  Thanks to Greg Detre for the
+	report.

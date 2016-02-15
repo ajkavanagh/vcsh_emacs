@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-249
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Dec 22 22:34:04 JST 2004
+Standard-date: 2004-12-22 13:34:04 GMT
+Modified-files: ChangeLog planner-deadline.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-249
+Summary: planner-deadline: Don't update completed or cancelled tasks. New: planner-deadline-change
+Keywords: external
+
+	* planner-deadline.el: Merge patch from Dryice Liu.
+	(planner-deadline-regexp): Document regexp group format.
+	(planner-deadline-update): Document regexp and default.
+	Patch from Dryice: Don't update completed or cancelled tasks.
+	(planner-deadline-change): New function for convenience.
+
+	* planner.texi (Deadlines): Document planner-deadline.el.

@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-44
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Mar 13 18:24:33 GMT 2005
+Standard-date: 2005-03-13 18:24:33 GMT
+Modified-files: planner-authz.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-44
+Summary: planner-authz: merge improvements 
+Keywords: 
+
+* planner-authz.el: merged improvements [including planner-appt support]
+  posted by the author on emacs-wiki-discuss
+

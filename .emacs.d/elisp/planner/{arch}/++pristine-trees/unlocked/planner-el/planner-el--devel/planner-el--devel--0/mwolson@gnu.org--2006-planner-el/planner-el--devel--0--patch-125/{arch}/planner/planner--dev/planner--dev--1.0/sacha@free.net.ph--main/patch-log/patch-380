@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-380
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 20 15:39:51 PHT 2005
+Standard-date: 2005-04-20 07:39:51 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-380
+Summary: Bugfix: planner-multi-replan-task, replace mapc with mapcar
+Keywords: 
+
+* planner-multi.el (planner-multi-replan-task): Replace mapc with mapcar
+  for Emacs20 compatibility.

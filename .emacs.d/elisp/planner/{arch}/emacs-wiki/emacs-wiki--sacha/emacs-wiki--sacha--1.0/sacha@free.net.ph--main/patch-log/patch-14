@@ -1,0 +1,15 @@
+Revision: emacs-wiki--sacha--1.0--patch-14
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jan 25 12:23:14 PHT 2004
+Standard-date: 2004-01-25 04:23:14 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-14
+Summary: planner-list-tasks-with-status
+Keywords: 
+
+planner-list-tasks-with-status is a new function that generalizes
+planner-list-unfinished-tasks. If you invoke it with a prefix
+argument, the sense is inverted.
+
+planner-list-unfinished-tasks now calls planner-list-tasks-with-status.

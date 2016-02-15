@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-121
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 10 16:35:49 EST 2005
+Standard-date: 2005-07-10 21:35:49 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-docbook.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-121
+Summary: Apply muse-docbook patch from Dale P. Smith.
+Keywords: 
+
+* lisp/muse-docbook.el (muse-docbook-markup-strings): Apply patch from
+  Dale P. Smith to make the markup much better.

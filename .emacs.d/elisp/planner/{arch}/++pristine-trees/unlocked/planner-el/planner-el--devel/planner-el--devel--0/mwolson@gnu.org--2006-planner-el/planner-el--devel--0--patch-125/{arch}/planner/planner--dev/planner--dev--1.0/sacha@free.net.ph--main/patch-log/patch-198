@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-198
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Nov 14 23:00:55 JST 2004
+Standard-date: 2004-11-14 14:00:55 GMT
+Modified-files: planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-198
+Summary: planner-gnus: Check if To: exists before using it
+Keywords: bugfix
+
+	* planner-gnus.el: Thanks to Magnus Henoch for pointing out this
+	bug.
+	(planner-gnus-annotation-from-message): Make sure To: exists
+	before using it.
+	(planner-gnus-annotation-from-summary): Make sure To: exists
+	before using it.

@@ -1,0 +1,37 @@
+Revision: planner-muse--mwolson--1.0--patch-139
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 23 17:44:43 EST 2005
+Standard-date: 2005-12-23 22:44:43 GMT
+Modified-files: ChangeLog Makefile debian/control
+    planner-calendar.el planner-cyclic.el planner-el.texi
+    planner-erc.el planner-multi.el planner-notes-index.el
+    planner-rdf.el planner-rss.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-139
+Summary: Massively update documentation for the Muse transition.
+Keywords: 
+
+* Makefile (upload): Change location where we upload releases.
+
+* debian/control (Description): s/emacs-wiki/Emacs Muse/.
+
+* planner-calendar.el: Attempt to port this to Muse.
+
+* planner-cyclic.el, planner-erc.el, planner-rss.el: Remove ChangeLog
+  link.
+
+* planner-el.texi: Replace all mentions of emacs-wiki with Muse.  Try to
+  adapt some instructions for Muse.  More work is needed, especially in
+  the installation section.  Remove a lot of extra whitespace and fill
+  overlong lines.  Add myself to the history section.  Remove Sacha's
+  config, since I'd rather just include config files in an examples
+  directory, like with Muse -- it gets tedious to maintain, too.
+
+* planner-multi.el (planner-multi-separator): s/emacs-wiki/muse/.
+
+* planner-notes-index.el: Remove extra URL for emacs-wiki.
+
+* planner-rdf.el: Update documentation.
+  (planner-rdf-publish-file): Match against muse-image-regexp.
+
+* planner.el: Update documentation.

@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-110
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Feb 10 16:29:55 EST 2007
+Standard-date: 2007-02-10 21:29:55 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-110
+Summary: Try to fix ntemacs 23.0.0.1 error
+Keywords: 
+
+2007-02-10  Michael Olson  <mwolson@gnu.org>
+
+	* planner.el (planner-setup-highlighting): Use quote instead of
+	backquote.  This should hopefully fix a weird error with ntemacs
+	23.0.0.1.

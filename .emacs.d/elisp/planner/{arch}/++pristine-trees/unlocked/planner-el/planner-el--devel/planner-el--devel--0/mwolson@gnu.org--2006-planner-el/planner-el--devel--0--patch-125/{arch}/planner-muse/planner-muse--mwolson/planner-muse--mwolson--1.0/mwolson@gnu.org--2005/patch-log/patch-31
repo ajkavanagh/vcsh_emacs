@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-31
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 14:17:19 EST 2005
+Standard-date: 2005-07-14 19:17:19 GMT
+Modified-files: ChangeLog.mwolson planner-report.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-31
+Summary: Replace a few emacs-wiki functions in planner-report.
+Keywords: 
+
+* planner-report.el (planner-report-generate, planner-report-generate):
+  Use planner-specific functions rather than emacs-wiki functions.

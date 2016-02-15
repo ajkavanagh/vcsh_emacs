@@ -1,0 +1,95 @@
+Revision: planner--duo--1.0--patch-7
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 27 02:13:05 EST 2005
+Standard-date: 2005-07-27 07:13:05 GMT
+New-files: .arch-ids/ChangeLog.sacha.id
+    .arch-ids/planner-ical.el.id ChangeLog.sacha
+    planner-ical.el
+Removed-files: .arch-ids/ChangeLog.sacha-muse.id
+    ChangeLog.sacha-muse
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-calendar.el planner-el.texi
+    planner-emacs-wiki-backend.el planner-export-diary.el
+    planner-id.el planner-log-edit.el planner-multi.el
+    planner-muse-backend.el planner-notes-index.el
+    planner-report.el planner-rss.el
+    planner-tasks-overview.el planner-xtla.el planner.el
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-5
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-38
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-39
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-40
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-41
+    mwolson@gnu.org--2005/planner--duo--1.0--patch-7
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-36
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-37
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-38
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-39
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-40
+    sacha@free.net.ph--main/planner--dev--1.0--patch-454
+    sacha@free.net.ph--main/planner--dev--1.0--patch-455
+    sacha@free.net.ph--main/planner--dev--1.0--patch-456
+    sacha@free.net.ph--main/planner--dev--1.0--patch-457
+    sacha@free.net.ph--main/planner--dev--1.0--patch-458
+    sacha@free.net.ph--main/planner--dev--1.0--patch-459
+    sacha@free.net.ph--main/planner--dev--1.0--patch-460
+    sacha@free.net.ph--main/planner--dev--1.0--patch-461
+    sacha@free.net.ph--main/planner--dev--1.0--patch-462
+Summary: Merged from hodique@lifl.fr--2005 (patch 38-41), mwolson@gnu.org--2005 (patch 36-40), sacha@free.net.ph--main (patch 454-462)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-38
+   Make planner-directory a function
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-39
+   Fix incorrect behavior for planner-multi-remove-task-from-pool
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-40
+   Fix minor bug un planner-multi.el
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-41
+   Bugfix
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-36
+   Merged from hodique@lifl.fr--2005 (patch 38-41)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-37
+   Merged from sacha@free.net.ph--main (patch 452-454)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-38
+   Merged from sacha@free.net.ph--main (patch 455-457)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-39
+   Merged from sacha@free.net.ph--main (patch 458)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-40
+   Merged from sacha@free.net.ph--main (patch 459-462)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-454
+   Merge patch to make note heading face less greedy
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-455
+   Bugfix: planner-rss-add-note: Remove tags from title
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-456
+   New: planner-ical.el
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-457
+   Docfix: Fix iCal example quotes
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-458
+   Massive merge with  mwolson@gnu.org--2005/planner-muse--mwolson--1.0 (to patch 37)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-459
+   Bugfix: planner-calendar: Do not over-pad months that end with Sunday
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-460
+   Bugfix: planner-calendar-published-file-href: Stop refreshing the file list all the time
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-461
+   Bugfix: planner-visit-link: Add missing alias
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-462
+   Bugfix: Add missing planner-link-target. New option: planner-calendar-nop-buttons-flag

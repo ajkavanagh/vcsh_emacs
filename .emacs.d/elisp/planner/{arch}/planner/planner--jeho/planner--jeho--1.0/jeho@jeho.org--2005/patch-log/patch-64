@@ -1,0 +1,15 @@
+Revision: planner--jeho--1.0--patch-64
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Apr 26 13:29:33 BST 2005
+Standard-date: 2005-04-26 12:29:33 GMT
+Modified-files: planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-64
+Summary: planner-el.texi: updated planner-appt node
+Keywords: 
+
+Added documentation for new appointments section feature.  
+
+Changed headings in the planner-appt node formatted with visual markup
+[@noindent..@strong{foo}] to @unnumberedsubsubsec.
+

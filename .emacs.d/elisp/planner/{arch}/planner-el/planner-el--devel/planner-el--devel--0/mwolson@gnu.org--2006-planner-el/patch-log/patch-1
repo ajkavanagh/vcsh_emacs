@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-1
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Feb 10 17:54:42 EST 2006
+Standard-date: 2006-02-10 22:54:42 GMT
+Modified-files: planner-gnus.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-1
+    mwolson@gnu.org--2006/planner--main--1.0--patch-8
+Summary: Merged from mwolson@gnu.org--2006 (patch 8)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-8
+   Fix Bug #5234: planner-gnus pseudo-article error.

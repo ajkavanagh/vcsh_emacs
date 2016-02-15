@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-442
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jul  4 10:03:35 PHT 2005
+Standard-date: 2005-07-04 02:03:35 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-442
+Summary: planner-save-buffers: Do not kill non-planner-mode buffers
+Keywords: 
+
+* planner.el (planner-save-buffers): Move buffer killing inside test for
+  planner-mode. Thanks to Win Treese for the patch.

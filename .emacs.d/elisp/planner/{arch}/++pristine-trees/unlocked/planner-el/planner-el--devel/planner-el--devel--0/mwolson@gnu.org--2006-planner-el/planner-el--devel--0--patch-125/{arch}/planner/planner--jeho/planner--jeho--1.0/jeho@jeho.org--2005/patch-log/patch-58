@@ -1,0 +1,14 @@
+Revision: planner--jeho--1.0--patch-58
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Apr  5 21:58:26 BST 2005
+Standard-date: 2005-04-05 20:58:26 GMT
+Modified-files: planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-58
+Summary: fixed fix of planner-multi-read-name
+Keywords: 
+
+* planner-multi.el (planner-multi-read-name): used simpler and neater
+  method of modifying minibuffer-prompt-properties
+
+

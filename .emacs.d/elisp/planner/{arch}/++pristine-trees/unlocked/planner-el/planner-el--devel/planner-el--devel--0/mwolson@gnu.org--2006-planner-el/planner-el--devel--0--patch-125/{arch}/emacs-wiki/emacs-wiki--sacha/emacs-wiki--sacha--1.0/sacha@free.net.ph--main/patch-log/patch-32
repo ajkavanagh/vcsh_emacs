@@ -1,0 +1,20 @@
+Revision: emacs-wiki--sacha--1.0--patch-32
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Feb 14 22:44:10 PHT 2004
+Standard-date: 2004-02-14 14:44:10 GMT
+Modified-files: planner-experimental.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-32
+Summary: Removed redundant code from planner-experimental.el
+Keywords: 
+
+	* planner-experimental.el (planner-note-timestamp-regexp): Deleted.
+	(planner-analyze-headline): Deleted.
+	(planner-list-headlines): Deleted.
+	(planner-search-notes): Moved into planner.el.
+	(planner-search-notes-internal): Moved into planner.el.
+
+	* planner.el (planner-search-notes-internal): Moved from
+	planner-experimental.el
+	(planner-current-note-info): Moved actual timestamp regexp into
+	code.

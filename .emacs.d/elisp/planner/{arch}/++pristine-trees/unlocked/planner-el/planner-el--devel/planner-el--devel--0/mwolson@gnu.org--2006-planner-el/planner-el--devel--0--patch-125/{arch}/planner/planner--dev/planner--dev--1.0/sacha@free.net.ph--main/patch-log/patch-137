@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-137
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jul 13 16:38:03 PHT 2004
+Standard-date: 2004-07-13 08:38:03 GMT
+New-files: .arch-ids/planner-ledger.el.id planner-ledger.el
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-137
+Summary: Add planner-ledger.el
+Keywords: external, new
+
+	* planner-ledger.el: New from Will Glozer.  Modifications: Pass
+	checkdoc.
+	(planner-ledger-payment-task-regexp): Make regular expression more
+	flexible (not just USD).
+
+	* planner.texi (Using planner-ledger.el): New.

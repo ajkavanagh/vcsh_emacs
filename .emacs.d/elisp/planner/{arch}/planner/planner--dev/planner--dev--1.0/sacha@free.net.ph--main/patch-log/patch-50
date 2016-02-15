@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-50
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 21 23:05:24 PHT 2004
+Standard-date: 2004-04-21 15:05:24 GMT
+Modified-files: planner-cyclic.el planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-50
+Summary: Bugfix: planner-id.el and saving IDs
+Keywords: 
+
+	* planner-id.el (planner-id-save): Simplify Lisp by using
+	built-in-function. Also solve final newline problem with
+	require-final-newline 'ask. Thanks to Win Treese for reporting
+	bug.
+

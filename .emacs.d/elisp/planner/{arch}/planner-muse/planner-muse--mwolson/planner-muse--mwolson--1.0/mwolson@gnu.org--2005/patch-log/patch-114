@@ -1,0 +1,16 @@
+Revision: planner-muse--mwolson--1.0--patch-114
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 23 01:30:45 EST 2005
+Standard-date: 2005-11-23 06:30:45 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-114
+Summary: planner-publish: Work with *both* muse--main and muse--rel.
+Keywords: 
+
+* planner-publish.el (planner-xml-extension): Rename from
+  muse-xml-extension.
+  (planner-xml-markup-strings): Rename from muse-xml-markup-strings.
+  Make it belong to planner-publish customize group.
+  (planner-insert-markup): Use a smarter construct that works on both
+  muse--rel and muse--main.

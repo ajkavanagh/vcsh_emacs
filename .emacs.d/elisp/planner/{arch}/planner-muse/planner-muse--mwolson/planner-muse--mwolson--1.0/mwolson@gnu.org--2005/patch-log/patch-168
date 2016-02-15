@@ -1,0 +1,21 @@
+Revision: planner-muse--mwolson--1.0--patch-168
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jan  7 23:54:05 EST 2006
+Standard-date: 2006-01-08 04:54:05 GMT
+Modified-files: ChangeLog.2004 ChangeLog.2005
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-168
+Removed-patches: mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--base-0
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-1
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-2
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-3
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-4
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-5
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-6
+Summary: Add ChangeLogs from contributors.
+Keywords: 
+
+Remove a few emacs-wiki-only changelogs.
+
+* ChangeLog.2004, ChangeLog.2005: Add ChangeLog entries of contributors.
+  This is not complete yet.

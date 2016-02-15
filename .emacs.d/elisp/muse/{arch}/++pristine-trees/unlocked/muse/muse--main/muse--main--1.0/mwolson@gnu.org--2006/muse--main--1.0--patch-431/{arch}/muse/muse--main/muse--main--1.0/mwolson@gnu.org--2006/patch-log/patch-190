@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-190
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug 12 15:08:51 EDT 2006
+Standard-date: 2006-08-12 19:08:51 GMT
+Modified-files: ChangeLog experimental/Makefile
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-190
+Summary: More of the same.
+Keywords: 
+
+* experimental/Makefile (.PHONY): Don't use line continuations.

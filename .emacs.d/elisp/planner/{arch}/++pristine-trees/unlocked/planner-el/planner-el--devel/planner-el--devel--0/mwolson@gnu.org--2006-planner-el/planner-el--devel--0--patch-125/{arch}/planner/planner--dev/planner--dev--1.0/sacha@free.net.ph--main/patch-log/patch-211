@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-211
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Nov 27 16:04:54 JST 2004
+Standard-date: 2004-11-27 07:04:54 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-211
+Summary: New: planner-task-open
+Keywords: minor new
+
+	* planner.el: Implement Dirk Bernhardt's planner-task-open.
+	(planner-task-open): New.
+	(planner-menu): Add planner-task-open.
+
+	* planner.texi (Changing Tasks): Document planner-task-open.

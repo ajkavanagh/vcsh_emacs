@@ -1,0 +1,29 @@
+Revision: planner-muse--mwolson--1.0--patch-138
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec 20 14:47:43 EST 2005
+Standard-date: 2005-12-20 19:47:43 GMT
+Modified-files: ChangeLog planner-appt.el planner-bibtex.el
+    planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-31
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-32
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-33
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-34
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-138
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-15
+Summary: Merged from jeho@jeho.org--2005 (patch 31-34)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-31
+   planner-el.texi: small edits
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-32
+   Merged from mwolson@gnu.org--2005 (patch 131-136)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-33
+   planner-bibtex: peripatetic point cure
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-34
+   planner-appt: forthcoming appts changes

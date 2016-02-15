@@ -1,0 +1,20 @@
+Revision: muse--mwolson--1.0--base-0
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Thu Oct  7 00:12:23 EST 2004
+Standard-date: 2004-10-07 05:12:23 GMT
+Summary: Initial import
+Keywords: 
+New-files: ChangeLog Makefile README cgi.el httpd.el
+    muse-book.el muse-build.el muse-colors.el muse-convert.el
+    muse-docbook.el muse-html.el muse-http.el muse-johnw.el
+    muse-journal.el muse-latex.el muse-message.el
+    muse-mode.el muse-poem.el muse-project.el muse-publish.el
+    muse-texinfo.el muse.el publish publish-johnw
+    publish-project
+New-patches: mwolson@member.fsf.org--2004/muse--mwolson--1.0--base-0
+
+Muse is an authoring environment that is a superset of emacs-wiki.  It
+was made by John Wiegley, and he is also its maintainer.  My archive
+is meant to keep track of incremental changes that I make to Muse.
+Large globs of changes will be handled using John's darcs archive.

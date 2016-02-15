@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-154
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 15 10:57:20 EDT 2007
+Standard-date: 2007-07-15 14:57:20 GMT
+Modified-files: ChangeLog lisp/muse-journal.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-154
+    mwolson@gnu.org--2006/muse--main--1.0--patch-388
+    mwolson@gnu.org--2006/muse--main--1.0--patch-389
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 388-389)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-388
+   muse-publish: Use only <lisp> and <markup> in headers and footers
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-389
+   muse-journal: Allow <lisp> and <markup> to work in entry templates

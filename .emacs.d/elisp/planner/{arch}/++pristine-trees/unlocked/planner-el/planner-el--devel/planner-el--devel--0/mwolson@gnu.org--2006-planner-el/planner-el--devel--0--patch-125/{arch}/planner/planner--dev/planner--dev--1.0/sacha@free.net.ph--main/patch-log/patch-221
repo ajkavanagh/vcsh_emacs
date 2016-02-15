@@ -1,0 +1,10 @@
+Revision: planner--dev--1.0--patch-221
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec  3 18:18:26 JST 2004
+Standard-date: 2004-12-03 09:18:26 GMT
+New-files: .arch-ids/ChangeLog.id ChangeLog
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-221
+Summary: Add changelog to arch repository. Thanks to mwolson for tip.
+Keywords: 
+

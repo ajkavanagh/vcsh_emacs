@@ -1,0 +1,22 @@
+Revision: planner--mwolson--1.0--patch-14
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 01:22:48 EST 2005
+Standard-date: 2005-08-09 06:22:48 GMT
+New-files: .arch-ids/ChangeLog.id ChangeLog
+Removed-files: debian/.arch-ids/conffiles.id
+    debian/conffiles
+Modified-files: debian/control debian/rules
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-14
+Summary: Tweak Debian package building further.
+Keywords: 
+
+* debian/conffiles: Removed, since this caused a warning.
+
+* debian/control (Standards-Version): Update to 3.6.2.
+
+* debian/rules: Set DH_COMPAT to 3 so that warnings go away.
+  (install): Use simpler method of copying files.  Change directory
+  location, since this seemed to be wrong.
+
+* ChangeLog: Re-add this, since it's needed to build the package.

@@ -1,0 +1,21 @@
+Revision: planner-muse--mwolson--1.0--patch-48
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 01:13:56 EST 2005
+Standard-date: 2005-08-09 06:13:56 GMT
+Removed-files: debian/.arch-ids/conffiles.id
+    debian/conffiles
+Modified-files: ChangeLog.mwolson Makefile.defs
+    debian/changelog debian/control debian/rules
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-48
+Summary: Debian tweaks.
+Keywords: 
+
+* Makefile.defs (VERSION): Update for another snapshot.
+
+* debian/conffile: Removed, since it causes a "duplicate conffile" error.
+
+* debian/control: Add trailing newline.
+
+* debian/rules: Set DH_COMPAT to 3 to make warnings go away.  Correct
+  directory to install elisp files to.

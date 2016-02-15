@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-426
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jun 22 11:50:07 PHT 2005
+Standard-date: 2005-06-22 03:50:07 GMT
+Modified-files: ChangeLog planner-id.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-426
+Summary: Bugfix: with-planner-update-setup: Don't block planner-id
+Keywords: 
+
+* planner.el (with-planner-update-setup): Don't block planner-id anymore.
+  Trust that the equality code is working and that you won't get loops.
+
+* planner-id.el (planner-id-update-tasks-on-page): Nullify
+  planner-id-update-automatically to avoid loops.

@@ -1,0 +1,15 @@
+Revision: planner--jeho--1.0--patch-39
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Mar  4 15:26:37 GMT 2005
+Standard-date: 2005-03-04 15:26:37 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-39
+Summary: planner-appt: removed functions from planner-goto-hook
+Keywords: 
+
+* planner-appt.el (planner-copy-or-move-task): made this tidier with a
+  let clause: what was I thinking with the previous unwind-protect thing?
+  (planner-appt-insinuate-if-today): removed adding to planner-goto-hook
+  
+

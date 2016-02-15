@@ -1,0 +1,19 @@
+Revision: planner-el--devel--0--patch-19
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Mar 15 12:38:11 GMT 2006
+Standard-date: 2006-03-15 12:38:11 GMT
+Modified-files: planner-appt.el planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-56
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-57
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-19
+Summary: Merged from jeho@jeho.org--2005 (patch 56-57)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-56
+   Merged from mwolson@gnu.org--2006-planner-el (patch 14-15), mwolson@gnu.org--2006 (patch 17-20)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-57
+   planner-appt: day names in forthcoming appointments

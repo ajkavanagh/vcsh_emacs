@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.0--patch-33
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Feb 27 18:16:00 GMT 2005
+Standard-date: 2005-02-27 18:16:00 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-33
+Summary: planner-apt changes
+Keywords: 
+
+* planner-appt.el: Added a warning about the experimental nature of
+  planner-appt. 
+  (planner-appt-sort-schedule-on-update-flag): made this nil by default
+  (planner-appt-calendar-insinuate): removed the confusing flag from
+  this. 
+

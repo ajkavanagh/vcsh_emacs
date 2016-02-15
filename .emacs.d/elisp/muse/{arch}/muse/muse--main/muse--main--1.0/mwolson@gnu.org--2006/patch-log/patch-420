@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-420
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 29 01:29:10 EDT 2007
+Standard-date: 2007-07-29 05:29:10 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-420
+Summary: Really fix termless definition list bug
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-dl): Remove unused
+  variable.  Track whether a term has been found, and handle that case
+  well.
+  (muse-publish-ensure-blank-line): Use a marker, so that we don't lose
+  our place when adding a newline.  This really fixes the definition list
+  item bug.
+  (muse-publish-markup-list): Since people do seem to want definition
+  lists with no terms, allow this.

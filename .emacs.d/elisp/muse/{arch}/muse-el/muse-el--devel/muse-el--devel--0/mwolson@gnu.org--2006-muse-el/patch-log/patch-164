@@ -1,0 +1,35 @@
+Revision: muse-el--devel--0--patch-164
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 27 14:25:46 EDT 2007
+Standard-date: 2007-07-27 18:25:46 GMT
+Modified-files: ChangeLog README examples/QuickStart.muse
+    lisp/muse-html.el lisp/muse-journal.el
+    lisp/muse-publish.el lisp/muse-xml-common.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-164
+    mwolson@gnu.org--2006/muse--main--1.0--patch-404
+    mwolson@gnu.org--2006/muse--main--1.0--patch-405
+    mwolson@gnu.org--2006/muse--main--1.0--patch-406
+    mwolson@gnu.org--2006/muse--main--1.0--patch-407
+    mwolson@gnu.org--2006/muse--main--1.0--patch-408
+    mwolson@gnu.org--2006/muse--main--1.0--patch-409
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 404-409)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-404
+   QuickStart: Explain that publishing from console affects htmlize
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-405
+   Minor whitespace enhancement for some block-level tags
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-406
+   Do not escape parens in URLs for XML-like styles
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-408
+   Fix blank line in front of list item bug
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-409
+   Allow Emacs-Muse as an alternate spelling

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-416
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 28 19:57:04 EDT 2007
+Standard-date: 2007-07-28 23:57:04 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-416
+Summary: Don't make muse-list-edit-minor-mode global, just buffer-local
+Keywords: 
+
+* lisp/muse-mode.el (muse-list-edit-minor-mode): Don't make this global,
+  just buffer-local.

@@ -1,0 +1,58 @@
+Revision: muse--yh--1.0--patch-28
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Tue Jul 12 10:09:02 CEST 2005
+Standard-date: 2005-07-12 08:09:02 GMT
+Modified-files: AUTHORS ChangeLog
+    examples/mwolson/muse-init.el lisp/muse-docbook.el
+    lisp/muse-html.el lisp/muse-mode.el lisp/muse-project.el
+    lisp/muse-wiki.el lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-28
+    mwolson@gnu.org--2005/muse--main--1.0--patch-121
+    mwolson@gnu.org--2005/muse--main--1.0--patch-122
+    mwolson@gnu.org--2005/muse--main--1.0--patch-123
+    mwolson@gnu.org--2005/muse--main--1.0--patch-124
+    mwolson@gnu.org--2005/muse--main--1.0--patch-125
+    mwolson@gnu.org--2005/muse--main--1.0--patch-126
+    mwolson@gnu.org--2005/muse--main--1.0--patch-127
+    mwolson@gnu.org--2005/muse--main--1.0--patch-128
+    mwolson@gnu.org--2005/muse--main--1.0--patch-129
+    mwolson@gnu.org--2005/muse--main--1.0--patch-130
+    mwolson@gnu.org--2005/muse--main--1.0--patch-131
+Summary: Merged from mwolson@gnu.org--2005 (patch 121-131)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-121
+   Apply muse-docbook patch from Dale P. Smith.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-122
+   muse-docbook: Output an XML tag with encoding at the beginning of document.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-123
+   muse-docbook: Merge several other types of tags if necessary.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-124
+   Silence compiler warnings.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-125
+   Make `muse-project-alist' more intuitively customizable.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-126
+   Add specified Muse file extension to auto-mode-alist.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-127
+   Jump to bad and good links on TAB; mode-choosing fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-128
+   Fix annoying initial buffer coloring problem.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-129
+   Compilation fix, minor shuffling in `muse-mode'.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-130
+   Yann's assignment form came in!
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-131
+   AUTHORS: Fix typo, add that Yann authored muse-wiki.el.

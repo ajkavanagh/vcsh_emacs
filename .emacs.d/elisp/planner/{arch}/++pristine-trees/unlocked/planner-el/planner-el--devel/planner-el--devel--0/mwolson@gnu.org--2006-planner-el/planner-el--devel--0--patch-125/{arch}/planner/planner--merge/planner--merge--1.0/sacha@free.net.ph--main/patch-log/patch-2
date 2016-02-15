@@ -1,0 +1,17 @@
+Revision: planner--merge--1.0--patch-2
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Sep 17 17:53:37 EDT 2005
+Standard-date: 2005-09-17 21:53:37 GMT
+Modified-files: planner-appt.el planner-backend.el
+    planner-cyclic.el planner-deadline.el planner-el.texi
+    planner-emacs-wiki-backend.el planner-ical.el
+    planner-multi.el planner-muse-backend.el
+    planner-notes-index.el planner-rss.el
+    planner-tasks-overview.el planner-timeclock-summary.el
+    planner-timeclock.el planner.el
+    {arch}/planner/planner--merge/planner--merge--1.0/sacha@free.net.ph--main/patch-log/base-0
+New-patches: sacha@free.net.ph--main/planner--merge--1.0--patch-2
+Summary: M-x plan works
+Keywords: 
+

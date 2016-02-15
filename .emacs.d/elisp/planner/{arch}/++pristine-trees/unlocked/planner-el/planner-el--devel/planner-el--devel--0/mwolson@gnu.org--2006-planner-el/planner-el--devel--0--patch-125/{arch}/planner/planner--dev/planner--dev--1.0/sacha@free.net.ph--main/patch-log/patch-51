@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-51
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 22 01:12:53 PHT 2004
+Standard-date: 2004-04-21 17:12:53 GMT
+Modified-files: planner-experimental.el planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-51
+Summary: Bugfix: planner-experimental: planner-remove duplicates should remove dupes on date pages
+Keywords: 
+
+	* planner-experimental.el (planner-remove-duplicates): Bugfix:
+	Work properly with duplicated tasks on a date page.
+
+	* planner-id.el (planner-id-update-tasks-on-page): Docfix.
+

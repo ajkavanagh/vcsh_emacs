@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-73
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed May  5 01:23:37 PHT 2004
+Standard-date: 2004-05-04 17:23:37 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-73
+Summary: planner-highlight-tasks: Better XEmacs compatibility
+Keywords: 
+
+	* planner.el (planner-highlight-region): Better XEmacs
+	compatibility. Should mark up completed tasks properly now. Thanks
+	to hynek for pointing it out.
+	(planner-highlight-tasks): Better XEmacs compatibility.
+

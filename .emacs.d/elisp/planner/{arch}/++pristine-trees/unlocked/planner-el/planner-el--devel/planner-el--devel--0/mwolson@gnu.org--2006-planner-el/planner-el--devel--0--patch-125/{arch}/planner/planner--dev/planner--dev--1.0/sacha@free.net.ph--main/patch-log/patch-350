@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-350
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 22 18:28:48 PHT 2005
+Standard-date: 2005-03-22 10:28:48 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-350
+Summary: planner-expand-name: Tweak +tue
+Keywords: 
+
+* planner.el (planner-expand-name): Tweak date offset so that +tue really
+  is next Tuesday.

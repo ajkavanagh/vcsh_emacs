@@ -1,0 +1,33 @@
+Revision: planner-el--devel--0--patch-38
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 24 20:53:49 EDT 2006
+Standard-date: 2006-05-25 00:53:49 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog debian/control planner-id.el
+    planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-38
+    mwolson@gnu.org--2006/planner--main--1.0--patch-43
+    mwolson@gnu.org--2006/planner--main--1.0--patch-44
+    mwolson@gnu.org--2006/planner--main--1.0--patch-45
+    mwolson@gnu.org--2006/planner--main--1.0--patch-46
+    mwolson@gnu.org--2006/planner--main--1.0--patch-47
+Summary: Merged from mwolson@gnu.org--2006 (patch 43-47)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-43
+   Make notes publish with nicer default CSS elements.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-44
+   Publish diary sections in a meaningful way.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-45
+   Remove task IDs when publishing.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-46
+   Remove duplicate note links when publishing.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-47
+   Miscellaneous Debian updates.

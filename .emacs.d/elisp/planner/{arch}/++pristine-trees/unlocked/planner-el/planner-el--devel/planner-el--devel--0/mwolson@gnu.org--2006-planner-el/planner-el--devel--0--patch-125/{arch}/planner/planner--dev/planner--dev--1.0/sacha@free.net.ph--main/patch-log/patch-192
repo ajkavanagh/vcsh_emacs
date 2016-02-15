@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-192
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Oct 31 14:35:35 JST 2004
+Standard-date: 2004-10-31 05:35:35 GMT
+Modified-files: planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-192
+Summary: planner-gnus-browse-url: Bugfix: Make sure articles are loaded
+Keywords: bugfix
+
+	* planner-gnus.el (planner-gnus-browse-url): Make sure the headers
+	for all the mentioned articles have been loaded. This fixes the
+	virtual article bug.

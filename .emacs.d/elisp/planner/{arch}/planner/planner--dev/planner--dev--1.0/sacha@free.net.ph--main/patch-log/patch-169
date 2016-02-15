@@ -1,0 +1,31 @@
+Revision: planner--dev--1.0--patch-169
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Sep 24 19:00:51 JST 2004
+Standard-date: 2004-09-24 10:00:51 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-169
+Summary: planner-tasks-file-behavior tweaks: No more jumping cursor
+Keywords: improvement
+
+	* planner.el: Okay, modifying tasks without leaving the extra
+	buffers open should work better now. However, this functionality
+	hits the hard disk a bit. If you find yourself bothered by it, you
+	can set planner-tasks-file-behavior to nil so that no processing
+	is done.
+	(planner-mode): Use the -maybe versions of the automatic
+	functions.
+	(planner-save-buffers): New parameter SUPPRESS-FIXING turns off
+	automatic planner munging. This prevents jumping cursors.
+	(planner-sort-tasks-maybe): New.
+	(planner-renumber-tasks-maybe): New.
+	(planner-renumber-notes-maybe): New.
+	(planner-align-tasks-maybe): New.
+	(planner-replan-task): Suppress fixing.
+	(planner-copy-or-move-task): Suppress fixing.
+	(planner-update-task): Suppress fixing.
+	(planner-delete-task): Honor planner-tasks-file-behavior.
+	(planner-create-task-from-info): Honor
+	planner-tasks-file-behavior.
+	(planner-replan-task): Hide planner-tasks-file-behavior from inner
+	function.

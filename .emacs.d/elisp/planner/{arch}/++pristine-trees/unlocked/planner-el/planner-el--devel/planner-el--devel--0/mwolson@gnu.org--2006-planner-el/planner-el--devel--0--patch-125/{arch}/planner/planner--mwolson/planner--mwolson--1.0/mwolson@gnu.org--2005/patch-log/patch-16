@@ -1,0 +1,35 @@
+Revision: planner--mwolson--1.0--patch-16
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 19:54:56 EST 2005
+Standard-date: 2005-08-10 00:54:56 GMT
+Modified-files: Makefile Makefile.defs debian/rules
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-16
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-38
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-39
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-40
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-41
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-42
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-43
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-44
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-45
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-47
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-48
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-52
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-53
+Summary: Improve building of Debian packages.
+Keywords: 
+
+* Makefile.defs (BUILDOPTS): New variable indicating extra options to be
+  passed to dpkg-buildpackage.
+  (LASTUPLOAD): New variable that indicates the version that was last
+  uploaded to Debian.
+
+* Makefile (debrelease): Use $(LASTUPLOAD) to ensure that a full set of
+  changes is generated.  This means we have to use dpkg-buildpackage,
+  since debuild doesn't recognize the environment variables that it
+  claims to recognize.  Use $(BUILDOPTS).
+
+* debian/rules (clean): Call $(MAKE) realclean instead of $(MAKE) clean.
+
+* {arch}: Mark several patches as applied.

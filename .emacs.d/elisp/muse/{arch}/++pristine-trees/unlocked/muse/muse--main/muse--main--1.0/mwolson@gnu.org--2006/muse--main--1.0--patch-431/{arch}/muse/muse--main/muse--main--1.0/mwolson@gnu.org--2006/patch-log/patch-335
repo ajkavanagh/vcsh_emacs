@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-335
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun  4 22:58:45 EDT 2007
+Standard-date: 2007-06-05 02:58:45 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-335
+Summary: Fix bug #5115: Avoid accessing remote files during fontification
+Keywords: 
+
+2007-06-04  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-colors.el (muse-link-face): If the link is to a remote
+	-- that is, Tramp or ange-ftp -- file, then do not call
+	file-exists-p on it.  Thanks to Jim Ottaway for the suggestion.
+	Fixes bug #5115.

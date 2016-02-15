@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-313
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu May 24 16:51:13 EDT 2007
+Standard-date: 2007-05-24 20:51:13 GMT
+Modified-files: ChangeLog NEWS lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-313
+Summary: Ignore Mercurial and bzr metadata directories
+Keywords: 
+
+2007-05-24  Michael Olson  <mwolson@gnu.org>
+
+	* NEWS: Drop vague entries and position interesting entries closer
+	to the top of each section.
+
+	* lisp/muse-project.el (muse-project-ignore-regexp): Add Mercurial
+	and bzr metadata directories to the list of things to ignore.

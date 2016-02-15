@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-49
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Mar 14 19:45:52 GMT 2005
+Standard-date: 2005-03-14 19:45:52 GMT
+Modified-files: jeho-diary.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-49
+Summary: jeho-diary off by 1 bug
+Keywords: 
+
+* jeho-diary.el (jeho-diary-get-diary-entries): fixed off by 1 bug with
+  the default lookahead
+

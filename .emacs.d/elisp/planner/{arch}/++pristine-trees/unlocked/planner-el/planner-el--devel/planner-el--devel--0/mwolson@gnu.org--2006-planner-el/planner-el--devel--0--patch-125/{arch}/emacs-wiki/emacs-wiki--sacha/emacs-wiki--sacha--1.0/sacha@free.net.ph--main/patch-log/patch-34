@@ -1,0 +1,19 @@
+Revision: emacs-wiki--sacha--1.0--patch-34
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Feb 15 14:32:20 PHT 2004
+Standard-date: 2004-02-15 06:32:20 GMT
+Renamed-files: .arch-ids/rss.el.id .arch-ids/planner-rss.el.id
+    rss.el planner-rss.el
+Modified-files: planner-rss.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-34
+Summary: Prepared planner-rss.el for first release.
+Keywords: 
+
+	* planner-rss.el: Renamed from rss.el. Added commentary. Changed
+	function prefix.
+	(planner-rss-initial-contents): Merged other one-time variables
+	into this. Moved to planner customize group.
+	(planner-rss-base-url): Moved to planner customize group.
+	(planner-rss-file-name): Moved to planner customize group.
+	(planner-rss-initialize): Used planner-rss-initial-contents.

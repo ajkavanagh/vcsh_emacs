@@ -1,0 +1,20 @@
+Revision: muse-epomulet--0--patch-2
+Archive: e.pomohaci@gmail.com--2006
+Creator: Elena Pomohaci <e.pomohaci@gmail.com>
+Date: Wed Jul 26 17:10:51 EEST 2006
+Standard-date: 2006-07-26 14:10:51 GMT
+New-patches: e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-2
+Summary: made the basic functionality for transforming into muse format
+Keywords: 
+
+* lisp/muse-from-xml.el: Transforming into muse format from xml
+  format. Basic functionality.
+
+* lisp/muse-from-dbk.el: Transforming into muse format from docbook
+  format. Basic functionality.
+
+new files:
+lisp/muse-from-xml.el lisp/muse-from-dbk.el
+
+
+

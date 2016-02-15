@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-106
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Mar 15 13:15:14 PHT 2004
+Standard-date: 2004-03-15 05:15:14 GMT
+Modified-files: emacs-wiki.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-106
+Summary: Replace link with intangible text only if it contains escaped characters
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-highlight-link): Replace with
+	intangible text only if it contains escaped characters.

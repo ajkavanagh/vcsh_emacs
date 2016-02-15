@@ -1,0 +1,27 @@
+Revision: planner--yh--1.0--patch-8
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jun 24 09:51:36 CEST 2005
+Standard-date: 2005-06-24 07:51:36 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-8
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-9
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-10
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-11
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-12
+Summary: mwolson@gnu.org--2005 (patch 9-12)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-9
+   Merged from hodique@lifl.fr--2005 (patch 5-6)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-10
+   Remove `muse-index-as-string' workaround.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-11
+   Merged from hodique@lifl.fr--2005 (patch 7)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-12
+   Uniquify publishing number for notes.

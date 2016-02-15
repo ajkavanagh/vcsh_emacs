@@ -1,0 +1,10 @@
+Revision: muse--main--1.0--patch-203
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Aug 30 19:14:55 EDT 2006
+Standard-date: 2006-08-30 23:14:55 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-203
+Summary: Revert prematurely committed patch.
+Keywords: 
+

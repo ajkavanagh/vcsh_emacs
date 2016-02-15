@@ -1,0 +1,17 @@
+Revision: muse--yh--1.0--patch-32
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 14 23:47:23 CEST 2005
+Standard-date: 2005-07-14 21:47:23 GMT
+Modified-files: ChangeLog lisp/muse-book.el
+    lisp/muse-colors.el lisp/muse-http.el lisp/muse-mode.el
+    lisp/muse-poem.el lisp/muse-publish.el lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-32
+    mwolson@gnu.org--2005/muse--main--1.0--patch-137
+Summary: Merged from mwolson@gnu.org--2005 (patch 137)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-137
+   Prevent temp buffers from prompting for save; handle lisp errors better.

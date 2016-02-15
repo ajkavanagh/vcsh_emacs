@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-180
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  8 23:48:46 EDT 2006
+Standard-date: 2006-08-09 03:48:46 GMT
+Modified-files: lisp/muse-publish.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-180
+Summary: Trim whitespace from table fields.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-table-fields): Trim whitespace from
+  fields once we have split them up.
+
+* lisp/muse.el (muse-trim-whitespace): New function that strips leading
+  and trailing whitespace from a string.

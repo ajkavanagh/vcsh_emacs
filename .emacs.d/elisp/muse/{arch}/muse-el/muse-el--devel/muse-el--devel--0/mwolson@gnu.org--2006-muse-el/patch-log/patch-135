@@ -1,0 +1,19 @@
+Revision: muse-el--devel--0--patch-135
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Feb 25 21:39:10 EST 2007
+Standard-date: 2007-02-26 02:39:10 GMT
+Modified-files: ChangeLog README lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-135
+    mwolson@gnu.org--2006/muse--main--1.0--patch-281
+    mwolson@gnu.org--2006/muse--main--1.0--patch-282
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 281-282)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-281
+   README: Mention which versions of Emacs work with Muse
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-282
+   muse-publish: Introduce muse-publish-date-format option

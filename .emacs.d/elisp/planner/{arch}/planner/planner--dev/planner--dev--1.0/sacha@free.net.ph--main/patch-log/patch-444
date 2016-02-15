@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-444
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jul  4 14:44:44 PHT 2005
+Standard-date: 2005-07-04 06:44:44 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-444
+Summary: Bugfix: planner-multi-replan-task: Deal with tasks without dates
+Keywords: 
+
+* planner-multi.el (planner-multi-replan-task): Bugfix: Deal with tasks without dates.
+

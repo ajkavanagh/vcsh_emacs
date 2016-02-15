@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-345
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jun 12 20:54:21 EDT 2007
+Standard-date: 2007-06-13 00:54:21 GMT
+Modified-files: ChangeLog README
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-345
+Summary: README: Document new etc/ directory
+Keywords: 
+
+2007-06-12  Michael Olson  <mwolson@gnu.org>
+
+	* README: Document new etc/ directory

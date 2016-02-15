@@ -1,0 +1,12 @@
+Revision: planner--yh--1.0--patch-21
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Tue Jul  5 22:36:34 CEST 2005
+Standard-date: 2005-07-05 20:36:34 GMT
+Modified-files: ChangeLog.yh planner-multi.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-21
+Summary: don't use pos:// url as description
+Keywords:
+
+* planner.el (planner-annotation-from-file-with-position): put filename as description
+

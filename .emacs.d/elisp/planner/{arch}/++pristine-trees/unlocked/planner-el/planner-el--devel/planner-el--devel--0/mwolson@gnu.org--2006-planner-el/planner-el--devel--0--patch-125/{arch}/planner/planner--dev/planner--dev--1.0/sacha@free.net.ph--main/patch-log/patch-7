@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-7
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 30 13:47:08 PHT 2004
+Standard-date: 2004-03-30 05:47:08 GMT
+Removed-files: .arch-ids/planner-notes.el.id
+    planner-notes.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-7
+Summary: Remove planner-notes.el from distribution
+Keywords: 
+
+	* planner-notes.el: Remove from distribution as Thomas Gehrlein
+	requests. (He's not quite sure what he wants it to do.)

@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-285
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Apr  2 10:20:41 EDT 2007
+Standard-date: 2007-04-02 14:20:41 GMT
+Modified-files: ChangeLog README
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-285
+Summary: READE: List available mailing lists
+Keywords: 
+
+2007-04-02  Michael Olson  <mwolson@gnu.org>
+
+	* README (muse-el-announce): Make a listing of mailing lists,
+	rather than pointing to the old EmacsWikiMailingList page.  Thanks
+	to Andreas Roehler for noticing

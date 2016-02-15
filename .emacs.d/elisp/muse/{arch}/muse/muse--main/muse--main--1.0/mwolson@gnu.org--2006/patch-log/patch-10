@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-10
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Feb  7 22:00:07 EST 2006
+Standard-date: 2006-02-08 03:00:07 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-10
+Summary: Get simple test case for definition lists to work.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-dl): Make simple test case
+  publish properly.
+  (muse-forward-list-item): Fix edge case.

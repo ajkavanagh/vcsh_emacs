@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-191
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Aug  6 12:39:45 EST 2005
+Standard-date: 2005-08-06 17:39:45 GMT
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-191
+Summary: Makefile: Remove stale Debian packages for this version.
+Keywords: 
+
+* Makefile (debclean): Remove generated Debian packages for the current
+  version in parent directory.

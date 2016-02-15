@@ -1,0 +1,44 @@
+Revision: muse--main--1.0--patch-147
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 16 23:21:19 EST 2005
+Standard-date: 2005-07-17 04:21:19 GMT
+New-files: debian/.arch-ids/=id
+    debian/.arch-ids/changelog.id
+    debian/.arch-ids/control.id
+    debian/.arch-ids/copyright.id
+    debian/.arch-ids/emacsen-install.id
+    debian/.arch-ids/emacsen-remove.id
+    debian/.arch-ids/emacsen-startup.id
+    debian/.arch-ids/muse-el.dirs.id
+    debian/.arch-ids/muse-el.docs.id
+    debian/.arch-ids/muse-el.info.id
+    debian/.arch-ids/rules.id debian/changelog
+    debian/control debian/copyright debian/emacsen-install
+    debian/emacsen-remove debian/emacsen-startup
+    debian/muse-el.dirs debian/muse-el.docs
+    debian/muse-el.info debian/rules
+    examples/mwolson/stylesheets/.arch-ids/=id
+    examples/mwolson/stylesheets/.arch-ids/blog.css.id
+    examples/mwolson/stylesheets/.arch-ids/common.css.id
+    examples/mwolson/stylesheets/.arch-ids/print.css.id
+    examples/mwolson/stylesheets/.arch-ids/screen.css.id
+    examples/mwolson/stylesheets/blog.css
+    examples/mwolson/stylesheets/common.css
+    examples/mwolson/stylesheets/print.css
+    examples/mwolson/stylesheets/screen.css
+New-directories: debian debian/.arch-ids
+    examples/mwolson/stylesheets
+    examples/mwolson/stylesheets/.arch-ids
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-147
+Summary: Add debian files; tweak Makefile.
+Keywords: 
+
+* Makefile (distclean): Remove directory created by dist rule.
+  (dist): Make this only generate the directory, not the tarball.
+  (release): New target that generates the tarball and zipfile.
+  (debrelease): New target that builds the debian package for Muse.
+  (upload): Depend on release target.
+
+* examples/mwolson/stylesheets: Add forgotten Arch id.

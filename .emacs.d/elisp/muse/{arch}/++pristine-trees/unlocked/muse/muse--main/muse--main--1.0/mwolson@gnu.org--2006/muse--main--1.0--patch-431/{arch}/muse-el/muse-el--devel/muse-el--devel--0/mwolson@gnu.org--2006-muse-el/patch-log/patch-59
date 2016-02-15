@@ -1,0 +1,23 @@
+Revision: muse-el--devel--0--patch-59
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr 21 15:32:37 EDT 2006
+Standard-date: 2006-04-21 19:32:37 GMT
+Modified-files: ChangeLog.2006 contrib/cgi.el
+    examples/mwolson/muse-init.el
+    examples/mwolson/templates/footer.html
+    examples/mwolson/templates/header.html
+    lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-59
+    mwolson@gnu.org--2006/muse--main--1.0--patch-111
+    mwolson@gnu.org--2006/muse--main--1.0--patch-112
+Summary: Merged from mwolson@gnu.org--2006 (patch 111-112)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-111
+   muse-mode: Make C-c C-e work better.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-112
+   Re-add some cgi.el stuff and update my example config.

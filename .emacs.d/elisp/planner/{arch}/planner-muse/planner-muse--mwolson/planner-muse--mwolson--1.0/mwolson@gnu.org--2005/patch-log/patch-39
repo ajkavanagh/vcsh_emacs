@@ -1,0 +1,21 @@
+Revision: planner-muse--mwolson--1.0--patch-39
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 27 01:30:51 EST 2005
+Standard-date: 2005-07-27 06:30:51 GMT
+New-files: .arch-ids/ChangeLog.sacha.id ChangeLog.sacha
+Removed-files: .arch-ids/ChangeLog.sacha-muse.id
+    ChangeLog.sacha-muse
+Modified-files: ChangeLog.mwolson planner-calendar.el
+    planner-experimental.el planner-tasks-overview.el
+    planner-xtla.el planner.el
+    {arch}/emacs-wiki/emacs-wiki--sacha/emacs-wiki--sacha--1.0/sacha@free.net.ph--main/patch-log/patch-5
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-39
+    sacha@free.net.ph--main/planner--dev--1.0--patch-458
+Summary: Merged from sacha@free.net.ph--main (patch 458)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-458
+   Massive merge with  mwolson@gnu.org--2005/planner-muse--mwolson--1.0 (to patch 37)

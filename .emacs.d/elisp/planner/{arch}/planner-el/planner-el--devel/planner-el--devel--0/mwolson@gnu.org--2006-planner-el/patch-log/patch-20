@@ -1,0 +1,20 @@
+Revision: planner-el--devel--0--patch-20
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Mar 23 09:15:45 EST 2006
+Standard-date: 2006-03-23 14:15:45 GMT
+Modified-files: ChangeLog.2006 planner-psvn.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-20
+    mwolson@gnu.org--2006/planner--main--1.0--patch-21
+    mwolson@gnu.org--2006/planner--main--1.0--patch-22
+    mwolson@gnu.org--2006/planner--main--1.0--patch-23
+Summary: Merged from mwolson@gnu.org--2006 (patch 21-23)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-22
+   Bring ChangeLog up-to-date.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-23
+   planner-psvn.el: Install update from author.

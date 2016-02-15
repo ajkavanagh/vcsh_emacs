@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-409
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 27 14:22:17 EDT 2007
+Standard-date: 2007-07-27 18:22:17 GMT
+Modified-files: ChangeLog README texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-409
+Summary: Allow Emacs-Muse as an alternate spelling
+Keywords: 
+
+2007-07-27  Michael Olson  <mwolson@gnu.org>
+
+	* README: Permit Muse to be called "Emacs-Muse".
+
+	* texi/muse.texi (Introduction): Mention that Emacs Muse, Muse,
+	and Emacs-Muse are the same thing.

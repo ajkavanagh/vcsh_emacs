@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-272
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jan  2 21:01:02 JST 2005
+Standard-date: 2005-01-02 12:01:02 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-272
+Summary: NOTE: planner-multi-xref-note: Rename from planner-multi-note-xref, other functions renamed
+Keywords: 
+
+	* planner-multi.el (planner-multi-note-xref): Rename from
+	planner-multi-xref-note.

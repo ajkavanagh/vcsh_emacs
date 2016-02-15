@@ -1,0 +1,14 @@
+Revision: planner--main--1.0--patch-49
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 26 10:44:08 EDT 2006
+Standard-date: 2006-05-26 14:44:08 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-49
+Summary: Display a helpful message if muse-project-alist undefined.
+Keywords: 
+
+* planner.el (planner-display-warning): New function that displays a
+  warning window.  This is useful for longer explanations of errors.
+  (plan): Display a helpful message if `muse-project-alist' is not
+  defined.

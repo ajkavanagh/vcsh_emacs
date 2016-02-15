@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-490
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Oct  6 22:06:09 EDT 2005
+Standard-date: 2005-10-07 02:06:09 GMT
+Modified-files: planner-accomplishments.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-490
+    sacha@free.net.ph--main/planner--merge--1.0--patch-3
+Summary: planner-accomplishments.el: Line up accomplishments neatly
+Keywords: 
+
+* planner-accomplishments.el: 
+  From sacha@free.net.ph--main/planner--merge--1.0--patch-3:
+  planner-accomplishments.el: Line up accomplishments neatly. Thanks
+  to pll for the suggestion!
+

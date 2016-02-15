@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-106
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov 21 16:38:00 EST 2005
+Standard-date: 2005-11-21 21:38:00 GMT
+Modified-files: ChangeLog planner-appt.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-106
+Summary: planner-appt: Try to fix infinite loop error.
+Keywords: 
+
+* planner-appt.el (planner-appt-de-wiki): Save place while we replace
+  parts of the string.  Hopefully this fixes an infinite loop error.

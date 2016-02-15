@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-23
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr  5 22:18:55 EST 2005
+Standard-date: 2005-04-06 03:18:55 GMT
+Modified-files: ChangeLog muse-regexps.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-23
+Summary: Try to fix regexps for Emacs 21.4.
+Keywords: 
+
+2005-04-05  Michael Olson  <mwolson@gnu.org>
+
+    * muse-regexps.el (muse-extreg-usable-p): Try to make regexps work
+    for Emacs 21.4.

@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-14
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Tue Feb  1 12:33:24 CST 2005
+Standard-date: 2005-02-01 04:33:24 GMT
+Modified-files: ChangeLog planner-multi.el planner-rank.el
+    planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-14
+    sacha@free.net.ph--main/planner--dev--1.0--patch-308
+    sacha@free.net.ph--main/planner--dev--1.0--patch-309
+    sacha@free.net.ph--main/planner--dev--1.0--patch-310
+    sacha@free.net.ph--main/planner--dev--1.0--patch-311
+    sacha@free.net.ph--main/planner--dev--1.0--patch-312
+Summary: merge from main tree
+Keywords: merge
+
+Merge from main tree. I mistakenly commit a private change of
+planner-rank-change in patch-13 and Sacha fixed this in another way. Wish
+this merge won't cuase problem.

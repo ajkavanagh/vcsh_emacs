@@ -1,0 +1,18 @@
+Revision: planner--main--1.0--patch-24
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar 24 23:46:53 EST 2006
+Standard-date: 2006-03-25 04:46:53 GMT
+New-files: .arch-ids/planner-zoom.el.id planner-zoom.el
+Modified-files: AUTHORS planner.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-24
+Summary: planner-zoom.el: New file used for navigating Planner pages.
+Keywords: 
+
+* AUTHORS: Bookkeeping.
+
+* planner.el (planner-remove-if-not): New function that implements a
+  simplified version of `remove-if-not'.
+
+* planner-zoom.el: New file by Gregory Novak that implements easy
+  navigation of Planner pages.

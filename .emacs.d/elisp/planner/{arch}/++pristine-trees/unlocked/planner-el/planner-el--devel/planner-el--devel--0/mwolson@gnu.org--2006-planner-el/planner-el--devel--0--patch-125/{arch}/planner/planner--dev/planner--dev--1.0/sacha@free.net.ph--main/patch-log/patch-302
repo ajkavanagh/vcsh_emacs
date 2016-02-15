@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-302
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan 24 19:27:26 JST 2005
+Standard-date: 2005-01-24 10:27:26 GMT
+Modified-files: ChangeLog planner-deadline.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-302
+Summary: planner-deadline-change: Add deadlines to tasks without deadlines
+Keywords: 
+
+	* planner-deadline.el (planner-deadline-change): Allow the
+	addition of deadlines to tasks without deadlines. Thanks to Dryice
+	Liu for the suggestion.

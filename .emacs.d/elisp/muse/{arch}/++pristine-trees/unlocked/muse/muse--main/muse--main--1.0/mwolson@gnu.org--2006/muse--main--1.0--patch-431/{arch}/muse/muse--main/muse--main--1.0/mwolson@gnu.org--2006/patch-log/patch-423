@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-423
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 29 13:15:37 EDT 2007
+Standard-date: 2007-07-29 17:15:37 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-423
+Summary: Set muse-current-output-style in muse-batch-publish-files
+Keywords: 
+
+* lisp/muse-publish.el (muse-batch-publish-files): Set
+  muse-current-output-style.

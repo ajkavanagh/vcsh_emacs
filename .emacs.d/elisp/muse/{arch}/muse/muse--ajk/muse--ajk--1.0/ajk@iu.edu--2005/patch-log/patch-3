@@ -1,0 +1,14 @@
+Revision: muse--ajk--1.0--patch-3
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Tue Jul  5 18:36:37 EST 2005
+Standard-date: 2005-07-05 23:36:37 GMT
+Modified-files: lisp/muse-groff.el
+New-patches: ajk@iu.edu--2005/muse--ajk--1.0--patch-3
+Summary: Remove extra newlines from QUOTE calls.
+CSCVSID: MAIN.3
+Keywords: cscvs:MAIN-3
+
+Author: ajk
+Date: 2005/04/28 20:43:49
+Remove extra newlines from QUOTE calls.

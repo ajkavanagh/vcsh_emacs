@@ -1,0 +1,31 @@
+Revision: muse-el--devel--0--patch-32
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar 26 14:55:55 EST 2006
+Standard-date: 2006-03-26 19:55:55 GMT
+Modified-files: ChangeLog.2006 lisp/muse-colors.el
+    lisp/muse-mode.el muse.texi
+    {arch}/muse-el/muse-el--devel/muse-el--devel--0/mwolson@gnu.org--2006-muse-el/patch-log/patch-14
+    {arch}/muse-el/muse-el--devel/muse-el--devel--0/mwolson@gnu.org--2006-muse-el/patch-log/patch-25
+    {arch}/muse-el/muse-el--devel/muse-el--devel--0/mwolson@gnu.org--2006-muse-el/patch-log/patch-3
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-19
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-46
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-58
+    {arch}/muse/muse--main/muse--main--1.0/mwolson@gnu.org--2006/patch-log/patch-60
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-32
+    mwolson@gnu.org--2006/muse--main--1.0--patch-74
+    mwolson@gnu.org--2006/muse--main--1.0--patch-75
+    mwolson@gnu.org--2006/muse--main--1.0--patch-76
+Summary: Merged from mwolson@gnu.org--2006 (patch 74-76)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-74
+   muse.texi: Mention the <code> tag.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-75
+   Make faces more robust and namespace-conforming.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-76
+   Remove cruft from patch logs.

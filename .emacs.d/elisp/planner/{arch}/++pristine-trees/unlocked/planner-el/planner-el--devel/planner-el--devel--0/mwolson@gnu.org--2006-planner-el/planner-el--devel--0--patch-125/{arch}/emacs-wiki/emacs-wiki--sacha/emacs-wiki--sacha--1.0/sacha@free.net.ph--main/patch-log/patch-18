@@ -1,0 +1,20 @@
+Revision: emacs-wiki--sacha--1.0--patch-18
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jan 28 14:43:16 PHT 2004
+Standard-date: 2004-01-28 06:43:16 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-18
+Summary: Improved font-locking
+Keywords:
+
+New variable: planner-hide-task-status-when-highlighting
+
+Martin Morgan suggested highlighting only a small part of the task, as
+wide seas of red can be quite overwhelming. Tried it out and thought
+it was a cool idea, so this version highlights only the
+category/priority with the category color and now properly does the
+completed/in-progress/delegated task highlighting. Martin sent a
+patch, too, which made the status invisible, but I like seeing the
+status so that I can change it by hand. New variable
+planner-hide-task-status-when-highlighting controls this.

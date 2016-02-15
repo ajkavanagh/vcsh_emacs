@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-42
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Thu Jun  2 21:33:29 CST 2005
+Standard-date: 2005-06-02 13:33:29 GMT
+Modified-files: planner-authz.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-42
+Summary: Merge Andrew's change and support definde section access rule
+Keywords: merge, newfeature
+
+* planner-authz.el: merge Andrew's change to make sure the perl code fit
+  Mason format and more.
+  (planner-authz-sections-rule-list): New customizable to define access rule.
+  (planner-authz-publishing-markup-first): support access by section by default.
+  (planner-authz-markup-section-predict): new helper function to check if the
+  prediction is satisfied.
+  (planner-authz-markup-section): new function to grant access permission
+  according to planner-authz-sections-rule-list
+

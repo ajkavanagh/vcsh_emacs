@@ -1,0 +1,11 @@
+Revision: emacs-wiki--sacha--1.0--patch-43
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Feb 23 00:39:25 PHT 2004
+Standard-date: 2004-02-22 16:39:25 GMT
+Modified-files: emacs-wiki.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-43
+Summary: Bugfix in emacs-wiki.el: (not end) should precede (< (point) end).
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-escape-html-specials): Bugfix: Transpose test.

@@ -1,0 +1,24 @@
+Revision: muse--main--1.0--patch-40
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar  3 00:24:59 EST 2006
+Standard-date: 2006-03-03 05:24:59 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-40
+Summary: Make code look nicer by using muse-forward-dl-* functions.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-dl): Factor out lambda
+  forms into muse-forward-dl-* for increased reusability.
+  (muse-publish-surround-text): Call move function with an indent
+  argument so that we don't have to use partial substitution in lambda
+  forms.
+  (muse-forward-dl-term): New function that moves forward to the next
+  definition list term.
+  (muse-forward-dl-entry): New function that moves forward to the next
+  definition list entry.
+  (muse-forward-dl-part): Renamed from `muse-forward-dl-item', since this
+  does not move past entire definition list items, only parts of them.
+  (muse-publish-markup-list, muse-publish-markup-quote):
+  (muse-publish-quote-tag): Use better lambda form, and include a
+  parameter.

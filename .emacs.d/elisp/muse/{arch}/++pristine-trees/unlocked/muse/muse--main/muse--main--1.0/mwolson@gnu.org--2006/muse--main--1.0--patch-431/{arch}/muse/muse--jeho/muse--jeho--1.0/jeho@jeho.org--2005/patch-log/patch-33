@@ -1,0 +1,13 @@
+Revision: muse--jeho--1.0--patch-33
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Sep 14 09:08:41 BST 2006
+Standard-date: 2006-09-14 08:08:41 GMT
+Modified-files: lisp/muse-texinfo.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-33
+Summary: muse-texinfo: selectively protect wikiwords in headings
+Keywords: 
+
+* lisp/muse-texinfo.el (muse-texinfo-protect-wikiwords): New function:
+  Protect all wikiwords from START to END from further processing. 
+  (muse-texinfo-markup-heading): Use muse-texinfo-protect-wikiwords.

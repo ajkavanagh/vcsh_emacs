@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-127
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan 14 18:03:13 EST 2007
+Standard-date: 2007-01-14 23:03:13 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-protocols.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-127
+    mwolson@gnu.org--2006/muse--main--1.0--patch-271
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 271)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-271
+   muse-protocols: Add woman:// handler

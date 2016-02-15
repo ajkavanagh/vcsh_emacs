@@ -1,0 +1,19 @@
+Revision: muse-epomulet--0--patch-5
+Archive: e.pomohaci@gmail.com--2006
+Creator: Elena Pomohaci <e.pomohaci@gmail.com>
+Date: Thu Aug  3 20:53:52 EEST 2006
+Standard-date: 2006-08-03 17:53:52 GMT
+Renamed-files: lisp/.arch-ids/muse-from-dbk.el.id lisp/.arch-ids/muse-import-docbook.el.id
+    lisp/.arch-ids/muse-from-xml.el.id lisp/.arch-ids/muse-import-xml.el.id
+    lisp/muse-from-dbk.el lisp/muse-import-docbook.el
+    lisp/muse-from-xml.el lisp/muse-import-xml.el
+Modified-files: lisp/muse-import-docbook.el
+    lisp/muse-import-xml.el
+New-patches: e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-5
+Summary: Changed file names for muse-from-*
+Keywords: muse import
+
+* lisp/muse-import-docbook.el: Changed file name.
+
+* lisp/muse-import-xml.el: Changed file name.
+

@@ -1,0 +1,25 @@
+Revision: planner--dev--1.0--patch-226
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Dec 11 07:47:26 JST 2004
+Standard-date: 2004-12-10 22:47:26 GMT
+Modified-files: ChangeLog planner-report.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-226
+Summary: planner-report update from ajk
+Keywords: external patch
+
+	* planner-report.el: Merge update from ajk. From ajk: Fix bugs
+	that caused some tasks and notes to be left out. Remove redundant
+	code.
+	(planner-report-remove-tasks-numbers): New customization option
+	planner-report-remove-task-numbers enables removal of task
+	priority numbers in status reports (they don't increment
+	per-project and therefore don't mean much).
+	(planner-report-replace-note-numbers): New customization option
+	planner-report-replace-note-numbers enables replacement of note
+	numbers (again, they don't mean much in a status report) with some
+	string (defaults to "**").
+	(planner-report-unfinished-offset): New customization option
+	planner-report-unfinished-offset specifies the number of days from
+	the current date of unfinished tasks to include in the status
+	report. Before, all unfinished tasks were included.

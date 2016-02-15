@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-4
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 12:06:15 CST 2005
+Standard-date: 2005-01-30 04:06:15 GMT
+Modified-files: planner-deadline.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-4
+Summary: New hook planner-deadline-change-hook
+Keywords: newfeature
+
+* planner-deadline.el (planner-deadline-change-hook): New hook to run in
+  function planner-deadline-change.
+  (planner-deadline-change): run planner-deadline-change-hook at the end
+  of this function. Note the planner-deadline-update call above: It's not
+  necessory to update the whole page, Maybe we can change it to update
+  the deadline of the current task only some time later.
+

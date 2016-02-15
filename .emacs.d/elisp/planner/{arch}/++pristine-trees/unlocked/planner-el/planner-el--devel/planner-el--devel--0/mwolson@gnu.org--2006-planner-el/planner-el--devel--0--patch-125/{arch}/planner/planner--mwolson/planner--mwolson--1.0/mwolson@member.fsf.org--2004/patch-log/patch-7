@@ -1,0 +1,16 @@
+Revision: planner--mwolson--1.0--patch-7
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Fri Sep 24 22:03:06 EST 2004
+Standard-date: 2004-09-25 03:03:06 GMT
+Modified-files: planner.el
+New-patches: mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-7
+Summary: Temporary fix for recursive problem when saving
+Keywords:
+
+2004-09-23  Michael Olson  <mwolson@member.fsf.org>
+
+    * planner.el (planner-update-task): Comment-out the call to
+    `planner-save-buffers' since it seems to cause a recursion problem
+    when saving a planner page.  This problem was introduced in
+    Sacha's patch-167.

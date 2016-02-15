@@ -1,0 +1,44 @@
+Revision: muse-el--devel--0--patch-2
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Per B. Sederberg <per@med.upenn.edu>
+Date: Sat Feb 25 16:42:18 EST 2006
+Standard-date: 2006-02-25 21:42:18 GMT
+Modified-files: lisp/muse-colors.el lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-2
+Summary: Added ability to show inline images in the Emacs buffer.
+Keywords: 
+
+* lisp/muse-colors.el (muse-inline-relative-to): Added custom directory
+  for where to search for images to inline in the buffer.
+
+* muse-colors.el (muse-colors-inline-images): Added custom boolean field
+  for whether to show inline images in the buffer.
+
+* muse-colors.el (muse-colors-toggle-inline-images): New function to
+  toggle showing the inline images in the buffer.
+
+* muse-colors.el (muse-mode-map): New key mapping to toggle showing
+  images.
+
+* muse-colors.el (muse-unhighlight-region): Now removes end-glyph text
+  properties to support XEmacs.
+
+* muse-colors.el (muse-colors-resolve-image-file): New function to
+  determine if a link is an image and whether the version of Emacs can
+  support inline images.
+
+* muse-colors.el (muse-make-file-glyph): New function to create an image
+  glyph if we are using XEmacs.
+
+* muse-colors.el (muse-colors-insert-image): New function to insert an
+  image in an Emacs buffer.
+
+* muse-colors.el (muse-colors-explicit-link): Modified function to have
+  the ability to insert an image instead of formatting the text of the
+  link.
+
+* muse-mode.el (muse-mode-map): Added a key mapping to insert a link to a
+  file and modified the key map to insert a tag.
+
+* muse-mode.el (muse-insert-relative-link-to-file): New function to
+  insert a link to a file, relative to the default directory.

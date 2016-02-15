@@ -1,0 +1,23 @@
+Revision: planner-el--devel--0--patch-7
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Tue Feb 21 20:57:37 EST 2006
+Standard-date: 2006-02-22 01:57:37 GMT
+Modified-files: planner-authz.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-7
+Summary: only publish dependencies if they haven't already been published
+Keywords: 
+
+* planner-authz.el (planner-authz-publishing-alist): alist to track
+  published pages and their dependencies
+  (planner-authz-after-markup): if planner-authz-publishing-alist
+  indicates this page has already been published, and here we are
+  publishing it again, the alist must be stale, so we replace it with
+  a single element for this page; otherwise, add an element for this page
+  to the list
+  (planner-authz-after-project-publish): use
+  planner-authz-publishing-alist to determine which dependencies need
+  publishing
+  (planner-authz-republish-dependencies-maybe): add linked pages to
+  planner-authz-publishing-alist as dependencies if they're not already
+  there

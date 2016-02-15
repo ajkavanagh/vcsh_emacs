@@ -1,0 +1,22 @@
+Revision: planner-muse--mwolson--1.0--patch-152
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan  3 14:36:56 EST 2006
+Standard-date: 2006-01-03 19:36:56 GMT
+Modified-files: ChangeLog Makefile Makefile.defs
+    planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-152
+Summary: Fix double-escaping issue.
+Keywords: 
+
+* Makefile (install): Install the manual as "planner", not
+  "planner-muse".
+
+* Makefile.defs (ELISPDIR): Install the elisp files to site-lisp/planner
+  rather than site-lisp/planner-muse.
+
+* planner-publish.el (planner-publish-markup-note): Apply patch from Dale
+  Smith that fixes a double-escaping of specials with muse--main.
+  (planner-publish-section-tag): Revert a previous whitespace patch.
+  (planner-publish-content-tag): Insert an additional newline.  Hopefully
+  this finally fixes the paragraph detection problem.

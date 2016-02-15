@@ -1,0 +1,305 @@
+Revision: muse--jeho--1.0--patch-3
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Jun 23 12:09:10 BST 2005
+Standard-date: 2005-06-23 11:09:10 GMT
+New-files: .arch-ids/AUTHORS.id .arch-ids/Makefile.defs.id
+    .arch-ids/README.id AUTHORS Makefile.defs README
+    examples/.arch-ids/Makefile.id examples/Makefile
+    experimental/.arch-ids/=id
+    experimental/.arch-ids/muse-wiki.el.id
+    experimental/muse-wiki.el lisp/.arch-ids/=id
+    lisp/.arch-ids/Makefile.id lisp/Makefile
+New-directories: experimental lisp lisp/.arch-ids
+Removed-files: .arch-ids/muse-latexcjk.el.id
+    .arch-ids/muse-xhtml.el.id
+    contrib/.arch-ids/pcomplete.el.id contrib/pcomplete.el
+    experimental/.arch-ids/=id muse-latexcjk.el
+    muse-xhtml.el
+Removed-directories: experimental
+Renamed-files: .arch-ids/README.id examples/.arch-ids/QuickStart.id
+    .arch-ids/muse-blosxom.el.id lisp/.arch-ids/muse-blosxom.el.id
+    .arch-ids/muse-book.el.id lisp/.arch-ids/muse-book.el.id
+    .arch-ids/muse-build.el.id scripts/.arch-ids/muse-build.el.id
+    .arch-ids/muse-colors.el.id lisp/.arch-ids/muse-colors.el.id
+    .arch-ids/muse-convert.el.id lisp/.arch-ids/muse-convert.el.id
+    .arch-ids/muse-docbook.el.id lisp/.arch-ids/muse-docbook.el.id
+    .arch-ids/muse-html.el.id lisp/.arch-ids/muse-html.el.id
+    .arch-ids/muse-http.el.id lisp/.arch-ids/muse-http.el.id
+    .arch-ids/muse-journal.el.id lisp/.arch-ids/muse-journal.el.id
+    .arch-ids/muse-latex.el.id lisp/.arch-ids/muse-latex.el.id
+    .arch-ids/muse-message.el.id experimental/.arch-ids/muse-message.el.id
+    .arch-ids/muse-mode.el.id lisp/.arch-ids/muse-mode.el.id
+    .arch-ids/muse-poem.el.id lisp/.arch-ids/muse-poem.el.id
+    .arch-ids/muse-project.el.id lisp/.arch-ids/muse-project.el.id
+    .arch-ids/muse-publish.el.id lisp/.arch-ids/muse-publish.el.id
+    .arch-ids/muse-regexps.el.id lisp/.arch-ids/muse-regexps.el.id
+    .arch-ids/muse-texinfo.el.id lisp/.arch-ids/muse-texinfo.el.id
+    .arch-ids/muse.el.id lisp/.arch-ids/muse.el.id
+    README examples/QuickStart
+    muse-blosxom.el lisp/muse-blosxom.el
+    muse-book.el lisp/muse-book.el
+    muse-build.el scripts/muse-build.el
+    muse-colors.el lisp/muse-colors.el
+    muse-convert.el lisp/muse-convert.el
+    muse-docbook.el lisp/muse-docbook.el
+    muse-html.el lisp/muse-html.el
+    muse-http.el lisp/muse-http.el
+    muse-journal.el lisp/muse-journal.el
+    muse-latex.el lisp/muse-latex.el
+    muse-message.el experimental/muse-message.el
+    muse-mode.el lisp/muse-mode.el
+    muse-poem.el lisp/muse-poem.el
+    muse-project.el lisp/muse-project.el
+    muse-publish.el lisp/muse-publish.el
+    muse-regexps.el lisp/muse-regexps.el
+    muse-texinfo.el lisp/muse-texinfo.el
+    muse.el lisp/muse.el
+    scripts/.arch-ids/publish-project.id examples/.arch-ids/publish-project.id
+    scripts/publish-project examples/publish-project
+Renamed-directories: experimental/.arch-ids experimental/.arch-ids
+Modified-files: ChangeLog ChangeLog.2004 Makefile
+    examples/QuickStart examples/johnw/muse-johnw.el
+    examples/mwolson/muse-init.el examples/publish-project
+    experimental/muse-message.el lisp/muse-blosxom.el
+    lisp/muse-book.el lisp/muse-colors.el
+    lisp/muse-convert.el lisp/muse-docbook.el
+    lisp/muse-html.el lisp/muse-http.el lisp/muse-journal.el
+    lisp/muse-latex.el lisp/muse-mode.el lisp/muse-poem.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-texinfo.el lisp/muse.el
+    muse.texi scripts/muse-build.el scripts/publish
+Modified-directories: experimental/.arch-ids
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--base-0
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-1
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-2
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-3
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-4
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-5
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-6
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-3
+    mwolson@gnu.org--2005/muse--main--1.0--patch-22
+    mwolson@gnu.org--2005/muse--main--1.0--patch-23
+    mwolson@gnu.org--2005/muse--main--1.0--patch-24
+    mwolson@gnu.org--2005/muse--main--1.0--patch-25
+    mwolson@gnu.org--2005/muse--main--1.0--patch-26
+    mwolson@gnu.org--2005/muse--main--1.0--patch-27
+    mwolson@gnu.org--2005/muse--main--1.0--patch-28
+    mwolson@gnu.org--2005/muse--main--1.0--patch-29
+    mwolson@gnu.org--2005/muse--main--1.0--patch-30
+    mwolson@gnu.org--2005/muse--main--1.0--patch-31
+    mwolson@gnu.org--2005/muse--main--1.0--patch-32
+    mwolson@gnu.org--2005/muse--main--1.0--patch-33
+    mwolson@gnu.org--2005/muse--main--1.0--patch-34
+    mwolson@gnu.org--2005/muse--main--1.0--patch-35
+    mwolson@gnu.org--2005/muse--main--1.0--patch-36
+    mwolson@gnu.org--2005/muse--main--1.0--patch-37
+    mwolson@gnu.org--2005/muse--main--1.0--patch-38
+    mwolson@gnu.org--2005/muse--main--1.0--patch-39
+    mwolson@gnu.org--2005/muse--main--1.0--patch-40
+    mwolson@gnu.org--2005/muse--main--1.0--patch-41
+    mwolson@gnu.org--2005/muse--main--1.0--patch-42
+    mwolson@gnu.org--2005/muse--main--1.0--patch-43
+    mwolson@gnu.org--2005/muse--main--1.0--patch-44
+    mwolson@gnu.org--2005/muse--main--1.0--patch-45
+    mwolson@gnu.org--2005/muse--main--1.0--patch-46
+    mwolson@gnu.org--2005/muse--main--1.0--patch-47
+    mwolson@gnu.org--2005/muse--main--1.0--patch-48
+    mwolson@gnu.org--2005/muse--main--1.0--patch-49
+    mwolson@gnu.org--2005/muse--main--1.0--patch-50
+    mwolson@gnu.org--2005/muse--main--1.0--patch-51
+    mwolson@gnu.org--2005/muse--main--1.0--patch-52
+    mwolson@gnu.org--2005/muse--main--1.0--patch-53
+    mwolson@gnu.org--2005/muse--main--1.0--patch-54
+    mwolson@gnu.org--2005/muse--main--1.0--patch-55
+    mwolson@gnu.org--2005/muse--main--1.0--patch-56
+    mwolson@gnu.org--2005/muse--main--1.0--patch-57
+    mwolson@gnu.org--2005/muse--main--1.0--patch-58
+    mwolson@gnu.org--2005/muse--main--1.0--patch-59
+    mwolson@gnu.org--2005/muse--main--1.0--patch-60
+    mwolson@gnu.org--2005/muse--main--1.0--patch-61
+    mwolson@gnu.org--2005/muse--main--1.0--patch-62
+    mwolson@gnu.org--2005/muse--main--1.0--patch-63
+    mwolson@gnu.org--2005/muse--main--1.0--patch-64
+    mwolson@gnu.org--2005/muse--main--1.0--patch-65
+    mwolson@gnu.org--2005/muse--main--1.0--patch-66
+    mwolson@gnu.org--2005/muse--main--1.0--patch-67
+    mwolson@gnu.org--2005/muse--main--1.0--patch-68
+    mwolson@gnu.org--2005/muse--main--1.0--patch-69
+    mwolson@gnu.org--2005/muse--main--1.0--patch-70
+    mwolson@gnu.org--2005/muse--main--1.0--patch-71
+Summary: merge latest
+Keywords: 
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--base-0
+   tag of mwolson@gnu.org--2005/muse--main--1.0--patch-49
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-1
+   fix .html (for example) in visible names for links
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-2
+   merge from mwolson@gnu.org--2005
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-3
+   Accept WikiWords as links
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-4
+   merge from mwolson@gnu.org--2005/muse--main--1.0
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-5
+   Merged from mwolson@gnu.org--2005 (patch 60-62)
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-6
+   provide a string view of the index
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-22
+   Add comments to the publish-project example script
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-23
+   Try to fix regexps for Emacs 21.4.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-24
+   Merge muse-xhtml.el into muse-html.el.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-25
+   Merge contents of muse-latexcjk.el into muse-latex.el.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-26
+   Standardize source headers, appease elint, don't require planner
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-27
+   Merge RSS 2.0 enclosure support for muse-journal.el from johnw
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-28
+   Don't compile documentation by default.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-29
+   Add simple `muse-version' function.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-30
+   Update my example Muse settings.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-31
+   Remove flyspell overlays on links.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-32
+   Fix XHTML validation error with <hr> and <br>.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-33
+   New feature: tag completion with C-c TAB.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-34
+   Update documentation for C-c TAB feature.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-35
+   Update my example settings.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-36
+   Bugfix: Close P tag properly at end of file.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-37
+   Make docbook and blosxom modes close paragraphs properly at end.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-38
+   Parenthesis goofup.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-39
+   Fix newly-introduced lock-up during HTML publishing.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-40
+   Apply fix in previous patch to the DocBook publishing style.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-41
+   Don't let automatic backup files crash the publishing process.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-42
+   Always end the published document with a newline.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-43
+   Fix error with example tags and message publishing style.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-44
+   Warn user when publishing fails due to a private directory.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-45
+   Improve prompt when reading a tag.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-46
+   Handle a few paragraph publishing edge cases better.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-47
+   Update my example config, minor code cleanup.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-48
+   Move regexps to same group, only make 4 heading faces.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-49
+   Make generated X(HT)ML show up in the right encoding in other modes.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-50
+   Merged from hodique@lifl.fr--2005 (patch 0-1)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-51
+   Change mailing address of FSF, add AUTHORS file.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-52
+   Add ability to automate the creation a new blosxom entry.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-53
+   Minor code cleanup to address elint issues.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-54
+   WYSIWYG emphasis, XEmacs compatibility hacks.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-55
+   Fix publishing error when given an empty string for header/footer.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-56
+   Provide optional outline-style faces; customization fixes; experimental stuff.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-57
+   Update my example configuration.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-58
+   Makefile refactoring.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-59
+   Release this as Muse 3.00.90 (RC1).
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-60
+   Document Markup Rules.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-61
+   Begin work on Publishing Styles section of manual.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-62
+   Document Blosxom, Book, DocBook, and HTML publishing styles.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-63
+   Merged from hodique@lifl.fr--2005 (patch 2-6), without the WikiWord change.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-64
+   Massively untabify files.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-65
+   Move lisp files to `lisp' directory; hack on Makefiles, XEmacs compat.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-66
+   Cater even more to XEmacs and its annoying whims.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-67
+   Make Muse installable and correct an Emacs21 issue.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-68
+   Finish documenting 2 more publishing styles.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-69
+   Tweak documentation thoroughly; still incomplete.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-70
+   Release Muse 3.01.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-71
+   Minor grammar fix in Introduction section of manual.

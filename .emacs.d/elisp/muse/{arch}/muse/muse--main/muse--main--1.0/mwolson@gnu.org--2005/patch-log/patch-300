@@ -1,0 +1,29 @@
+Revision: muse--main--1.0--patch-300
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 14:21:06 EST 2005
+Standard-date: 2005-12-16 19:21:06 GMT
+Modified-files: ChangeLog Makefile lisp/Makefile
+    scripts/muse-build.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-300
+Summary: Generate autoloads file.
+Keywords: 
+
+* Makefile (autoloads): New rule that calls "make autoloads" in lisp
+  directory.
+
+* lisp/Makefile (EL): Avoid warning by removing muse-autoloads.el from
+  list.
+  (all): Generate autoloads.
+  (autoloads): Make muse-autoloads.el.
+  (muse-autoloads.el): Call `muse-generate-autoloads' from
+  scripts/muse-build.el with arguments representing the directories to
+  use when searching for autoloads.
+  (realclean distclean fullclean): Remove autoloads.
+
+* scripts/muse-build.el (muse-generate-autoloads): Generate autoloads for
+  Muse.  Deal with XEmacs and its quirky insistence on doing most of the
+  work itself.  Expand all command line args so that the right
+  directories are searched.  Hardcode muse-autoloads.el as the name of
+  the generated autoloads file.  Use my custom header and footer, if
+  possible.

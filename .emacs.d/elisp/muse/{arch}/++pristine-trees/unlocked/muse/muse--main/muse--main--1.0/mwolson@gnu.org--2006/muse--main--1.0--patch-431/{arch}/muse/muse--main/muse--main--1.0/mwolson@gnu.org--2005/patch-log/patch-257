@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-257
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 04:15:07 EST 2005
+Standard-date: 2005-10-29 09:15:07 GMT
+Modified-files: ChangeLog lisp/muse-mode.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-257
+Summary: By default, use ".muse" extension and do not detect by pathname.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode-auto-p): Default to nil.
+  (muse-file-extension): Default to "muse".  This has the effect of
+  making Emacs associate the ".muse" extension with muse-mode, without
+  trying to figure things out from the path to the file.  The former
+  method is usually considered to be best, so we'll go with it.

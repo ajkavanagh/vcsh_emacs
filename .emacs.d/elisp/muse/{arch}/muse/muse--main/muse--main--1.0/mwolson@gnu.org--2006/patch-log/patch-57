@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-57
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar 12 14:56:26 EST 2006
+Standard-date: 2006-03-12 19:56:26 GMT
+Modified-files: ChangeLog.2006 lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-57
+Summary: Slightly improve flyspell integration.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode-flyspell-p): Use the new 'muse-link text
+  property to determine whether we are at a link.

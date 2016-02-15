@@ -1,0 +1,32 @@
+Revision: muse--yh--1.0--patch-34
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jul 15 17:33:46 CEST 2005
+Standard-date: 2005-07-15 15:33:46 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+    lisp/muse-project.el lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-34
+    mwolson@gnu.org--2005/muse--main--1.0--patch-138
+    mwolson@gnu.org--2005/muse--main--1.0--patch-139
+    mwolson@gnu.org--2005/muse--main--1.0--patch-140
+    mwolson@gnu.org--2005/muse--main--1.0--patch-141
+    mwolson@gnu.org--2005/muse--main--1.0--patch-142
+Summary: Merged from mwolson@gnu.org--2005 (patch 138-142)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-138
+   Merged from hodique@lifl.fr--2005 (patch 24-33)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-139
+   Improve customize interface for `muse-project-alist' once more.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-140
+   Do the right thing with consecutive list items, hopefully.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-141
+   Be a bit more clever with our consecutive list regexp.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-142
+   muse-docbook: Parse author directive so that it validates properly.

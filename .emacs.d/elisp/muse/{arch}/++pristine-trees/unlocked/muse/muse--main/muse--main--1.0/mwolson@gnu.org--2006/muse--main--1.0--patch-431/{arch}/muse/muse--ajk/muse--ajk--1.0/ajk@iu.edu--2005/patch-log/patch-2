@@ -1,0 +1,14 @@
+Revision: muse--ajk--1.0--patch-2
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Tue Jul  5 18:36:37 EST 2005
+Standard-date: 2005-07-05 23:36:37 GMT
+Modified-files: lisp/muse-groff.el
+New-patches: ajk@iu.edu--2005/muse--ajk--1.0--patch-2
+Summary: Kinda works, still need tables and a bunch of other stuff.
+CSCVSID: MAIN.2
+Keywords: cscvs:MAIN-2
+
+Author: ajk
+Date: 2005/04/28 02:59:30
+Kinda works, still need tables and a bunch of other stuff.

@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-200
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Aug 27 21:41:10 EDT 2006
+Standard-date: 2006-08-28 01:41:10 GMT
+Modified-files: lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-200
+Summary: Get rid of some tabs.
+Keywords: 
+
+* lisp/muse-colors.el (muse-configure-highlighting): Get rid of tabs.

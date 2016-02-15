@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-287
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Dec 10 22:39:22 EST 2005
+Standard-date: 2005-12-11 03:39:22 GMT
+Modified-files: ChangeLog lisp/muse-registry.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-287
+Summary: muse-registry.el: Fix compiler warnings.
+Keywords: 
+
+* lisp/muse-registry.el: Fix compiler warnings.  Remove dependency on
+  cl.el.

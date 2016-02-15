@@ -1,0 +1,50 @@
+Revision: emacs-wiki--sacha--1.0--patch-57
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar  3 23:47:22 PHT 2004
+Standard-date: 2004-03-03 15:47:22 GMT
+New-files: .arch-ids/planner-rmail.el.id planner-rmail.el
+Modified-files: emacs-wiki.el planner-bbdb.el
+    planner-gnus.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-57
+Summary: planner-rmail added, common mail functions moved into planner.el or planner-bbdb.el, redundant defun removed
+Keywords: 
+
+	* planner.el (planner-get-name-from-address): New defun.
+
+	* planner-rmail.el: New file.
+
+	* planner-gnus.el (planner-gnus-get-name-from-address): Moved to
+	planner-bbdb as there was nothing Gnus-specific about this
+	function.
+	(planner-gnus-annotation-from-summary): Use
+	planner-ignored-from-addresses from planner instead of
+	gnus-ignored-from-addresses. Use
+	planner-get-name-from-address (defined in planner, redefined in
+	planner-bbdb) instead of planner-gnus-get-name-from-address.
+	(planner-gnus-annotation-from-message): Use
+	planner-ignored-from-addresses from planner instead of
+	gnus-ignored-from-addresses. Use
+	planner-get-name-from-address (defined in planner, redefined in
+	planner-bbdb) instead of planner-gnus-get-name-from-address.
+
+	* planner-bbdb.el (planner-bbdb-get-name-from-address): New defun.
+	Alternative for planner-get-name-from-address.
+	(planner-get-name-from-address): Set to
+	planner-bbdb-get-name-from-address when planner-bbdb is loaded.
+
+	* planner.el (planner-annotation-functions): Removed
+	planner-annotation-from-planner-note from default value until it
+	is fully supported again.
+	(planner-make-planner-link): Check if emacs-wiki-name-regexp
+	completely matches wiki-link.
+
+	* planner.el: Rearranged compatibility functions
+	(planner-ignored-from-addresses): New option.
+	(planner-make-planner-link): Removed. planner-make-link is
+	sufficient.
+	(planner-copy-or-move-task): Use planner-make-link.
+	(planner-update-task): Use planner-make-link.
+
+	* emacs-wiki.el (emacs-wiki-make-link): Check if
+	emacs-wiki-name-regexp completely matches wiki-link.

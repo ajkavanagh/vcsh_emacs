@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-58
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr 18 17:10:47 EDT 2006
+Standard-date: 2006-04-18 21:10:47 GMT
+Modified-files: ChangeLog.2006 lisp/muse-latex.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-58
+    mwolson@gnu.org--2006/muse--main--1.0--patch-110
+Summary: Merged from mwolson@gnu.org--2006 (patch 110)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-110
+   muse-latex: Don't escape backslash in <example> regions.

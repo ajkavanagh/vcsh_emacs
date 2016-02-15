@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-45
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr  5 14:49:25 EDT 2006
+Standard-date: 2006-04-05 18:49:25 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+    lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-45
+    mwolson@gnu.org--2006/muse--main--1.0--patch-91
+    mwolson@gnu.org--2006/muse--main--1.0--patch-92
+Summary: Merged from mwolson@gnu.org--2006 (patch 91-92)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-91
+   Make interwiki links work with the new option.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-92
+   Fix a couple of compiler warnings.

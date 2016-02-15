@@ -1,0 +1,27 @@
+Revision: planner--main--1.0--patch-54
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun  8 16:26:57 EDT 2006
+Standard-date: 2006-06-08 20:26:57 GMT
+Removed-files: debian/.arch-ids/=id
+    debian/.arch-ids/NEWS.id
+    debian/.arch-ids/README.Debian.id
+    debian/.arch-ids/changelog.id
+    debian/.arch-ids/compat.id debian/.arch-ids/control.id
+    debian/.arch-ids/copyright.id
+    debian/.arch-ids/emacsen-install.id
+    debian/.arch-ids/emacsen-remove.id
+    debian/.arch-ids/emacsen-startup.id
+    debian/.arch-ids/planner-el.docs.id
+    debian/.arch-ids/planner-el.info.id
+    debian/.arch-ids/rules.id debian/NEWS
+    debian/README.Debian debian/changelog debian/compat
+    debian/control debian/copyright debian/emacsen-install
+    debian/emacsen-remove debian/emacsen-startup
+    debian/planner-el.docs debian/planner-el.info
+    debian/rules
+Removed-directories: debian debian/.arch-ids
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-54
+Summary: Move Debian stuff to its own branch.
+Keywords: 
+

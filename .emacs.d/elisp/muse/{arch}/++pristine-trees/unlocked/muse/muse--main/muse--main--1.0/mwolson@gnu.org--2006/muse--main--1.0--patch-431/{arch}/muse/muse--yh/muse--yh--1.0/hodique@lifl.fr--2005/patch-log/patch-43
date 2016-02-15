@@ -1,0 +1,62 @@
+Revision: muse--yh--1.0--patch-43
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Tue Sep  6 18:15:56 CEST 2005
+Standard-date: 2005-09-06 16:15:56 GMT
+New-files: examples/.arch-ids/muse.rnc.id examples/muse.rnc
+    lisp/.arch-ids/muse-protocols.el.id
+    lisp/muse-protocols.el
+Modified-files: AUTHORS ChangeLog README
+    experimental/muse-xml.el lisp/muse-colors.el
+    lisp/muse-html.el lisp/muse-latex.el lisp/muse-mode.el
+    lisp/muse-publish.el lisp/muse-regexps.el lisp/muse.el
+    muse.texi
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-43
+    mwolson@gnu.org--2005/muse--main--1.0--patch-217
+    mwolson@gnu.org--2005/muse--main--1.0--patch-218
+    mwolson@gnu.org--2005/muse--main--1.0--patch-219
+    mwolson@gnu.org--2005/muse--main--1.0--patch-220
+    mwolson@gnu.org--2005/muse--main--1.0--patch-221
+    mwolson@gnu.org--2005/muse--main--1.0--patch-222
+    mwolson@gnu.org--2005/muse--main--1.0--patch-223
+    mwolson@gnu.org--2005/muse--main--1.0--patch-224
+    mwolson@gnu.org--2005/muse--main--1.0--patch-225
+    mwolson@gnu.org--2005/muse--main--1.0--patch-226
+    mwolson@gnu.org--2005/muse--main--1.0--patch-227
+Summary: Merged from mwolson@gnu.org--2005 (patch 217-227)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-217
+   Add schema for muse-xml, tweak verse formatting, fix goof from last patch.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-218
+   muse-xml: Use a more standard sort of header.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-219
+   Implement protocol handling.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-220
+   If a URL has a resolve function of nil, publish the description only.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-221
+   Make info:// and man:// not publish a link, handle insert URL edge case.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-222
+   muse-latex: Call pdflatex twice to get <contents> published.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-223
+   Strip text properties before browsing a URL.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-224
+   Add <code> tag.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-225
+   muse-latex: Fix compiler warning.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-226
+   muse-latex: Handle special characters in a better way.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-227
+   Fix title coloring bug; muse-latex: escape '<' and '>'.

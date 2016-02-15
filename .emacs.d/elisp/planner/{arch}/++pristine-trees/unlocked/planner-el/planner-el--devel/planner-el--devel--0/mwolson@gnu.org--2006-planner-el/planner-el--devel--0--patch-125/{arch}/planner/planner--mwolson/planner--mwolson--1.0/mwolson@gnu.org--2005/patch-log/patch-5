@@ -1,0 +1,12 @@
+Revision: planner--mwolson--1.0--patch-5
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 24 18:48:10 EST 2005
+Standard-date: 2005-06-24 23:48:10 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-5
+Summary: Put space in front of lists.
+Keywords: 
+
+* planner.el (planner-notes-tag, planner-markup-task): Put space in front
+  of lists for forward-compatibility with Muse.

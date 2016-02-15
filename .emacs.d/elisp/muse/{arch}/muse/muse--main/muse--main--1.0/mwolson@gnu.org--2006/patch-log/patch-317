@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-317
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 14:00:34 EDT 2007
+Standard-date: 2007-05-25 18:00:34 GMT
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-317
+Summary: Makefile: Improve building of Debian packages
+Keywords: 
+
+2007-05-25  Michael Olson  <mwolson@gnu.org>
+
+	* Makefile (debclean, debprepare, debbuild, debinstall, deb): New
+	way of building Debian packages that preserves the original
+	release tarball and is more modular.
+	(debrevision, debrelease): Remove.

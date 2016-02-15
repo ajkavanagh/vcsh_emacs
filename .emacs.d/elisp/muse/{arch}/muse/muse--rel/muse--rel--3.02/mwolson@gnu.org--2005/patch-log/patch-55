@@ -1,0 +1,10 @@
+Revision: muse--rel--3.02--patch-55
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan 12 22:32:18 EST 2006
+Standard-date: 2006-01-13 03:32:18 GMT
+Modified-files: ChangeLog lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-55
+Summary: Release Emacs Muse 3.02.6.
+Keywords: 
+

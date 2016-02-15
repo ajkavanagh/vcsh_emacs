@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-297
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jan 14 11:27:19 JST 2005
+Standard-date: 2005-01-14 02:27:19 GMT
+Modified-files: ChangeLog planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-297
+Summary: Handle nil dates better
+Keywords: 
+
+	* planner-multi.el (planner-copy-or-move-task): Allow nil dates.
+
+	* planner.el (planner-copy-or-move-task): Allow nil dates.

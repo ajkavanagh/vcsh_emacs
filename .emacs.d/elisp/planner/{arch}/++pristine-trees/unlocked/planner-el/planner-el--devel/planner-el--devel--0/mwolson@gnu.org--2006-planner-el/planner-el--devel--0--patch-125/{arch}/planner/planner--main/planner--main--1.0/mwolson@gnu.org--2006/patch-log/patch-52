@@ -1,0 +1,17 @@
+Revision: planner--main--1.0--patch-52
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun  1 09:54:24 EDT 2006
+Standard-date: 2006-06-01 13:54:24 GMT
+Modified-files: ChangeLog ChangeLog.2005 Makefile.defs
+    contrib/timeclock.el debian/changelog
+    debian/emacsen-startup
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-52
+Summary: Add explanation for timeclock.el error.
+Keywords: 
+
+* contrib/timeclock.el: Add an explanation of why we error out if the
+  person is not using XEmacs.
+
+* debian/emacsen-startup: Put Planner's contrib directory at the end of
+  the load-path.

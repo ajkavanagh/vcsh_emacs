@@ -1,0 +1,19 @@
+Revision: planner-muse--peter--1.0--patch-18
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Wed Jan 11 11:51:50 PST 2006
+Standard-date: 2006-01-11 19:51:50 GMT
+Modified-files: AUTHORS ChangeLog.2005 planner-id.el
+    planner-ledger.el planner-lisp.el planner-log-edit.el
+    planner-mhe.el planner-multi.el {arch}/=tagging-method
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-174
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-18
+Summary: Merged from mwolson@gnu.org--2005 (patch 174)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-174
+   Progress: planner-multi.el
+
+* =tagging-method: added .nosearch file as backup file so that it doesn't violate naming conventions.

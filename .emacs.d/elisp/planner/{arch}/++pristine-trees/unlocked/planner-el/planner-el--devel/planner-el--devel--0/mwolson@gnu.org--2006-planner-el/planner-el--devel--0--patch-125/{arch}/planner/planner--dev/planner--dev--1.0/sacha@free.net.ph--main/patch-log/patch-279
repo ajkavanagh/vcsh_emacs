@@ -1,0 +1,21 @@
+Revision: planner--dev--1.0--patch-279
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan  3 23:07:58 JST 2005
+Standard-date: 2005-01-03 14:07:58 GMT
+Modified-files: ChangeLog planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-279
+Summary: C-u M-x planner-replan-task picks up initial link text for easy editing
+Keywords: 
+
+	* planner.el (planner-read-name): Allow initial value.
+	(planner-page-file): Force refresh of alist when it is
+	mysteriously null. Fixes Debian bug #287078 reported by Brian
+	Flaherty.
+	(planner-replan-task): Prefix argument means default to current
+	link text.
+
+	* planner-multi.el: Require 'crm. 
+	(planner-multi-read-name): Allow initial value.
+	(planner-read-name): Allow initial value.
+

@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-478
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Aug 25 09:05:50 EDT 2005
+Standard-date: 2005-08-25 13:05:50 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-478
+Summary: Bugfix: planner-task-info-from-string: Make sure link is non-nil before string-matching
+Keywords: 
+
+* planner.el (planner-task-info-from-string): Check if link is nil before
+  string-matching it.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

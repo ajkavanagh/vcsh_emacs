@@ -1,0 +1,21 @@
+Revision: planner--johnsu01--0--patch-4
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Mon Apr 18 11:28:22 EDT 2005
+Standard-date: 2005-04-18 15:28:22 GMT
+Modified-files: ChangeLog planner-el.texi planner-gnus.el
+    planner-id.el planner.el
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-4
+    sacha@free.net.ph--main/planner--dev--1.0--patch-376
+    sacha@free.net.ph--main/planner--dev--1.0--patch-377
+Summary: Catch up with sachac's patch-377
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-376
+   planner-id bugfix (completed/cancelled tasks) and planner-el docfixes
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-377
+   planner-gnus: Pick up the group name properly
+

@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-344
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 11 10:50:51 PHT 2005
+Standard-date: 2005-03-11 02:50:51 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-344
+Summary: New macro with-planner ensures planner context
+Keywords: 
+
+* planner.el (with-planner): New macro ensures we are in a planner project.
+(planner-task-info-from-string): Use with-planner. Thanks to Toby Allsopp for
+pointing this out.
+(planner-search-notes): Use with-planner.
+(planner-file-alist): Use with-planner.
+(planner-extract-tasks): Use with-planner.
+(plan): Use with-planner.
+(with-planner-update-setup): Remove redundant save-excursion.

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-40
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Thu May 26 00:14:13 CST 2005
+Standard-date: 2005-05-25 16:14:13 GMT
+New-files: .arch-ids/planner-pyblosxom.el.id
+    planner-pyblosxom.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-40
+Summary: New file: planner-pyblosxom.el, init (incomplete) version
+Keywords: newfeature, newfile
+
+* planner-pyblosxom.el: Just a skeleton for now. Lots of things todo.
+

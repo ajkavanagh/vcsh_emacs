@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-181
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Oct  4 23:51:34 JST 2004
+Standard-date: 2004-10-04 14:51:34 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-181
+Summary: Bugfix: -maybe functions should not be defsubsts
+Keywords: xemacs bugfix
+
+	* planner.el (planner-sort-tasks-maybe),
+	(planner-renumber-tasks-maybe),
+	(planner-renumber-notes-maybe),
+	(planner-align-tasks-maybe): XEmacs doesn't like
+	defsubsts for hooks, I think.

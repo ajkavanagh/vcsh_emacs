@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-325
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Feb 10 15:17:37 JST 2005
+Standard-date: 2005-02-10 06:17:37 GMT
+Modified-files: ChangeLog planner-wl.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-325
+Summary: planner-wl: Work with Wanderlust 2.12.0
+Keywords: 
+
+* planner-wl.el (planner-wl-annotation-from-wl): Merge Jeremy Cowgar's
+  minor patch updating it to Wanderlust 2.12.0
+

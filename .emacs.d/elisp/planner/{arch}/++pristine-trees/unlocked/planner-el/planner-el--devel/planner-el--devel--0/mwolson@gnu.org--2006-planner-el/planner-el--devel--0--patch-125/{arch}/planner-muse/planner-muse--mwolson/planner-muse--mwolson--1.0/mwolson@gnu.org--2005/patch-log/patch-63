@@ -1,0 +1,29 @@
+Revision: planner-muse--mwolson--1.0--patch-63
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Sep  2 18:21:19 EST 2005
+Standard-date: 2005-09-02 23:21:19 GMT
+Modified-files: ChangeLog.mwolson planner-bbdb.el
+    planner-bibtex.el planner-bookmark.el planner-erc.el
+    planner-gnats.el planner-gnus.el planner-lisp.el
+    planner-mhe.el planner-psvn.el planner-rmail.el
+    planner-unix-mail.el planner-vm.el planner-wl.el
+    planner-xtla.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-63
+Summary: Adapt for muse-url-protocol.
+Keywords: 
+
+* planner*.el: In browse-url functions, match against "\\`proto..."
+  instead of "^proto...".  When adding a new protocol, make sure it has
+  the "://" part.
+
+* planner-bibtex.el: Remove stale reference to
+  planner-browse-url-functions.
+
+* planner-erc.el ("[ei]rc://"): Concatenate definitions for erc and irc.
+
+* planner.el (planner-browse-url, planner-browse-url-info)
+  (planner-browse-url-man, planner-browse-url-google)
+  (planner-resolve-url-google, planner-set-sym-and-url-regexp)
+  (planner-url-protocols. planner-add-protocol): Remove.
+  (planner-visit-link): Call muse-browse-url.

@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-139
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun May 28 02:31:11 EDT 2006
+Standard-date: 2006-05-28 06:31:11 GMT
+Modified-files: ChangeLog.2006
+    contrib/pyblosxom/getstamps.py
+    contrib/pyblosxom/hardcodedates.py
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-139
+Summary: Improve documentation in the included pyblosxom plug-ins.
+Keywords: 
+
+* contrib/pyblosxom/getstamps.py, hardcodedates.py: Improve
+  documentation.  The initial wording was very confusing.

@@ -1,0 +1,19 @@
+Revision: muse-el--devel--0--patch-133
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Feb 13 13:45:14 EST 2007
+Standard-date: 2007-02-13 18:45:14 GMT
+Modified-files: ChangeLog Makefile.defs lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-133
+    mwolson@gnu.org--2006/muse--main--1.0--patch-277
+    mwolson@gnu.org--2006/muse--main--1.0--patch-278
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 277-278)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-277
+   Fix typo in Makefile.defs
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-278
+   Handle empty comments

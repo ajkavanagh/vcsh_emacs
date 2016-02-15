@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-465
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jul 29 17:08:07 EDT 2005
+Standard-date: 2005-07-29 21:08:07 GMT
+Modified-files: planner-notes-index.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-465
+Summary: planner-notes-index: Fix to work with files in subdirectories
+Keywords: 
+
+* planner-notes-index.el (planner-notes-index-headlines-on-page):
+Work with files in subdirectories.
+(planner-notes-index-headlines-in-range): Use planner-get-day-pages.
+(planner-notes-index-years): Docfix.
+

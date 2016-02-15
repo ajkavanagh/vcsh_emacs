@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-351
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun 14 07:53:19 EDT 2007
+Standard-date: 2007-06-14 11:53:19 GMT
+Modified-files: ChangeLog lisp/muse-mode.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-351
+Summary: muse-mode: Use C-c C-M-t to do the same thing as C-c C-S-t
+Keywords: 
+
+2007-06-14  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-mode.el (muse-mode-map): Permit C-c C-M-t to do the
+	same thing as C-c C-S-t, since the former works better in the
+	console.  Thanks to Leo for the suggestion.
+
+	* texi/muse.texi (Keystroke Summary): Document the C-c C-M-t
+	keybinding.

@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-338
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  2 14:33:23 EST 2006
+Standard-date: 2006-01-02 19:33:23 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-338
+Summary: muse-colors: Implement <lisp> tag evaluation when viewing Muse files.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-tags): Use muse-colors-lisp-tag to
+  publish <lisp> tags.
+  (muse-colors-lisp-tag): New function that implements the evaluation of
+  <lisp> tags when viewing Muse files.  Thanks to Jim Ottaway for porting
+  this.

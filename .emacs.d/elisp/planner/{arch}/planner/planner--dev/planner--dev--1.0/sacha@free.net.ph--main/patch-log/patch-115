@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-115
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 24 00:55:57 PHT 2004
+Standard-date: 2004-06-23 16:55:57 GMT
+Modified-files: planner-rss.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-115
+Summary: Add planner-rss size/item limits
+Keywords: feature
+
+	* planner-rss.el (planner-rss-feed-limits): New
+        user option.
+	(planner-rss-add-item): Use planner-rss-limit.
+	(planner-rss-limit): New.
+	(planner-rss-limit-size): New.
+	(planner-rss-limit-items): New.
+
+	* planner.texi (Using planner-rss.el): Document planner-rss
+	feed limit option.

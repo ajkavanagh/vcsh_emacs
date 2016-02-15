@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-178
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 23 22:38:06 EST 2005
+Standard-date: 2005-07-24 03:38:06 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-178
+Summary: Fix warnings during font-lock, example tag highlighting.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-region): Prevent "Wrong side of point"
+  error.
+  (muse-colors-tags): Make sure that no fontification occurs in <code> or
+  <lisp> tags.
+  (muse-unhighlight-region): Move higher up.
+  (muse-colors-example-tag, muse-colors-literal-tag): Use
+  `muse-unhighlight-region'.  Fix spelling goof.  Omit (goto-char end)
+  since the point gets put in the right place automatically.

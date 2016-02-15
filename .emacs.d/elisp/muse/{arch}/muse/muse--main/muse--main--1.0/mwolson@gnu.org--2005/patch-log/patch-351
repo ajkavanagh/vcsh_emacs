@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-351
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan 11 17:08:16 EST 2006
+Standard-date: 2006-01-11 22:08:16 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-351
+Summary: Fix #5044: lisp tag only evaluates first statement.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-lisp-tag): Manually wrap the contents
+  in (progn ...) so that multiple lisp fragments can be evaluated.
+  Thanks to Jim Ottaway for the idea.
+
+* lisp/muse-publish.el (muse-publish-lisp-tag): Ditto.

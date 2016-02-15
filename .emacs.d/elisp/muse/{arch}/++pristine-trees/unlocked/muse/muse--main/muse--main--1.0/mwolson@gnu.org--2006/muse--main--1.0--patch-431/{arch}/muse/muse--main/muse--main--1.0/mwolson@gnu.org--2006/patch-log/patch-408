@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-408
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 27 12:14:10 EDT 2007
+Standard-date: 2007-07-27 16:14:10 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-408
+Summary: Fix blank line in front of list item bug
+Keywords: 
+
+2007-07-27  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-surround-text): Fix bug
+	involving list items that have an extra blank line in front.

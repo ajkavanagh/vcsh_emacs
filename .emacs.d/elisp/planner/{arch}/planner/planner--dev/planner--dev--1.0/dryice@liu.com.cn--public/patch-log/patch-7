@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-7
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 18:51:51 CST 2005
+Standard-date: 2005-01-30 10:51:51 GMT
+Modified-files: planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-7
+Summary: improve test function
+Keywords: newfeature
+
+* planner-rank.el (planner-rank-test-algorithm): now shows the result
+  table in a new buffer, and take an argument to say which function to
+  test.
+  

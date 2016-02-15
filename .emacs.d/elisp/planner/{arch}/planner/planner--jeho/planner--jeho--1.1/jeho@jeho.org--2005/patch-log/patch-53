@@ -1,0 +1,25 @@
+Revision: planner--jeho--1.1--patch-53
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Mar  6 15:23:50 GMT 2006
+Standard-date: 2006-03-06 15:23:50 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-53
+Summary: planner-appt: fix appts in schedule; fix bug in forthcoming appts
+Keywords: 
+
+* planner-appt.el  
+  Revert to the old method of tracking appts added to the schedule.  The
+  text property method was simpler, but failed when re-visiting today's
+  plan page [since text properties don't get saved].
+
+  (--planner-appt-lines-added-to-section): global variable tracking appts
+  added to the schedule
+
+  (planner-appt-task-schedule-item-p): use --planner-appt-lines-added-to-section
+
+  (planner-appt-update-appt-section): revert to the old method
+
+  (planner-appt-forthcoming-get-appts): fix small bug where an appt
+   schedule item would fall through the conditional  and try to be parsed
+   as a task item.

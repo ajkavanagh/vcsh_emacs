@@ -1,0 +1,25 @@
+Revision: planner--main--1.0--patch-27
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr  2 14:00:53 EDT 2006
+Standard-date: 2006-04-02 18:00:53 GMT
+Modified-files: planner-authz.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-20
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-21
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-22
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-23
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-24
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-25
+    mwolson@gnu.org--2006/planner--main--1.0--patch-27
+Summary: Merge some authz fixes.
+Keywords: merge
+
+(Author: Andrew J. Korty <ajk@iu.edu>)
+
+* planner-authz.el (planner-authz-fix-list-item): new function to move
+  the <li> tags to the inside to avoid a blank bullet when a list item is
+  totally access controlled
+  (planner-authz-markup-regexps): use it
+  (planner-authz-index-as-string): use <authz> tags to mark up the index
+  and rely on the new regexp entry to clean up the results
+  (planner-authz-multi-union): declare `sublist'

@@ -1,0 +1,21 @@
+Revision: muse--lidaobing--1.0--patch-1
+Archive: lidaobing@gmail.com--2004-pub
+Creator: Li Daobing <lidaobing@gmail.com>
+Date: Sat Oct  9 20:16:20 CST 2004
+Standard-date: 2004-10-09 12:16:20 GMT
+Modified-files: muse-html.el
+New-patches: lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--patch-1
+    lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-1
+    lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-2
+Summary: Patches applied:
+Keywords: 
+
+Patches applied:
+
+ * lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-1
+   make muse-html publish correct
+
+ * lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-2
+   add support of chinese-gbk
+
+

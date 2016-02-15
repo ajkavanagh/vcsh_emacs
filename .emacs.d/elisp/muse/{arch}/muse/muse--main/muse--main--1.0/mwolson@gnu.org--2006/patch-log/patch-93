@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-93
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr  5 14:56:26 EDT 2006
+Standard-date: 2006-04-05 18:56:26 GMT
+Modified-files: ChangeLog.2006 lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-93
+Summary: muse-wiki: Honor setting for muse-wiki-hide-nop-tag.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-colors-nop-tag): Take the value of
+  `muse-wiki-hide-nop-tag' into account.

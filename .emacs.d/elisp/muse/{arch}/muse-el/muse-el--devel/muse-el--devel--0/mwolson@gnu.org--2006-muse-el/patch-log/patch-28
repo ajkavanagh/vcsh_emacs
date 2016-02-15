@@ -1,0 +1,21 @@
+Revision: muse-el--devel--0--patch-28
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar 24 23:36:00 EST 2006
+Standard-date: 2006-03-25 04:36:00 GMT
+Modified-files: ChangeLog.2006 lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-28
+    mwolson@gnu.org--2006/muse--main--1.0--patch-69
+    mwolson@gnu.org--2006/muse--main--1.0--patch-70
+Summary: Merged from mwolson@gnu.org--2006 (patch 69-70)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-69
+   muse-mode: Don't require muse-publish.el.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-70
+   Fix #5190: Endless loop in muse style-run-hooks when
+   muse-project-publish is called with undefined style.

@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-299
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Apr 22 14:09:06 EDT 2007
+Standard-date: 2007-04-22 18:09:06 GMT
+Modified-files: ChangeLog IDEAS.muse
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-299
+Summary: Add muse-slides to IDEAS
+Keywords: 
+
+2007-04-22  Michael Olson  <mwolson@gnu.org>
+
+	* IDEAS.muse: Add muse-slides.el to list of things to include
+	before release.

@@ -1,0 +1,22 @@
+Revision: muse-el--devel--0--patch-52
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Per B. Sederberg <per@med.upenn.edu>
+Date: Sun Apr  9 01:44:33 EDT 2006
+Standard-date: 2006-04-09 05:44:33 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-52
+Summary: Cleaning up interwiki-regexp to handle filenames with spaces.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-project-files-with-spaces): New function
+  to return a list of project files that have spaces.
+
+* muse-wiki.el (muse-wiki-update-interwiki-regexp): Make use of new
+  project-files with spaces function.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   lisp/muse-wiki.el
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

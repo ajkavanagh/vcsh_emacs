@@ -1,0 +1,23 @@
+Revision: planner--dev--1.0--patch-452
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jul 17 00:10:37 EDT 2005
+Standard-date: 2005-07-17 04:10:37 GMT
+Modified-files: ChangeLog planner-appt.el planner-authz.el
+    planner-bibtex.el planner-cyclic.el planner-deadline.el
+    planner-diary.el planner-export-diary.el planner-id.el
+    planner-ledger.el planner-log-edit.el planner-multi.el
+    planner-notes-index.el planner-psvn.el planner-rank.el
+    planner-rdf.el planner-report.el planner-rss.el
+    planner-schedule.el planner-tasks-overview.el
+    planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-w3m.el planner-xtla.el
+    planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-452
+Summary: Add autoload cookies to a bunch of files, remove planner-appt-filename-to-date
+Keywords: 
+
+* planner.el (planner-goto-most-recent): Fix redundant function.
+* planner-appt.el (planner-appt-filename-to-date): Remove function, use
+  planner-filename-to-calendar-date instead.

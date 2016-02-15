@@ -1,0 +1,25 @@
+Revision: muse--main--1.0--patch-61
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 17 20:35:33 EST 2005
+Standard-date: 2005-06-18 01:35:33 GMT
+New-files: .arch-ids/README.id README
+Modified-files: ChangeLog Makefile examples/QuickStart
+    muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-61
+Summary: Begin work on Publishing Styles section of manual.
+Keywords: 
+
+* Makefile (.PHONY): Add "doc" to list.
+  (doc): New rule that generates Info and HTML files from muse.texi.
+  (dist): Rely on `distclean', not `clean'.
+
+* examples/QuickStart (Authoring mode): Remove empty section.
+
+* muse.texi: Call this program "the Emacs Muse" in title.
+  (Publishing Styles): Begin to populate section.
+  (Deriving Styles): First subsection of Publishing Styles.
+  (Contributors): Remove spurious copyright section, since we address
+  this in the title.
+
+* README: Actually remember to add this file.

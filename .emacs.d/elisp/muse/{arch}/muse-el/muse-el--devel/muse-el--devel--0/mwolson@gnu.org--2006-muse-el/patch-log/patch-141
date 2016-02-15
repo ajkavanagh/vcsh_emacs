@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-141
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun  2 23:24:19 EDT 2007
+Standard-date: 2007-06-03 03:24:19 GMT
+Modified-files: ChangeLog NEWS lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-xml-common.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-141
+    mwolson@gnu.org--2006/muse--main--1.0--patch-333
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 333)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-333
+   Support table.el-style tables

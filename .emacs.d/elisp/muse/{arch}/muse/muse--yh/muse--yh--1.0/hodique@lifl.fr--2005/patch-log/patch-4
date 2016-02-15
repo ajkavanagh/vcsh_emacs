@@ -1,0 +1,35 @@
+Revision: muse--yh--1.0--patch-4
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jun 16 02:45:31 CEST 2005
+Standard-date: 2005-06-16 00:45:31 GMT
+New-files: examples/.arch-ids/Makefile.id examples/Makefile
+    experimental/.arch-ids/=id
+    experimental/.arch-ids/muse-wiki.el.id
+    experimental/muse-wiki.el
+New-directories: experimental experimental/.arch-ids
+Renamed-files: .arch-ids/README.id examples/.arch-ids/QuickStart.id
+    .arch-ids/muse-message.el.id experimental/.arch-ids/muse-message.el.id
+    README examples/QuickStart
+    muse-message.el experimental/muse-message.el
+Modified-files: ChangeLog Makefile examples/QuickStart
+    examples/johnw/muse-johnw.el
+    examples/mwolson/muse-init.el
+    experimental/muse-message.el muse-blosxom.el
+    muse-colors.el muse-docbook.el muse-html.el muse-http.el
+    muse-journal.el muse-latex.el muse-mode.el
+    muse-project.el muse-publish.el muse-regexps.el muse.el
+    muse.texi scripts/publish
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-4
+    mwolson@gnu.org--2005/muse--main--1.0--patch-52
+    mwolson@gnu.org--2005/muse--main--1.0--patch-53
+    mwolson@gnu.org--2005/muse--main--1.0--patch-54
+    mwolson@gnu.org--2005/muse--main--1.0--patch-55
+    mwolson@gnu.org--2005/muse--main--1.0--patch-56
+    mwolson@gnu.org--2005/muse--main--1.0--patch-57
+    mwolson@gnu.org--2005/muse--main--1.0--patch-58
+    mwolson@gnu.org--2005/muse--main--1.0--patch-59
+Summary: merge from mwolson@gnu.org--2005/muse--main--1.0
+Keywords:
+
+updated to mwolson@gnu.org--2005/muse--main--1.0--patch-59

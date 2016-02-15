@@ -1,0 +1,14 @@
+Revision: emacs-wiki--sacha--1.0--patch-135
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 23 17:34:41 PHT 2004
+Standard-date: 2004-03-23 09:34:41 GMT
+Modified-files: planner-gnus.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-135
+Summary: Correct documentation note for planner-gnus.el
+Keywords: 
+
+	* planner-gnus.el: Correct documentation note about
+	planner-gnus-insinuate. Thanks to johnsu01 for pointing this
+	out.
+

@@ -1,0 +1,17 @@
+Revision: planner-muse--mwolson--1.0--patch-143
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 30 19:34:19 EST 2005
+Standard-date: 2005-12-31 00:34:19 GMT
+Modified-files: ChangeLog planner-publish.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-143
+Summary: planner-publish: Make <notes> and <past-notes> work.
+Keywords: 
+
+* planner-publish.el (planner-publish-markup-tags): Add past-notes tag.
+  (planner-publish-notes-tag): Use a new version from Dale Smith.
+  (planner-past-notes-tag): Try to port this, since it is part of
+  Planner.
+
+* planner.el (planner-notes-tag): Remove.
+  (planner-past-notes-tag): Move to planner-publish.el.

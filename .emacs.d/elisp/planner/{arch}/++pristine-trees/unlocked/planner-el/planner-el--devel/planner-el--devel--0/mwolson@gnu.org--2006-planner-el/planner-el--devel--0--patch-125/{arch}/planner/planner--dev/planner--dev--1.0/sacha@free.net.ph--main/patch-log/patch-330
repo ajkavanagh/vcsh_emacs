@@ -1,0 +1,33 @@
+Revision: planner--dev--1.0--patch-330
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Feb 18 01:02:06 JST 2005
+Standard-date: 2005-02-17 16:02:06 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-4
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-5
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-6
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-7
+    sacha@free.net.ph--main/planner--dev--1.0--patch-330
+Summary: planner-multi.el: planner-create-task-from-info should call the create-task hook
+Keywords: 
+
+* planner-multi.el (planner-multi-separator): Docfix: Add note about
+emacs-wiki-link-at-point.
+(planner-create-task-from-info): Modify Jim Ottaway's patch-7, moving the
+planner-create-task-hook call outside the list.
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-4
+   merged in latest sources
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-5
+   fix handling of default in planner-multi-read-name
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-6
+   merge planner latest
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-7
+   added running planner-create-task-hook
+

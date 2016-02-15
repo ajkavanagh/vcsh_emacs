@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-206
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Nov 27 14:52:33 JST 2004
+Standard-date: 2004-11-27 05:52:33 GMT
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-206
+Summary: planner.texi: Minor typo fix in "Making Files Pretty"
+Keywords: docfix typo
+
+	* planner.texi (Making Files Pretty): Fix typo reported by Carl
+	Witty in Debian bug #282824.

@@ -1,0 +1,11 @@
+Revision: muse-el--devel--0--patch-93
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep 14 23:54:22 EDT 2006
+Standard-date: 2006-09-15 03:54:22 GMT
+Modified-files: Makefile.defs lisp/muse-texinfo.el
+    scripts/muse-build.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-93
+Summary: Remove star-merge cruft
+Keywords: 
+

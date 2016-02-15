@@ -1,0 +1,22 @@
+Revision: planner--jeho--1.0--patch-4
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Feb 16 11:18:13 GMT 2005
+Standard-date: 2005-02-16 11:18:13 GMT
+Modified-files: ChangeLog planner-el.texi planner-id.el
+    planner-multi.el planner.el
+    {arch}/planner/planner--jeho/planner--jeho--1.0/jeho@jeho.org--2005/patch-log/base-0
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-4
+    sacha@free.net.ph--main/planner--dev--1.0--patch-327
+    sacha@free.net.ph--main/planner--dev--1.0--patch-328
+Summary: merged in latest sources
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-327
+   Relicense planner-el.texi to GPL from GFDL
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-328
+   Merge jeho's changes fixing planner-id and planner-multi interaction; tweak implementation
+

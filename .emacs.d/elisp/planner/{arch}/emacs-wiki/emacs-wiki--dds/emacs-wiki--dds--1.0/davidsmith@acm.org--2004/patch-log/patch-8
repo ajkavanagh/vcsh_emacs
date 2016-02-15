@@ -1,0 +1,16 @@
+Revision: emacs-wiki--dds--1.0--patch-8
+Archive: davidsmith@acm.org--2004
+Creator: David D. Smith <davidsmith@acm.org>
+Date: Sat Jan 24 10:54:46 EST 2004
+Standard-date: 2004-01-24 15:54:46 GMT
+Modified-files: planner.el
+New-patches: davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-8
+Summary: create proper links to planner pages
+Keywords: 
+
+In planner-copy-or-move-task, when updating the new date page, the way
+attempted to make a link to wherever the task in question was
+previously linked to. This works ok for new tasks but is not the
+proper behavior for *rescheduling* tasks. So, instead, just make a
+link to the planner page that this task belongs to.
+

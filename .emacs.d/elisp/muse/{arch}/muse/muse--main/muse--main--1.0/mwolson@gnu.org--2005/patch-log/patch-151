@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-151
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 17 19:53:34 EST 2005
+Standard-date: 2005-07-18 00:53:34 GMT
+Modified-files: ChangeLog Makefile.defs debian/changelog
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-151
+Summary: Slight Debian version tweak.
+Keywords: 
+
+* Makefile.defs (VERSION): Use a slightly different version naming
+  scheme.  I've dropped the ".90".  The new scheme is X.YY.arch.YYY where
+  X.YY is the Muse version, and YYY is the patch level.
+
+* debian/changelog: Ditto.

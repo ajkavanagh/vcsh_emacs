@@ -1,0 +1,46 @@
+Revision: planner--dev--1.0--patch-30
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Mar  9 22:08:33 CST 2005
+Standard-date: 2005-03-09 14:08:33 GMT
+New-files: .arch-ids/planner-appt.el.id planner-appt.el
+Modified-files: ChangeLog planner-diary.el planner-el.texi
+    planner-mhe.el planner2diary.py
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-30
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-8
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-9
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-10
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-11
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-12
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-13
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-14
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-15
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-16
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-17
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-18
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-19
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-20
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-21
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-22
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-23
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-24
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-25
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-26
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-27
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-28
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-29
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-30
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-31
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-32
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-33
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-34
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-35
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-36
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-37
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-38
+    sacha@free.net.ph--main/planner--dev--1.0--patch-335
+    sacha@free.net.ph--main/planner--dev--1.0--patch-336
+    sacha@free.net.ph--main/planner--dev--1.0--patch-337
+Summary: merge patch 335-337 from main stream
+Keywords: merge
+

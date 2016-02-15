@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-317
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Feb  3 23:03:14 JST 2005
+Standard-date: 2005-02-03 14:03:14 GMT
+Modified-files: ChangeLog planner-rank.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-317
+Summary: planner-rank.el fix: Emacs CVS-ism (read-number)
+Keywords: 
+
+* planner-rank.el (planner-rank-read-importance-and-urgency):
+Bugfix: Remove Emacs CVS-ism (read-number). Thanks to ChrisMDP
+for pointing this out.

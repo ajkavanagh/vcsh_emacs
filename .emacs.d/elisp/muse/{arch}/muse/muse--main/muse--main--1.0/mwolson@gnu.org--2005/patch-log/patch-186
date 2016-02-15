@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-186
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 26 03:40:11 EST 2005
+Standard-date: 2005-07-26 08:40:11 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-186
+Summary: Make coloring of verbatim greater-than sign same as publishing.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-markup): Since we currently publish a
+  greater-than sign surrounded by equal signs, display it in verbatim
+  face.

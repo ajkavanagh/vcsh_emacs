@@ -1,0 +1,16 @@
+Revision: planner-muse--mwolson--1.0--patch-15
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 25 01:37:28 EST 2005
+Standard-date: 2005-06-25 06:37:28 GMT
+Modified-files: ChangeLog.mwolson planner-diary.el
+    planner-rss.el planner.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-9
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-15
+Summary: Merged from mwolson@gnu.org--2005 (patch 9)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner--mwolson--1.0--patch-9
+   Use `planner-current-file' to get around the temp file issue.

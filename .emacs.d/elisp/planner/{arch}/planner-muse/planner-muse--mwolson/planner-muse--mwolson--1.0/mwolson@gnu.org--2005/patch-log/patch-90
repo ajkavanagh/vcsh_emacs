@@ -1,0 +1,17 @@
+Revision: planner-muse--mwolson--1.0--patch-90
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 30 13:51:48 EST 2005
+Standard-date: 2005-10-30 18:51:48 GMT
+Modified-files: ChangeLog planner-report.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-90
+Summary: planner-report: Port to Planner-Muse.
+Keywords: 
+
+* planner-report.el: Apply patch from Seth Falcon.
+  (planner-report-generate): Use planner-date-regexp instead of
+  planner-name-regexp.  Use muse-wiki-publish-pretty-title, if defined,
+  for link descriptions.
+  (planner-report-find-notes): Use planner-link-base instead of
+  emacs-wiki-wiki-base.
+  (planner-report-find-tasks): Use nil 5th argument.

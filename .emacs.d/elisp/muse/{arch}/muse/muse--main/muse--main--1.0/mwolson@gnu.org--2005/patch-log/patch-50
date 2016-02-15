@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-50
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 12 16:33:24 EST 2005
+Standard-date: 2005-06-12 21:33:24 GMT
+Modified-files: ChangeLog muse-publish.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--base-0
+    hodique@lifl.fr--2005/muse--yh--1.0--patch-1
+    mwolson@gnu.org--2005/muse--main--1.0--patch-50
+Summary: Merged from hodique@lifl.fr--2005 (patch 0-1)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--base-0
+   tag of mwolson@gnu.org--2005/muse--main--1.0--patch-49
+
+ * hodique@lifl.fr--2005/muse--yh--1.0--patch-1
+   fix .html (for example) in visible names for links

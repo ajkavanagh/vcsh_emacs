@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-159
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan  5 18:13:39 EST 2006
+Standard-date: 2006-01-05 23:13:39 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-159
+Summary: Fix emacs-wiki Bug #14907.
+Keywords: 
+
+* planner.el (planner-extract-tasks): Fix backtrace.  This also fixes
+  #14907 on the emacs-wiki bug-tracker.

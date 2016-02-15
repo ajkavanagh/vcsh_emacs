@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-6
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 30 13:40:48 PHT 2004
+Standard-date: 2004-03-30 05:40:48 GMT
+Modified-files: planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-6
+Summary: Bugfix: Invalid regular expression in planner-id.el
+Keywords: 
+
+	* planner-id.el (planner-id-update-tasks-on-page): Change invalid
+	regular expression. Thanks to pll for pointing this out.
+

@@ -1,0 +1,177 @@
+Revision: muse-el--devel--0--patch-146
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 17 13:25:24 EDT 2007
+Standard-date: 2007-06-17 17:25:24 GMT
+New-files: etc/.arch-ids/=id
+    etc/.arch-ids/emacs-wiki-migration.txt.id
+    etc/emacs-wiki-migration.txt
+    examples/.arch-ids/emacs-muse.png.id
+    examples/.arch-ids/muse-made-with.png.id
+    examples/emacs-muse.png examples/muse-made-with.png
+New-directories: etc etc/.arch-ids
+Renamed-files: .arch-ids/IDEAS.muse.id etc/.arch-ids/IDEAS.muse.id
+    IDEAS.muse etc/IDEAS.muse
+    examples/.arch-ids/muse.rnc.id etc/.arch-ids/muse.rnc.id
+    examples/muse.rnc etc/muse.rnc
+Modified-files: ChangeLog Makefile Makefile.defs NEWS README
+    etc/IDEAS.muse etc/muse.rnc examples/Makefile
+    examples/QuickStart.muse examples/mwolson/muse-init.el
+    examples/mwolson/stylesheets/blog.css
+    examples/mwolson/stylesheets/common.css
+    examples/mwolson/templates/footer.html
+    examples/mwolson/templates/header.html
+    examples/mwolson/templates/header.tex
+    experimental/muse-message.el lisp/muse-backlink.el
+    lisp/muse-blosxom.el lisp/muse-book.el
+    lisp/muse-colors.el lisp/muse-docbook.el
+    lisp/muse-groff.el lisp/muse-http.el
+    lisp/muse-import-docbook.el lisp/muse-import-latex.el
+    lisp/muse-import-xml.el lisp/muse-journal.el
+    lisp/muse-latex.el lisp/muse-latex2png.el
+    lisp/muse-mode.el lisp/muse-poem.el lisp/muse-project.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-texinfo.el
+    lisp/muse-wiki.el lisp/muse-xml-common.el
+    lisp/muse-xml.el lisp/muse.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-146
+    mwolson@gnu.org--2006/muse--main--1.0--patch-342
+    mwolson@gnu.org--2006/muse--main--1.0--patch-343
+    mwolson@gnu.org--2006/muse--main--1.0--patch-344
+    mwolson@gnu.org--2006/muse--main--1.0--patch-345
+    mwolson@gnu.org--2006/muse--main--1.0--patch-346
+    mwolson@gnu.org--2006/muse--main--1.0--patch-347
+    mwolson@gnu.org--2006/muse--main--1.0--patch-348
+    mwolson@gnu.org--2006/muse--main--1.0--patch-349
+    mwolson@gnu.org--2006/muse--main--1.0--patch-350
+    mwolson@gnu.org--2006/muse--main--1.0--patch-351
+    mwolson@gnu.org--2006/muse--main--1.0--patch-352
+    mwolson@gnu.org--2006/muse--main--1.0--patch-353
+    mwolson@gnu.org--2006/muse--main--1.0--patch-354
+    mwolson@gnu.org--2006/muse--main--1.0--patch-355
+    mwolson@gnu.org--2006/muse--main--1.0--patch-356
+    mwolson@gnu.org--2006/muse--main--1.0--patch-357
+    mwolson@gnu.org--2006/muse--main--1.0--patch-358
+    mwolson@gnu.org--2006/muse--main--1.0--patch-359
+    mwolson@gnu.org--2006/muse--main--1.0--patch-360
+    mwolson@gnu.org--2006/muse--main--1.0--patch-361
+    mwolson@gnu.org--2006/muse--main--1.0--patch-362
+    mwolson@gnu.org--2006/muse--main--1.0--patch-363
+    mwolson@gnu.org--2006/muse--main--1.0--patch-364
+    mwolson@gnu.org--2006/muse--main--1.0--patch-365
+    mwolson@gnu.org--2006/muse--main--1.0--patch-366
+    mwolson@gnu.org--2006/muse--main--1.0--patch-367
+    mwolson@gnu.org--2006/muse--main--1.0--patch-368
+    mwolson@gnu.org--2006/muse--main--1.0--patch-369
+    mwolson@gnu.org--2006/muse--main--1.0--patch-370
+    mwolson@gnu.org--2006/muse--main--1.0--patch-371
+    mwolson@gnu.org--2006/muse--main--1.0--patch-372
+    mwolson@gnu.org--2006/muse--main--1.0--patch-373
+    mwolson@gnu.org--2006/muse--main--1.0--patch-374
+    mwolson@gnu.org--2006/muse--main--1.0--patch-375
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 342-375)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-342
+   Make add-to-list 'auto-mode-alist part an autoload line
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-343
+   No, we really did need the auto-mode-alist part at top-level
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-344
+   IDEAS: Install new contributors' code after the release
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-345
+   README: Document new etc/ directory
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-346
+   muse-latex: Install changes to publish slides and lecture notes
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-347
+   muse-coiors: Fix reverse order in markup rules
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-348
+   Make interwiki links with anchors (three-part-links) work
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-349
+   Fix a few Emacs 21 bugs that caused errors during display
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-350
+   Update copyright years
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-351
+   muse-mode: Use C-c C-M-t to do the same thing as C-c C-S-t
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-352
+   muse: Docfix in muse-with-temp-buffer
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-353
+   Initial incomplete draft of etc/emacs-wiki-migration.txt
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-354
+   emacs-wiki-migration: Flesh out index page topic
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-355
+   Update RelaxNG schema
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-356
+   emacs-wiki-migration: Call this "good enough"
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-357
+   Fix bug #6250: Numbers in definition lists incorrectly recognized
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-358
+   Make C-c C-i do the same thing as C-c TAB
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-359
+   Update NEWS
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-360
+   Begin work on revamping QuickStart
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-361
+   Tidy <literal> output when opening/closing tags on own line
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-362
+   Do the simpler fix for <literal>
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-363
+   Work on QuickStart, fix more bugs
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-364
+   Manual: update significantly
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-365
+   manual: Write "Projects and Subdirectories" chapter
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-366
+   IDEAS: Add some ideas from David D. Smith
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-367
+   Manual: Begin documenting muse-project-alist options
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-368
+   Manual: Finish documenting Sources for "Options for Projects"
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-369
+   Manual: Complete Options for Projects, on to new features
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-370
+   Manual: Finish updating for new release
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-371
+   Makefile: build ELPA package for Muse
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-372
+   Update my example stuff
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-373
+   Get Info version of QuickStart to publish
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-374
+   Release Emacs Muse 3.03!
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-375
+   Ignore .git metadata directories

@@ -1,0 +1,14 @@
+Revision: planner-el--devel--0--patch-83
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sat Aug 26 22:41:38 EDT 2006
+Standard-date: 2006-08-27 02:41:38 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-83
+Summary: Fix last patch to go around Texinfo bug.
+Keywords: 
+
+The Texinfo @uref command is not working when @uref is at the beginning of a line. It also doesn't linkify https urls in the info output.
+
+
+

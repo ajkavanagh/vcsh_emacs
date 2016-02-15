@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-267
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov 14 15:28:47 EST 2005
+Standard-date: 2005-11-14 20:28:47 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-267
+Summary: muse-latex: Fix "generation of PDF failed" message.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-pdf-generate): Make sure that we return
+  t or nil depending on whether the publishing attempt was successful.

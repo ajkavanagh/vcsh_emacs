@@ -1,0 +1,11 @@
+Revision: planner--main--1.0--patch-30
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  7 21:34:44 EDT 2006
+Standard-date: 2006-04-08 01:34:44 GMT
+Modified-files: planner-registry.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-30
+Summary: planner-registry: Minor code cleanup.
+Keywords: 
+
+* planner-registry.el (planner-registry-show): Remove boundp check.

@@ -1,0 +1,33 @@
+Revision: muse--yh--1.0--patch-26
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jul  8 18:35:00 CEST 2005
+Standard-date: 2005-07-08 16:35:00 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-colors.el lisp/muse-mode.el
+    lisp/muse-regexps.el lisp/muse-wiki.el lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-26
+    mwolson@gnu.org--2005/muse--main--1.0--patch-102
+    mwolson@gnu.org--2005/muse--main--1.0--patch-103
+    mwolson@gnu.org--2005/muse--main--1.0--patch-104
+    mwolson@gnu.org--2005/muse--main--1.0--patch-105
+    mwolson@gnu.org--2005/muse--main--1.0--patch-106
+Summary: Merged from mwolson@gnu.org--2005 (patch 102-106)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-102
+   Fix several startup and compile errors.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-103
+   Hack on muse-blosxom timestamps somewhat.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-104
+   Make muse-blosxom use relative name of published file in page-date alist.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-105
+   Attempt to simplify muse-wiki a bit.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-106
+   Implement several WikiWord handling fixes.

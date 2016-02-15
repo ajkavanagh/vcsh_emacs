@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-31
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Mar 16 15:03:59 CST 2005
+Standard-date: 2005-03-16 07:03:59 GMT
+Modified-files: ChangeLog planner-el.texi planner-trunk.el
+    planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-31
+    sacha@free.net.ph--main/planner--dev--1.0--patch-338
+    sacha@free.net.ph--main/planner--dev--1.0--patch-339
+    sacha@free.net.ph--main/planner--dev--1.0--patch-340
+    sacha@free.net.ph--main/planner--dev--1.0--patch-341
+    sacha@free.net.ph--main/planner--dev--1.0--patch-342
+    sacha@free.net.ph--main/planner--dev--1.0--patch-343
+    sacha@free.net.ph--main/planner--dev--1.0--patch-344
+Summary: merge patch 338-344 from main stream
+Keywords: merge
+

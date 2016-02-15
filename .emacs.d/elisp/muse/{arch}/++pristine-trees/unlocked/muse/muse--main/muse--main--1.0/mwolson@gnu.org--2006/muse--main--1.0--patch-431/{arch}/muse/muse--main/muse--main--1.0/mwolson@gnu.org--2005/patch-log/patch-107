@@ -1,0 +1,28 @@
+Revision: muse--main--1.0--patch-107
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul  8 16:11:53 EST 2005
+Standard-date: 2005-07-08 21:11:53 GMT
+Modified-files: ChangeLog lisp/muse-html.el
+    lisp/muse-http.el lisp/muse-publish.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-107
+Summary: Make a distinction between implicit and explicit links at publish-time.
+Keywords: 
+
+* lisp/muse-html.el (muse-html-escape-string): Ignore other arguments.
+
+* lisp/muse-http.el (muse-http-prepare-url): Handle `explicit' argument.
+
+* lisp/muse-publish.el (muse-publish-url, muse-publish-insert-url): Pass
+  `explicit' argument.
+
+* lisp/muse-publish.el (muse-publish-markup-link): Determine whether or
+  not we are dealing with an explicit link.
+
+* lisp/muse-publish.el (muse-publish-prepare-url): Ignore other arguments.
+
+* lisp/muse-wiki.el (muse-wiki-transform-interwiki): Take `explicit'
+  argument, but ignore it.
+
+* lisp/muse-wiki.el (muse-wiki-transform-wikiword): Only apply transforms
+  when link is not explicit.

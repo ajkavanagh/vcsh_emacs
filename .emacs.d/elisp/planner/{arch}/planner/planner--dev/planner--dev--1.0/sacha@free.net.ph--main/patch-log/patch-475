@@ -1,0 +1,31 @@
+Revision: planner--dev--1.0--patch-475
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Aug 25 08:29:10 EDT 2005
+Standard-date: 2005-08-25 12:29:10 GMT
+Modified-files: planner-appt.el planner-cyclic.el
+    planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-475
+Summary: Merge planner-cyclic and planner-multi bugfixes from Sergey Vlasov
+Keywords: 
+
+* planner-cyclic.el: Add Sergey Vlasov to copyright.
+  (planner-cyclic-task-description-format): New variable.
+  (planner-cyclic-generate-task): Use task description format.
+  (planner-cyclic-create-task-maybe): Make sure date is included.
+  (planner-cyclic-get-cyclic-tasks): Use planner-list-diary-entries.
+
+* planner-multi.el (planner-multi-task-date): Use specified task date
+  first, if detected. (planner-task-date): Remove need for advice by
+  using aliases.
+
+* planner.el: Add Sergey Vlasov to copyright. Move function from
+  planner-cyclic. (planner-list-diary-entries): New function tries to
+  preserve diary display as much as possible.
+  
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

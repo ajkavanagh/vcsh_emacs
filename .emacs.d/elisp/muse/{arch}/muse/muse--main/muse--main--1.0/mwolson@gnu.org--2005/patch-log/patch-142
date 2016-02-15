@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-142
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 23:40:26 EST 2005
+Standard-date: 2005-07-15 04:40:26 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-142
+Summary: muse-docbook: Parse author directive so that it validates properly.
+Keywords: 
+
+* lisp/muse-docbook.el (muse-docbook-get-author): New function that
+  attempts to publish the contents a DocBook-usable <author> tag.
+  (muse-docbook-header): Use `muse-docbook-get-author'.

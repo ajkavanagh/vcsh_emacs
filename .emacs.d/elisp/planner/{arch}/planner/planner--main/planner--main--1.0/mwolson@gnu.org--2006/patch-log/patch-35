@@ -1,0 +1,20 @@
+Revision: planner--main--1.0--patch-35
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr 25 23:22:20 EDT 2006
+Standard-date: 2006-04-26 03:22:20 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-35
+Summary: Use h2, h3, ... for headings.
+Keywords: 
+
+* planner-publish.el (planner-publish-markup-tags) [title]: Accept
+  attributes.
+  (planner-html-markup-strings) [planner-begin-title, planner-end-title]:
+  Use normal style headings, i.e. h2.
+  (planner-html-style-sheet): Remove nested title hacks.
+  (planner-publish-markup-note): Use title level of 3.
+  (planner-publish-title-tag): Accept attributes.  Call muse-markup-text
+  with a level argument.
+  (planner-publish-section): Store level as heading level + 1, since the
+  topmost level heading should be h2.

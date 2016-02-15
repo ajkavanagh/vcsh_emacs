@@ -1,0 +1,20 @@
+Revision: planner--jeho--1.0--patch-48
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Mar 14 19:06:42 GMT 2005
+Standard-date: 2005-03-14 19:06:42 GMT
+Modified-files: jeho-diary.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-48
+Summary: jeho-diary modifications
+Keywords: 
+
+* jeho-diary.el 
+
+  (jeho-diary-task-insert-from, jeho-diary-generate-task): optional
+  insertion of "from" + date in the task line
+
+  (jeho-diary-anniversary-link, planner-anniversary): planner-anniversary
+  is a diary sexp function that adds jeho-diary-anniversary-link at the
+  end of the text [use instead of diary-calendar]
+
+

@@ -1,0 +1,27 @@
+Revision: muse--main--1.0--patch-183
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Aug 10 22:50:45 EDT 2006
+Standard-date: 2006-08-11 02:50:45 GMT
+Modified-files: lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-183
+Summary: muse-latex2png: Parametrize and create subdirectory when needed.
+Keywords: 
+
+* lisp/muse-latex2png.el Rename all functions to have a "muse-latex2png"
+  prefix.  Turn all variables into customizable options in the
+  muse-latex2png group.
+  (muse-latex2png-img-dest): New option specifying where to place the
+  images.
+  (muse-latex2png-template): New option containing the template to use
+  for the surrounding LaTeX code.
+  (muse-latex2png-use-xhtml): New option that toggles strict XHTML
+  compliance.
+  (muse-latex2png-move2pubdir): Avoid multiple redundant error messages
+  when something else goes wrong.  Create the image subdirectory if it
+  doesn't exist already -- thanks to Christian Straßer for the report.
+  Expand the filename properly.
+  (muse-publish-latex-tag, muse-latex2png): Ditto on error messages and
+  filename expansion.
+  (muse-latex2png): Use the "muse-latex2png" prefix by default.  Set the
+  default directory properly.

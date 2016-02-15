@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-437
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 30 21:14:12 PHT 2005
+Standard-date: 2005-06-30 13:14:12 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-437
+Summary: Bugfix: planner-derived-mode-p should pass the modes to derived-mode-p
+Keywords: 
+
+* planner.el (planner-derived-mode-p): Bugfix: Work for GNU Emacs which
+  expects a list for derived-mode-p. Thanks to Edgar.Goncalves for
+  pointing this out.

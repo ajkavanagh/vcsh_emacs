@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-323
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Feb 10 11:16:58 JST 2005
+Standard-date: 2005-02-10 02:16:58 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-323
+Summary: planner-sort-tasks: Bugfix for infloop
+Keywords: 
+
+* planner.el (planner-sort-tasks): Make sure we advance at least one
+  character so that we don't infinite-loop. Thanks to Jeremy Cowgar for
+  the bug report.

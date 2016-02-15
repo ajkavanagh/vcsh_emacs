@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-140
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun May 28 02:40:46 EDT 2006
+Standard-date: 2006-05-28 06:40:46 GMT
+Modified-files: ChangeLog.2006 lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-140
+Summary: muse-blosxom: Perform extra check on category in new entry.
+Keywords: 
+
+* lisp/muse-blosxom.el (muse-blosxom-new-entry): Make it impossible to
+  write an invalid categories line, which could cause other mysterious
+  troubles later on.

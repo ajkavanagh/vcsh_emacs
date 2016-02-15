@@ -1,0 +1,23 @@
+Revision: emacs-wiki--sacha--1.0--patch-46
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Feb 23 19:52:48 PHT 2004
+Standard-date: 2004-02-23 11:52:48 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-46
+Summary: Highlight functions should be named -highlight-, not -markup-. Tasks marked up specially. Minor bugfixes.
+Keywords: 
+
+	* planner.el (planner-resolve-url-google): Renamed from
+	planner-markup-url-google.
+	(planner-resolve-url-table): Renamed from planner-markup-url-table
+	(planner-markup-url): Use planner-resolve-url-table
+	(planner-mode): Highlight functions are now named -highlight-
+	instead of -markup-.
+	(planner-highlight-region): Renamed from planner-markup-region.
+	(planner-highlight-tasks): Renamed from planner-markup-tasks. Use
+	planner-highlight-region.
+	(planner-highlight-notes): Renamed from planner-markup-notes.
+	(planner-markup-url): Remove protocol - is not a parameter.
+	(planner-publishing-markup): Mark up tasks specially.
+	(planner-markup-task): New function.

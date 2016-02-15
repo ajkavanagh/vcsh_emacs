@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-456
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jul 23 16:03:36 EDT 2005
+Standard-date: 2005-07-23 20:03:36 GMT
+New-files: .arch-ids/planner-ical.el.id planner-ical.el
+Modified-files: ChangeLog planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-456
+Summary: New: planner-ical.el
+Keywords: 
+
+* planner-ical.el: Add planner-ical.el from Chris Parsons.
+  (planner-ical-export-this-page): New.
+  (planner-ical-export-page): Add FILE argument.
+
+* planner-el.texi (iCal Task Publication): Document planner-ical.

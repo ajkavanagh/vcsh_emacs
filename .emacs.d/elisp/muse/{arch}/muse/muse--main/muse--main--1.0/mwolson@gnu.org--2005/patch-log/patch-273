@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-273
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Nov 18 19:01:26 EST 2005
+Standard-date: 2005-11-19 00:01:26 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-273
+Summary: muse-latex: Make footnotes look a bit more natural for LaTeX users.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-markup-strings): Remove markup strings
+  for footnotemark and footnotetext-end, as recommended by Jim Ottaway.

@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-159
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jul 23 15:47:53 EDT 2007
+Standard-date: 2007-07-23 19:47:53 GMT
+New-files: lisp/.arch-ids/muse-context.el.id
+    lisp/muse-context.el
+Modified-files: ChangeLog lisp/muse-latex.el
+    lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-159
+    mwolson@gnu.org--2006/muse--main--1.0--patch-399
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 399)
+Keywords: merge
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-399
+   Check in muse-context.el

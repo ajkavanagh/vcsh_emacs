@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-148
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  2 17:54:03 EST 2006
+Standard-date: 2006-01-02 22:54:03 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-148
+Summary: planner-publish: Remove extra </span> tag.
+Keywords: 
+
+* planner-publish.el (planner-html-markup-strings): Apply patch from Dale
+  Smith that removes a stray </span> tag.

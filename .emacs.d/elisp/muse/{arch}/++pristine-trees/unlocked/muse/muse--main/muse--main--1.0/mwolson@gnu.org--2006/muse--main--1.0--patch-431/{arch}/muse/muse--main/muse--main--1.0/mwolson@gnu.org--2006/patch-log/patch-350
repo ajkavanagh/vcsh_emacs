@@ -1,0 +1,25 @@
+Revision: muse--main--1.0--patch-350
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 13 22:27:31 EDT 2007
+Standard-date: 2007-06-14 02:27:31 GMT
+Modified-files: ChangeLog experimental/muse-message.el
+    lisp/muse-backlink.el lisp/muse-blosxom.el
+    lisp/muse-book.el lisp/muse-colors.el
+    lisp/muse-docbook.el lisp/muse-groff.el
+    lisp/muse-http.el lisp/muse-import-docbook.el
+    lisp/muse-import-latex.el lisp/muse-import-xml.el
+    lisp/muse-journal.el lisp/muse-latex2png.el
+    lisp/muse-mode.el lisp/muse-poem.el lisp/muse-project.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-texinfo.el
+    lisp/muse-wiki.el lisp/muse-xml-common.el
+    lisp/muse-xml.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-350
+Summary: Update copyright years
+Keywords: 
+
+2007-06-13  Michael Olson  <mwolson@gnu.org>
+
+	* experimental/muse-message.el: Remove guard for muse-define-style
+	calls.

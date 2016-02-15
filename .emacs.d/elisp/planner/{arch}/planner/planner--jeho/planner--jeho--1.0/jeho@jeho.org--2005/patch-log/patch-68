@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.0--patch-68
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu May 26 11:40:08 BST 2005
+Standard-date: 2005-05-26 10:40:08 GMT
+Modified-files: planner-lisp.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-68
+Summary: small change to planner-lisp.el
+Keywords: 
+
+* planner-lisp.el: If it looks like a lisp form, read and evaluate it;
+  otherwise call it interactively as before.
+
+  Corrected a small error in the documentation:  
+  [[lisp://plan... => [[lisp:/plan...
+

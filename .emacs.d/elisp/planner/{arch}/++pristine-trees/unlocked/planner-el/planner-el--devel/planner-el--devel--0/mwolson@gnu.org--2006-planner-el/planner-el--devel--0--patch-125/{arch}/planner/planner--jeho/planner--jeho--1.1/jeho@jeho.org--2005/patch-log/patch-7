@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.1--patch-7
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Nov  8 11:05:13 GMT 2005
+Standard-date: 2005-11-08 11:05:13 GMT
+Modified-files: planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-7
+Summary: planner-multi: planner-make-link advice
+Keywords: 
+
+* planner-multi.el (planner-make-link): use planner-multi-make-link
+  instead of muse-make-link
+

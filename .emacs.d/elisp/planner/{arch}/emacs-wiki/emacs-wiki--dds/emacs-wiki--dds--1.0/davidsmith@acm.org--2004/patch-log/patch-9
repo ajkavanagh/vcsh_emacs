@@ -1,0 +1,18 @@
+Revision: emacs-wiki--dds--1.0--patch-9
+Archive: davidsmith@acm.org--2004
+Creator: David D. Smith <davidsmith@acm.org>
+Date: Sat Jan 24 11:01:04 EST 2004
+Standard-date: 2004-01-24 16:01:04 GMT
+Modified-files: planner.el
+New-patches: davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-9
+Summary: save-excursion in planner-read-date
+Keywords: 
+
+A save-excursion is necessary in planner-read-date because
+save-window-excursion does not save the location of point in buffer;
+it saves which window is active. The location of point in buffer is
+necessary when planner-copy-or-move-task calls
+planner-current-task-info; the symptom is that
+planner-copy-or-move-task operates on the first task in the buffer,
+not the task that point was on when the operation started.
+

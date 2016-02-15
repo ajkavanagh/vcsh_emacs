@@ -1,0 +1,17 @@
+Revision: emacs-wiki--sacha--1.0--patch-87
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 12 10:39:19 PHT 2004
+Standard-date: 2004-03-12 02:39:19 GMT
+New-files: test/.arch-ids/planner-test.el.id
+    test/planner-test.el
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-87
+Summary: Work with parens in the task description
+Keywords: 
+
+	* planner.el (planner-task-info-from-string): Work with parens in
+	the task description. Test suite at test/planner-test.el .
+	(planner-create-task): Improve annotation matching.
+
+	* test/planner-test.el: New.

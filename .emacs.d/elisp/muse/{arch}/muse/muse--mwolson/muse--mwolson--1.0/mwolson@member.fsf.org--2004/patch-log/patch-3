@@ -1,0 +1,18 @@
+Revision: muse--mwolson--1.0--patch-3
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Sun Oct 17 16:24:18 EST 2004
+Standard-date: 2004-10-17 21:24:18 GMT
+Modified-files: muse-publish.el
+New-patches: mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-3
+Summary: Add implementation for nop tag
+Keywords: 
+
+2004-10-17  Michael Olson  <mwolson@gnu.org>
+
+    * muse-publish.el (muse-publish-markup-tags): Add nop tag.
+    (muse-publish-small-title-words): New customizable variable
+    containing list of strings that should be downcased in a page
+    title.
+    (muse-publish-nop-tag): Implementation of searching for nop tag.
+

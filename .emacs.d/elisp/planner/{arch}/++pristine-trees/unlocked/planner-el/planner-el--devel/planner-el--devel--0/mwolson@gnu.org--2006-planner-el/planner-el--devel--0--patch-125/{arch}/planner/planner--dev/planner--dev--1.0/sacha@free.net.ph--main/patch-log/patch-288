@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-288
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jan 11 12:03:14 JST 2005
+Standard-date: 2005-01-11 03:03:14 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-288
+Summary: planner-markup-task: Fix typo
+Keywords: 
+
+	* planner.el (planner-markup-task): Fix typo (missing parens).

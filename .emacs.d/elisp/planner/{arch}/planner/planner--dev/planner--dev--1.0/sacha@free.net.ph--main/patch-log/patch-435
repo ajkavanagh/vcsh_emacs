@@ -1,0 +1,41 @@
+Revision: planner--dev--1.0--patch-435
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 30 15:50:36 PHT 2005
+Standard-date: 2005-06-30 07:50:36 GMT
+Modified-files: .arch-ids/ChangeLog.id ChangeLog
+    planner-appt.el planner-authz.el planner-bbdb.el
+    planner-bibtex.el planner-calendar.el
+    planner-deadline.el planner-diary.el planner-el.texi
+    planner-experimental.el planner-gnus.el planner-id.el
+    planner-ledger.el planner-mhe.el planner-multi.el
+    planner-rank.el planner-rdf.el planner-report.el
+    planner-rss.el planner-tasks-overview.el
+    planner-timeclock-summary.el planner-trunk.el
+    planner-xtla.el planner.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--base-0
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-1
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-2
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-3
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-4
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-5
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-6
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-7
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-8
+    mwolson@gnu.org--2005/planner--mwolson--1.0--patch-9
+    sacha@free.net.ph--main/planner--dev--1.0--patch-435
+Summary: Merge mwolson's patches to planner from the muse port
+Keywords: 
+
+ * Kudos to Michael Olson and the other planner-muse porters for these
+   excellent fixes!
+   
+Patches applied:
+
+ * mwolson/3: Don't pollute the XEmacs namespace.
+ * mwolson/4: Use `planner-replace-regexp-in-string' for compat with Muse port.
+ * mwolson/5: Put space in front of lists.
+ * mwolson/6: Fix minor meaning change in `planner-report-find-tasks'.
+ * mwolson/7: Use `planner-derived-mode-p' instead of `derived-mode-p'.
+ * mwolson/8: Use `planner-match-string-no-properties'.
+ * mwolson/9: Use `planner-current-file' to get around the temp file issue.

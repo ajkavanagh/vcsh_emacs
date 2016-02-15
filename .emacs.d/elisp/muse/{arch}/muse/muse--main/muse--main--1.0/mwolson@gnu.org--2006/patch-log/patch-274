@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-274
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jan 17 10:41:06 EST 2007
+Standard-date: 2007-01-17 15:41:06 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-274
+Summary: muse-latex2png: Use \[ math-text \] for centered math tags
+Keywords: 
+
+2007-01-17  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-latex2png.el (muse-publish-math-tag): Don't put
+	multiple centered math lines on the same line; keep them on
+	different lines.  Use \[ math-text \] instead of $$math-text$$,
+	since the latter seems to be deprecated.  Thanks to Jody Klymak
+	for the pointer.

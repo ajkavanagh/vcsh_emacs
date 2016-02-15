@@ -1,0 +1,21 @@
+Revision: emacs-wiki--dev--1.0--patch-25
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Mon Aug  4 14:07:33 EST 2003
+Standard-date: 2003-08-04 04:07:33 GMT
+Summary: don't try to load wiki mode for ignored files in a wiki dir
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-25
+Removed-patches: 
+
+(emacs-wiki-directories-member): check the file using
+    emacs-wiki-file-ignore-regexp
+(emacs-wiki-directory-part): handle file names, too

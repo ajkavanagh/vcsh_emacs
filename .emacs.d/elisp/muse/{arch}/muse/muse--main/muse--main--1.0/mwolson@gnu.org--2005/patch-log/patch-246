@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-246
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep 26 19:15:05 EST 2005
+Standard-date: 2005-09-27 00:15:05 GMT
+Modified-files: ChangeLog lisp/muse-project.el muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-246
+Summary: Figure out syntax of :set.
+Keywords: 
+
+* lisp/muse-project.el (muse-project): Make the :set option inline to
+  match the actual syntax that Muse recognizes.
+
+* muse.texi (Projects): Note that I need to work on this section.

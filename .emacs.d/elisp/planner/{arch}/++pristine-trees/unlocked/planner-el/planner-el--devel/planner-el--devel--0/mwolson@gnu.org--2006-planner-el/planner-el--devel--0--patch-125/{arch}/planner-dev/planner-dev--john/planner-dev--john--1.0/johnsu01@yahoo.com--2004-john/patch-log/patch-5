@@ -1,0 +1,18 @@
+Revision: planner-dev--john--1.0--patch-5
+Archive: johnsu01@yahoo.com--2004-john
+Creator: John Sullivan <johnsu01@yahoo.com>
+Date: Wed May  5 01:21:20 EDT 2004
+Standard-date: 2004-05-05 05:21:20 GMT
+Modified-files: planner.texi
+New-patches: johnsu01@yahoo.com--2004-john/planner-dev--john--1.0--patch-5
+Summary: Documentation changes.
+Keywords: 
+
+Small changes to remember-bbdb descriptions.
+
+Added defuns to planner.el list.
+
+Modified Working More With Tasks and Working More With Notes
+
+
+

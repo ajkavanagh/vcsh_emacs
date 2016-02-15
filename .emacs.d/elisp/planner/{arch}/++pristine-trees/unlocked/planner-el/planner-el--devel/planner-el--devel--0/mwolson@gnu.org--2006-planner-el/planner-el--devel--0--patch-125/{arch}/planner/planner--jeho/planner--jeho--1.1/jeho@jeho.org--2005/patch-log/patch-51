@@ -1,0 +1,18 @@
+Revision: planner--jeho--1.1--patch-51
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Mar  6 14:18:30 GMT 2006
+Standard-date: 2006-03-06 14:18:30 GMT
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-51
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-12
+    mwolson@gnu.org--2006/planner--main--1.0--patch-15
+Summary: Merged from mwolson@gnu.org--2006-planner-el (patch 12), mwolson@gnu.org--2006 (patch 15)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-12
+   Merged from jeho@jeho.org--2005 (patch 46-50), mwolson@gnu.org--2006 (patch 14)
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-15
+   Merged from mwolson@gnu.org--2006-planner-el (patch 12)

@@ -1,0 +1,36 @@
+Revision: planner-muse--mwolson--1.0--patch-183
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan 16 19:56:42 EST 2006
+Standard-date: 2006-01-17 00:56:42 GMT
+New-files: .arch-ids/NEWS.id NEWS
+    debian/.arch-ids/NEWS.Debian.id
+    debian/.arch-ids/planner-el.info.id debian/NEWS.Debian
+    debian/planner-el.info
+Modified-files: AUTHORS ChangeLog.2005 ChangeLog.2006
+    Makefile Makefile.defs README debian/README.Debian
+    debian/changelog debian/copyright debian/emacsen-install
+    debian/emacsen-startup debian/planner-el.docs
+    debian/rules planner-el.texi planner-publish.el
+    planner.el
+    {arch}/planner-muse/planner-muse--mwolson/planner-muse--mwolson--1.0/mwolson@gnu.org--2005/patch-log/patch-35
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-183
+Summary: Update Debian package instructions.  Install autoloads.
+Keywords: 
+
+* Makefile (install): Make sure autoloads are installed.
+
+* debian/README.Debian: Update.
+
+* debian/copyright: Update the Upstream Authors and Copyright sections.
+
+* debian/rules: Build autoloads.  Install extra files.
+
+* debian/emacsen-install (FILES): Filter out autoloads file.
+
+* debian/emacsen-startup: Add shared planner-el directory to path.  Load
+  autoloads file.
+
+* planner-el.texi (Appointment Hooks): Add space after @defvr to fix a
+  syntax error.
+  (Acknowledgements): Add a missing @end itemize.

@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-295
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jan 14 09:33:55 JST 2005
+Standard-date: 2005-01-14 00:33:55 GMT
+Modified-files: ChangeLog planner-timeclock.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-295
+Summary: planner-edit-task-description: Check old description for match
+Keywords: 
+
+	* planner-timeclock.el (planner-edit-task-description): Set
+	current task only if old description matches.

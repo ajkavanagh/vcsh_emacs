@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-338
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 10 15:09:46 PHT 2005
+Standard-date: 2005-03-10 07:09:46 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-338
+Summary: New: planner-publish-dates-first-p
+Keywords: 
+
+* planner.el (planner-generate-index): Honor
+  planner-publish-dates-first-p.
+  (planner-publish-dates-first-p): New option.
+  Thanks to Chris Parsons for the patch.

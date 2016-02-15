@@ -1,0 +1,17 @@
+Revision: muse-el--devel--0--patch-106
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 15 23:20:58 EDT 2006
+Standard-date: 2006-10-16 03:20:58 GMT
+Modified-files: AUTHORS ChangeLog NEWS
+    lisp/muse-import-docbook.el lisp/muse-import-xml.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-106
+    mwolson@gnu.org--2006/muse--main--1.0--patch-221
+    mwolson@gnu.org--2006/muse--main--1.0--patch-222
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 221-222)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-222
+   New files: muse-import-docbook.el and muse-import-xml.el

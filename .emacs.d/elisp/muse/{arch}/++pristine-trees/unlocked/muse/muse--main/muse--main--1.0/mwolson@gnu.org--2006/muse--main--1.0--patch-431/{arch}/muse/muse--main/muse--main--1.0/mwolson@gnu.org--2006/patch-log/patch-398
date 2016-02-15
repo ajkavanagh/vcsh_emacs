@@ -1,0 +1,23 @@
+Revision: muse--main--1.0--patch-398
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 22 22:40:12 EDT 2007
+Standard-date: 2007-07-23 02:40:12 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+    lisp/muse-mode.el lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-398
+Summary: Add new muse-completing-read-function option
+Keywords: 
+
+2007-07-22  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-blosxom.el (muse-blosxom-new-entry):
+	* lisp/muse-mode.el (muse-insert-tag):
+	* lisp/muse-project.el (muse-read-project)
+	(muse-read-project-file):
+	* lisp/muse-publish.el (muse-publish-get-style): Use
+	muse-completing-read-function.
+
+	* lisp/muse.el (muse-completing-read-function): New option that
+	determines which function to call when doing a completing-read.

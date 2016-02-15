@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-283
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec  6 11:54:40 EST 2005
+Standard-date: 2005-12-06 16:54:40 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-283
+Summary: muse-mode: Minor fix.
+Keywords: 
+
+* lisp/muse-mode.el (muse-current-word): Switch order of save-restriction
+  and save-excursion as recommended by Emacs documentation.

@@ -1,0 +1,17 @@
+Revision: planner-muse--mwolson--1.0--patch-22
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  6 15:07:45 EST 2005
+Standard-date: 2005-07-06 20:07:45 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-multi.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-21
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-22
+Summary: Merged from hodique@lifl.fr--2005 (patch 21)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-21
+   don't use pos:// url as description
+

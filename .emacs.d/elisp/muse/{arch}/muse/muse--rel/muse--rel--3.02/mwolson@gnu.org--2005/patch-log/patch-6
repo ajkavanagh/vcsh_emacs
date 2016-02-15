@@ -1,0 +1,28 @@
+Revision: muse--rel--3.02--patch-6
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 16 20:49:21 EST 2005
+Standard-date: 2005-11-17 01:49:21 GMT
+Modified-files: ChangeLog Makefile.defs debian/changelog
+    debian/rules lisp/muse-latex.el lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-263
+    mwolson@gnu.org--2005/muse--main--1.0--patch-266
+    mwolson@gnu.org--2005/muse--main--1.0--patch-267
+    mwolson@gnu.org--2005/muse--main--1.0--patch-268
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-6
+Summary: Merged from mwolson@gnu.org--2005 (patch 263, 266-268)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-263
+   Fix mistyping of new option name.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-266
+   Call pdflatex a reasonable number of times.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-267
+   muse-latex: Fix "generation of PDF failed" message.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-268
+   Allow "-" in publishing directives.

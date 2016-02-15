@@ -1,0 +1,66 @@
+Revision: muse--jeho--1.0--patch-21
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Dec 13 13:44:51 GMT 2005
+Standard-date: 2005-12-13 13:44:51 GMT
+Modified-files: ChangeLog lisp/muse-groff.el
+    lisp/muse-latex.el lisp/muse-latex2png.el
+    lisp/muse-mode.el lisp/muse-project.el
+    lisp/muse-registry.el lisp/muse-wiki.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-21
+    mwolson@gnu.org--2005/muse--main--1.0--patch-285
+    mwolson@gnu.org--2005/muse--main--1.0--patch-286
+    mwolson@gnu.org--2005/muse--main--1.0--patch-287
+    mwolson@gnu.org--2005/muse--main--1.0--patch-288
+    mwolson@gnu.org--2005/muse--main--1.0--patch-289
+    mwolson@gnu.org--2005/muse--main--1.0--patch-290
+    mwolson@gnu.org--2005/muse--main--1.0--patch-291
+    mwolson@gnu.org--2005/muse--main--1.0--patch-292
+    mwolson@gnu.org--2005/muse--main--1.0--patch-293
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-25
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-27
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-28
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-29
+Summary: Merged from mwolson@gnu.org--2005 (patch 25, 27-29, 285-293)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-285
+   Merged from muse--rel--3.02 (patch 25)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-286
+   muse-wiki: First try at implementing WikiName separator.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-287
+   muse-registry.el: Fix compiler warnings.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-288
+   XEmacs fixes in muse-latex2png and muse-registry.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-289
+   muse-registry: Attempt to increase Emacs20 compatibility.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-290
+   muse-groff: Fix compiler warning.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-291
+   Merged from muse--rel--3.02 (patch 27)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-292
+   Merged from muse--rel--3.02 (patch 28)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-293
+   Merged from muse--rel--3.02 (patch 29)
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-25
+   muse-latex: Get table of contents to publish correctly.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-27
+   muse-project: Prevent auto-save files from being included.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-28
+   muse-project: Deal with edge case.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-29
+   muse-mode: Fix semicolon in paragraph issue.

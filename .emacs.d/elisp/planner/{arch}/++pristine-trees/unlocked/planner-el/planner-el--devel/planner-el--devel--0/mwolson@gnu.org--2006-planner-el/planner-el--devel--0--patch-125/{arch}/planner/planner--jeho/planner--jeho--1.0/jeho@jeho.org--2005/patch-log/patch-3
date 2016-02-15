@@ -1,0 +1,27 @@
+Revision: planner--jeho--1.0--patch-3
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Feb 15 15:06:32 GMT 2005
+Standard-date: 2005-02-15 15:06:32 GMT
+Modified-files: planner-id.el planner-multi.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-3
+Summary: fix interaction between task ids and multiple links
+Keywords: 
+
+* planner-id.el (planner-id-find-task, planner-find-task): 
+  Added this function and advice so that tasks are found 
+  correctly by id.
+
+* planner-multi.el (planner-update-task):
+  Use the new update setup macro wrapper with-planner-update-setup 
+  in planner.el.
+
+* planner.el (planner-task-line-regexp, planner-task-info-from-string): 
+  New global variable to match a task line.
+
+* planner.el (with-planner-update-setup, planner-update-task): 
+  a macro wrapper for the update setup so that the code 
+  may be conveniently reused in planner-multi.el
+
+
+

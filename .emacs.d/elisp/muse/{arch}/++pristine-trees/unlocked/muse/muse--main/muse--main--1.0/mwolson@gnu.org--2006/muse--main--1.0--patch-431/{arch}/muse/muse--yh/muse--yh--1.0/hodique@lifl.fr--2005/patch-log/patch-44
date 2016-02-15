@@ -1,0 +1,63 @@
+Revision: muse--yh--1.0--patch-44
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Sep 17 20:59:42 CEST 2005
+Standard-date: 2005-09-17 18:59:42 GMT
+New-files: experimental/.arch-ids/muse-cite.el.id
+    experimental/muse-cite.el
+Modified-files: ChangeLog Makefile Makefile.defs NEWS
+    debian/changelog examples/mwolson/muse-init.el
+    experimental/muse-message.el experimental/muse-xml.el
+    lisp/muse-blosxom.el lisp/muse-book.el
+    lisp/muse-colors.el lisp/muse-convert.el
+    lisp/muse-docbook.el lisp/muse-html.el lisp/muse-http.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-mode.el lisp/muse-poem.el lisp/muse-project.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-texinfo.el
+    lisp/muse-wiki.el lisp/muse.el muse.texi
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-44
+    mwolson@gnu.org--2005/muse--main--1.0--patch-228
+    mwolson@gnu.org--2005/muse--main--1.0--patch-229
+    mwolson@gnu.org--2005/muse--main--1.0--patch-230
+    mwolson@gnu.org--2005/muse--main--1.0--patch-231
+    mwolson@gnu.org--2005/muse--main--1.0--patch-232
+    mwolson@gnu.org--2005/muse--main--1.0--patch-233
+    mwolson@gnu.org--2005/muse--main--1.0--patch-234
+    mwolson@gnu.org--2005/muse--main--1.0--patch-235
+    mwolson@gnu.org--2005/muse--main--1.0--patch-236
+    mwolson@gnu.org--2005/muse--main--1.0--patch-237
+Summary: Merged from mwolson@gnu.org--2005 (patch 228-237)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-228
+   Update NEWS, fix muse-url-protocols customization interface.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-229
+   Fix publishing of stuff like <code><></code>.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-230
+   Hack on documentation.  The release is in sight!
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-231
+   muse.texi: Add publishing order information.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-232
+   muse-mode: Set comment syntax.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-233
+   Make documentation separately installable.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-234
+   Document style elements for muse-define-style.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-235
+   Finish documentation.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-236
+   Prepare for release.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-237
+   Release Muse 3.02.

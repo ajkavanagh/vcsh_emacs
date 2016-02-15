@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-89
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul  5 21:25:56 EST 2005
+Standard-date: 2005-07-06 02:25:56 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-89
+Summary: Make interwiki links publish with the correct extension.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-transform-interwiki): Add the correct
+  prefix and suffix to interwiki names, as well as stripping out unwanted
+  extensions.
+

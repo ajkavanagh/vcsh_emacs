@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-178
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Oct  2 13:58:23 JST 2004
+Standard-date: 2004-10-02 04:58:23 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-178
+Summary: Change planner-tasks-file-behavior default to nil
+Keywords: improvement
+
+	* planner.el (planner-tasks-file-behavior): Change default to nil.
+	That way, we don't scare people with slow behavior.

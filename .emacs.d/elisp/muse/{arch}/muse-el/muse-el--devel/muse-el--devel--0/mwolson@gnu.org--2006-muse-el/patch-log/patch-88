@@ -1,0 +1,24 @@
+Revision: muse-el--devel--0--patch-88
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Aug 27 21:45:01 EDT 2006
+Standard-date: 2006-08-28 01:45:01 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-88
+    mwolson@gnu.org--2006/muse--main--1.0--patch-198
+    mwolson@gnu.org--2006/muse--main--1.0--patch-199
+    mwolson@gnu.org--2006/muse--main--1.0--patch-200
+Summary: Merged from mwolson@gnu.org--2006 (patch 198-200)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-198
+   muse-wiki: Separate project-file stuff from wikiword regexp.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-199
+   Fix bug introduced in last patch.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-200
+   Get rid of some tabs.

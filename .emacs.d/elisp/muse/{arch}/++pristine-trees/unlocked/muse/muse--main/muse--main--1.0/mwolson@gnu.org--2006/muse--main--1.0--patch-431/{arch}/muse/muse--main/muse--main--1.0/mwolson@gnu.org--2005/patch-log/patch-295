@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-295
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec 13 19:54:02 EST 2005
+Standard-date: 2005-12-14 00:54:02 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-295
+Summary: muse-wiki: Fix an error that occurs when muse-colors is not loaded.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-update-interwiki-regexp): Try to fix an
+  error when muse-colors is not loaded.  Thanks to Stefan van der Walt
+  for the report.

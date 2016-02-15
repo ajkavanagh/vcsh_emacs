@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-420
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 18 09:03:49 PHT 2005
+Standard-date: 2005-06-18 01:03:49 GMT
+Modified-files: ChangeLog planner-el.texi planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-420
+Summary: planner-annotation-as-kill: New interactive prefix
+Keywords: 
+
+* planner.el (planner-annotation-as-kill): Merge patch from Stefan
+  Reichör adding interactive prefix to planner-annotation-as-kill,
+  allowing users to specify description.
+
+* planner-el.texi (Hyperlinks): New section documenting
+  planner-annotation-as-kill.

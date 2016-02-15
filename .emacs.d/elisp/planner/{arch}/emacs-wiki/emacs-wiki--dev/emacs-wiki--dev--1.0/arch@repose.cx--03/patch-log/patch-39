@@ -1,0 +1,11 @@
+Revision: emacs-wiki--dev--1.0--patch-39
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Nov 25 23:56:58 EST 2003
+Standard-date: 2003-11-25 12:56:58 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-39
+Summary: fix interactive project switch behavior (see prev patch)
+
+fix interactive project switch behavior (see prev patch)
+

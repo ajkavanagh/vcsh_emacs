@@ -1,0 +1,25 @@
+Revision: emacs-wiki--dev--1.0--patch-14
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Jul 15 04:30:54 EST 2003
+Standard-date: 2003-07-14 18:30:54 GMT
+Summary: highlight broken [[interwiki]] links in badlink face 
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-14
+Removed-patches: 
+
+While the badlink check was working correctly for InterWiki#WikiPage, it
+wasn't working for [[wiki#WikiPage]]. This patch corrects this behaviour.
+
+(emacs-wiki-link-face): new function which returns the relevant face given a
+    wiki name
+(emacs-wiki-highlight-link): use (emacs-wiki-link-face) for both the normal
+    and [[extendedLink]] syntax

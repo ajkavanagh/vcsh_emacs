@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-241
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec 17 20:08:29 JST 2004
+Standard-date: 2004-12-17 11:08:29 GMT
+Modified-files: ChangeLog planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-241
+Summary: Minor fix: add space after author name on newsgroups
+Keywords: external
+
+	* planner-gnus.el: Add space after author name on newsgroups.
+	Thanks to Magnus Henoch for the patch.
+	(planner-gnus-annotation-from-summary): Add space.
+	(planner-gnus-annotation-from-message): Add space.

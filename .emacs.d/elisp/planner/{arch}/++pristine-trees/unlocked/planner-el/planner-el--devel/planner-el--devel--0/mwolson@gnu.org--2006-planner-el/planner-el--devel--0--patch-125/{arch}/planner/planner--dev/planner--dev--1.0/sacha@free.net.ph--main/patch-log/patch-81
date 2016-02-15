@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-81
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue May 11 11:50:52 PHT 2004
+Standard-date: 2004-05-11 03:50:52 GMT
+Modified-files: planner-id.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-81
+Summary: NOTE: planner-id-add-task-id-flag
+Keywords: 
+
+	* planner.texi: Add category entry.
+	(Components): Correct typo.
+	(Using planner-id.el): Mention `planner-id-add-task-id-flag'
+	and `planner-id-update-automatically'.
+
+	* planner-id.el (planner-create-task-hook): Use
+	`planner-id-add-task-id-maybe'.
+	(planner-id-add-task-id-maybe): New.

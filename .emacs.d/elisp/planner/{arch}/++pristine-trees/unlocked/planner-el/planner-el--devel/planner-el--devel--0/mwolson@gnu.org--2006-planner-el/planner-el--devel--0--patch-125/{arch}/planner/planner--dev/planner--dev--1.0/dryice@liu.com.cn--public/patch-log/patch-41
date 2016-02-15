@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-41
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Thu Jun  2 21:08:20 CST 2005
+Standard-date: 2005-06-02 13:08:20 GMT
+Modified-files: ChangeLog planner-el.texi planner-lisp.el
+    planner-xtla.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-41
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-65
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-66
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-67
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-68
+    sacha@free.net.ph--main/planner--dev--1.0--patch-399
+    sacha@free.net.ph--main/planner--dev--1.0--patch-400
+    sacha@free.net.ph--main/planner--dev--1.0--patch-401
+    sacha@free.net.ph--main/planner--dev--1.0--patch-402
+Summary: merge patch 399-402 from Sacha
+Keywords: merge
+

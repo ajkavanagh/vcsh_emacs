@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-35
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 18 01:07:02 EST 2005
+Standard-date: 2005-05-18 06:07:02 GMT
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-35
+Summary: Update my example settings.
+Keywords: 
+
+* examples/mwolson/muse-init.el: Synchronize with my current settings.

@@ -1,0 +1,32 @@
+Revision: muse--rel--3.02--patch-2
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 16 20:17:36 EST 2005
+Standard-date: 2005-11-17 01:17:36 GMT
+Modified-files: experimental/muse-xml.el
+    lisp/muse-docbook.el lisp/muse-html.el
+    lisp/muse-latex.el lisp/muse-publish.el
+    lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-2
+Summary: Apply some anchor fixes from muse--main--1.0 (253).
+Keywords: 
+
+* experimental/muse-xml.el (muse-xml-insert-anchor)
+  (muse-xml-markup-anchor): Make sure we don't blow away the text just
+  before an anchor.  On all types but texinfo, insert a newline
+  immediately after the anchor.
+
+* lisp/muse-docbook.el (muse-docbook-insert-anchor)
+  (muse-docbook-markup-anchor): Ditto.
+
+* lisp/muse-html.el (muse-html-insert-anchor)
+  (muse-html-markup-anchor): Ditto.
+
+* lisp/muse-texinfo.el (muse-texinfo-insert-anchor)
+  (muse-texinfo-markup-anchor): Ditto.
+
+* lisp/muse-publish.el (muse-publish-markup-regexps): Make text before
+  the anchor the first match group.
+
+* lisp/muse-latex.el (muse-latex-insert-anchor)
+  (muse-latex-markup-anchor): Ditto.

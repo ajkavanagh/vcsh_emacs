@@ -1,0 +1,30 @@
+Revision: planner-muse--mwolson--1.0--patch-166
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan  6 15:21:25 EST 2006
+Standard-date: 2006-01-06 20:21:25 GMT
+Modified-files: ChangeLog planner-appt.el planner-authz.el
+    planner-el.texi planner-mhe.el planner-rmail.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-166
+Summary: XEmacs fixes.
+Keywords: 
+
+* planner-appt.el (planner-appt-add-appts-from-tasks): Remove unused
+  obsolete variable.
+
+* planner-authz.el (planner-authz-mason-markup-table): 
+  (planner-authz-diary-tag): Use planner-line-beginning-position.
+
+* planner-el.texi (Appointments): Add code snippet for activating
+  appt.el.
+
+* planner-mhe.el: Require mh-index.
+
+* planner-rmail.el (planner-rmail-narrow-to-non-pruned-header): New
+  function that provides an implementation of
+  rmail-narrow-to-non-pruned-header, since XEmacs lacks it.
+  (planner-rmail-annotation-from-mail): Use
+  planner-rmail-narrow-to-non-pruned-header.
+
+* planner.el: Wrap conditional `require' in `eval-when-compile'.

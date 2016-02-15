@@ -1,0 +1,24 @@
+Revision: planner-muse--mwolson--1.0--patch-130
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Dec 14 18:46:22 EST 2005
+Standard-date: 2005-12-14 23:46:22 GMT
+Modified-files: ChangeLog planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-16
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-17
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-18
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-19
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-20
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-21
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-22
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-130
+Summary: Merged from jeho@jeho.org--2005 (patch 16-22)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-21
+   planner-appt: rewrite task appt section code
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-22
+   planner-appt: make appt highlighting conditional

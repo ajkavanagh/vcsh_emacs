@@ -1,0 +1,109 @@
+Revision: planner--jeho--1.0--patch-40
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Mar 11 17:43:47 GMT 2005
+Standard-date: 2005-03-11 17:43:47 GMT
+New-files: .arch-ids/planner-trunk.el.id planner-trunk.el
+Modified-files: ChangeLog planner-diary.el planner-el.texi
+    planner-mhe.el planner-rank.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-17
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-18
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-19
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-20
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-21
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-22
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-23
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-24
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-25
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-26
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-27
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-28
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-29
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-30
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-40
+    sacha@free.net.ph--main/planner--dev--1.0--patch-335
+    sacha@free.net.ph--main/planner--dev--1.0--patch-336
+    sacha@free.net.ph--main/planner--dev--1.0--patch-337
+    sacha@free.net.ph--main/planner--dev--1.0--patch-338
+    sacha@free.net.ph--main/planner--dev--1.0--patch-339
+    sacha@free.net.ph--main/planner--dev--1.0--patch-340
+    sacha@free.net.ph--main/planner--dev--1.0--patch-341
+    sacha@free.net.ph--main/planner--dev--1.0--patch-342
+    sacha@free.net.ph--main/planner--dev--1.0--patch-343
+    sacha@free.net.ph--main/planner--dev--1.0--patch-344
+Summary: merge latest 
+Keywords: 
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-17
+   merge from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-18
+   new planner-trunk.el to group tasks in day page
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-19
+   merge patch 331-332 from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-20
+   merge Keith Amidon's bug fix and improvements
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-21
+   fix problem if planner-multi is loaded and there are space in bookmark name
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-22
+   merge from main stream patch-333
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-23
+   document planner-rank in info and some related docfixs
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-24
+   merge from Keith Amidon: support trunk on plan pages and add sub-section headers
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-25
+   optional force trunk completed tasks together with non-completed tasks and minor improvements
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-26
+   use the helper functions
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-27
+   merge patch-334 from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-28
+   merge from Keith Amidon: now works with outline minor mode better
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-29
+   Run hooks instead of call outline-show-all
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-30
+   merge patch 335-337 from main stream
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-335
+   Merge planner-appt from planner--jeho--1.0--patch-38
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-336
+   New: planner-diary-add-entry
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-337
+   planner-mhe fix from Christopher Garion: mh-path, utility functions
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-338
+   New: planner-publish-dates-first-p
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-339
+   Sync with dryice@liu.com.cn--public: new planner-trunk.el, planner-rank.el documentation
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-340
+   planner-create-task-from-info: Always call planner-create-task-hook
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-341
+   Update @cindex for Task Ranks documentation
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-342
+   planner-trunk.el docfixes: not just for day page
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-343
+   Bugfixes: planner.el: remove unfontlocking code, add missing paren in planner-generate-index
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-344
+   New macro with-planner ensures planner context

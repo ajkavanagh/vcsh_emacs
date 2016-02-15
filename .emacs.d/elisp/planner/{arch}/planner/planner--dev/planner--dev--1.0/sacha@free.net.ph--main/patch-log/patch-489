@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-489
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Sep 17 00:19:09 EDT 2005
+Standard-date: 2005-09-17 04:19:09 GMT
+Modified-files: planner-rss.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-489
+Summary: Bugfix: planner-rss.el: Add anchor- to numeric anchors
+Keywords: 
+
+* planner-rss.el (planner-rss-add-note): Add anchor- to numeric anchors.
+  This catches up with an emacs-wiki change for XHTML compliance. Thanks
+  to Andrew Plumb for pointing this out!
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

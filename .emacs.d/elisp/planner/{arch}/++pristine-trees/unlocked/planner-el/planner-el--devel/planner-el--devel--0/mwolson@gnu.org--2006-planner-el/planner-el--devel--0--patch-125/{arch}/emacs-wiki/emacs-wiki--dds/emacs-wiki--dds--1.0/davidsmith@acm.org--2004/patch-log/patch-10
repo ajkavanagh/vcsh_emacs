@@ -1,0 +1,11 @@
+Revision: emacs-wiki--dds--1.0--patch-10
+Archive: davidsmith@acm.org--2004
+Creator: David D. Smith <davidsmith@acm.org>
+Date: Sat Jan 24 14:46:31 EST 2004
+Standard-date: 2004-01-24 19:46:31 GMT
+Modified-files: planner.el
+New-patches: davidsmith@acm.org--2004/emacs-wiki--dds--1.0--patch-10
+Summary: revert patch-8: create proper links to planner pages
+Keywords: 
+
+This patch was not correct. Revert to old version for now.

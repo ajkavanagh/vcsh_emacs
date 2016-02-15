@@ -1,0 +1,25 @@
+Revision: muse--main--1.0--patch-355
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun 14 22:38:57 EDT 2007
+Standard-date: 2007-06-15 02:38:57 GMT
+Renamed-files: examples/.arch-ids/muse.rnc.id etc/.arch-ids/muse.rnc.id
+    examples/muse.rnc etc/muse.rnc
+Modified-files: ChangeLog README
+    etc/emacs-wiki-migration.txt etc/muse.rnc
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-355
+Summary: Update RelaxNG schema
+Keywords: 
+
+2007-06-14  Michael Olson  <mwolson@gnu.org>
+ 
+	* README: Mention that RelaxNG schema is in etc/ directory.
+
+	* etc/muse.rnc: Increment version number to 1.0.  Fix several
+	nested emphasis and nested lists edge cases.  Move here from
+	examples/.
+
+	* lisp/muse-publish.el (muse-publish-markup-table)
+	(muse-publish-markup-table-el): Include a newline in the return
+	string, so that paragraph detection does not get confused.

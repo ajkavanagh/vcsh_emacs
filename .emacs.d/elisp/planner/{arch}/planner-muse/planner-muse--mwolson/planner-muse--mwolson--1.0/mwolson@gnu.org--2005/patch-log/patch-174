@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-174
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan 10 20:40:40 EST 2006
+Standard-date: 2006-01-11 01:40:40 GMT
+Modified-files: AUTHORS ChangeLog.2005 planner-id.el
+    planner-ledger.el planner-lisp.el planner-log-edit.el
+    planner-mhe.el planner-multi.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-174
+Summary: Progress: planner-multi.el
+Keywords: 
+

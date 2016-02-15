@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-29
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Fri Mar  4 16:45:04 CST 2005
+Standard-date: 2005-03-04 08:45:04 GMT
+Modified-files: planner-trunk.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-29
+Summary: Run hooks instead of call outline-show-all
+Keywords: newfeature
+
+* planner-trunk.el (planner-trunk-tasks-before-hook): new hook to run
+  before foing the trunk.
+  (planner-trunk-tasks-after-hook): new hook to run after the trunk.
+  (planner-trunk-tasks): Remove the outline-show-all call and plant the
+  above two new hooks. This is a more general way.
+

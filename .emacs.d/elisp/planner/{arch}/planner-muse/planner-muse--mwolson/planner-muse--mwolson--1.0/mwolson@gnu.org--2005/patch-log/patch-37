@@ -1,0 +1,34 @@
+Revision: planner-muse--mwolson--1.0--patch-37
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 22 21:02:50 EST 2005
+Standard-date: 2005-07-23 02:02:50 GMT
+Modified-files: ChangeLog.mwolson planner-appt.el
+    planner-authz.el planner-bibtex.el planner-cyclic.el
+    planner-deadline.el planner-diary.el
+    planner-export-diary.el planner-id.el planner-ledger.el
+    planner-log-edit.el planner-multi.el
+    planner-notes-index.el planner-psvn.el planner-rank.el
+    planner-rdf.el planner-report.el planner-rss.el
+    planner-schedule.el planner-tasks-overview.el
+    planner-timeclock-summary-proj.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-trunk.el planner-w3m.el planner-xtla.el
+    planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-37
+    sacha@free.net.ph--main/planner--dev--1.0--patch-452
+    sacha@free.net.ph--main/planner--dev--1.0--patch-453
+    sacha@free.net.ph--main/planner--dev--1.0--patch-454
+Summary: Merged from sacha@free.net.ph--main (patch 452-454)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-452
+   Add autoload cookies to a bunch of files, remove planner-appt-filename-to-date
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-453
+   planner-create-note: Default to current page when called interactively
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-454
+   Merge patch to make note heading face less greedy

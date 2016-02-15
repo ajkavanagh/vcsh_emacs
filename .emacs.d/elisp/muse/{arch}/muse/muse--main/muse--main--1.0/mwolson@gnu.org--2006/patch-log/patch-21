@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-21
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Feb 23 22:23:49 EST 2006
+Standard-date: 2006-02-24 03:23:49 GMT
+Modified-files: ChangeLog.2006 lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-21
+Summary: muse-blosxom: Fix order of #tags line in header.
+Keywords: 
+
+* lisp/muse-blosxom.el (muse-blosxom-header): Put #tags line after title,
+  rather than before it.  Thanks to bkhl for the heads up.

@@ -1,0 +1,14 @@
+Revision: planner--main--1.0--patch-56
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun  8 17:36:15 EDT 2006
+Standard-date: 2006-06-08 21:36:15 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-56
+Summary: Document new mailing lists in the manual.
+Keywords: 
+
+* planner-el.texi (Getting Help): Document new mailing
+  lists.
+  (Overview, Review, Sample Configuration Files): Point to Getting Help
+  section for mailing list information.

@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-69
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 29 00:16:59 EDT 2006
+Standard-date: 2006-07-29 04:16:59 GMT
+Modified-files: AUTHORS planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-69
+Summary: Update maintainer info.
+Keywords: 
+
+* AUTHORS: Mention that John Sullivan is the new maintainer.
+
+* planner-el.texi (Preface), Getting Help, Acknowledgements): Ditto.
+  (Installing from Arch): Update the ArchZoom link for the new
+  repository.

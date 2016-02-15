@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-156
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jul 18 03:53:32 EST 2005
+Standard-date: 2005-07-18 08:53:32 GMT
+Modified-files: ChangeLog lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-156
+Summary: Small logic fix with temp files.
+Keywords: 
+
+* lisp/muse.el (muse-with-temp-buffer): Use buffer-live-p instead of
+  buffer-name to determine whether the buffer is still around.

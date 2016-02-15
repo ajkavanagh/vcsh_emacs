@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-290
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jan 11 20:20:00 JST 2005
+Standard-date: 2005-01-11 11:20:00 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-290
+Summary: planner-multi-separator, planner-multi-read-name: Work with spaces! Yay!
+Keywords: 
+
+	* planner-multi.el (planner-multi-read-name): Allow the use of
+	planner-multi-separator in completion. This means that spaces are
+	now okay.
+	(planner-multi-separator): Change the default to spaces again.

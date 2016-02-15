@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-111
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Oct 30 00:27:51 EST 2006
+Standard-date: 2006-10-30 05:27:51 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-111
+    mwolson@gnu.org--2006/muse--main--1.0--patch-236
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 236)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-236
+   Fix goofy assertion

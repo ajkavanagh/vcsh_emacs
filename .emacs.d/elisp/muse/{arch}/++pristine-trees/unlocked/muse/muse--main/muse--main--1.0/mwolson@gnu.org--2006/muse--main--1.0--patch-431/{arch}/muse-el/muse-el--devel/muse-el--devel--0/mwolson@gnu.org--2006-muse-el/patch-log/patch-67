@@ -1,0 +1,21 @@
+Revision: muse-el--devel--0--patch-67
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue May 16 11:56:46 EDT 2006
+Standard-date: 2006-05-16 15:56:46 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog lisp/muse-blosxom.el lisp/muse-mode.el
+    lisp/muse-publish.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-67
+    mwolson@gnu.org--2006/muse--main--1.0--patch-125
+    mwolson@gnu.org--2006/muse--main--1.0--patch-126
+Summary: Merged from mwolson@gnu.org--2006 (patch 125-126)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-125
+   Fix #5925: Emphasis on item breaks lists.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-126
+   Fix emdash in link description bug.

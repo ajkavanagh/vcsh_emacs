@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-306
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 21:10:32 EST 2005
+Standard-date: 2005-12-17 02:10:32 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-306
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-35
+Summary: Merged from mwolson@gnu.org--2005 (patch 35)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-35
+   muse-colors: Fix QuickStart display bug.

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-304
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 18:37:24 EST 2005
+Standard-date: 2005-12-16 23:37:24 GMT
+Modified-files: ChangeLog examples/QuickStart.muse
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-304
+Summary: QuickStart: Correct old syntax.
+Keywords: 
+
+* examples/QuickStart.muse: Don't wrap the literal tag around other tags.
+  Just use equal sign escaping.

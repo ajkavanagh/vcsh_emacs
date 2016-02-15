@@ -1,0 +1,23 @@
+Revision: emacs-wiki--dev--1.0--patch-2
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Mon Jun 23 00:50:20 EST 2003
+Standard-date: 2003-06-22 14:50:20 GMT
+Summary: remove octal references (fixes http publishing on xemacs)
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-2
+Removed-patches: 
+
+Sigh. There's three different read syntaxs for octals - ?\666, ?\0666, and
+#o666. Not one of them are supported across all recent emacsen - so decimal
+literals have to be used in their place. It's not even possible to wrap the
+literal in a if clause, since the read syntax is evaluated regardless of if
+the macro chooses to evaluate that argument or not.

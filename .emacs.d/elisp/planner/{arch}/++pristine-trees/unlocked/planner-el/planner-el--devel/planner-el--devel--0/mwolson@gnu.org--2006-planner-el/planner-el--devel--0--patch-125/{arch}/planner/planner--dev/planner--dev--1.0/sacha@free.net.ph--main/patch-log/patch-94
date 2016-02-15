@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-94
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jun  2 05:51:08 PHT 2004
+Standard-date: 2004-06-01 21:51:08 GMT
+New-files: .arch-ids/planner-accomplishments.el.id
+    planner-accomplishments.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-94
+Summary: Feature: planner-accomplishments.el
+Keywords: 
+
+	* planner-accomplishments.el: New.

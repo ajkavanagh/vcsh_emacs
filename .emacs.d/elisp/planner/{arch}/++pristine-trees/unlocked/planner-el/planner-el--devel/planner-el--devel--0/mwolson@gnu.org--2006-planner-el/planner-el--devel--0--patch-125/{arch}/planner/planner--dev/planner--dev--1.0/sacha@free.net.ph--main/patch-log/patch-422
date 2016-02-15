@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-422
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jun 20 12:25:42 PHT 2005
+Standard-date: 2005-06-20 04:25:42 GMT
+Modified-files: ChangeLog planner-id.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-422
+Summary: Bugfix: planner-annotation-from-file-with-position: Check if buffer has a file
+Keywords: 
+
+* planner.el (planner-annotation-from-file-with-position): Check if buffer is associated with a file.
+

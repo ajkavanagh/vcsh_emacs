@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-388
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 27 11:16:25 PHT 2005
+Standard-date: 2005-04-27 03:16:25 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-388
+Summary: Tweak: planner-copy-or-move-region does not include last line if at start of line
+Keywords: 
+
+* planner.el (planner-copy-or-move-region): Minor tweak: Do not include
+  last line if point is at the first character of the task. This makes
+  selecting a region of tasks easier, and corresponds better to
+  transient-mark-mode.

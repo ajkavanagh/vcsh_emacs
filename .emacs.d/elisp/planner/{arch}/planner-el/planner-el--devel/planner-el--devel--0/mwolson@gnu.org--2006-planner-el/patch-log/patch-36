@@ -1,0 +1,16 @@
+Revision: planner-el--devel--0--patch-36
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon May  8 20:31:08 EDT 2006
+Standard-date: 2006-05-09 00:31:08 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-36
+    mwolson@gnu.org--2006/planner--main--1.0--patch-41
+Summary: Merged from mwolson@gnu.org--2006 (patch 41)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-41
+   planner-el.texi: Update location of schedule.el.

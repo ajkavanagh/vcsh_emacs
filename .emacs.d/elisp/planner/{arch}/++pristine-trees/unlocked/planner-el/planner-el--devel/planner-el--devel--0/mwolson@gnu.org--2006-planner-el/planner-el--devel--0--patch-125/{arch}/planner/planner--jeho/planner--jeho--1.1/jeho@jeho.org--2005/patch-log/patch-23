@@ -1,0 +1,16 @@
+Revision: planner--jeho--1.1--patch-23
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Dec 14 11:24:57 GMT 2005
+Standard-date: 2005-12-14 11:24:57 GMT
+Modified-files: planner-appt.el scripts/planner-build.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-23
+Summary: planner-appt: schedule regexp and task formatting
+Keywords: 
+
+* planner-appt.el (planner-appt-schedule-basic-regexp): Added a ?'
+  character to allow for the '''''    ' cell forcing hack.  
+  (planner-appt-format-time-description): New function: separates out the
+  formatting of time and task from planner-appt-make-appt-element.
+  (planner-appt-make-appt-element): Use the new function for the time and
+  task formatting.

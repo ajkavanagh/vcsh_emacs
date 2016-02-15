@@ -1,0 +1,21 @@
+Revision: muse-el--devel--0--patch-33
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar 26 17:39:48 EST 2006
+Standard-date: 2006-03-26 22:39:48 GMT
+Modified-files: ChangeLog.2006
+    examples/mwolson/muse-init.el lisp/muse-colors.el
+    lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-33
+    mwolson@gnu.org--2006/muse--main--1.0--patch-77
+    mwolson@gnu.org--2006/muse--main--1.0--patch-78
+Summary: Merged from mwolson@gnu.org--2006 (patch 77-78)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-77
+   Update my example configuration file.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-78
+   Fix a couple of recently-introduced bugs.

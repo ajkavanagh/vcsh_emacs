@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-191
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Oct 24 22:43:04 JST 2004
+Standard-date: 2004-10-24 13:43:04 GMT
+Modified-files: planner.texi
+New-patches: johnsu01@yahoo.com--2004-john/planner-dev--john--1.0--patch-5
+    sacha@free.net.ph--main/planner--dev--1.0--patch-191
+Summary: Docfix: Add note about functions that create different-priority tasks
+Keywords: docfix external
+
+Patches applied:
+
+ * johnsu01@yahoo.com--2004-john/planner-dev--john--1.0--patch-5
+   Documentation changes.
+

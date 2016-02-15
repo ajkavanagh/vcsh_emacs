@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-161
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 24 00:44:26 EDT 2007
+Standard-date: 2007-07-24 04:44:26 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-161
+    mwolson@gnu.org--2006/muse--main--1.0--patch-401
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 401)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-401
+   muse-publish: Fix bad <lisp> and <include> interaction

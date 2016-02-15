@@ -1,0 +1,12 @@
+Revision: planner-muse--mwolson--1.0--patch-154
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan  3 16:19:13 EST 2006
+Standard-date: 2006-01-03 21:19:13 GMT
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-154
+Summary: Makefile: Fix argument for install-info.
+Keywords: 
+
+* Makefile (install): Give install-info the correct path.  Thanks to Dale
+  Smith for reporting this.

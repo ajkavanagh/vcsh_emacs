@@ -1,0 +1,40 @@
+Revision: planner--jeho--1.1--patch-43
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Jan 28 10:39:36 GMT 2006
+Standard-date: 2006-01-28 10:39:36 GMT
+Renamed-files: debian/.arch-ids/NEWS.Debian.id debian/.arch-ids/NEWS.id
+    debian/NEWS.Debian debian/NEWS
+Modified-files: Makefile Makefile.defs debian/README.Debian
+    debian/changelog debian/emacsen-install
+    debian/emacsen-startup planner-calendar.el
+    planner-gnus.el planner-publish.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-43
+    mwolson@gnu.org--2006/planner--main--1.0--patch-1
+    mwolson@gnu.org--2006/planner--main--1.0--patch-2
+    mwolson@gnu.org--2006/planner--main--1.0--patch-3
+    mwolson@gnu.org--2006/planner--main--1.0--patch-4
+    mwolson@gnu.org--2006/planner--main--1.0--patch-5
+    mwolson@gnu.org--2006/planner--main--1.0--patch-6
+Summary: Merged from mwolson@gnu.org--2006 (patch 1-6)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-1
+   Debian fixups.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-2
+   Debian package refinements.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-3
+   Make planner-visit-link more robust.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-4
+   planner-calendar: Make a <calendar> tag.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-5
+   Don't insert too many spaces around task number.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-6
+   planner-gnus: Fix buggy browsing behavior.

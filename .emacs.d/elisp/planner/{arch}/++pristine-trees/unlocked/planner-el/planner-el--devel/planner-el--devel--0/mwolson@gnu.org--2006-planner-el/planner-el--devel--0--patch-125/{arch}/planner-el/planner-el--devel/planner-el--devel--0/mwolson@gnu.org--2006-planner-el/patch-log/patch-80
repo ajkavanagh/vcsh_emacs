@@ -1,0 +1,14 @@
+Revision: planner-el--devel--0--patch-80
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sat Aug 26 20:17:39 EDT 2006
+Standard-date: 2006-08-27 00:17:39 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-80
+Summary: 2006-08-26  John Sullivan  <john@wjsullivan.net>
+Keywords: 
+
+	* planner-el.texi (Publishing Planner pages): Clarify the
+	requirements and remove redundancies.
+
+

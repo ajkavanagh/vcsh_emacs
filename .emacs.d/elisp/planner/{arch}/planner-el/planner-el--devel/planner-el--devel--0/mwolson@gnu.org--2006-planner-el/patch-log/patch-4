@@ -1,0 +1,17 @@
+Revision: planner-el--devel--0--patch-4
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Wed Feb 15 15:26:25 EST 2006
+Standard-date: 2006-02-15 20:26:25 GMT
+Modified-files: planner-authz.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-4
+Summary: add planner-multi support to planner-authz
+Keywords: 
+
+ - when multiple pages are linked to a task or note, merge the access
+   lists to the linked pages using a user-specified function
+
+ - provide intersection and union functions for merging access lists
+
+ - disable republishing *during* republishing to avoid indefinite
+   recursion

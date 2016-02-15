@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-142
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Dec 26 02:35:46 EST 2005
+Standard-date: 2005-12-26 07:35:46 GMT
+Modified-files: ChangeLog planner-accomplishments.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-142
+Summary: planner-accomplishments: Get rid of extra underlined part.
+Keywords: 
+
+* planner-accomplishments.el (planner-accomplishments-format-table):
+  Don't put spaces inside of the link.  Thanks to Paul Lussier for the
+  report.

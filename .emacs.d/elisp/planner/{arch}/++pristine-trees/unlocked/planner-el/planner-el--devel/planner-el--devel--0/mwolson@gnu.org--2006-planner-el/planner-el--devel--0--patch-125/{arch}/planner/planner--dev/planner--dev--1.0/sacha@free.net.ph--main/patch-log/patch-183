@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-183
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Oct  6 18:22:43 JST 2004
+Standard-date: 2004-10-06 09:22:43 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-183
+Summary: plan: Force planner-tasks-file-behavior to 'save if nil, honor 'close
+Keywords: bugfix
+
+	* planner.el (plan): Force planner-tasks-file-behavior so that the
+	file list can be updated. Fix buggy let binding of
+	planner-tasks-file-behavior. Thanks to Yvonne for pointing this
+        out.

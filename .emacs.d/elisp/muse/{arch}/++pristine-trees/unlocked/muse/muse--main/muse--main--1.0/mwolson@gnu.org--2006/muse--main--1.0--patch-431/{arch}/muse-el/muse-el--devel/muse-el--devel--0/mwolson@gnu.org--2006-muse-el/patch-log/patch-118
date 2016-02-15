@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-118
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Nov 26 17:58:20 EST 2006
+Standard-date: 2006-11-26 22:58:20 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+    lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-118
+    mwolson@gnu.org--2006/muse--main--1.0--patch-250
+    mwolson@gnu.org--2006/muse--main--1.0--patch-251
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 250-251)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-250
+   Publish private files by default to avoid confusion
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-251
+   muse-docbook: Get nested list publishing up to par

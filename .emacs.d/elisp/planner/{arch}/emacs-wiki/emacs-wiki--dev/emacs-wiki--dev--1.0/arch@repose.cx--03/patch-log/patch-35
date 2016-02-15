@@ -1,0 +1,16 @@
+Revision: emacs-wiki--dev--1.0--patch-35
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Nov 25 16:16:49 EST 2003
+Standard-date: 2003-11-25 05:16:49 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-35
+Summary: add support for finding documents in the other window
+Keywords: 
+
+Patch from Sacha Chua (sacha at free dot net dot ph) to add support
+for shift + click or shift + return to follow a link in the other
+window.
+
+If you're using planner.el, this'll break following gnus links unless
+you upgrade your version of planner.

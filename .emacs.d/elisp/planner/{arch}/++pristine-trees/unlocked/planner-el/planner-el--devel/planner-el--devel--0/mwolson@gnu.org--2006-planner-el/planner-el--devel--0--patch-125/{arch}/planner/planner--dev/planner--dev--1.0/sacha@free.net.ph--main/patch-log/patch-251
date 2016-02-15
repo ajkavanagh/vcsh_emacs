@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-251
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec 24 19:08:30 JST 2004
+Standard-date: 2004-12-24 10:08:30 GMT
+Modified-files: ChangeLog planner-timeclock-summary.el
+    planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-251
+Summary: planner-timeclock-summary: Allow functions as filters
+Keywords: 
+
+	* planner-timeclock-summary.el: 
+	(planner-timeclock-summary-day-range-entry): Allow functions as filters.
+	(planner-timeclock-summary-make-summary-string-range,
+	(planner-timeclock-summary-calculate-ratio-day,
+	(planner-timeclock-summary-make-text-table-day,
+	(planner-timeclock-summary-show-filter,
+	(planner-timeclock-summary-show-range-filter,
+	(planner-timeclock-summary-show-range): Docfix.

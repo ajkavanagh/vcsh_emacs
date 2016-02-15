@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-80
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar 31 23:20:45 EST 2006
+Standard-date: 2006-04-01 04:20:45 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-80
+Summary: Fix a bug triggered by batch-publishing.
+Keywords: 
+
+* lisp/muse-publish.el (muse-detect-invalid-style): Remove, since the
+  right algorithm turned out to be simpler than I had thought.  Thanks to
+  Sergei V. Fleytin for reporting breakage with the old method.
+  (muse-publish-file): Don't be overzealous when checking for an invalid
+  style -- use a simpler check.
+  (muse-batch-publish-files): Don't check for invalid styles here, since
+  we already do so in `muse-publish-file'.

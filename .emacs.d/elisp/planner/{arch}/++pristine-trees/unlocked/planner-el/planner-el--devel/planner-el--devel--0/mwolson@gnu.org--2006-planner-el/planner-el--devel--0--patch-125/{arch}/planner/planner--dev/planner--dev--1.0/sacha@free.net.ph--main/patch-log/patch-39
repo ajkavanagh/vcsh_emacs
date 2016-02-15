@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-39
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Apr 17 23:26:19 PHT 2004
+Standard-date: 2004-04-17 15:26:19 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-39
+Summary: NOTE: Feature: limit for planner-search-notes (call with C-u)
+Keywords: 
+
+	* planner.el (planner-list-daily-files,planner-get-day-pages): New
+	option EXCLUDE-TEMP ignores unsaved buffers.
+	(planner-search-notes-internal, planner-search-notes): Add LIMIT.
+	NOTE: New feature: limit for planner-search-notes if called with
+	universal prefix.
+

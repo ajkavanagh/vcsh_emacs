@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-74
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar 26 13:33:12 EST 2006
+Standard-date: 2006-03-26 18:33:12 GMT
+Modified-files: ChangeLog.2006 muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-74
+Summary: muse.texi: Mention the <code> tag.
+Keywords: 
+
+* muse.texi (Emphasizing Text): Mention the <code> tag.

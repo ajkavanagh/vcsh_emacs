@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-311
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Dec 22 20:42:39 EST 2005
+Standard-date: 2005-12-23 01:42:39 GMT
+Modified-files: ChangeLog scripts/muse-build.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-311
+Summary: muse-build: Prevent backup files when generating autoloads.
+Keywords: 
+
+* scripts/muse-build.el (muse-generate-autoloads): Inhibit backups so
+  that we don't get muse-autoloads.el~ files.

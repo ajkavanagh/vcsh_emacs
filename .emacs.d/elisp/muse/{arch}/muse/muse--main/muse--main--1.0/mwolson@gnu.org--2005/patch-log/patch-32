@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-32
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 18 00:49:07 EST 2005
+Standard-date: 2005-05-18 05:49:07 GMT
+Modified-files: ChangeLog muse-html.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-32
+Summary: Fix XHTML validation error with <hr> and <br>.
+Keywords: 
+
+* muse-html.el (muse-xhtml-markup-strings): Use the proper form of the BR
+  and HR tags for XHTML publishing.  This should fix a few validation
+  errors that I've been noticing lately.

@@ -1,0 +1,67 @@
+Revision: planner-muse--peter--1.0--patch-8
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Fri Aug 12 11:56:54 PDT 2005
+Standard-date: 2005-08-12 18:56:54 GMT
+New-files: .arch-ids/Makefile.defs.id .arch-ids/Makefile.id
+    Makefile Makefile.defs debian/.arch-ids/=id
+    debian/.arch-ids/README.Debian.id
+    debian/.arch-ids/changelog.id
+    debian/.arch-ids/control.id
+    debian/.arch-ids/copyright.id
+    debian/.arch-ids/emacsen-install.id
+    debian/.arch-ids/emacsen-remove.id
+    debian/.arch-ids/emacsen-startup.id
+    debian/.arch-ids/planner-el.docs.id
+    debian/.arch-ids/rules.id debian/README.Debian
+    debian/changelog debian/control debian/copyright
+    debian/emacsen-install debian/emacsen-remove
+    debian/emacsen-startup debian/planner-el.docs
+    debian/rules scripts/.arch-ids/=id
+    scripts/.arch-ids/planner-build.el.id
+    scripts/planner-build.el
+New-directories: debian debian/.arch-ids scripts
+    scripts/.arch-ids
+Modified-files: ChangeLog.mwolson planner.el
+Modified-directories: {arch}/planner-muse/planner-muse--peter
+    {arch}/planner-muse/planner-muse--peter/planner-muse--peter--1.0
+    {arch}/planner-muse/planner-muse--peter/planner-muse--peter--1.0/saint@corenova.com--public-2005
+    {arch}/planner-muse/planner-muse--peter/planner-muse--peter--1.0/saint@corenova.com--public-2005/patch-log
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-46
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-47
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-48
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-49
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-50
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-51
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-52
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-53
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-8
+Summary: Merged from mwolson@gnu.org--2005 (patch 46-53)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-46
+   Implement Makefile system and include Debian files.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-47
+   Prepare initial Debian package for planner-muse-el.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-48
+   Debian tweaks.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-49
+   Merged from saint@corenova.com--public-2005 (patch 0-6)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-50
+   Remove old code sections.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-51
+   Update the Debian package.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-52
+   Make generated Debian packages slightly easier to upload.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-53
+   Make use of BUILDOPTS.
+

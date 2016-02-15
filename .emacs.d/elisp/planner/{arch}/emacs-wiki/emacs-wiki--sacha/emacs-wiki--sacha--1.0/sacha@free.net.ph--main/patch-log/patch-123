@@ -1,0 +1,14 @@
+Revision: emacs-wiki--sacha--1.0--patch-123
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 18 17:16:31 PHT 2004
+Standard-date: 2004-03-18 09:16:31 GMT
+Modified-files: emacs-wiki.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-123
+Summary: Make <nop> work again
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-nop-tag): Make this work again.
+	Apparently, we really do need the goto-char. Note that publishing
+	with <nop ...> may still have problems, but that should be taken
+	care of by the line limits.

@@ -1,0 +1,16 @@
+Revision: planner-el--devel--0--patch-24
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Wed Mar 29 14:12:05 EST 2006
+Standard-date: 2006-03-29 19:12:05 GMT
+Modified-files: Makefile.defs planner-authz.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-24
+Summary: fix planner-authz-index-as-string
+Keywords: 
+
+* planner-authz.el (planner-authz-fix-list-item): new function to move
+  the <li> tags to the inside to avoid a blank bullet when a list item is
+  totally access controlled
+  (planner-authz-markup-regexps): use it
+  (planner-authz-index-as-string): use <authz> tags to mark up the index
+  and rely on the new regexp entry to clean up the results

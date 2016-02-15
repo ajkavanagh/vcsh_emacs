@@ -1,0 +1,28 @@
+Revision: planner-muse--mwolson--1.0--patch-65
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep  5 09:51:34 EST 2005
+Standard-date: 2005-09-05 14:51:34 GMT
+Modified-files: ChangeLog.mwolson planner-calendar.el
+    planner-publish.el planner-rss.el
+New-patches: davidsmith@acm.org--2005/planner-muse--devo--1.0--base-0
+    davidsmith@acm.org--main/planner-muse--devo--1.0--base-0
+    davidsmith@acm.org--main/planner-muse--devo--1.0--patch-1
+    davidsmith@acm.org--main/planner-muse--devo--1.0--patch-2
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-65
+Summary: Merged from davidsmith@acm.org--2005 (patch 0), davidsmith@acm.org--main (patch 0-2)
+Keywords: merge
+
+Patches applied:
+
+ * davidsmith@acm.org--2005/planner-muse--devo--1.0--base-0
+   tag of mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-55
+
+ * davidsmith@acm.org--main/planner-muse--devo--1.0--base-0
+   tag of davidsmith@acm.org--2005/planner-muse--devo--1.0--base-0
+
+ * davidsmith@acm.org--main/planner-muse--devo--1.0--patch-1
+   integration with muse mode
+
+ * davidsmith@acm.org--main/planner-muse--devo--1.0--patch-2
+   sync

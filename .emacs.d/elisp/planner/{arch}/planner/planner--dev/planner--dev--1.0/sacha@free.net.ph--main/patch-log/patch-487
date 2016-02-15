@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-487
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Sep  7 23:40:09 EDT 2005
+Standard-date: 2005-09-08 03:40:09 GMT
+Modified-files: planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-487
+Summary: Bugfix: planner-multi-edit-task-description: Use new description!
+Keywords: 
+
+* planner-multi.el (planner-multi-edit-task-description): Use newinfo
+  when inserting. This makes edit-task-description work again.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

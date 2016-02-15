@@ -1,0 +1,40 @@
+Revision: emacs-wiki--sacha--1.0--patch-95
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 12 17:40:03 PHT 2004
+Standard-date: 2004-03-12 09:40:03 GMT
+Modified-files: emacs-wiki.el
+New-patches: mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--base-0
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-1
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-2
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-3
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-4
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-5
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-6
+    sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-95
+Summary: Merged in Mark Triggs' changes
+Keywords: 
+
+Patches applied:
+
+ * mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--base-0
+   tag of mark@dishevelled.net--2003-mst/emacs-wiki--dev--1.0--base-0
+
+ * mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-1
+   Applied patch for XHTML1 Transitional validation
+
+ * mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-2
+   Fix for problem where font-lock + filladapt can cause infinite looping
+
+ * mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-3
+   Added a <comment> tag
+
+ * mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-4
+   Table fixes
+
+ * mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-5
+   Spelling error
+
+ * mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-6
+   Merged patch from Sacha for escaping links
+

@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-277
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov 21 10:24:41 EST 2005
+Standard-date: 2005-11-21 15:24:41 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-277
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-23
+Summary: Merged from mwolson@gnu.org--2005 (patch 23)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-23
+   muse-wiki: WikiWords can have consecutive capital letters.

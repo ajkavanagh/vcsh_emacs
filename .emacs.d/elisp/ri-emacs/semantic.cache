@@ -1,0 +1,15 @@
+;; Object ri-emacs/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ri-emacs/"
+  :tables (list 
+   (semanticdb-table "ri-ruby.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("ansi-color" include nil nil [2223 2244]) ("ri-ruby-program" variable (:default-value "ruby") nil [2246 2304]) ("ri-ruby-script" variable (:default-value "/home/kristof/.xemacs/ri-emacs.rb") nil [2306 2405]) ("ri-ruby-process" variable nil nil [2407 2494]) ("ri-ruby-history" variable nil nil [2496 2547]) ("ri-ruby-process-buffer" variable nil nil [2549 2584]) ("ri-ruby-get-process" function nil nil [2586 2954]) ("ri-ruby-process-filter-expr" function (:arguments ("proc" "str")) nil [2956 3182]) ("ri-ruby-process-filter-lines" function (:arguments ("proc" "str")) nil [3184 3361]) ("ri-startup-timeout" variable (:default-value 60) nil [3363 3393]) ("ri-ruby-process-check-ready" function nil nil [3394 4001]) ("ri-ruby-check-process" function (:arguments ("buffer")) nil [4003 4295]) ("ri-ruby-process-get-expr" function (:arguments ("cmd" "param")) nil [4297 5117]) ("ri-ruby-process-get-lines" function (:arguments ("cmd" "param")) nil [5119 5989]) ("ri-ruby-complete-method" function (:arguments ("str" "pred" "type")) nil [5991 6283]) ("ri-ruby-read-keyw" function nil nil [6297 6902]) ("ri-ruby-method-with-class" function (:arguments ("meth" "classes")) nil [6904 7042]) ("ri-ruby-complete-symbol" function (:user-visible-flag t) nil [7044 8093]) ("test-ri-ruby-complete-symbol" function (:user-visible-flag t) nil [8095 8367]) ("ri-ruby-show-args" function nil nil [8369 8556]) ("ri" function (:user-visible-flag t :arguments ("keyw" "&optional" "class")) nil [8558 8993]) ("cond" code nil nil [8995 9555]))
+    :file "ri-ruby.el"
+    :pointmax 9556
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-235
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Sep 16 01:33:11 EST 2005
+Standard-date: 2005-09-16 06:33:11 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-235
+Summary: Finish documentation.
+Keywords: 
+
+* muse.texi (Comments): New node that describes the syntax of comments.
+  (Markup Strings): Describe all markup strings.

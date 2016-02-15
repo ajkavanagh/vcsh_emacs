@@ -1,0 +1,21 @@
+Revision: muse-el--devel--0--patch-84
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Elena Pomohaci <e.pomohaci@gmail.com>
+Date: Fri Aug  4 07:36:21 EEST 2006
+Standard-date: 2006-08-04 04:36:21 GMT
+Modified-files: lisp/muse-import-docbook.el
+    lisp/muse-import-xml.el
+New-patches: e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-6
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-7
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-84
+Summary: Merged from e.pomohaci@gmail.com--2006 (patch 6-7)
+Keywords: merge
+
+Patches applied:
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-6
+   Merged from mwolson@gnu.org--2006-muse-el (patch 83)
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-7
+   Corrected references from muse-import-xml-*.
+

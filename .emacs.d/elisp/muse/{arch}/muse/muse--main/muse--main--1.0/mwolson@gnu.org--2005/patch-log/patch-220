@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-220
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Sep  4 12:02:21 EST 2005
+Standard-date: 2005-09-04 17:02:21 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-220
+Summary: If a URL has a resolve function of nil, publish the description only.
+Keywords: 
+
+* lisp/muse-mode.el (muse-visit-link-default): Make sure we search for a
+  complete tag.
+
+* lisp/muse-protocols.el (muse-url-protocols): Improve customization
+  interface.
+  (muse-resolve-url): If nil is given as the resolve function, return
+  nil.
+
+* lisp/muse-publish.el (muse-publish-url): If the URL resolves as nil,
+  insert the description instead of the original URL.

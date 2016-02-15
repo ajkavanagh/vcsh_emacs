@@ -1,0 +1,25 @@
+Revision: planner--jeho--1.0--patch-57
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Apr  5 19:09:43 BST 2005
+Standard-date: 2005-04-05 18:09:43 GMT
+Modified-files: ChangeLog planner-appt.el planner-el.texi
+    planner-multi.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-57
+    sacha@free.net.ph--main/planner--dev--1.0--patch-365
+    sacha@free.net.ph--main/planner--dev--1.0--patch-366
+    sacha@free.net.ph--main/planner--dev--1.0--patch-367
+Summary: merge latest
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-365
+   planner-el.texi: Update my sample configuration file
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-366
+   Bugfix: planner-multi read-only prompt, planner-sort-tasks excursions, planner-appt advice
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-367
+   Always add menu to planner-mode buffers
+

@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-22
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar 27 19:28:42 EST 2006
+Standard-date: 2006-03-28 00:28:42 GMT
+Modified-files: planner-erc.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-22
+    mwolson@gnu.org--2006/planner--main--1.0--patch-25
+Summary: Merged from mwolson@gnu.org--2006 (patch 25)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-25
+   planner-erc: Improve greatly.

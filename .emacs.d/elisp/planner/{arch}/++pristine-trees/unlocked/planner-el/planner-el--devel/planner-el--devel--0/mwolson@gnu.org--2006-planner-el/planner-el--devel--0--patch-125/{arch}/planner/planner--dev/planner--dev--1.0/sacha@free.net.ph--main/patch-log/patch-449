@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-449
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jul 11 15:52:59 PHT 2005
+Standard-date: 2005-07-11 07:52:59 GMT
+Modified-files: ChangeLog planner-calendar.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-449
+Summary: planner-calendar-create-today-link: Use make-symbolic-link
+Keywords: 
+
+* planner-calendar.el (planner-calendar-create-today-link): Use
+  make-symbolic-link because that's the Right Thing to Do. Thanks to
+  Angus Lees for the suggestion.

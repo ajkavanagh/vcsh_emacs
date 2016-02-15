@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-16
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Tue Feb  1 14:19:12 CST 2005
+Standard-date: 2005-02-01 06:19:12 GMT
+Modified-files: planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-16
+Summary: Fix bug coorperating with planner-deadline
+Keywords: bugfix
+
+* planner-rank.el: when calling planner-rank-change from
+  planner-deadline-change-hook, Emacs will complain "wrong type argument:
+  number-or-marker-p"
+  (planner-rank-calculate-urgency-from-deadline): use "value" to return
+  what we want instead always return nil.
+  (planner-rank-read-importance-and-urgency): call
+  planner-deadline-days-left with task-info instead the wrong rank-info.
+

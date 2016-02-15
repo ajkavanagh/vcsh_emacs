@@ -1,0 +1,27 @@
+Revision: muse-el--devel--0--patch-167
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 28 20:01:32 EDT 2007
+Standard-date: 2007-07-29 00:01:32 GMT
+Modified-files: ChangeLog lisp/muse-mode.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-167
+    mwolson@gnu.org--2006/muse--main--1.0--patch-413
+    mwolson@gnu.org--2006/muse--main--1.0--patch-414
+    mwolson@gnu.org--2006/muse--main--1.0--patch-415
+    mwolson@gnu.org--2006/muse--main--1.0--patch-416
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 413-416)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-413
+   Introduce Muse list edit minor mode
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-414
+   Fix issue with muse-list-edit-minor-mode and font-locking in other modes
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-415
+   Add forgotten ChangeLog entries for last change
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-416
+   Don't make muse-list-edit-minor-mode global, just buffer-local

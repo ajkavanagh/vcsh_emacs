@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-57
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr 27 10:50:42 PHT 2004
+Standard-date: 2004-04-27 02:50:42 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-57
+Summary: Fix planner diary entries for cal-desk
+Keywords: 
+
+	* planner-diary.el (planner-diary-get-diary-entries): Merge Travis
+	B. Hartwell's patch fixing calendar desk entries. New argument
+	use-cal-desk.
+	(planner-diary-get-cal-desk-entries): Use the new argument of
+	planner-diary-get-diary-entries.
+

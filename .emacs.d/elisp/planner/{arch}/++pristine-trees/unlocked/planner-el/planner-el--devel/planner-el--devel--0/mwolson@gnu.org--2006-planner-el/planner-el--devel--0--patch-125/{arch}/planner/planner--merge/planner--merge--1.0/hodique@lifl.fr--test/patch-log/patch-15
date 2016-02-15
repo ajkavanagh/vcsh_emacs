@@ -1,0 +1,20 @@
+Revision: planner--merge--1.0--patch-15
+Archive: hodique@lifl.fr--test
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Aug 22 14:07:00 CEST 2005
+Standard-date: 2005-08-22 12:07:00 GMT
+Modified-files: planner-customize.el
+    planner-emacs-wiki-backend.el planner-muse-backend.el
+New-patches: hodique@lifl.fr--test/planner--merge--1.0--patch-15
+    mwolson@gnu.org--2005/planner--duo--1.0--patch-4
+    mwolson@gnu.org--2005/planner--duo--1.0--patch-5
+Summary: Merged from mwolson@gnu.org--2005 (patch 4-5)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner--duo--1.0--patch-4
+   Merged from hodique@lifl.fr--2005 (patch 35-37), hodique@lifl.fr--test (patch 8-14), sacha@free.net.ph--main (patch 451)
+
+ * mwolson@gnu.org--2005/planner--duo--1.0--patch-5
+   XEmacs defalias fix.

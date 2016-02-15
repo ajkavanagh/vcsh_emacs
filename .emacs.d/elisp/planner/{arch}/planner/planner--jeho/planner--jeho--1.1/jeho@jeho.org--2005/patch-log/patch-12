@@ -1,0 +1,23 @@
+Revision: planner--jeho--1.1--patch-12
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Nov 24 10:52:27 GMT 2005
+Standard-date: 2005-11-24 10:52:27 GMT
+Modified-files: ChangeLog planner-authz.el planner-multi.el
+    planner-publish.el planner-trunk.el planner.el
+    test/planner-cyclic-test.el test/planner-test.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-12
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-107
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-108
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-109
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-110
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-111
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-112
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-113
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-114
+Summary: planner.el: with-planner-update-setup
+Keywords: 
+
+* planner.el (with-planner-update-setup): Move this macro earlier in the
+  file, ahead of its first use.
+

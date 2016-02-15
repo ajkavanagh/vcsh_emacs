@@ -1,0 +1,12 @@
+Revision: planner--main--1.0--patch-57
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun  8 17:57:22 EDT 2006
+Standard-date: 2006-06-08 21:57:22 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-57
+Summary: planner-el.texi: Use shared Arch archive in instructions.
+Keywords: 
+
+* planner-el.texi (Installing from Arch): Use shared archive instead of
+  my personal archive.

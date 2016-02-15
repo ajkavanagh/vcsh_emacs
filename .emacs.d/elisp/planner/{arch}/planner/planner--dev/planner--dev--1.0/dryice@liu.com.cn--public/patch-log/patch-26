@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-26
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Thu Mar  3 00:06:30 CST 2005
+Standard-date: 2005-03-02 16:06:30 GMT
+Modified-files: planner-trunk.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-26
+Summary: use the helper functions
+Keywords: linting
+
+* planner-trunk.el (planner-trunk-tasks): use the helper functions
+

@@ -1,0 +1,16 @@
+Revision: planner--muse--1.0--patch-6
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr  5 14:48:58 PHT 2005
+Standard-date: 2005-04-05 06:48:58 GMT
+Modified-files: planner-appt.el planner-bbdb.el
+    planner-bibtex.el planner-calendar.el planner-erc.el
+    planner-experimental.el planner-gnus.el planner-id.el
+    planner-mhe.el planner-multi.el planner-notes-index.el
+    planner-rmail.el planner-tasks-overview.el
+    planner-timeclock-summary.el planner-timeclock.el
+    planner-unix-mail.el planner-vm.el planner.el
+New-patches: sacha@free.net.ph--main/planner--muse--1.0--patch-6
+Summary: More twiddling
+Keywords: 
+

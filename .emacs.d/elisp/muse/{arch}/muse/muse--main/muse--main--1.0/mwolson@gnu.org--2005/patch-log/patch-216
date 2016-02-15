@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-216
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep  1 08:42:15 EST 2005
+Standard-date: 2005-09-01 13:42:15 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-216
+Summary: Allow links to temporary files to be visited.
+Keywords: 
+
+* lisp/muse-mode.el (muse-visit-link-default): Permit visiting of
+  temporary files.  These are buffers that do not have a corresponding
+  file.

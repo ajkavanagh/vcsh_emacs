@@ -1,0 +1,14 @@
+Revision: planner-muse--mwolson--1.0--patch-110
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Nov 22 15:25:42 EST 2005
+Standard-date: 2005-11-22 20:25:42 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-110
+Summary: Make publishing work with Muse 3.02.02.
+Keywords: 
+
+* planner-publish.el: Replace "muse-insert-markup" with
+  "planner-insert-markup".
+  (planner-insert-markup): Compatibility function that makes publishing
+  work with Muse 3.02.02.

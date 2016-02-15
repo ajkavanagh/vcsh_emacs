@@ -1,0 +1,35 @@
+Revision: muse--main--1.0--patch-96
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  7 22:46:41 EDT 2006
+Standard-date: 2006-04-08 02:46:41 GMT
+New-files: contrib/.arch-ids/Makefile.id contrib/Makefile
+Modified-files: ChangeLog.2006 Makefile Makefile.defs
+    contrib/httpd.el debian/changelog debian/emacsen-install
+    debian/emacsen-startup experimental/Makefile
+    lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-96
+Summary: Make things in contrib directory installable.
+Keywords: 
+
+* Makefile (SUBDIRS): Add contrib.
+  (all): Add contrib.
+  (contrib): New target that compiles things in the contrib directory.
+  (install-bin): Add contrib.  Install things in the contrib directory.
+  Also install uncompiled things in the experimental directory.
+
+* contrib/Makefile: New Makefile for the contrib directory.
+
+* contrib/httpd.el (httpd-start): Fix compiler warnings.
+
+* debian/emacsen-install: Compile files in contrib directory in addition
+  to the normal fare.  Thanks to Junichi Uekawa for the suggestion.
+
+* debian/emacsen-startup: Add contrib directory to load-path.
+
+* experimental/Makefile (test): Remove target.
+  (install-uncompiled): New target that installs uncompiled files.
+
+* lisp/muse.el: Set version to 3.02.90 (3.03 RC1).
+  (muse-update-file-extension): Fix a warning that occurred when doing
+  batch publishing.

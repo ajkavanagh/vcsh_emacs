@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.1--patch-6
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Nov  8 11:00:48 GMT 2005
+Standard-date: 2005-11-08 11:00:48 GMT
+Modified-files: planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-6
+Summary: planner-multi-replan-task bugfix
+Keywords: 
+
+* planner-multi.el (planner-multi-replan-task): links weren't added to
+  new pages
+

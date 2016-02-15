@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-137
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 26 10:38:01 EDT 2006
+Standard-date: 2006-05-26 14:38:01 GMT
+Modified-files: ChangeLog.2006 lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-137
+Summary: Use better fallback when displaying warnings.
+Keywords: 
+
+* lisp/muse.el (muse-display-warning): Use a better fallback if
+  `display-warning' does not exist.

@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-106
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 12 21:55:23 PHT 2004
+Standard-date: 2004-06-12 13:55:23 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-106
+Summary: NOTE: Prefix argument now means associate task with current plan/date page, if any
+Keywords: feature
+
+	* planner.el (planner-create-task-from-buffer): NOTE: Change
+	behavior of prefix argument. Prefix now means associate the task
+	with the current planner page, if any.
+	(planner-create-task): Follow usage of
+	planner-create-task-from-buffer. Thanks to Yvonne Thomson for the
+        suggestions.
+
+	* planner.texi (List of Interactive Functions): Update
+	descriptions of planner-create-task-from-buffer and
+	planner-create-task.

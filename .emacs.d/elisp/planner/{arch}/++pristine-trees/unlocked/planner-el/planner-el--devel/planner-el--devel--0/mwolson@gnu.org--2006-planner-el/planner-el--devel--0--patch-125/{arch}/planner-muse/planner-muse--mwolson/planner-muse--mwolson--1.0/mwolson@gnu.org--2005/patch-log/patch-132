@@ -1,0 +1,28 @@
+Revision: planner-muse--mwolson--1.0--patch-132
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 14:46:09 EST 2005
+Standard-date: 2005-12-16 19:46:09 GMT
+Removed-files: .arch-ids/planner-auto.el.id planner-auto.el
+Modified-files: ChangeLog Makefile scripts/planner-build.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-132
+Summary: Generate autoloads file automatically from Makefile rules.
+Keywords: 
+
+* Makefile (EL): Avoid warning by removing planner-autoloads.el from list.
+  (all): Generate autoloads.
+  (autoloads): Make planner-autoloads.el.
+  (planner-autoloads.el): Call `planner-generate-autoloads' from
+  scripts/planner-build.el with arguments representing the directories to
+  use when searching for autoloads.
+  (realclean distclean fullclean): Remove autoloads.
+
+* scripts/planner-build.el (planner-generate-autoloads): Generate
+  autoloads for Planner.  Deal with XEmacs and its quirky insistence on
+  doing most of the work itself.  Expand all command line args so that
+  the right directories are searched.  Hardcode planner-autoloads.el as
+  the name of the generated autoloads file.  Use my custom header and
+  footer, if possible.
+
+* planner-auto.el: Remove this, since we're using an automated method
+  now.

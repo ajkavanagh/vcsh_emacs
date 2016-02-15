@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-204
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Aug 19 11:55:39 EST 2005
+Standard-date: 2005-08-19 16:55:39 GMT
+Modified-files: ChangeLog lisp/muse-html.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-204
+Summary: muse-html: Add muse-xhtml-extension.
+Keywords: 
+
+* lisp/muse-html.el (muse-xhtml-extension): New option that specifies the
+  default file extension for publishing XHTML files.  Thanks to Trent
+  Buck for the suggestion.
+  ("xhtml"): Use it.

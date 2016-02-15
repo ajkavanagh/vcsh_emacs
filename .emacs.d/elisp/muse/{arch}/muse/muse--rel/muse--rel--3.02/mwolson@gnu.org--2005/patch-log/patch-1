@@ -1,0 +1,115 @@
+Revision: muse--rel--3.02--patch-1
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 16 20:10:00 EST 2005
+Standard-date: 2005-11-17 01:10:00 GMT
+New-files: debian/.arch-ids/NEWS.id debian/NEWS
+Modified-files: AUTHORS ChangeLog Makefile.defs NEWS
+    debian/changelog debian/rules
+    examples/johnw/muse-johnw.el
+    examples/mwolson/muse-init.el
+    examples/mwolson/templates/footer.html
+    experimental/muse-xml.el lisp/muse-colors.el
+    lisp/muse-latex.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-wiki.el lisp/muse.el muse.texi
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--base-0
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-1
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-2
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-3
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-4
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-5
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-6
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-7
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-8
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-9
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-10
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-11
+    mwolson@gnu.org--2005/muse--main--1.0--patch-242
+    mwolson@gnu.org--2005/muse--main--1.0--patch-243
+    mwolson@gnu.org--2005/muse--main--1.0--patch-244
+    mwolson@gnu.org--2005/muse--main--1.0--patch-245
+    mwolson@gnu.org--2005/muse--main--1.0--patch-246
+    mwolson@gnu.org--2005/muse--main--1.0--patch-249
+    mwolson@gnu.org--2005/muse--main--1.0--patch-251
+    mwolson@gnu.org--2005/muse--main--1.0--patch-252
+    mwolson@gnu.org--2005/muse--main--1.0--patch-255
+    mwolson@gnu.org--2005/muse--main--1.0--patch-256
+    mwolson@gnu.org--2005/muse--main--1.0--patch-257
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-1
+Summary: Merged from mwolson@gnu.org--2005 (patch 242-246, 249, 251-252, 255-257)
+Keywords: merge
+
+Apply "safe" changes from muse--main--1.0.  We're trying to make a minor
+release of 3.02 that isn't in so much flux.
+
+Patches applied:
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--base-0
+   tag of mwolson@gnu.org--2005/muse--main--1.0--patch-12
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-1
+   merge latest
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-2
+   merge latest
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-3
+   merge latest
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-4
+   big merge of latest patches
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-5
+   Merged from mwolson@gnu.org--2005 (patch 248-251)
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-6
+   muse-mode.el fix for muse-visit-link-default
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-7
+   muse-mode.el fix intangible problem in muse-link-at-point
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-8
+   muse-wiki: added option for not rendering bare project names as links
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-9
+   Merged from mwolson@gnu.org--2005 (patch 252-253)
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-10
+   muse-mode.el: fix finding an anchor
+
+ * jeho@jeho.org--2005/muse--jeho--1.0--patch-11
+   muse-latex.el: fix footnote-end
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-242
+   Use modification time for date directive.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-243
+   Try to make link properties more sane.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-244
+   Fix customization bugs concerning muse-project-alist.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-245
+   Release Emacs Muse 3.02.01.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-246
+   Figure out syntax of :set.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-249
+   muse-latex: Ignore anchor if it occurs at end of line.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-251
+   Minor bookkeeping update.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-252
+   Allow anchors to occur near (rather than at) the beginning of line.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-255
+   Merged from jeho@jeho.org--2005 (patch 0-11)
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-256
+   Emacs 21 flyspell fix.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-257
+   By default, use ".muse" extension and do not detect by pathname.

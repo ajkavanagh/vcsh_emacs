@@ -1,0 +1,11 @@
+Revision: planner--mwolson--1.0--patch-15
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 01:33:30 EST 2005
+Standard-date: 2005-08-09 06:33:30 GMT
+Modified-files: scripts/planner-build.el
+New-patches: mwolson@gnu.org--2005/planner--mwolson--1.0--patch-15
+Summary: Fix Muse-ism.
+Keywords: 
+
+* scripts/planner-build.el: Fix Muse-ism in example.

@@ -1,0 +1,30 @@
+Revision: emacs-wiki--dev--1.0--patch-12
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Jul 15 03:32:47 EST 2003
+Standard-date: 2003-07-14 17:32:47 GMT
+Summary: redisplay a badlink as a normal link when it is saved
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-12
+Removed-patches: 
+
+When following a badlink, and saving the resulting buffer, the linking buffer
+is updated to reflect the fact that the link now exists. Any other buffers
+currently displaying the badlink will not be updated, but they can be
+"flushed" by toggling font-lock.
+
+(emacs-wiki-visit-link): accept an optional buffer to refresh on save
+(emacs-wiki-refresh-buffer): new command to support refreshing a buffer when
+    a badlink becomes a normal link. You can run it interactively to scan the
+    filesystem for any new links, and redraw the buffer.
+(emacs-wiki-follow-name-at-point): check if the link to visit is a bad one,
+    and advise (emacs-wiki-visit-link) appropriately
+(add-once-hook): helper function to add a single-run hook

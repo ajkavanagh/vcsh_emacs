@@ -1,0 +1,15 @@
+Revision: planner--merge--1.0--patch-9
+Archive: hodique@lifl.fr--test
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 14 23:51:31 CEST 2005
+Standard-date: 2005-07-14 21:51:31 GMT
+Modified-files: ChangeLog.yh planner-xtla.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-33
+    hodique@lifl.fr--test/planner--merge--1.0--patch-9
+Summary: Merged from hodique@lifl.fr--2005 (patch 33)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-33
+   Fix error in planner-xtla-url-transform

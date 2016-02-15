@@ -1,0 +1,26 @@
+Revision: muse--main--1.0--patch-128
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 17 21:24:04 EDT 2006
+Standard-date: 2006-05-18 01:24:04 GMT
+Modified-files: ChangeLog.2006 lisp/muse-html.el
+    lisp/muse-publish.el lisp/muse-regexps.el
+    lisp/muse-xml-common.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-128
+Summary: Fix bug where links with :: in them were marked up as lists.
+Keywords: 
+
+* lisp/muse-html.el, lisp/muse-publish.el, lisp/muse-xml-common.el:
+  Change noemphasis property to muse-link.
+
+* lisp/muse.el (muse-forward-list-item): Respect muse-link property.
+
+* lisp/muse-publish.el (muse-publish-surround-text)
+  (muse-publish-markup-list): Ditto.  This should fix a bug.
+  (muse-publish-markup-list): Docfix.
+  (muse-publish-mark-link): Rename from `muse-publish-mark-noemphasis'.
+
+* lisp/muse-regexps.el (muse-list-item-regexp, muse-dl-term-regexp):
+  There must be either one or more spaces or a single newline after the
+  colons.  This prevents an ambiguity with the double-colon muse-wiki
+  interwiki delimiter.

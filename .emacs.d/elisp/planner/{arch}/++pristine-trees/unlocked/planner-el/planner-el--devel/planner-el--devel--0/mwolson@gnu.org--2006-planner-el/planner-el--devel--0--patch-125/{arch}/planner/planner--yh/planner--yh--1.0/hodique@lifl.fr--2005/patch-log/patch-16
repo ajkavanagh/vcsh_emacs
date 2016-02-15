@@ -1,0 +1,19 @@
+Revision: planner--yh--1.0--patch-16
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sat Jul  2 20:25:24 CEST 2005
+Standard-date: 2005-07-02 18:25:24 GMT
+Modified-files: ChangeLog.yh planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-16
+    sacha@free.net.ph--main/planner--dev--1.0--patch-394
+    sacha@free.net.ph--main/planner--dev--1.0--patch-395
+Summary: Merged from sacha@free.net.ph--main (patch 394-395)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-394
+   planner-list-unfinished-tasks: Add PAGES argument
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-395
+   planner-list-tasks-with-status bugfix: Deal with undated tasks; do not touch planner-task-format

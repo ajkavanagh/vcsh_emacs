@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-336
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar  8 12:32:30 PHT 2005
+Standard-date: 2005-03-08 04:32:30 GMT
+Modified-files: ChangeLog planner-diary.el planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-336
+Summary: New: planner-diary-add-entry
+Keywords: 
+
+* planner-diary.el (planner-diary-add-entry): New function. Thanks to
+  Jody Klymak for adapting my planner-config code.
+
+* planner-el.texi (Diary): Document planner-diary-add-entry.
+
+

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-45
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat May 28 18:37:11 EST 2005
+Standard-date: 2005-05-28 23:37:11 GMT
+Modified-files: ChangeLog muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-45
+Summary: Improve prompt when reading a tag.
+Keywords: 
+
+* muse-mode.el (muse-insert-tag): Add a colon after "default" like some
+  other Emacs modes seem to do.

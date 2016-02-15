@@ -1,0 +1,28 @@
+Revision: muse--main--1.0--patch-243
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Nov  6 09:04:21 EST 2006
+Standard-date: 2006-11-06 14:04:21 GMT
+Modified-files: ChangeLog lisp/muse-mode.el muse.texi
+    {arch}/=tagging-method
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-106
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-107
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-108
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-109
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-110
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-111
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-112
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-113
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-114
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-115
+    mwolson@gnu.org--2006/muse--main--1.0--patch-243
+Summary: Merged from mwolson@gnu.org--2006-muse-el/muse-el--devel--0 (patch 106-115)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-114
+   Remove C-c C-c binding for muse-follow-name-at-point, since no one objected in the last 1.5 months.
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-115
+   Remove C-c C-c binding from manual.

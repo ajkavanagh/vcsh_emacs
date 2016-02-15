@@ -1,0 +1,20 @@
+Revision: planner--main--1.0--patch-44
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu May 18 16:05:12 EDT 2006
+Standard-date: 2006-05-18 20:05:12 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-44
+Summary: Publish diary sections in a meaningful way.
+Keywords: 
+
+* planner-publish.el (planner-publish-markup-tags): Add entry for
+  diary-section.
+  (planner-xml-markup-strings, planner-html-markup-strings): Add strings
+  for diary section.
+  (planner-html-style-sheet): Add CSS elements for Diary section.
+  (planner-publish-diary-section-tag): New function that publishes the
+  diary in a way that preserves line breaks, using the verse tag
+  function.
+  (planner-section-tagnames): Transform Diary sections to diary-section
+  tags.

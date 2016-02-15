@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-234
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 29 23:28:37 EST 2006
+Standard-date: 2006-10-30 04:28:37 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-234
+Summary: Fix bug in coloring of <example> tags
+Keywords: 
+
+2006-10-29  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-colors.el (muse-configure-highlighting): Remove rules
+	without a regexp in the first position before iterating through
+	them to build muse-colors-vector.  This fixes a bug with the
+	display of <example> tags.  Thanks to Stefan Reichör for the
+	report.

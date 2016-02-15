@@ -1,0 +1,26 @@
+Revision: muse--main--1.0--patch-352
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jan 12 22:36:47 EST 2006
+Standard-date: 2006-01-13 03:36:47 GMT
+Modified-files: ChangeLog Makefile.defs NEWS debian/changelog
+    lisp/muse-colors.el lisp/muse-html.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-wiki.el lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-352
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-53
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-54
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-55
+Summary: Merged from mwolson@gnu.org--2005 (patch 53-55)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-53
+   Use better code for displaying warnings.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-54
+   Add NEWS items.  Make eval of <lisp> at display time optional.
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-55
+   Release Emacs Muse 3.02.6.

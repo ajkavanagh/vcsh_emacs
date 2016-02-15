@@ -1,0 +1,82 @@
+Revision: planner-muse--mwolson--1.0--patch-20
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  6 00:54:12 EST 2005
+Standard-date: 2005-07-06 05:54:12 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-multi.el planner-timeclock-summary.el
+    planner-timeclock.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-13
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-14
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-15
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-16
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-17
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-18
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-19
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-20
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-20
+    sacha@free.net.ph--main/planner--dev--1.0--patch-384
+    sacha@free.net.ph--main/planner--dev--1.0--patch-392
+    sacha@free.net.ph--main/planner--dev--1.0--patch-393
+    sacha@free.net.ph--main/planner--dev--1.0--patch-394
+    sacha@free.net.ph--main/planner--dev--1.0--patch-395
+    sacha@free.net.ph--main/planner--dev--1.0--patch-438
+    sacha@free.net.ph--main/planner--dev--1.0--patch-439
+    sacha@free.net.ph--main/planner--dev--1.0--patch-440
+    sacha@free.net.ph--main/planner--dev--1.0--patch-441
+Summary: Merged from hodique@lifl.fr--2005 (patch 13-20), sacha@free.net.ph--main (patch 384, 392-395, 438-441)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-13
+   Merged from mwolson@gnu.org--2005 (patch 16-17)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-14
+   Merged from jeho@jeho.org--2005 (patch 73-75), mwolson@gnu.org--2005 (patch 18), sacha@free.net.ph--main (patch 429-437)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-15
+   Merged from sacha@free.net.ph--main (patch 438-441)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-16
+   Merged from sacha@free.net.ph--main (patch 394-395)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-17
+   Merged from sacha@free.net.ph--main (patch 384)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-18
+   Merged from sacha@free.net.ph--main (patch 392-393)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-19
+   bugfix
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-20
+   fix links in planner-multi
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-384
+   Improve support for putting files in subdirectories
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-392
+   planner-list-tasks-with-status: Fix insert-file-contents(nil) backtrace
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-393
+   planner-list-tasks-with-status: Put an insane amount of meaning into a PAGES argument
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-394
+   planner-list-unfinished-tasks: Add PAGES argument
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-395
+   planner-list-tasks-with-status bugfix: Deal with undated tasks; do not touch planner-task-format
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-438
+   Bugfix: planner-update-wiki-project: planner-name-regexp fix, planner-save-buffers SKIP-BUFFERS
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-439
+   Bugfix: planner-lower-task: typo
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-440
+   Fixes planner-timeclock + planner-multi, also planner-multi-update-task
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-441
+   Bugfix: planner-save-buffers should suppress planner-id
+

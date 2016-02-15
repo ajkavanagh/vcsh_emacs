@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-368
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 16 18:14:49 EDT 2007
+Standard-date: 2007-06-16 22:14:49 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-368
+Summary: Manual: Finish documenting Sources for "Options for Projects"
+Keywords: 
+
+* lisp/muse-project.el (muse-project): Call the last part of a
+  muse-project-alist entry "Output styles" rather than "styles".
+
+* muse.texi (Preface): Clarify.
+  (Options for Projects): Finish Sources part.

@@ -1,0 +1,15 @@
+Revision: muse-el--devel--0--patch-26
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar 20 20:29:28 EST 2006
+Standard-date: 2006-03-21 01:29:28 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-26
+    mwolson@gnu.org--2006/muse--main--1.0--patch-66
+Summary: Merged from mwolson@gnu.org--2006 (patch 66)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-66
+   Make it easier to call context-specific region-escaping function.

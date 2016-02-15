@@ -1,0 +1,30 @@
+Revision: planner--dev--1.0--patch-34
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Apr  6 15:36:54 CST 2005
+Standard-date: 2005-04-06 07:36:54 GMT
+Modified-files: ChangeLog PLANNER-README planner-appt.el
+    planner-el.texi planner-id.el planner-multi.el planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-34
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-53
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-54
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-55
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-56
+    sacha@free.net.ph--main/planner--dev--1.0--patch-353
+    sacha@free.net.ph--main/planner--dev--1.0--patch-354
+    sacha@free.net.ph--main/planner--dev--1.0--patch-355
+    sacha@free.net.ph--main/planner--dev--1.0--patch-356
+    sacha@free.net.ph--main/planner--dev--1.0--patch-357
+    sacha@free.net.ph--main/planner--dev--1.0--patch-358
+    sacha@free.net.ph--main/planner--dev--1.0--patch-359
+    sacha@free.net.ph--main/planner--dev--1.0--patch-360
+    sacha@free.net.ph--main/planner--dev--1.0--patch-361
+    sacha@free.net.ph--main/planner--dev--1.0--patch-362
+    sacha@free.net.ph--main/planner--dev--1.0--patch-363
+    sacha@free.net.ph--main/planner--dev--1.0--patch-364
+    sacha@free.net.ph--main/planner--dev--1.0--patch-365
+    sacha@free.net.ph--main/planner--dev--1.0--patch-366
+    sacha@free.net.ph--main/planner--dev--1.0--patch-367
+Summary: merge patch 353-367 from main stream
+Keywords: merge
+

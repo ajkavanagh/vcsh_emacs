@@ -1,0 +1,24 @@
+Revision: planner-el--devel--0--patch-100
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan 14 01:34:47 EST 2007
+Standard-date: 2007-01-14 06:34:47 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-100
+Summary: Manual: Mention Remember, silencing apt warnings, etc.
+Keywords: 
+
+2007-01-14  Michael Olson  <mwolson@gnu.org>
+
+	* planner-el.texi (Installing from a Source Archive): Mention
+	creating an ~/elisp directory.  Also mention how to get Muse and
+	Remember.  Mention running "make clean".
+	(Installing from Arch): Document Remember archive usage.  Use "tla
+	update", not "tla replay".
+	(Installing from Debian): Mention remember-el.  Since I get asked
+	this so frequently, mention how to make the warning message go
+	away -- it's not an error!
+	(Timeclock): Shift xref to end of sentence so makeinfo doesn't
+	complain.
+	(Getting Help): Change URL to the emacswiki.org one.  So long,
+	plannerlove.  Thanks to Hadron Quark for pointing all this out.

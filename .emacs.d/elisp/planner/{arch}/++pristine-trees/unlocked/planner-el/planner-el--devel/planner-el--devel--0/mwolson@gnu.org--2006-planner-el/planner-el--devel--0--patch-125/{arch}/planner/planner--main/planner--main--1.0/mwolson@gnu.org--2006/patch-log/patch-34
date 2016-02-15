@@ -1,0 +1,28 @@
+Revision: planner--main--1.0--patch-34
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr 25 18:03:34 EDT 2006
+Standard-date: 2006-04-25 22:03:34 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-34
+Summary: Fix a paragraph publishing problem near end of file.
+Keywords: 
+
+* planner-publish.el (planner-html-markup-strings)
+  [planner-end-note-categories]: Remove newline.
+  (planner-publish-prepare-buffer): Rework to use the Muse markup engine.
+  (planner-publish-markup-note): Docfix.
+  (planner-publish-nested-section-tag): Docfix.
+  (planner-publish-notes-section-tag): Insert newline.
+  (planner-publish-note-tag): Insert newline.
+  (planner-sectionalize-delimiter, planner-sectionalize-page) 
+  (sectionalize-markup-tagname, sectionalize-markup-tagname) 
+  (sectionalize): Remove.
+  (planner-publish-section-close): New function that finds where the
+  closing tag of DEPTH should go, and inserts TEXT.
+  (planner-section-tagnames): Mapping of sections to their tag name.
+  (planner-publish-section-tagname): New function that finds the tag name
+  for the given section.
+  (planner-publish-section): New function that publishing the current
+  heading as a section.  This should fix a problem with sections at the
+  end of a file, given only one newline at end.

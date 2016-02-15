@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-454
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jul 20 14:26:57 EDT 2005
+Standard-date: 2005-07-20 18:26:57 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-454
+Summary: Merge patch to make note heading face less greedy
+Keywords: 
+
+* planner.el (planner-highlight-notes): From Michael Olson: Only apply
+  the note face up to the first set of parentheses so that links get
+  highlighted properly.

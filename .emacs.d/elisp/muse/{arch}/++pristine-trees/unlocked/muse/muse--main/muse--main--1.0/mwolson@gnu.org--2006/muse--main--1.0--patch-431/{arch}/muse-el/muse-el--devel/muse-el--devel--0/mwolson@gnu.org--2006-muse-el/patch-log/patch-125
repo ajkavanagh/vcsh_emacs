@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-125
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan 14 02:15:20 EST 2007
+Standard-date: 2007-01-14 07:15:20 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-125
+    mwolson@gnu.org--2006/muse--main--1.0--patch-269
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 269)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-269
+   muse-latex2png: Fix several <latex> and <math> issues

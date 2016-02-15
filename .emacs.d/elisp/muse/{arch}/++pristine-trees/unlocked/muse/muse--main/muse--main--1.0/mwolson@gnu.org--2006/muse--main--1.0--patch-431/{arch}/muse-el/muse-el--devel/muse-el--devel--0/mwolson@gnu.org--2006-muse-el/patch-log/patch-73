@@ -1,0 +1,27 @@
+Revision: muse-el--devel--0--patch-73
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun May 28 02:42:17 EDT 2006
+Standard-date: 2006-05-28 06:42:17 GMT
+Modified-files: ChangeLog.2006
+    contrib/pyblosxom/getstamps.py
+    contrib/pyblosxom/hardcodedates.py
+    examples/mwolson/stylesheets/common.css
+    lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-73
+    mwolson@gnu.org--2006/muse--main--1.0--patch-138
+    mwolson@gnu.org--2006/muse--main--1.0--patch-139
+    mwolson@gnu.org--2006/muse--main--1.0--patch-140
+Summary: Merged from mwolson@gnu.org--2006 (patch 138-140)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-138
+   Minor tweak in my example CSS stylesheet.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-139
+   Improve documentation in the included pyblosxom plug-ins.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-140
+   muse-blosxom: Perform extra check on category in new entry.

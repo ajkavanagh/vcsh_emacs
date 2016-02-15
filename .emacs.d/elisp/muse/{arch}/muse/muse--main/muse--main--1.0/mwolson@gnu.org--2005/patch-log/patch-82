@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-82
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul  1 17:48:51 EST 2005
+Standard-date: 2005-07-01 22:48:51 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+    lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-82
+Summary: Interpret explicit links before emphasis.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-regexps): Interpret explicit
+  links before emphasis.
+
+* lisp/muse-wiki.el (muse-publish): Make rules use a multiple of 100 just
+  for the heck of it.

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-461
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jul 26 09:33:26 EDT 2005
+Standard-date: 2005-07-26 13:33:26 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-461
+Summary: Bugfix: planner-visit-link: Add missing alias
+Keywords: 
+
+* planner.el (planner-visit-link): Add missing alias. Thanks to Zak for
+  pointing this out!
+

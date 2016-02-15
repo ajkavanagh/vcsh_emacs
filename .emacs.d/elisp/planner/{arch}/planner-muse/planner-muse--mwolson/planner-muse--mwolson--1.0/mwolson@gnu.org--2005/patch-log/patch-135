@@ -1,0 +1,13 @@
+Revision: planner-muse--mwolson--1.0--patch-135
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 18:32:20 EST 2005
+Standard-date: 2005-12-16 23:32:20 GMT
+Modified-files: ChangeLog planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-135
+Summary: Fix tag coloring breakage.
+Keywords: 
+
+* planner.el (planner-setup-highlighting): Add color markup for dates to
+  the bottom of the markup list, so that it doesn't break coloring of
+  tags.

@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-307
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat May 12 12:27:47 EDT 2007
+Standard-date: 2007-05-12 16:27:47 GMT
+Modified-files: ChangeLog lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-307
+Summary: muse-blosxom: Fix bug with muse-publish-region
+Keywords: 
+
+2007-05-12  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-blosxom.el (muse-blosxom-update-page-date-alist): Only
+	update the list if the current buffer is associated with a file.
+	This fixes a bug with M-x muse-publish-region in a temporary
+	buffer.

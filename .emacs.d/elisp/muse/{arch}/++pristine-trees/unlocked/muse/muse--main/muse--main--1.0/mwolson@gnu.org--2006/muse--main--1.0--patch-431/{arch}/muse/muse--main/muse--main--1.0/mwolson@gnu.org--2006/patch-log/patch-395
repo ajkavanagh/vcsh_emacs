@@ -1,0 +1,24 @@
+Revision: muse--main--1.0--patch-395
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 15 21:52:45 EDT 2007
+Standard-date: 2007-07-16 01:52:45 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-395
+Summary: Try to fix some issues with <markup> in headers and footers
+Keywords: 
+
+* lisp/muse-publish.el (muse-markup-tag-info): Make into a function.
+  Move common code here, rather than duplicating it in two places.  Deal
+  with case where muse-publish-use-header-footer-tags is non-nil.
+  (muse-publish-markup-specials, muse-publish-inhibit-style-hooks)
+  (muse-inhibit-style-tags): Move higher to avoid byte-compiler warning.
+  (muse-publish-use-header-footer-tags): New variable that indicates
+  whether we should use just the header and footer tags, rather than the
+  full set.
+  (muse-insert-file-or-string): Bind muse-publish-use-header-footer-tags
+  to t.
+  (muse-publish-markup-tag, muse-publish-call-tag-on-buffer): Simplify
+  call to muse-markup-tag-info.
+  (muse-publish-mark-up-tag): Bind muse-publish-use-header-footer-tags to
+  nil.

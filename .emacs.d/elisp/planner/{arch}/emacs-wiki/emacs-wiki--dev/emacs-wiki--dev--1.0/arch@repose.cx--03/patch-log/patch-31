@@ -1,0 +1,11 @@
+Revision: emacs-wiki--dev--1.0--patch-31
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Sat Sep 27 21:22:38 EST 2003
+Standard-date: 2003-09-27 11:22:38 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-31
+Summary: allow for up to five levels of headings
+
+allow for up to five levels of headings
+

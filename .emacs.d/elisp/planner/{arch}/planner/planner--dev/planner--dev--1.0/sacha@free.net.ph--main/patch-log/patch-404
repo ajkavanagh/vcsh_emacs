@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-404
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jun  7 16:29:55 PHT 2005
+Standard-date: 2005-06-07 08:29:55 GMT
+Modified-files: ChangeLog planner-rss.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-404
+Summary: Bugfix: planner-delete-note actually works now, and planner-rss recognizes categories
+Keywords: 
+
+* planner.el (planner-delete-note): Bugfix: Saved excursion so that this
+  will actually work.
+
+* planner-rss.el (planner-rss-add-item): Allow multiple categories.
+  (planner-rss-add-note): Recognize multiple categories.

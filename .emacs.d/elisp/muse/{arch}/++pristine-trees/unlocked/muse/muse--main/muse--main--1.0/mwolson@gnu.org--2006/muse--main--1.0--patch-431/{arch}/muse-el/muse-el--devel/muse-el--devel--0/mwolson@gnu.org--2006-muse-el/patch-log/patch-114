@@ -1,0 +1,12 @@
+Revision: muse-el--devel--0--patch-114
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sat Nov  4 08:40:41 EST 2006
+Standard-date: 2006-11-04 13:40:41 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-114
+Summary: Remove C-c C-c binding for muse-follow-name-at-point, since no one objected in the last 1.5 months.
+Keywords: 
+
+
+

@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-2
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jan 20 10:54:21 EST 2006
+Standard-date: 2006-01-20 15:54:21 GMT
+Modified-files: lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-2
+Summary: Pick a better default if publishing with more than one style.
+Keywords: 
+
+* lisp/muse-project.el (muse-project-applicable-styles): Make sure that
+  the list we return is in the right order.  That way, if more than one
+  publishing rule matches a link, the first one is used, rather than the
+  last.

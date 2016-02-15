@@ -1,0 +1,14 @@
+Revision: emacs-wiki--sacha--1.0--patch-148
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 25 16:21:52 PHT 2004
+Standard-date: 2004-03-25 08:21:52 GMT
+Modified-files: planner-erc.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-148
+Summary: No need to escape URLs in planner-erc as emacs-wiki-markup-link handles that now
+Keywords: 
+
+	* planner-erc.el (planner-erc-annotation-from-erc): No more need
+	to escape URLs here, as emacs-wiki-escape-url does that
+	automatically.
+

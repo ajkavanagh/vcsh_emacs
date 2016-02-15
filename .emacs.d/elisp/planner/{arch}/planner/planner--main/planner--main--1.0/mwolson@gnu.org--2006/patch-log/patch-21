@@ -1,0 +1,25 @@
+Revision: planner--main--1.0--patch-21
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Mar 20 21:48:50 EST 2006
+Standard-date: 2006-03-21 02:48:50 GMT
+Modified-files: planner-appt.el planner-el.texi
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-56
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-57
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-16
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-17
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-18
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-19
+    mwolson@gnu.org--2006/planner--main--1.0--patch-21
+Summary: Merged from jeho@jeho.org--2005 (patch 56-57), mwolson@gnu.org--2006-planner-el (patch 16-19)
+Keywords: merge
+
+(Author: Jim Ottaway <j.ottaway@lse.ac.uk>)
+
+* planner-appt.el (planner-appt-forthcoming-show-day-names-flag): New
+  option that indicates whether to show day names in forthcoming
+  appointments.
+  (planner-appt-forthcoming-format): Add day name insertion.
+
+* planner-el.texi: Add documentation about new feature [and also for
+  planner-appt-forthcoming-repeat-date-string].

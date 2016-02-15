@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-23
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Mar 14 13:44:34 EST 2006
+Standard-date: 2006-03-14 18:44:34 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    lisp/muse-colors.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-23
+    mwolson@gnu.org--2006/muse--main--1.0--patch-64
+Summary: Merged from mwolson@gnu.org--2006 (patch 64)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-64
+   Fix #5477: muse-replace-regexp-in-string throws error in XEmacs 21.4

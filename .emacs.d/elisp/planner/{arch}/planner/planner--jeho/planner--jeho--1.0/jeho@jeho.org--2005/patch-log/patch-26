@@ -1,0 +1,29 @@
+Revision: planner--jeho--1.0--patch-26
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Feb 25 17:59:09 GMT 2005
+Standard-date: 2005-02-25 17:59:09 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-26
+Summary: massive changes
+Keywords: 
+
+* planner-appt.el: documentation changes
+
+Moved lots of functions around around.
+
+Made font-locking work for schedules.
+
+Fixed a problem with the task-based method where it wasn't
+cleaning up after itself.
+
+Smoothed out the user interface, and integrated the two methods
+better, renamed a few functions to make them consistent. 
+
+Changed after-save hooks to local-write-file-hooks
+
+Changed the hooking so that it only happens for today's plan page
+[pointless to have these hooks elsewhere, despite my earlier sentiments
+to the contrary]
+
+sorry about the terse change log

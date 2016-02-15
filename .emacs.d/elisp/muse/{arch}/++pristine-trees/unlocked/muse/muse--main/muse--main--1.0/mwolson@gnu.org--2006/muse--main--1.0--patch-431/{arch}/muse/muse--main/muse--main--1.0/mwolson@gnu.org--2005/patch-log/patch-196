@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-196
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 18:15:10 EST 2005
+Standard-date: 2005-08-09 23:15:10 GMT
+Modified-files: ChangeLog Makefile Makefile.defs
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-196
+Summary: Makefile: Use BUILDOPTS.
+Keywords: 
+
+* Makefile (debrelease): Make use of $(BUILDOPTS).
+
+* Makefile.defs (BUILDOPTS): New option that allows additional options to
+  be passed to dpkg-buildpackage.  In case I ever make several revisions
+  before getting the -1 revision uploaded, for example, I can use "-sa"
+  here in order to make a valid pacakge.

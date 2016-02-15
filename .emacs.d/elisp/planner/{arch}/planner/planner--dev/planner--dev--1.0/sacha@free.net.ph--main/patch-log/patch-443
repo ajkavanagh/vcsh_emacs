@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-443
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jul  4 14:30:07 PHT 2005
+Standard-date: 2005-07-04 06:30:07 GMT
+New-files: .arch-ids/planner-gnats.el.id planner-gnats.el
+Modified-files: ChangeLog planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-443
+Summary: New: planner-gnats.el adds support for the GNU bugtracking system
+Keywords: 
+
+* planner-gnats.el: New protocol from Jeremy Cowgar. Gnats is the GNU bug tracking system.
+
+* planner-el.texi (Tracking Development): Renamed from Logs and Version Control.
+  (Gnats): Document planner-gnats.el
+

@@ -1,0 +1,36 @@
+Revision: planner--yh--1.0--patch-45
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Sep  1 16:57:21 CEST 2005
+Standard-date: 2005-09-01 14:57:21 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-multi.el planner-timeclock-summary.el planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-45
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-59
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-60
+    sacha@free.net.ph--main/planner--dev--1.0--patch-481
+    sacha@free.net.ph--main/planner--dev--1.0--patch-482
+    sacha@free.net.ph--main/planner--dev--1.0--patch-483
+    sacha@free.net.ph--main/planner--dev--1.0--patch-484
+Summary: Merged from mwolson@gnu.org--2005 (patch 59-60), sacha@free.net.ph--main (patch 481-484)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-59
+   Merged from sacha@free.net.ph--main (patch 481-484)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-60
+   Allow Planner to visit links to temporary files.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-481
+   Bugfix: planner-timeclock-summary-day-range-entry: Accept functions again
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-482
+   Bugfix: planner-multi-task-xref: Use planner-replan-task
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-483
+   Bugfix: planner-multi-replan-task should suggest only plan pages
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-484
+   Bugfix: planner-delete-task and planner-edit-task-description-basic when linked tasks do not exist

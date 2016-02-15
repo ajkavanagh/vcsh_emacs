@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-294
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Apr 19 20:11:33 EDT 2007
+Standard-date: 2007-04-20 00:11:33 GMT
+New-files: .arch-ids/IDEAS.muse.id IDEAS.muse
+Modified-files: ChangeLog README
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-294
+Summary: Add listing of ideas to new IDEAS.muse file
+Keywords: 
+
+2007-04-19  Michael Olson  <mwolson@gnu.org>
+
+	* IDEAS.muse: New file containing a list of ideas we have for new
+	features, or patches that have yet to be applied.
+
+	* README: Call it "Emacs Muse", not "the Emacs Muse".  No need to
+	be so confusing.

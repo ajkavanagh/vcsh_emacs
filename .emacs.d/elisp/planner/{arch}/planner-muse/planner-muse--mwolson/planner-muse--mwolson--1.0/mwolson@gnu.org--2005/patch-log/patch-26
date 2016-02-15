@@ -1,0 +1,26 @@
+Revision: planner-muse--mwolson--1.0--patch-26
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jul 11 16:55:08 EST 2005
+Standard-date: 2005-07-11 21:55:08 GMT
+Modified-files: ChangeLog.mwolson planner-auto.el
+    planner-calendar.el planner-el.texi planner-gnus.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-26
+    sacha@free.net.ph--main/planner--dev--1.0--patch-446
+    sacha@free.net.ph--main/planner--dev--1.0--patch-447
+    sacha@free.net.ph--main/planner--dev--1.0--patch-448
+    sacha@free.net.ph--main/planner--dev--1.0--patch-449
+Summary: Merged from sacha@free.net.ph--main (patch 446-449)
+Keywords: merge
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-446
+   planner-gnus-insinuate: Change keybinding to C-c C-t
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-447
+   Bugfix: planner-calendar-create-today-link: Quote shell arguments
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-448
+   Add p-create-task and p-create-task-from-buffer to planner-auto
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-449
+   planner-calendar-create-today-link: Use make-symbolic-link

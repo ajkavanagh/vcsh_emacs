@@ -1,0 +1,35 @@
+Revision: muse--mwolson--1.0--patch-1
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Sat Oct  9 12:52:22 EST 2004
+Standard-date: 2004-10-09 17:52:22 GMT
+Modified-files: muse-html.el
+New-patches: lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--base-0
+    lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--patch-1
+    lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-1
+    lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-2
+    mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-1
+Summary: Content-type fix and chinese-gbk support from Li Daobing's repo
+Keywords:
+
+2004-10-09  Li Daobing  <lidaobing@gmail.com>
+
+    * muse-html.el (muse-html-encoding-map): Add entries for
+    mule-utf8, chinese-iso-8bit, and chinese-gbk.
+    (muse-html-transform-content-type): Change use of cadr to cdr so
+    that the content type is chosen correctly.
+
+Patches applied:
+
+ * lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--base-0
+   tag of mwolson@member.fsf.org--2004/muse--mwolson--1.0--base-0
+
+ * lidaobing@gmail.com--2004-pub/muse--lidaobing--1.0--patch-1
+   Patches applied:
+
+ * lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-1
+   make muse-html publish correct
+
+ * lidaobing@gmail.com--2004/muse--lidaobing--1.0--patch-2
+   add support of chinese-gbk
+

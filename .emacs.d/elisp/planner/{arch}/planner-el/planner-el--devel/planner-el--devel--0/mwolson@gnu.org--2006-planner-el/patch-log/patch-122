@@ -1,0 +1,14 @@
+Revision: planner-el--devel--0--patch-122
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 17 00:15:33 EDT 2007
+Standard-date: 2007-06-17 04:15:33 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-122
+Summary: planner-publish: Use correct group for planner-publish-markup-regexps
+Keywords: 
+
+2007-06-17  Michael Olson  <mwolson@gnu.org>
+
+	* planner-publish.el (planner-publish-markup-regexps): Use group
+	of planner-publish, rather than muse-html.

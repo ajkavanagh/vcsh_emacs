@@ -1,0 +1,13 @@
+Revision: muse--yh--1.0--patch-9
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Mon Jun 20 18:35:03 CEST 2005
+Standard-date: 2005-06-20 16:35:03 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-9
+Summary: Mimic experimental behavior for interwiki
+Keywords:
+
+* lisp/muse-wiki.el (muse-wiki-interwiki-alist): make list similar to what was proposed in experimental rep
+(muse-wiki-interwiki-handle): accept function for substitution
+

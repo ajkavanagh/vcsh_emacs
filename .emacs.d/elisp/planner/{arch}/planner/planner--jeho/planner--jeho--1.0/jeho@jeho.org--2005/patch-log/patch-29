@@ -1,0 +1,34 @@
+Revision: planner--jeho--1.0--patch-29
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Feb 26 18:41:24 GMT 2005
+Standard-date: 2005-02-26 18:41:24 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-29
+Summary: tidying up
+Keywords: 
+
+* planner-appt.el: small documentation changes; moved lots of
+things around for code readability; nicer customization
+
+(planner-appt-write-file-hook): new global variable for the
+preferred write-hook
+
+(planner-appt-seek-to-end-of-current-section): new function: does
+what it says
+
+(planner-appt-live-task-regexp): new regular expression matching
+tasks that are not cancelled and not finished
+
+(planner-appt-de-wiki): made this more lispy with catch and throw
+[but couldn't find simple `loop' outside of `cl']
+
+(planner-appt-show-alerts): new command to show a list of
+scheduled alerts
+
+(planner-appt-schedule-add-cyclic): made the sorting contingent
+upon planner-appt-sort-schedule-on-update-flag
+
+(planner-appt-update, planner-appt-insinuate-if-today): added some
+bullet-proofing to make sure there is an initial update
+

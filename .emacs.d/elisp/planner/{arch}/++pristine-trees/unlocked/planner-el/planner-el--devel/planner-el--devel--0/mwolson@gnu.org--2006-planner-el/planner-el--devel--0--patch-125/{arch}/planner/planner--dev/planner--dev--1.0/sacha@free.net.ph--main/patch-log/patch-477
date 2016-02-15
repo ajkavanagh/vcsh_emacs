@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-477
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Aug 25 09:03:49 EDT 2005
+Standard-date: 2005-08-25 13:03:49 GMT
+Modified-files: planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-477
+Summary: planner-multi-task-date bugfix: Be careful about links
+Keywords: 
+
+* planner-multi.el (planner-multi-task-date): Be a lot more careful about
+the date so that non-date links don't get picked up.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

@@ -1,0 +1,39 @@
+Revision: muse-el--devel--0--patch-83
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Elena Pomohaci <e.pomohaci@gmail.com>
+Date: Thu Aug  3 21:14:38 EEST 2006
+Standard-date: 2006-08-03 18:14:38 GMT
+New-files: lisp/.arch-ids/muse-import-docbook.el.id
+    lisp/.arch-ids/muse-import-xml.el.id
+    lisp/muse-import-docbook.el lisp/muse-import-xml.el
+Modified-files: {arch}/=tagging-method
+New-patches: e.pomohaci@gmail.com--2006/muse-epomulet--0--base-0
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-1
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-2
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-3
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-4
+    e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-5
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-83
+Summary: Merged from e.pomohaci@gmail.com--2006 (patch 0-5)
+Keywords: merge
+
+Patches applied:
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--base-0
+   tag of mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-81
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-1
+   
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-2
+   made the basic functionality for transforming into muse format
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-3
+   made the basic functionality for transforming into muse format
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-4
+   Merged from mwolson@gnu.org--2006-muse-el (patch 82), mwolson@gnu.org--2006 (patch 158-164)
+
+ * e.pomohaci@gmail.com--2006/muse-epomulet--0--patch-5
+   Changed file names for muse-from-*
+

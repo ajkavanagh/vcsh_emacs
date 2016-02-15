@@ -1,0 +1,12 @@
+Revision: emacs-wiki--dev--1.0--base-0
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <resolve@repose.cx>
+Date: Sun Jun 22 23:27:01 EST 2003
+Standard-date: 2003-06-22 13:27:01 GMT
+Summary: initial import
+Keywords: 
+New-files: ./emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--base-0
+
+
+(automatically generated log message)

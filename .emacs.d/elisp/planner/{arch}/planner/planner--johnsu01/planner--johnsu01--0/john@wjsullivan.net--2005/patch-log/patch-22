@@ -1,0 +1,32 @@
+Revision: planner--johnsu01--0--patch-22
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Thu Sep 22 01:13:41 EDT 2005
+Standard-date: 2005-09-22 05:13:41 GMT
+Modified-files: planner-multi.el planner-rss.el
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-22
+    sacha@free.net.ph--main/planner--dev--1.0--patch-485
+    sacha@free.net.ph--main/planner--dev--1.0--patch-486
+    sacha@free.net.ph--main/planner--dev--1.0--patch-487
+    sacha@free.net.ph--main/planner--dev--1.0--patch-488
+    sacha@free.net.ph--main/planner--dev--1.0--patch-489
+Summary: Catch up with Sacha.
+Keywords: 
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-485
+   Bugfix: planner-multi-update-task: Use planner-multi-task-string
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-486
+   Bugfix: planner-multi-task-string: Fix misplaced parens
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-487
+   Bugfix: planner-multi-edit-task-description: Use new description!
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-488
+   Merge from johnsu01/21: planner-cyclic explanations
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-489
+   Bugfix: planner-rss.el: Add anchor- to numeric anchors
+

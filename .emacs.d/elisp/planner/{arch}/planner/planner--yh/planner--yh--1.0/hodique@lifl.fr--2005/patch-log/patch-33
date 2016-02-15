@@ -1,0 +1,11 @@
+Revision: planner--yh--1.0--patch-33
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 14 23:32:16 CEST 2005
+Standard-date: 2005-07-14 21:32:16 GMT
+Modified-files: ChangeLog.yh planner-xtla.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-33
+Summary: Fix error in planner-xtla-url-transform
+Keywords:
+
+* planner-xtla.el (planner-xtla-url-transform): fix base url retreival

@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-84
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr  4 18:23:40 EDT 2006
+Standard-date: 2006-04-04 22:23:40 GMT
+Modified-files: ChangeLog.2006 lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-84
+Summary: muse-mode: Recognize definition lists when filling text.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode): Recognize definition lists when filling
+  text.
+

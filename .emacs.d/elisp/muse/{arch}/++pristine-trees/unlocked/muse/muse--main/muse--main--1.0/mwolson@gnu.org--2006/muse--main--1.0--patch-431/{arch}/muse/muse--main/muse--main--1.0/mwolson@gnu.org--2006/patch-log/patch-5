@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-5
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jan 21 13:47:33 EST 2006
+Standard-date: 2006-01-21 18:47:33 GMT
+Modified-files: lisp/muse-regexps.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-5
+Summary: Allow beginning and ending empty elements in tables.
+Keywords: 
+
+* lisp/muse-regexps.el (muse-table-field-regexp): Allow there to be no
+  whitespace after the field if we're at the end of a line.
+  (muse-table-line-regexp): Allow the table to start with a "|".  The
+  resulting initial empty cell isn't yet thrown away like it should be.

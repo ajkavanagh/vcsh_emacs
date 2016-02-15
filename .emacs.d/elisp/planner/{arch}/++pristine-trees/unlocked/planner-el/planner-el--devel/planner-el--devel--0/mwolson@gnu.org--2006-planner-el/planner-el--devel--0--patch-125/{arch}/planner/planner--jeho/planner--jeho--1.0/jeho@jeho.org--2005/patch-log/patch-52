@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-52
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Mar 16 17:41:41 GMT 2005
+Standard-date: 2005-03-16 17:41:41 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-52
+Summary: planner-appt sort bug
+Keywords: 
+
+* planner-appt.el (planner-appt-schedule-sort): fixed a problem with the
+  sorting 
+

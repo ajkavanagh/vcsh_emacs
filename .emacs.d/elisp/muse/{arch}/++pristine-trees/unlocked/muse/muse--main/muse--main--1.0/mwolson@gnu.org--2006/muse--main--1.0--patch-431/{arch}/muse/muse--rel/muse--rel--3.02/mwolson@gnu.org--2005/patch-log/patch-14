@@ -1,0 +1,13 @@
+Revision: muse--rel--3.02--patch-14
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Nov 18 20:48:37 EST 2005
+Standard-date: 2005-11-19 01:48:37 GMT
+Modified-files: lisp/muse-project.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-14
+Summary: Be more fault-tolerant about muse-file-extension.
+Keywords: 
+
+* lisp/muse-project.el (muse-project-file-entries)
+  (muse-project-find-file): If muse-file-extension is an empty string,
+  don't use it.

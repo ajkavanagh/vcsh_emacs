@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-127
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 18 20:53:32 PHT 2004
+Standard-date: 2004-03-18 12:53:32 GMT
+Modified-files: emacs-wiki.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-127
+Summary: Remove mailto: from visible name
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-wiki-visible-name): Remove mailto:
+	from visible name. Thanks to Joe Corneli for the suggestion.

@@ -1,0 +1,17 @@
+Revision: planner--dev--1.0--patch-47
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Apr 21 21:54:18 PHT 2004
+Standard-date: 2004-04-21 13:54:18 GMT
+Modified-files: planner-gnus.el planner-rmail.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-47
+Summary: planner-gnus: Go directly to message; planner-rmail: elisp tweak
+Keywords: 
+
+	* planner-gnus.el (planner-gnus-browse-url): NOTE: No longer
+	prompt for number of messages. Try to go directly to the message
+	instead.
+
+	* planner-rmail.el (planner-rmail-browse-url): Remove unnecessary
+	`rmail-first-message'.
+

@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-223
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec  6 22:12:56 JST 2004
+Standard-date: 2004-12-06 13:12:56 GMT
+Modified-files: ChangeLog planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-223
+Summary: New: Make planner-sort-tasks-key-function pluggable
+Keywords: feature
+
+	* planner.el (planner-sort-tasks-key-function): New.
+        Thanks to Jody Klymak and John Sullivan for finally
+        prompting me to do this.
+	(planner-on-date-page): New.
+	(planner-sort-tasks-default-key): New.
+	(planner-sort-tasks-basic): New.
+	(planner-sort-tasks-by-date): New.
+	(planner-sort-tasks-by-link): New.
+	(planner-sort-tasks): Use new planner-sort-tasks-key-function.

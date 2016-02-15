@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-394
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 15 18:20:15 EDT 2007
+Standard-date: 2007-07-15 22:20:15 GMT
+Modified-files: ChangeLog lisp/muse-journal.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-394
+Summary: Update manual for recent Journal changes
+Keywords: 
+
+* lisp/muse-journal.el (muse-journal-rdf-summarize-entries): Set this to
+  nil by default, because it is annoying.  Update docs to mention this.
+  (muse-journal-rss-summarize-entries): Docfix.
+
+* texi/muse.texi (Journal): Update for recent changes.

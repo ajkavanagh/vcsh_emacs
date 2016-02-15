@@ -1,0 +1,10 @@
+Revision: planner--johnsu01--0--patch-18
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Thu Aug 18 02:15:28 EDT 2005
+Standard-date: 2005-08-18 06:15:28 GMT
+Modified-files: planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-18
+Summary: Fixed pxref in <tasks> node. Fleshed out and added cindex entries around it.
+Keywords: 
+

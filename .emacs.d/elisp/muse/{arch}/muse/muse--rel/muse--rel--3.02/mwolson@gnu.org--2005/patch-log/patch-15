@@ -1,0 +1,14 @@
+Revision: muse--rel--3.02--patch-15
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Nov 18 22:23:44 EST 2005
+Standard-date: 2005-11-19 03:23:44 GMT
+Modified-files: Makefile.defs debian/changelog
+    debian/control debian/rules
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-15
+Summary: Prepare debian files for new minor release.
+Keywords: 
+
+* debian/control: Depend on debhelper >> 4.0.0.
+
+* debian/rules: Change DH_COMPAT to 4.

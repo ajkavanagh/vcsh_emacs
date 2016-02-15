@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-327
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb 16 10:47:37 JST 2005
+Standard-date: 2005-02-16 01:47:37 GMT
+Modified-files: ChangeLog planner-el.texi planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-327
+Summary: Relicense planner-el.texi to GPL from GFDL
+Keywords: 
+
+* planner-el.texi: Change to GPL.
+
+* planner.el (planner-sort-tasks-by-link): Remove unnecessary skip-chars-forward.
+  Thanks to John Sullivan for pointing this out.

@@ -1,0 +1,24 @@
+Revision: planner--dev--1.0--patch-432
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 30 14:17:53 PHT 2005
+Standard-date: 2005-06-30 06:17:53 GMT
+Modified-files: ChangeLog planner-deadline.el
+    planner-multi.el planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-432
+Summary: Bugfix: planner-edit-task-description, planner-deadline: keep point
+Keywords: 
+
+* planner.el (planner-edit-task-description-basic): Keep cursor position.
+  Remove the need for planner-multi advice. Thanks to Edgar Goncalves for
+  pointing this out.
+
+* planner-multi.el (planner-multi-edit-task-description): Keep cursor
+  position. Remove the need for planner-multi advice.
+
+* planner-deadline.el (planner-deadline-update): Be a lot more careful
+  about the point to avoid infinite looping bugs or errors about task
+  descriptions.
+
+* planner.el (planner-tasks-never-suppress-fixing-flag): Docfix: Explain
+  what fixing is. Thanks to johnsu01 for pointing this out.

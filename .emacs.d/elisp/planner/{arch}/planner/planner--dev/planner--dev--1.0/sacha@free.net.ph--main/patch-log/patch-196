@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-196
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Nov  6 12:21:39 JST 2004
+Standard-date: 2004-11-06 03:21:39 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-196
+Summary: Change planner-menu labels for consistency
+Keywords: docfix
+
+	* planner.el (planner-menu): Change task menu entry labels
+	according to Frederik Fouvry's suggestions.

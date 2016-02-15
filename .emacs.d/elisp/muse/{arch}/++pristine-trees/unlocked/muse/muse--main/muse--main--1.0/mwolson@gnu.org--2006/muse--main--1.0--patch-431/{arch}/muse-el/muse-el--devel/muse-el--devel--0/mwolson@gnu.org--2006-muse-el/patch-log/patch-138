@@ -1,0 +1,29 @@
+Revision: muse-el--devel--0--patch-138
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat May 19 17:26:52 EDT 2007
+Standard-date: 2007-05-19 21:26:52 GMT
+Modified-files: ChangeLog README lisp/muse-latex.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-138
+    mwolson@gnu.org--2006/muse--main--1.0--patch-308
+    mwolson@gnu.org--2006/muse--main--1.0--patch-309
+    mwolson@gnu.org--2006/muse--main--1.0--patch-310
+    mwolson@gnu.org--2006/muse--main--1.0--patch-311
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 308-311)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-308
+   muse-protocols: Fix publishing bug
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-309
+   Mention new muse-el-logs mailing list in documentation
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-310
+   muse-latex: Use better markup for link-and-anchor
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-311
+   Revert link-and-anchor change

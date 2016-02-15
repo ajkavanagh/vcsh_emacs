@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-86
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr  4 18:49:46 EDT 2006
+Standard-date: 2006-04-04 22:49:46 GMT
+Modified-files: ChangeLog.2006 lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-86
+Summary: Update Muse's file-alist after saving any Muse page.
+Keywords: 
+
+* lisp/muse-project.el (muse-project-after-save-hook): New function that
+  causes Muse's file-alist to be updated when we are saving a Muse file.
+  This is added to after-save-hook.

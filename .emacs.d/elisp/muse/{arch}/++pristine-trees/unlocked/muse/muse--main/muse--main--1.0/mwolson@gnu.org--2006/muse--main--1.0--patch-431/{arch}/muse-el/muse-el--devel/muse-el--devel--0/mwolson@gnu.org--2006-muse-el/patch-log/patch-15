@@ -1,0 +1,25 @@
+Revision: muse-el--devel--0--patch-15
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar  5 20:13:09 EST 2006
+Standard-date: 2006-03-06 01:13:09 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-15
+    mwolson@gnu.org--2006/muse--main--1.0--patch-42
+    mwolson@gnu.org--2006/muse--main--1.0--patch-43
+    mwolson@gnu.org--2006/muse--main--1.0--patch-44
+    mwolson@gnu.org--2006/muse--main--1.0--patch-45
+Summary: Merged from mwolson@gnu.org--2006 (patch 42-45)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-42
+   In a preliminary way, make definition lists nest.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-43
+   Use slightly better algorithm for removing initial whitespace.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-45
+   Put movement by list and paragraph functions in muse.el.

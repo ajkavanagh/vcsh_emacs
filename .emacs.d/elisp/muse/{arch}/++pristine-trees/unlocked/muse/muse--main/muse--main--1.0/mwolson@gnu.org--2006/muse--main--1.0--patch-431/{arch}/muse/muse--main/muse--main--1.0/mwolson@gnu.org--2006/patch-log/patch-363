@@ -1,0 +1,20 @@
+Revision: muse--main--1.0--patch-363
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun 16 00:16:13 EDT 2007
+Standard-date: 2007-06-16 04:16:13 GMT
+Modified-files: ChangeLog examples/QuickStart.muse
+    lisp/muse-publish.el lisp/muse-xml-common.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-363
+Summary: Work on QuickStart, fix more bugs
+Keywords: 
+
+2007-06-16  Michael Olson  <mwolson@gnu.org>
+
+	* examples/QuickStart.muse: Overhaul.
+
+	* lisp/muse-publish.el (muse-publish-table-fields): Handle case
+	where we have a pipe character at the beginning of line.
+
+	* lisp/muse-xml-common.el (muse-xml-sort-table): Fix typo that was
+	causing tables to not be sorted at all.

@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-211
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Sep 26 02:40:03 EDT 2006
+Standard-date: 2006-09-26 06:40:03 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-211
+Summary: muse-colors: Fix bug found by recent Emacs 22 builds
+Keywords: 
+
+2006-09-26  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-colors.el (muse-use-font-lock): Don't quote
+	beginning-of-line.  This should fix a bug that was noticed in
+	recent Emacs 22 builds.

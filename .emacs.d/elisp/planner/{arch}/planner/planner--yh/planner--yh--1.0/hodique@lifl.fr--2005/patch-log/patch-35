@@ -1,0 +1,20 @@
+Revision: planner--yh--1.0--patch-35
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Fri Jul 15 17:31:49 CEST 2005
+Standard-date: 2005-07-15 15:31:49 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-xtla.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-35
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-32
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-33
+Summary: Merged from mwolson@gnu.org--2005 (patch 32-33)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-32
+   Merged from hodique@lifl.fr--2005 (patch 32-34)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-33
+   Minor caadr -> car cadr fixup.

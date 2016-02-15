@@ -1,0 +1,16 @@
+Revision: muse--ajk--1.0--patch-7
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Tue Jul  5 18:36:38 EST 2005
+Standard-date: 2005-07-05 23:36:38 GMT
+Modified-files: lisp/muse-groff.el
+New-patches: ajk@iu.edu--2005/muse--ajk--1.0--patch-7
+Summary: Don't use .blm (blank line == paragraph break).  Hopefu...
+CSCVSID: MAIN.7
+Keywords: cscvs:MAIN-7
+
+Author: ajk
+Date: 2005/07/03 23:50:24
+Don't use .blm (blank line == paragraph break).  Hopefully, marking up
+paragraphs manually will save us some pain with blank lines in
+<example>s and such.

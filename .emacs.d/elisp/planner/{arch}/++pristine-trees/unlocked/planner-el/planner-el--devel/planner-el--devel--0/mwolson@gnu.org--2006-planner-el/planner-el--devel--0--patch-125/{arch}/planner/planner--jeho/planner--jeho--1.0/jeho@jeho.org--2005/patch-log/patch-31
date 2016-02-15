@@ -1,0 +1,13 @@
+Revision: planner--jeho--1.0--patch-31
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Feb 27 12:02:12 GMT 2005
+Standard-date: 2005-02-27 12:02:12 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-31
+Summary: de-insinuation
+Keywords: 
+
+* planner-appt.el: Added a command planner-appt-de-insinuate that removes
+  planner-appt from all planner hooks, since any breakage can interfere
+  badly with planner.

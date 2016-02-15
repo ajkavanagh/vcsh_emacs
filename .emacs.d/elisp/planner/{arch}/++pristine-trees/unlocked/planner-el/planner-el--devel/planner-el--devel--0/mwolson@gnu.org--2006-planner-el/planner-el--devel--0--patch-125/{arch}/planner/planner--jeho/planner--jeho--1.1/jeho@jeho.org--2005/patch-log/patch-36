@@ -1,0 +1,214 @@
+Revision: planner--jeho--1.1--patch-36
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Jan 10 10:34:39 GMT 2006
+Standard-date: 2006-01-10 10:34:39 GMT
+New-files: .arch-ids/AUTHORS.id .arch-ids/ChangeLog.2004.id
+    .arch-ids/ChangeLog.2005.id .arch-ids/ChangeLog.2006.id
+    AUTHORS ChangeLog.2004 ChangeLog.2005 ChangeLog.2006
+Removed-files: .arch-ids/ChangeLog.id ChangeLog
+Renamed-files: .arch-ids/PLANNER-README.id .arch-ids/COMMENTARY.id
+    PLANNER-README COMMENTARY
+Modified-files: Makefile Makefile.defs debian/changelog
+    debian/control debian/emacsen-install
+    debian/emacsen-remove debian/emacsen-startup
+    debian/rules planner-accomplishments.el planner-appt.el
+    planner-authz.el planner-bbdb.el planner-bibtex.el
+    planner-bookmark.el planner-calendar.el
+    planner-cyclic.el planner-deadline.el planner-diary.el
+    planner-el.texi planner-erc.el planner-experimental.el
+    planner-export-diary.el planner-gnats.el planner-gnus.el
+    planner-ical.el planner-mhe.el planner-multi.el
+    planner-notes-index.el planner-publish.el
+    planner-rank.el planner-rdf.el planner-report.el
+    planner-rmail.el planner-rss.el
+    planner-tasks-overview.el planner-xtla.el planner.el
+    scripts/planner-build.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-14
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-36
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-2
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-3
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-4
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-5
+    john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-6
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-137
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-138
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-139
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-140
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-141
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-142
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-143
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-144
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-145
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-146
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-147
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-148
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-149
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-150
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-151
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-152
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-153
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-154
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-155
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-156
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-157
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-158
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-159
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-160
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-161
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-162
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-163
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-164
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-165
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-166
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-167
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-168
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-169
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-170
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-171
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-172
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-173
+    saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-15
+Removed-patches: mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--base-0
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-1
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-2
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-3
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-4
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-5
+    mark@dishevelled.net--2003-mst/emacs-wiki--beta--1.0--patch-6
+Summary: Merged from ajk@iu.edu--2005 (patch 14), john@wjsullivan.net--2005 (patch 2-6), mwolson@gnu.org--2005 (patch 137-173), saint@corenova.com--public-2005 (patch 15)
+Keywords: merge
+
+Patches applied:
+
+ * ajk@iu.edu--2005/planner-muse--main--1.0--patch-14
+   don't insert task number padding if planner-use-task-numbers is nil
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-2
+   Catch up with mwolson.
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-3
+   Updated maintainer information. Removed distinction between stable and development versions. Distributed the Updating Your Version node information and removed it. Made new nodes for each installation method under a new Getting the Files section.
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-4
+   Fixed name of Debian package and instructions for installing the package.
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-5
+   Added example and instructions for setting up a new Planner project.
+
+ * john@wjsullivan.net--2005/planner-muse--johnsu01--1.0--patch-6
+   Catch up.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-137
+   planner-publish: Fix publishing bug.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-138
+   Merged from jeho@jeho.org--2005 (patch 31-34)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-139
+   Massively update documentation for the Muse transition.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-140
+   Remove planner-regexp-space.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-141
+   Fix bug with finding anchors.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-142
+   planner-accomplishments: Get rid of extra underlined part.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-143
+   planner-publish: Make <notes> and <past-notes> work.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-144
+   Apply several bugfixes from Sacha.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-145
+   planner-publish: Make "* Notes" section publish correctly again.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-146
+   planner-publish: Work further on <notes> and <past-notes> tags.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-147
+   planner-publish: Yet Another Patch.  Remove stale functions.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-148
+   planner-publish: Remove extra </span> tag.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-149
+   planner-publish: Try to fix paragraph error.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-150
+   muse-publish: Try again to fix paragraph detection.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-151
+   Merged from john@wjsullivan.net--2005 (patch 2-3)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-152
+   Fix double-escaping issue.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-153
+   Use "D" to indicate delegated tasks, instead of ">".
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-154
+   Makefile: Fix argument for install-info.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-155
+   Yet Another paragraph detection try.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-156
+   Merged from john@wjsullivan.net--2005 (patch 4-6)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-157
+   Merged from ajk@iu.edu--2005 (patch 14)
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-158
+   planner-el.texi: Task numbers are not displayed by default.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-159
+   Fix emacs-wiki Bug #14907.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-160
+   Fix documentation example that I wrote earlier.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-161
+   Fix an extra-tasks problem in planner-tasks-overview.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-162
+   planner-accomplishments: Use simpler method of determining hook to use.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-163
+   planner-el.texi: Fix a few URL examples.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-164
+   Massively clean whitespace and fix compiler warnings.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-165
+   planner-appt: XEmacs fix.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-166
+   XEmacs fixes.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-167
+   Update Makefile, split ChangeLog.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-168
+   Add ChangeLogs from contributors.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-169
+   Complete writing of ChangeLogs.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-170
+   Fix delegated task errors.  Work on updating copyright statements.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-171
+   Edit more copyright notices.  Add AUTHORS.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-172
+   Fix some more copyright headers.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-173
+   More copyright twiddling.  Progress: planner-ical.el
+
+ * saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-15
+   Merged from ajk@iu.edu--2005 (patch 0-2), dryice@liu.com.cn--public (patch 40), jeho@jeho.org--2005 (patch 0-15), john@wjsullivan.net--2005 (patch 0-1), mwolson@gnu.org--2005 (patch 10-16, 78-122)

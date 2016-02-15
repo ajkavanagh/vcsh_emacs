@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-472
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Aug 19 11:19:13 EDT 2005
+Standard-date: 2005-08-19 15:19:13 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-472
+Summary: Bugfix: with-planner-update-setup: Save current window point as well
+Keywords: 
+
+* planner.el (with-planner-update-setup): Save excursion as well.
+  save-window-excursion doesn't save the current window's position.
+  Thanks to Sergey Vlasov for pointing this out!
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

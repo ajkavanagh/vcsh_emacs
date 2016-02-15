@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-235
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Dec 15 22:54:06 JST 2004
+Standard-date: 2004-12-15 13:54:06 GMT
+Modified-files: ChangeLog planner-timeclock-summary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-235
+Summary: Bugfix: planner-timeclock-summary-make-summary-string-range
+Keywords: bugfix external
+
+	* planner-timeclock-summary.el: Merge patch from Dryice Liu.
+	(planner-timeclock-summary-make-summary-string-range): Should work
+	as documented. String replace now case-sensitive.

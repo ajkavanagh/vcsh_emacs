@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-412
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jun 14 18:15:39 PHT 2005
+Standard-date: 2005-06-14 10:15:39 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-9
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-10
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-11
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-12
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-13
+    sacha@free.net.ph--main/planner--dev--1.0--patch-412
+Summary: Docfix: Reorganize Tasks section (johnsu01/13)
+Keywords: 
+
+Patches applied:
+
+ * johnsu01/10: Itemize appointments
+ * johnsu01/13: Reorganization of More about Tasks node 

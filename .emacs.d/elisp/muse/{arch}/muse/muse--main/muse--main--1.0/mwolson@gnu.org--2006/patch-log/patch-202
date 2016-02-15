@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-202
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Aug 30 19:12:58 EDT 2006
+Standard-date: 2006-08-30 23:12:58 GMT
+Modified-files: ChangeLog lisp/muse-publish.el muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-202
+Summary: muse.texi: Fix typo.
+Keywords: 
+
+2006-08-30  Michael Olson  <mwolson@gnu.org>
+
+	* muse.texi (Blosxom Requirements): Fix typo.

@@ -1,0 +1,11 @@
+Revision: muse--rel--3.02--patch-62
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Oct 10 14:32:00 EDT 2006
+Standard-date: 2006-10-10 18:32:00 GMT
+Modified-files: ChangeLog NEWS debian/changelog
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-62
+Summary: Update NEWS for release.
+Keywords: 
+
+* NEWS: Update for Muse 3.02.7.

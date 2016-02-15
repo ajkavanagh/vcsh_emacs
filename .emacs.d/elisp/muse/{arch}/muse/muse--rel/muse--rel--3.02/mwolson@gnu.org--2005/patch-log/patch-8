@@ -1,0 +1,13 @@
+Revision: muse--rel--3.02--patch-8
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Nov 17 00:23:39 EST 2005
+Standard-date: 2005-11-17 05:23:39 GMT
+Modified-files: lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-8
+Summary: Fix use of function that we don't permit yet.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-comment)
+  (muse-publish-comment-tag): Replace use of muse-insert-markup with
+  `insert'.

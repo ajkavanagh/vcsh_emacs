@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-405
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jun  7 16:51:02 PHT 2005
+Standard-date: 2005-06-07 08:51:02 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-405
+Summary: Bugfix: Allow arbitrary extensions by using emacs-wiki-page-name
+Keywords: 
+
+* planner.el (planner-get-current-date-filename): Allowed arbitrary
+  extensions by using emacs-wiki-page-name instead of the buffer name.
+  (planner-prepare-file): Ditto.
+  (plan): Ditto.
+

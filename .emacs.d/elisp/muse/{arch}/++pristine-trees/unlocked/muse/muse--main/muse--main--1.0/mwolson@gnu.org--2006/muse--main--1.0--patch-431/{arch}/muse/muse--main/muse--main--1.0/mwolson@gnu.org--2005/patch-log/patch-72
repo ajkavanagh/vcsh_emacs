@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-72
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 22 14:57:42 EST 2005
+Standard-date: 2005-06-22 19:57:42 GMT
+Modified-files: ChangeLog lisp/muse-colors.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-72
+Summary: Try to make Muse play nice with outline minor mode.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-emphasized, muse-colors-emphasized)
+(muse-colors-underlined, muse-use-font-lock, muse-link-properties): Use
+"muse" instead of "t" when adding invisibility to text or checking for
+invisibility.
+
+* lisp/muse.el (muse-add-to-invisibility-spec): New function that is a
+compatibility wrapper for `add-to-invisibility-spec'; XEmacs doesn't have
+this function.

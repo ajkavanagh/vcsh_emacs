@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-446
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jul  8 00:53:27 PHT 2005
+Standard-date: 2005-07-07 16:53:27 GMT
+Modified-files: ChangeLog planner-el.texi planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-446
+Summary: planner-gnus-insinuate: Change keybinding to C-c C-t
+Keywords: 
+
+* planner-gnus.el (planner-gnus-insinuate): Change keybinding for
+  planner-gnus. Thanks to drkm for the suggestion.
+
+* planner-el.texi (Gnus): Document new keybinding.
+

@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-36
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Apr  6 16:40:21 CST 2005
+Standard-date: 2005-04-06 08:40:21 GMT
+Modified-files: planner-bookmark.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-36
+Summary: conditional require remember.el
+Keywords: newfeature, update
+
+* planner-bookmark.el: remove global require of remember
+  (bookmark-set): require remember only if
+  planner-bookmark-take-note-after-set-bookmark-flag is set tot.
+  
+

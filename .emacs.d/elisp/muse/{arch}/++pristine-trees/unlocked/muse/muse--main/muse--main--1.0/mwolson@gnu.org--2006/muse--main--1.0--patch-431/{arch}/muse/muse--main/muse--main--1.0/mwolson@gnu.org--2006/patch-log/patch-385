@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-385
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 12 16:55:11 EDT 2007
+Standard-date: 2007-07-12 20:55:11 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-385
+Summary: Really fix error when loading Muse with muse-project-alist set to nil
+Keywords: 
+
+2007-07-12  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-wiki.el (muse-wiki-interwiki-regexp): Set to nil by
+	default, rather than the empty string.  This really fixes the bug
+	that occurred when using Muse with muse-project-alist set to nil.
+	Thanks to Jonathan Underwood for the report.
+	(muse-wiki-update-interwiki-regexp): Set
+	muse-wiki-interwiki-regexp to nil if muse-project-alist is not
+	defined.
+	(muse-wiki-handle-implicit-interwiki)
+	(muse-wiki-handle-explicit-interwiki): Handle case where
+	muse-wiki-interwiki-regexp is nil.

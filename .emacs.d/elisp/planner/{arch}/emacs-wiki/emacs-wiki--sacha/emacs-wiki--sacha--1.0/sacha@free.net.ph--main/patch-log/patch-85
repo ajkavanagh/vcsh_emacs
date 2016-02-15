@@ -1,0 +1,14 @@
+Revision: emacs-wiki--sacha--1.0--patch-85
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 11 21:58:38 PHT 2004
+Standard-date: 2004-03-11 13:58:38 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-85
+Summary: Further planner-renumber-tasks optimization
+Keywords: 
+
+	* planner.el (planner-renumber-tasks): Further optimization. Don't
+	use a regular expression to check for further tasks. Use character
+	comparison instead. This should trim off another second or two.
+

@@ -1,0 +1,51 @@
+Revision: planner--dev--1.0--patch-363
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Apr  2 07:48:06 PHT 2005
+Standard-date: 2005-04-01 23:48:06 GMT
+Modified-files: ChangeLog planner-el.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-363
+Summary: Merge docfixes from johnsu01
+Keywords: 
+
+ 2005-03-23  johnsu01  <john@wjsullivan.net>
+ * planner-el.texi (Top): Added descriptions to some menu items.
+   (Managing Your Information): Added descriptions to menu items.
+   (Task Ranks): Incorporated patch-339
+   (Task Ranks): Incorporated patch-341.
+   (Acknowledgements): Incorporated patch-351.
+ 2005-03-14  johnsu01  <john@wjsullivan.net>
+ * planner-el.texi (Log Edit): Added cindex entries in parallel
+   with other sections
+   (Logs and Version Control): Added cindex entries in parallel with
+   other sections.
+   (Schedule): Changed and added @cindex entries in parallel form
+   with other sections.
+   (Emacs Relay Chat): Added @cindex entries for IRC, and for
+   expansion of both ERC and IRC.
+   (Finances): Added @cindex.
+   (Ledger): Added @cindex.
+   (Contacts): Changed name to Contacts and Conversations, updated
+   all relevant references. Added @cindex entries.
+   (Appointments): Added @cindex.
+   (Task-based Appointments): Added @cindex.
+   (Task-based Appointments): Fixed @pxref formatting.
+   (Schedule-based Appointments): Added @cindex entries.
+   (Appt Notes): Added @cindex entries.
+   (Gnus): Changed @ref to @inforef.
+   (Schedule.el): Changed subsection title to be schedule.el. 
+   (Schedule.el): Changed node name to be schedule.el
+   (More about Tasks): Added reference to other schedule.el section.
+   (Rmail): Changed ref to inforef
+   (Bookmark): Added inforef to Emacs manual Bookmarks section.
+  2005-03-11  johnsu01  <john@wjsullivan.net>
+  * planner-el.texi: Reorganized "Integrating with Emacs" section
+   into smaller sections formed by some common categories used in
+   personal information management. Corrected the name of the info
+   file in the section on how to install the info file.
+   (Ledger) Made the planner-ledger @cindex entry use the same form
+   as the other @cindex entries for modules.
+   (Unix mail): Removed erroneous Rmail @cindex entry in this
+   section.
+	
+

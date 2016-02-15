@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-28
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 15 01:11:08 PHT 2004
+Standard-date: 2004-04-14 17:11:08 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-28
+Summary: Feature: planner-add-task-at-end-flag
+Keywords: 
+
+	* planner.el (planner-add-task-at-end-flag): New.
+	(planner-create-task-from-info): Create at creation point,
+	wherever that is.
+	(planner-read-name, planner-file-alist, planner-page-file):
+	Docfix. Satisfy checkdoc.
+	(planner-seek-task-creation-point): New.
+	(planner-copy-or-move-task): Create at creation point.
+	(planner-update-task): Create at creation point.
+	(planner-copy-or-move-region): Obey planner-add-task-at-end-flag.
+

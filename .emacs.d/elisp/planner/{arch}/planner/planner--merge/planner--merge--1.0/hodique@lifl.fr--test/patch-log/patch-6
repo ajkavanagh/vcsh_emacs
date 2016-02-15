@@ -1,0 +1,13 @@
+Revision: planner--merge--1.0--patch-6
+Archive: hodique@lifl.fr--test
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 14 14:32:27 CEST 2005
+Standard-date: 2005-07-14 12:32:27 GMT
+Modified-files: planner-customize.el planner.el
+New-patches: hodique@lifl.fr--test/planner--merge--1.0--patch-6
+Summary: Fix planner-mode-map
+Keywords:
+
+* planner-customize.el: moved more stuff from planner.el
+
+* planner.el: fix requirements order so that planner-mode-map is honored

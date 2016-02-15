@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-240
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Nov  4 00:43:47 EST 2006
+Standard-date: 2006-11-04 05:43:47 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-240
+Summary: Be smarter about where explicit interwiki links end
+Keywords: 
+
+2006-11-04  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-wiki.el (muse-wiki-update-interwiki-regexp): Make page
+	optional, and make interwiki delimiter a regular rather than shy
+	group.
+	(muse-wiki-handle-implicit-interwiki): Rename from
+	muse-wiki-handle-interwiki.  Use match group 3 to get the page.
+	(muse-wiki-handle-explicit-interwiki): New function that is
+	smarter about where an explicit link ends in a buffer.  This
+	allows you to refer to page names with invalid Wiki characters,
+	such as underscores and dashes, merely by enclosing them in double
+	brackets.

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-108
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr 14 14:56:30 EDT 2006
+Standard-date: 2006-04-14 18:56:30 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-108
+Summary: muse-wiki: Fix bug that caused WikiWords not to publish or display.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-handle-wikiword): Logic fix.

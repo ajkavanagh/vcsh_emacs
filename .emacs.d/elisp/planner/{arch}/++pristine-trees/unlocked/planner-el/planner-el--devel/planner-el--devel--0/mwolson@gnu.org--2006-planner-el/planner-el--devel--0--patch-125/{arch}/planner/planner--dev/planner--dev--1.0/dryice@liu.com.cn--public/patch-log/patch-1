@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-1
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 11:27:19 CST 2005
+Standard-date: 2005-01-30 03:27:19 GMT
+Modified-files: planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-1
+Summary: New function planner-set-task-category
+Keywords: planner-set-task-category
+
+* planner.el (planner-set-task-category): New function, set the category
+  of the current task. This is a helper function and not user visuable.
+
+
+
+
+
+
+
+

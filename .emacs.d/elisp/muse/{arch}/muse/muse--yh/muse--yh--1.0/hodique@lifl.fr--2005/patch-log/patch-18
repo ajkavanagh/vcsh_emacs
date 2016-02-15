@@ -1,0 +1,12 @@
+Revision: muse--yh--1.0--patch-18
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sun Jul  3 21:32:00 CEST 2005
+Standard-date: 2005-07-03 19:32:00 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-18
+Summary: small improvement on muse-make-link
+Keywords:
+
+* lisp/muse-mode.el (muse-make-link): if `link' is already a muse link, change its description
+

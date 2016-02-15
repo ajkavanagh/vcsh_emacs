@@ -1,0 +1,16 @@
+Revision: emacs-wiki--sacha--1.0--patch-28
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Feb 11 22:58:53 PHT 2004
+Standard-date: 2004-02-11 14:58:53 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-28
+Summary: Bugfix: planner-seek-to-first inserts correct number of spaces.
+Keywords: 
+
+	* planner.el (planner-seek-to-first): Function now attempts to
+	insert the correct number of spaces. This may be slower, though,
+	with all the regular-expression matching. It now correctly deals
+	with sections at the bottom end of a file and sections placed
+	right before sections (< 2 blank lines in between).
+ 

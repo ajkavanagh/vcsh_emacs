@@ -1,0 +1,10 @@
+Revision: planner--dev--1.0--patch-266
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec 27 12:48:28 JST 2004
+Standard-date: 2004-12-27 03:48:28 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-266
+Summary: Fix typo in planner-find-file
+Keywords: 
+

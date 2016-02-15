@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-92
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sat Nov  4 04:31:03 EST 2006
+Standard-date: 2006-11-04 09:31:03 GMT
+Modified-files: ChangeLog planner-mhe.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-92
+Summary: Remove unnecessary require, from Christophe Garion
+Keywords: 
+
+
+

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-34
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Mar  1 16:00:41 EST 2006
+Standard-date: 2006-03-01 21:00:41 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-34
+Summary: Make sure an initial term exists before publishing definition list.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-markup-list): Ensure that a term
+  exists before publishing a definition list.

@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-59
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Mar 12 16:12:48 EST 2006
+Standard-date: 2006-03-12 21:12:48 GMT
+Modified-files: ChangeLog.2006 lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-59
+Summary: Fix output for consecutive list items of same type.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-surround-text): Make calculated
+  post-indent and indent-found values local to each list item.  This
+  should fix undesired behavior with consecutive list items of the same
+  type.

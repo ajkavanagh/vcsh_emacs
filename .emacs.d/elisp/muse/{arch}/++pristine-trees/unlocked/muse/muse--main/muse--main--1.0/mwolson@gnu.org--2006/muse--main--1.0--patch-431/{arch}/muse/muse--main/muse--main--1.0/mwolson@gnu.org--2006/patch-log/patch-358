@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-358
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 15 14:48:06 EDT 2007
+Standard-date: 2007-06-15 18:48:06 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-mode.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-358
+Summary: Make C-c C-i do the same thing as C-c TAB
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-toggle-inline-images): Docfix.  Remove
+  C-c C-i keybinding, since it conflicts with C-c TAB in the terminal,
+  and C-c TAB is more important.  Most people will not want to toggle
+  images on and off that often.
+
+* lisp/muse-mode.el (muse-mode-map): Bind muse-insert-thing to C-c C-i as
+  well, so that it works in the terminal.
+
+* texi/muse.texi: (Keystroke Summary): Remove C-c C-i (`muse-insert-tag')
+  documentation, and mention C-c C-i as an alternative keybinding to the
+  C-c TAB stuff.  Mention muse-colors-toggle-inline-images.

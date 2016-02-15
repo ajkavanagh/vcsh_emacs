@@ -1,0 +1,29 @@
+Revision: muse--rel--3.02--patch-4
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Nov 16 20:41:17 EST 2005
+Standard-date: 2005-11-17 01:41:17 GMT
+Modified-files: experimental/muse-xml.el
+    lisp/muse-docbook.el lisp/muse-html.el
+    lisp/muse-latex.el lisp/muse-publish.el
+    lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-4
+Summary: Add markup for comments, via parts of patch-261.
+Keywords: 
+
+* experimental/muse-xml.el (muse-xml-markup-strings): Produce markup for
+  'comment-begin and 'comment-end.
+
+* lisp/muse-docbook.el (muse-docbook-markup-strings): Ditto.
+
+* lisp/muse-html.el (muse-html-markup-strings): Ditto.
+
+* lisp/muse-texinfo.el (muse-texinfo-markup-strings): Ditto.
+
+* lisp/muse-latex.el (muse-latex-markup-strings): Ditto.
+
+* lisp/muse-publish.el (muse-publish-comments-p): New option that
+  determines whether comments should be deleted or published.  Default is
+  to delete.
+  (muse-publish-markup-comment, muse-publish-comment-tag): Use
+  muse-publish-comments-p.

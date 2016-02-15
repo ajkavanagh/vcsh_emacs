@@ -1,0 +1,13 @@
+Revision: planner--main--1.0--patch-19
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Mar 14 15:03:31 EST 2006
+Standard-date: 2006-03-14 20:03:31 GMT
+Modified-files: planner-calendar.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-19
+Summary: planner-calendar: Fix publishing bug.
+Keywords: 
+
+* planner-calendar.el (planner-calendar-html-tag-marker): Use the correct
+  value so that the calendar is published properly.  Thanks to Christian
+  Clercin and René.

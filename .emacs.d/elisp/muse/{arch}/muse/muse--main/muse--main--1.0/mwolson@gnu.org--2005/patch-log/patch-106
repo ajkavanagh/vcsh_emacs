@@ -1,0 +1,25 @@
+Revision: muse--main--1.0--patch-106
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul  8 01:40:30 EST 2005
+Standard-date: 2005-07-08 06:40:30 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-mode.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-106
+Summary: Implement several WikiWord handling fixes.
+Keywords: 
+
+* lisp/muse-colors.el (muse-link-face): Handle case where no link is
+  found by the handlers.  Don't send implicit links through some of the
+  advanced checks.
+
+* lisp/muse-mode.el (muse-link-at-point): Move to beginning of first part
+  of interwiki link before calling `muse-handle-explicit-link'.
+
+* lisp/muse-wiki.el (muse-wiki-update-interwiki-regexp): Append forgotten
+  "\\|" separator between project-alist entries and interwiki entries.
+  Force a reconfiguration of muse-colors-markup.
+
+* lisp/muse-wiki.el (muse-wiki-handle-wikiword): Add several checks to be
+  sure that we don't colorize WikiNames that don't go with any file.
+

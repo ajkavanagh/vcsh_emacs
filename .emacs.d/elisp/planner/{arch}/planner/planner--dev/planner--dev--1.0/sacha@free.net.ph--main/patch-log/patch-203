@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-203
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Nov 20 18:13:36 JST 2004
+Standard-date: 2004-11-20 09:13:36 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-203
+Summary: Minor fix: Add planner-task-cancelled to menu
+Keywords: minor
+
+	* planner.el (planner-menu): Add planner-task-cancelled.
+        Thanks to Jody Klymak for pointing this out.

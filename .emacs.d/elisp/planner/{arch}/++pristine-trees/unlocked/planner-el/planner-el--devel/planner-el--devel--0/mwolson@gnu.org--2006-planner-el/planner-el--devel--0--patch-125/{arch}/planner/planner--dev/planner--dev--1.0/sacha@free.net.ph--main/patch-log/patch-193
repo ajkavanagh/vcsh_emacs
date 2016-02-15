@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-193
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Oct 31 14:37:33 JST 2004
+Standard-date: 2004-10-31 05:37:33 GMT
+Modified-files: planner-accomplishments.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-193
+Summary: planner-accomplishments-insinuate: Try different file hooks.
+Keywords: bugfix
+
+	* planner-accomplishments.el (planner-accomplishments-insinuate):
+	Try the different file hooks. Compatibility is hard.
+        Thanks to Christopher San Diego for the bug report.

@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-91
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed May 26 14:53:01 PHT 2004
+Standard-date: 2004-05-26 06:53:01 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-91
+Summary: Bugfix: Pass correct arguments in planner-diary-entries-here
+Keywords: 
+
+	* planner-diary.el (planner-diary-entries-here): Bugfix: Pass
+	correct arguments to planner-diary-get-diary-entries. It should be
+	DATE DAYS FILE, not DATE FILE DAYS. Thanks to Brett Presnell for
+        the bug report.

@@ -1,0 +1,72 @@
+Revision: muse--jeho--1.0--patch-31
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Aug 22 13:41:32 BST 2006
+Standard-date: 2006-08-22 12:41:32 GMT
+New-files: .arch-ids/ChangeLog.id ChangeLog
+Modified-files: Makefile Makefile.defs NEWS
+    experimental/Makefile lisp/Makefile lisp/muse-docbook.el
+    lisp/muse-html.el lisp/muse-latex2png.el
+    lisp/muse-project.el lisp/muse-publish.el lisp/muse.el
+    muse.texi
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-31
+    mwolson@gnu.org--2006/muse--main--1.0--patch-181
+    mwolson@gnu.org--2006/muse--main--1.0--patch-182
+    mwolson@gnu.org--2006/muse--main--1.0--patch-183
+    mwolson@gnu.org--2006/muse--main--1.0--patch-184
+    mwolson@gnu.org--2006/muse--main--1.0--patch-185
+    mwolson@gnu.org--2006/muse--main--1.0--patch-186
+    mwolson@gnu.org--2006/muse--main--1.0--patch-187
+    mwolson@gnu.org--2006/muse--main--1.0--patch-188
+    mwolson@gnu.org--2006/muse--main--1.0--patch-189
+    mwolson@gnu.org--2006/muse--main--1.0--patch-190
+    mwolson@gnu.org--2006/muse--main--1.0--patch-191
+    mwolson@gnu.org--2006/muse--main--1.0--patch-192
+    mwolson@gnu.org--2006/muse--main--1.0--patch-193
+    mwolson@gnu.org--2006/muse--main--1.0--patch-194
+Summary: Merged from mwolson@gnu.org--2006 (patch 181-194)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-181
+   Fix issue with table of contents and derived html styles.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-182
+   Make centered captioned images work for XHTML.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-183
+   muse-latex2png: Parametrize and create subdirectory when needed.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-184
+   Commit ChangeLog file.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-185
+   Make implicit URL descriptions publish better.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-186
+   Miscellaneous clean-ups.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-187
+   If style is used twice, prompt for the directory.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-188
+   Catch up with NEWS items.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-189
+   Minor Makefile tweak.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-190
+   More of the same.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-191
+   Make sure the autoloads file is distributed with releases.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-192
+   Really put autoloads in the right place.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-193
+   Make second release candidate (3.02.92) available.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-194
+   Fix issue where backup files were being added to the file alist.

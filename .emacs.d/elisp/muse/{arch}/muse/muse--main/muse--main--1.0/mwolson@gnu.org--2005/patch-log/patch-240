@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-240
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep 22 11:15:59 EST 2005
+Standard-date: 2005-09-22 16:15:59 GMT
+Modified-files: ChangeLog experimental/muse-xml.el
+    lisp/muse-docbook.el lisp/muse-html.el
+    lisp/muse-latex.el lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-240
+Summary: If more than 1 blank separates list/table items, separate them.
+Keywords: 
+
+* lisp/muse-docbook.el, muse-html.el, muse-latex.el, muse-texinfo.el,
+  experimental/muse-xml.el (muse-*-markup-regexps): If more than 1 blank
+  line separates a list or table item, it will form a new table.

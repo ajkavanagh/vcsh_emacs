@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-50
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 02:07:25 EST 2005
+Standard-date: 2005-08-09 07:07:25 GMT
+Modified-files: ChangeLog.mwolson planner.el
+    scripts/planner-build.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-50
+Summary: Remove old code sections.
+Keywords: 
+
+* planner.el: Remove commented-out sections.
+
+* scripts/planner-build.el (load-path): Use my path to Muse.  Others can
+  edit it as they will in their own branches :^) .

@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-132
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jun 26 16:05:03 PHT 2004
+Standard-date: 2004-06-26 08:05:03 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-132
+Summary: Make note/task renumbering optional
+Keywords: improvement
+
+	* planner.el (planner-renumber-notes-automatically): New.
+	(planner-renumber-tasks-automatically): New.
+	(planner-align-tasks-automatically): New.
+
+	* planner.texi (Making Files Pretty): Document new options.
+
+	* planner.el (planner-mode): Do not automatically align and
+	renumber tasks and notes.

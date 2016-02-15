@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-423
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Jun 22 00:23:33 PHT 2005
+Standard-date: 2005-06-21 16:23:33 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-423
+Summary: Bugfix: planner-browse-position-url: Do not clobber match data
+Keywords: 
+
+* planner.el (planner-browse-position-url): Improve match data handling.
+  Thanks to Romain Francoise for the patch.

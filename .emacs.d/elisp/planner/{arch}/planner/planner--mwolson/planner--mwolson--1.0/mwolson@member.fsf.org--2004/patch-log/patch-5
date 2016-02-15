@@ -1,0 +1,21 @@
+Revision: planner--mwolson--1.0--patch-5
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Sun Sep 19 01:36:59 EST 2004
+Standard-date: 2004-09-19 06:36:59 GMT
+Modified-files: planner.el
+New-patches: mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-5
+Summary: Fix scenario where the old project name still existed in project
+  list after being changed.
+Keywords:
+
+2004-09-19  Michael Olson  <mwolson@member.fsf.org>
+
+	* planner.el (planner-project-default-name): New variable that
+	indicates what the default value of `planner-project' will be set
+	to.
+	(planner-project): Use `planner-project-default-name' for default
+	value instead of a string.
+	(planner-update-wiki-project): Add comments and remove any items
+	from `emacs-wiki-projects' that are associated with the default
+	name found in `planner-project-default-name'.

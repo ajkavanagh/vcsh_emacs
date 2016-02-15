@@ -1,0 +1,24 @@
+Revision: muse-el--devel--0--patch-151
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 12 16:59:07 EDT 2007
+Standard-date: 2007-07-12 20:59:07 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-wiki.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-151
+    mwolson@gnu.org--2006/muse--main--1.0--patch-383
+    mwolson@gnu.org--2006/muse--main--1.0--patch-384
+    mwolson@gnu.org--2006/muse--main--1.0--patch-385
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 383-385)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-383
+   Try to fix error when loading Muse with muse-project-alist set to nil
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-384
+   Work around a very bad color-theme.el bug
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-385
+   Really fix error when loading Muse with muse-project-alist set to nil

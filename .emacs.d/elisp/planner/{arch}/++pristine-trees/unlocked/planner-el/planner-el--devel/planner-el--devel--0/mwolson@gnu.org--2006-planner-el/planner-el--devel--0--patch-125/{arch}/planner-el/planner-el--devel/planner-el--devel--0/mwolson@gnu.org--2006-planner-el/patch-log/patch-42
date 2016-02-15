@@ -1,0 +1,21 @@
+Revision: planner-el--devel--0--patch-42
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun  1 09:55:40 EDT 2006
+Standard-date: 2006-06-01 13:55:40 GMT
+Modified-files: ChangeLog ChangeLog.2005 Makefile.defs
+    contrib/timeclock.el debian/changelog
+    debian/emacsen-startup planner.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-42
+    mwolson@gnu.org--2006/planner--main--1.0--patch-51
+    mwolson@gnu.org--2006/planner--main--1.0--patch-52
+Summary: Merged from mwolson@gnu.org--2006 (patch 51-52)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-51
+   Avoid a backtrace when using planner-calendar and not publishing.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-52
+   Add explanation for timeclock.el error.

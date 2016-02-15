@@ -1,0 +1,12 @@
+Revision: planner--main--1.0--patch-39
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr 26 15:55:13 EDT 2006
+Standard-date: 2006-04-26 19:55:13 GMT
+Modified-files: planner-publish.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-39
+Summary: Add default CSS elements for calendar stuff.
+Keywords: 
+
+* planner-publish.el (planner-html-style-sheet): Add some default CSS
+  elements for calendar stuff.

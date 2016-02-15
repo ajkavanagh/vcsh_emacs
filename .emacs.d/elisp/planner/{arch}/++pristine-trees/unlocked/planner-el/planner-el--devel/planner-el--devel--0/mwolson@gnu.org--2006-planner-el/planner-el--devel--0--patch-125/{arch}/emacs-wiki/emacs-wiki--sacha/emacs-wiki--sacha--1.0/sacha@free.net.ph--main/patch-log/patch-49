@@ -1,0 +1,17 @@
+Revision: emacs-wiki--sacha--1.0--patch-49
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Feb 26 20:02:20 PHT 2004
+Standard-date: 2004-02-26 12:02:20 GMT
+Modified-files: planner-gnus.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-49
+Summary: Rearranged customization options and removed Gnus links from published pages
+Keywords: 
+
+	* planner.el: Rearranged customization entries for ease of use.
+	(planner-mode-hook): Removed from customization entries as this is
+	automatically defined by the creation of a major mode.
+	(planner-markup-url): Do not strip other characters from the ID.
+
+	* planner-gnus.el (planner-gnus-resolve-url): Gnus IDs should not be displayed.
+	(planner-resolve-url-table): Add planner-gnus-resolve-url here.

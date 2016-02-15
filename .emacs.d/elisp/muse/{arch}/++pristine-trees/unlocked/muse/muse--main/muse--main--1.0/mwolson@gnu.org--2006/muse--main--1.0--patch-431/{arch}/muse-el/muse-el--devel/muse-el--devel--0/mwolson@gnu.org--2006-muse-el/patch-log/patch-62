@@ -1,0 +1,16 @@
+Revision: muse-el--devel--0--patch-62
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr 25 18:30:09 EDT 2006
+Standard-date: 2006-04-25 22:30:09 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    contrib/Makefile debian/changelog lisp/Makefile
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-62
+    mwolson@gnu.org--2006/muse--main--1.0--patch-117
+Summary: Merged from mwolson@gnu.org--2006 (patch 117)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-117
+   Make build targets more consistent.

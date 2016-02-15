@@ -1,0 +1,17 @@
+Revision: muse--main--1.0--patch-168
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 20 14:45:15 EST 2005
+Standard-date: 2005-07-20 19:45:15 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-168
+Summary: Don't emphasize if a word constituent follows the trailer.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-emphasized, muse-colors-underlined)
+  (muse-colors-verbatim): Don't colorize if a word constituent follows
+  the trailer.
+
+* lisp/muse-publish.el (muse-publish-markup-word): Don't publish if a
+  word constituent follows the trailer.

@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-141
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jul 14 20:57:51 EST 2005
+Standard-date: 2005-07-15 01:57:51 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-141
+Summary: Be a bit more clever with our consecutive list regexp.
+Keywords: 
+
+* lisp/muse-docbook.el (muse-docbook-markup-regexps): Be a bit more
+  clever with our consecutive list regexp.

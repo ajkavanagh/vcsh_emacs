@@ -1,0 +1,29 @@
+Revision: planner-muse--mwolson--1.0--patch-47
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug  9 00:22:29 EST 2005
+Standard-date: 2005-08-09 05:22:29 GMT
+Modified-files: ChangeLog.mwolson Makefile.defs
+    debian/README.Debian debian/changelog debian/conffiles
+    debian/control debian/emacsen-install
+    debian/emacsen-remove debian/emacsen-startup
+    debian/rules
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-47
+Summary: Prepare initial Debian package for planner-muse-el.
+Keywords: 
+
+* Makefile.defs (ELISPDIR, VERSION): Adapt for planner-muse build.
+
+* debian/README.Debian: Add note about Muse port.
+
+* debian/changelog: Prepare package planner-muse-el 3.30.arch.47-1.
+
+* debian/conffiles: Adapt for planner-muse.
+
+* debian/control (Source, Maintainer, Standards-Version, Package)
+  (Depends, Description): Ditto.
+
+* debian/emacsen-install, debian/emacsen-remove, debian/emacsen-startup:
+  Ditto.
+
+* debian/rules: Simplify and adapt for planner-muse.

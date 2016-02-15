@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-213
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Nov 30 08:18:13 JST 2004
+Standard-date: 2004-11-29 23:18:13 GMT
+Modified-files: planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-213
+Summary: Bugfix: planner-gnus-browse-url: Remove Emacs CVS-ism in split-string
+Keywords: bugfix
+
+	* planner-gnus.el (planner-gnus-browse-url): Remove Emacs
+	CVS-ism (split-string with three arguments). Thanks to Dryice Liu
+	for the bug report.

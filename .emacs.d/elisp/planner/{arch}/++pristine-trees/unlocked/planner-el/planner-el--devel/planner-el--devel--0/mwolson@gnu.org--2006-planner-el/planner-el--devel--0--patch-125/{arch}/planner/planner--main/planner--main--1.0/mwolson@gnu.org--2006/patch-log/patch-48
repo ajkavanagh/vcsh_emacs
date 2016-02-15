@@ -1,0 +1,15 @@
+Revision: planner--main--1.0--patch-48
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed May 24 21:20:42 EDT 2006
+Standard-date: 2006-05-25 01:20:42 GMT
+Modified-files: planner.el
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-48
+Summary: Fix lock up with old delegated task mark.
+Keywords: 
+
+* planner.el (planner-marks-regexp): Docfix.
+  (planner-task-regexp): Don't include marks; be more lenient, since
+  planner-id uses this as a metric for finding a task, and we don't want
+  tasks with strange marks to cause it not to find a task.
+  (plan): Indentation.

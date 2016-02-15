@@ -1,0 +1,15 @@
+Revision: emacs-wiki--dev--1.0--patch-43
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Thu Jan 15 14:27:21 EST 2004
+Standard-date: 2004-01-15 03:27:21 GMT
+Modified-files: emacs-wiki.el
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-43
+Summary: fixes: tables, bindings, follow-name-at-mouse
+Keywords: 
+
+ * fix a problem with table generation on emacs, due to split-string
+   change? markup-table could be refactored better
+ * don't bind shift control m in xemacs - it doesn't like it
+ * follow the emacs-wiki link in follow-name-at-mouse after exiting
+   the save-excursion form

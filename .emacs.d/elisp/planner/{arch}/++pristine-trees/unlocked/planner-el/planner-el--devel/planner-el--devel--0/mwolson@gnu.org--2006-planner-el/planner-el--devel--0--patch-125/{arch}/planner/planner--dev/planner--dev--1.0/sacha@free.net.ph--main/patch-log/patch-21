@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-21
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Apr 11 14:36:11 PHT 2004
+Standard-date: 2004-04-11 06:36:11 GMT
+Modified-files: planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-21
+Summary: Bugfix: Refontify after adding task IDs to all tasks
+Keywords: 
+
+	* planner-id.el: Docfix: Add URL.
+	(planner-id-add-task-id-to-all): Bugfix: Refontify after adding
+	task IDs.
+

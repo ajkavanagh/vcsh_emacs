@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-119
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul  9 15:24:40 EST 2005
+Standard-date: 2005-07-09 20:24:40 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-119
+Summary: XEmacs wiki fix.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-colors-wikiword): Use
+  `muse-match-string-no-properties' so XEmacs doesn't complain.

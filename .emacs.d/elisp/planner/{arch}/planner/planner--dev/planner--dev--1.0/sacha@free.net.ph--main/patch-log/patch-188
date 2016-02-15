@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-188
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Oct 23 17:39:52 JST 2004
+Standard-date: 2004-10-23 08:39:52 GMT
+Modified-files: planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-188
+Summary: planner-gnus patch from kanaldrache: use process marks
+Keywords: external patch improvement
+
+	* planner-gnus.el: Merge patch from Mario Domgörgen.
+	(planner-gnus-get-message-id): Allow the use of article numbers.
+	(planner-gnus-annotation-from-summary): Allow process marks.
+	(planner-gnus-browse-url): Allow process marks.

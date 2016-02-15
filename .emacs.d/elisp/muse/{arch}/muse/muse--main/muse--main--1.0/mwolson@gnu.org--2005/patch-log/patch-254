@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-254
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Oct 28 12:05:42 EST 2005
+Standard-date: 2005-10-28 17:05:42 GMT
+Modified-files: AUTHORS ChangeLog contrib/muse-latex2png.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-254
+Summary: contrib/muse-latex2png.el: Put images in the correct directory.
+Keywords: 
+
+* contrib/muse-latex2png.el (latex2png-move2pubdir)
+  (muse-publish-latex-tag): Apply patch from Na Li and Chris Lowis that
+  puts generated images in the correct directory.

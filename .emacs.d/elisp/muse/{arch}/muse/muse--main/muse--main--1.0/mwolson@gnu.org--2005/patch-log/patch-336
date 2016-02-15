@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-336
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan  1 14:15:02 EST 2006
+Standard-date: 2006-01-01 19:15:02 GMT
+Modified-files: ChangeLog lisp/muse-xml-common.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-336
+Summary: Fix #4971.
+Keywords: 
+
+* lisp/muse-xml-common.el (muse-xml-escape-url): Don't escape "+".

@@ -1,0 +1,28 @@
+Revision: muse-el--devel--0--patch-113
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Nov  4 01:07:14 EST 2006
+Standard-date: 2006-11-04 06:07:14 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+    lisp/muse-publish.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-113
+    mwolson@gnu.org--2006/muse--main--1.0--patch-238
+    mwolson@gnu.org--2006/muse--main--1.0--patch-239
+    mwolson@gnu.org--2006/muse--main--1.0--patch-240
+    mwolson@gnu.org--2006/muse--main--1.0--patch-241
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 238-241)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-238
+   Fix bug when using C-c C-T to publish a file
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-239
+   Try to make relative links to project pages work
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-240
+   Be smarter about where explicit interwiki links end
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-241
+   Fix bug with recognizing wiki project names too loosely

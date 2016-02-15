@@ -1,0 +1,16 @@
+Revision: planner--main--1.0--patch-29
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  7 21:32:20 EDT 2006
+Standard-date: 2006-04-08 01:32:20 GMT
+New-files: .arch-ids/planner-registry.el.id
+    planner-registry.el
+Modified-files: AUTHORS
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-29
+Summary: Include planner-registry.el.
+Keywords: 
+
+* planner-registry.el: New file that implements a registry of URLs and
+  Planner annotations.  This used to be called muse-registry.el, but it
+  has been renamed to planner-registry.el since it fits better with
+  Planner.

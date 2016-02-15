@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-74
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Aug 11 14:15:53 EDT 2006
+Standard-date: 2006-08-11 18:15:53 GMT
+Modified-files: ChangeLog planner-calendar.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-74
+Summary: planner-calendar: Fix bug.
+Keywords: 
+
+* planner-calendar.el (planner-calendar-published-file-href): Fix
+  potential error when the calendar for next month is empty.

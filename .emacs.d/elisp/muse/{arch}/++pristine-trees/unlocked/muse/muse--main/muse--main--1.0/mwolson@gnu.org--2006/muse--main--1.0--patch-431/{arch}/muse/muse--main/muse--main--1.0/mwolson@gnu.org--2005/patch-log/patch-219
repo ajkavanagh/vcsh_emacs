@@ -1,0 +1,26 @@
+Revision: muse--main--1.0--patch-219
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Sep  2 17:57:04 EST 2005
+Standard-date: 2005-09-02 22:57:04 GMT
+New-files: lisp/.arch-ids/muse-protocols.el.id
+    lisp/muse-protocols.el
+Modified-files: ChangeLog lisp/muse-mode.el
+    lisp/muse-publish.el lisp/muse-regexps.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-219
+Summary: Implement protocol handling.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode): Call muse-update-url-regexp.  Maybe I
+  should just make a hook for this stuff.
+  (muse-visit-link-default): Call muse-browse-url instead of browse-url.
+
+* lisp/muse-protocols.el: New file that implements protocol handling.
+
+* lisp/muse-publish.el (muse-publish-url-transforms): Add
+  muse-resolve-url.
+  (muse-publish-markup-url): Indentation fix, no func change.
+
+* lisp/muse-regexps.el (muse-url-regexp): Move to muse-protocols.el.
+
+* lisp/muse.el: Require muse-protocols.

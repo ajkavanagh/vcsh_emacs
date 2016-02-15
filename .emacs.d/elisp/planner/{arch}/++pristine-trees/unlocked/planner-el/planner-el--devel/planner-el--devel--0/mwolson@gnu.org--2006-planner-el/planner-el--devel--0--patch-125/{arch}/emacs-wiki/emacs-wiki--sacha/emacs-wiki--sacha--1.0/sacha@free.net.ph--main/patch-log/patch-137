@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-137
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 24 11:55:12 PHT 2004
+Standard-date: 2004-03-24 03:55:12 GMT
+Modified-files: remember-planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-137
+Summary: Update documentation for remember-planner.el
+Keywords: 
+
+	* remember-planner.el: Update documentation.
+

@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-8
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 31 23:10:20 PHT 2004
+Standard-date: 2004-03-31 15:10:20 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-8
+Summary: Bugfix: Merge Nafai's patch correcting planner-diary.el
+Keywords: 
+
+	* planner-diary.el (planner-diary-insert-cal-desk): Merge Nafai's
+	patch correcting a typo.
+	(planner-diary-use-public-diary): Merge Nafai's patch correcting a
+	typo.
+

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-204
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Nov 25 12:37:09 JST 2004
+Standard-date: 2004-11-25 03:37:09 GMT
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-204
+Summary: planner.texi: Add pointer to online documentation
+Keywords: docfix
+
+	* planner.texi (Development Version): Add note about
+	documentation.
+	(Stable Version): Add note about documentation.

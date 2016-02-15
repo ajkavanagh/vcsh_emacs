@@ -1,0 +1,94 @@
+Revision: planner--jeho--1.1--patch-5
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Nov  7 19:58:01 GMT 2005
+Standard-date: 2005-11-07 19:58:01 GMT
+Removed-files: .arch-ids/ChangeLog.sacha.id
+    .arch-ids/ChangeLog.yh.id ChangeLog.sacha ChangeLog.yh
+Renamed-files: .arch-ids/ChangeLog.mwolson.id .arch-ids/ChangeLog.id
+    ChangeLog.mwolson ChangeLog
+Modified-files: ChangeLog debian/emacsen-install
+    debian/rules planner-bibtex.el planner-deadline.el
+    planner-diary.el planner-publish.el planner-report.el
+    planner-timeclock-summary-proj.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-5
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-77
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-78
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-79
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-80
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-81
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-82
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-83
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-84
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-85
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-86
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-87
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-88
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-89
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-90
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-91
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-92
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-93
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-94
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-95
+Summary: Merged from mwolson@gnu.org--2005 (patch 77-95)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-77
+   planner-publish: New planner-xhtml publishing style.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-78
+   Install patches from Trent Buck.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-79
+   Remove other ChangeLogs.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-80
+   planner-bibtex: Use "bibtex:" to match bibtex URLs.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-81
+   Tasks with deadlines will be moved properly from previous days.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-82
+   Minor debian packaging fix.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-83
+   planner-deadline, planner-diary: Work even if day pages are disabled.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-84
+   Anti-day pages fix.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-85
+   Make day-page-less name expansion *really* work.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-86
+   planner-deadline: Yet another anti-day-pages fix.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-87
+   anti-day-pages: Deal with hitting ENTER in planner-read-date.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-88
+   Yet another anti-day-pages hack.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-89
+   Adapt to addition of muse-insert-markup in Muse.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-90
+   planner-report: Port to Planner-Muse.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-91
+   planner: Make shortened dates like "2005.1.6" Just Work.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-92
+   planner-deadline: Add "deadline-add" and "deadline-remove" functions.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-93
+   planner-timeclock-summary-proj.el: Add enhancements from twb.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-94
+   Turn raw dates into links.
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-95
+   Publish raw dates as links.

@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-235
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Oct 29 23:50:57 EST 2006
+Standard-date: 2006-10-30 04:50:57 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-235
+Summary: Fix bug #7424: Error in redisplay while using Emacs 21.3
+Keywords: 
+
+2006-10-29  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-wiki.el (muse-wiki-update-project-file-regexp)
+	(muse-wiki-update-interwiki-regexp): Ensure that nil is never
+	passed to regexp-opt, since that can cause Emacs 21 to throw an
+	"maximum binding depth exceeded" error.  Thanks to xs32 AT cornell
+	DOT edu for the report.
+	(muse-wiki-handle-wikiword): Avoid a potential stringp error.

@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-169
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 20 15:20:24 EST 2005
+Standard-date: 2005-07-20 20:20:24 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-169
+Summary: 5 levels of headings colorization; color bare URLs.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-emphasized, muse-colors-markup):
+  Really color up to 5 headings.
+  (muse-colors-markup): Add muse-url-regexp.
+  (muse-colors-explicit-link): Renamed from muse-colors-link.
+  (muse-colors-implicit-link): Moved here from
+  `muse-wiki-colors-wikiword' in muse-wiki.el.  We need it here since
+  we'll be coloring URLs.

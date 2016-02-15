@@ -1,0 +1,10 @@
+Revision: planner-muse--main--1.0--patch-14
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Mon Jan  2 20:40:44 EST 2006
+Standard-date: 2006-01-03 01:40:44 GMT
+Modified-files: planner.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-14
+Summary: don't insert task number padding if planner-use-task-numbers is nil
+Keywords: 
+

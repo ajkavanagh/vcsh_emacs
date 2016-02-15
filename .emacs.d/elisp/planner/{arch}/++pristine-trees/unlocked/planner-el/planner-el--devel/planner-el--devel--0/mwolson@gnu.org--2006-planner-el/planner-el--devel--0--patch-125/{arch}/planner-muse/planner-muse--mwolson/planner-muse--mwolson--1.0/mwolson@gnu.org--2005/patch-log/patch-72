@@ -1,0 +1,17 @@
+Revision: planner-muse--mwolson--1.0--patch-72
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Sep 29 23:03:09 EST 2005
+Standard-date: 2005-09-30 04:03:09 GMT
+Modified-files: ChangeLog.mwolson planner-w3m.el
+New-patches: john@wjsullivan.net--2005/planner--johnsu01--0--patch-22
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-23
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-72
+Summary: Merged from john@wjsullivan.net--2005 (patch 22-23)
+Keywords: merge
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-22
+   Catch up with Sacha.
+
+ * john@wjsullivan.net--2005/planner--johnsu01--0--patch-23
+   w3m-current-title is often nil, so we also check w3m-buffer-title.

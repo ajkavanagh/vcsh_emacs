@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-76
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Aug 18 09:58:13 EDT 2006
+Standard-date: 2006-08-18 13:58:13 GMT
+Modified-files: ChangeLog planner-timeclock-summary-proj.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-76
+Summary: planner-timeclock-summary-proj: Install bugfix from Marko Schütz.
+Keywords: 
+
+2006-08-18  Marko Schütz  <schutz_m@usp.ac.fj>
+
+	* planner-timeclock-summary-proj.el
+	(planner-timeclock-proj-entries): Fix bug that occurred when a
+	timeclock entry had no project name.

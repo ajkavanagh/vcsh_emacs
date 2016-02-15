@@ -1,0 +1,21 @@
+Revision: planner--dev--1.0--patch-484
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Aug 31 11:34:57 EDT 2005
+Standard-date: 2005-08-31 15:34:57 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-484
+Summary: Bugfix: planner-delete-task and planner-edit-task-description-basic when linked tasks do not exist
+Keywords: 
+
+* planner.el: Thanks to Sergey Vlasov for the patches!
+  (planner-delete-task): Make sure task is found before deleting.
+  (planner-edit-task-description-basic): Use new description instead of
+  old one.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-459
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jul 25 10:28:13 EDT 2005
+Standard-date: 2005-07-25 14:28:13 GMT
+Modified-files: planner-calendar.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-459
+Summary: Bugfix: planner-calendar: Do not over-pad months that end with Sunday
+Keywords: 
+
+* planner-calendar.el (planner-calendar): Merge small patch from drkm to
+  fix planner-calendar boundary case when last day of the month is
+  Sunday.

@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-91
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr  5 14:45:01 EDT 2006
+Standard-date: 2006-04-05 18:45:01 GMT
+Modified-files: ChangeLog.2006 lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-91
+Summary: Make interwiki links work with the new option.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-update-interwiki-regexp): Take no
+  parameters.  Populate this correctly when
+  `muse-wiki-match-all-project-files' is non-nil.

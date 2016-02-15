@@ -1,0 +1,23 @@
+Revision: planner-muse--peter--1.0--patch-7
+Archive: saint@corenova.com--public-2005
+Creator: Peter K. Lee <saint@corenova.com>
+Date: Fri Aug 12 11:53:16 PDT 2005
+Standard-date: 2005-08-12 18:53:16 GMT
+Modified-files: planner-publish.el
+    planner-timeclock-summary.el planner-timeclock.el
+New-patches: saint@corenova.com--public-2005/planner-muse--peter--1.0--patch-7
+Summary: fix timeclock entry with planner-multi continue publishing :before hook
+Keywords: 
+
+* planner-publish.el (planner-publish-prepare-buffer): must return nil to
+  allow it to continue processing by other hooks
+
+* planner-timeclock.el (planner-timeclock-plan-string): fixed issue where
+	planner-multi is included in featurep, but not necessary used in
+	planner tasks.  Prevent 'Not Planned' classification on tasks that
+	*do* have plan association.
+
+* planner-timeclock-summary.el
+  (planner-timeclock-summary-make-text-table-day): if empty, show No
+  Entries
+

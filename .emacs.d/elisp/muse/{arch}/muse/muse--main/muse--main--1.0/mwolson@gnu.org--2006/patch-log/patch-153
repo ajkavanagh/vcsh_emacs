@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-153
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun  3 19:38:12 EDT 2006
+Standard-date: 2006-06-03 23:38:12 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-153
+Summary: Fix bug introduced in last patch.
+Keywords: 
+
+* muse-publish.el (muse-publish-include-tag): Fix bug introduced in last
+  patch.

@@ -1,0 +1,22 @@
+Revision: planner-muse--mwolson--1.0--patch-93
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Nov  1 22:37:57 EST 2005
+Standard-date: 2005-11-02 03:37:57 GMT
+Modified-files: ChangeLog planner-timeclock-summary-proj.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-93
+Summary: planner-timeclock-summary-proj.el: Add enhancements from twb.
+Keywords: 
+
+* planner-timeclock-summary-proj.el: Merge enhancements from Trent Buck.
+  (planner-timeclock-summary-proj-header): New option that indicates the
+  text to use for the planner timeclock summary section header.
+  (planner-timeclock-summary-proj-section): Use a configurable header.
+  Simplify.
+  (planner-timeclock-proj-build-report): Make output a bit nicer.
+  (planner-timeclock-proj-entries): Adjust match string.
+  (planner-timeclock-summary-proj-insinuate): New function that causes
+  the timeclock summary to be updated every time a Planner page is saved,
+  if one exists on the current page.
+  (planner-timeclock-proj-seconds-to-string): Rename from
+  `planner-timeclock-summary-proj-seconds-to-weekdays-string'.

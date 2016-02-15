@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-144
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jul 15 23:39:52 EST 2005
+Standard-date: 2005-07-16 04:39:52 GMT
+Modified-files: ChangeLog lisp/muse-book.el
+    lisp/muse-http.el lisp/muse-mode.el lisp/muse-poem.el
+    lisp/muse-publish.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-144
+Summary: Improve temp buffer usage.
+Keywords: 
+
+* lisp/muse-publish.el (muse-publish-file): Omit second argument to
+  `insert-file-contents'.  This should further help with the temp
+  buffer problem.  Thanks to Peter K. Lee and drkm for the research
+  into this problem.
+
+* lisp/muse.el (muse-with-temp-buffer): Renamed from
+  `muse-with-temp-buffer-no-prompt'.  Report any errors that occur, but
+  make sure the temp buffer is killed.  I didn't implement an option to
+  save the contents of the temp buffer.

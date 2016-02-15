@@ -1,0 +1,37 @@
+Revision: muse-el--devel--0--patch-78
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun  3 18:49:21 EDT 2006
+Standard-date: 2006-06-03 22:49:21 GMT
+Removed-files: debian/.arch-ids/=id
+    debian/.arch-ids/NEWS.id debian/.arch-ids/changelog.id
+    debian/.arch-ids/compat.id debian/.arch-ids/control.id
+    debian/.arch-ids/copyright.id
+    debian/.arch-ids/emacsen-install.id
+    debian/.arch-ids/emacsen-remove.id
+    debian/.arch-ids/emacsen-startup.id
+    debian/.arch-ids/muse-el.dirs.id
+    debian/.arch-ids/muse-el.docs.id
+    debian/.arch-ids/muse-el.examples.id
+    debian/.arch-ids/muse-el.info.id
+    debian/.arch-ids/rules.id debian/NEWS debian/changelog
+    debian/compat debian/control debian/copyright
+    debian/emacsen-install debian/emacsen-remove
+    debian/emacsen-startup debian/muse-el.dirs
+    debian/muse-el.docs debian/muse-el.examples
+    debian/muse-el.info debian/rules
+Removed-directories: debian debian/.arch-ids
+Modified-files: ChangeLog lisp/muse-publish.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-78
+    mwolson@gnu.org--2006/muse--main--1.0--patch-151
+    mwolson@gnu.org--2006/muse--main--1.0--patch-152
+Summary: Merged from mwolson@gnu.org--2006 (patch 151-152)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-151
+   Provide some markup shortcuts for the <include> tag.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-152
+   Move Debian stuff into its own branch.

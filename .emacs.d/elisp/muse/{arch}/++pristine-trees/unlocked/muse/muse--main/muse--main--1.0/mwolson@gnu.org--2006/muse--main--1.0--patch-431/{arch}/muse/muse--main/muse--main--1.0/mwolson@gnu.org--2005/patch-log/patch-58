@@ -1,0 +1,36 @@
+Revision: muse--main--1.0--patch-58
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 15 17:47:05 EST 2005
+Standard-date: 2005-06-15 22:47:05 GMT
+New-files: examples/.arch-ids/Makefile.id examples/Makefile
+Renamed-files: .arch-ids/README.id examples/.arch-ids/README.id
+    README examples/README
+Modified-files: ChangeLog Makefile examples/README muse.el
+    muse.texi scripts/publish
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-58
+Summary: Makefile refactoring.
+Keywords: 
+
+* Makefile (.PHONY): List all non-file targets.
+  (examples): New rule that calls Make in the examples directory.
+  (atranslit): Removed, since this isn't (yet) bundled with Muse.
+
+* README: Move to the examples directory.  I'd prefer to distribute a
+  very basic plain text README and use this as a quickstart + markup
+  example + publishing example.
+
+* examples/Makefile: Move all README-related rules here.
+
+* examples/README: Add an "About this document" section.  
+
+* scripts/publish (style): Do not include the contrib directory, since we
+  don't use any code from there.  Since this is only invoked from the
+  examples directory, make sure add the parent directory to the load
+  path.
+
+* muse.texi: Change version to 3.00.90 (RC1).
+
+* muse.el: Change location of the README file in header.
+
+* muse.el (muse-version): Update to 3.00.90 (RC1).

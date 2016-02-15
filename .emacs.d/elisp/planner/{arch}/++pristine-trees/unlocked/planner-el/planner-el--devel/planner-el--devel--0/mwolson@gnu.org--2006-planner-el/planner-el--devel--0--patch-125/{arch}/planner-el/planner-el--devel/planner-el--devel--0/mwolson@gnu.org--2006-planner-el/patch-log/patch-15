@@ -1,0 +1,23 @@
+Revision: planner-el--devel--0--patch-15
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Mar 11 15:29:42 GMT 2006
+Standard-date: 2006-03-11 15:29:42 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-54
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-55
+    mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-15
+    mwolson@gnu.org--2006/planner--main--1.0--patch-16
+Summary: Merged from jeho@jeho.org--2005 (patch 54-55), mwolson@gnu.org--2006 (patch 16)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-54
+   Merged from mwolson@gnu.org--2006-planner-el (patch 13), mwolson@gnu.org--2006 (patch 16)
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-55
+   planner-appt: forthcoming regexp fix for XEmacs
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-16
+   Merged from jeho@jeho.org--2005 (patch 51-53), mwolson@gnu.org--2006-planner-el (patch 13)

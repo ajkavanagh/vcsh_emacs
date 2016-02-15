@@ -1,0 +1,20 @@
+Revision: planner-el--devel--0--patch-32
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Apr 26 14:10:07 EDT 2006
+Standard-date: 2006-04-26 18:10:07 GMT
+Modified-files: planner-calendar.el planner-el.texi
+    planner-publish.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-32
+    mwolson@gnu.org--2006/planner--main--1.0--patch-36
+    mwolson@gnu.org--2006/planner--main--1.0--patch-37
+Summary: Merged from mwolson@gnu.org--2006 (patch 36-37)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-36
+   Make publishing of calendars work better using a new method.
+
+ * mwolson@gnu.org--2006/planner--main--1.0--patch-37
+   Minor docfix.

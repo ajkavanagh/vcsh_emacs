@@ -1,0 +1,26 @@
+Revision: planner-el--devel--0--patch-124
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 21 01:10:42 EDT 2007
+Standard-date: 2007-07-21 05:10:42 GMT
+Modified-files: ChangeLog README planner-authz.el
+    planner-calendar.el planner-el.texi planner-publish.el
+    planner-timeclock.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-124
+Summary: Require Muse 3.03
+Keywords: 
+
+2007-07-21  Michael Olson  <mwolson@gnu.org>
+
+	* README: Mention that Muse 3.03 or later is needed.
+
+	* planner-authz.el, planner-timeclock.el, planner-calendar.el,
+	planner-publish.el: Remove support for old markup-tag syntax, now
+	that Muse 3.03 is released.
+
+	* planner-publish.el: Error out when loading if we have Muse less
+	than 3.03.  Also, remove `unless' wrapper around uses of
+	muse-derive-style.
+
+	* planner-el.texi: Replace "www.mwolson.org" with "mwolson.org"
+	for brevity.

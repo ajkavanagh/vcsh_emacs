@@ -1,0 +1,11 @@
+Revision: muse--main--1.0--patch-9
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Feb  4 13:19:44 EST 2005
+Standard-date: 2005-02-04 18:19:44 GMT
+Modified-files: ChangeLog
+Modified-directories: contrib examples scripts
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-9
+Summary: Make permissions more consistent
+Keywords: 
+

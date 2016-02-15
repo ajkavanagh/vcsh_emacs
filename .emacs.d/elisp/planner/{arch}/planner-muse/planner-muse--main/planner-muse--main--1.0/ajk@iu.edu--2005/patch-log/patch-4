@@ -1,0 +1,17 @@
+Revision: planner-muse--main--1.0--patch-4
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Mon Dec  5 10:34:43 EST 2005
+Standard-date: 2005-12-05 15:34:43 GMT
+Modified-files: planner-authz.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-4
+Summary: fix diary markup
+Keywords: 
+
+ - if planner-authz-appt-alt is set, insert an "alt" attribute with its
+   value
+
+ - fix documentation for diary markup: users should customize
+   sectionalize-markup-tagname, not planner-sections
+
+ - protect "<&|" Mason constructs from table markup

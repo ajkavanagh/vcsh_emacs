@@ -1,0 +1,11 @@
+Revision: planner-muse--main--1.0--patch-9
+Archive: ajk@iu.edu--2005
+Creator: Andrew J. Korty <ajk@iu.edu>
+Date: Wed Dec  7 09:28:17 EST 2005
+Standard-date: 2005-12-07 14:28:17 GMT
+Modified-files: planner-authz.el
+New-patches: ajk@iu.edu--2005/planner-muse--main--1.0--patch-9
+Summary: fix bug in regexp introduced in patch-7
+Keywords: 
+
+ - need (?:...) around | expression

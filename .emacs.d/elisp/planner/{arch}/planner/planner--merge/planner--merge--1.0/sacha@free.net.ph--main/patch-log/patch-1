@@ -1,0 +1,28 @@
+Revision: planner--merge--1.0--patch-1
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Sep 17 16:11:19 EDT 2005
+Standard-date: 2005-09-17 20:11:19 GMT
+Modified-files: planner-emacs-wiki-backend.el planner.el
+New-patches: sacha@free.net.ph--main/planner--merge--1.0--patch-1
+Summary: Compatfix: M-x plan works for emacs-wiki backend
+Keywords: 
+
+* planner.el (planner-mode-map): Compatfix: Use sparse keymap instead of
+  depending on muse-mode-map.
+  (planner-make-link): Bugfix: Add missing apostrophe.
+
+* planner-emacs-wiki-backend.el (planner-emacs-wiki-install): Add link base.
+  Add call to planner-update-wiki-project.
+
+* planner-emacs-wiki-backend.el
+  (planner-emacs-wiki-backend-update-wiki-project): Compatibility
+  function from emacs-wiki. This function makes sure that Planner pages
+  are recognized as such.
+
+--This line, and those below, will be ignored--
+Files to commit:
+   <can't compute list>
+
+This list might be incomplete or outdated if editing the log
+message was not invoked from an up-to-date changes buffer!

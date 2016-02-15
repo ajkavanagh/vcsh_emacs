@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-237
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Dec 17 13:23:24 JST 2004
+Standard-date: 2004-12-17 04:23:24 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-237
+Summary: planner-default-task-priority: New default "B"
+Keywords: 
+
+	* planner.el (planner-default-task-priority): Change default to
+	"B". "A" tasks are intimidating, and "B" is easier to adjust
+	upward or downward.

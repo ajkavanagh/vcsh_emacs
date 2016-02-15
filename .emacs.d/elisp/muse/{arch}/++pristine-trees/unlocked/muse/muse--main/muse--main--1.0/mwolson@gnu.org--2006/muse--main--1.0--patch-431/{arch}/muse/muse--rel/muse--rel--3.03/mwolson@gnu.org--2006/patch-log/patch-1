@@ -1,0 +1,15 @@
+Revision: muse--rel--3.03--patch-1
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 25 14:02:37 EDT 2007
+Standard-date: 2007-05-25 18:02:37 GMT
+Modified-files: ChangeLog Makefile
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-317
+    mwolson@gnu.org--2006/muse--rel--3.03--patch-1
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 317)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-317
+   Makefile: Improve building of Debian packages

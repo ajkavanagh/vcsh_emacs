@@ -1,0 +1,16 @@
+Revision: planner-muse--mwolson--1.0--patch-134
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 16:20:11 EST 2005
+Standard-date: 2005-12-16 21:20:11 GMT
+Renamed-files: .arch-ids/schedule.el.id contrib/.arch-ids/schedule.el.id
+    schedule.el contrib/schedule.el
+Modified-files: ChangeLog contrib/schedule.el
+    planner-schedule.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-134
+Summary: schedule.el: Move to contrib directory.
+Keywords: 
+
+* contrib/schedule.el: Moved here from the base directory.  Fixed URL.
+
+* planner-schedule.el: Note that schedule.el is in the contrib directory.

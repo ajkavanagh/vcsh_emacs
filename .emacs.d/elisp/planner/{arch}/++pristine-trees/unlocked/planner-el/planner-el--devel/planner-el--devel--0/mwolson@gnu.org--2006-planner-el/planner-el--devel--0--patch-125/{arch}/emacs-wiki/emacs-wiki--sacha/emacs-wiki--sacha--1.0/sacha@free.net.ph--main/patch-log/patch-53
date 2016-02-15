@@ -1,0 +1,17 @@
+Revision: emacs-wiki--sacha--1.0--patch-53
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Feb 29 23:00:03 PHT 2004
+Standard-date: 2004-02-29 15:00:03 GMT
+Modified-files: planner-bbdb.el planner-diary.el
+    planner-experimental.el planner-gnus.el planner-id.el
+    planner-notes.el planner-rss.el planner-schedule.el
+    planner-timeclock.el planner-w3m.el planner.el
+    remember-bbdb.el remember-bibl.el
+    remember-experimental.el remember-planner.el remember.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-53
+Summary: Misc. documentation fixes
+Keywords: 
+
+   Whoops, wrong boilerplate text on many of the files. Misc.
+   whitespace fixes as well.

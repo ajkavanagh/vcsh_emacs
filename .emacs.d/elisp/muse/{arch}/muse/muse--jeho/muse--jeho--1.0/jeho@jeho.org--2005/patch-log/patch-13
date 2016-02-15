@@ -1,0 +1,50 @@
+Revision: muse--jeho--1.0--patch-13
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Mon Nov  7 19:55:42 GMT 2005
+Standard-date: 2005-11-07 19:55:42 GMT
+Renamed-files: contrib/.arch-ids/muse-latex2png.el.id lisp/.arch-ids/muse-latex2png.el.id
+    contrib/muse-latex2png.el lisp/muse-latex2png.el
+Modified-files: AUTHORS ChangeLog experimental/muse-xml.el
+    lisp/muse-book.el lisp/muse-docbook.el lisp/muse-html.el
+    lisp/muse-journal.el lisp/muse-latex.el
+    lisp/muse-latex2png.el lisp/muse-mode.el
+    lisp/muse-project.el lisp/muse-publish.el
+    lisp/muse-texinfo.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-13
+    mwolson@gnu.org--2005/muse--main--1.0--patch-258
+    mwolson@gnu.org--2005/muse--main--1.0--patch-259
+    mwolson@gnu.org--2005/muse--main--1.0--patch-260
+    mwolson@gnu.org--2005/muse--main--1.0--patch-261
+    mwolson@gnu.org--2005/muse--main--1.0--patch-262
+    mwolson@gnu.org--2005/muse--main--1.0--patch-263
+    mwolson@gnu.org--2005/muse--main--1.0--patch-264
+    mwolson@gnu.org--2005/muse--main--1.0--patch-265
+Summary: Merged from mwolson@gnu.org--2005 (patch 258-265)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-258
+   Pave the way for entire-document escaping of specials.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-259
+   Move latex2png.el to lisp/, muse-latex: Emphasize table elements.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-260
+   muse-latex2png: Fix compiler warning, muse-project: add with-muse-project.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-261
+   muse-latex2png: Put png files in correct place.  all: Introduce comment syntax.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-262
+   muse-publish: Use `apply' instead of passing list to `insert'.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-263
+   Fix mistyping of new option name.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-264
+   Attempt to fix read-only error.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-265
+   Temporary workaround to make lists work properly again.

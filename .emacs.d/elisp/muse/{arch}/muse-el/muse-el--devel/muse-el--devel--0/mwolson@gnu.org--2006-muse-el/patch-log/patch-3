@@ -1,0 +1,18 @@
+Revision: muse-el--devel--0--patch-3
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Per B. Sederberg <per@med.upenn.edu>
+Date: Sun Feb 26 23:48:22 EST 2006
+Standard-date: 2006-02-27 04:48:22 GMT
+Modified-files: lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-3
+Summary: Added enhanced list item insertion.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode-map): Added new key binding to insert a
+  list item.
+
+* muse-mode.el (muse-on-blank-line): Helper function to determine if the
+  point is on a line containing only blank spaces.
+
+* muse-mode.el (muse-insert-list-item): New interactive function to
+  insert a new list item, taking into account the current list state.

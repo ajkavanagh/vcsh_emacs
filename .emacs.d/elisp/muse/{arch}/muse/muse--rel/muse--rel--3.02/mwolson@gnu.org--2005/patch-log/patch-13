@@ -1,0 +1,19 @@
+Revision: muse--rel--3.02--patch-13
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Nov 18 20:21:10 EST 2005
+Standard-date: 2005-11-19 01:21:10 GMT
+Modified-files: lisp/muse-colors.el lisp/muse-wiki.el
+New-patches: mwolson@gnu.org--2005/muse--rel--3.02--patch-13
+Summary: Allow bad WikiWords to be colorized, by popular request.
+Keywords: 
+
+* lisp/muse-colors.el (muse-link-face): Allow implicit links to be
+  colored as bad links if they don't correspond with a real file.  Make
+  the code more straightforward.
+
+* lisp/muse-wiki.el (muse-wiki-allow-nonexistent-wikiword): New option
+  that determines whether to colorize nonexistent WikiWords.  The default
+  is nil, which means "don't colorize".
+  (muse-wiki-resolve-project-page, muse-wiki-handle-wikiword): Adapt for
+  the possibility of bad WikiWords.

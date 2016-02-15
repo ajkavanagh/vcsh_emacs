@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-89
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 14:56:40 EST 2005
+Standard-date: 2005-10-29 19:56:40 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-89
+Summary: Adapt to addition of muse-insert-markup in Muse.
+Keywords: 
+
+* planner-publish.el (planner-publish-section-tag)
+  (planner-publish-title-tag, planner-publish-content-tag)
+  (planner-publish-tasks-tag, planner-publish-task-tag)
+  (planner-publish-notes-tag, planner-publish-note-tag): Adapt for recent
+  addition of `muse-insert-markup' function to Muse.

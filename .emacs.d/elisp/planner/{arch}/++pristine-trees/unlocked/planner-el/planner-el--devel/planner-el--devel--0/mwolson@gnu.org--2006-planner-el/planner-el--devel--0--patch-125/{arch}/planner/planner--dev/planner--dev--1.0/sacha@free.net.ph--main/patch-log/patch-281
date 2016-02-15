@@ -1,0 +1,10 @@
+Revision: planner--dev--1.0--patch-281
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Jan  3 23:39:39 JST 2005
+Standard-date: 2005-01-03 14:39:39 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-281
+Summary: planner.el (planner-replan-task): Fix typo
+Keywords: 
+

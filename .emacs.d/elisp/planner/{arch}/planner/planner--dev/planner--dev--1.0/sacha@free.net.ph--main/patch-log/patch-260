@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-260
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec 27 10:19:27 JST 2004
+Standard-date: 2004-12-27 01:19:27 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-260
+Summary: Set planner-use-task-numbers to nil by default
+Keywords: 
+
+	* planner.el (planner-use-task-numbers): Set to nil by default.
+	Less visual clutter, less confusion.

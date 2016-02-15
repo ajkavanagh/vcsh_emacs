@@ -1,0 +1,17 @@
+Revision: planner--jeho--1.1--patch-39
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Wed Jan 11 10:07:50 GMT 2006
+Standard-date: 2006-01-11 10:07:50 GMT
+Modified-files: AUTHORS ChangeLog.2005 planner-id.el
+    planner-ledger.el planner-lisp.el planner-log-edit.el
+    planner-mhe.el planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-39
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-174
+Summary: Merged from mwolson@gnu.org--2005 (patch 174)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-174
+   Progress: planner-multi.el

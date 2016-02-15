@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-293
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Dec 12 23:49:16 EST 2005
+Standard-date: 2005-12-13 04:49:16 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-293
+    mwolson@gnu.org--2005/muse--rel--3.02--patch-29
+Summary: Merged from muse--rel--3.02 (patch 29)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--rel--3.02--patch-29
+   muse-mode: Fix semicolon in paragraph issue.

@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-4
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jan 11 21:02:56 PHT 2004
+Standard-date: 2004-01-11 13:02:56 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-4
+Summary: 
+
+Made planner-create-task-from-buffer the default instead of
+planner-create-task.
+

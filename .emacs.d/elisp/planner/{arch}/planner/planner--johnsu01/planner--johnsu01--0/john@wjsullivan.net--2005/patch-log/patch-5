@@ -1,0 +1,55 @@
+Revision: planner--johnsu01--0--patch-5
+Archive: john@wjsullivan.net--2005
+Creator: John Sullivan <john@wjsullivan.net>
+Date: Sat Apr 23 23:53:57 EDT 2005
+Standard-date: 2005-04-24 03:53:57 GMT
+Modified-files: ChangeLog planner-appt.el
+    planner-bookmark.el planner-el.texi planner-id.el
+    planner-multi.el planner-timeclock.el planner-trunk.el
+    planner-vm.el planner.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-59
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-60
+    john@wjsullivan.net--2005/planner--johnsu01--0--patch-5
+    sacha@free.net.ph--main/planner--dev--1.0--patch-378
+    sacha@free.net.ph--main/planner--dev--1.0--patch-379
+    sacha@free.net.ph--main/planner--dev--1.0--patch-380
+    sacha@free.net.ph--main/planner--dev--1.0--patch-381
+    sacha@free.net.ph--main/planner--dev--1.0--patch-382
+    sacha@free.net.ph--main/planner--dev--1.0--patch-383
+    sacha@free.net.ph--main/planner--dev--1.0--patch-384
+Summary: Caught up with Sacha through patch-384
+Keywords: 
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-50
+   planner-appt 
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-59
+   merge latest 
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-60
+   planner-appt: create task fix, better advising, etc.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-378
+   Merge planner-appt updates from jeho: create task fix, better advising
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-379
+   Document planner-trunk.el
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-380
+   Bugfix: planner-multi-replan-task, replace mapc with mapcar
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-381
+   planner-vm: Turn on annotations in vm-presentation-mode as well
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-382
+   XEmacs compatibility: condition-case instead of 4-arg require, XEmacs menu strangeness
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-383
+   planner-multi-read-name-multiple-prompts: Easier multiple inputs with nil default
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-384
+   Improve support for putting files in subdirectories
+

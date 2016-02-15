@@ -1,0 +1,73 @@
+Revision: planner--dev--1.0--patch-352
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Mar 24 23:09:04 PHT 2005
+Standard-date: 2005-03-24 15:09:04 GMT
+Modified-files: ChangeLog planner-appt.el planner-authz.el
+    planner-el.texi planner-trunk.el {arch}/=tagging-method
+New-patches: camalot@picnicpark.org--2005-planner/planner--dev-kea--1.0--base-0
+    camalot@picnicpark.org--2005-planner/planner--dev-kea--1.0--patch-1
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-39
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-40
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-41
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-42
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-43
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-44
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-45
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-46
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-47
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-48
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-49
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-51
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-52
+    sacha@free.net.ph--main/planner--dev--1.0--patch-352
+Summary: Massive synchronization. planner-appt, planner-trunk, planner-authz bugfixes and better integration
+Keywords: 
+
+Patches applied:
+
+ * camalot@picnicpark.org--2005-planner/planner--dev-kea--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-344
+
+ * camalot@picnicpark.org--2005-planner/planner--dev-kea--1.0--patch-1
+   Cleanup planner-trunk and fix task sorting bug
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-39
+   planner-appt: removed functions from planner-goto-hook
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-40
+   merge latest 
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-41
+   planner-appt changes
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-42
+   planner-el.texi updated planner-appt node
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-43
+   planner-el.texi: planner-appt documentation
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-44
+   planner-authz: merge improvements 
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-45
+   added jeho-diary
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-46
+   planner-authz: small modification
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-47
+   jeho-diary modifications and fixes
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-48
+   jeho-diary modifications
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-49
+   jeho-diary off by 1 bug
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-51
+   jeho-diary: lots of changes
+
+ * jeho@jeho.org--2005/planner--jeho--1.0--patch-52
+   planner-appt sort bug
+

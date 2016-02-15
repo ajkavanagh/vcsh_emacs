@@ -1,0 +1,21 @@
+Revision: emacs-wiki--sacha--1.0--patch-42
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Feb 19 19:01:05 PHT 2004
+Standard-date: 2004-02-19 11:01:05 GMT
+Modified-files: planner-rss.el planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-42
+Summary: Added categorized feeds to planner-rss.el
+Keywords: 
+
+        * planner-rss.el (planner-rss-file-name): Changed documentation
+	string.
+	(planner-rss-category-feeds): New variable. Customize this to get
+	categorized feeds.
+	(planner-rss-add-note): Perform regular-expression matching on the
+	original text and copy matched entries to category feeds.
+
+	* planner.el (planner-note-title): New defun.
+	(planner-note-timestamp): New defun.
+	(planner-note-body): New defun.
+	(planner-narrow-to-note): Save excursion.

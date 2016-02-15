@@ -1,0 +1,21 @@
+Revision: muse-el--devel--0--patch-149
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul  1 15:57:54 EDT 2007
+Standard-date: 2007-07-01 19:57:54 GMT
+Modified-files: ChangeLog Makefile lisp/muse-book.el
+    lisp/muse-docbook.el lisp/muse-latex.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-149
+    mwolson@gnu.org--2006/muse--main--1.0--patch-380
+    mwolson@gnu.org--2006/muse--main--1.0--patch-381
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 380-381)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-380
+   Makefile: Update .PHONY lines
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-381
+   Fix some <cite> indentation issues and bugs

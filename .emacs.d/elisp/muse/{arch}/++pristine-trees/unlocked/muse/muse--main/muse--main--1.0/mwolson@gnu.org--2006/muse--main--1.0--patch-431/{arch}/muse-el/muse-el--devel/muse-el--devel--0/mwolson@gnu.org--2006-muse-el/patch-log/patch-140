@@ -1,0 +1,26 @@
+Revision: muse-el--devel--0--patch-140
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun  2 16:56:24 EDT 2007
+Standard-date: 2007-06-02 20:56:24 GMT
+Modified-files: ChangeLog NEWS examples/Makefile
+    examples/QuickStart.muse lisp/muse-colors.el
+    lisp/muse-protocols.el lisp/muse-publish.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-140
+    mwolson@gnu.org--2006/muse--main--1.0--patch-330
+    mwolson@gnu.org--2006/muse--main--1.0--patch-331
+    mwolson@gnu.org--2006/muse--main--1.0--patch-332
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 330-332)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-330
+   Fix failure to recognize images in description before images in link
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-331
+   manual: Clarify what image-link, link, and link-and-anchor mean
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-332
+   Make it possible to not inline an image

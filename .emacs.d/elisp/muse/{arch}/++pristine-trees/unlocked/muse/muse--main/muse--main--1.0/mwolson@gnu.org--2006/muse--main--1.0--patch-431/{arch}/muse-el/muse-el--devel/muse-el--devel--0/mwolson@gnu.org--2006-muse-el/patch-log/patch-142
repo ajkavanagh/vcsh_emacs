@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-142
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun  4 23:00:26 EDT 2007
+Standard-date: 2007-06-05 03:00:26 GMT
+Modified-files: ChangeLog lisp/muse-colors.el
+    lisp/muse-html.el lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-142
+    mwolson@gnu.org--2006/muse--main--1.0--patch-334
+    mwolson@gnu.org--2006/muse--main--1.0--patch-335
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 334-335)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-334
+   Fix bug with <contents> and multiple <include> tags
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-335
+   Fix bug #5115: Avoid accessing remote files during fontification

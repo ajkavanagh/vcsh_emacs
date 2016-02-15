@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-162
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul 24 00:54:29 EDT 2007
+Standard-date: 2007-07-24 04:54:29 GMT
+Modified-files: ChangeLog examples/QuickStart.muse
+    lisp/muse-context.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-162
+    mwolson@gnu.org--2006/muse--main--1.0--patch-402
+    mwolson@gnu.org--2006/muse--main--1.0--patch-403
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 402-403)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-402
+   QuickStart: Fix typo/omission
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-403
+   Document muse-context.el in manual

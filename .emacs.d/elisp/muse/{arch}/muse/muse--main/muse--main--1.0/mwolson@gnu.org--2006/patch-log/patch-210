@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-210
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Sep 26 02:38:28 EDT 2006
+Standard-date: 2006-09-26 06:38:28 GMT
+Modified-files: AUTHORS ChangeLog lisp/muse-backlink.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-210
+Summary: Add ChangeLog entries for recently contributed changes
+Keywords: 
+
+Also,
+
+2006-09-26  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-backlink.el: Wrap muse-backlink-split-string in an
+	eval-and-compile block to avoid a compiler warning.

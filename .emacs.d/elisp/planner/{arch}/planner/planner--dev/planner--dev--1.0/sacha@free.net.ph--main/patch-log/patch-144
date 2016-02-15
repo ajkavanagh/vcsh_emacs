@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-144
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Jul 24 21:02:54 PHT 2004
+Standard-date: 2004-07-24 13:02:54 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-144
+Summary: Show planner-annotation-from-planner-note number
+Keywords: improvement
+
+	* planner.el (planner-annotation-from-planner-note): Show the note
+	number in the link so that people know it refers to a note. Thanks
+	to Paul Lussier for the feature request.

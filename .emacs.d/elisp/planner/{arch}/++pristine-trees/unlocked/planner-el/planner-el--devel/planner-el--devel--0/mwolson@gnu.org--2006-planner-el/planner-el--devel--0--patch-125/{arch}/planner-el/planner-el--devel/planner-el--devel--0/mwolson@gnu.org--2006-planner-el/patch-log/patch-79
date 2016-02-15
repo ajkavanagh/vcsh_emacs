@@ -1,0 +1,14 @@
+Revision: planner-el--devel--0--patch-79
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug 22 22:12:02 EDT 2006
+Standard-date: 2006-08-23 02:12:02 GMT
+Modified-files: AUTHORS ChangeLog planner-gnus.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-79
+Summary: planner-gnus: Install patch from Magnus Henoch.
+Keywords: 
+
+2006-08-22  Magnus Henoch  <mange@freemail.hu>
+
+	* planner-gnus.el (planner-gnus-browse-url): Fix marking unread
+	messages as read problem.

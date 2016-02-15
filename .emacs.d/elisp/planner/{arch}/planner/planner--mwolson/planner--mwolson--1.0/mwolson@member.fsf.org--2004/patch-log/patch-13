@@ -1,0 +1,16 @@
+Revision: planner--mwolson--1.0--patch-13
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Sat Oct 16 22:15:26 EST 2004
+Standard-date: 2004-10-17 03:15:26 GMT
+Modified-files: planner.el
+New-patches: mwolson@member.fsf.org--2004/planner--mwolson--1.0--patch-13
+Summary: Attempt to fix problem where mode is not changed properly
+Keywords: 
+
+2004-10-16  Michael Olson  <mwolson@gnu.org>
+
+    * planner.el (planner-mode): Explicitly check local variables to
+    see if the user wants the current file to be in a different mode.
+    Should fix problem with local variables being ignored as per which
+    mode to use.

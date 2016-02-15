@@ -1,0 +1,111 @@
+Revision: muse-el--devel--0--patch-137
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat May 12 12:29:29 EDT 2007
+Standard-date: 2007-05-12 16:29:29 GMT
+New-files: .arch-ids/IDEAS.muse.id IDEAS.muse
+Modified-files: ChangeLog README lisp/muse-blosxom.el
+    lisp/muse-html.el lisp/muse-latex2png.el
+    lisp/muse-project.el lisp/muse-protocols.el
+    lisp/muse-publish.el lisp/muse-xml.el texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-137
+    mwolson@gnu.org--2006/muse--main--1.0--patch-284
+    mwolson@gnu.org--2006/muse--main--1.0--patch-285
+    mwolson@gnu.org--2006/muse--main--1.0--patch-286
+    mwolson@gnu.org--2006/muse--main--1.0--patch-287
+    mwolson@gnu.org--2006/muse--main--1.0--patch-288
+    mwolson@gnu.org--2006/muse--main--1.0--patch-289
+    mwolson@gnu.org--2006/muse--main--1.0--patch-290
+    mwolson@gnu.org--2006/muse--main--1.0--patch-291
+    mwolson@gnu.org--2006/muse--main--1.0--patch-292
+    mwolson@gnu.org--2006/muse--main--1.0--patch-293
+    mwolson@gnu.org--2006/muse--main--1.0--patch-294
+    mwolson@gnu.org--2006/muse--main--1.0--patch-295
+    mwolson@gnu.org--2006/muse--main--1.0--patch-296
+    mwolson@gnu.org--2006/muse--main--1.0--patch-297
+    mwolson@gnu.org--2006/muse--main--1.0--patch-298
+    mwolson@gnu.org--2006/muse--main--1.0--patch-299
+    mwolson@gnu.org--2006/muse--main--1.0--patch-300
+    mwolson@gnu.org--2006/muse--main--1.0--patch-301
+    mwolson@gnu.org--2006/muse--main--1.0--patch-302
+    mwolson@gnu.org--2006/muse--main--1.0--patch-303
+    mwolson@gnu.org--2006/muse--main--1.0--patch-304
+    mwolson@gnu.org--2006/muse--main--1.0--patch-305
+    mwolson@gnu.org--2006/muse--main--1.0--patch-306
+    mwolson@gnu.org--2006/muse--main--1.0--patch-307
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 284-307)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-284
+   New function: muse-publish-region
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-285
+   READE: List available mailing lists
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-286
+   Quick pointless change to test CIA.vc
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-287
+   That didn't take ... trying again
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-288
+   Still more CIA.vc testing ...
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-289
+   Revert trivial change.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-290
+   This time, without colors
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-291
+   Yet another CIA.vc test
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-292
+   muse-publish: Ensure blank line exists after heading
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-293
+   Implement conditional deletion of text in <literal> and <markup> tags
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-294
+   Add listing of ideas to new IDEAS.muse file
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-295
+   Fix bug introduced in patch-293
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-296
+   Simplify <markup> implementation
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-297
+   muse-latex2png: Make this work with ConTeX
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-298
+   Fix typo: context -> contex
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-299
+   Add muse-slides to IDEAS
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-300
+   Deal with trailing backslash in muse-project-alist-styles
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-301
+   Display prominent warning for malformed muse-project-alist entries
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-302
+   Fix bug with browsing woman:// links
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-303
+   Testing commit mail ...
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-304
+   Revert trivial change
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-305
+   Fix stray footnote references causing control chars to be inserted bug
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-306
+   muse-publish-region: Remove read-only properties after publishing
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-307
+   muse-blosxom: Fix bug with muse-publish-region

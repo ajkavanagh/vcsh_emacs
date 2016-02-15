@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-228
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Dec 11 17:00:52 JST 2004
+Standard-date: 2004-12-11 08:00:52 GMT
+Modified-files: ChangeLog planner-gnus.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-228
+Summary: planner-gnus-browse-url: use gnus-registry if loaded
+
+	* planner-gnus.el (planner-gnus-browse-url): Merge Sven
+	Kloppenburg's code to use the Gnus registry. Modify patch so that
+	it works even if the registry fails.

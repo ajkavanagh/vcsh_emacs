@@ -1,0 +1,20 @@
+Revision: planner--yh--1.0--patch-26
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul  7 21:00:29 CEST 2005
+Standard-date: 2005-07-07 19:00:29 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-el.texi planner-gnus.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-26
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-23
+    sacha@free.net.ph--main/planner--dev--1.0--patch-446
+Summary: Merged from mwolson@gnu.org--2005 (patch 23), sacha@free.net.ph--main (patch 446)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-23
+   Merged from hodique@lifl.fr--2005 (patch 22-24), sacha@free.net.ph--main (patch 442-445)
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-446
+   planner-gnus-insinuate: Change keybinding to C-c C-t

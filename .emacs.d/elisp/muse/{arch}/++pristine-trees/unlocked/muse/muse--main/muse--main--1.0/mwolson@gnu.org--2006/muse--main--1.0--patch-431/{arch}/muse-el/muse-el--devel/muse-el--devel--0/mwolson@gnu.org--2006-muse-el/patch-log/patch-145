@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-145
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jun 10 16:00:03 EDT 2007
+Standard-date: 2007-06-10 20:00:03 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+    texi/muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-145
+    mwolson@gnu.org--2006/muse--main--1.0--patch-340
+    mwolson@gnu.org--2006/muse--main--1.0--patch-341
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 340-341)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-340
+   manual: Fix archive year.  Now, back to disaster recovery ...
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-341
+   Fix the well-reported URL publishing bug

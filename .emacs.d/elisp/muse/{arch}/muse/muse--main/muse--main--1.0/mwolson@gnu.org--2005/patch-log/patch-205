@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-205
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Aug 22 15:37:10 EST 2005
+Standard-date: 2005-08-22 20:37:10 GMT
+Modified-files: ChangeLog NEWS examples/mwolson/muse-init.el
+    lisp/muse-colors.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-205
+Summary: Finish NEWS, handle emphasis at EOF edge case.
+Keywords: 
+
+* lisp/muse-colors.el (muse-colors-emphasized, muse-colors-underlined)
+  (muse-colors-verbatim): Highlight emphasis at the end of file, as long
+  as there is a terminating emphasis delimiter.
+
+* examples/mwolson/muse-init.el: Sync with my latest configuration.
+
+* NEWS: Bring this up to date.

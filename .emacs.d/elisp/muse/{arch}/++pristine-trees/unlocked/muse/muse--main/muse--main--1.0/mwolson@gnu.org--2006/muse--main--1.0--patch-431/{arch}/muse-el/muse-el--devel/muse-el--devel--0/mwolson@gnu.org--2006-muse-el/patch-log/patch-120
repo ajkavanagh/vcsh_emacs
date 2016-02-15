@@ -1,0 +1,19 @@
+Revision: muse-el--devel--0--patch-120
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Dec  2 19:36:18 EST 2006
+Standard-date: 2006-12-03 00:36:18 GMT
+Modified-files: ChangeLog lisp/muse-html.el lisp/muse.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-120
+    mwolson@gnu.org--2006/muse--main--1.0--patch-253
+    mwolson@gnu.org--2006/muse--main--1.0--patch-254
+Summary: Merged from mwolson@gnu.org--2006/muse--main--1.0 (patch 253-254)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-253
+   Fix minor bug in muse-replace-regexp-in-string
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-254
+   muse-html: Make <contents> work with Planner HTML output

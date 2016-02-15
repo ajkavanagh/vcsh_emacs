@@ -1,0 +1,18 @@
+Revision: planner--dev--1.0--patch-258
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec 27 09:46:47 JST 2004
+Standard-date: 2004-12-27 00:46:47 GMT
+Modified-files: ChangeLog planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-258
+Summary: Merge docfix from John Sullivan
+Keywords: docfix external
+
+	2004-12-22  John Sullivan  <john@wjsullivan.net>
+	* planner.texi (Creating a Task): Removed redundant explanation of
+	functions used to create tasks of different priorities. Added xref
+	to Task Priorities section instead.
+	(Task Priorities): Moved note about defining the default task
+	priority to this section.
+	(Planner Features): Moved Accomplishments, Task Overviews, Task
+	IDs and Cyclic Tasks to the Task section of the manual. 

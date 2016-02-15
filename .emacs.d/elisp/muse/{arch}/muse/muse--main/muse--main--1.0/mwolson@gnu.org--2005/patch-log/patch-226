@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-226
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep  5 11:49:35 EST 2005
+Standard-date: 2005-09-05 16:49:35 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-226
+Summary: muse-latex: Handle special characters in a better way.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-markup-regexps): Remove special
+  characters hack.
+  (muse-latex-markup-strings): Use \\texttt{...} for 'begin-literal and
+  'end-literal.  Thanks to Trent Buck for the suggestion.
+  (muse-latex-markup-specials): Move special characters here instead of
+  using the regexp.

@@ -1,0 +1,14 @@
+Revision: emacs-wiki--sacha--1.0--patch-17
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jan 27 09:15:48 PHT 2004
+Standard-date: 2004-01-27 01:15:48 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-17
+Summary: Added fboundp check for remove-overlays
+Keywords: 
+
+   Apparently, older Emacsen don't have the remove-overlays function.
+   Added fboundp check. Strange - if there's an overlay, how does one
+   propose to remove all of them anyway? Anyway, planner-markup-region
+   should do the right thing now.

@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-264
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Dec 27 11:25:13 JST 2004
+Standard-date: 2004-12-27 02:25:13 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-264
+Summary: planner-renumber-tasks-automatically should be nil by default
+Keywords: 
+
+	* planner.el (planner-renumber-tasks-automatically): Set to nil by
+	default now that we're encouraging not having task numbers...

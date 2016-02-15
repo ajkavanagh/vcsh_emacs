@@ -1,0 +1,15 @@
+Revision: muse--yh--1.0--patch-29
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Wed Jul 13 16:19:49 CEST 2005
+Standard-date: 2005-07-13 14:19:49 GMT
+Modified-files: ChangeLog lisp/muse-project.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-29
+    mwolson@gnu.org--2005/muse--main--1.0--patch-132
+Summary: Merged from mwolson@gnu.org--2005 (patch 132)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-132
+   Add invalid directory assertion.

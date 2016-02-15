@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-393
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri May  6 11:52:37 PHT 2005
+Standard-date: 2005-05-06 03:52:37 GMT
+Modified-files: ChangeLog planner-el.texi planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-393
+Summary: planner-list-tasks-with-status: Put an insane amount of meaning into a PAGES argument
+Keywords: 
+
+* planner.el (planner-file-alist): Filter using PAGES.
+(planner-list-tasks-with-status): NOTE: Change argument from START and
+END to PAGES to allow much greater flexibility. This function is now way
+too smart about PAGES.
+
+* planner-el.texi (Viewing Tasks): Update planner-list-tasks-with-status again.

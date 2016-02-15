@@ -1,0 +1,20 @@
+Revision: muse-el--devel--0--patch-20
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Mar 10 11:36:08 EST 2006
+Standard-date: 2006-03-10 16:36:08 GMT
+Modified-files: ChangeLog.2006 lisp/muse-colors.el
+    lisp/muse-mode.el lisp/muse-regexps.el
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-20
+    mwolson@gnu.org--2006/muse--main--1.0--patch-51
+    mwolson@gnu.org--2006/muse--main--1.0--patch-52
+Summary: Merged from mwolson@gnu.org--2006 (patch 51-52)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-51
+   Make visiting of links a bit faster.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-52
+   Refine previous patch.

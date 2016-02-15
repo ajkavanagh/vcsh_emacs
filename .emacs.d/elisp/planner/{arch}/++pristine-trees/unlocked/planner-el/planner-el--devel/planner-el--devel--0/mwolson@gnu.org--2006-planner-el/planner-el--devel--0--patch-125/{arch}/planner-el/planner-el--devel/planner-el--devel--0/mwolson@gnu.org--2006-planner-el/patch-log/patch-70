@@ -1,0 +1,12 @@
+Revision: planner-el--devel--0--patch-70
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 29 00:21:50 EDT 2006
+Standard-date: 2006-07-29 04:21:50 GMT
+Modified-files: planner-el.texi
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-70
+Summary: Manual: Fix syntax error introduced in last patch.
+Keywords: 
+
+* planner-el.texi (Installing from Arch): Fix syntax error introduced in
+  last patch.

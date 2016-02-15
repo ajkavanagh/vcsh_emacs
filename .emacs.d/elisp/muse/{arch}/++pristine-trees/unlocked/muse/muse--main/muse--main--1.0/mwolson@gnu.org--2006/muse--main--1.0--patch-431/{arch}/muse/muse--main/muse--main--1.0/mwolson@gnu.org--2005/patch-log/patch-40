@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-40
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri May 20 15:44:46 EST 2005
+Standard-date: 2005-05-20 20:44:46 GMT
+Modified-files: ChangeLog muse-docbook.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-40
+Summary: Apply fix in previous patch to the DocBook publishing style.
+Keywords: 
+
+* muse-docbook.el (muse-docbook-markup-paragraph-close): Apply fix from
+  previous patch here as well.
+

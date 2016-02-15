@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-248
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Nov 17 08:37:02 EST 2006
+Standard-date: 2006-11-17 13:37:02 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-248
+Summary: muse-latex: Fix nested enumerated list bug
+Keywords: 
+
+2006-11-17  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-publish-surround-text): Fix bug in
+	latex publishing where nested enumerated lists would be squashed
+	together at the end.

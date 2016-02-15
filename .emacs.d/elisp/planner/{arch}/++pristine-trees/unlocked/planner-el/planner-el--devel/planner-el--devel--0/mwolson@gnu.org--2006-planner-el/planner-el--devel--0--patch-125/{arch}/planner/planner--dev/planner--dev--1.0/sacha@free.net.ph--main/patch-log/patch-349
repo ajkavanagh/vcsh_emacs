@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-349
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 22 13:54:01 PHT 2005
+Standard-date: 2005-03-22 05:54:01 GMT
+Modified-files: ChangeLog planner-id.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-349
+Summary: planner-id-find-task: XEmacs bugfix for infinite tasks
+Keywords: 
+
+* planner-id.el (planner-id-find-task): Rewrite to eliminate XEmacs
+  infinite duplication bug. Thanks to sf for reporting the bug and
+  pointing out difference between XEmacs and Emacs regular expressions.

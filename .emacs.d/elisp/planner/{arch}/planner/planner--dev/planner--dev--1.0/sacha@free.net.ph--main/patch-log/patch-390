@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-390
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Apr 28 11:55:29 PHT 2005
+Standard-date: 2005-04-28 03:55:29 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-390
+Summary: Bugfix: planner-sort-tasks: Remove non-fontification code
+Keywords: 
+
+* planner.el (planner-sort-tasks): Remove buggy non-fontification code
+  again. Thanks to sf for pointing this out.
+

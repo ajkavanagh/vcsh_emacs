@@ -1,0 +1,18 @@
+Revision: planner--jeho--1.1--patch-34
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Dec 18 09:35:47 GMT 2005
+Standard-date: 2005-12-18 09:35:47 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-34
+Summary: planner-appt: forthcoming appts changes
+Keywords: 
+
+* planner-appt.el (planner-appt-forthcoming-repeat-date-string): New
+  option for the repeated date cell
+  (planner-appt-forthcoming-look-at-cyclic-flag): Make this nil by default.
+  (planner-appt-forthcoming-get-appts): Check that planner-cyclic is
+  loaded. 
+  (planner-appt-forthcoming-format): Empty cell handling: if the cell
+  contains some ink, make it a link.
+

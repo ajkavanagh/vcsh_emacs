@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-118
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 24 22:55:16 PHT 2004
+Standard-date: 2004-06-24 14:55:16 GMT
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-118
+Summary: Move planner-accomplishments and planner-tasks-overview documentation to "Using PlannerMode"
+Keywords: docfix
+
+	* planner.texi (Using planner-accomplishments.el): Move to "Using
+	Planner" section. Add example.
+	(Using planner-tasks-overview.el): Add a small example.

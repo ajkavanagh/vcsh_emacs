@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-6
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jan 25 14:04:31 EST 2005
+Standard-date: 2005-01-25 19:04:31 GMT
+Modified-files: ChangeLog muse-colors.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-6
+Summary: Fix use of "[:blank:]" in underline markup
+Keywords: 
+
+2005-01-25  Michael Olson  <mwolson@gnu.org>
+
+    * muse-colors.el (muse-colors-markup): Replace "[:blank:]" with
+    use of `muse-regexp-blank'.

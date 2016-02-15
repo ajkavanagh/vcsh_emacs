@@ -1,0 +1,11 @@
+Revision: planner-muse--mwolson--1.0--patch-172
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  9 08:32:58 EST 2006
+Standard-date: 2006-01-09 13:32:58 GMT
+Modified-files: AUTHORS planner-el.texi planner-erc.el
+    planner-xtla.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-172
+Summary: Fix some more copyright headers.
+Keywords: 
+

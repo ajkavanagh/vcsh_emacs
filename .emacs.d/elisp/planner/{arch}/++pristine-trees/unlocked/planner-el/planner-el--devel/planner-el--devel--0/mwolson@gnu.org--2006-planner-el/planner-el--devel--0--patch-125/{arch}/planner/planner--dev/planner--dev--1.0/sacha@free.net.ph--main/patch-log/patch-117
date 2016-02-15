@@ -1,0 +1,19 @@
+Revision: planner--dev--1.0--patch-117
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Jun 24 12:55:09 PHT 2004
+Standard-date: 2004-06-24 04:55:09 GMT
+Modified-files: planner.el planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-117
+Summary: planner-annotation-strip-directory: new customizable option
+Keywords: feature
+
+	* planner.el (planner-annotation-from-file): Use
+	planner-annotation-strip-directory. Thanks to Hoan Ton-That for
+	the idea and base patch.
+	(planner-annotation-strip-directory): Make customizable.
+	(planner-annotation-use-relative-file): Make customizable.
+
+	* planner.texi (Introducing Annotation Functions): Document
+	planner-annotation-functions, planner-annotation-strip-directory,
+	planner-annotation-use-relative-file.

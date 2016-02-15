@@ -1,0 +1,15 @@
+Revision: planner-el--devel--0--patch-52
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 26 19:26:25 EDT 2006
+Standard-date: 2006-06-26 23:26:25 GMT
+Modified-files: planner-el.texi planner2diary.py
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-52
+Summary: Document planner2diary.py.
+Keywords: 
+
+* planner-el.texi (Diary): Document planner2diary.py.  This completes the
+  documentation part of the release plans.
+
+* planner2diary.py: Require /usr/bin/python instead of
+  /usr/bin/python2.2.

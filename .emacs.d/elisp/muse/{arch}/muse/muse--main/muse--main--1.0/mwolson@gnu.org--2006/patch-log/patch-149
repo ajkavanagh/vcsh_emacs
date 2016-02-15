@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-149
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Jun  1 00:05:33 EDT 2006
+Standard-date: 2006-06-01 04:05:33 GMT
+Modified-files: ChangeLog ChangeLog.2005 lisp/Makefile
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-149
+Summary: Second attempt at fixing XEmacs beta problem.
+Keywords: 
+
+* lisp/Makefile (ELC): Revert previous change, now that I have a hunch
+  about what causes the problem.
+
+* lisp/muse-publish.el (muse-publish-markup-regexps): Move anchor markup
+  lower to future-proof an idea that I have.
+  (muse-style-element): Make this a function instead of a substitution,
+  especially since it is potentially recursive.

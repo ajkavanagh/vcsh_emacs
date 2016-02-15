@@ -1,0 +1,11 @@
+Revision: planner--yh--1.0--patch-41
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul 21 17:44:28 CEST 2005
+Standard-date: 2005-07-21 15:44:28 GMT
+Modified-files: ChangeLog.yh planner.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-41
+Summary: Bugfix
+Keywords:
+
+* planner.el (planner-annotation-from-file): missing closing paren :(

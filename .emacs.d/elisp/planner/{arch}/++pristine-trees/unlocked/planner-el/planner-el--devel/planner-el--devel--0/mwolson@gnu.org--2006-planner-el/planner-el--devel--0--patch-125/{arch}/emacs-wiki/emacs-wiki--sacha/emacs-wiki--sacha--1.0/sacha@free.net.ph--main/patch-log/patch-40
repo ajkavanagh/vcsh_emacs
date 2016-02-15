@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-40
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Feb 17 12:27:55 PHT 2004
+Standard-date: 2004-02-17 04:27:55 GMT
+Modified-files: emacs-wiki-id.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-40
+Summary: Minor elisp style improvement in emacs-wiki-id.el: identity
+Keywords: 
+
+	* emacs-wiki-id.el (emacs-wiki-id-make-id): Used identity
+	instead of (lambda (item) item).

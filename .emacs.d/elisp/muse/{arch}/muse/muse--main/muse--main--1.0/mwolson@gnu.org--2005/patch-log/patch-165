@@ -1,0 +1,22 @@
+Revision: muse--main--1.0--patch-165
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 20 09:21:57 EST 2005
+Standard-date: 2005-07-20 14:21:57 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+    lisp/muse-html.el lisp/muse-project.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-165
+Summary: Link inside table issue, fixes read-only text error.
+Keywords: 
+
+* lisp/muse-docbook.el (muse-docbook-fixup-tables): Ignore read-only text
+  inside tables so we don't get an error when links exist.
+
+* lisp/muse-html.el (muse-html-fixup-tables): Ditto.
+
+* lisp/muse-project.el (muse-project-publish): Don't take forced files
+  into account when displaying the "All files published" message, unless
+  they've actually been modified.
+
+* lisp/muse.el (muse-with-temp-buffer): If debug-on-error is non-nil,
+  don't wrap in condition-case; we don't want the message to be muffled.

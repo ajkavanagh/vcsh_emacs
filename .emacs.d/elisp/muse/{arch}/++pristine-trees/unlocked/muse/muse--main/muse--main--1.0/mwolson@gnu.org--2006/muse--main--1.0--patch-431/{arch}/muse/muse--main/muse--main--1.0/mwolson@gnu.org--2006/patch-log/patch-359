@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-359
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 15 16:37:44 EDT 2007
+Standard-date: 2007-06-15 20:37:44 GMT
+Modified-files: ChangeLog NEWS
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-359
+Summary: Update NEWS
+Keywords: 
+
+2007-06-15  Michael Olson  <mwolson@gnu.org>
+
+	* NEWS: Update.

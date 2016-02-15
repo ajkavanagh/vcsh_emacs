@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-5
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Sun Jan 30 12:47:31 CST 2005
+Standard-date: 2005-01-30 04:47:31 GMT
+New-files: .arch-ids/planner-rank.el.id planner-rank.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-5
+Summary: New: planner-rank.el
+Keywords: newfeature
+
+* planner-rank.el: New feature to set task rank by Importancy and
+  Urgency.
+
+
+

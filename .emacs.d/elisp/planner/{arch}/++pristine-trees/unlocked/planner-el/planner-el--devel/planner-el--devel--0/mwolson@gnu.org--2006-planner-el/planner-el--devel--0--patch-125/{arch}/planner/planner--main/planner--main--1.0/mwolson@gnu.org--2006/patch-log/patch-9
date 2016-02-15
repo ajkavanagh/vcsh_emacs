@@ -1,0 +1,15 @@
+Revision: planner--main--1.0--patch-9
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Feb 14 01:32:23 EST 2006
+Standard-date: 2006-02-14 06:32:23 GMT
+New-files: debian/.arch-ids/compat.id debian/compat
+Modified-files: debian/rules
+New-patches: mwolson@gnu.org--2006/planner--main--1.0--patch-9
+Summary: Use debian/compat to determine debhelper compat level.
+Keywords: 
+
+* debian/compat: New file that sets the debhelper compatibility level to
+  4.
+
+* debian/rules: Remove DH_COMPAT line.

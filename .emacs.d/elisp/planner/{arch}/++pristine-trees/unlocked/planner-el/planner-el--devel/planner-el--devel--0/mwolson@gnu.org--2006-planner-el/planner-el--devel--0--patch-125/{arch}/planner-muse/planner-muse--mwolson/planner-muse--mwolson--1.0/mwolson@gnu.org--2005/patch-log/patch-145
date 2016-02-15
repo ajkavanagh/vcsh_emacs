@@ -1,0 +1,20 @@
+Revision: planner-muse--mwolson--1.0--patch-145
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jan  2 14:15:06 EST 2006
+Standard-date: 2006-01-02 19:15:06 GMT
+Modified-files: ChangeLog planner-publish.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-145
+Summary: planner-publish: Make "* Notes" section publish correctly again.
+Keywords: 
+
+* planner-publish.el: Re-add the planner-publish-notes-tag function, but
+  rename to planner-publish-notes-section.  emacs-wiki had the <notes>
+  tag insert an index of notes, so we'll use that as the behavior of
+  <notes>.  We still need the other function, though, to publish the 
+  "* Notes" section.  Thanks to Dale Smith for the advice.
+  (planner-publish-markup-tags): Add notes-section tag
+  (planner-publish-notes-section-tag): Renamed from the old
+  planner-publish-notes-tag function.
+  (sectionalize-markup-tagname): Mark up "* Notes" section as
+  "notes-section" instead of "notes".

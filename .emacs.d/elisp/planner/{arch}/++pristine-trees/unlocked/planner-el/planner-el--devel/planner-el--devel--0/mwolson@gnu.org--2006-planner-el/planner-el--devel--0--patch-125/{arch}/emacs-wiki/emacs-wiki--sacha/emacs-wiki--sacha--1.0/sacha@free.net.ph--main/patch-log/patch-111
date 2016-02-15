@@ -1,0 +1,12 @@
+Revision: emacs-wiki--sacha--1.0--patch-111
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Mar 15 16:34:35 PHT 2004
+Standard-date: 2004-03-15 08:34:35 GMT
+Modified-files: emacs-wiki.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-111
+Summary: emacs20, xemacs compatibility: warnings are optional, replace-regexp-in-string changed
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-eval-lisp): Make warnings optional.
+	(emacs-wiki-replace-regexp-in-string): Work with emacs20.

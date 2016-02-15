@@ -1,0 +1,12 @@
+Revision: muse--main--1.0--patch-223
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Sep  5 08:24:19 EST 2005
+Standard-date: 2005-09-05 13:24:19 GMT
+Modified-files: ChangeLog lisp/muse-protocols.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-223
+Summary: Strip text properties before browsing a URL.
+Keywords: 
+
+* lisp/muse-protocols.el (muse-browse-url): Strip text properties.  Maybe
+  this will fix a bug.

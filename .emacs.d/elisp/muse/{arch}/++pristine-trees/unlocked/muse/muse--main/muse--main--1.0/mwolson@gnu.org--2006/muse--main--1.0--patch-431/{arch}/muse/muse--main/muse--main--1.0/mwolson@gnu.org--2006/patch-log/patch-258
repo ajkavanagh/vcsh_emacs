@@ -1,0 +1,32 @@
+Revision: muse--main--1.0--patch-258
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Dec 21 15:20:27 EST 2006
+Standard-date: 2006-12-21 20:20:27 GMT
+Modified-files: ChangeLog lisp/muse-book.el
+    lisp/muse-project.el lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-258
+Summary: Make it possible to specify different publishing functions
+Keywords: 
+
+2006-12-21  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-book.el (muse-book-publish): New function split from
+	muse-book-publish-project.  This is used in the definitions for
+	the book-latex and book-pdf styles.
+
+	* lisp/muse-project.el (muse-project): Add :publish-project entry
+	to widget.
+	(muse-read-project, muse-project-find-file): Message fix.
+	(muse-project-publish-file-default): New function split from
+	muse-project-publish-file.
+	(muse-project-publish-file): Allow file-level publishing function
+	to be specified by the :publish element.  The default is
+	muse-project-publish-file-default.
+	(muse-project-publish-default): New function split from
+	muse-project-publish.
+	(muse-project-publish): Allow project-level publishing function to
+	be specified by :publish-project element.  The default is
+	muse-project-publish-default.
+
+	* lisp/muse-publish.el (muse-publish-file): Message fix.

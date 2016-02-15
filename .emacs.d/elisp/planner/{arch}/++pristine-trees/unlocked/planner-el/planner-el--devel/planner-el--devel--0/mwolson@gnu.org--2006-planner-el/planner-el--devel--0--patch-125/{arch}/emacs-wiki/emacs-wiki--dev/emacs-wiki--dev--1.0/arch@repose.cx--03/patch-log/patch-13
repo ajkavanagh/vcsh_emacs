@@ -1,0 +1,20 @@
+Revision: emacs-wiki--dev--1.0--patch-13
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Jul 15 03:57:40 EST 2003
+Standard-date: 2003-07-14 17:57:40 GMT
+Summary: bring in compile-time cl dependency, refactor previous change
+Keywords:
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-13
+Removed-patches: 
+
+bring in compile-time cl dependency, refactor previous change
+

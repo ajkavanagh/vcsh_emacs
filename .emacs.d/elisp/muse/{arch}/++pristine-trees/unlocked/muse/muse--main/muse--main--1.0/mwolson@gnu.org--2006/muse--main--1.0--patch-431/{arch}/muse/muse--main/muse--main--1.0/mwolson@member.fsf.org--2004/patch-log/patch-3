@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-3
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Wed Dec 29 20:31:36 EST 2004
+Standard-date: 2004-12-30 01:31:36 GMT
+New-patches: mwolson@member.fsf.org--2004/muse--main--1.0--patch-3
+Summary: This branch is deprecated, please follow instructions below
+Keywords: 
+
+Please do the following in order to continue to receive updates to Muse:
+
+ - tla register-archive mwolson@gnu.org--2005 \
+     http://www.mwolson.org/archives/2005
+
+ - mv muse muse-2004
+
+ - tla get -A mwolson@gnu.org--2005 muse--main--1.0 muse
+
+Updates will be continued on this new branch.  Happy new year!

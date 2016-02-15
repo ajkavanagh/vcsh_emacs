@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-270
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jan  2 09:34:56 JST 2005
+Standard-date: 2005-01-02 00:34:56 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-270
+Summary: New: planner-replan-note
+Keywords: 
+
+	* planner.el (planner-delete-note): New interactive function.
+	(planner-format-note): New.
+	(planner-replan-note): New interactive function.
+	(planner-note-date): New.
+	(planner-note-plan): New.

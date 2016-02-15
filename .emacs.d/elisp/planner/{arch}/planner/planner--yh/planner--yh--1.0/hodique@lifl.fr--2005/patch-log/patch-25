@@ -1,0 +1,11 @@
+Revision: planner--yh--1.0--patch-25
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Thu Jul  7 08:11:30 CEST 2005
+Standard-date: 2005-07-07 06:11:30 GMT
+Modified-files: ChangeLog.yh planner-multi.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--patch-25
+Summary: Fix pages from planner-multi
+Keywords:
+
+For some reason, the links broke again

@@ -1,0 +1,23 @@
+Revision: emacs-wiki--dev--1.0--patch-15
+Archive: arch@repose.cx--03
+Creator: Damien Elmes <arch@repose.cx>
+Date: Tue Jul 15 04:46:14 EST 2003
+Standard-date: 2003-07-14 18:46:14 GMT
+Summary: don't try to inline URL-based images when highlighting
+Keywords: 
+New-files: 
+New-directories: 
+Removed-files: 
+Removed-directories: 
+Renamed-files: 
+Renamed-directories: 
+Modified-files: ./emacs-wiki.el
+Modified-directories: 
+New-patches: arch@repose.cx--03/emacs-wiki--dev--1.0--patch-15
+Removed-patches: 
+
+If an [[extended-link]] is not a local path, mark it up as normal instead of
+leaving it "unrolled"
+
+(emacs-wiki-highlight-link): check for . or / in the first character of the
+    image path, and treat as normal otherwise

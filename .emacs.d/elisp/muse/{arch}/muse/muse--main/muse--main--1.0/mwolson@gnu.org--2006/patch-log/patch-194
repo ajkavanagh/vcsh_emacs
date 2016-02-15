@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-194
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Aug 18 12:36:36 EDT 2006
+Standard-date: 2006-08-18 16:36:36 GMT
+Modified-files: ChangeLog lisp/muse-docbook.el
+    lisp/muse-project.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-194
+Summary: Fix issue where backup files were being added to the file alist.
+Keywords: 
+
+2006-08-18  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-project.el (muse-project-file-entries): Since we are
+	given a full path, match against the filename as well.  This fixes
+	an issue where backup files were being added to the file alist.
+
+	* lisp/muse-docbook.el (muse-docbook-markup-regexps): Apply a fix
+	from muse-html.el.

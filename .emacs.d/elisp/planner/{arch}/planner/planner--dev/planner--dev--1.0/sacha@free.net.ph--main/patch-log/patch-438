@@ -1,0 +1,16 @@
+Revision: planner--dev--1.0--patch-438
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Jul  1 11:40:27 PHT 2005
+Standard-date: 2005-07-01 03:40:27 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-438
+Summary: Bugfix: planner-update-wiki-project: planner-name-regexp fix, planner-save-buffers SKIP-BUFFERS
+Keywords: 
+
+* planner.el (planner-update-wiki-project): Avoid adding
+planner-name-regexp multiple times. This solves the regexp too large
+error.
+
+* planner.el (planner-save-buffers): Add SKIP-BUFFER argument to make it
+easier to preserve cursor position, etc. when marking a task complete.

@@ -1,0 +1,10 @@
+Revision: muse--main--1.0--patch-298
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Apr 21 14:31:09 EDT 2007
+Standard-date: 2007-04-21 18:31:09 GMT
+Modified-files: ChangeLog IDEAS.muse lisp/muse-latex2png.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-298
+Summary: Fix typo: context -> contex
+Keywords: 
+

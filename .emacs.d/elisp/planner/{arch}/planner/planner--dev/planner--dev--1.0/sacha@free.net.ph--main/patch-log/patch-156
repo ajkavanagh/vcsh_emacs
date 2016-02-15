@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-156
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Aug 15 21:10:58 PHT 2004
+Standard-date: 2004-08-15 13:10:58 GMT
+New-files: .arch-ids/planner-mhe.el.id planner-mhe.el
+Modified-files: planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-156
+Summary: New: planner-mhe.el
+Keywords: external, feature
+
+	* planner-mhe.el: New. Contributed by Christophe Garion.
+
+	* planner.texi (MH-E): New.

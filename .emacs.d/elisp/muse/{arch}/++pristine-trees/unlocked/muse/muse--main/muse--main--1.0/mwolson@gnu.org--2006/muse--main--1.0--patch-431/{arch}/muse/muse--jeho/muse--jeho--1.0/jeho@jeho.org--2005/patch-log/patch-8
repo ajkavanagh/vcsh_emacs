@@ -1,0 +1,17 @@
+Revision: muse--jeho--1.0--patch-8
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Oct 20 20:42:01 BST 2005
+Standard-date: 2005-10-20 19:42:01 GMT
+Modified-files: lisp/muse-wiki.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-8
+Summary: muse-wiki: added option for not rendering bare project names as links
+Keywords: 
+
+* lisp/muse-wiki.el 
+  (muse-wiki-ignore-bare-project-names): new variable
+  for the ignoring bare project names option
+
+  (muse-wiki-handle-interwiki): decide whether to return a link for bare
+  project names [contingent upon muse-wiki-ignore-bare-project-names]
+

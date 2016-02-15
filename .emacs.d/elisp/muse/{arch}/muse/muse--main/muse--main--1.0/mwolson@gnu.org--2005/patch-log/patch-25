@@ -1,0 +1,21 @@
+Revision: muse--main--1.0--patch-25
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Apr 14 18:46:47 EST 2005
+Standard-date: 2005-04-14 23:46:47 GMT
+Removed-files: .arch-ids/muse-latexcjk.el.id
+    muse-latexcjk.el
+Modified-files: ChangeLog muse-latex.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-25
+Summary: Merge contents of muse-latexcjk.el into muse-latex.el.
+Keywords: 
+
+2005-04-14  Michael Olson  <mwolson@gnu.org>
+
+    * muse-latex.el (muse-latexcjk-header, muse-latexcjk-footer)
+    (muse-latexcjk-encoding-map, muse-latexcjk-encoding-default)
+    (muse-latexcjk-encoding, muse-latexcjk-transform-content-type):
+    Merge in from muse-latexcjk.el.
+
+    * muse-latexcjk.el: Removed, functionality merged with
+    muse-latex.el

@@ -1,0 +1,16 @@
+Revision: emacs-wiki--sacha--1.0--patch-61
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Mar  6 13:22:41 PHT 2004
+Standard-date: 2004-03-06 05:22:41 GMT
+Modified-files: emacs-wiki.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-61
+Summary: Fixed emacs-wiki-previous/next-reference and example tags.
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-example-tag): Remove text properties.
+	(emacs-wiki-previous-reference): Check text property: must have
+	keymap.
+	(emacs-wiki-next-reference): Check text property: must have
+	keymap.
+

@@ -1,0 +1,36 @@
+Revision: planner-muse--mwolson--1.0--patch-133
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 14:57:55 EST 2005
+Standard-date: 2005-12-16 19:57:55 GMT
+Modified-files: ChangeLog planner-appt.el planner-el.texi
+    scripts/planner-build.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-23
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-24
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-25
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-26
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-27
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-28
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-133
+Summary: Merged from jeho@jeho.org--2005 (patch 23-28)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-23
+   planner-appt: schedule regexp and task formatting
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-24
+   planner-appt
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-25
+   planner-appt: add hook for planner-appt-update
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-26
+   planner-el.texi: revise documentation for planner-appt
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-27
+   planner-appt: remove documentation
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-28
+   planner-appt: forthcoming appts

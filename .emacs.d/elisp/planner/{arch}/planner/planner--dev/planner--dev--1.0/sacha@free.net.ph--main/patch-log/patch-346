@@ -1,0 +1,20 @@
+Revision: planner--dev--1.0--patch-346
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 18 01:27:48 PHT 2005
+Standard-date: 2005-03-17 17:27:48 GMT
+Modified-files: ChangeLog planner-timeclock-summary.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-31
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-32
+    sacha@free.net.ph--main/planner--dev--1.0--patch-346
+Summary: planner-timeclock-summary from dryice/32: fix publishing problem with empty cells
+Keywords: 
+
+Patches applied:
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-31
+   merge patch 338-344 from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-32
+   fix timeclock-summary publishing problem
+

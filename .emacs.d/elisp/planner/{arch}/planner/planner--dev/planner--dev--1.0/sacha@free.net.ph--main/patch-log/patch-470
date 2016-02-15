@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-470
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Aug 14 11:22:52 EDT 2005
+Standard-date: 2005-08-14 15:22:52 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-470
+Summary: Bugfix: planner-save-buffers: Check if buffer is associated with a file
+Keywords: 
+
+* planner.el (planner-save-buffers): Check if buffer is associated with
+file. Fixes notes-index saving bug reported by John Sullivan.
+

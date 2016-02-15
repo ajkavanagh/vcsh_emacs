@@ -1,0 +1,27 @@
+Revision: planner-muse--mwolson--1.0--patch-40
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul 27 01:39:20 EST 2005
+Standard-date: 2005-07-27 06:39:20 GMT
+Modified-files: ChangeLog.mwolson planner-calendar.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-40
+    sacha@free.net.ph--main/planner--dev--1.0--patch-459
+    sacha@free.net.ph--main/planner--dev--1.0--patch-460
+    sacha@free.net.ph--main/planner--dev--1.0--patch-461
+    sacha@free.net.ph--main/planner--dev--1.0--patch-462
+Summary: Merged from sacha@free.net.ph--main (patch 459-462)
+Keywords: merge
+
+Patches applied:
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-459
+   Bugfix: planner-calendar: Do not over-pad months that end with Sunday
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-460
+   Bugfix: planner-calendar-published-file-href: Stop refreshing the file list all the time
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-461
+   Bugfix: planner-visit-link: Add missing alias
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-462
+   Bugfix: Add missing planner-link-target. New option: planner-calendar-nop-buttons-flag

@@ -1,0 +1,38 @@
+Revision: planner-muse--mwolson--1.0--patch-118
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Nov 29 13:08:14 EST 2005
+Standard-date: 2005-11-29 18:08:14 GMT
+Modified-files: ChangeLog planner-appt.el planner-multi.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-13
+    jeho@jeho.org--2005/planner--jeho--1.1--patch-14
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-118
+Summary: Merged from jeho@jeho.org--2005 (patch 13-14)
+Keywords: merge
+
+Patches applied:
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-13
+   planner-appt: fix infinite looping caused by planner-copy-or-move-region.
+
+ * jeho@jeho.org--2005/planner--jeho--1.1--patch-14
+   planner-appt: fix formatting; Merge from mwolson@gnu.org--2005 (patch 115-116)
+
+Also (didn't show up previously, for some reason):
+
+patch 6:  planner-multi-replan-task: Links weren't being added to new
+          pages: the test (member (planner-page-name) ...) should be
+          (member (planner-page-name page) ...).
+
+patch 7:  planner-make-link advice: Use planner-multi-make-link instead
+          of muse-make-link to avoid extra bracketing.
+
+patch 8:  planner-multi-task-delete-this-page: Pages to delete weren't
+          being removed from the link list correctly; double and
+          single links weren't dealt with correctly.
+
+patch 9:  planner-multi-task-delete-this-page: An improvement on patch
+          8: use planner-multi-replan-task
+
+patch 10: planner-multi-task-xref: the date page ended up appearing
+          twice in the link list. 

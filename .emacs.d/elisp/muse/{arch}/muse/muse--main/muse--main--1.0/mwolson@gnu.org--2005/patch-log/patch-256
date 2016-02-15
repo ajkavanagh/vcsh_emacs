@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-256
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Oct 29 02:10:16 EST 2005
+Standard-date: 2005-10-29 07:10:16 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-256
+Summary: Emacs 21 flyspell fix.
+Keywords: 
+
+* lisp/muse-mode.el (muse-mode): I finally figured out how to get
+  flyspell to pay attention to my muse-mode-flyspell-p constraints, which
+  means that the version of flyspell that comes with Emacs21 will no
+  longer mess up links.

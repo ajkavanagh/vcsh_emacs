@@ -1,0 +1,17 @@
+Revision: emacs-wiki--sacha--1.0--patch-51
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Feb 27 14:11:47 PHT 2004
+Standard-date: 2004-02-27 06:11:47 GMT
+Modified-files: emacs-wiki.el planner-bbdb.el
+    planner-diary.el planner-experimental.el planner-gnus.el
+    planner-id.el planner-notes.el planner-rss.el
+    planner-schedule.el planner-timeclock.el planner-w3m.el
+    planner.el remember-experimental.el remember-planner.el
+    remember.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-51
+Summary: Better XEmacs compatibility
+Keywords: 
+
+     Not only do all the files now pass develock, but most of the XEmacs compile
+     errors are gone. WHEW!

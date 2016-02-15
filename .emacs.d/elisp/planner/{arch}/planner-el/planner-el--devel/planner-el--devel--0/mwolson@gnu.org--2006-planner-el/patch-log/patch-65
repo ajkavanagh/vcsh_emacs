@@ -1,0 +1,13 @@
+Revision: planner-el--devel--0--patch-65
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Jul  6 10:31:30 BST 2006
+Standard-date: 2006-07-06 09:31:30 GMT
+Modified-files: planner-appt.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-65
+Summary: planner-appt: fix match-string bug 
+Keywords: 
+
+* planner-appt.el (planner-appt-add-appts-from-schedule): wrap
+  planner-appt-format-description in save-match-data.  Fixes a bug where
+  the match data was lost [only seems to happen for Emacs <= 21.3.1]. 

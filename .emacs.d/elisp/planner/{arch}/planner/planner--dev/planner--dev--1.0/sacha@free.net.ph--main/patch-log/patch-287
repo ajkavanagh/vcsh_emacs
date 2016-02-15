@@ -1,0 +1,12 @@
+Revision: planner--dev--1.0--patch-287
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Jan 11 11:59:26 JST 2005
+Standard-date: 2005-01-11 02:59:26 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-287
+Summary: planner-markup-task: Do not include second </span> if missing priority
+Keywords: 
+
+	* planner.el (planner-markup-task): Do not include second </span>
+	if missing priority.

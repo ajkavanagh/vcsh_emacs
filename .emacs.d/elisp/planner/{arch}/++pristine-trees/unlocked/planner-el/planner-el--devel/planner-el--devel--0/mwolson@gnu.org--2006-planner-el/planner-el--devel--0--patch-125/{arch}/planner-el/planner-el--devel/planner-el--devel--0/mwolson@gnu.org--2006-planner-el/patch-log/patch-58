@@ -1,0 +1,18 @@
+Revision: planner-el--devel--0--patch-58
+Archive: mwolson@gnu.org--2006-planner-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun 28 16:49:58 EDT 2006
+Standard-date: 2006-06-28 20:49:58 GMT
+Modified-files: README planner-el.texi
+    scripts/planner-build.el
+New-patches: mwolson@gnu.org--2006-planner-el/planner-el--devel--0--patch-58
+Summary: Explain a prerequisite for compilation.
+Keywords: 
+
+* scripts/planner-build.el: Use a more standard default path for each of
+  the extensions.
+
+* planner-el.texi (Advanced Installation): Mention
+  scripts/planner-build.el.
+
+* README: Ditto.

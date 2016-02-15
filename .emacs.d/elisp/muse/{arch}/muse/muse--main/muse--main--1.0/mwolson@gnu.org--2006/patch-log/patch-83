@@ -1,0 +1,10 @@
+Revision: muse--main--1.0--patch-83
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Apr  4 18:22:19 EDT 2006
+Standard-date: 2006-04-04 22:22:19 GMT
+Modified-files: ChangeLog.2006 lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-83
+Summary: Remove unrelated part of patch-82.
+Keywords: 
+

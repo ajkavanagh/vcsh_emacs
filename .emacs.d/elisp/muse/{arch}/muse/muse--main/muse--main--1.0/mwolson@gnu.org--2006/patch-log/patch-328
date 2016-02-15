@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-328
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu May 31 23:01:24 EDT 2007
+Standard-date: 2007-06-01 03:01:24 GMT
+Modified-files: ChangeLog NEWS
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-328
+Summary: NEWS: Add example for setting `muse-html-table-attributes'
+Keywords: 
+
+2007-05-31  Michael Olson  <mwolson@gnu.org>
+
+	* NEWS: Add example for setting `muse-html-table-attributes'.

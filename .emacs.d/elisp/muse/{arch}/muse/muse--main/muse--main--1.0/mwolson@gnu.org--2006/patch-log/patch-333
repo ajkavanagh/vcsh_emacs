@@ -1,0 +1,27 @@
+Revision: muse--main--1.0--patch-333
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jun  2 23:20:25 EDT 2007
+Standard-date: 2007-06-03 03:20:25 GMT
+Modified-files: ChangeLog NEWS lisp/muse-publish.el
+    lisp/muse-regexps.el lisp/muse-xml-common.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-333
+Summary: Support table.el-style tables
+Keywords: 
+
+* NEWS: Mention support for table.el-style tables.
+
+* lisp/muse-publish.el (muse-publish-markup-regexps): Move normal table
+  rule to 2350.  Rule 2300 is now a regexp that matches table.el-style
+  tables.
+  (muse-publish-markup-functions): Add table-el entry.
+  (muse-publish-table-el-table): New function that given a variant,
+  publishes a table.el-style table using the table in the matched region.
+  (muse-publish-markup-table-el): New function that determines whether
+  the table.el-style table can be published, and what variant to use.
+
+* lisp/muse-regexps.el (muse-tag-regexp): New regexp that matches the
+  borders of table.el-style tables.
+
+* lisp/muse-xml-common.el (muse-xml-markup-table): Make sure that the
+  table has sufficient whitespace in front of it.

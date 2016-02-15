@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-207
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Aug 23 22:45:13 EST 2005
+Standard-date: 2005-08-24 03:45:13 GMT
+Modified-files: ChangeLog muse.texi
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-207
+Summary: Document publishing directives.
+Keywords: 
+
+* muse.texi (Getting Started): Remove crufty sentence.
+  (Directives): New section that describes the likes of #title and
+  #author.

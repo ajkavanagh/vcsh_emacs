@@ -1,0 +1,13 @@
+Revision: planner--dev--1.0--patch-324
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Thu Feb 10 14:40:12 JST 2005
+Standard-date: 2005-02-10 05:40:12 GMT
+Modified-files: ChangeLog planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-324
+Summary: planner-sort-tasks: Fix case where last line has task
+Keywords: 
+
+* planner.el (planner-sort-tasks): Bugfix for end of buffer.
+Do not attempt to advance cursor past end of buffer as this results
+in obscure cannot-save bug.

@@ -1,0 +1,22 @@
+Revision: planner--dev--1.0--patch-205
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sat Nov 27 14:49:55 JST 2004
+Standard-date: 2004-11-27 05:49:55 GMT
+Modified-files: planner-diary.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-205
+Summary: planner-diary.el: Typo fixes
+Keywords: typo
+
+	* planner-diary.el: Thanks to Dryice Liu for pointing out typos.
+	(planner-diary-update-section): Fix typo.
+	(planner-diary-insert-appts): Fix typo.
+	(planner-diary-insert-public): Fix typo.
+	(planner-diary-insert-private): Fix typo.
+
+	* planner-diary.el: Fix incorrect arguments passed to
+	planner-filename-to-calendar-date so that file compiles cleanly.
+	(planner-diary-appts-entries-here): Fix incorrect arguments.
+	(planner-diary-cal-desk-entries-here): Fix incorrect arguments.
+	(planner-diary-private-entries-here): Fix incorrect arguments.
+	(planner-diary-public-entries-here): Fix incorrect arguments.

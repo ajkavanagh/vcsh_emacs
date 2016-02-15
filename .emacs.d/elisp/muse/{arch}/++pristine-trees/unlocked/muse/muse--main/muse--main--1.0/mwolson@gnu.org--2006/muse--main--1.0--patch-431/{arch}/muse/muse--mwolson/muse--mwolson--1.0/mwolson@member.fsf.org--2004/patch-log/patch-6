@@ -1,0 +1,16 @@
+Revision: muse--mwolson--1.0--patch-6
+Archive: mwolson@member.fsf.org--2004
+Creator: Michael Olson <mwolson@member.fsf.org>
+Date: Wed Nov 17 20:37:50 EST 2004
+Standard-date: 2004-11-18 01:37:50 GMT
+Modified-files: ChangeLog muse-latexcjk.el
+New-patches: mwolson@member.fsf.org--2004/muse--mwolson--1.0--patch-6
+Summary: Fix small type in muse-latexcjk.el
+Keywords: 
+
+2004-11-17  Michael Olson  <mwolson@gnu.org>
+
+    * muse-latexcjk.el (muse-latexcjk-transform-content-type): Use
+    `muse-latexcjk-encoding-default' instead of
+    `muse-latexcjk-coding-default'.  Thanks to Kenneth Geisshirt for
+    reporting this.

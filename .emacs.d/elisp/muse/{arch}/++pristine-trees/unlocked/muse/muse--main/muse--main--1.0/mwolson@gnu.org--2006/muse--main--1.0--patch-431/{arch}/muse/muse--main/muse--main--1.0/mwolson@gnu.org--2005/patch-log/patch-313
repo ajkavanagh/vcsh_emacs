@@ -1,0 +1,19 @@
+Revision: muse--main--1.0--patch-313
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 23 01:18:46 EST 2005
+Standard-date: 2005-12-23 06:18:46 GMT
+Modified-files: ChangeLog lisp/muse-latex.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-313
+Summary: muse-latex: Work on table markup, isn't perfect yet.
+Keywords: 
+
+* lisp/muse-latex.el (muse-latex-markup-table): Make this sort of work.
+  I've got an idea for how it should be done.  We're going to try to
+  snarf the whole table in muse-publish using only regexps, and pass it
+  to the style-specific table markup function.
+
+* lisp/muse-publish.el (muse-publish-insert-url)
+  (muse-publish-markup-url): Use muse-insert-markup.
+  (muse-publish-verbatim-tag): Pass arguments correctly.

@@ -1,0 +1,26 @@
+Revision: planner--jeho--1.0--patch-23
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Thu Feb 24 20:12:05 GMT 2005
+Standard-date: 2005-02-24 20:12:05 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-23
+Summary: added cyclic schedule support
+Keywords: 
+
+* planner-appt.el (planner-appt-schedule-basic-regexp,
+  planner-appt-schedule-regexp, planner-appt-schedule-appt-regexp): broke the
+  schedule regexp up to make it useable for other purposes.
+
+  (planner-appt-schedule-sort): new function for sorting the schedule
+
+  (planner-appt-schedule-get-cyclic-tasks): new function that reads
+  schedule entries from the `planner-cyclic-diary-file'
+
+  (planner-appt-schedule-add-cyclic): new function to add cyclic schedule
+  entries to today's schedule
+
+  (planner-appt-schedule-cyclic-insinuate): cyclic schedule insinuation
+  function 
+
+  (planner-appt-mark-calendar): a few cosmetic changes 

@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-360
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Jun 15 19:13:46 EDT 2007
+Standard-date: 2007-06-15 23:13:46 GMT
+Modified-files: ChangeLog examples/QuickStart.muse
+    lisp/muse-mode.el lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-360
+Summary: Begin work on revamping QuickStart
+Keywords: 
+
+* examples/QuickStart.muse: Mention new abilities of <literal> tag.
+
+* lisp/muse-mode.el (muse-mode-map): Use uppercase T instead of shift to
+  make XEmacs shut up.
+
+* lisp/muse-texinfo.el (muse-texinfo-info-generate): Work around lack of
+  support for @headitem in texinfmt.el.

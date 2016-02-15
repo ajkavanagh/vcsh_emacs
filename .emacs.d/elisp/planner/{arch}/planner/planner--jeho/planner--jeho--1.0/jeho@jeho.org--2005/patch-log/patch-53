@@ -1,0 +1,75 @@
+Revision: planner--jeho--1.0--patch-53
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Tue Mar 29 21:29:29 BST 2005
+Standard-date: 2005-03-29 20:29:29 GMT
+Removed-files: .arch-ids/jeho-diary.el.id jeho-diary.el
+Modified-files: ChangeLog planner-appt.el
+    planner-calendar.el planner-el.texi planner-id.el
+    planner-multi.el planner-notes-index.el planner-rss.el
+    planner-timeclock-summary.el planner-trunk.el planner.el
+    {arch}/=tagging-method
+New-patches: camalot@picnicpark.org--2005-planner/planner--dev-kea--1.0--base-0
+    camalot@picnicpark.org--2005-planner/planner--dev-kea--1.0--patch-1
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-31
+    dryice@liu.com.cn--public/planner--dev--1.0--patch-32
+    jeho@jeho.org--2005/planner--jeho--1.0--patch-53
+    sacha@free.net.ph--main/planner--dev--1.0--patch-345
+    sacha@free.net.ph--main/planner--dev--1.0--patch-346
+    sacha@free.net.ph--main/planner--dev--1.0--patch-347
+    sacha@free.net.ph--main/planner--dev--1.0--patch-348
+    sacha@free.net.ph--main/planner--dev--1.0--patch-349
+    sacha@free.net.ph--main/planner--dev--1.0--patch-350
+    sacha@free.net.ph--main/planner--dev--1.0--patch-351
+    sacha@free.net.ph--main/planner--dev--1.0--patch-352
+    sacha@free.net.ph--main/planner--dev--1.0--patch-353
+    sacha@free.net.ph--main/planner--dev--1.0--patch-354
+Summary: merge latest, planner-appt advice fixes
+Keywords: 
+
+* planner-appt.el: added disable flag to all advice
+(planner-appt-use): enabling and updating disabled advice
+
+Patches applied:
+
+ * camalot@picnicpark.org--2005-planner/planner--dev-kea--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--dev--1.0--patch-344
+
+ * camalot@picnicpark.org--2005-planner/planner--dev-kea--1.0--patch-1
+   Cleanup planner-trunk and fix task sorting bug
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-31
+   merge patch 338-344 from main stream
+
+ * dryice@liu.com.cn--public/planner--dev--1.0--patch-32
+   fix timeclock-summary publishing problem
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-345
+   Replace mapc with mapcar for Emacs20 compatibility.
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-346
+   planner-timeclock-summary from dryice/32: fix publishing problem with empty cells
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-347
+   planner-multi: Modify planner-tasks-equal-p
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-348
+   planner-calendar-html-tag-marker
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-349
+   planner-id-find-task: XEmacs bugfix for infinite tasks
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-350
+   planner-expand-name: Tweak +tue
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-351
+   Docfix: Spamguard addresses and add other contributors
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-352
+   Massive synchronization. planner-appt, planner-trunk, planner-authz bugfixes and better integration
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-353
+   planner-tasks-never-suppress-fixing-flag
+
+ * sacha@free.net.ph--main/planner--dev--1.0--patch-354
+   Docfix: Publishing Calendars sample code. Bugfix: Remove cl dependency caused by declare

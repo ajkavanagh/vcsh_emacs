@@ -1,0 +1,11 @@
+Revision: muse--yh--1.0--patch-17
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sun Jul  3 09:42:53 CEST 2005
+Standard-date: 2005-07-03 07:42:53 GMT
+Modified-files: lisp/muse.el
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-17
+Summary: bugfix
+Keywords:
+
+revert a bug I introduced

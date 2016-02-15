@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-322
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Dec 26 16:35:08 EST 2005
+Standard-date: 2005-12-26 21:35:08 GMT
+Modified-files: ChangeLog lisp/muse-texinfo.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-322
+Summary: muse-texinfo: Escape commas in URLs.
+Keywords: 
+
+* lisp/muse-texinfo.el (muse-texinfo-markup-specials-url): New option
+  that determines the specials to escape in URLs.  This is needed in
+  order to escape commas in @ref.
+  (muse-texinfo-decide-specials): New function that determines the
+  specials to escape by context.

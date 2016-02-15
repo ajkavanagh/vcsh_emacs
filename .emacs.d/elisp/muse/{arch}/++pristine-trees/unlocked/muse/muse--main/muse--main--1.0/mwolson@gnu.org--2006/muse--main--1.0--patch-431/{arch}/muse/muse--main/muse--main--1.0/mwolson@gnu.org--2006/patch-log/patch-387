@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-387
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat Jul 14 23:26:01 EDT 2007
+Standard-date: 2007-07-15 03:26:01 GMT
+Modified-files: ChangeLog lisp/muse-journal.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-387
+Summary: muse-journal: Fix bug where tags were not being closed in RDF
+Keywords: 
+
+2007-07-14  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-journal.el (muse-journal-rss-munge-buffer): Don't
+	delete the remainder of the buffer, since this causes the
+	resulting RDF to have invalid syntax.  Thanks to Phillip Lord for
+	the report and the suggested fix.

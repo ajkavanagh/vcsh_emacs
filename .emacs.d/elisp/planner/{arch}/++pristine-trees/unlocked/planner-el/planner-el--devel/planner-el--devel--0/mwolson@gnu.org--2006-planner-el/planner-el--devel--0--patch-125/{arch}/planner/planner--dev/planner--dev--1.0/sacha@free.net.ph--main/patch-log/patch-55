@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-55
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Mon Apr 26 11:08:18 PHT 2004
+Standard-date: 2004-04-26 03:08:18 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-55
+Summary: planner-create-{high,medium,low}-priority-task-from-buffer for convenience
+Keywords: 
+
+	* planner.el (planner-create-high-priority-task-from-buffer): New.
+	(planner-create-medium-priority-task-from-buffer): New.
+	(planner-create-low-priority-task-from-buffer): New for your
+	key-binding convenience.
+

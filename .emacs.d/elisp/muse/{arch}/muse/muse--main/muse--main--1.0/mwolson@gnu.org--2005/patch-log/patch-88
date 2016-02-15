@@ -1,0 +1,16 @@
+Revision: muse--main--1.0--patch-88
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Jul  5 21:02:42 EST 2005
+Standard-date: 2005-07-06 02:02:42 GMT
+Modified-files: ChangeLog lisp/muse-wiki.el lisp/muse.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-88
+Summary: Fix publishing of bare interwiki names.
+Keywords: 
+
+* lisp/muse-wiki.el (muse-wiki-transform-wikiword): Use `setq' instead of
+  `set'.  Use `muse-assoc-string' instead of `assoc'.
+
+* lisp/muse.el (muse-assoc-string): New compatibility function that makes
+  `assoc-string' functionality usable with Emacs21 and XEmacs.
+

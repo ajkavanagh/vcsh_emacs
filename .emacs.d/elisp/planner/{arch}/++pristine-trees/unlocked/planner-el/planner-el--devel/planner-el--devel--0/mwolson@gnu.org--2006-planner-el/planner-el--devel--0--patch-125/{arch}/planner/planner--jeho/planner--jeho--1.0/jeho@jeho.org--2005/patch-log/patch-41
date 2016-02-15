@@ -1,0 +1,23 @@
+Revision: planner--jeho--1.0--patch-41
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Mar 12 14:02:56 GMT 2005
+Standard-date: 2005-03-12 14:02:56 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.0--patch-41
+Summary: planner-appt changes
+Keywords: 
+
+* planner-appt.el: made compatible with appt-make-list, removed
+  appt-check defeating, updated documentation, modified options to
+  cyclical entries
+  (planner-appt-schedule-cyclic-behaviour): new variable to determine
+  cyclic entry behaviour
+  (appt-make-list): new advice to preserve data
+  (planner-appt-defeat-appt-check): removed 
+  (planner-copy-or-move-task): removed unecessary fiddling with hooks
+  [left commented out in case it doesn't work]
+  (planner-appt-schedule-add-cyclic-maybe):
+  planner-app-schedule-add-cyclic-if-today remodelled and renamed
+  (planner-appt-use): removed the do things at midnight code
+

@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-114
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr 21 23:46:04 EDT 2006
+Standard-date: 2006-04-22 03:46:04 GMT
+Modified-files: ChangeLog.2006 Makefile.defs
+    debian/changelog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-114
+Summary: muse-publish: Get rid of warning when batch publishing.
+Keywords: 
+
+* lisp/muse-publish.el (muse-batch-publish-files): Get rid of a batch
+  publishing warning message.

@@ -1,0 +1,15 @@
+Revision: planner--dev--1.0--patch-348
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Mar 22 12:38:48 PHT 2005
+Standard-date: 2005-03-22 04:38:48 GMT
+Modified-files: ChangeLog planner-calendar.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-348
+Summary: planner-calendar-html-tag-marker
+Keywords: 
+
+* planner-calendar.el (planner-calendar-html-tag-marker): New option.
+Thanks to JM Ibanez for the patch.
+(planner-calendar-move-calendar-to-top-of-page-maybe): Use
+planner-calendar-html-tag-marker to make this more flexible.
+

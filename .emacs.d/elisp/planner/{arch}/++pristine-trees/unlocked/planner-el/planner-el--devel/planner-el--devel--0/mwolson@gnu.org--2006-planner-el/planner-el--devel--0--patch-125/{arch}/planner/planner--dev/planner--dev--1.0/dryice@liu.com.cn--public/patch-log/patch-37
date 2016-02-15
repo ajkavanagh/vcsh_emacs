@@ -1,0 +1,25 @@
+Revision: planner--dev--1.0--patch-37
+Archive: dryice@liu.com.cn--public
+Creator: Dryice Liu <dryice@liu.com.cn>
+Date: Wed Apr  6 17:37:08 CST 2005
+Standard-date: 2005-04-06 09:37:08 GMT
+Modified-files: planner.el
+New-patches: dryice@liu.com.cn--public/planner--dev--1.0--patch-37
+Summary: Place the annotation in task title where I want
+Keywords: newfeature, update
+
+* planner.el: Sometimes I want to place the annotation in the task
+  description instead of at the end of task description to get a more
+  readable one. This patch makes this possible.
+  (planner-manual-place-annotation): If set to non-nil, decide where
+  annotation goes manually. It is set to nil by default to keep the
+  original behavior.
+  (planner-annotation-symbol-string): When
+  planner-create-task-from-buffer, this string in the task description
+  will be replace by the annotation calculated by
+  planner-annotation-functions.
+  (planner-create-task-from-buffer): Utilize
+  planner-manual-place-annotation and planner-annotation-symbol-string so
+  I can type "reply /anno/ for something" in Gnus and so on to get a
+  better task title.
+

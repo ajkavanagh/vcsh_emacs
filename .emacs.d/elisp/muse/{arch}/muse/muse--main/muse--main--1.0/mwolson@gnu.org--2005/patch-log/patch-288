@@ -1,0 +1,23 @@
+Revision: muse--main--1.0--patch-288
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Dec 11 01:17:25 EST 2005
+Standard-date: 2005-12-11 06:17:25 GMT
+Modified-files: ChangeLog lisp/muse-latex2png.el
+    lisp/muse-registry.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-288
+Summary: XEmacs fixes in muse-latex2png and muse-registry.
+Keywords: 
+
+* lisp/muse-latex2png.el (latex2png): Fix XEmacs error.  It seems better
+  to use expand-file-name than concat, since the result of the
+  temp-directory function sometimes doesn't have a trailing backslash.
+
+* lisp/muse-registry.el (muse-registry-url-regexp): Use
+  muse-regexp-space.
+  (muse-registry-get-project-name): Use muse-replace-regexp-in-string.
+  (muse-registry-make-new-registry): Use a better heuristic for
+  determining whether the given file is actually a directory.  This
+  avoids the use of `directory-files-and-attributes', which is not
+  available in XEmacs.
+  (muse-registry-new-entries): Use muse-match-string-no-properties.

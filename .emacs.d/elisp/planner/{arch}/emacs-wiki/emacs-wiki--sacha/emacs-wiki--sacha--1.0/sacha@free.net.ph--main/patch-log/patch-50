@@ -1,0 +1,21 @@
+Revision: emacs-wiki--sacha--1.0--patch-50
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Feb 27 09:16:05 PHT 2004
+Standard-date: 2004-02-27 01:16:05 GMT
+Modified-files: planner-gnus.el planner.el
+    remember-planner.el
+New-patches: dne@mayonnaise.net--2004/emacs-wiki--planner--0--base-0
+    dne@mayonnaise.net--2004/emacs-wiki--planner--0--patch-1
+    dne@mayonnaise.net--2004/emacs-wiki--planner--0--patch-2
+    sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-50
+Summary: Better support for xemacs, we hope.
+Keywords: 
+
+	* remember-planner.el (remember-handler-functions): Corrected typo. Thanks to Daniel Neri.
+
+	* planner.el: Corrected typo. Thanks to Daniel Neri.
+	Hopefully better XEmacs support.
+	(planner-highlight-region): Some tweaking. Hopefully better Elisp style.
+
+	* planner-gnus.el: Corrected typo. Thanks to Daniel Neri.

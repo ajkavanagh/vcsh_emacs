@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-308
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Tue Dec 20 21:07:34 EST 2005
+Standard-date: 2005-12-21 02:07:34 GMT
+Modified-files: ChangeLog lisp/muse-html.el
+    lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-308
+Summary: Don't mix up links and footnotes.
+Keywords: 
+
+* lisp/muse-html.el (muse-html-markup-footnote): Change "/=" typo to "=".
+
+* lisp/muse-publish.el (muse-publish-markup-footnote): Don't mix up links
+  and footnotes.  Thanks to Dale Smith for spotting this.

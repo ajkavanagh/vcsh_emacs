@@ -1,0 +1,57 @@
+Revision: muse--jeho--1.0--patch-2
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Fri Apr  1 17:46:49 BST 2005
+Standard-date: 2005-04-01 16:46:49 GMT
+New-files: .arch-ids/muse-xhtml.el.id
+    contrib/pyblosxom/.arch-ids/=id
+    contrib/pyblosxom/.arch-ids/getstamps.py.id
+    contrib/pyblosxom/.arch-ids/hardcodedates.py.id
+    contrib/pyblosxom/getstamps.py
+    contrib/pyblosxom/hardcodedates.py
+    examples/johnw/.arch-ids/=id
+    examples/mwolson/.arch-ids/=id
+    examples/mwolson/.arch-ids/muse-init.el.id
+    examples/mwolson/muse-init.el muse-xhtml.el
+New-directories: contrib/pyblosxom
+    contrib/pyblosxom/.arch-ids examples/johnw
+    examples/johnw/.arch-ids examples/mwolson
+    examples/mwolson/.arch-ids
+Renamed-files: examples/.arch-ids/muse-johnw.el.id examples/johnw/.arch-ids/muse-johnw.el.id
+    examples/.arch-ids/publish-johnw.id examples/johnw/.arch-ids/publish-johnw.id
+    examples/muse-johnw.el examples/johnw/muse-johnw.el
+    examples/publish-johnw examples/johnw/publish-johnw
+    experimental/.arch-ids/muse-blosxom.el.id .arch-ids/muse-blosxom.el.id
+    experimental/muse-blosxom.el muse-blosxom.el
+Modified-files: ChangeLog examples/johnw/muse-johnw.el
+    muse-blosxom.el muse-html.el muse-journal.el
+    muse-message.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-2
+    mwolson@gnu.org--2005/muse--main--1.0--patch-16
+    mwolson@gnu.org--2005/muse--main--1.0--patch-17
+    mwolson@gnu.org--2005/muse--main--1.0--patch-18
+    mwolson@gnu.org--2005/muse--main--1.0--patch-19
+    mwolson@gnu.org--2005/muse--main--1.0--patch-20
+    mwolson@gnu.org--2005/muse--main--1.0--patch-21
+Summary: merge latest
+Keywords: 
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-16
+   Apply latest journal-related updates from johnw
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-17
+   Make muse-blosxom.el slightly less experimental
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-18
+   muse-blosxom.el has matured past experimental status
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-19
+   Add muse-blosxom script and plugin for pyblosxom
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-20
+   Add my muse configuration to the examples
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-21
+   New XHTML style, add more examples to my sample muse config

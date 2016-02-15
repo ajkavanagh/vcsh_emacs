@@ -1,0 +1,29 @@
+Revision: planner-muse--mwolson--1.0--patch-170
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jan  8 20:08:14 EST 2006
+Standard-date: 2006-01-09 01:08:14 GMT
+Renamed-files: .arch-ids/PLANNER-README.id .arch-ids/COMMENTARY.id
+    PLANNER-README COMMENTARY
+Modified-files: ChangeLog.2004 ChangeLog.2005
+    planner-accomplishments.el planner-appt.el
+    planner-authz.el planner-calendar.el planner-deadline.el
+    planner-experimental.el planner-publish.el
+    planner-rank.el planner-rdf.el planner.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-170
+Summary: Fix delegated task errors.  Work on updating copyright statements.
+Keywords: 
+
+* planner-publish.el (planner-publish-markup-regexps): Change ">" to "D"
+  for delegated mark.  Thanks to Seth Falcon for the report.
+
+* planner-rank.el (planner-sort-tasks-by-rank)
+  (planner-sort-tasks-by-importance, planner-sort-tasks-by-urgency):
+  Ditto.
+
+* planner-rdf.el (planner-rdf-matchstr-ptask): Ditto.
+
+* planner.el (planner-marks-regexp, planner-live-task-regexp):
+  (planner-sort-tasks-basic, planner-seek-next-unfinished-task): Ditto.
+
+* planner.el (planner-version): Set to 3.39.

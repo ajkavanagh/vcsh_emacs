@@ -1,0 +1,33 @@
+Revision: muse--jeho--1.0--patch-5
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sun Oct 16 15:44:26 BST 2005
+Standard-date: 2005-10-16 14:44:26 GMT
+New-files: contrib/.arch-ids/muse-latex2png.el.id
+    contrib/muse-latex2png.el
+    experimental/.arch-ids/muse-mathml.el.id
+    experimental/muse-mathml.el
+Modified-files: AUTHORS ChangeLog experimental/muse-xml.el
+    lisp/muse-html.el lisp/muse-latex.el
+    lisp/muse-publish.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-5
+    mwolson@gnu.org--2005/muse--main--1.0--patch-248
+    mwolson@gnu.org--2005/muse--main--1.0--patch-249
+    mwolson@gnu.org--2005/muse--main--1.0--patch-250
+    mwolson@gnu.org--2005/muse--main--1.0--patch-251
+Summary: Merged from mwolson@gnu.org--2005 (patch 248-251)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-248
+   Add ability to publish embedded LaTeX content as a PNG.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-249
+   muse-latex: Ignore anchor if it occurs at end of line.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-250
+   muse-mathml: New experimental embedded MathML publisher.
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-251
+   Minor bookkeeping update.

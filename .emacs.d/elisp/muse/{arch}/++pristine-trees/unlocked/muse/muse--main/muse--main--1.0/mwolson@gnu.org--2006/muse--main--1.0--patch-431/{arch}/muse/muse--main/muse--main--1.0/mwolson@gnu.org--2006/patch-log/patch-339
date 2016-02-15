@@ -1,0 +1,14 @@
+Revision: muse--main--1.0--patch-339
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jun  6 19:09:15 EDT 2007
+Standard-date: 2007-06-06 23:09:15 GMT
+Modified-files: ChangeLog texi/muse.texi
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-339
+Summary: manual: Document muse-xhtml-style-sheet
+Keywords: 
+
+2007-06-06  Michael Olson  <mwolson@gnu.org>
+
+	* texi/muse.texi (HTML): Document muse-xhtml-style-sheet.  Thanks
+	to thorne for noticing.

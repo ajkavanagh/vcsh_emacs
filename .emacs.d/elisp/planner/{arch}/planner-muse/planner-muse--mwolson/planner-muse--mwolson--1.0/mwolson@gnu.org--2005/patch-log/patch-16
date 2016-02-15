@@ -1,0 +1,28 @@
+Revision: planner-muse--mwolson--1.0--patch-16
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 27 16:22:12 EST 2005
+Standard-date: 2005-06-27 21:22:12 GMT
+Modified-files: ChangeLog.mwolson ChangeLog.yh
+    planner-xtla.el
+New-patches: hodique@lifl.fr--2005/planner--yh--1.0--base-0
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-10
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-11
+    hodique@lifl.fr--2005/planner--yh--1.0--patch-12
+    mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-16
+Summary: Merged from hodique@lifl.fr--2005 (patch 0, 10-12)
+Keywords: merge
+
+Patches applied:
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--base-0
+   tag of sacha@free.net.ph--main/planner--muse--1.0--patch-6
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-10
+   Merged from arch@repose.cx--03 (patch 0-35, 37-43), camalot@picnicpark.org--2005-planner (patch 0-1), davidsmith@acm.org--2004 (patch 0-11), dne@mayonnaise.net--2004 (patch 0-2), dryice@liu.com.cn--public (patch 0-3, 5-11, 16-32), gary@gnu.org--2004 (patch 1-3, 5), gefla@pond.sub.org--2004 (patch 1), jeho@jeho.org--2005 (patch 0-49, 51-56), johnsu01@yahoo.com--2004-john (patch 1, 5), mark@dishevelled.net--2003-mst (patch 0-6), mwolson@gnu.org--2005 (patch 0-9, 13-15), mwolson@member.fsf.org--2004 (patch 0, 2-3, 5, 7, 11, 13), sacha@free.net.ph--main (patch 0-366)
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-11
+   publish xtla:// links with respect to archive locations
+
+ * hodique@lifl.fr--2005/planner--yh--1.0--patch-12
+   doc improvement

@@ -1,0 +1,18 @@
+Revision: muse--main--1.0--patch-98
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Wed Jul  6 18:17:35 EST 2005
+Standard-date: 2005-07-06 23:17:35 GMT
+Modified-files: ChangeLog examples/mwolson/muse-init.el
+    lisp/muse-blosxom.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-98
+Summary: Further work on `muse-project-alist' entry generation for blosxom.
+Keywords: 
+
+* examples/mwolson/muse-init.el (muse-project-alist): Use proper syntax.
+  Include subdirectories in first part of "Blog" entry.
+
+* lisp/muse-blosxom.el (muse-blosxom-project-alist-dirs): New function
+  that returns a list of dirs that are to be used with the first part of
+  a `muse-project-alist' entry.
+

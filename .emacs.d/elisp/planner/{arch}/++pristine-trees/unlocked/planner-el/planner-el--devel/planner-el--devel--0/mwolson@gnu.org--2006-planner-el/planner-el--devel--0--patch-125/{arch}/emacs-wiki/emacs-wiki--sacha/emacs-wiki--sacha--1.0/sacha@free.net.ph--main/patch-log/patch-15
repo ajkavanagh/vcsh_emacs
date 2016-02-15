@@ -1,0 +1,24 @@
+Revision: emacs-wiki--sacha--1.0--patch-15
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Sun Jan 25 13:31:00 PHT 2004
+Standard-date: 2004-01-25 05:31:00 GMT
+Modified-files: planner.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-15
+Summary: planner-tasks-tag
+Keywords: 
+
+<tasks> is a new emacs-wiki tag. When published to HTML, this is
+replaced by a list of all the tasks. You can control the status by
+specifying a regular expression to match. For example,
+<tasks status="X"> will list all completed tasks, while
+<tasks status="[^X]"> will list all incomplete tasks.
+This is handled by the planner-task--tag function.
+
+<tasks> is part of the planner-markup-tags list. 
+
+planner-list-tasks-with-status now takes a regular expression for
+STATUS.
+
+planner-list-unfinished-tasks uses the modified
+planner-list-tasks-with-status.

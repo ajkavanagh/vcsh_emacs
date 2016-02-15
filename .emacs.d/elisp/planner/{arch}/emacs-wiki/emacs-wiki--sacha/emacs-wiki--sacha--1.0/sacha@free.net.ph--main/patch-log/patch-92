@@ -1,0 +1,14 @@
+Revision: emacs-wiki--sacha--1.0--patch-92
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Fri Mar 12 13:44:27 PHT 2004
+Standard-date: 2004-03-12 05:44:27 GMT
+Modified-files: emacs-wiki.el
+New-patches: sacha@free.net.ph--main/emacs-wiki--sacha--1.0--patch-92
+Summary: Bugfix in emacs-wiki-markup-link
+Keywords: 
+
+	* emacs-wiki.el (emacs-wiki-markup-link): Bugfix. Nonexistent
+	links used concat instead of format. Existing links didn't use
+	name.
+

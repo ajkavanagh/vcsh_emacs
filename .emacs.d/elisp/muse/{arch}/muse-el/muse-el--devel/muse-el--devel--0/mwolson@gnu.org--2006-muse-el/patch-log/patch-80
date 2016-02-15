@@ -1,0 +1,23 @@
+Revision: muse-el--devel--0--patch-80
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Mon Jun 12 10:00:12 EDT 2006
+Standard-date: 2006-06-12 14:00:12 GMT
+Modified-files: ChangeLog lisp/muse-project.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-80
+    mwolson@gnu.org--2006/muse--main--1.0--patch-154
+    mwolson@gnu.org--2006/muse--main--1.0--patch-155
+    mwolson@gnu.org--2006/muse--main--1.0--patch-156
+Summary: Merged from mwolson@gnu.org--2006 (patch 154-156)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-154
+   Make PDF version of the Muse manual be generated correctly.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-155
+   Provide example for <include> in Muse manual.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-156
+   Improve ignored files regexp.

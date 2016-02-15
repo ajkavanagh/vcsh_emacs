@@ -1,0 +1,27 @@
+Revision: muse--main--1.0--patch-207
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Sep 15 00:04:15 EDT 2006
+Standard-date: 2006-09-15 04:04:15 GMT
+Modified-files: lisp/muse-texinfo.el
+New-patches: jeho@jeho.org--2005/muse--jeho--1.0--patch-22
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-23
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-24
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-25
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-26
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-27
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-28
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-29
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-30
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-31
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-32
+    jeho@jeho.org--2005/muse--jeho--1.0--patch-33
+    mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-92
+    mwolson@gnu.org--2006/muse--main--1.0--patch-207
+Summary: Merged from mwolson@gnu.org--2006-muse-el (patch 92)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-92
+   muse-texinfo: selectively protect wikiwords in headings

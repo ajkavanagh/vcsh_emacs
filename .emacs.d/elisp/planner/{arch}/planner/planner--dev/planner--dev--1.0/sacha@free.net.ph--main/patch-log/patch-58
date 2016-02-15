@@ -1,0 +1,11 @@
+Revision: planner--dev--1.0--patch-58
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Tue Apr 27 13:41:38 PHT 2004
+Standard-date: 2004-04-27 05:41:38 GMT
+New-files: .arch-ids/planner.texi.id planner.texi
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-58
+Summary: Add johnsu01's texinfo manual
+Keywords: 
+
+	* planner.texi: First draft by John Sullivan.

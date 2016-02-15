@@ -1,0 +1,15 @@
+Revision: planner-muse--mwolson--1.0--patch-95
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Thu Nov  3 18:25:23 EST 2005
+Standard-date: 2005-11-03 23:25:23 GMT
+Modified-files: ChangeLog planner-publish.el
+    planner-report.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-95
+Summary: Publish raw dates as links.
+Keywords: 
+
+* planner-report.el: Fix commentary.
+
+* planner-publish.el (planner-publish-markup-regexps): Publish raw dates
+  as links.

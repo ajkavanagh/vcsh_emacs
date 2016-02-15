@@ -1,0 +1,13 @@
+Revision: muse--main--1.0--patch-298
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Dec 16 11:42:46 EST 2005
+Standard-date: 2005-12-16 16:42:46 GMT
+Modified-files: ChangeLog lisp/muse-mode.el
+New-patches: mwolson@gnu.org--2005/muse--main--1.0--patch-298
+Summary: muse-mode: Make muse-edit-link-at-point work.
+Keywords: 
+
+* lisp/muse-mode.el (muse-edit-link-at-point): Save match data so that
+  this function works.  Before, it would remove an arbitrary chunk of the
+  top of the buffer.

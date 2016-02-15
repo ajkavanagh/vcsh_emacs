@@ -1,0 +1,14 @@
+Revision: planner--dev--1.0--patch-359
+Archive: sacha@free.net.ph--main
+Creator: Sacha Chua <sacha@free.net.ph>
+Date: Wed Mar 30 19:30:56 PHT 2005
+Standard-date: 2005-03-30 11:30:56 GMT
+Modified-files: ChangeLog planner-multi.el
+New-patches: sacha@free.net.ph--main/planner--dev--1.0--patch-359
+Summary: planner-multi: planner-replan-note: properly cross-reference single-page entries
+Keywords: 
+
+* planner-multi.el (planner-replan-note): Keep track of old date so that
+  notes can be properly cross-referenced. This should make
+  remember-planner work better with planner-multi. Thanks to Raymond
+  Zeitler for complaining. =)

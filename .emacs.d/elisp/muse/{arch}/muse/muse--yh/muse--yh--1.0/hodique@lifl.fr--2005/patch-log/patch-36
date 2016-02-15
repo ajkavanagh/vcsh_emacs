@@ -1,0 +1,42 @@
+Revision: muse--yh--1.0--patch-36
+Archive: hodique@lifl.fr--2005
+Creator: Yann Hodique <hodique@lifl.fr>
+Date: Sun Jul 17 09:15:17 CEST 2005
+Standard-date: 2005-07-17 07:15:17 GMT
+New-files: debian/.arch-ids/=id
+    debian/.arch-ids/changelog.id
+    debian/.arch-ids/control.id
+    debian/.arch-ids/copyright.id
+    debian/.arch-ids/emacsen-install.id
+    debian/.arch-ids/emacsen-remove.id
+    debian/.arch-ids/emacsen-startup.id
+    debian/.arch-ids/muse-el.dirs.id
+    debian/.arch-ids/muse-el.docs.id
+    debian/.arch-ids/muse-el.info.id
+    debian/.arch-ids/rules.id debian/changelog
+    debian/control debian/copyright debian/emacsen-install
+    debian/emacsen-remove debian/emacsen-startup
+    debian/muse-el.dirs debian/muse-el.docs
+    debian/muse-el.info debian/rules
+    examples/mwolson/stylesheets/.arch-ids/=id
+    examples/mwolson/stylesheets/.arch-ids/blog.css.id
+    examples/mwolson/stylesheets/.arch-ids/common.css.id
+    examples/mwolson/stylesheets/.arch-ids/print.css.id
+    examples/mwolson/stylesheets/.arch-ids/screen.css.id
+    examples/mwolson/stylesheets/blog.css
+    examples/mwolson/stylesheets/common.css
+    examples/mwolson/stylesheets/print.css
+    examples/mwolson/stylesheets/screen.css
+New-directories: debian debian/.arch-ids
+    examples/mwolson/stylesheets
+    examples/mwolson/stylesheets/.arch-ids
+Modified-files: ChangeLog Makefile
+New-patches: hodique@lifl.fr--2005/muse--yh--1.0--patch-36
+    mwolson@gnu.org--2005/muse--main--1.0--patch-147
+Summary: Merged from mwolson@gnu.org--2005 (patch 147)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2005/muse--main--1.0--patch-147
+   Add debian files; tweak Makefile.

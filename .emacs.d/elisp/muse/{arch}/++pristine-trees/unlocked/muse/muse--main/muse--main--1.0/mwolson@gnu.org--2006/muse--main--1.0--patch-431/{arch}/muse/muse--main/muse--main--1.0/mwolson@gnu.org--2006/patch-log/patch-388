@@ -1,0 +1,15 @@
+Revision: muse--main--1.0--patch-388
+Archive: mwolson@gnu.org--2006
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sun Jul 15 10:42:07 EDT 2007
+Standard-date: 2007-07-15 14:42:07 GMT
+Modified-files: ChangeLog lisp/muse-publish.el
+New-patches: mwolson@gnu.org--2006/muse--main--1.0--patch-388
+Summary: muse-publish: Use only <lisp> and <markup> in headers and footers
+Keywords: 
+
+2007-07-15  Michael Olson  <mwolson@gnu.org>
+
+	* lisp/muse-publish.el (muse-insert-file-or-string): Use
+	muse-publish-markup-header-footer-tags.  I'm not quite sure how
+	this change got reverted.

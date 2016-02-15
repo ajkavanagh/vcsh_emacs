@@ -1,0 +1,33 @@
+Revision: muse-el--devel--0--patch-46
+Archive: mwolson@gnu.org--2006-muse-el
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Fri Apr  7 22:59:29 EDT 2006
+Standard-date: 2006-04-08 02:59:29 GMT
+New-files: contrib/.arch-ids/Makefile.id contrib/Makefile
+Removed-files: lisp/.arch-ids/muse-registry.el.id
+    lisp/muse-registry.el
+Modified-files: AUTHORS ChangeLog.2006 Makefile Makefile.defs
+    contrib/httpd.el debian/changelog debian/emacsen-install
+    debian/emacsen-startup experimental/Makefile
+    lisp/muse-wiki.el lisp/muse.el muse.texi
+New-patches: mwolson@gnu.org--2006-muse-el/muse-el--devel--0--patch-46
+    mwolson@gnu.org--2006/muse--main--1.0--patch-93
+    mwolson@gnu.org--2006/muse--main--1.0--patch-94
+    mwolson@gnu.org--2006/muse--main--1.0--patch-95
+    mwolson@gnu.org--2006/muse--main--1.0--patch-96
+Summary: Merged from mwolson@gnu.org--2006 (patch 93-96)
+Keywords: merge
+
+Patches applied:
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-93
+   muse-wiki: Honor setting for muse-wiki-hide-nop-tag.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-94
+   Prepare Debian package for Arch snapshot.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-95
+   Remove muse-registry.el.
+
+ * mwolson@gnu.org--2006/muse--main--1.0--patch-96
+   Make things in contrib directory installable.

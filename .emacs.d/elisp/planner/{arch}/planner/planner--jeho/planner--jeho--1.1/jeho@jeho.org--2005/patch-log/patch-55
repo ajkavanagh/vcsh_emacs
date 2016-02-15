@@ -1,0 +1,14 @@
+Revision: planner--jeho--1.1--patch-55
+Archive: jeho@jeho.org--2005
+Creator: Jim Ottaway <j.ottaway@lse.ac.uk>
+Date: Sat Mar 11 15:24:07 GMT 2006
+Standard-date: 2006-03-11 15:24:07 GMT
+Modified-files: planner-appt.el
+New-patches: jeho@jeho.org--2005/planner--jeho--1.1--patch-55
+Summary: planner-appt: forthcoming regexp fix for XEmacs
+Keywords: 
+
+* planner-appt.el (planner-appt-forthcoming-regexp): remove the shyness
+  from the groups: this makes it match ok in XEmacs [don't know why it
+  didn't before though]
+

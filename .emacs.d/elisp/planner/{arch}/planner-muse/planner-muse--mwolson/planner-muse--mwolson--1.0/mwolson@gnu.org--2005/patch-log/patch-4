@@ -1,0 +1,16 @@
+Revision: planner-muse--mwolson--1.0--patch-4
+Archive: mwolson@gnu.org--2005
+Creator: Michael Olson <mwolson@gnu.org>
+Date: Sat May 21 20:00:43 EST 2005
+Standard-date: 2005-05-22 01:00:43 GMT
+Modified-files: ChangeLog planner-appt.el planner-id.el
+New-patches: mwolson@gnu.org--2005/planner-muse--mwolson--1.0--patch-4
+Summary: Cause task IDs to be colored.
+Keywords: 
+
+* planner-id.el (planner-id-setup): Since we append values to
+  `muse-colors-buffer-hook' in the `planner-setup-highlighting' function,
+  do so here as well.  Otherwise `planner-id-markup' never gets called.
+  I think the `run-hook-with-args' function in Emacs CVS may have a bug.
+
+* planner-appt.el (planner-appt-font-setup): Ditto.
