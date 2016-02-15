@@ -1,0 +1,8 @@
+*
+!/.emacs
+!/.emacs.d
+!/.emacs.d/elisp
+!/.emacs.d/elisp/*
+!/.emacs.d/elisp/**
+!/.gitignore.d
+!/.gitignore.d/emacs
